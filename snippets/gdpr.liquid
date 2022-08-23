@@ -1,0 +1,47 @@
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+        "countryDetection": true,
+        "consentOnContinuedBrowsing": false,
+        "perPurposeConsent": true,
+        "lang": "pt-br",
+        "siteId": 2674555, //use your siteId
+        "cookiePolicyId": 46276640, //use your cookiePolicyId
+        "floatingPreferencesButtonDisplay": "bottom-right",
+        "banner": {
+            "acceptButtonDisplay": true,
+            "customizeButtonDisplay": true,
+            "rejectButtonDisplay": true,
+            "position": "float-top-center"
+        }
+    };
+    <!-- code for Shopify (1 of 2) -->
+    var onPreferenceFirstExpressedCallback = function(consent) {
+        if (true == _iub.csConfiguration.perPurposeConsent) {
+            consent.consent = Object.keys(consent.purposes).every(function(k) {
+                return consent.purposes[k]
+            });
+        }
+        window.Shopify.customerPrivacy.setTrackingConsent(consent.consent, function() {});
+    }
+    if (typeof _iub.csConfiguration.callback === 'object') {
+        _iub.csConfiguration.callback.onPreferenceFirstExpressed = onPreferenceFirstExpressedCallback;
+    } else {
+        _iub.csConfiguration.callback = {
+            onPreferenceFirstExpressed: onPreferenceFirstExpressedCallback
+        };
+    }
+</script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<!-- code for Shopify (2 of 2) - Tracking API -->
+<script type="text/javascript">
+    window.Shopify.loadFeatures([{
+            name: 'consent-tracking-api',
+            version: '0.1',
+        }, ],
+        function(error) {
+            if (error) {
+                throw error;
+            }
+        });
+</script> 
