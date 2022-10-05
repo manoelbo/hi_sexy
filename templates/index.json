@@ -137,7 +137,7 @@
         "1654694416d9e6d76b-2": {
           "type": "button",
           "settings": {
-            "button_label": "View all courses",
+            "button_label": "View all",
             "button_link": "shopify:\/\/pages\/courses",
             "button_style_secondary": false
           }
