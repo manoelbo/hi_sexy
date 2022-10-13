@@ -235,6 +235,84 @@
         "show_text_below": true
       }
     },
+    "34495717-0db2-4877-89f4-39c0c17782f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16588431655134__34495717-0db2-4877-89f4-39c0c17782f9-1665686623c1025c50-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Algumas das ferramentas aplicadas:",
+            "heading_size": "h1"
+          }
+        },
+        "template--16588431655134__34495717-0db2-4877-89f4-39c0c17782f9-1665686623c1025c50-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Com foco em cada um dos objetivos, fizemos uma seleção de ferramentas aplicadas pela Hyper Island. Aqui estão alguns exemplos que você provavelmente verá apenas em nossos <em>workshops<\/em>:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__34495717-0db2-4877-89f4-39c0c17782f9-1665686623c1025c50-0",
+        "template--16588431655134__34495717-0db2-4877-89f4-39c0c17782f9-1665686623c1025c50-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "634f5b9f-d399-4134-bbc1-e2d851b7cdab": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-0": {
+          "type": "column",
+          "settings": {
+            "title": "Check-In da Montanha-Russa",
+            "text": "<p>Este divertido exercício cria uma imagem compartilhada e poderosa dos sentimentos no grupo. As pessoas se colocam em pontos diferentes na montanha-russa, explicando seu sentimento dominante no momento.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-1": {
+          "type": "column",
+          "settings": {
+            "title": "Mapa da Jornada",
+            "text": "<p>O objetivo principal desta atividade é lembrar e refletir sobre experiências passadas dos participantes, criar uma experiência coletiva e uma história compartilhada. Cada pessoa receberá uma ideia compartilhada com o grupo, use este exercício no final de um projeto ou programa, como forma de reforçar aprendizados, celebrar destaques e criar um fechamento.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-2": {
+          "type": "column",
+          "settings": {
+            "title": "Começar, Parar, Continuar",
+            "text": "<p>Depois de fazer uma reflexão sobre como foi o ano, agora é hora do time sentar e decidir o que eles devem continuar, parar e começar! Uma ferramenta poderosa para traçar metas e melhorias para o desempenho de times. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-0",
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-1",
+        "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
     "1663710828e564f58f": {
       "type": "rich-text",
       "blocks": {
@@ -272,25 +350,32 @@
         "padding_bottom": 52
       }
     },
-    "16566191137d3730de": {
+    "0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4": {
       "type": "rich-text",
       "blocks": {
-        "1656619113f19035d4-0": {
+        "template--16588431655134__0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4-16656873700d559ef3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Com o Upskilling você vai:",
+            "heading": "Dicas: Como deixar esse dia ainda mais especial?",
             "heading_size": "h1"
+          }
+        },
+        "template--16588431655134__0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4-16656873700d559ef3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Além de nossa sessão <em>wrap up<\/em> facilitada, recomendamos algumas coisas para deixar esse dia de encerramento mais especial e divertido! <\/p>"
           }
         }
       },
       "block_order": [
-        "1656619113f19035d4-0"
+        "template--16588431655134__0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4-16656873700d559ef3-0",
+        "template--16588431655134__0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4-16656873700d559ef3-1"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 32
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1656675295903ceead": {
@@ -299,9 +384,8 @@
         "165667529597ecdc48-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_-_Unlock2.png",
-            "title": "",
-            "text": "<p>Olhar para o futuro por meio de uma meta-análise exclusiva da Hyper Island sobre o seu negócio.<\/p>",
+            "title": "Divulgação de Resultados",
+            "text": "<p>Compartilhe com seu time os resultados do ano! Achamos muito importante tangibilizar o que foi realizado nesse período.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -309,19 +393,8 @@
         "165667529597ecdc48-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_-_Uncover2.png",
-            "title": "",
-            "text": "<p>Entender os <em>gaps<\/em> para o <em>upskilling<\/em> dos seus times por meio de um profundo diagnóstico interno.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "165667529597ecdc48-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_-_Pre-work2.png",
-            "title": "",
-            "text": "<p>Cocriar jornadas para o desenvolvimento de recursos humanos por meio da criação de um plano de <em>upskilling<\/em> claro e definido.<\/p>",
+            "title": "Mimos",
+            "text": "<p>Que tal preparar um kit com alguns mimos para sua equipe? Isso sempre é bem-vindo ;)<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -329,8 +402,7 @@
       },
       "block_order": [
         "165667529597ecdc48-0",
-        "165667529597ecdc48-1",
-        "165667529597ecdc48-2"
+        "165667529597ecdc48-1"
       ],
       "settings": {
         "title": "",
@@ -341,9 +413,9 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
-        "color_scheme": "inverse",
-        "padding_top": 52,
-        "padding_bottom": 36
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16570444292a00414f": {
@@ -352,14 +424,14 @@
         "16570444294f5a4ec8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Upskilling by Hyper Island",
+            "heading": "Wrap up by Hyper Island",
             "heading_size": "h1"
           }
         },
         "16570444294f5a4ec8-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Aproxime seu time do Futuro.<\/strong><\/p><p><\/p><p>Entre em contato para receber uma proposta customizada:<\/p>",
+            "text": "<p>Solicite um orçamento para seu time!<\/p><p>Entre em contato para receber uma proposta customizada:<\/p>",
             "text_style": "body"
           }
         },
@@ -698,8 +770,10 @@
     "1660603339581bd237",
     "1660603017df0f3fe4",
     "1660602965b9022569",
+    "34495717-0db2-4877-89f4-39c0c17782f9",
+    "634f5b9f-d399-4134-bbc1-e2d851b7cdab",
     "1663710828e564f58f",
-    "16566191137d3730de",
+    "0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4",
     "1656675295903ceead",
     "16570444292a00414f",
     "16479769171bae7d9a",
