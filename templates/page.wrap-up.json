@@ -50,7 +50,7 @@
         "1663703596a38b586e-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>Según el Banco Económico Mundial, casi el <strong>50% de las funciones corporativas cambiarán para 2025 y el 15% de la fuerza laboral podría quedar completamente desactualizada.<\/strong><\/p><p>Cuando miramos hacia el futuro, la necesidad de aprender nuevas habilidades se intensifica a un ritmo sin precedentes.<\/p><p>Pero, ¿cuáles son las habilidades necesarias para el futuro?<\/p><p>¿Y cómo identificar la brecha entre las habilidades que tienen y aquellas que necesitan tus equipos para acompañar el ritmo del cambio?<\/p>"
+            "text": "<p>Que tal encerrar o ano com um encontro remoto, facilitado para celebrar conquistas, colher aprendizados e projetar o futuro do seu time, usando ferramentas que promovem reflexão e integração entre equipes? <\/p><p>Uma retrospectiva interessante, instigante e divertida - para provocar o <em>mindset<\/em> de aprendiz dos seus times e celebrar suas conquistas!<\/p>"
           }
         }
       },
@@ -70,14 +70,14 @@
         "16637104505a79264f-0": {
           "type": "heading",
           "settings": {
-            "heading": "O programa de skills do futuro da Hyper Island",
+            "heading": "O que é um encontro Wrap up?",
             "heading_size": "h1"
           }
         },
         "16637104505a79264f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Para ajudar na busca por respostas criamos o Upskilling, um programa desenhado para <strong>preparar sua empresa para o futuro<\/strong>, identificando o <strong>potencial de upskilling<\/strong> dentro de seus times e <strong>cocriando jornadas<\/strong> para o desenvolvimento de equipes mais humanas, eficientes e colaborativas - qualidades essenciais para crescer num mundo em constante mudança.<\/p>"
+            "text": "<p>Wrap up é um encontro para o seu time aprender com as experiências que tiveram em determinado tempo ou projeto, buscando apoiar seu desenvolvimento e oferecer um momento de reflexão e celebração.<\/p><p>De tempos em tempos é importante parar, compreender o que funcionou, o que precisa melhorar e as ações possíveis para o futuro. Também, a cada fechamento de ciclo, é indispensável celebrar as conquistas e proporcionar um momento de integração para o time.<\/p><p>Muitas equipes fazem um encontro especial no fim do ano, e achamos esse momento uma grande oportunidade para fazer um Wrap Up. Aqui estão algumas vantagens de fazer isso com a Hyper Island:<\/p>"
           }
         },
         "16637104505a79264f-2": {
@@ -100,6 +100,86 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16588431655134__9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1-16656863426a06d48f-0": {
+          "type": "column",
+          "settings": {
+            "title": "Design da Sessão",
+            "text": "<p>Sessões desenhadas para tirar o máximo proveito desse encontro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1-16656863426a06d48f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Equipe de Facilitadores",
+            "text": "<p>Facilitadores para conduzir o processo e manter o time engajado.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1-16656863426a06d48f-0",
+        "template--16588431655134__9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1-16656863426a06d48f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b21ceb22-c561-47d1-9be8-b859125f9b3c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16588431655134__b21ceb22-c561-47d1-9be8-b859125f9b3c-16656863426a06d48f-0": {
+          "type": "column",
+          "settings": {
+            "title": "Ferramentas",
+            "text": "<p>Uso de ferramentas e processos testados pela Hyper Island.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__b21ceb22-c561-47d1-9be8-b859125f9b3c-16656863426a06d48f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Diversão",
+            "text": "<p>Sabemos o quanto é importante deixar uma sessão divertida para poder unir um time.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__b21ceb22-c561-47d1-9be8-b859125f9b3c-16656863426a06d48f-0",
+        "template--16588431655134__b21ceb22-c561-47d1-9be8-b859125f9b3c-16656863426a06d48f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "1660603339581bd237": {
@@ -613,6 +693,8 @@
     "1647977567b5797ddb",
     "16637035965111baf8",
     "1663710450ab45e6e8",
+    "9f36b55f-eaa7-41b2-b5cb-12e6cb3822a1",
+    "b21ceb22-c561-47d1-9be8-b859125f9b3c",
     "1660603339581bd237",
     "1660603017df0f3fe4",
     "1660602965b9022569",
