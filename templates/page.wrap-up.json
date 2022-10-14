@@ -108,6 +108,7 @@
         "165667529597ecdc48-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/7_6062a6fd-3c5c-4bb6-b520-066aa6852af4.png",
             "title": "Design da Sessão",
             "text": "<p>Sessões desenhadas para tirar o máximo proveito desse encontro. <\/p>",
             "link_label": "",
@@ -117,6 +118,7 @@
         "165667529597ecdc48-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8_3a4cd08b-4124-47e9-922c-7c97ad84f06a.png",
             "title": "Equipe de Facilitadores",
             "text": "<p>Facilitadores para conduzir o processo e manter o time engajado.<\/p>",
             "link_label": "",
@@ -148,6 +150,7 @@
         "template--16588431655134__7994f282-b056-4eab-952e-ee1c81c58bc3-1665752247c601b1be-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/9_e61eee75-dec0-4d6b-afbf-c2e6a51c807a.png",
             "title": "Ferramentas",
             "text": "<p>Uso de ferramentas e processos testados pela Hyper Island. <\/p>",
             "link_label": "",
@@ -157,6 +160,7 @@
         "template--16588431655134__7994f282-b056-4eab-952e-ee1c81c58bc3-1665752247c601b1be-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/10_c64f1b2d-eb16-4ce4-9491-f4d378320664.png",
             "title": "Diversão",
             "text": "<p>Sabemos o quanto é importante deixar uma sessão divertida para poder unir um time. <\/p>",
             "link_label": "",
