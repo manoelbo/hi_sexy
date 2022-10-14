@@ -235,6 +235,43 @@
         "show_text_below": true
       }
     },
+    "1663710828e564f58f": {
+      "type": "rich-text",
+      "blocks": {
+        "16637108277f471396-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Baixar PDF do programa",
+            "heading_size": "h1"
+          }
+        },
+        "16637108277f471396-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Faça o <em>download<\/em> da apresentação do programa:<\/p>"
+          }
+        },
+        "16637108277f471396-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Baixar apresentação",
+            "button_link": "https:\/\/share.hsforms.com\/111-VlzSOQdeC5HaIFh-Kqgy1ws",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16637108277f471396-0",
+        "16637108277f471396-1",
+        "16637108277f471396-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "34495717-0db2-4877-89f4-39c0c17782f9": {
       "type": "rich-text",
       "blocks": {
@@ -366,43 +403,6 @@
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
-    "1663710828e564f58f": {
-      "type": "rich-text",
-      "blocks": {
-        "16637108277f471396-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Baixar PDF do programa",
-            "heading_size": "h1"
-          }
-        },
-        "16637108277f471396-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Faça o <em>download<\/em> da apresentação do programa:<\/p>"
-          }
-        },
-        "16637108277f471396-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Baixar apresentação",
-            "button_link": "https:\/\/share.hsforms.com\/111-VlzSOQdeC5HaIFh-Kqgy1ws",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16637108277f471396-0",
-        "16637108277f471396-1",
-        "16637108277f471396-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
         "padding_bottom": 52
       }
     },
@@ -786,10 +786,10 @@
     "1660603339581bd237",
     "1660603017df0f3fe4",
     "1660602965b9022569",
+    "1663710828e564f58f",
     "34495717-0db2-4877-89f4-39c0c17782f9",
     "634f5b9f-d399-4134-bbc1-e2d851b7cdab",
     "90364599-4804-4983-9739-4eb3fa0da28d",
-    "1663710828e564f58f",
     "0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4",
     "16570444292a00414f",
     "16479769171bae7d9a",
