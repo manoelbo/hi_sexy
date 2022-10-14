@@ -434,6 +434,86 @@
         "padding_bottom": 52
       }
     },
+    "8f10f1e5-f639-4729-94ac-3951a0e4813d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16588431655134__8f10f1e5-f639-4729-94ac-3951a0e4813d-16657584581daef0ff-0": {
+          "type": "column",
+          "settings": {
+            "title": "Divulgação de Resultados",
+            "text": "<p>Compartilhe com seu time os resultados do ano! Achamos muito importante tangibilizar o que foi realizado nesse período.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__8f10f1e5-f639-4729-94ac-3951a0e4813d-16657584581daef0ff-1": {
+          "type": "column",
+          "settings": {
+            "title": "Mimos",
+            "text": "<p>Que tal preparar um kit com alguns mimos para sua equipe? Isso sempre é bem-vindo ;)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__8f10f1e5-f639-4729-94ac-3951a0e4813d-16657584581daef0ff-0",
+        "template--16588431655134__8f10f1e5-f639-4729-94ac-3951a0e4813d-16657584581daef0ff-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16588431655134__0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0-16657584581daef0ff-0": {
+          "type": "column",
+          "settings": {
+            "title": "Happy Hour",
+            "text": "<p>Mesmo à distância, um <em>happy hour<\/em> é sempre um bom ingrediente para deixar um encontro mais divertido e descontraído.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16588431655134__0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0-16657584581daef0ff-1": {
+          "type": "column",
+          "settings": {
+            "title": "Desconectar para Conectar",
+            "text": "<p>Desconecte seu time das tarefas e obrigações do dia a dia. Essa é a melhor maneira de relaxar e se conectar novamente. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16588431655134__0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0-16657584581daef0ff-0",
+        "template--16588431655134__0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0-16657584581daef0ff-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "16570444292a00414f": {
       "type": "image-with-text",
       "blocks": {
@@ -486,99 +566,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 0
-      }
-    },
-    "16479769171bae7d9a": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "164797691755109c52-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experimente o Hyper Island Way™",
-            "heading_size": "h1"
-          }
-        },
-        "164797691755109c52-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Você gostaria de uma introdução de como o Hyper Island Way pode ajudar a transformar a sua organização? <strong>Solicite um workshop experimental de 2 horas sem custo para a sua empresa.<\/strong><\/p><p>Cada sessão incluí conteúdos de impacto e atividades desenhadas <strong>para ajudar times a refletirem e identificarem novas formas de trabalhar. <\/strong>Este formato comporta desde pequenos times de 5 pessoas até grupos maiores com no máximo 50 participantes.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "164797691755109c52-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "164797691755109c52-0",
-        "164797691755109c52-1",
-        "164797691755109c52-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1657661645e07bb83b": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16576616459857f215-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Hyper Planning by Hyper Island",
-            "heading_size": "h1"
-          }
-        },
-        "16576616459857f215-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Entre em contato para receber uma proposta customizada!<\/p>"
-          }
-        },
-        "16576616459857f215-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16576616459857f215-0",
-        "16576616459857f215-1",
-        "16576616459857f215-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "16468758473318a55c": {
-      "type": "contact-form",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "color_scheme": "background-1",
-        "padding_top": 52,
-        "padding_bottom": 36
       }
     },
     "1663712016312eef1e": {
@@ -791,10 +778,9 @@
     "634f5b9f-d399-4134-bbc1-e2d851b7cdab",
     "90364599-4804-4983-9739-4eb3fa0da28d",
     "0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4",
+    "8f10f1e5-f639-4729-94ac-3951a0e4813d",
+    "0d4ac56b-9d46-4cb4-b7aa-df355b6cc6c0",
     "16570444292a00414f",
-    "16479769171bae7d9a",
-    "1657661645e07bb83b",
-    "16468758473318a55c",
     "1663712016312eef1e",
     "16637120505fe7a2f4",
     "16515373581a5e7ae2",
