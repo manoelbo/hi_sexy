@@ -419,7 +419,7 @@
         "template--16588431655134__0c8b1fc3-3ffd-4f97-bf05-f32bf864acb4-16656873700d559ef3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Além de nossa sessão <em>wrap up<\/em> facilitada, recomendamos algumas coisas para deixar esse dia de encerramento mais especial e divertido! <\/p><p><\/p><p><strong>Divulgação de Resultados<br\/><\/strong>Compartilhe com seu time os resultados do ano! Achamos muito importante tangibilizar o que foi realizado nesse período.<\/p><p><strong>Mimos<br\/><\/strong>Que tal preparar um kit com alguns mimos para sua equipe? Isso sempre é bem-vindo ;)<\/p><p><strong>Happy Hour<br\/><\/strong>Mesmo à distância, um <em>happy hour<\/em> é sempre um bom ingrediente para deixar um encontro mais divertido e descontraído.<\/p><p><strong>Desconectar para Conectar<br\/><\/strong>Desconecte seu time das tarefas e obrigações do dia a dia. Essa é a melhor maneira de relaxar e se conectar novamente. <\/p>"
+            "text": "<p>Além de nossa sessão <em>wrap up<\/em> facilitada, recomendamos algumas coisas para deixar esse dia de encerramento mais especial e divertido! <\/p>"
           }
         }
       },
@@ -431,7 +431,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 20
       }
     },
     "8f10f1e5-f639-4729-94ac-3951a0e4813d": {
@@ -470,7 +470,7 @@
         "button_link": "",
         "swipe_on_mobile": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
