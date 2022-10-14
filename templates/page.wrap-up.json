@@ -269,6 +269,7 @@
         "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_98fca99b-5f1f-4d20-beb3-465f65842d48.png",
             "title": "Check-In da Montanha-Russa",
             "text": "<p>Este divertido exercício cria uma imagem compartilhada e poderosa dos sentimentos no grupo. As pessoas se colocam em pontos diferentes na montanha-russa, explicando seu sentimento dominante no momento.<\/p>",
             "link_label": "",
@@ -278,6 +279,7 @@
         "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2_72cfb6e4-86eb-440c-8f22-175a64a10bc5.png",
             "title": "Mapa da Jornada",
             "text": "<p>O objetivo principal desta atividade é lembrar e refletir sobre experiências passadas dos participantes, criar uma experiência coletiva e uma história compartilhada. Cada pessoa receberá uma ideia compartilhada com o grupo, use este exercício no final de um projeto ou programa, como forma de reforçar aprendizados, celebrar destaques e criar um fechamento.<\/p>",
             "link_label": "",
@@ -287,6 +289,7 @@
         "template--16588431655134__634f5b9f-d399-4134-bbc1-e2d851b7cdab-1665686443ce3386c7-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_4c690257-2521-4f57-a4c5-c1242fc4bf38.png",
             "title": "Começar, Parar, Continuar",
             "text": "<p>Depois de fazer uma reflexão sobre como foi o ano, agora é hora do time sentar e decidir o que eles devem continuar, parar e começar! Uma ferramenta poderosa para traçar metas e melhorias para o desempenho de times. <\/p>",
             "link_label": "",
@@ -319,6 +322,7 @@
         "template--16588431655134__90364599-4804-4983-9739-4eb3fa0da28d-16657519745cc22cd4-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
             "title": "Super Heroes",
             "text": "<p>Um exercício de autoconhecimento e desenvolvimento pessoal. Quais são os seus superpoderes? Quais são vistos pelo o seu time e quais deseja ter?<\/p>",
             "link_label": "",
@@ -328,6 +332,7 @@
         "template--16588431655134__90364599-4804-4983-9739-4eb3fa0da28d-16657519745cc22cd4-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_b60646e8-a46e-4d16-b7c3-603af1deb36f.png",
             "title": "Hello Kitty",
             "text": "<p>Um energizador de grupos que dispensa <em>spoilers<\/em>. Para mencionar apenas uma coisa, o último gatinho em pé é o vencedor!<\/p>",
             "link_label": "",
@@ -337,6 +342,7 @@
         "template--16588431655134__90364599-4804-4983-9739-4eb3fa0da28d-16657519745cc22cd4-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5_2853f6b4-9713-4157-95cd-90bed2e4af55.png",
             "title": "Feedback: Sua Vez",
             "text": "<p>Cada um do grupo vai ter um momento para ouvir o <em>feedback<\/em> positivo dos seus colegas de equipe. Uma ferramenta muito poderosa, que fortalece conexões e coloca o ânimo no ponto mais alto da montanha-russa.  <\/p>",
             "link_label": "",
