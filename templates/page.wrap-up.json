@@ -1,0 +1,594 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "16479775345676c5e8": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "1664368214d71d7281": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Upskilling_ES_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16643688933e8866fd": {
+      "type": "rich-text",
+      "blocks": {
+        "166436889353843dce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>Según el Banco Económico Mundial, casi el <strong>50% de las funciones corporativas cambiarán para 2025 y el 15% de la fuerza laboral podría quedar completamente desactualizada.<\/strong><\/p><p>Cuando miramos hacia el futuro, la necesidad de aprender nuevas habilidades se intensifica a un ritmo sin precedentes.<\/p><p>Pero, ¿cuáles son esas habilidades necesarias para el futuro?<\/p><p>¿Y cómo identificar la brecha entre las habilidades que tienen y aquellas que necesitan tus equipos para acompañar el ritmo del cambio?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166436889353843dce-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1646872562bde01b98": {
+      "type": "rich-text",
+      "blocks": {
+        "164687256267bb28bd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "El programa de skills del futuro de Hyper Island",
+            "heading_size": "h1"
+          }
+        },
+        "164687256267bb28bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un programa diseñado para impulsar la formación de equipos capaces de <strong>crear y crecer a partir de una sucesión de ciclos virtuosos, de eliminar barreras en la comunicación y de lograr sinergía<\/strong> en base a dos modelos conceptuales de <strong>extrema relevancia<\/strong> en el mundo empresarial de hoy - aplicados al team building:<\/p>"
+          }
+        },
+        "164687256267bb28bd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164687256267bb28bd-0",
+        "164687256267bb28bd-1",
+        "164687256267bb28bd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1647977567b5797ddb": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1664369011bc9f5d4b": {
+      "type": "rich-text",
+      "blocks": {
+        "1664369011b193de0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "El programa",
+            "heading_size": "h1"
+          }
+        },
+        "1664369011b193de0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El programa incluye sesiones presenciales, híbridas y\/o remotas adaptadas a las necesidades de tu empresa.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664369011b193de0c-0",
+        "1664369011b193de0c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "16479769171bae7d9a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "164797691755109c52-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experimente o Hyper Island Way™",
+            "heading_size": "h1"
+          }
+        },
+        "164797691755109c52-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Você gostaria de uma introdução de como o Hyper Island Way pode ajudar a transformar a sua organização? <strong>Solicite um workshop experimental de 2 horas sem custo para a sua empresa.<\/strong><\/p><p>Cada sessão incluí conteúdos de impacto e atividades desenhadas <strong>para ajudar times a refletirem e identificarem novas formas de trabalhar. <\/strong>Este formato comporta desde pequenos times de 5 pessoas até grupos maiores com no máximo 50 participantes.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164797691755109c52-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164797691755109c52-0",
+        "164797691755109c52-1",
+        "164797691755109c52-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1647977044940c3e31": {
+      "type": "rich-text",
+      "blocks": {
+        "16479770449d70b842-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16479770449d70b842-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16479770449d70b842-1",
+        "16479770449d70b842-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1662065486fadbaacc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Upskilling_Programa_ES_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1662065875147db395": {
+      "type": "rich-text",
+      "blocks": {
+        "1662065874859428de-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Descargar PDF del programa",
+            "heading_size": "h1"
+          }
+        },
+        "1662065874859428de-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Descarga la presentación del programa:<\/p>"
+          }
+        },
+        "832b8460-700d-4e1e-9bef-7f3a2c611f14": {
+          "type": "button",
+          "settings": {
+            "button_label": "Descargar presentación",
+            "button_link": "https:\/\/share.hsforms.com\/1jEU7eleHQJ2_mMHcGoex1gy1ws",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1662065874859428de-0",
+        "1662065874859428de-1",
+        "832b8460-700d-4e1e-9bef-7f3a2c611f14"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1662066080a6d8c1b0": {
+      "type": "rich-text",
+      "blocks": {
+        "1662066080bec583d0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Con Upskilling podrás:",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1662066080bec583d0-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 32
+      }
+    },
+    "1662066283cc1f189e": {
+      "type": "multicolumn",
+      "blocks": {
+        "166206628386f6d38b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_-_Unlock2.png",
+            "title": "",
+            "text": "<p>Mirar hacia el futuro de tu negocio a través del metanálisis exclusivo de Hyper Island.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166206628386f6d38b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_-_Uncover2.png",
+            "title": "",
+            "text": "<p>Entender las brechas existentes en la capacitación de tus equipos a través de un diagnóstico interno profundo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166206628386f6d38b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_-_Pre-work2.png",
+            "title": "",
+            "text": "<p>Co-crear jornadas de desarrollo de recursos humanos mediante la creación de un plan de mejora continua de habilidades, claro y definido.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166206628386f6d38b-0",
+        "166206628386f6d38b-1",
+        "166206628386f6d38b-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "inverse",
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "1662066409fef1e123": {
+      "type": "image-with-text",
+      "blocks": {
+        "1662066409bbc0181f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upskilling por Hyper Island",
+            "heading_size": "h1"
+          }
+        },
+        "1662066409bbc0181f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Acerca tu equipo al Futuro.<\/strong><\/p><p><\/p><p>Entra en contacto para recibir una propuesta a medida:<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1662066409bbc0181f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Recibir propuesta a medida",
+            "button_link": "https:\/\/share.hsforms.com\/17GO1BtWrSHuhP9ULGrcB4wy1ws"
+          }
+        }
+      },
+      "block_order": [
+        "1662066409bbc0181f-0",
+        "1662066409bbc0181f-1",
+        "1662066409bbc0181f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/L66A8137.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1662066626109e8e54": {
+      "type": "rich-text",
+      "blocks": {
+        "1662066626c6fc5209-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Con Hyper Island, tu equipo puede ir mucho más lejos:",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1662066626c6fc5209-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 48
+      }
+    },
+    "16620666772e5d2150": {
+      "type": "multicolumn",
+      "blocks": {
+        "1662066677474cae0e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_29.2.png",
+            "title": "No traemos respuestas prontas, sino que las co-creamos con nuestros clientes.",
+            "text": "<p>A diferencia de las consultorías tradicionales, no brindamos respuestas para que nuestros clientes las apliquen. Facilitamos jornadas de aprendizaje donde los propios stakeholders de la empresa crean las respuestas juntos.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662066677474cae0e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_-26.png",
+            "title": "Ayudamos a tu empresa a actualizarse con herramientas de vanguardia",
+            "text": "<p>Usamos las metodologías más efectivas para facilitar la curva de aprendizaje de nuestros clientes y potenciar el resultado de cada jornada. A partir del briefing seleccionaremos las herramientas más apropiadas para cada sesión.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662066677474cae0e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_28.png",
+            "title": "Nos enfocamos en el resultado de nuestros resultados",
+            "text": "<p>Nuestras experiencias de aprendizaje están diseñadas para traer resultados, a corto y largo plazo. Nuestra metodología se enfoca en el aprendizaje parametrizable, para que la inversión tenga un retorno definido y claro. La metodología y herramientas son aplicables desde el primer momento.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662066677474cae0e-0",
+        "1662066677474cae0e-1",
+        "1662066677474cae0e-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "accent-1",
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
+    "16515373581a5e7ae2": {
+      "type": "rich-text",
+      "blocks": {
+        "16515373588614c784-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Empresas que confían en Hyper Island",
+            "heading_size": "h1"
+          }
+        },
+        "16515373588614c784-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16515373588614c784-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16515373588614c784-0",
+        "16515373588614c784-1",
+        "16515373588614c784-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "1651537527d2c0ab25": {
+      "type": "image-banner",
+      "blocks": {
+        "165153752741ed8d1c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "165153752741ed8d1c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165153752741ed8d1c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165153752741ed8d1c-0",
+        "165153752741ed8d1c-1",
+        "165153752741ed8d1c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HOME_Marcas_Parceiras-05.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "166206678041b1e69c": {
+      "type": "rich-text",
+      "blocks": {
+        "16620667803b22df5c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sobre Hyper Island",
+            "heading_size": "h2"
+          }
+        },
+        "16620667803b22df5c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Hace más de 25 años que Hyper Island lidera la industria del aprendizaje inmersivo a nivel mundial.<\/strong><\/em><\/p><p>Nacimos en 1996 para ayudar a las personas a adaptarse a los cambios tecnológicos que estaban surgiendo en ese momento. En el mundo actual, la transformación que buscamos ha adquirido un espectro aún más amplio: el de la colaboración humana. <br\/><\/p><p>Para diseñar nuevos futuros, necesitamos aprender a colaborar, a no tener miedo a equivocarnos, a ser empáticos, verdaderos y, sobre todo, conscientes de nosotros mismos. El desafío de preparar a las personas y a las organizaciones para la transformación es aún mayor que hace 25 años. Pero nunca antes hemos estado tan conscientes de las maravillas que nos depara el aprendizaje perpetuo.<\/p><p><em>En Hyper Island, ayudamos a las personas y a las organizaciones a realizar cambios de adentro hacia afuera y, a partir de ahí, co-crear los futuros que quieren ver.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16620667803b22df5c-0",
+        "16620667803b22df5c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16479775345676c5e8",
+    "1664368214d71d7281",
+    "16643688933e8866fd",
+    "1646872562bde01b98",
+    "1647977567b5797ddb",
+    "1664369011bc9f5d4b",
+    "16479769171bae7d9a",
+    "1647977044940c3e31",
+    "1662065486fadbaacc",
+    "1662065875147db395",
+    "1662066080a6d8c1b0",
+    "1662066283cc1f189e",
+    "1662066409fef1e123",
+    "1662066626109e8e54",
+    "16620666772e5d2150",
+    "16515373581a5e7ae2",
+    "1651537527d2c0ab25",
+    "166206678041b1e69c"
+  ]
+}
