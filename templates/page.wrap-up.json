@@ -21,7 +21,7 @@
     "1664368214d71d7281": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Upskilling_ES_2.jpg",
+        "image": "shopify:\/\/shop_images\/Wrap_Up_KV_ES.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -40,7 +40,7 @@
         "166436889353843dce-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p>Según el Banco Económico Mundial, casi el <strong>50% de las funciones corporativas cambiarán para 2025 y el 15% de la fuerza laboral podría quedar completamente desactualizada.<\/strong><\/p><p>Cuando miramos hacia el futuro, la necesidad de aprender nuevas habilidades se intensifica a un ritmo sin precedentes.<\/p><p>Pero, ¿cuáles son esas habilidades necesarias para el futuro?<\/p><p>¿Y cómo identificar la brecha entre las habilidades que tienen y aquellas que necesitan tus equipos para acompañar el ritmo del cambio?<\/p>"
+            "text": "<p>Qué tal hacer una retrospectiva, con una mentalidad de aprendiz para celebrar conquistas y proyectar el futuro para nuestro equipo.<\/p>"
           }
         }
       },
@@ -60,14 +60,14 @@
         "164687256267bb28bd-0": {
           "type": "heading",
           "settings": {
-            "heading": "El programa de skills del futuro de Hyper Island",
+            "heading": "¿Qué es un Wrap-Up?",
             "heading_size": "h1"
           }
         },
         "164687256267bb28bd-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Un programa diseñado para impulsar la formación de equipos capaces de <strong>crear y crecer a partir de una sucesión de ciclos virtuosos, de eliminar barreras en la comunicación y de lograr sinergía<\/strong> en base a dos modelos conceptuales de <strong>extrema relevancia<\/strong> en el mundo empresarial de hoy - aplicados al team building:<\/p>"
+            "text": "<p>Un Wrap-up es un encuentro del equipo para celebrar, reflexionar y aprender de las experiencias compartidas.<\/p><p>Es importante hacer una pausa de tanto en tanto para reflexionar sobre lo que funcionó, lo que precisa mejorar y explorar posibilidades para el futuro. Al cerrar un ciclo, es importante hacerle un espacio al equipo para integrarse y celebrar conquistas juntos.<\/p><p>Muchos equipos hacen encuentros especiales de fin de año, nos pareció una gran oportunidad para hacer un WRAP-UP con Hyper Island, que tiene muchas ventajas:<\/p>"
           }
         },
         "164687256267bb28bd-2": {
@@ -92,14 +92,88 @@
         "padding_bottom": 52
       }
     },
-    "1647977567b5797ddb": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "aa82dde8-569d-4b45-ad86-4d71e3fe121f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14992265805847__aa82dde8-569d-4b45-ad86-4d71e3fe121f-1666128107fc4ca312-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "title": "Diseñamos la sesión",
+            "text": "<p>Armamos la agenda para sacarle el mayor provecho al encuentro.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__aa82dde8-569d-4b45-ad86-4d71e3fe121f-1666128107fc4ca312-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "title": "Facilitamos el encuentro",
+            "text": "<p>Nuestros facilitadores experimentados conducen el evento y mantienen la energía y el interés en alto.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__aa82dde8-569d-4b45-ad86-4d71e3fe121f-1666128107fc4ca312-0",
+        "template--14992265805847__aa82dde8-569d-4b45-ad86-4d71e3fe121f-1666128107fc4ca312-1"
+      ],
       "settings": {
-        "custom_liquid": "",
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5549e089-7f9f-434d-8a08-461fb5378526": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14992265805847__5549e089-7f9f-434d-8a08-461fb5378526-1666128285bec5054f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.png",
+            "title": "Compartimos herramientas",
+            "text": "<p>Usaremos herramientas y procesos testeados por Hyper Island para entregar la mejor experiencia. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__5549e089-7f9f-434d-8a08-461fb5378526-1666128285bec5054f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.png",
+            "title": "Lo hacemos divertido",
+            "text": "<p>El componente lúdico de nuestros encuentros asegura la atención, participación y entusiasmo del equipo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__5549e089-7f9f-434d-8a08-461fb5378526-1666128285bec5054f-0",
+        "template--14992265805847__5549e089-7f9f-434d-8a08-461fb5378526-1666128285bec5054f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1664369011bc9f5d4b": {
@@ -115,7 +189,7 @@
         "1664369011b193de0c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>El programa incluye sesiones presenciales, híbridas y\/o remotas adaptadas a las necesidades de tu empresa.<\/p>"
+            "text": "<p>Un programa con sesiones presenciales, híbridas o remotas, adaptado a las necesidades de tu empresa:<\/p>"
           }
         }
       },
@@ -128,51 +202,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 24
-      }
-    },
-    "16479769171bae7d9a": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "164797691755109c52-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experimente o Hyper Island Way™",
-            "heading_size": "h1"
-          }
-        },
-        "164797691755109c52-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Você gostaria de uma introdução de como o Hyper Island Way pode ajudar a transformar a sua organização? <strong>Solicite um workshop experimental de 2 horas sem custo para a sua empresa.<\/strong><\/p><p>Cada sessão incluí conteúdos de impacto e atividades desenhadas <strong>para ajudar times a refletirem e identificarem novas formas de trabalhar. <\/strong>Este formato comporta desde pequenos times de 5 pessoas até grupos maiores com no máximo 50 participantes.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "164797691755109c52-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "164797691755109c52-0",
-        "164797691755109c52-1",
-        "164797691755109c52-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "1647977044940c3e31": {
@@ -209,7 +238,7 @@
     "1662065486fadbaacc": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Upskilling_Programa_ES_2.jpg",
+        "image": "shopify:\/\/shop_images\/Wrap_Up_Program_ES.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": true,
@@ -265,18 +294,25 @@
         "1662066080bec583d0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Con Upskilling podrás:",
+            "heading": "Algunas de las herramientas que aplicamos:",
             "heading_size": "h1"
+          }
+        },
+        "f649abcd-014c-4dd5-8b83-27b4235a0aff": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enfocando en cada uno de los objetivos, les compartimos algunas de las herramientas que usamos en nuestros workshops<\/p>"
           }
         }
       },
       "block_order": [
-        "1662066080bec583d0-0"
+        "1662066080bec583d0-0",
+        "f649abcd-014c-4dd5-8b83-27b4235a0aff"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 60,
+        "padding_top": 40,
         "padding_bottom": 32
       }
     },
@@ -286,9 +322,9 @@
         "166206628386f6d38b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_-_Unlock2.png",
-            "title": "",
-            "text": "<p>Mirar hacia el futuro de tu negocio a través del metanálisis exclusivo de Hyper Island.<\/p>",
+            "image": "shopify:\/\/shop_images\/1_1bde6990-7ec6-438b-8dec-028ec213c4fc.png",
+            "title": "Check-In de la Montaña Rusa",
+            "text": "<p>Este ejercicio divertido crea una imagen poderosa y compartida de los sentimientos en el grupo. Las personas se ubican en diferentes puntos de la montaña rusa, explicando su sentimiento dominante en ese momento.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -296,9 +332,9 @@
         "166206628386f6d38b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_-_Uncover2.png",
-            "title": "",
-            "text": "<p>Entender las brechas existentes en la capacitación de tus equipos a través de un diagnóstico interno profundo.<\/p>",
+            "image": "shopify:\/\/shop_images\/2_194df14e-6ace-4ccf-85e7-a5c877a93c39.png",
+            "title": "Mapa de la Jornada",
+            "text": "<p>El objetivo principal de esta actividad es recordar y reflexionar sobre las experiencias pasadas de los participantes, para crear una experiencia colectiva y una historia compartida. Cada persona recibirá una idea compartida con el grupo, use este ejercicio al final de un proyecto o programa como una forma de reforzar los aprendizajes, celebrar los puntos destacados y crear un cierre.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -306,9 +342,9 @@
         "166206628386f6d38b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_-_Pre-work2.png",
-            "title": "",
-            "text": "<p>Co-crear jornadas de desarrollo de recursos humanos mediante la creación de un plan de mejora continua de habilidades, claro y definido.<\/p>",
+            "image": "shopify:\/\/shop_images\/3_29b7c2be-9def-4469-914d-f7761d2a2613.png",
+            "title": "Comenzar, parar y continuar",
+            "text": "<p>Después de reflexionar sobre cómo fue el año llega el momento para que el equipo decida qué cosas deben continuar, parar o comenzar a hacer. Una poderosa herramienta para establecer metas y mejorar el desempeño del equipo.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -328,9 +364,174 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
-        "color_scheme": "inverse",
-        "padding_top": 52,
-        "padding_bottom": 36
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7a840f7e-ba4f-4e8d-8e08-5556c17e15ad": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "title": "Super Héroes",
+            "text": "<p>Un ejercicio de autoconocimiento y desarrollo personal. ¿Cuáles son tus superpoderes? ¿Cuáles ve tu equipo y cuáles quieres tener?<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_c16765a3-dba5-492b-a7fc-ee13d835e634.png",
+            "title": "Hello Kitty",
+            "text": "<p>Un energizante grupal sin spoilers. Por mencionar solo una cosa, ¡el último gatito en pie es el ganador!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_4267ce5b-4b2c-47ce-ab36-9c508815756e.png",
+            "title": "Feedback: Ahora te toca!",
+            "text": "<p>Cada miembro del grupo se tomará un momento para escuchar los comentarios positivos de sus compañeros de equipo. Una herramienta muy poderosa, que fortalece lazos y pone el espíritu en el punto más alto de la montaña rusa.  <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-0",
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-1",
+        "template--14992265805847__7a840f7e-ba4f-4e8d-8e08-5556c17e15ad-1666128285bec5054f-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "abc40052-6a60-4b91-8206-f47b85559ef8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14992265805847__abc40052-6a60-4b91-8206-f47b85559ef8-1666128974d69a0a08-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tips: ¿Cómo hacer que ese día sea aún más especial?",
+            "heading_size": "h1"
+          }
+        },
+        "template--14992265805847__abc40052-6a60-4b91-8206-f47b85559ef8-1666128974d69a0a08-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Además de facilitarte el <em>wrap up<\/em> puedes: <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__abc40052-6a60-4b91-8206-f47b85559ef8-1666128974d69a0a08-0",
+        "template--14992265805847__abc40052-6a60-4b91-8206-f47b85559ef8-1666128974d69a0a08-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "b131af11-7e5f-4b28-aa51-31cfe375f651": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14992265805847__b131af11-7e5f-4b28-aa51-31cfe375f651-1666128285bec5054f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.png",
+            "title": "Divulgar los Resultados",
+            "text": "<p>Comparte los resultados del año con tu equipo haciendo tangible lo que se hizo en ese periodo. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__b131af11-7e5f-4b28-aa51-31cfe375f651-1666128285bec5054f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "title": "Mimos",
+            "text": "<p>¿Qué tal preparar un kit con algunos mimos para tu equipo? Eso siempre es bienvenido ;)<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__b131af11-7e5f-4b28-aa51-31cfe375f651-1666128285bec5054f-0",
+        "template--14992265805847__b131af11-7e5f-4b28-aa51-31cfe375f651-1666128285bec5054f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d0e58991-3e39-4eb2-9933-937401b48253": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14992265805847__d0e58991-3e39-4eb2-9933-937401b48253-1666128285bec5054f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.png",
+            "title": "Happy Hour",
+            "text": "<p>Mismo a distancia, un <em>happy hour<\/em> es siempre un buen ingrediente para darle a un encuentro un toque divertido y descontraido.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14992265805847__d0e58991-3e39-4eb2-9933-937401b48253-1666128285bec5054f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.png",
+            "title": "Desconectar para Conectar",
+            "text": "<p>Desconecte su equipo de las tareas y obligaciones del día a día.  La mejor manera de relajarse y conectarse nuevamente. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14992265805847__d0e58991-3e39-4eb2-9933-937401b48253-1666128285bec5054f-0",
+        "template--14992265805847__d0e58991-3e39-4eb2-9933-937401b48253-1666128285bec5054f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "1662066409fef1e123": {
@@ -339,14 +540,14 @@
         "1662066409bbc0181f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Upskilling por Hyper Island",
+            "heading": "Wrap up powered by Hyper Island",
             "heading_size": "h1"
           }
         },
         "1662066409bbc0181f-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Acerca tu equipo al Futuro.<\/strong><\/p><p><\/p><p>Entra en contacto para recibir una propuesta a medida:<\/p>",
+            "text": "<p>¡Solicita un presupuesto para tu equipo!<\/p><p>Entra en contacto para recibir una propuesta a medida:<\/p>",
             "text_style": "body"
           }
         },
@@ -576,14 +777,18 @@
     "1664368214d71d7281",
     "16643688933e8866fd",
     "1646872562bde01b98",
-    "1647977567b5797ddb",
+    "aa82dde8-569d-4b45-ad86-4d71e3fe121f",
+    "5549e089-7f9f-434d-8a08-461fb5378526",
     "1664369011bc9f5d4b",
-    "16479769171bae7d9a",
     "1647977044940c3e31",
     "1662065486fadbaacc",
     "1662065875147db395",
     "1662066080a6d8c1b0",
     "1662066283cc1f189e",
+    "7a840f7e-ba4f-4e8d-8e08-5556c17e15ad",
+    "abc40052-6a60-4b91-8206-f47b85559ef8",
+    "b131af11-7e5f-4b28-aa51-31cfe375f651",
+    "d0e58991-3e39-4eb2-9933-937401b48253",
     "1662066409fef1e123",
     "1662066626109e8e54",
     "16620666772e5d2150",
