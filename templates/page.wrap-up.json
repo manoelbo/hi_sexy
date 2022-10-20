@@ -537,6 +537,80 @@
         "padding_bottom": 36
       }
     },
+    "ddd0a1f5-5fba-4ecf-b8eb-2db066f595b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15354129514549__ddd0a1f5-5fba-4ecf-b8eb-2db066f595b1-166627401724bfcc95-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Com a Hyper Island, seu time pode ir mais longe:",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15354129514549__ddd0a1f5-5fba-4ecf-b8eb-2db066f595b1-166627401724bfcc95-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "0f7fe40d-0a03-480f-b27d-f89c6ecc5c68": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_29.2.webp",
+            "title": "Não trazemos respostas prontas, construímos com você",
+            "text": "<p>Diferente das consultorias tradicionais, não trazemos respostas externas para que nossos clientes apliquem. <strong>Facilitamos jornadas de aprendizagem onde os próprios <\/strong><em><strong>stakeholders <\/strong><\/em>constroem as respostas.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_-26.webp",
+            "title": "Ajudamos a sua empresa a se conectar com ferramentas e metodologias atuais",
+            "text": "<p>Trazemos nossa <strong>expertise e metodologias atualizadas <\/strong>para facilitar a curva de aprendizagem dos nossos clientes, e impulsionar a otimização de resultados em cada jornada. A partir do <em>briefing<\/em>, desenhamos uma trilha de aprendizado<em>“hands-on” <\/em>e realizamos uma <strong>curadoria de ferramentas especiais para cada equipe e sessão.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand_28.webp",
+            "title": "Nosso foco está no resultado",
+            "text": "<p>Nossas jornadas são orientadas pela busca por resultados de curto, médio e longo prazo. A Metodologia Hyper Island Way™ oferece interação completa para alcançar níveis de aprendizado parametrizáveis, com investimento e metodologias aplicáveis, desde o primeiro dia. <strong>Aprendizado com retorno comportamental mensurável e clareza nos resultados.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-0",
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-1",
+        "template--15354129514549__0f7fe40d-0a03-480f-b27d-f89c6ecc5c68-166627404958e8edeb-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "80bf96b7-9350-4362-862d-fac2a0bce2cb": {
       "type": "rich-text",
       "blocks": {
@@ -621,6 +695,8 @@
     "6b5eb8a6-7e2d-47ca-85c2-f689fb0a6f09",
     "ff125f2a-369d-4b9a-9a5b-7fcf996d415b",
     "25a557eb-a6d2-44d0-9c5c-d8c3ac81eeff",
+    "ddd0a1f5-5fba-4ecf-b8eb-2db066f595b1",
+    "0f7fe40d-0a03-480f-b27d-f89c6ecc5c68",
     "80bf96b7-9350-4362-862d-fac2a0bce2cb",
     "8a740fbc-6861-4b04-a05b-b3f6e54bfe2a",
     "dc32bae2-b7c1-48ef-8768-d7acacc95e12"
