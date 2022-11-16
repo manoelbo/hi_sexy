@@ -1,1 +1,79 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"Get in touch to learn more about us, ask questions about our courses, or quotes for our in-company learning journeys:","color_scheme":"background-1","padding_top":0,"padding_bottom":20}},"newsletter":{"type":"newsletter","blocks":{"newsletter-0":{"type":"heading","settings":{"heading":"Subscribe to our newsletter"}},"newsletter-1":{"type":"paragraph","settings":{"text":"<p>Receive periodic content and exclusive offers by joining our email list.<\/p>"}},"newsletter-2":{"type":"email_form","settings":{}}},"block_order":["newsletter-0","newsletter-1","newsletter-2"],"settings":{"color_scheme":"background-2","full_width":true,"padding_top":68,"padding_bottom":52}}},"order":["main","form","newsletter"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Get in touch to learn more about us, ask questions about our courses, or quotes for our in-company learning journeys:",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "e705fccc-adbe-476c-9bee-7cc2e9173778": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15154633343029__e705fccc-adbe-476c-9bee-7cc2e9173778-166862668499fa0180-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15154633343029__e705fccc-adbe-476c-9bee-7cc2e9173778-166862668499fa0180-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "newsletter-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our newsletter"
+          }
+        },
+        "newsletter-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Receive periodic content and exclusive offers by joining our email list.<\/p>"
+          }
+        },
+        "newsletter-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "newsletter-0",
+        "newsletter-1",
+        "newsletter-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "e705fccc-adbe-476c-9bee-7cc2e9173778",
+    "newsletter"
+  ]
+}
