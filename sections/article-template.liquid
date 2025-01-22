@@ -75,6 +75,41 @@
           {{ article.content }}
         </div>
 
+        <div class="share-buttons mt-6 mb-6">
+          <div class="d-flex align-items-center gap-3">
+            <span class="text-muted">Compartilhar:</span>
+
+            <!-- Copiar URL -->
+            <!-- Copiar URL -->
+            <button
+              class="btn btn-outline-secondary btn-sm"
+              onclick="navigator.clipboard.writeText(window.location.href); this.innerHTML='URL Copiada!'; setTimeout(() => this.innerHTML='Copiar URL', 2000)"
+            >
+              Copiar URL
+            </button>
+
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/shareArticle?mini=true&url={{ shop.url }}{{ article.url }}&title={{ article.title | url_encode }}"
+              target="_blank"
+              class="btn btn-outline-primary btn-sm"
+              rel="noopener"
+            >
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+
+            <!-- Twitter/X -->
+            <a
+              href="https://twitter.com/intent/tweet?text={{ article.title | url_encode }}&url={{ shop.url }}{{ article.url }}"
+              target="_blank"
+              class="btn btn-outline-dark btn-sm"
+              rel="noopener"
+            >
+              <i class="bi bi-twitter-x"></i> X
+            </a>
+          </div>
+        </div>
+
         {% assign author = article.metafields.custom.autor.value %}
         {% if author %}
           <div class="author-section mt-8 mb-6 rte pb-6">
