@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "blog-template": {
+      "type": "blog-template",
+      "settings": {
+        "show_author": true,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_read_more": true
+      }
+    }
+  },
+  "order": [
+    "blog-template"
+  ]
+} 
