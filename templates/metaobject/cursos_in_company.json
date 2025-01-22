@@ -1,0 +1,718 @@
+{
+  "sections": {
+    "82227c01-40ea-49ba-8bbf-b935765bc21a": {
+      "type": "button-section",
+      "disabled": true,
+      "settings": {
+        "title": "test2",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "1b9f43df-e111-4a43-b945-1570b6367724": {
+      "type": "header",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "{{ metaobject.titulo.value }}",
+        "text": "{{ metaobject.description_3 | metafield_text }}",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "{{ metaobject.background.value }}",
+        "overlay_opacity": 30,
+        "font_color": "text-light",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-50",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "082a56a3-5ab2-4df2-bf0f-3b471d67a624": {
+      "type": "content",
+      "blocks": {
+        "bb092c16-4076-4fe7-afad-6b529054cc5f": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_1_titulo.value }}",
+            "text": "{{ metaobject.conteudo_1.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "97557b24-ae4b-45ad-8793-cbf5390c197a": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_2_titulo.value }}",
+            "text": "{{ metaobject.conteudo_2.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "034efac4-8df1-4cf1-9e8d-b4da9b4850b2": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_3_titulo | metafield_text }}",
+            "text": "{{ metaobject.conteudo_3.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "8e489ce9-1866-4fb3-b27d-f599ac07b859": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_4_titulo.value }}",
+            "text": "{{ metaobject.conteudo_4.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "385ef872-140f-46ed-bef8-833a80cc9f2d": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_5_titulo.value }}",
+            "text": "{{ metaobject.conteudo_5.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "964cd774-8d16-4602-8020-6fca1050786f": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.conteudo_6_titulo.value }}",
+            "text": "{{ metaobject.conteudo_6.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "bb092c16-4076-4fe7-afad-6b529054cc5f",
+        "97557b24-ae4b-45ad-8793-cbf5390c197a",
+        "034efac4-8df1-4cf1-9e8d-b4da9b4850b2",
+        "8e489ce9-1866-4fb3-b27d-f599ac07b859",
+        "385ef872-140f-46ed-bef8-833a80cc9f2d",
+        "964cd774-8d16-4602-8020-6fca1050786f"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Conteúdos do Curso",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 10,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 15,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 2,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 10,
+        "smb_lg": 4,
+        "spb_xs": 5,
+        "smb_xs": 3
+      }
+    },
+    "082b122a-56f3-4452-9c86-3393f594dc25": {
+      "type": "content",
+      "blocks": {
+        "df3ddc82-e251-42ee-868c-cd1f665a0515": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.habilidade_1.value }}",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "0b9f92db-814c-4021-ac38-cb42885ffb33": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.habilidade_2.value }}",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "93eae420-15a6-4905-8349-b9eccdf3129f": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.habilidade_3.value }}",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "2bc9b204-25b4-40f8-9e23-f5bb9ef93486": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.habilidade_4.value }}",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "db442be0-6b69-4ea1-8d87-716652e90f05": {
+          "type": "content",
+          "settings": {
+            "title": "{{ metaobject.habilidade_5.value }}",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "df3ddc82-e251-42ee-868c-cd1f665a0515",
+        "0b9f92db-814c-4021-ac38-cb42885ffb33",
+        "93eae420-15a6-4905-8349-b9eccdf3129f",
+        "2bc9b204-25b4-40f8-9e23-f5bb9ef93486",
+        "db442be0-6b69-4ea1-8d87-716652e90f05"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Depois do treinamento, suas equipes saberão:",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 15,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 15,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 15,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 5,
+        "px_xs": 3,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 11,
+        "smb_lg": 3,
+        "spb_xs": 5,
+        "smb_xs": 3
+      }
+    },
+    "004695ce-c6a2-45a5-89ab-22e99d694865": {
+      "type": "title-section",
+      "disabled": true,
+      "settings": {
+        "title": "Depois do treinamento, suas equipes saberão:",
+        "text": "{{ metaobject.habilidade_1.value }} {{ metaobject.habilidade_2.value }} {{ metaobject.habilidade_3.value }} {{ metaobject.habilidade_4.value }} {{ metaobject.habilidade_5.value }}",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "2a2aa84c-0120-4362-816e-ec8fab4b7846": {
+      "type": "header",
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "COCRIANDO FUTUROS",
+        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "7148417f-3c80-4f7d-bd8a-f75862296ea7": {
+      "type": "content",
+      "blocks": {
+        "3cc4008c-f6a1-4e00-b1f3-7bff336b0521": {
+          "type": "content",
+          "settings": {
+            "title": "Conteúdos Relevantes",
+            "text": "Inspirando os participantes através de conteúdos de ponta e cases práticos, para provocar e inspirar uma mudança de mindset.",
+            "header": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "0fac5056-cc4f-4fb0-8304-c51088864118": {
+          "type": "content",
+          "settings": {
+            "title": "Aprendizagem Ativa",
+            "text": "Engajando os participantes em atividades lúdicas e grupos pequenos, para experimentar ferramentas e ampliar expertise.",
+            "header": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "eeceb971-74db-4501-a5be-8f12bf406942": {
+          "type": "content",
+          "settings": {
+            "title": "Desafios pos-sessão",
+            "text": "Incentivando os participantes a aplicar na vida real o que foi aprendido na sessão, por meio de desafios individuais ou em grupos, para promover a colaboração.",
+            "header": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "db70bebb-9be5-4558-ab44-b3cf308ff994": {
+          "type": "content",
+          "settings": {
+            "title": "Reflexão Prática",
+            "text": "Fomentando o hábito da reflexão crítica em indivíduos e equipes, para enriquecer a experiência de aprendizagem e otimizar seus resultados na organização.",
+            "header": "",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "3cc4008c-f6a1-4e00-b1f3-7bff336b0521",
+        "0fac5056-cc4f-4fb0-8304-c51088864118",
+        "eeceb971-74db-4501-a5be-8f12bf406942",
+        "db70bebb-9be5-4558-ab44-b3cf308ff994"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Porque levar a Hyper para a sua empresa?",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-3",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 15,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 15,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 4,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 7,
+        "smb_lg": 4,
+        "spb_xs": 4,
+        "smb_xs": 2
+      }
+    },
+    "86ffd90f-e60d-4e87-9c3e-8a6e05352665": {
+      "type": "header_half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Aprendizagem Síncrona e Assíncrona",
+        "text": "Disponibilizamos uma coleção exclusiva de <strong>Kits de Aprendizagem<\/strong> complementares, com uma curadoria inspiradora para oferecer uma experiência excepcional. Disponíveis por tempo ilimitado, esses recursos possibilitam um estudo autônomo, permitindo um aprofundamento completo no assunto, de acordo com a conveniência do participante.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/LEARNING_KITS2.jpg",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "9f521d47-08aa-40ab-8b07-f2160aca1dba": {
+      "type": "content",
+      "blocks": {
+        "6752738f-96f7-4dd0-b39d-685334cbeb0d": {
+          "type": "content",
+          "settings": {
+            "title": "+1870",
+            "text": "ORGANIZAÇÕES TRANSFORMADAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "1577add5-9a09-4190-b2e4-bbd353bbdce6": {
+          "type": "content",
+          "settings": {
+            "title": "+50.000",
+            "text": "PROFISSIONAIS IMPACTADOS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "da28a310-3928-44cf-9207-82946683bd2e": {
+          "type": "content",
+          "settings": {
+            "title": "+280",
+            "text": "FACILITADORES E ESPECIALISTAS",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "aaa65011-6110-40b5-aa25-2ff28d5c8b16": {
+          "type": "content",
+          "settings": {
+            "title": "+28",
+            "text": "ANOS DE EXPERIÊNCIA NO MERCADO",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "6752738f-96f7-4dd0-b39d-685334cbeb0d",
+        "1577add5-9a09-4190-b2e4-bbd353bbdce6",
+        "da28a310-3928-44cf-9207-82946683bd2e",
+        "aaa65011-6110-40b5-aa25-2ff28d5c8b16"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>HYPER ISLAND IN-COMPANY<\/strong>",
+        "text": "",
+        "font_color": "text-light",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-light",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-3",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 16,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 18,
+        "pb_lg": 8,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 4,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 5,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 10,
+        "smb_lg": 4,
+        "spb_xs": 4,
+        "smb_xs": 2
+      }
+    },
+    "09a47df4-d61e-4667-9f44-3e84d4bc0f0a": {
+      "type": "clients",
+      "settings": {
+        "hidden": false,
+        "title": "Empresas que confiam na gente",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-start",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "04ffb636-6b6e-4820-aa0b-bbe8db95527f": {
+      "type": "button-section",
+      "blocks": {
+        "68d83d0d-e276-42a9-bde6-cd41be551ae8": {
+          "type": "button",
+          "settings": {
+            "text": "E-mail",
+            "url": "mailto:benito.berretta@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        },
+        "49f21e4b-f220-47c2-b244-79971fdc1469": {
+          "type": "button",
+          "settings": {
+            "text": "Whatsapp",
+            "url": "",
+            "target": false,
+            "zap": true,
+            "zap_number": "5511991352064",
+            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "68d83d0d-e276-42a9-bde6-cd41be551ae8",
+        "49f21e4b-f220-47c2-b244-79971fdc1469"
+      ],
+      "settings": {
+        "title": "Fale com a gente",
+        "text": "Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
+        "img": "shopify:\/\/shop_images\/Beni.png",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-5",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    }
+  },
+  "order": [
+    "82227c01-40ea-49ba-8bbf-b935765bc21a",
+    "1b9f43df-e111-4a43-b945-1570b6367724",
+    "082a56a3-5ab2-4df2-bf0f-3b471d67a624",
+    "082b122a-56f3-4452-9c86-3393f594dc25",
+    "004695ce-c6a2-45a5-89ab-22e99d694865",
+    "2a2aa84c-0120-4362-816e-ec8fab4b7846",
+    "7148417f-3c80-4f7d-bd8a-f75862296ea7",
+    "86ffd90f-e60d-4e87-9c3e-8a6e05352665",
+    "9f521d47-08aa-40ab-8b07-f2160aca1dba",
+    "09a47df4-d61e-4667-9f44-3e84d4bc0f0a",
+    "04ffb636-6b6e-4820-aa0b-bbe8db95527f"
+  ]
+}

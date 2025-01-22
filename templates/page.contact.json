@@ -1,1 +1,247 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"Para saber mais sobre a gente, tirar dúvidas sobre os nossos cursos, ou pedir cotações para nossas jornadas de aprendizagem dentro de empresas, por gentileza, envie sua mensagem:","color_scheme":"background-1","padding_top":0,"padding_bottom":20}},"newsletter":{"type":"newsletter","blocks":{"newsletter-0":{"type":"heading","settings":{"heading":"Inscreva-se em nossa newsletter"}},"newsletter-1":{"type":"paragraph","settings":{"text":"<p>Receba conteúdos periódicos e ofertas exclusivas fazendo parte da nossa lista de emails.<\/p>"}},"newsletter-2":{"type":"email_form","settings":{}}},"block_order":["newsletter-0","newsletter-1","newsletter-2"],"settings":{"color_scheme":"background-2","full_width":true,"padding_top":68,"padding_bottom":52}}},"order":["main","form","newsletter"]}
+{
+  "sections": {
+    "13f3f086-3476-4715-95ea-04a340146b68": {
+      "type": "card-fluid",
+      "blocks": {
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0": {
+          "type": "card",
+          "settings": {
+            "header": "PARA A SUA EMPRESA",
+            "title": "",
+            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+            "url": "",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#f3f0ed",
+            "bg_gradient": ""
+          }
+        },
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1": {
+          "type": "card",
+          "settings": {
+            "header": "PARA VOCÊ",
+            "title": "",
+            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+            "url": "",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#e3dfd3",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-0",
+        "template--18553305006383__13f3f086-3476-4715-95ea-04a340146b68-1681845855d96517b2-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "layout": "col-lg-6",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 18,
+        "pb_xl": 17,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 14,
+        "pb_lg": 12,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "3cf50fee-bb62-4669-a150-48226775153d": {
+      "type": "header",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "CONTATO",
+        "text": "Tel: +55 11 99135-2064 Email:benito.berretta@hyperisland.com",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-xxl",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-25",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 7,
+        "mb_xl": 7,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 8,
+        "pb_sm": 8,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "2dec94af-d749-4cb1-898b-992342979263": {
+      "type": "header_half",
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "COCRIANDO FUTUROS 2",
+        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "567ce4e4-8cb8-41ef-a002-d0928ceb0ae3": {
+      "type": "header_half",
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "VAMOS CONVERSAR?",
+        "text": "Tel: +55 11 99135-2064  Email: learning.latam@hyperisland.com",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "84193b7e-3fe3-450c-89d8-8223e3fc85e2": {
+      "type": "hubspot-form",
+      "settings": {
+        "form_id": "8cb04454-a222-4886-8fb2-45822a4cf502"
+      }
+    },
+    "html_CcR9cY": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Que tipo de Líder Você é?<\/title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            margin: 0;\n            padding: 20px;\n        }\n        .quiz-container {\n            background-color: #fff;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            width: 100%;\n            max-width: 600px;\n            margin: 0 auto;\n            text-align: center;\n        }\n        .quiz-container h1 {\n            color: #FF6F00;\n        }\n        .question {\n            margin-bottom: 20px;\n        }\n        .question h2 {\n            font-size: 22px;\n            color: #FF6F00;\n        }\n        .answers label {\n            display: block;\n            margin: 10px 0;\n        }\n        .next-button, .submit-button, .restart-button {\n            background-color: #FF6F00;\n            color: white;\n            border: none;\n            padding: 10px 20px;\n            cursor: pointer;\n            border-radius: 4px;\n            margin-top: 20px;\n        }\n        .result-container {\n            display: none;\n        }\n        .result-container h2 {\n            color: #FF6F00;\n        }\n    <\/style>\n\n\n    <div class=\"quiz-container\" id=\"quizContainer\">\n        <h1>Que tipo de Líder Você é?<\/h1>\n        <form id=\"quizForm\">\n            <div class=\"question\" id=\"question1\">\n                <h2>Pergunta 1: Como você lida com mudanças?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q1\" value=\"visionary\"> Abraço as mudanças e vejo oportunidades.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"coach\">  Uso as mudanças para motivar e desenvolver minha equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"democratic\"> Consulto minha equipe para encontrar a melhor abordagem.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(1)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question2\" style=\"display: none;\">\n                <h2>Pergunta 2: Como você define o sucesso?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q2\" value=\"visionary\"> Alcançar grandes metas e inovar constantemente.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"coach\"> Ver minha equipe crescer e se desenvolver.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"democratic\"> Ter um ambiente de trabalho harmonioso e colaborativo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(2)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question3\" style=\"display: none;\">\n                <h2>Pergunta 3: Como você resolve conflitos na equipe?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q3\" value=\"visionary\"> Foco nos objetivos comuns e na visão a longo prazo.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"coach\"> Facilito diálogos e ajudo as pessoas a se entenderem.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"democratic\"> Encorajo a equipe a encontrar soluções juntos.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(3)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question4\" style=\"display: none;\">\n                <h2>Pergunta 4: Qual é o seu estilo de comunicação?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q4\" value=\"visionary\">  Inspirador e motivacional.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"coach\"> Feedback contínuo e construtivo.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"democratic\"> Aberto e inclusivo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(4)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question5\" style=\"display: none;\">\n                <h2>Pergunta 5: Como você toma decisões importantes?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q5\" value=\"visionary\"> Baseado na minha visão e intuição.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"coach\"> Considerando o impacto no desenvolvimento da equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"democratic\"> Consultando a equipe e buscando consenso.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"submit-button\" onclick=\"submitQuiz()\">Enviar<\/button>\n            <\/div>\n        <\/form>\n        <div class=\"result-container\" id=\"result\">\n            <h2>Seu tipo de líder é:<\/h2>\n            <p id=\"resultText\"><\/p>\n            <button type=\"button\" class=\"restart-button\" onclick=\"restartQuiz()\">Refazer o Quiz<\/button>\n        <\/div>\n    <\/div>\n    <script>\n        function showNextQuestion(currentQuestion) {\n            const currentQuestionDiv = document.getElementById(`question${currentQuestion}`);\n            const nextQuestionDiv = document.getElementById(`question${currentQuestion + 1}`);\n            const answers = currentQuestionDiv.querySelectorAll('input[type=\"radio\"]');\n\n            let answered = false;\n            answers.forEach(answer => {\n                if (answer.checked) {\n                    answered = true;\n                }\n            });\n\n            if (answered) {\n                currentQuestionDiv.style.display = 'none';\n                nextQuestionDiv.style.display = 'block';\n            } else {\n                alert('Por favor, responda a pergunta.');\n            }\n        }\n\n        function submitQuiz() {\n            const form = document.getElementById('quizForm');\n            const resultDiv = document.getElementById('result');\n            const resultText = document.getElementById('resultText');\n\n            const answers = Array.from(form.elements)\n                .filter(element => element.checked)\n                .map(element => element.value);\n\n            const resultCounts = {\n                visionary: 0,\n                coach: 0,\n                democratic: 0\n            };\n\n            answers.forEach(answer => resultCounts[answer]++);\n\n            const maxCount = Math.max(resultCounts.visionary, resultCounts.coach, resultCounts.democratic);\n            let resultType = '';\n            let resultDescription = '';\n\n            if (resultCounts.visionary === maxCount) {\n                resultType = 'Visionário';\n                resultDescription = 'Você é um líder visionário, sempre enxergando oportunidades nas mudanças e inspirando sua equipe a alcançar grandes metas.';\n            } else if (resultCounts.coach === maxCount) {\n                resultType = 'Coach';\n                resultDescription = 'Você é um líder coach, focado no desenvolvimento contínuo de sua equipe e utilizando as mudanças como ferramenta de crescimento.';\n            } else if (resultCounts.democratic === maxCount) {\n                resultType = 'Democrático';\n                resultDescription = 'Você é um líder democrático, valorizando a opinião de todos e buscando consenso para tomar decisões importantes.';\n            }\n\n            resultText.innerHTML = `<strong>${resultType}<\/strong>: ${resultDescription}`;\n            resultDiv.style.display = 'block';\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'none';\n        }\n\n        function restartQuiz() {\n            const form = document.getElementById('quizForm');\n            form.reset();\n\n            const questions = form.querySelectorAll('.question');\n            questions.forEach(question => {\n                question.style.display = 'none';\n            });\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'block';\n            document.getElementById('result').style.display = 'none';\n\n            document.getElementById('question1').style.display = 'block';\n        }\n    <\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 13,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_NPKAVN": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Que tipo de Líder Você é?<\/title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            margin: 0;\n            padding: 20px;\n        }\n        .quiz-container {\n            background-color: #fff;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            width: 100%;\n            max-width: 600px;\n            margin: 0 auto;\n            text-align: center;\n        }\n        .quiz-container h1 {\n            color: #FF6F00;\n        }\n        .question {\n            margin-bottom: 20px;\n        }\n        .question h2 {\n            font-size: 18px;\n            color: #FF6F00;\n        }\n        .answers label {\n            display: block;\n            margin: 10px 0;\n        }\n        .next-button, .submit-button, .restart-button {\n            background-color: #FF6F00;\n            color: white;\n            border: none;\n            padding: 10px 20px;\n            cursor: pointer;\n            border-radius: 4px;\n            margin-top: 20px;\n        }\n        .result-container {\n            display: none;\n        }\n        .result-container h2 {\n            color: #FF6F00;\n        }\n    <\/style>\n\n\n    <div class=\"quiz-container\" id=\"quizContainer\">\n        <h1>Que tipo de Líder Você é?<\/h1>\n        <form id=\"quizForm\">\n            <div class=\"question\" id=\"question1\">\n                <h2>Pergunta 1: Como você lida com mudanças?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q1\" value=\"visionary\"> A. Abraço as mudanças e vejo oportunidades.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"coach\"> B. Uso as mudanças para motivar e desenvolver minha equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"democratic\"> C. Consulto minha equipe para encontrar a melhor abordagem.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(1)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question2\" style=\"display: none;\">\n                <h2>Pergunta 2: Como você define o sucesso?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q2\" value=\"visionary\"> A. Alcançar grandes metas e inovar constantemente.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"coach\"> B. Ver minha equipe crescer e se desenvolver.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"democratic\"> C. Ter um ambiente de trabalho harmonioso e colaborativo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(2)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question3\" style=\"display: none;\">\n                <h2>Pergunta 3: Como você resolve conflitos na equipe?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q3\" value=\"visionary\"> A. Foco nos objetivos comuns e na visão a longo prazo.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"coach\"> B. Facilito diálogos e ajudo as pessoas a se entenderem.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"democratic\"> C. Encorajo a equipe a encontrar soluções juntos.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(3)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question4\" style=\"display: none;\">\n                <h2>Pergunta 4: Qual é o seu estilo de comunicação?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q4\" value=\"visionary\"> A. Inspirador e motivacional.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"coach\"> B. Feedback contínuo e construtivo.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"democratic\"> C. Aberto e inclusivo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(4)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question5\" style=\"display: none;\">\n                <h2>Pergunta 5: Como você toma decisões importantes?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q5\" value=\"visionary\"> A. Baseado na minha visão e intuição.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"coach\"> B. Considerando o impacto no desenvolvimento da equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"democratic\"> C. Consultando a equipe e buscando consenso.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"submit-button\" onclick=\"submitQuiz()\">Enviar<\/button>\n            <\/div>\n        <\/form>\n        <div class=\"result-container\" id=\"result\">\n            <h2>Seu tipo de líder é:<\/h2>\n            <p id=\"resultText\"><\/p>\n            <button type=\"button\" class=\"restart-button\" onclick=\"restartQuiz()\">Refazer o Quiz<\/button>\n        <\/div>\n    <\/div>\n    <script>\n        function showNextQuestion(currentQuestion) {\n            const currentQuestionDiv = document.getElementById(`question${currentQuestion}`);\n            const nextQuestionDiv = document.getElementById(`question${currentQuestion + 1}`);\n            const answers = currentQuestionDiv.querySelectorAll('input[type=\"radio\"]');\n\n            let answered = false;\n            answers.forEach(answer => {\n                if (answer.checked) {\n                    answered = true;\n                }\n            });\n\n            if (answered) {\n                currentQuestionDiv.style.display = 'none';\n                nextQuestionDiv.style.display = 'block';\n            } else {\n                alert('Por favor, responda a pergunta.');\n            }\n        }\n\n        function submitQuiz() {\n            const form = document.getElementById('quizForm');\n            const resultDiv = document.getElementById('result');\n            const resultText = document.getElementById('resultText');\n\n            const answers = Array.from(form.elements)\n                .filter(element => element.checked)\n                .map(element => element.value);\n\n            const resultCounts = {\n                visionary: 0,\n                coach: 0,\n                democratic: 0\n            };\n\n            answers.forEach(answer => resultCounts[answer]++);\n\n            const maxCount = Math.max(resultCounts.visionary, resultCounts.coach, resultCounts.democratic);\n            let resultType = '';\n            let resultDescription = '';\n\n            if (resultCounts.visionary === maxCount) {\n                resultType = 'Visionário';\n                resultDescription = 'Você é um líder visionário, sempre enxergando oportunidades nas mudanças e inspirando sua equipe a alcançar grandes metas.';\n            } else if (resultCounts.coach === maxCount) {\n                resultType = 'Coach';\n                resultDescription = 'Você é um líder coach, focado no desenvolvimento contínuo de sua equipe e utilizando as mudanças como ferramenta de crescimento.';\n            } else if (resultCounts.democratic === maxCount) {\n                resultType = 'Democrático';\n                resultDescription = 'Você é um líder democrático, valorizando a opinião de todos e buscando consenso para tomar decisões importantes.';\n            }\n\n            resultText.innerHTML = `<strong>${resultType}<\/strong>: ${resultDescription}`;\n            resultDiv.style.display = 'block';\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'none';\n        }\n\n        function restartQuiz() {\n            const form = document.getElementById('quizForm');\n            form.reset();\n\n            const questions = form.querySelectorAll('.question');\n            questions.forEach(question => {\n                question.style.display = 'none';\n            });\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'block';\n            document.getElementById('result').style.display = 'none';\n\n            document.getElementById('question1').style.display = 'block';\n        }\n    <\/script><meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Que tipo de Líder Você é?<\/title>\n    <style>\n        body {\n            font-family: Arial, sans-serif;\n            background-color: #f4f4f4;\n            color: #333;\n            margin: 0;\n            padding: 20px;\n        }\n        .quiz-container {\n            background-color: #fff;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n            width: 100%;\n            max-width: 600px;\n            margin: 0 auto;\n            text-align: center;\n        }\n        .quiz-container h1 {\n            color: #FF6F00;\n        }\n        .question {\n            margin-bottom: 20px;\n        }\n        .question h2 {\n            font-size: 18px;\n            color: #FF6F00;\n        }\n        .answers label {\n            display: block;\n            margin: 10px 0;\n        }\n        .next-button, .submit-button, .restart-button {\n            background-color: #FF6F00;\n            color: white;\n            border: none;\n            padding: 10px 20px;\n            cursor: pointer;\n            border-radius: 4px;\n            margin-top: 20px;\n        }\n        .result-container {\n            display: none;\n        }\n        .result-container h2 {\n            color: #FF6F00;\n        }\n    <\/style>\n\n\n    <div class=\"quiz-container\" id=\"quizContainer\">\n        <h1>Que tipo de Líder Você é?<\/h1>\n        <form id=\"quizForm\">\n            <div class=\"question\" id=\"question1\">\n                <h2>Pergunta 1: Como você lida com mudanças?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q1\" value=\"visionary\"> A. Abraço as mudanças e vejo oportunidades.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"coach\"> B. Uso as mudanças para motivar e desenvolver minha equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q1\" value=\"democratic\"> C. Consulto minha equipe para encontrar a melhor abordagem.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(1)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question2\" style=\"display: none;\">\n                <h2>Pergunta 2: Como você define o sucesso?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q2\" value=\"visionary\"> A. Alcançar grandes metas e inovar constantemente.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"coach\"> B. Ver minha equipe crescer e se desenvolver.<\/label>\n                    <label><input type=\"radio\" name=\"q2\" value=\"democratic\"> C. Ter um ambiente de trabalho harmonioso e colaborativo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(2)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question3\" style=\"display: none;\">\n                <h2>Pergunta 3: Como você resolve conflitos na equipe?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q3\" value=\"visionary\"> A. Foco nos objetivos comuns e na visão a longo prazo.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"coach\"> B. Facilito diálogos e ajudo as pessoas a se entenderem.<\/label>\n                    <label><input type=\"radio\" name=\"q3\" value=\"democratic\"> C. Encorajo a equipe a encontrar soluções juntos.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(3)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question4\" style=\"display: none;\">\n                <h2>Pergunta 4: Qual é o seu estilo de comunicação?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q4\" value=\"visionary\"> A. Inspirador e motivacional.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"coach\"> B. Feedback contínuo e construtivo.<\/label>\n                    <label><input type=\"radio\" name=\"q4\" value=\"democratic\"> C. Aberto e inclusivo.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"next-button\" onclick=\"showNextQuestion(4)\">Próxima<\/button>\n            <\/div>\n            <div class=\"question\" id=\"question5\" style=\"display: none;\">\n                <h2>Pergunta 5: Como você toma decisões importantes?<\/h2>\n                <div class=\"answers\">\n                    <label><input type=\"radio\" name=\"q5\" value=\"visionary\"> A. Baseado na minha visão e intuição.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"coach\"> B. Considerando o impacto no desenvolvimento da equipe.<\/label>\n                    <label><input type=\"radio\" name=\"q5\" value=\"democratic\"> C. Consultando a equipe e buscando consenso.<\/label>\n                <\/div>\n                <button type=\"button\" class=\"submit-button\" onclick=\"submitQuiz()\">Enviar<\/button>\n            <\/div>\n        <\/form>\n        <div class=\"result-container\" id=\"result\">\n            <h2>Seu tipo de líder é:<\/h2>\n            <p id=\"resultText\"><\/p>\n            <button type=\"button\" class=\"restart-button\" onclick=\"restartQuiz()\">Refazer o Quiz<\/button>\n        <\/div>\n    <\/div>\n    <script>\n        function showNextQuestion(currentQuestion) {\n            const currentQuestionDiv = document.getElementById(`question${currentQuestion}`);\n            const nextQuestionDiv = document.getElementById(`question${currentQuestion + 1}`);\n            const answers = currentQuestionDiv.querySelectorAll('input[type=\"radio\"]');\n\n            let answered = false;\n            answers.forEach(answer => {\n                if (answer.checked) {\n                    answered = true;\n                }\n            });\n\n            if (answered) {\n                currentQuestionDiv.style.display = 'none';\n                nextQuestionDiv.style.display = 'block';\n            } else {\n                alert('Por favor, responda a pergunta.');\n            }\n        }\n\n        function submitQuiz() {\n            const form = document.getElementById('quizForm');\n            const resultDiv = document.getElementById('result');\n            const resultText = document.getElementById('resultText');\n\n            const answers = Array.from(form.elements)\n                .filter(element => element.checked)\n                .map(element => element.value);\n\n            const resultCounts = {\n                visionary: 0,\n                coach: 0,\n                democratic: 0\n            };\n\n            answers.forEach(answer => resultCounts[answer]++);\n\n            const maxCount = Math.max(resultCounts.visionary, resultCounts.coach, resultCounts.democratic);\n            let resultType = '';\n            let resultDescription = '';\n\n            if (resultCounts.visionary === maxCount) {\n                resultType = 'Visionário';\n                resultDescription = 'Você é um líder visionário, sempre enxergando oportunidades nas mudanças e inspirando sua equipe a alcançar grandes metas.';\n            } else if (resultCounts.coach === maxCount) {\n                resultType = 'Coach';\n                resultDescription = 'Você é um líder coach, focado no desenvolvimento contínuo de sua equipe e utilizando as mudanças como ferramenta de crescimento.';\n            } else if (resultCounts.democratic === maxCount) {\n                resultType = 'Democrático';\n                resultDescription = 'Você é um líder democrático, valorizando a opinião de todos e buscando consenso para tomar decisões importantes.';\n            }\n\n            resultText.innerHTML = `<strong>${resultType}<\/strong>: ${resultDescription}`;\n            resultDiv.style.display = 'block';\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'none';\n        }\n\n        function restartQuiz() {\n            const form = document.getElementById('quizForm');\n            form.reset();\n\n            const questions = form.querySelectorAll('.question');\n            questions.forEach(question => {\n                question.style.display = 'none';\n            });\n\n            const quizContainer = document.getElementById('quizContainer');\n            quizContainer.querySelector('form').style.display = 'block';\n            document.getElementById('result').style.display = 'none';\n\n            document.getElementBy\n            document.getElementById('question1').style.display = 'block';\n        }\n\n        function checkURLForKeyword() {\n            const keyword = \"CONTATO\";\n            if (window.location.href.toUpperCase().includes(keyword)) {\n                document.getElementById('quizContainer').style.display = 'block';\n            } else {\n                document.getElementById('quizContainer').style.display = 'none';\n            }\n        }\n\n        document.addEventListener('DOMContentLoaded', (event) => {\n            checkURLForKeyword();\n        });\n    <\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_LhGRgY": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Matriz Prioridade x Maturidade<\/title>\n    <script src=\"https:\/\/cdn.jsdelivr.net\/npm\/chart.js\"><\/script>\n    <style>\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            text-align: center;\n            flex-direction: column;\n        }\n\n        canvas {\n            max-width: 600px;\n            max-height: 400px;\n        }\n    <\/style>\n\n\n    <h2>Matriz de Prioridade x Maturidade<\/h2>\n    <br>\n    <canvas id=\"matrizChart\"><\/canvas>\n\n    <script>\n        const ctx = document.getElementById('matrizChart').getContext('2d');\n        const data = {\n            datasets: [{\n                label: 'Protagonismo em solução',\n                data: [{ x: 3.00, y: 4.72 }],\n                backgroundColor: 'rgba(255, 99, 132, 0.7)',\n                borderColor: 'rgba(255, 99, 132, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Visão Sistêmica',\n                data: [{ x: 3.12, y: 4.70 }],\n                backgroundColor: 'rgba(54, 162, 235, 0.7)',\n                borderColor: 'rgba(54, 162, 235, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Comunicação Influente',\n                data: [{ x: 3.08, y: 4.68 }],\n                backgroundColor: 'rgba(75, 192, 192, 0.7)',\n                borderColor: 'rgba(75, 192, 192, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Inteligência Preditiva',\n                data: [{ x: 2.95, y: 4.68 }],\n                backgroundColor: 'rgba(153, 102, 255, 0.7)',\n                borderColor: 'rgba(153, 102, 255, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }]\n        };\n\n        const config = {\n            type: 'scatter',\n            data: data,\n            options: {\n                scales: {\n                    x: {\n                        type: 'linear',\n                        position: 'bottom',\n                        title: {\n                            display: true,\n                            text: 'Maturidade'\n                        },\n                        min: 2.5,\n                        max: 3.5\n                    },\n                    y: {\n                        title: {\n                            display: true,\n                            text: 'Prioridade'\n                        },\n                        min: 4.6,\n                        max: 4.8\n                    }\n                },\n                plugins: {\n                    tooltip: {\n                        callbacks: {\n                            label: function(tooltipItem) {\n                                return tooltipItem.dataset.label + ': Maturidade (' + tooltipItem.raw.x + '), Prioridade (' + tooltipItem.raw.y + ')';\n                            }\n                        }\n                    }\n                }\n            }\n        };\n\n        const matrizChart = new Chart(ctx, config);\n    <\/script><meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Matriz Prioridade x Maturidade<\/title>\n    <script src=\"https:\/\/cdn.jsdelivr.net\/npm\/chart.js\"><\/script>\n    <style>\n        canvas {\n            max-width: 600px;\n            max-height: 400px;\n        }\n    <\/style>\n\n\n\n    <h2>Matriz de Prioridade x Maturidade<\/h2>&lt;\n    <canvas id=\"matrizChart\"><\/canvas>&lt;\n\n    <script align=\"center\">\n        const ctx = document.getElementById('matrizChart').getContext('2d');\n        const data = {\n            datasets: [{\n                label: 'Protagonismo em solução',\n                data: [{ x: 3.00, y: 4.72 }],\n                backgroundColor: 'rgba(255, 99, 132, 0.7)',\n                borderColor: 'rgba(255, 99, 132, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Visão Sistêmica',\n                data: [{ x: 3.12, y: 4.70 }],\n                backgroundColor: 'rgba(54, 162, 235, 0.7)',\n                borderColor: 'rgba(54, 162, 235, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Comunicação Influente',\n                data: [{ x: 3.08, y: 4.68 }],\n                backgroundColor: 'rgba(75, 192, 192, 0.7)',\n                borderColor: 'rgba(75, 192, 192, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }, {\n                label: 'Inteligência Preditiva',\n                data: [{ x: 2.95, y: 4.68 }],\n                backgroundColor: 'rgba(153, 102, 255, 0.7)',\n                borderColor: 'rgba(153, 102, 255, 1)',\n                borderWidth: 1,\n                pointRadius: 8\n            }]\n        };\n\n        const config = {\n            type: 'scatter',\n            data: data,\n            options: {\n                scales: {\n                    x: {\n                        type: 'linear',\n                        position: 'bottom',\n                        title: {\n                            display: true,\n                            text: 'Maturidade'\n                        },\n                        min: 2.5,\n                        max: 3.5\n                    },\n                    y: {\n                        title: {\n                            display: true,\n                            text: 'Prioridade'\n                        },\n                        min: 4.6,\n                        max: 4.8\n                    }\n                },\n                plugins: {\n                    tooltip: {\n                        callbacks: {\n                            label: function(tooltipItem) {\n                                return tooltipItem.dataset.label + ': Maturidade (' + tooltipItem.raw.x + '), Prioridade (' + tooltipItem.raw.y + ')';\n                            }\n                        }\n                    }\n                }\n            }\n        };\n\n        const matrizChart = new Chart(ctx, config);\n    <\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_em9Lh7": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Matriz Prioridade x Maturidade<\/title>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/chart.js\"><\/script>\n<style>\n    \/* Centraliza o gráfico *\/\n    .chart-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        height: 100vh; \/* Faz com que o gráfico ocupe a altura da tela *\/\n    }\n\n    canvas {\n        max-width: 600px;\n        max-height: 400px;\n    }\n<\/style>\n\n<h2>Matriz de Prioridade x Maturidade<\/h2><br>\n\n<div class=\"chart-container\">\n    <canvas id=\"matrizChart\"><\/canvas>\n<\/div>\n\n<script>\n    const ctx = document.getElementById('matrizChart').getContext('2d');\n    const data = {\n        datasets: [{\n            label: 'Protagonismo em solução',\n            data: [{ x: 3.00, y: 4.72 }],\n            backgroundColor: 'rgba(255, 165, 0, 0.7)',  \/\/ Laranja\n            borderColor: 'rgba(255, 165, 0, 1)',\n            borderWidth: 1,\n            pointRadius: 8\n        }, {\n            label: 'Visão Sistêmica',\n            data: [{ x: 3.12, y: 4.70 }],\n            backgroundColor: 'rgba(255, 140, 0, 0.7)',  \/\/ Tom mais escuro de laranja\n            borderColor: 'rgba(255, 140, 0, 1)',\n            borderWidth: 1,\n            pointRadius: 8\n        }, {\n            label: 'Comunicação Influente',\n            data: [{ x: 3.08, y: 4.68 }],\n            backgroundColor: 'rgba(255, 69, 0, 0.7)',  \/\/ Tom ainda mais escuro\n            borderColor: 'rgba(255, 69, 0, 1)',\n            borderWidth: 1,\n            pointRadius: 8\n        }, {\n            label: 'Inteligência Preditiva',\n            data: [{ x: 2.95, y: 4.68 }],\n            backgroundColor: 'rgba(255, 99, 71, 0.7)',  \/\/ Outro tom de laranja\n            borderColor: 'rgba(255, 99, 71, 1)',\n            borderWidth: 1,\n            pointRadius: 8\n        }]\n    };\n\n    const config = {\n        type: 'scatter',\n        data: data,\n        options: {\n            scales: {\n                x: {\n                    type: 'linear',\n                    position: 'bottom',\n                    title: {\n                        display: true,\n                        text: 'Maturidade'\n                    },\n                    min: 2.5,\n                    max: 3.5\n                },\n                y: {\n                    title: {\n                        display: true,\n                        text: 'Prioridade'\n                    },\n                    min: 4.6,\n                    max: 4.8\n                }\n            },\n            plugins: {\n                tooltip: {\n                    callbacks: {\n                        label: function(tooltipItem) {\n                            return tooltipItem.dataset.label + ': Maturidade (' + tooltipItem.raw.x + '), Prioridade (' + tooltipItem.raw.y + ')';\n                        }\n                    }\n                }\n            }\n        }\n    };\n\n    const matrizChart = new Chart(ctx, config);\n<\/script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "13f3f086-3476-4715-95ea-04a340146b68",
+    "3cf50fee-bb62-4669-a150-48226775153d",
+    "2dec94af-d749-4cb1-898b-992342979263",
+    "567ce4e4-8cb8-41ef-a002-d0928ceb0ae3",
+    "84193b7e-3fe3-450c-89d8-8223e3fc85e2",
+    "html_CcR9cY",
+    "html_NPKAVN",
+    "html_LhGRgY",
+    "html_em9Lh7"
+  ]
+}

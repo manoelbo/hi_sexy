@@ -1,0 +1,425 @@
+<section>
+    <div class="container-fluid">
+        <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+            {% for block in section.blocks %}
+            <div 
+                class="d-flex {{ section.settings.layout }}  bg-size-cover card-fluid" 
+                data-aos="fade-down" 
+                {% if block.settings.bg_gradient != blank %} style="background: {{ block.settings.bg_gradient }}"{% else %}style="background-color: {{ block.settings.bg_color }}"{% endif %}
+                {% if block.settings.bg_image != blank %} data-bg-src="{{ block.settings.bg_image | image_url }}" {% endif %}
+                data-aos-delay="{{ 100 | times: forloop.index | plus: 250 }}">
+                {% if block.settings.bg_image == blank %}
+                                       
+             
+                <a  href="{{ block.settings.url }}"
+                    target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                    class="w-100 px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+                    
+                    {% if block.settings.header != blank %}
+                        <p class="text-decoration-underline text-uppercase fw-bold {{block.settings.font_color}} {{section.settings.font_color}}text-uppercase {{section.settings.header_size}}">
+                            {{ block.settings.header }}
+                        </p>
+                    {% endif %}
+
+                    {% if block.settings.title != blank %}
+                        <h2 class="mb-4 text-uppercase {{block.settings.font_color}} {{section.settings.title_size}}">
+                            {{ block.settings.title }}
+                        </h2>
+                    {% endif %}
+                    {% if block.settings.text != blank %}
+                        <p class="mb-0 remove-br-lg  {{block.settings.font_color}} {{section.settings.text_size}}">
+                            {{ block.settings.text }}
+                        </p>
+                    {% endif %}
+                </a>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Cards Fluid",
+  "settings": [
+    {
+        "type": "header",
+        "content": "Typography Style"
+    },
+    {
+        "type": "select",
+        "id": "header_size",
+        "label": "Header Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-6"
+    },
+    {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Font Size",
+        "options": [
+            {
+                "value": "display-1",
+                "label": "5.5 rem (88px)"
+              },
+            {
+                "value": "display-2",
+                "label": "5 rem (80px)"
+            },
+            {
+                "value": "display-3",
+                "label": "4.5 rem (72px)"
+            },
+            {
+                "value": "display-4",
+                "label": "3.75 rem (60px)"
+            },
+            {
+                "value": "display-5",
+                "label": "3 rem (48px)"
+            },
+            {
+                "value": "display-6",
+                "label": "2.5 rem (40px)"
+            }
+
+        ],
+        "default": "display-4"
+    },
+    {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-5"
+    },
+    {
+        "type": "header",
+        "content": "Layout Settings"
+    },
+    {
+        "type": "select",
+        "id": "layout",
+        "label": "Columns Layout (Desktop)",
+        "options": [
+            {
+                "value": "col-lg-6",
+                "label": "2 Columns"
+                },
+            {
+                "value": "col-lg-4",
+                "label": "3 Columns"
+            }
+        ],
+        "default": "col-lg-6"
+    },
+    {
+        "type": "select",
+        "id": "align_desktop",
+        "label": "Content Align (Desktop)",
+        "options": [
+            {
+                "value": "text-lg-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-lg-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-lg-left"
+    },
+    {
+        "type": "select",
+        "id": "align_mobile",
+        "label": "Content Align (Mobile)",
+        "options": [
+            {
+                "value": "text-left",
+                "label": "Left"
+                },
+            {
+                "value": "text-center",
+                "label": "Center"
+            }
+        ],
+        "default": "text-left"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (General)"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_xl",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 18
+    },
+    {
+        "type": "range",
+        "id": "pb_xl",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 17
+    },
+    {
+        "type": "range",
+        "id": "mt_xl",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_xl",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_lg",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 14
+    },
+    {
+        "type": "range",
+        "id": "pb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 12
+    },
+    {
+        "type": "range",
+        "id": "mt_lg",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Options (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "pt_sm",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 8
+    },
+    {
+        "type": "range",
+        "id": "pb_sm",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 8
+    },
+    {
+        "type": "range",
+        "id": "mt_sm",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    }
+    
+  ],
+  "blocks": [
+    {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+            {
+                "type": "text",
+                "id": "header",
+                "label": "Card Header",
+                "default": "Para Empresas"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "title",
+                "label": "Card Title",
+                "default": "Nossos Cursos"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "text",
+                "label": "Card Text",
+                "default": "Para Empresas"
+            },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "Buttom Link"
+
+            },
+            {
+                "type": "checkbox",
+                "id": "target",
+                "label": "Open In a New Tab"
+            },
+            {
+                "type": "header",
+                "content": "Card Style"
+            },
+            {
+                "type": "select",
+                "id": "font_color",
+                "label": "Font Color Options",
+                "options": [
+                    {
+                        "value": "text-dark",
+                        "label": "Dark"
+                      },
+                    {
+                        "value": "text-light",
+                        "label": "White"
+                    }
+                ],
+                "default": "text-dark"
+            },
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Backgorund Color",
+                "default": "#E3DFD3"
+            },
+            {
+                "type": "color_background",
+                "id": "bg_gradient",
+                "label": "Backgorund Gradient"
+            },
+            {
+                "type": "image_picker",
+                "id": "bg_image",
+                "label": "Backgorund Image"
+            }
+        ]
+    }
+    ],
+    "presets": [{
+        "name": "HI23 Cards Fluid",
+        "blocks": [
+            {
+                "type": "card",
+                "settings": {
+                    "header": "PARA A SUA EMPRESA",
+                    "title": "BUSINESS TRANSFORMATION",
+                    "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+                    "bg_color": "#F3F0ED"
+                }
+            },
+            {
+                "type": "card",
+                "settings": {
+                    "header": "PARA VOCÊ",
+                    "title": "NOSSOS CURSOS",
+                    "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+                    "bg_color": "#E3DFD3"
+                    
+                }
+            }
+        ]
+  }]
+}
+{% endschema %} 

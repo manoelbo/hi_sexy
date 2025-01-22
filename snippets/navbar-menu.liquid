@@ -1,0 +1,35 @@
+<ul class="nav nav-links justify-content-center">
+    {% for link in linklists[section.settings.menu_desktop].links %}
+        {% if link.links == blank %}
+        <li class="nav-item">
+            <a href="{{ link.url }}" 
+               class="mx-2 nav-link" 
+               target="{% if link.type == 'http_link'%}_black {% endif %}"
+            >
+                {{ link.title }}
+            </a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+            <div class="d-inline-block dropdown nav-link">
+                <button class="dropdown-toggle navbar-toggler" type="button" id="custom-id-5lpdcv4k" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    {{ link.title }}
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="custom-id-5lpdcv4k" id="navbarNavDarkDropdown">
+                    {% for child_link in link.links %}
+                        <li>
+                            <a 
+                                id="navbar-childitem-{{ forloop.index }}" 
+                                class="dropdown-item {% if child_link.active %}active{% endif %}" 
+                                href="{{ child_link.url }}"
+                                aria-current="{% if child_link.active %}page{% endif %}">
+                                {{ child_link.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>

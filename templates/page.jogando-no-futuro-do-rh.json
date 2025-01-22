@@ -1,0 +1,1012 @@
+{
+  "sections": {
+    "sp_video_standalone_AVBwxP": {
+      "type": "sp-video-standalone",
+      "disabled": true,
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1500,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "video": "shopify:\/\/files\/videos\/Futuro do RH video horizontal teste.mp4",
+        "video_inline": true,
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": false,
+        "video_muted": true,
+        "big_play_pause_button": false
+      }
+    },
+    "content_PYFb8z": {
+      "type": "content",
+      "blocks": {
+        "content_KYwHFi": {
+          "type": "content",
+          "settings": {
+            "title": "",
+            "text": "",
+            "header": "Princípios que nos norteiam:",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_aVeEHf": {
+          "type": "content",
+          "settings": {
+            "title": "A mudança é constante.",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_bXKcrX": {
+          "type": "content",
+          "settings": {
+            "title": "Ninguém muda sozinho.",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_tCT9Af": {
+          "type": "content",
+          "settings": {
+            "title": "O mindset é a base da mudança.",
+            "text": "",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_KYwHFi",
+        "content_aVeEHf",
+        "content_bXKcrX",
+        "content_tCT9Af"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Explore o futuro e transforme sua empresa com a Hyper Island<\/strong>",
+        "text": "Na Hyper Island, capacitamos indivíduos e organizações para <strong>antecipar e se adaptar às mudanças de amanhã, hoje. <\/strong>Ao colaborarmos com empresas em todo o mundo, fomentamos culturas dinâmicas e inovadoras que impulsionam mudanças duradouras.",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#f5f5f5",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 16,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 5,
+        "pt_lg": 16,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 5,
+        "pt_sm": 13,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "content_ynN6LJ": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#f5f5f5",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 5,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 5,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "header_half_EqBWa7": {
+      "type": "header_half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Business Transformation<\/strong>",
+        "text": "Ao ouvirmos as necessidades da sua organização, podemos impulsionar a transformação em uma <strong>variedade de formatos, temas e outcomes<\/strong>, desenvolvendo as <strong>Meta Skills<\/strong> <strong>e mindset<\/strong> <strong>necessários <\/strong>para elevar o potencial dos seus colaboradores.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/Grafico_Futuro_do_RH.png",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
+      }
+    },
+    "header_YmATNf": {
+      "type": "header",
+      "blocks": {
+        "button_yzgHdr": {
+          "type": "button",
+          "settings": {
+            "text": "Quero fazer o Workshop com a minha equipe",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/jogando-no-futuro-do-rh\/#formulario",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "button_yzgHdr"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Etapa 2 - Jogando no Futuro do RH<\/strong>",
+        "text": "Na Etapa 2, mergulhe em uma exploração dinâmica e interativa baseada nos insights da Etapa 1, com o workshop ‘Jogando no Futuro do RH’. Vivencie como os cenários do futuro ganham vida através de ferramentas, conteúdo visual, vídeos envolventes e descobertas enriquecedoras em nossos eventos imersivos.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "default_spacing": true,
+        "pt_xl": 16,
+        "pb_xl": 16,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 16,
+        "pb_lg": 16,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "sp_video_hero_RQAQhy": {
+      "type": "sp-video-hero",
+      "settings": {
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 35,
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "cover_opacity": 25,
+        "button_background_color": "linear-gradient(164deg, rgba(NaN, NaN, NaN, 0), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#ffffff",
+        "text_color": "#ffffff",
+        "box_alignment": "left",
+        "text_alignment": "left",
+        "max_width": 3000,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_left": 10,
+        "padding_right": 10,
+        "element_spacing": 15,
+        "headline": "‎",
+        "content": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎",
+        "cta": "",
+        "cta_link": "#",
+        "hero_video": "shopify:\/\/files\/videos\/Futuro do RH video horizontal teste.mp4",
+        "video_inline": true,
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": false,
+        "video_muted": true
+      }
+    },
+    "sp_headline_with_pill_left_kbwq3q": {
+      "type": "sp-headline-with-pill-left",
+      "disabled": true,
+      "settings": {
+        "text_font": "madera_i4",
+        "text_size": 16,
+        "text_line_height": "inherit",
+        "headline_font": "sans-serif",
+        "headline_size": 25,
+        "headline_line_height": "inherit",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#000000",
+        "headline_color": "#111111",
+        "pill_color": "#ff7300",
+        "text_alignment": "left",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "headline": "",
+        "text": "QUOTE?"
+      }
+    },
+    "content_3hMHND": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Veja a dinâmica deste workshop em ação:<\/strong>",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#ffffff",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 14,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 0,
+        "pt_lg": 14,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 0,
+        "pt_sm": 11,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "sp_video_grid_to_slide_Tqhwtr": {
+      "type": "sp-video-grid-to-slide",
+      "blocks": {
+        "video_a4Cxgd": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/O Futuro do RH - Apresentação 6.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_BDWrhb": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/O Futuro do RH - Apresentação 4.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_mMWDzL": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/O Futuro do RH - Apresentação 5.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_bKzpQN": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/O Futuro do RH - Apresentação 1.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": false
+          }
+        }
+      },
+      "block_order": [
+        "video_a4Cxgd",
+        "video_BDWrhb",
+        "video_mMWDzL",
+        "video_bKzpQN"
+      ],
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "highlight_color": "#111111",
+        "video_aspect_ratio": "16 \/ 9",
+        "max_width": 1300,
+        "grid_gap": 25,
+        "padding_top": 60,
+        "padding_bottom": 35,
+        "padding_left": 10,
+        "padding_right": 10,
+        "big_play_pause_button": true,
+        "auto_slide": true
+      }
+    },
+    "content_byT66w": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Navegue pelas possibilidades futuras do RH com o seu time<\/strong>",
+        "text": "Engaje-se em discussões instigantes, ferramentas criativas e exercícios colaborativos enquanto navegamos pelas complexidades dos desafios de RH de amanhã.",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#ffffff",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 11,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 0,
+        "pt_lg": 11,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 0,
+        "pt_sm": 9,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "ss_gallery_1_DjPbai": {
+      "type": "ss-gallery-1",
+      "blocks": {
+        "image_jz8fYU": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-19_153612.png",
+            "gallery_url": ""
+          }
+        },
+        "image_damWCK": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225347.png",
+            "gallery_url": ""
+          }
+        },
+        "image_wr4tcE": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225259.png",
+            "gallery_url": ""
+          }
+        },
+        "image_FWczT3": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225245.png",
+            "gallery_url": ""
+          }
+        },
+        "image_74VRWj": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225334.png",
+            "gallery_url": ""
+          }
+        },
+        "image_CmTNqQ": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225403.png",
+            "gallery_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jz8fYU",
+        "image_damWCK",
+        "image_wr4tcE",
+        "image_FWczT3",
+        "image_74VRWj",
+        "image_CmTNqQ"
+      ],
+      "settings": {
+        "gallery_title": "",
+        "gallery_title_font_size": 20,
+        "gallery_insta_title": "",
+        "gallery_insta_url": "",
+        "gallery_image": "shopify:\/\/shop_images\/Captura_de_tela_2024-03-18_225434.png",
+        "gallery_url": "",
+        "section_bg_color": "#ffffff",
+        "type_header_font": "assistant_n4",
+        "type_insta_font": "assistant_n4",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "section-width": 120
+      }
+    },
+    "html_LyzRVG": {
+      "type": "html",
+      "settings": {
+        "html": "<div id=\"formulario\"><\/div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "newsletter_session_t9wUdh": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "Faça o workshop com a sua equipe",
+        "text": "Desafie a sua equipe a se jogar no futuro e prever as necessidades do mercado, das pessoas e da sua empresa",
+        "form_id": "6c2cbebf-ba70-4c77-9aa7-4ce80e2d76cc",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 10,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 10,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "header_fp43Lh": {
+      "type": "header",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Future Scenarios Playing Cards<\/strong>",
+        "text": "Na Hyper Island, desenvolvemos ferramentas para ajudar empresas a se prepararem para o que está por vir. Uma das ferramentas escolhidas para a dinâmica 'Jogando no Futuro do RH' é um jogo de cartas. Com as cartas ‘Future Scenarios’, você e sua equipe podem aplicar o Pensamento Futuro Episódico e explorar os sinais de mudança ao redor. Utilize-as para promover o pensamento criativo, gerar insights e aprimorar a previsão estratégica em um mundo em constante transformação.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-75",
+        "default_spacing": true,
+        "pt_xl": 16,
+        "pb_xl": 7,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 16,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 13,
+        "pb_sm": 4,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "sp_image_marquee_carrossel_a8n8PV": {
+      "type": "sp-image-marquee-carrossel",
+      "blocks": {
+        "image_GmQcr4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HD_Future_Scenario_Porta_Cards_Mockup_2.jpg",
+            "link": ""
+          }
+        },
+        "image_qNbn4d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/futuro_do_rh_mockup_cards_2.jpg",
+            "link": ""
+          }
+        },
+        "image_NdGqmT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/futuro_do_rh_cards_4.jpg",
+            "link": ""
+          }
+        },
+        "image_fgWfat": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Future_Scenario_Porta_Cards_Mockup_3.jpg",
+            "link": ""
+          }
+        },
+        "image_DiRmXk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/futuro_do_rh_mockup_cards.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GmQcr4",
+        "image_qNbn4d",
+        "image_NdGqmT",
+        "image_fgWfat",
+        "image_DiRmXk"
+      ],
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "slideshow_speed": "15s",
+        "image_aspect_ratio": "1 \/ 1",
+        "max_width": 1500,
+        "height": 300,
+        "grid_gap": 25,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 10,
+        "padding_right": 10
+      }
+    },
+    "header_Q9RjbD": {
+      "type": "header",
+      "blocks": {
+        "button_DJihBK": {
+          "type": "button",
+          "settings": {
+            "text": "Baixar Future Scenario Cards",
+            "url": "https:\/\/share.hsforms.com\/1JyA2Z1D9Sb2P1vXQ7QtoRgy1ws",
+            "target": false,
+            "style": "rounded-black"
+          }
+        }
+      },
+      "block_order": [
+        "button_DJihBK"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Como usar<\/strong>",
+        "text": "Você pode usar as cartas de várias maneiras, seja para explorar cenários possíveis individualmente ou para iniciar discussões e atividades de cenários em equipe ou grupo de amigos. Criamos um conjunto claro de instruções para conduzir a atividade completa com todas as cartas, que pode levar de 2 a 4 horas.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-3",
+        "text_size": "fs-5",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-75",
+        "default_spacing": true,
+        "pt_xl": 12,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 12,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 9,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "richtext_GXD9JL": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "600",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "<p>Cada carta apresenta um cenário imaginativo para 2035 e dilemas que ajudam você a se colocar nesse contexto especulativo. Utilize as cartas para explorar tendências e o impacto das mudanças sociais, tecnológicas e culturais em você e sua organização e, praticando assim o Pensamento Futuro Episódico, uma das Meta Skills fundamentais para líderes.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 8,
+        "mb": 14
+      }
+    },
+    "card_fluid_F69TCJ": {
+      "type": "card-fluid",
+      "blocks": {
+        "card_EBLAX3": {
+          "type": "card",
+          "settings": {
+            "header": "Etapa 1",
+            "title": "Revelando o Futuro do RH",
+            "text": "Baixe o relatório realizado em parceria com líderes de RH de todas as Américas.",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/revelando-o-futuro-do-rh\/#relatorio",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#f5f5f5",
+            "bg_gradient": ""
+          }
+        },
+        "card_xRGFgN": {
+          "type": "card",
+          "settings": {
+            "header": "Etapa 3",
+            "title": "HR2035",
+            "text": "Prepare-se para o cenário do RH em 2035",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/rh2035",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#f3f0ed",
+            "bg_gradient": ""
+          }
+        },
+        "card_QL77hm": {
+          "type": "card",
+          "settings": {
+            "header": "VÁ ALÉM",
+            "title": "Explore nossos recursos adicionais",
+            "text": "Melhore suas Meta Skills e se torne o profissional do futuro!",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/recursos-gratuitos",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#e3dfd3",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_EBLAX3",
+        "card_xRGFgN",
+        "card_QL77hm"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "layout": "col-lg-4",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 13,
+        "mb_xl": 13,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 13,
+        "mb_lg": 13,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "button_section_pem6WU": {
+      "type": "button-section",
+      "blocks": {
+        "button_RpyUrf": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar email",
+            "url": "mailto:benito.berretta@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_RpyUrf"
+      ],
+      "settings": {
+        "title": "QUER PREPARAR SUA EQUIPE PARA O FUTURO?",
+        "text": "Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "img": "shopify:\/\/shop_images\/Beni.png",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "html_jdGtpN": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<style>\n    #cap-1-intro {\n        display: block;\n        width: 100%;\n        background-color: #ff7300;\n        padding: 10px 0; \/* Adicione padding para espaçamento interno se necessário *\/\n    }\n<\/style>\n\n<a id=\"cap-1-intro\" data-hs-anchor=\"true\"><\/a>\n<h2 style=\"line-height: 1.25;\">\n    <span style=\"font-size: 60px;\"><span style=\"color: #ff7300;\"> 01<\/span> <\/span>\n    <span style=\"font-size: 60px;\"> <span style=\"color: #000000;\">Introdução<\/span><\/span>\n    <span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span>\n<\/h2>\n\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h5 style=\"line-height: 1.5; font-size: 30px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\">A linguagem é o roteiro de uma cultura.<\/span><\/span><\/h5>\n<h5 style=\"line-height: 1.5; font-size: 16px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\"><span style=\"font-size: 30px;\"> Ela diz de onde seu povo vem e para onde está indo.<br><\/span><br><span style=\"color: #ff7300;font-size: 20px;\">RITA MAE BROWN<\/span><\/span><\/span><\/h5><h5>\n<\/h5><p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span><\/p>\n<p style=\"line-height: 1.75;\"><span style=\"color: #000000; font-size: 16px;\"><span style=\"color: #000000;\">Em um sábado ensolarado de fim de inverno, Beni Berretta, em Nova York, e eu, Ale Morrison, em Toronto, analisamos os resultados das mais de 30 entrevistas que realizamos, refletindo sobre os significados mais profundos por trás dos temas. O que está por trás da superfície das mudanças organizacionais? Como podemos oferecer novas perspectivas para o cenário de gerenciamento em evolução? É essa introspecção que queremos compartilhar com você, com base em nossas experiências, e esperamos que ela amplie seus horizontes.<\/span><\/span><\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">As perspectivas<\/h3>\n<p style=\"line-height: 1.75;\">Esta obra foi elaborada com três perspectivas principais em mente. Combinamos os insights sinceros daqueles que compartilharam suas dores, dúvidas e crenças com as reflexões de nossos leitores. Convidamos você a se juntar a nós nessa jornada, contemplando conosco e enriquecendo nossas percepções com as suas próprias, aprofundando assim nosso entendimento coletivo.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">A linguagem: Recursos Humanos ou perspectiva humana?<\/h3>\n<p style=\"line-height: 1.75;\">Vamos começar com a linguagem. As pessoas são apenas recursos? Não mais, nunca foram. A humanidade se incorporou totalmente à mentalidade, à agenda e às ações das organizações. O campo de Recursos Humanos adotou novos títulos (Pessoas e Gestão, Capital Humano, Desenvolvimento Humano e Organizacional, Gestão de Pessoas e Organizações, entre outros), mas a transformação nas organizações ainda está ocorrendo.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">Onde a área concentra seu olhar agora?<\/h3>\n<p style=\"line-height: 1.75;\">Em nossas conversas, ficou evidente que ela olha para o todo, para a empresa integrada à sociedade, por meio de uma lente humana. Estamos nos afastando da linguagem predominante na era pós-guerra, quando as organizações viam os indivíduos como recrutas, estagiários e entidades compensáveis. Estamos fazendo a transição para atrair, envolver, desenvolver, educar e reconhecer os indivíduos. A nomenclatura deve espelhar a função moderna do RH, que não se trata apenas de gerenciar pessoas, mas também de promover um ambiente de trabalho positivo e produtivo, cultivar talentos e ajudar os colaboradores e as organizações a obterem sucesso. Aqui, pedimos que você reflita: que terminologia melhor resume o propósito em evolução desse campo transformador? Nesta publicação, nos referimos ao campo de Recursos Humanos como RH, reconhecendo seu significado em evolução.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">Nossas perguntas:<\/h3>\n<p style=\"line-height: 1.75; padding-left: 40px;\"><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Como o RH tem nutrido sua agenda e seu pessoal?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Quais funções estão sendo adotadas e com que atenção?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Que atributos são exigidos da liderança nesse contexto?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Como o novo RH conceitua o quê, o como, o porquê, e para quem?<\/p>\n<p> <\/p>\n<h3 style=\"line-height: 1.25;\">Os principais temas<\/h3>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Há muito acontecendo no mundo, não só na tecnologia. O mundo está em crise e todas as polaridades estão refletidas na área de gente.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">CAROLINE CARPENEDO<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p><br>O que o futuro reserva para o RH? Como essa função se interconectará com outras? Qual será o perfil desejado e as habilidades necessárias dos profissionais de RH? Encontramo-nos navegando em mares tempestuosos, suspensos entre o passado que se esvai e o futuro discernível, porém intangível, presos na transição. Houve progresso, mas ele é desigual.<\/p>\n<p style=\"font-weight: bold;\"><span style=\"color: #ff7300;\">As respostas são escassas, as perguntas são abundantes.<\/span><\/p>\n<p><strong>Em nossas discussões com líderes empresariais e CHROs\/CPOs<\/strong>, encontramos um estado de espírito predominante - <span style=\"text-decoration: underline;\">uma mistura de cansaço e otimismo<\/span>. Cansaço decorrente das demandas operacionais que persistem apesar dos avanços da automação; cansaço decorrente da necessidade contínua de adaptação, desenvolvimento de habilidades, expansão dos limites e ampliação dos temas. O otimismo surge da clareza daqueles que estão acostumados a liderar em meio ao desconforto, adaptando-se ao novo e acreditando no potencial da humanidade para sair fortalecida das crises.<\/p>\n<p>Neste material, apresentamos os insights obtidos em nossas conversas e reuniões, com o objetivo de ampliar sua compreensão do cenário atual e esclarecer o futuro.<\/p>\n<a id=\"cap-2-contextos\" data-hs-anchor=\"true\"><\/a>\n<p>Nossa sincera gratidão se estende a todos os líderes que generosamente compartilharam seu tempo, suas percepções e sua sabedoria, permitindo-nos embarcar nessa profunda reflexão.<\/p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_VALLD6": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<style>\n    #cap-1-intro {\n        display: block;\n        width: 100%;\n        background-color: #ff7300;\n        padding: 10px 0; \/* Adicione padding para espaçamento interno se necessário *\/\n    }\n<\/style>\n\n<a id=\"cap-1-intro\" data-hs-anchor=\"true\"><\/a>\n<h2 style=\"line-height: 1.25;\">\n    <span style=\"font-size: 60px;\"><span style=\"color: #ff7300;\"> 02<\/span> <\/span>\n    <span style=\"font-size: 60px;\"> <span style=\"color: #000000;\">Contextos<\/span><\/span>\n    <span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span>\n<\/h2>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Antes focávamos na resposta, hoje na capacidade de fazer as melhores perguntas.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">KARLA SCHLIEPER<\/span><\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span><\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">2.1<\/span> A pandemia e além<\/h3>\n<p style=\"line-height: 1.75;\">Durante a pandemia, o RH se viu na linha de frente, abordando questões cruciais como preservar a vida das pessoas, diversidade e inclusão, saúde mental e aprofundar análise de dados, em meio a estruturas ágeis e transformações digitais. No entanto, em meio a esse fluxo, surgiram dúvidas:<\/p>\n<a id=\"cap-2-2.2\" data-hs-anchor=\"true\"><\/a>\n<p style=\"line-height: 1.75; padding-left: 40px;\"><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong><span style=\"font-weight: normal;\">Como discernir informações vitais em meio a uma enorme quantidade de dados?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Que mentalidade é necessária para que o RH mantenha o foco em meio a mudanças rápidas?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Como desenvolver a identidade e ocupar novos espaços nesse cenário mutável?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Como desaprender velhas práticas e adotar novas perspectivas?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Como manter a disciplina em meio à evolução constante e às demandas emergentes?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Como adquirir novos conhecimentos e expertise, como a identificação de desafios de saúde mental?<\/span><br><span style=\"font-weight: normal;\"><span style=\"color: #ff7300;\">○<\/span> Que novas parcerias e relacionamentos com as partes interessadas precisam ser cultivados?<\/span><span><\/span><\/p>\n<h3 style=\"line-height: 1.25;\"> <\/h3>\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">2.2<\/span> Um novo protagonismo<\/h3>\n<p style=\"line-height: 1.75;\">Nesse cenário em evolução, o RH assume um novo papel como protagonista proativo, adaptando-se constantemente às transformações sociais e organizacionais. O modelo tradicional de ver os colaboradores como recursos em uma organização semelhante a uma máquina não é mais suficiente, este modelo adoeceu as pessoas e exauriu o planeta. Em vez disso, o RH deve preparar a cultura, a organização e suas equipes para os desafios atuais e futuros. Ele deve criar espaços de pertencimento e propósito, nutrindo valores que se alinham com o contexto empresarial em rápida mudança.<br><br><\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Os desafios atuais do RH estão em  \n<br>a) ser ambidestro (conviver com protocolos tradicionais, enquanto aprende a realizar novos protocolos), \n<br>b) interpretar o mundo e trazer clareza da nova realidade de gestão; \n<br>c) evoluir uma nova forma de avaliação neste novo contexto; \n<br>d) ressignificar o papel da liderança; \n<br>e) foco externo, acompanhar tendências e movimentos das redes sociais, que são os juízes das práticas e da cultura.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">CHRISTIAN CETERA<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 6,
+        "pb": 5,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_MK38cC": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<p><strong><span><span style=\"background-color: #ff7300;\"> 2 <\/span><\/span> Navegar curiosamente pelas incertezas:<\/strong><span> <\/span>entender que parte da agenda é incontrolável e que nas surpresas residem oportunidades.<\/p>\n<p><strong><span><span style=\"background-color: #ff7300;\"> 3 <\/span><\/span> Garantir agenda e atuação integrados a visão do todo:<span> <\/span><\/strong>um olhar para o ciclo do indivíduo (como atrai, seleciona, engaja, desenvolve, avalia e remunera) alinhada ao ciclo da organização (como desenvolve planos, define e cascateia objetivos, como organiza as pessoas para o trabalho, como desenvolve competências organizacionais, gerencia e alinha a cultura, clarifica propósito e fomenta relações de confiança)<\/p>\n<p><strong><span><span style=\"background-color: #ff7300;\"> 4 <\/span><\/span> Viver o pulso do negócio com flexibilidade<span> <\/span><\/strong>para ajustar agendas sem perder o foco no curto e longo prazos.<\/p>\n<p><strong><span><span style=\"background-color: #ff7300;\"> 5 <\/span><\/span> Conectar-se genuinamente aos stakeholders<\/strong>, desenvolvendo relações de parceria em prol da agenda estratégica e propósito da organização. O impacto do RH é diretamente proporcional a qualidade da relação com o CEO e os stakeholders-chave, criando espaços para escuta, troca de feedbacks, discutir estratégias e co-criar caminhos de solução. <br><strong><br><span><span style=\"background-color: #ff7300;\"> 6 <\/span><\/span> Ter coragem de se posicionar:<\/strong><span> <\/span>nem é só sobre sentar-se à mesa, mas sobre o que se impacta ao sentar-se à mesa decisória.<\/p>\n<a id=\"cap-2-2.3\" data-hs-anchor=\"true\"><\/a>\n<p><span><strong><span style=\"background-color: #ff7300;\"> 7 <\/span> Se conhecer e se autocuidar para cuidar do outro. <\/strong>Estar atento aos sinais do contexto, presente para refletir e escolher as respostas a serem dadas e conectado para co-construir as agendas necessárias. <\/span><\/p>\n<p> <\/p>\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">2.3<\/span> O contexto da liderança<\/h3>\n<p style=\"line-height: 1.75;\">A liderança também enfrenta desafios para equilibrar metas de curto prazo com visões de longo prazo. <span style=\"font-weight: normal;\"><span style=\"font-weight: bold;\">As organizações estão deixando de se concentrar em ser as melhores do mundo e passando a ser as melhores para o mundo, adotando valores de ESG e estruturas colaborativas<\/span>.<\/span> No entanto, os líderes enfrentam problemas operacionais, contextos voláteis e modelos mentais que resistem à mudança. Fazer a ponte entre as expectativas dos colaboradores e as práticas de liderança é um desafio diário. Os líderes devem se adaptar à complexidade, abraçar a diversidade e redefinir suas funções em um local de trabalho em evolução.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.8; font-size: 30px;\">Neste novo contexto em que estamos vivendo, tenho trabalhado cinco competências com a minha liderança: \n<br>1) criar confiança, \n<br>2) agir com coragem; \n<br>3) promover colaboração, <br>4) gerenciar complexidade e \n<br>5) desenvolver times de alta performance. Todas soft skills. É o que muda o jogo.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">GUSTAVO QUEIROZ<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><br><\/span><\/p>\n<p>Cabe à área de RH articular o caminho para desenvolvimento das competências necessárias para dar conta dos desafios atuais e futuros. Averiguamos um foco maior em desenvolver meta skills, mais perenes e que cria nos líderes um contorno para lidar com a volatilidade de temas e contextos.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Quando se busca um líder, avalia-se sua conexão com o propósito da organização, sua capacidade de influenciar, conectar-se e mobilizar pessoas para transformar negócios e sua conexão com o mundo externo (mentalidade de explorador).<\/h6>\n<a id=\"cap-2-2.4\" data-hs-anchor=\"true\"><\/a>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">GONZALO URIBE<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><\/span><\/p>\n<p> <\/p>\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">2.4<\/span> Desafios da gerência média: ensanduichados<\/h3>\n<p style=\"line-height: 1.75;\">Os gerentes de nível médio se veem espremidos entre a alta liderança e as expectativas dos colaboradores. A dinâmica organizacional favorece geralmente a ação em detrimento da reflexão, deixando pouco espaço para discussões cruciais sobre o equilíbrio entre a vida pessoal e profissional, desenvolvimento do colaborador, e arranjos de trabalho flexíveis. À medida que a sociedade muda, as organizações que respeitam as diversas necessidades e promovem a segurança psicológica serão a escolha preferida de colaboradores e candidatos. Com a pandemia, o valor da vida passou a ser o centro das atenções, alterando a própria essência do relacionamento com o trabalho. A tecnologia, embora útil, não pode substituir a importância de <span style=\"font-weight: bold;\">cultivar relacionamentos humanos<\/span> dentro das organizações.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Com a pandemia surgiu a reflexão de quanto tempo eu quero dispor para a minha relação com o trabalho, intensificará os arranjos flexíveis como o meio período, a semana de 4 dias, etc. As pessoas descobrem que há \"vida\" para além do trabalho. É transformacional. Precisamos olhar para o que está mudando dentro das pessoas.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">MARCELO ARANTES<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<a id=\"cap-3-temas\" data-hs-anchor=\"true\"><\/a>\n<h6 style=\"line-height: 1.5; font-size: 36px; font-weight: bold;\"><span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Na seção seguinte, aprofundamos os temas centrais que moldam o futuro do RH, \n<br>elucidando as estratégias que capacitam os profissionais de RH a enfrentar \n<br>esses desafios de forma eficaz.<\/span><\/span><\/h6>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_pwPMhd": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<style>\n    #cap-1-intro {\n        display: block;\n        width: 100%;\n        background-color: #ff7300;\n        padding: 10px 0; \/* Adicione padding para espaçamento interno se necessário *\/\n    }\n<\/style>\n\n<a id=\"cap-1-intro\" data-hs-anchor=\"true\"><\/a>\n<h2 style=\"line-height: 1.25;\">\n    <span style=\"font-size: 60px;\"><span style=\"color: #ff7300;\"> 03<\/span> <\/span>\n    <span style=\"font-size: 60px;\"> <span style=\"color: #000000;\">Temas Centrais<\/span><\/span>\n    <span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span>\n<\/h2>\n\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Negócios e pessoas estão intimamente ligados.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Não se faz negócios sem pessoas.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">KARLA SCHLIEPER<\/span><\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span><\/p>\n<p><br>O que têm em comum nossos 5 temas centrais? Eles representam problemas complexos, aqueles que não possuem uma solução única. Se há múltiplas soluções, estas podem ser independentes entre si. <\/p>\n<p>Um problema complexo é caracterizado por ter soluções interdependentes. Não se resolve completamente um problema complexo; ao invés disso, pode-se buscar constantemente superá-lo em uma dança contínua, como na narrativa de Alice no País das Maravilhas, enquanto enfrenta a entropia natural deste tipo de sistema<\/p>\n<p style=\"line-height: 1.75;\">Os problemas complexos têm intrinsecamente uma gestão para a qual não estamos acostumados: o desdobramento do pensamento paradoxal em gestão de polaridades. Essa capacidade de reconhecer que em cada problema complexo essas forças opostas não são mutuamente excludentes, mas sim interdependentes e necessárias para o crescimento e a inovação. O objetivo da gestão de polaridades não é eliminar ou resolver essas tensões, mas <span style=\"font-weight: bold;\">criar um equilíbrio dinâmico<\/span> entre elas.<br><br><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">O <span style=\"text-decoration: underline;\">paradoxo<\/span> é a <span style=\"text-decoration: underline;\">paixão<\/span> do <span style=\"text-decoration: underline;\">pensamento<\/span>, e o pensador <span style=\"text-decoration: underline;\">sem paradoxo<\/span> é como o amante <span style=\"text-decoration: underline;\">sem paixão<\/span>.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">SØREN KIERKEGAARD<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><\/span><\/p>\n<p style=\"line-height: 1.75;\">O primeiro passo para atuar nesses 5 temas centrais é reconhecer as duas forças opostas em jogo em uma situação para criar um equilíbrio dinâmico entre as duas polaridades. Isso significa que a organização ou equipe deve ser capaz de se flexibilizar e adaptar às demandas mutantes da situação, sem permitir que qualquer polaridade se torne dominante.<\/p>\n<p style=\"line-height: 1.75;\">No fundo, <span style=\"font-weight: bold;\">estes 5 temas centrais não são problemas a serem resolvidos, mas sim tensões a serem gerenciadas<\/span>. Isso significa que a organização ou equipe deve estar confortável com o desconforto de manter a tensão entre as duas polaridades.<\/p>\n<p style=\"line-height: 1.75;\">Nesta seção, vamos nos aprofundar nos temas centrais que definem a agenda atual das práticas de RH. Esses aspectos fundamentais não apenas refletem as necessidades em evolução da força de trabalho, mas também enfatizam a direção estratégica que os profissionais de RH devem adotar para garantir a vitalidade organizacional.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25; font-size: 30px; text-align: center;\">As Organizações<\/h3>\n\n<div data-hs-responsive-table=\"true\" style=\"overflow-x: auto; max-width: 100%; width: 100%; margin-left: auto; margin-right: auto;\">\n<table style=\"width: 100%; border-collapse: collapse; table-layout: fixed; border: 1px solid #99acc2; height: 328.35px;\">\n<tbody>\n<tr style=\"height: 55px;\">\n<td style=\"width: 33.294%; padding: 4px; text-align: center; background-color: #ffffff; border-style: hidden; height: 55px;\">\n<h6>DE<\/h6>\n<\/td>\n<td style=\"width: 33.294%; padding: 4px; text-align: center; background-color: #ffffff; border-style: hidden; height: 55px;\">\n<h6> <\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; text-align: center; background-color: #ffffff; border-style: hidden; height: 55px;\">\n<h6>PARA<\/h6>\n<\/td>\n<\/tr>\n<tr style=\"height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; text-align: center; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Silos<\/td>\n<td style=\"width: 33.294%; padding: 4px; text-align: center; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">CULTURA<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; text-align: center; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Colaboração<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Fixo<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">HABILIDADES<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Constantemente aprendendo<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">O \"que\"<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">FUNDAMENTOS<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">O \"como\"<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Linear<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">ORGANIZAÇÃO<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Resposta ágil<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Comando e Controle<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">LIDERANÇA<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Proatividade<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Foco no Produto<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">INOVAÇÃO<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #e3dfd3; border-style: hidden;\">Centralização no Consumidor<\/td>\n<\/tr>\n<tr style=\"text-align: center; height: 39.05px;\">\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Uma via<\/td>\n<td style=\"width: 33.294%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">\n<h6><span style=\"color: #ff7300;\">ENGAJAMENTO<\/span><\/h6>\n<\/td>\n<td style=\"width: 33.2958%; padding: 4px; height: 39.05px; background-color: #f3f0ed; border-style: hidden;\">Redes<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n<a id=\"cap-3-3.1\" data-hs-anchor=\"true\"><\/a>\n<p style=\"text-align: center;\"> <\/p>\n\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">3.1<\/span> Bem-estar e saúde mental dos colaboradores na era digital<\/h3>\n<p style=\"line-height: 1.75;\">Na rede interconectada da era digital, o bem-estar dos colaboradores é uma preocupação fundamental para os profissionais de RH. O rápido influxo da tecnologia trouxe uma conveniência sem precedentes, mas também obscureceu os limites entre o trabalho e a vida pessoal. À medida que o RH navega por essas águas complexas, torna-se imperativa uma ênfase profunda no bem-estar dos colaboradores.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Um tema recorrente é como preparar a liderança para lidar com este mundo pós-pandemia, mais flexível, em busca de equilíbrio e propósito.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">TATIANA GODOI <\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p> <\/p>\n<p style=\"padding-left: 40px;\"><strong><span style=\"color: #ff7300;\">○ <\/span><\/strong><span style=\"color: #000000; font-weight: normal;\"><span style=\"text-decoration: underline;\"><span style=\"font-weight: bold;\">Abraçando o equilíbrio entre os diferentes papéis na vida<\/span><\/span>: em uma época em que os smartphones nos prendem ao trabalho 24 horas por dia, o papel do RH é defender a importância do equilíbrio entre as diferentes dimensões e papéis na vida. Incentivar os colaboradores a se desconectarem após o horário de expediente, respeitar o tempo pessoal e delinear limites claros entre os deveres profissionais e a vida pessoal é fundamental. As iniciativas de RH se concentram em garantir que as ferramentas digitais destinadas a aumentar a produtividade não invadam a vida privada dos colaboradores.<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <\/span><\/strong><span style=\"text-decoration: underline;\"><span style=\"font-weight: bold;\">Bem-estar mental e emocional<\/span><\/span>: o dilúvio digital deu origem a uma cultura \"sempre ativa\" e comparativa, levando ao aumento do estresse e do esgotamento. O contexto de mundo em que vivemos, perdas de entes queridos, desafios de alinhar diferentes mindsets, polarização, guerras, paradoxos, entre outros se tornam mais visíveis e influenciam o desgaste. As estratégias de RH se aprofundam na promoção da resiliência mental e emocional. Isso envolve a desestigmatização das discussões sobre saúde mental, a oferta de serviços de aconselhamento e a organização de workshops que abordem o gerenciamento do estresse e o bem-estar emocional. A criação de um ambiente de apoio em que os colaboradores se sintam seguros para discutir seus problemas de saúde mental é a base da abordagem do RH.<br><br><\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Uma nova demanda para o RH é fornecer aos líderes ferramentas para nutrir o autocuidado. O conceito de que os líderes precisam estar em um estado de maior empatia e energia para interagir com os outros é relativamente novo e triplamente desafiante porque o RH teve que se readequar em 3 patamares no que diz respeito à saúde mental: a) como o RH se prepara, b) como prepara o próprio tempo e C) como o RH ajuda os líderes para esse desafio.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">SAMANTHA DUTRA <\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><br><\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span><\/p>\n<p style=\"padding-left: 40px;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Saúde física e ergonomia<\/span><\/span><\/span><\/strong><span style=\"color: #000000; font-weight: normal;\">: o trabalho híbrido, uma tendência predominante na era digital, traz desafios ergonômicos. O RH precisa tomar medidas proativas para proteger a saúde física dos colaboradores. Isso inclui fornecer diretrizes para a criação de escritórios ergonômicos em casa, realizar avaliações ergonômicas virtuais e oferecer subsídios para móveis ergonômicos. Além disso, o RH promove o bem-estar físico por meio de programas de condicionamento físico, incentivando a prática regular de exercícios e organizando exames de saúde.<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Desintoxicação digital e atenção plena<\/span><\/span><\/span><\/strong>: o envolvimento digital constante pode levar à sobrecarga de informações e à diminuição da produtividade. O RH defende períodos de desintoxicação digital durante o dia de trabalho, incentivando pequenos intervalos para se desconectar das telas. Além disso, sessões de atenção plena e meditação são integradas à rotina de trabalho. Essas práticas melhoram o foco, reduzem o estresse e promovem o bem-estar geral, estimulando uma força de trabalho mais saudável e engajada.<\/span><span style=\"color: #000000; font-weight: normal;\"><\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Promoção de uma comunidade de apoio<\/span><\/span><\/span><\/strong>: a era digital, ao mesmo tempo, em que aumenta a conectividade, às vezes pode criar uma sensação de isolamento. O RH se esforça para promover um senso de comunidade entre os colaboradores. As atividades virtuais de formação de equipes, os fóruns online para discussões não relacionadas ao trabalho e os eventos virtuais interativos são organizados para estimular as conexões. As iniciativas de RH visam recriar a camaradagem encontrada nos locais de trabalho tradicionais, garantindo que os colaboradores se sintam valorizados, apoiados e conectados, independentemente de sua localização física.<\/span><\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Observo que a questão da Saúde Mental está mais presente na população mais jovem e ainda vamos lidar com este tema em novas ondas. A liderança não foi preparada para lidar com esta questão.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">PAULA JACOMO<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><br><\/span><\/p>\n<p>Na era digital, o RH surge como o guardião do bem-estar dos colaboradores, elaborando estratégias holísticas que abordam as dimensões multifacetadas do bem-estar. Ao priorizar o equilíbrio entre os papéis, a saúde mental e emocional, o bem-estar físico, a desintoxicação digital e a promoção de um senso de comunidade, o RH prepara o caminho para uma força de trabalho que prospera na era digital, <span style=\"font-weight: bold;\">alcançando um equilíbrio harmonioso entre produtividade e bem-estar<\/span>.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Três temas são fundamentais para a liderança hoje: o balanço entre produtividade e burnout, a recuperação das skills sociais e a sabedoria em navegar no híbrido, no ambiente líquido, principalmente com a comunicação.<\/h6>\n<a id=\"cap-3-3.2\" data-hs-anchor=\"true\"><\/a>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">FEDERICO GROSSO<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p> <\/p>\n<h3 style=\"line-height: 1.25;\">\n<span style=\"color: #ff7300;\">3.2<\/span> Adotar a diversidade, a equidade e a inclusão<\/h3>\n<p style=\"line-height: 1.75;\">Na tapeçaria dos locais de trabalho modernos, a diversidade, a equidade e a inclusão (DEI) formam os fios vibrantes que tecem um ambiente rico e harmonioso. Reconhecendo os pontos fortes e as perspectivas únicas que os indivíduos de diversas origens trazem, os profissionais de RH defendem a causa da DEI com um compromisso inabalável. A adoção da diversidade não é apenas uma caixa de seleção, mas uma pedra angular sobre a qual são construídas ideias inovadoras, culturas empáticas e mudanças transformadoras.<\/p>\n<p>Nossos entrevistados mencionaram que veem avanços significativos na representatividade da diversidade nas organizações, mas ainda um desafio importante em aprofundar as discussões e efetivamente chegar à inclusão. Letramento é a prática mais utilizada para promover esta travessia, criando espaços para conversas genuínas e a ampliação da consciência sobre o tema.<\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 20px;\">DE&amp;I veio para ficar, hoje o olhar para o S do ESG vai muito além da agenda social, é um tema de negócios. Um exemplo é como evitar o trabalho análogo a escravidão na cadeia de valor do negócio.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 16px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">FLAVIA PORTO<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p style=\"padding-left: 40px;\"><strong><span style=\"color: #ff7300;\"><br>○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Criação de culturas inclusivas<\/span><\/span><\/span><\/strong><span style=\"color: #000000; font-weight: normal;\">: o RH lidera a criação de culturas inclusivas no local de trabalho, onde todas as vozes são ouvidas e valorizadas. Isso vai além da aceitação superficial, pois se trata de promover um ambiente em que colaboradores de diversas etnias, gêneros, orientações sexuais, habilidades e origens se sintam genuinamente bem-vindos. Políticas inclusivas, letramento, práticas não discriminatórias e políticas de tolerância zero contra o assédio formam o alicerce dessas culturas.<\/span><\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 18px;\">Com um entorno social fragilizado, a empresa ocupa o espaço de inclusão econômica, social e cultural que se reflete na relação com a liderança. Assim, nesta relação com a liderança surgem os desafios de inclusão, temas de saúde mental e uma necessidade de um olhar delicado e individualizado para o ser humano. Uma demanda deste novo contexto de mundo.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 16px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">MARCIA COSTA<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\"><br><\/span><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Promoção da igualdade de oportunidades<\/span><\/span><\/span><\/strong><span style=\"color: #000000; font-weight: normal;\">: as iniciativas do DEI sob a orientação do RH concentram-se em oferecer oportunidades iguais para todos os colaboradores. Isso envolve práticas de contratação justas, oportunidades de promoção imparciais e estruturas de remuneração equitativas. O RH se envolve ativamente na eliminação de barreiras à entrada, garantindo que os talentos sub-representados não sejam apenas recrutados, mas também tenham acesso a oportunidades de crescimento e liderança.<\/span><span style=\"color: #000000; font-weight: normal;\"><\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Cultivar a competência cultural<\/span><\/span><\/span><\/strong>: o RH investe em programas de treinamento para aumentar a competência cultural dos colaboradores. Esses programas educam a equipe sobre diferentes culturas, tradições e perspectivas, promovendo o respeito e a compreensão mútuos. Por meio de workshops e sessões interativas, os colaboradores aprendem a valorizar a diversidade e a abraçar a riqueza que ela traz ao local de trabalho.<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline; color: #000000;\">Fortalecimento dos Grupos de Recursos dos Colaboradores (Employee  Resource Groups - ERGs)<\/span><\/span><\/strong>: O RH apoia a formação de ERGs, capacitando os colaboradores a se conectarem com base em identidades ou experiências compartilhadas. Esses grupos funcionam como espaços seguros para diálogo, orientação e defesa. O RH fornece recursos e plataformas para que os ERGs organizem eventos, celebrem o patrimônio cultural e aumentem a conscientização sobre questões relevantes. Os ERGs amplificam as vozes marginalizadas, garantindo que a organização aprenda com as diversas narrativas.<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline; color: #000000;\">Abordagem dos vieses inconscientes<\/span><\/span><\/strong>: o RH toma medidas proativas para abordar o preconceito inconsciente predominante nos processos de tomada de decisão. São realizados programas de treinamento, workshops e campanhas de conscientização para identificar e atenuar os preconceitos. Ao promover a autoconsciência e a compreensão, tanto os colaboradores quanto os líderes aprendem a tomar decisões conscientes e imparciais, o que leva a um local de trabalho mais justo e inclusivo.<\/span><\/p>\n<p style=\"padding-left: 40px;\"><span style=\"color: #000000; font-weight: normal;\"><strong><span style=\"color: #ff7300;\">○ <span style=\"text-decoration: underline;\"><span style=\"color: #000000; text-decoration: underline;\">Nicho afetivo<\/span><\/span><\/span><\/strong>: a colaboração com diversas iniciativas apoiando empresas pertencentes a minorias, mulheres, indivíduos LGBTQ+ e outros grupos sub-representados gera exposição e empatia com realidades heterogêneas, e promove um olhar inclusivo.<\/span><\/p>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 18px;\">A questão da diversidade de gênero impacta também o tema saúde e bem-estar. A forma como algumas decisões são tomadas, como, por exemplo, a volta total ao escritório, é claramente tomada por pessoas que não têm a responsabilidade de cuidar. Quando as mulheres influenciam essas decisões, consideram os impactos de forma mais abrangente.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 16px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">Esta fala é de uma entrevistada que pediu para não ser identificada.<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<br><br><\/span><\/p>\n<p>Ao adotar a diversidade, a equidade e a inclusão, o RH se posiciona como a vanguarda do progresso social no local de trabalho. Ao cultivar culturas inclusivas, promover a igualdade de oportunidades, cultivar a competência cultural, capacitar os ERGs, lidar com preconceitos inconscientes e estabelecer parcerias com diversos fornecedores, o RH abre caminho para um local de trabalho em que cada indivíduo não é apenas aceito, mas celebrado, em que as diferenças não são apenas reconhecidas, mas valorizadas e em que a equidade e a inclusão não são aspirações, mas realidades vividas.<\/p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 10,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "newsletter_session_jqnCdq": {
+      "type": "newsletter-session",
+      "disabled": true,
+      "settings": {
+        "title": "RECEBA NOSSOS CONTEÚDOS",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 10,
+        "pb_xl": 0,
+        "mt_xl": 5,
+        "mb_xl": 0,
+        "pt_lg": 11,
+        "pb_lg": 0,
+        "mt_lg": 12,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    }
+  },
+  "order": [
+    "sp_video_standalone_AVBwxP",
+    "content_PYFb8z",
+    "content_ynN6LJ",
+    "header_half_EqBWa7",
+    "header_YmATNf",
+    "sp_video_hero_RQAQhy",
+    "sp_headline_with_pill_left_kbwq3q",
+    "content_3hMHND",
+    "sp_video_grid_to_slide_Tqhwtr",
+    "content_byT66w",
+    "ss_gallery_1_DjPbai",
+    "html_LyzRVG",
+    "newsletter_session_t9wUdh",
+    "header_fp43Lh",
+    "sp_image_marquee_carrossel_a8n8PV",
+    "header_Q9RjbD",
+    "richtext_GXD9JL",
+    "card_fluid_F69TCJ",
+    "button_section_pem6WU",
+    "html_jdGtpN",
+    "html_VALLD6",
+    "html_MK38cC",
+    "html_pwPMhd",
+    "newsletter_session_jqnCdq"
+  ]
+}

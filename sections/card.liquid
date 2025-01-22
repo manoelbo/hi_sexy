@@ -1,0 +1,452 @@
+<section 
+    class="px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}  mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}"
+    {% if section.settings.bg_gradient != blank %} 
+    style="background: {{ section.settings.bg_gradient }}"
+    {% else %}
+    style="background-color: {{section.settings.bg_color }}"
+    {% endif %}
+>
+
+    <div class="position-relative zi-1 text-xl-start container">
+        <div class=row >
+            <div class="col-12 text-center">
+            {% for block in section.blocks %}
+                {% if block.type == "category" %}
+                    <a href=""  onclick="return false;"
+                        id="{{ block.settings.id }}"
+                        class="btn-category btn rounded-white btn-border btn-border me-2 mb-4 mb-lg-10 {% if block.settings.active == true %}active{% endif %}" 
+                        data-aos="fade-down" 
+                        target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                        data-aos-delay="100" >
+                        
+                         {{ block.settings.category }} 
+                     </a>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            {% for block in section.blocks %}
+            {% if block.type == "card" %}
+            <div id="{{ block.settings.category_id }}"class="{{ section.settings.layout }} category-card" data-aos="fade-down" data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}">
+                {% if block.settings.url != blank %}    
+                <a  href="{{ block.settings.url }} "
+                    target="{% if block.settings.target == true %}_black{% else %}_self{% endif %}"
+                    class="click-card text-center pb-4 pb-lg-8">
+                {% else %}
+                <div class="text-center card-top pb-4 pb-lg-8">
+                {% endif %}
+                    <div 
+                        class="content-container  hyper-card {% if block.settings.img == blank %} d-flex align-items-center {% endif %}"
+                        
+                    >    
+                        {% if block.settings.img != blank %}
+                            {{ block.settings.img | image_url: width: 600 | image_tag }}
+                            {% comment %} <img src="{{ block.settings.img | image_url }}" width="600" height="350" loading="lazy"/> {% endcomment %}
+                        {% endif %}
+
+                        <div class="hyper-card-content"> 
+                            {% if block.settings.title != blank %}
+                                <h1 class="display-8 {% if block.settings.text == blank %} p-0 m-0 {% endif %}">
+                                    {{ block.settings.title }}
+                                </h1>
+                            {% endif %}
+                            {% if block.settings.text != blank %}
+                            <p class="mt-6 pb-0 fs-7 mb-0">
+                                {{ block.settings.text }}                            
+                            </p>
+                        
+                            {% endif %}    
+                        </div>
+                    </div>
+                {% if block.settings.url != blank %}   
+                </a>
+                {% else %}
+                </div>
+                {% endif %}
+            </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Card Section",
+  "settings": [
+    {
+        "type": "select",
+        "id": "font_color",
+        "label": "Font Color Options",
+        "options": [
+            {
+                "value": "text-dark",
+                "label": "Dark"
+              },
+            {
+                "value": "text-light",
+                "label": "White"
+            }
+        ],
+        "default": "text-dark"
+    },
+    {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title Font Size",
+        "options": [
+            {
+                "value": "display-1",
+                "label": "5.5 rem (88px)"
+              },
+            {
+                "value": "display-2",
+                "label": "5 rem (80px)"
+            },
+            {
+                "value": "display-3",
+                "label": "4.5 rem (72px)"
+            },
+            {
+                "value": "display-4",
+                "label": "3.75 rem (60px)"
+            },
+            {
+                "value": "display-5",
+                "label": "3 rem (48px)"
+            },
+            {
+                "value": "display-6",
+                "label": "2.5 rem (40px)"
+            }
+
+        ],
+        "default": "display-4"
+    },
+    {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text Font Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-4"
+    },
+    {
+        "type": "header",
+        "content": "Content Header Options"
+    },
+    {
+        "type": "text",
+        "id": "header",
+        "label": "Subtitle"
+    },
+    {
+        "type": "select",
+        "id": "header_size",
+        "label": "Subtitle Size",
+        "options": [
+            {
+                "value": "fs-1",
+                "label": "1.5 rem (24px)"
+              },
+            {
+                "value": "fs-2",
+                "label": "1.375 rem (22px)"
+            },
+            {
+                "value": "fs-3",
+                "label": "1.25 rem (20px)"
+            },
+            {
+                "value": "fs-4",
+                "label": "1.125 rem (18px)"
+            },
+            {
+                "value": "fs-5",
+                "label": "0.875 rem (14px)"
+            },
+            {
+                "value": "fs-6",
+                "label": "0.75 rem (12px)"
+            }
+
+        ],
+        "default": "fs-6"
+    },
+    {
+        "type": "html",
+        "id": "svg",
+        "label": "SVG Icon"
+    },
+    {
+        "type": "header",
+        "content": "Background Style"
+    },
+    {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Backgorund Color",
+        "default": "#ffffff"
+    },
+    {
+        "type": "color_background",
+        "id": "bg_gradient",
+        "label": "Backgorund Gradient"
+    },
+    {
+        "type": "header",
+        "content": "Layout Settings"
+    },
+    {
+        "type": "select",
+        "id": "layout",
+        "label": "Card Columns Layout (Desktop)",
+        "options": [
+            {
+                "value": "col-md-12",
+                "label": "One Column"
+            },
+            {
+                "value": "col-md-6",
+                "label": "Two Columns"
+            },
+            {
+                "value": "col-lg-4",
+                "label": "Three Columns"
+            },
+            {
+                "value": "col-lg-3 col-md-6",
+                "label": "Four Columns"
+            }
+        ],
+        "default": "col-lg-3 col-md-6"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (General)"
+    },
+    {
+        "type": "checkbox",
+        "id": "default_spacing",
+        "label": "Remove Default Spacing"
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_xl",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_xl",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "mt_xl",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_xl",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing (Desktop)"
+    },
+    {
+        "type": "range",
+        "id": "pt_lg",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "pb_lg",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 13
+    },
+    {
+        "type": "range",
+        "id": "mt_lg",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_lg",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "header",
+        "content": "Spacing Options (Mobile)"
+    },
+    {
+        "type": "range",
+        "id": "pt_sm",
+        "label": "Extra Padding Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+    },
+    {
+        "type": "range",
+        "id": "pb_sm",
+        "label": "Extra Padding Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+    },
+    {
+        "type": "range",
+        "id": "mt_sm",
+        "label": "Extra Margin Top",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    },
+    {
+        "type": "range",
+        "id": "mb_sm",
+        "label": "Extra Margin Bottom",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 0
+    }
+  ],
+  "blocks": [
+    {
+        "type": "category",
+        "name": "Category",
+        "settings": [
+            {
+                "type": "checkbox",
+                "label": "Active Category", 
+                "id": "active"
+            },
+            {
+                "type": "text",
+                "label": "Category Text", 
+                "id": "category",
+                "default": "Liderança e Cultura"
+            },
+            {
+                "type": "text",
+                "label": "Category ID", 
+                "id": "id",
+                "default": "leadership"
+            }
+        ]
+
+    },
+    {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Card Content"
+            },
+            {
+                "type": "image_picker",
+                "label": "Card Image", 
+                "id": "img"
+            },
+            {
+                "type": "text",
+                "label": "Category Id", 
+                "id": "category_id"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "title",
+                "label": "Title",
+                "default": "Criatividade Aplicada"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo."
+            }, 
+            {
+                "type": "url",
+                "id": "url",
+                "label": "Buttom Link"
+
+            },
+            {
+                "type": "checkbox",
+                "id": "target",
+                "label": "Open In a New Tab"
+            }
+        ]
+    }
+    ],
+  "presets": [{
+    "name": "HI23 Card Section"
+  }]
+}
+{% endschema %} 

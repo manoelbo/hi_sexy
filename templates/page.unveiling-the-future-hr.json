@@ -1,0 +1,871 @@
+{
+  "sections": {
+    "header_YmATNf": {
+      "type": "header",
+      "blocks": {
+        "button_yzgHdr": {
+          "type": "button",
+          "settings": {
+            "text": "Baixe o relatório completo",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/revelando-o-futuro-do-rh\/#relatorio",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "button_yzgHdr"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>ETAPA 1 - REVELANDO O FUTURO DO RH<\/strong>",
+        "text": "Este material exclusivo, “Revelando o Futuro do RH”, mergulha nas tendências e desafios mais recentes do mundo de Recursos Humanos. Nele, Alessandra Morrison e Benito Berretta, compartilham valiosos insights descobertos através de<strong> mais de 30 entrevistas realizadas com líderes empresariais e CHROs\/CPO<\/strong>, abordando temas fundamentais que estão formando o RH e desvendando possíveis caminhos a serem seguidos.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "header_eUQQDQ": {
+      "type": "header",
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "",
+        "text": "",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/futuro_do_rh_art.jpg",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 17,
+        "pb_xl": 17,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 20,
+        "pb_lg": 20,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 20,
+        "pb_sm": 20,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "sp_headline_with_pill_left_kbwq3q": {
+      "type": "sp-headline-with-pill-left",
+      "disabled": true,
+      "settings": {
+        "text_font": "madera_i4",
+        "text_size": 16,
+        "text_line_height": "inherit",
+        "headline_font": "sans-serif",
+        "headline_size": 25,
+        "headline_line_height": "inherit",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#000000",
+        "headline_color": "#111111",
+        "pill_color": "#ff7300",
+        "text_alignment": "left",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "headline": "",
+        "text": "QUOTE?"
+      }
+    },
+    "sp_image_standalone_pHqwzc": {
+      "type": "sp-image-standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "image": "shopify:\/\/shop_images\/FUTURO_DO_RH_MOCKUP.png",
+        "media_aspect_ratio": "21 \/ 9",
+        "media_radius": 5,
+        "media_shadow": false
+      }
+    },
+    "html_BtKAjR": {
+      "type": "html",
+      "settings": {
+        "html": "<div id=\"relatorio\"><\/div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 7,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "content_Fej9k3": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "<strong>Neste material, você irá conferir temas como:<\/strong>",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-3",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-5",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 20,
+        "py_xs": 10,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 10,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "content_KmApzK": {
+      "type": "content",
+      "blocks": {
+        "content_XmVPhA": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>CONTEXTOS EMERGENTES<\/strong>",
+            "text": "<strong>Explore o impacto da pandemia, o novo protagonismo no ambiente de trabalho e os desafios da liderança. <\/strong>Exploramos os desafios enfrentados pelo setor de RH em meio a um cenário de mudanças rápidas. A pandemia trouxe questões cruciais, como preservação da vida e saúde mental. O RH emerge como protagonista proativo, adaptando-se constantemente e preparando as equipes para os desafios atuais e futuros. Estratégias como ter um propósito claro e garantir uma agenda integrada são fundamentais. A liderança também enfrenta desafios para equilibrar metas de curto e longo prazo. Os gerentes de nível médio se veem em uma posição difícil, entre a alta liderança e as expectativas dos colaboradores. As organizações que respeitam as necessidades dos colaboradores serão a escolha preferida.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_xLXUxQ": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>TEMAS CENTRAIS<\/strong>",
+            "text": "<strong>Aprofunde-se em questões cruciais contemporâneas na área de Recursos Humanos. <\/strong>Reunimos os principais desafios contemporâneos do RH, destacando a necessidade de abordagens estratégicas para garantir o sucesso organizacional e o bem-estar dos colaboradores. Questões como a complexidade dos problemas organizacionais, o bem-estar na era digital e a importância da diversidade e inclusão são aprofundadas. Além disso, a influência da Inteligência Artificial é destacada como um catalisador para a agilidade do RH, enquanto a liderança ética e a responsabilidade social são enfatizadas como pilares essenciais para uma cultura organizacional sustentável e inclusiva, com o RH desempenhando um papel fundamental nesse processo de transformação.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_ByVthB": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>O FUTURO DO RH EM SUSPENSE<\/strong>",
+            "text": "<strong>Confira novas tendências e perspectivas.<\/strong> O futuro do RH será marcado por mudanças dinâmicas e desafios imprevisíveis. Destacam-se tendências como personalização e abordagem centrada no ser humano, força de trabalho ágil, transformação digital, liderança ética e responsabilidade social, ecossistemas colaborativos e aprendizado contínuo. O RH emerge como um farol orientador, impulsionando locais de trabalho resilientes e prósperos, onde a adaptabilidade, empatia e previsão são essenciais. A importância da mentalidade para nova liderança, perspectivas de aprendizagem ao longo da vida, intencional e de meta-aprendizagem também são evidentes, vislumbrando um futuro onde o RH lidera empresas rumo à excelência e ao crescimento sustentável.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_XmVPhA",
+        "content_xLXUxQ",
+        "content_ByVthB"
+      ],
+      "settings": {
+        "hidden": true,
+        "title": "",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-5",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13,
+        "py_lg": 10,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 20,
+        "py_xs": 10,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 10,
+        "spb_lg": 10,
+        "smb_lg": 0,
+        "spb_xs": 10,
+        "smb_xs": 0
+      }
+    },
+    "newsletter_session_t9wUdh": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "Baixe o relatório em pdf",
+        "text": "Descubra as tendências, os desafios e caminhos a seguir na Gestão de Recursos Humanos.",
+        "form_id": "14c69c4b-c0a3-45ea-8513-fd5525c236b3",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 10,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 10,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "design_pack_about_with_photo_frame_free_abCWfd": {
+      "type": "design_pack_-_about_with_photo_frame-free",
+      "blocks": {
+        "heading_LWD4yJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Alessandra Morrison",
+            "heading_level": "h2"
+          }
+        },
+        "text_CkYjp6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alessandra da Costa Morrison é uma executiva C-Level com mais de 25 anos de experiência em recursos humanos, sustentabilidade e comunicação em bens de consumo (Natura, Johnson & Johnson e Kimberly Clark), serviços financeiros (Deutsche Bank, Credicard) e varejo (Grupo Pão de Açúcar e Cia. Hering). Ao longo de sua trajetória, liderando transformações organizacionais, evoluções de agendas de diversidade, liderança e cultura, se consolidou como uma executiva que contribui com estratégia de negócios e inovação, atuando em parceria com comitês executivos e CEOs. Com experiência global, morou nos EUA, UK, França, Brasil e Canada.<\/p><p>Atualmente atua como líder do Comitê de Pessoas do Sistema B Brasil, como Conselheira no Instituto Bold, Fundo Patrimonial FEA-USP e no Conselho Curador da FEA-USP. Alessandra também atua como Coach Executiva em parceria com a Exco Group e como Consultora em parceria com Hyper Island.<\/p><p>Alessandra é formada em Administração de Empresas pela FEA-USP, tem um MBA pela HEC-Paris, e é certificada como Integral Coach pela Integral Coaching Canada. Participou da formação de Conselheiros IBGC e do PDeC, programa que visa aumentar a participação de mulheres em Governança.<\/p>"
+          }
+        },
+        "buttons_WNAYb8": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_radius": 0,
+            "button_label_primary": "Read our story",
+            "link_primary": "",
+            "button_label_color_primary": "#121212",
+            "button_background_color_primary": "rgba(0,0,0,0)",
+            "button_label_secondary": "",
+            "link_secondary": "",
+            "button_label_color_secondary": "#ffffff",
+            "button_background_color_secondary": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LWD4yJ",
+        "text_CkYjp6",
+        "buttons_WNAYb8"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ale_M.webp",
+        "image_crop": "1:1",
+        "image_position": "left",
+        "angle": 0,
+        "text_alignment": "left",
+        "text_size": 85,
+        "text_position": "left center",
+        "text_color": "#4b4949",
+        "signature_color": "#4b4949",
+        "border_color": "#ffffff",
+        "background_color": "linear-gradient(136deg, rgba(NaN, NaN, NaN, 0) 11%, rgba(NaN, NaN, NaN, 0) 84%)",
+        "animation": "none",
+        "base_width": 60,
+        "max_width": "",
+        "inner_padding": 30,
+        "outer_margin": 55,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "design_pack_about_with_photo_frame_free_HaKjfB": {
+      "type": "design_pack_-_about_with_photo_frame-free",
+      "blocks": {
+        "heading_6Vtibd": {
+          "type": "heading",
+          "settings": {
+            "title": "Benito Berretta",
+            "heading_level": "h2"
+          }
+        },
+        "text_Bmiezt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Benito é graduado em Economia e Tecnologia da Informação pela Universidade da República Oriental do Uruguai e possui pós-graduação em Marketing.Desde 2019 ele desempenha a função de Managing Director na Hyper Island Americas, atuando nos Hubs de Nova York e São Paulo.<\/p>"
+          }
+        },
+        "buttons_eXQVmD": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_radius": 0,
+            "button_label_primary": "Read our story",
+            "link_primary": "",
+            "button_label_color_primary": "#121212",
+            "button_background_color_primary": "rgba(0,0,0,0)",
+            "button_label_secondary": "",
+            "link_secondary": "",
+            "button_label_color_secondary": "#ffffff",
+            "button_background_color_secondary": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Vtibd",
+        "text_Bmiezt",
+        "buttons_eXQVmD"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Beni_B.png",
+        "image_crop": "1:1",
+        "image_position": "right",
+        "angle": 0,
+        "text_alignment": "left",
+        "text_size": 85,
+        "text_position": "left center",
+        "text_color": "#4b4949",
+        "signature_color": "#4b4949",
+        "border_color": "#ffffff",
+        "background_color": "linear-gradient(136deg, rgba(NaN, NaN, NaN, 0) 11%, rgba(NaN, NaN, NaN, 0) 84%)",
+        "animation": "none",
+        "base_width": 60,
+        "max_width": "",
+        "inner_padding": 30,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "separator_CxxrPa": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 16
+      }
+    },
+    "header_half_jxMWn6": {
+      "type": "header_half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Alessandra morrison",
+        "text": "Alessandra da Costa Morrison é uma executiva C-Level com mais de 25 anos de experiência em recursos humanos, sustentabilidade e comunicação em bens de consumo (Natura, Johnson & Johnson e Kimberly Clark), serviços financeiros (Deutsche Bank, Credicard) e varejo (Grupo Pão de Açúcar e Cia. Hering). Ao longo de sua trajetória, liderando transformações organizacionais, evoluções de agendas de diversidade, liderança e cultura, se consolidou como uma executiva que contribui com estratégia de negócios e inovação, atuando em parceria com comitês executivos e CEOs. Com experiência global, morou nos EUA, UK, França, Brasil e Canada.Atualmente atua como líder do Comitê de Pessoas do Sistema B Brasil, como Conselheira no Instituto Bold, Fundo Patrimonial FEA-USP e no Conselho Curador da FEA-USP. Alessandra também atua como Coach Executiva em parceria com a Exco Group e como Consultora em parceria com Hyper Island. Alessandra é formada em Administração de Empresas pela FEA-USP, tem um MBA pela HEC-Paris, e é certificada como Integral Coach pela Integral Coaching Canada. Participou da formação de Conselheiros IBGC e do PDeC, programa que visa aumentar a participação de mulheres em Governança.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/Alessandra_Morrison-scaled2.png",
+        "font_color": "text-dark",
+        "title_size": "display-2",
+        "text_size": "fs-6",
+        "container": "container-xxl",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "separator_REmbcC": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 16
+      }
+    },
+    "header_half_L8Wdy8": {
+      "type": "header_half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Benito Berretta",
+        "text": "Benito é graduado em Economia e Tecnologia da Informação pela Universidade da República Oriental do Uruguai e possui pós-graduação em Marketing. Desde 2019 ele desempenha a função de Managing Director na Hyper Island Americas, atuando nos Hubs de Nova York e São Paulo.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/Benito-Berretta2.png",
+        "font_color": "text-dark",
+        "title_size": "display-2",
+        "text_size": "fs-6",
+        "container": "container-xxl",
+        "layout-align": "left",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "separator_nYKCA9": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 16
+      }
+    },
+    "card_fluid_tCC96K": {
+      "type": "card-fluid",
+      "blocks": {
+        "card_GhJekf": {
+          "type": "card",
+          "settings": {
+            "header": "ETAPA 2",
+            "title": "Jogando no futuro do RH",
+            "text": "Explore as possibilidades futuras do RH com o seu time",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/jogando-no-futuro-do-rh",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#f3f0ed",
+            "bg_gradient": ""
+          }
+        },
+        "card_rEj3Cg": {
+          "type": "card",
+          "settings": {
+            "header": "ETAPA 3",
+            "title": "HR2035",
+            "text": "Prepare-se para o cenário do RH em 2035",
+            "url": "https:\/\/www.hyperisland.com.br\/pages\/o-futuro-do-rh-1",
+            "target": false,
+            "font_color": "text-dark",
+            "bg_color": "#e3dfd3",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_GhJekf",
+        "card_rEj3Cg"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-4",
+        "text_size": "fs-5",
+        "layout": "col-lg-6",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 13,
+        "mb_xl": 13,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 13,
+        "mb_lg": 13,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
+    "button_section_L69txk": {
+      "type": "button-section",
+      "blocks": {
+        "button_4pp6mT": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar Email",
+            "url": "mailto:benito.berretta@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_4pp6mT"
+      ],
+      "settings": {
+        "title": "QUER PREPARAR SUA EQUIPE PARA O FUTURO?",
+        "text": "Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "img": "shopify:\/\/shop_images\/Beni.png",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "header_CnyAVj": {
+      "type": "header",
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "",
+        "text": "<strong>Join us on a transformative journey through three interconnected initial stages, each offering unique insights, experiences, and opportunities to shape the future of HR.<\/strong>",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 18,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 20,
+        "mt_lg": 0,
+        "mb_lg": 12,
+        "pt_sm": 0,
+        "pb_sm": 12,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "header_half_UAqqg4": {
+      "type": "header_half",
+      "blocks": {
+        "button_hRcwdT": {
+          "type": "button",
+          "settings": {
+            "text": "Saiba Mais",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "button_t9CUNY": {
+          "type": "button",
+          "settings": {
+            "text": "Baixe o Relatório",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_hRcwdT",
+        "button_t9CUNY"
+      ],
+      "disabled": true,
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "<strong>Stage 1 - Unveiling the Future of HR<\/strong>",
+        "text": "Our journey begins with a curated Report \"<strong>Unveiling the Future of HR<\/strong>.\" Here, we delve deep into fundamental questions that define the future of human resources. Through meticulous research, candid interviews, and insightful analysis, we uncover the intricate ecosystem of challenges and opportunities that lie ahead. Join us as we unveil the underlying forces shaping the HR landscape, setting the stage for a compelling narrative that unfolds across the platform.",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify:\/\/shop_images\/FUTURO_DO_RH_MENOR_QUALIDADE.png",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "html_jdGtpN": {
+      "type": "html",
+      "disabled": true,
+      "settings": {
+        "html": "<style>\n    #cap-1-intro {\n        display: block;\n        width: 100%;\n        background-color: #ff7300;\n        padding: 10px 0; \/* Adicione padding para espaçamento interno se necessário *\/\n    }\n<\/style>\n\n<a id=\"cap-1-intro\" data-hs-anchor=\"true\"><\/a>\n<h2 style=\"line-height: 1.25;\">\n    <span style=\"font-size: 60px;\"><span style=\"color: #ff7300;\"> 01<\/span> <\/span>\n    <span style=\"font-size: 60px;\"> <span style=\"color: #000000;\">Introdução<\/span><\/span>\n    <span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span>\n<\/h2>\n\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h5 style=\"line-height: 1.5; font-size: 30px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\">A linguagem é o roteiro de uma cultura.<\/span><\/span><\/h5>\n<h5 style=\"line-height: 1.5; font-size: 16px;\"><span style=\"color: #000000;\"><span style=\"color: #000000;\"><span style=\"font-size: 30px;\"> Ela diz de onde seu povo vem e para onde está indo.<br><\/span><br><span style=\"color: #ff7300;font-size: 20px;\">RITA MAE BROWN<\/span><\/span><\/span><\/h5><h5>\n<\/h5><p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><span style=\"font-family: Helvetica, Arial, sans-serif;\"><\/span><\/p>\n<p style=\"line-height: 1.75;\"><span style=\"color: #000000; font-size: 16px;\"><span style=\"color: #000000;\">Em um sábado ensolarado de fim de inverno, Beni Berretta, em Nova York, e eu, Ale Morrison, em Toronto, analisamos os resultados das mais de 30 entrevistas que realizamos, refletindo sobre os significados mais profundos por trás dos temas. O que está por trás da superfície das mudanças organizacionais? Como podemos oferecer novas perspectivas para o cenário de gerenciamento em evolução? É essa introspecção que queremos compartilhar com você, com base em nossas experiências, e esperamos que ela amplie seus horizontes.<\/span><\/span><\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">As perspectivas<\/h3>\n<p style=\"line-height: 1.75;\">Esta obra foi elaborada com três perspectivas principais em mente. Combinamos os insights sinceros daqueles que compartilharam suas dores, dúvidas e crenças com as reflexões de nossos leitores. Convidamos você a se juntar a nós nessa jornada, contemplando conosco e enriquecendo nossas percepções com as suas próprias, aprofundando assim nosso entendimento coletivo.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">A linguagem: Recursos Humanos ou perspectiva humana?<\/h3>\n<p style=\"line-height: 1.75;\">Vamos começar com a linguagem. As pessoas são apenas recursos? Não mais, nunca foram. A humanidade se incorporou totalmente à mentalidade, à agenda e às ações das organizações. O campo de Recursos Humanos adotou novos títulos (Pessoas e Gestão, Capital Humano, Desenvolvimento Humano e Organizacional, Gestão de Pessoas e Organizações, entre outros), mas a transformação nas organizações ainda está ocorrendo.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">Onde a área concentra seu olhar agora?<\/h3>\n<p style=\"line-height: 1.75;\">Em nossas conversas, ficou evidente que ela olha para o todo, para a empresa integrada à sociedade, por meio de uma lente humana. Estamos nos afastando da linguagem predominante na era pós-guerra, quando as organizações viam os indivíduos como recrutas, estagiários e entidades compensáveis. Estamos fazendo a transição para atrair, envolver, desenvolver, educar e reconhecer os indivíduos. A nomenclatura deve espelhar a função moderna do RH, que não se trata apenas de gerenciar pessoas, mas também de promover um ambiente de trabalho positivo e produtivo, cultivar talentos e ajudar os colaboradores e as organizações a obterem sucesso. Aqui, pedimos que você reflita: que terminologia melhor resume o propósito em evolução desse campo transformador? Nesta publicação, nos referimos ao campo de Recursos Humanos como RH, reconhecendo seu significado em evolução.<\/p>\n<p style=\"line-height: 1.75;\"> <\/p>\n<h3 style=\"line-height: 1.25;\">Nossas perguntas:<\/h3>\n<p style=\"line-height: 1.75; padding-left: 40px;\"><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Como o RH tem nutrido sua agenda e seu pessoal?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Quais funções estão sendo adotadas e com que atenção?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Que atributos são exigidos da liderança nesse contexto?<br><strong><span style=\"color: #ff7300;\">○<\/span><span> <\/span><\/strong>Como o novo RH conceitua o quê, o como, o porquê, e para quem?<\/p>\n<p> <\/p>\n<h3 style=\"line-height: 1.25;\">Os principais temas<\/h3>\n<p style=\"line-height: 1.25;\"><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<h6 style=\"line-height: 1.5; font-size: 30px;\">Há muito acontecendo no mundo, não só na tecnologia. O mundo está em crise e todas as polaridades estão refletidas na área de gente.<\/h6>\n<h6 style=\"line-height: 1.5; font-size: 20px;\"><span style=\"color: #000000;\"><br><span style=\"color: #ff7300;\">CAROLINE CARPENEDO<\/span><\/span><\/h6>\n<p><span style=\"font-family: Helvetica, Arial, sans-serif;\">_______________<\/span><\/p>\n<p><br>O que o futuro reserva para o RH? Como essa função se interconectará com outras? Qual será o perfil desejado e as habilidades necessárias dos profissionais de RH? Encontramo-nos navegando em mares tempestuosos, suspensos entre o passado que se esvai e o futuro discernível, porém intangível, presos na transição. Houve progresso, mas ele é desigual.<\/p>\n<p style=\"font-weight: bold;\"><span style=\"color: #ff7300;\">As respostas são escassas, as perguntas são abundantes.<\/span><\/p>\n<p><strong>Em nossas discussões com líderes empresariais e CHROs\/CPOs<\/strong>, encontramos um estado de espírito predominante - <span style=\"text-decoration: underline;\">uma mistura de cansaço e otimismo<\/span>. Cansaço decorrente das demandas operacionais que persistem apesar dos avanços da automação; cansaço decorrente da necessidade contínua de adaptação, desenvolvimento de habilidades, expansão dos limites e ampliação dos temas. O otimismo surge da clareza daqueles que estão acostumados a liderar em meio ao desconforto, adaptando-se ao novo e acreditando no potencial da humanidade para sair fortalecida das crises.<\/p>\n<p>Neste material, apresentamos os insights obtidos em nossas conversas e reuniões, com o objetivo de ampliar sua compreensão do cenário atual e esclarecer o futuro.<\/p>\n<a id=\"cap-2-contextos\" data-hs-anchor=\"true\"><\/a>\n<p>Nossa sincera gratidão se estende a todos os líderes que generosamente compartilharam seu tempo, suas percepções e sua sabedoria, permitindo-nos embarcar nessa profunda reflexão.<\/p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "design_pack_about_with_photo_frame_free_bG9kib": {
+      "type": "design_pack_-_about_with_photo_frame-free",
+      "blocks": {
+        "vertical_text_KKYEhK": {
+          "type": "vertical_text",
+          "disabled": true,
+          "settings": {
+            "text": "About us",
+            "override_theme_font": false,
+            "signature_font": "lucia_n4"
+          }
+        },
+        "heading_tFEcLy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Glad to meet you!",
+            "heading_level": "h2"
+          }
+        },
+        "text_e8gBRQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nossos entrevistados mencionaram algumas estratégias que os apoiam em implementar esse novo protagonismo e contribuir para a transformações que as organizações precisam neste novo contexto de mundo. Compartilhamos estratégias  instigantes mencionadas:<\/p><p><strong> 1  Ter propósito claro e alinhado ao da organização: <\/strong>entender o mandato para o ciclo de contribuição e que esteja alinhado ao conjunto de valores que o profissional acredita, ajuda a manter a resiliência para os tempos difíceis e encontrar soluções que contribuam para o objetivo comum.<\/p>"
+          }
+        },
+        "buttons_bFHEFg": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_radius": 0,
+            "button_label_primary": "Read our story",
+            "link_primary": "",
+            "button_label_color_primary": "#121212",
+            "button_background_color_primary": "rgba(0,0,0,0)",
+            "button_label_secondary": "",
+            "link_secondary": "",
+            "button_label_color_secondary": "#ffffff",
+            "button_background_color_secondary": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "vertical_text_KKYEhK",
+        "heading_tFEcLy",
+        "text_e8gBRQ",
+        "buttons_bFHEFg"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Esquema1.webp",
+        "image_crop": "none",
+        "image_position": "left",
+        "angle": 0,
+        "text_alignment": "left",
+        "text_size": 85,
+        "text_position": "left center",
+        "text_color": "#000000",
+        "signature_color": "#4b4949",
+        "border_color": "#ffffff",
+        "background_color": "linear-gradient(136deg, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 84%)",
+        "animation": "none",
+        "base_width": 70,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "newsletter_session_jqnCdq": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "RECEBA NOSSOS CONTEÚDOS",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 10,
+        "pb_xl": 0,
+        "mt_xl": 5,
+        "mb_xl": 0,
+        "pt_lg": 11,
+        "pb_lg": 0,
+        "mt_lg": 12,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    }
+  },
+  "order": [
+    "header_YmATNf",
+    "header_eUQQDQ",
+    "sp_headline_with_pill_left_kbwq3q",
+    "sp_image_standalone_pHqwzc",
+    "html_BtKAjR",
+    "content_Fej9k3",
+    "content_KmApzK",
+    "newsletter_session_t9wUdh",
+    "design_pack_about_with_photo_frame_free_abCWfd",
+    "design_pack_about_with_photo_frame_free_HaKjfB",
+    "separator_CxxrPa",
+    "header_half_jxMWn6",
+    "separator_REmbcC",
+    "header_half_L8Wdy8",
+    "separator_nYKCA9",
+    "card_fluid_tCC96K",
+    "button_section_L69txk",
+    "header_CnyAVj",
+    "header_half_UAqqg4",
+    "html_jdGtpN",
+    "design_pack_about_with_photo_frame_free_bG9kib",
+    "newsletter_session_jqnCdq"
+  ]
+}

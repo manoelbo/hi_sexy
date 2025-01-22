@@ -1,137 +1,100 @@
-class CartRemoveButton extends HTMLElement {
-  constructor() {
-    super();
-    this.addEventListener('click', (event) => {
-      event.preventDefault();
-      this.closest('cart-items').updateQuantity(this.dataset.index, 0);
-    });
-  }
-}
+/*
+    © 2022 KondaSoft.com
+    https://www.kondasoft.com
+*/
 
-customElements.define('cart-remove-button', CartRemoveButton);
+// Refresh cart contents (offcanvas cart, cart page, count badges, etc)
+window.refreshCartContents = async (response) => {
+    console.log(response)
 
-class CartItems extends HTMLElement {
-  constructor() {
-    super();
+    const offcanvasCart = document.querySelector('#offcanvas-cart')
 
-    this.lineItemStatusElement = document.getElementById('shopping-cart-line-item-status');
+    offcanvasCart?.classList.add('loading')
 
-    this.currentItemCount = Array.from(this.querySelectorAll('[name="updates[]"]'))
-      .reduce((total, quantityInput) => total + parseInt(quantityInput.value), 0);
+    const respoonse = await fetch(window.location.href)
+    const text = await respoonse.text()
+    const newDocument = new DOMParser().parseFromString(text, 'text/html')
 
-    this.debouncedOnChange = debounce((event) => {
-      this.onChange(event);
-    }, 300);
+    offcanvasCart?.querySelector('.offcanvas-body')
+        .replaceWith(newDocument.querySelector('#offcanvas-cart .offcanvas-body'))
+    offcanvasCart?.querySelector('.offcanvas-footer')
+        .replaceWith(newDocument.querySelector('#offcanvas-cart .offcanvas-footer'))
 
-    this.addEventListener('change', this.debouncedOnChange.bind(this));
-  }
+    document.querySelector('#cart')?.replaceWith(newDocument.querySelector('#cart'))
 
-  onChange(event) {
-    this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
-  }
+    document.querySelectorAll('.cart-count-badge').forEach((badge) => {
+        badge.textContent = newDocument.querySelector('.cart-count-badge').textContent
+        badge.removeAttribute('hidden')
+    })
 
-  getSectionsToRender() {
-    return [
-      {
-        id: 'main-cart-items',
-        section: document.getElementById('main-cart-items').dataset.id,
-        selector: '.js-contents',
-      },
-      {
-        id: 'cart-icon-bubble',
-        section: 'cart-icon-bubble',
-        selector: '.shopify-section'
-      },
-      {
-        id: 'cart-live-region-text',
-        section: 'cart-live-region-text',
-        selector: '.shopify-section'
-      },
-      {
-        id: 'main-cart-footer',
-        section: document.getElementById('main-cart-footer').dataset.id,
-        selector: '.js-contents',
-      }
-    ];
-  }
+    offcanvasCart?.classList.remove('loading')
 
-  updateQuantity(line, quantity, name) {
-    this.enableLoading(line);
+    window.dispatchEvent(new Event('updated.ks.cart'))
 
-    const body = JSON.stringify({
-      line,
-      quantity,
-      sections: this.getSectionsToRender().map((section) => section.section),
-      sections_url: window.location.pathname
-    });
-
-    fetch(`${routes.cart_change_url}`, {...fetchConfig(), ...{ body }})
-      .then((response) => {
-        return response.text();
-      })
-      .then((state) => {
-        const parsedState = JSON.parse(state);
-        this.classList.toggle('is-empty', parsedState.item_count === 0);
-        const cartFooter = document.getElementById('main-cart-footer');
-
-        if (cartFooter) cartFooter.classList.toggle('is-empty', parsedState.item_count === 0);
-
-        this.getSectionsToRender().forEach((section => {
-          const elementToReplace =
-            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
-
-          elementToReplace.innerHTML =
-            this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
-        }));
-
-        this.updateLiveRegions(line, parsedState.item_count);
-        const lineItem =  document.getElementById(`CartItem-${line}`);
-        if (lineItem && lineItem.querySelector(`[name="${name}"]`)) lineItem.querySelector(`[name="${name}"]`).focus();
-        this.disableLoading();
-      }).catch(() => {
-        this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
-        document.getElementById('cart-errors').textContent = window.cartStrings.error;
-        this.disableLoading();
-      });
-  }
-
-  updateLiveRegions(line, itemCount) {
-    if (this.currentItemCount === itemCount) {
-      document.getElementById(`Line-item-error-${line}`)
-        .querySelector('.cart-item__error-text')
-        .innerHTML = window.cartStrings.quantityError.replace(
-          '[quantity]',
-          document.getElementById(`Quantity-${line}`).value
-        );
+    if (response.ok) {
+        if (response.url.includes('add.js')) {
+            offcanvasCart?.querySelector('#offcanvas-cart-alert-add').removeAttribute('hidden')
+        } else {
+            offcanvasCart?.querySelector('#offcanvas-cart-alert-updated').removeAttribute('hidden')
+        }
+    } else {
+        const data = await response.json()
+        const alert = document.querySelector('#offcanvas-cart-alert-error')
+        alert.querySelector('span').textContent = `${data.message} - ${data.description}`
+        alert.removeAttribute('hidden')
     }
-
-    this.currentItemCount = itemCount;
-    this.lineItemStatusElement.setAttribute('aria-hidden', true);
-
-    const cartStatus = document.getElementById('cart-live-region-text');
-    cartStatus.setAttribute('aria-hidden', false);
-
-    setTimeout(() => {
-      cartStatus.setAttribute('aria-hidden', true);
-    }, 1000);
-  }
-
-  getSectionInnerHTML(html, selector) {
-    return new DOMParser()
-      .parseFromString(html, 'text/html')
-      .querySelector(selector).innerHTML;
-  }
-
-  enableLoading(line) {
-    document.getElementById('main-cart-items').classList.add('cart__items--disabled');
-    this.querySelectorAll(`#CartItem-${line} .loading-overlay`).forEach((overlay) => overlay.classList.remove('hidden'));
-    document.activeElement.blur();
-    this.lineItemStatusElement.setAttribute('aria-hidden', false);
-  }
-
-  disableLoading() {
-    document.getElementById('main-cart-items').classList.remove('cart__items--disabled');
-  }
 }
 
-customElements.define('cart-items', CartItems);
+// Quantity Inputs
+window.onChangeCartQty = async (input) => {
+    const response = await fetch('/cart/change.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            id: input.dataset.lineItemKey,
+            quantity: input.value
+        })
+    })
+    window.refreshCartContents(response)
+}
+
+// Remove Buttons
+window.onRemoveCartItem = async (btn) => {
+    const response = await fetch('/cart/change.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            id: btn.dataset.lineItemKey,
+            quantity: 0
+        })
+    })
+    window.refreshCartContents(response)
+}
+
+// Checkout button - indicate loading on click
+window.onClickCheckoutBtn = (btn) => {
+    btn.style.height = btn.clientHeight + 'px'
+    btn.innerHTML = `
+        <div class="spinner-border spinner-border-sm" role="status" style="width: 1.2rem; height: 1.2rem">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    `
+}
+
+// Summary card on the cart page - sticky on desktop
+const initStickySummaryCard = () => {
+    const card = document.querySelector('#cart-summary')
+
+    if (!card) return
+
+    if (window.matchMedia('max-width: 991px').matches) return
+
+    const navbarHeight = document.querySelector('#shopify-section-navbar.sticky-top').clientHeight || 0
+    card.style.position = 'sticky'
+    card.style.top = `${navbarHeight + 20}px`
+}
+initStickySummaryCard()
+
+window.addEventListener('updated.ks.cart', () => {
+    initStickySummaryCard()
+})
