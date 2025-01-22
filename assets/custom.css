@@ -282,7 +282,11 @@ a.click-card {
 .card-top, .click-card {
     height: 100%;
 }
+
 .hyper-card {
+    border: 1px solid black;
+}
+.article-content .hyper-card {
     border: 5px solid #FF7300;
 }
 
