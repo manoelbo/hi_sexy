@@ -1,0 +1,280 @@
+<article class="article py-10" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <h1 class="display-4 mb-4" itemprop="headline">
+          {{ article.title }}
+        </h1>
+
+        <div class="article-meta mb-6">
+          <p class="text-muted">
+            {% assign author = article.metafields.custom.autor.value %}
+            {% if author %}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ author.nome }}</span>
+              </span>
+            {% endif %}
+            •
+            <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}" itemprop="datePublished">
+              {{ article.published_at | date: '%-d' }} de
+              {% case article.published_at | date: "%-m" %}
+                {% when '1' -%}
+                  janeiro
+                {% when '2' -%}
+                  fevereiro
+                {% when '3' -%}
+                  março
+                {% when '4' -%}
+                  abril
+                {% when '5' -%}
+                  maio
+                {% when '6' -%}
+                  junho
+                {% when '7' -%}
+                  julho
+                {% when '8' -%}
+                  agosto
+                {% when '9' -%}
+                  setembro
+                {% when '10' -%}
+                  outubro
+                {% when '11' -%}
+                  novembro
+                {% when '12' -%}
+                  dezembro
+              {% endcase %}
+              de {{ article.published_at | date: '%Y' }}
+            </time>
+            {% if article.tags.size > 0 %}
+              •
+              {% for tag in article.tags %}
+                <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="text-decoration-none" itemprop="keywords">
+                  {{- tag -}}
+                </a>
+                {%- unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            {% endif %}
+          </p>
+        </div>
+
+        {% if article.image %}
+          <div class="article-header article-content mb-8">
+            <img
+              class="img-fluid w-100 hyper-card mt-0 pt-0"
+              src="{{ article.image | image_url: width: 1200 }}"
+              alt="{{ article.metafields.custom.t_tulo_card_e_seo | default: article.title | escape }}"
+              width="1200"
+              height="{{ article.image.height }}"
+              loading="lazy"
+              itemprop="image"
+            >
+          </div>
+        {% endif %}
+
+        <div class="article-content rte" itemprop="articleBody">
+          {{ article.content }}
+        </div>
+
+        {% assign author = article.metafields.custom.autor.value %}
+        {% if author %}
+          <div class="author-section mt-8 mb-6 rte pb-6">
+            <div class="row align-items-center">
+              <div class="col-auto">
+                {% if author.foto %}
+                  <img
+                    src="{{ author.foto | image_url }}"
+                    alt="{{ author.nome }}"
+                    class="author-avatar rounded-circle"
+                    width="120"
+                    height="120"
+                    style="object-fit: cover;"
+                  >
+                {% endif %}
+              </div>
+              <div class="col">
+                <div class="author-info">
+                  <div class="author-name fs-4 fw-medium mb-2">{{ author.nome }}</div>
+                  {% if author.bio %}
+                    <p class="author-bio text-muted mb-0">{{ author.bio }}</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+        {% if article.metafields.custom.palavras_chave_secund_rias %}
+          <div class="article-tags mt-4 author-section">
+            <strong>palavras-chave:</strong>
+            {{ article.metafields.custom.palavras_chave_secund_rias }}
+          </div>
+        {% endif %}
+
+        {% if blog.comments_enabled? %}
+          <div class="article-comments mt-10">
+            <h2 class="h4 mb-6">{{ 'blogs.comments.title' | t }}</h2>
+
+            {% paginate article.comments by 5 %}
+              {% for comment in article.comments %}
+                <div class="comment mb-6 p-4 bg-light rounded">
+                  <div class="comment-content">
+                    {{ comment.content }}
+                  </div>
+                  <p class="comment-meta mt-3 mb-0 small text-muted">
+                    {{ comment.author }} • {{ comment.created_at | date: '%d/%m/%Y' }}
+                  </p>
+                </div>
+              {% endfor %}
+
+              {% render 'pagination', paginate: paginate %}
+            {% endpaginate %}
+
+            <div class="comment-form mt-8">
+              <h3 class="h5 mb-4">{{ 'blogs.comments.form_title' | t }}</h3>
+              {% form 'new_comment', article %}
+                {% if form.errors %}
+                  <div class="alert alert-danger">
+                    {{ form.errors | default_errors }}
+                  </div>
+                {% endif %}
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="comment[author]"
+                      placeholder="{{ 'blogs.comments.name' | t }}"
+                      value="{{ form.author }}"
+                      required
+                    >
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="comment[email]"
+                      placeholder="{{ 'blogs.comments.email' | t }}"
+                      value="{{ form.email }}"
+                      required
+                    >
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control"
+                      name="comment[body]"
+                      rows="4"
+                      placeholder="{{ 'blogs.comments.message' | t }}"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">{{ 'blogs.comments.post' | t }}</button>
+                  </div>
+                </div>
+              {% endform %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+      <div class="col-lg-4 offset-lg-1">
+        <div class="sidebar-courses">
+          <p class="fs-4 fw-bold mb-4 mt-4 mt-lg-0 text-uppercase">Próximos Cursos</p>
+
+          {% for product in section.settings.featured_courses %}
+            <div
+              class="category-card mb-4"
+              data-aos="fade-down"
+              data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}"
+            >
+              <a href="{{ product.url }}" class="click-card text-center pb-4">
+                <div class="content-container hyper-card">
+                  {% if product.featured_image != blank %}
+                    {{ product.featured_image | image_url: width: 600 | image_tag }}
+                  {% endif %}
+
+                  <div class="hyper-card-content">
+                    {% if product.title != blank %}
+                      <h1 class="display-8 {% if product.description == blank %}p-0 m-0{% endif %}">
+                        {{ product.title }}
+                      </h1>
+                    {% endif %}
+
+                    {% if product.metafields.custom.excerpt != blank %}
+                      <p class="mt-6 pb-0 fs-7 mb-0">
+                        {{ product.metafields.custom.excerpt }}
+                      </p>
+                    {% else %}
+                      <p class="mt-6 pb-0 fs-7 mb-0">
+                        {{ product.description }}
+                      </p>
+                    {% endif %}
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+{% if template contains 'article' %}
+  {% assign seo_title = article.metafields.custom.t_tulo_card_e_seo | default: article.title %}
+  {% assign seo_description = article.metafields.custom.descri_o_card_e_seo | default: article.excerpt %}
+  {% assign seo_image = article.metafields.custom.imagem_para_redes_sociais | default: article.image %}
+
+  {% comment %}SEO Meta Tags{% endcomment %}
+  <div style="display: none;">
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ seo_description }}">
+    {% if seo_image %}
+      <meta property="og:image" content="{{ seo_image | image_url }}">
+    {% endif %}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ seo_description }}">
+    {% if seo_image %}
+      <meta name="twitter:image" content="{{ seo_image | image_url }}">
+    {% endif %}
+
+    {% if article.metafields.custom.palavra_chave_principal %}
+      <meta
+        name="keywords"
+        content="{{ article.metafields.custom.palavra_chave_principal }}, {{ article.metafields.custom.palavras_chave_secund_rias }}"
+      >
+    {% endif %}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Article Template",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Sidebar Courses"
+    },
+    {
+      "type": "product_list",
+      "id": "featured_courses",
+      "label": "Featured Courses",
+      "limit": 3
+    },
+    {
+      "type": "text",
+      "id": "sidebar_title",
+      "label": "Sidebar Title",
+      "default": "Próximos Cursos"
+    }
+  ]
+}
+{% endschema %}

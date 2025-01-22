@@ -283,7 +283,7 @@ a.click-card {
     height: 100%;
 }
 .hyper-card {
-    border: 1px solid black;
+    border: 5px solid #FF7300;
 }
 
 .hyper-card img {
@@ -468,3 +468,30 @@ a {
       text-align: left !important;
     }
 }
+
+.author-section {
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+  }
+  
+  .author-avatar {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .author-name {
+    font-family: var(--bs-body-font-family);
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .author-bio {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .row.align-items-center {
+    --bs-gutter-x: 2rem;
+  }

@@ -1,0 +1,41 @@
+metafields:
+  article_author: # Este é um tipo de recurso específico do Shopify
+    profile:
+      name: 'Perfil do Autor'
+      namespace: profile
+      owner_type: article_author
+      fields:
+        - key: nome_completo
+          name: 'Nome Completo'
+          type: single_line_text_field
+          required: true
+          description: Nome completo do autor
+
+        - key: biografia_curta
+          name: 'Biografia'
+          type: multi_line_text_field
+          required: true
+          description: Biografia curta do autor
+
+        - key: foto_perfil
+          name: 'Foto do Perfil'
+          type: file_reference
+          validations:
+            - mime_type: image/*
+          description: Foto de perfil do autor
+
+        - key: cargo_autor
+          name: 'Cargo'
+          type: single_line_text
+
+        - key: perfil_linkedin
+          name: 'LinkedIn'
+          type: url
+
+        - key: email_contato
+          name: 'Email'
+          type: email
+
+        - key: areas_especialidade
+          name: 'Especialidades'
+          type: list.single_line_text
