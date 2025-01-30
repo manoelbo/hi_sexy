@@ -33,42 +33,52 @@
       </div>
     {%- endif -%}
 
-    {% comment %}Se nenhum blog específico for selecionado, usa o blog da URL atual{% endcomment %}
-    {% if section.settings.blog != blank %}
-      {% assign blog_posts = blogs[section.settings.blog].articles %}
+    {% comment %}Determina qual blog usar baseado no contexto{% endcomment %}
+    {% if template == 'blog' %}
+      {% assign current_blog = blog %}
     {% else %}
-      {% assign blog_posts = blog.articles %}
+      {% if section.settings.blog != blank %}
+        {% assign current_blog = blogs[section.settings.blog] %}
+      {% else %}
+        {% assign current_blog = null %}
+      {% endif %}
     {% endif %}
 
     <div
       class="row g-4"
       id="blog-posts-container"
     >
-      {%- paginate blog.articles by 6 -%}
-        {%- for article in blog_posts -%}
-          <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}}">
-            <div
-              class="h-100"
-              data-aos="fade-down"
-              data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}"
-            >
-              {% render 'article-card', article: article %}
+      {% if current_blog != null %}
+        {%- paginate current_blog.articles by 6 -%}
+          {%- for article in current_blog.articles -%}
+            <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}}">
+              <div
+                class="h-100"
+                data-aos="fade-down"
+                data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}"
+              >
+                {% render 'article-card', article: article %}
+              </div>
             </div>
-          </div>
-        {%- endfor -%}
+          {%- endfor -%}
 
-        {%- if paginate.next -%}
-          <div class="col-12 text-center mt-4 mb-4">
-            <button
-              class=" btn btn-border rounded-black btn-border me-2 mb-3 load-more-button"
-              data-blog-handle="{{ blog.handle }}"
-              data-next-url="{{ paginate.next.url }}"
-            >
-              Carregar mais posts
-            </button>
-          </div>
-        {%- endif -%}
-      {%- endpaginate -%}
+          {%- if paginate.next -%}
+            <div class="col-12 text-center mt-4 mb-4">
+              <button
+                class="btn rounded-black btn-border btn-border me-2 mb-3 load-more-button"
+                data-blog-handle="{{ current_blog.handle }}"
+                data-next-url="{{ paginate.next.url }}"
+              >
+                Carregar mais posts
+              </button>
+            </div>
+          {%- endif -%}
+        {%- endpaginate -%}
+      {% else %}
+        <div class="col-12 text-center">
+          <p>Por favor, selecione um blog nas configurações da seção.</p>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
