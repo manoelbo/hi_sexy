@@ -1,81 +1,75 @@
 <section
-  class="blog-highlights px-lg-12 px-md-4 px-4 mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}"
+  class="px-lg-12 px-md-4 px-4 pb-lg-{{section.settings.spb_lg}} mb-lg-{{section.settings.smb_lg}} pb-{{section.settings.spb_xs}} mb-{{section.settings.smb_xs}}"
   {% if section.settings.bg_gradient != blank %}
     style="background: {{ section.settings.bg_gradient }}"
   {% else %}
     style="background-color: {{section.settings.bg_color }}"
   {% endif %}
 >
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-12 col-lg-3">
-        <h2 class="display-4 text-uppercase mb-4 mb-lg-0">
-          {{ section.settings.title }}
-        </h2>
-      </div>
-      <div class="col-12 col-lg-9">
-        <div class="row flex-nowrap overflow-auto pb-4 blog-cards">
-          {% if section.settings.auto_select %}
-            {% assign articles = blogs[section.settings.blog].articles | limit: 5 %}
-          {% else %}
-            {% assign articles = section.blocks | map: 'settings' | map: 'article' %}
-          {% endif %}
+  <div class="position-relative zi-1 text-xl-start container">
+    {%- if section.settings.title != blank and section.settings.show_title -%}
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}">
+            <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+              <div class="col-lg-12">
+                <h2
+                  class="blog-highlights-title {{ section.settings.title_size }} {{ section.settings.title_alignment }}"
+                >
+                  {{ section.settings.title }}
+                </h2>
 
-          {% for article in articles %}
-            <div
-              class="col-9 col-sm-6 col-md-4 col-lg-3 category-card"
-              data-aos="fade-down"
-              data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}"
-            >
-              <a href="{{ article.url }}" class="text-center pb-4 pb-lg-8">
-                {% if article.image %}
-                  <div class="card-top pb-4 pb-lg-8">
-                    <img
-                      src="{{ article.image | img_url: '400x400', crop: 'center' }}"
-                      alt="{{ article.title }}"
-                      class="img-fluid"
-                      loading="lazy"
-                    >
+                {%- if section.settings.subtitle != blank and section.settings.show_subtitle -%}
+                  <div
+                    class="blog-highlights-subtitle fs-{{ section.settings.subtitle_size }} {{ section.settings.subtitle_alignment }}"
+                  >
+                    {{ section.settings.subtitle }}
                   </div>
-                {% endif %}
-                <div class="card-content">
-                  <h3 class="mb-4 text-uppercase {{ section.settings.title_size }}">
-                    {{ article.title }}
-                  </h3>
-                  <p class="mb-0 remove-br-lg {{ section.settings.text_size }} {{ section.settings.font_color }}">
-                    {{ article.published_at | date: '%d/%m/%Y' }}
-                  </p>
-                </div>
-              </a>
+                {%- endif -%}
+              </div>
             </div>
-          {% endfor %}
+          </div>
         </div>
       </div>
+    {%- endif -%}
+
+    <div class="row my-lg-{{ section.settings.my_lg }} my-{{ section.settings.my_xs }}">
+      {%- for block in section.blocks limit: 3 -%}
+        {%- if block.settings.article != blank -%}
+          <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}} {% if section.settings.layout contains 'blog-card-row' %}mb-4{% else %}mb-4 mb-lg-8{% endif %}">
+            <div
+              class="mx-lg-{{ section.settings.mx_lg }} px-lg-{{ section.settings.px_lg }} py-lg-{{ section.settings.py_lg }} mx-{{ section.settings.mx_xs }} px-{{ section.settings.px_xs }} py-{{ section.settings.py_xs }}"
+              data-aos="fade-down"
+              data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}"
+            >
+              {% render 'article-card', article: block.settings.article %}
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
     </div>
   </div>
 </section>
 
 {% schema %}
 {
-  "name": "Blog Highlights",
+  "name": "Destaques do Blog",
   "settings": [
+    {
+      "type": "header",
+      "content": "Conteúdo"
+    },
     {
       "type": "text",
       "id": "title",
-      "label": "Título da Seção",
-      "default": "Últimas Notícias"
-    },
-    {
-      "type": "blog",
-      "id": "blog",
-      "label": "Blog"
+      "label": "Título",
+      "default": "Destaques do Blog"
     },
     {
       "type": "checkbox",
-      "id": "auto_select",
-      "label": "Seleção Automática",
-      "default": true,
-      "info": "Se ativado, seleciona automaticamente os 5 artigos mais recentes"
+      "id": "show_title",
+      "label": "Mostrar título",
+      "default": true
     },
     {
       "type": "select",
@@ -83,102 +77,268 @@
       "label": "Tamanho do Título",
       "options": [
         {
-          "value": "h6",
-          "label": "Pequeno"
+          "value": "display-1",
+          "label": "Extra Grande (88px)"
         },
         {
-          "value": "h5",
-          "label": "Médio"
+          "value": "display-2",
+          "label": "Muito Grande (80px)"
         },
         {
-          "value": "h4",
-          "label": "Grande"
+          "value": "display-3",
+          "label": "Grande (72px)"
+        },
+        {
+          "value": "display-4",
+          "label": "Médio (60px)"
         }
       ],
-      "default": "h6"
+      "default": "display-2"
     },
     {
       "type": "select",
-      "id": "text_size",
-      "label": "Tamanho do Texto",
+      "id": "title_alignment",
+      "label": "Alinhamento do Título",
       "options": [
         {
-          "value": "fs-6",
-          "label": "Pequeno"
+          "value": "text-start",
+          "label": "Esquerda"
         },
         {
-          "value": "fs-5",
-          "label": "Médio"
-        },
-        {
-          "value": "fs-4",
-          "label": "Grande"
+          "value": "text-center",
+          "label": "Centro"
         }
       ],
-      "default": "fs-6"
+      "default": "text-center"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtítulo"
     },
     {
       "type": "select",
-      "id": "font_color",
-      "label": "Cor do Texto",
+      "id": "subtitle_alignment",
+      "label": "Alinhamento do Subtítulo",
       "options": [
         {
-          "value": "text-dark",
-          "label": "Escuro"
+          "value": "text-start",
+          "label": "Esquerda"
         },
         {
-          "value": "text-light",
-          "label": "Claro"
+          "value": "text-center",
+          "label": "Centro"
         }
       ],
-      "default": "text-dark"
+      "default": "text-center"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Mostrar subtítulo",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Tamanho do subtítulo",
+      "default": 16
     },
     {
       "type": "header",
-      "content": "Estilo"
+      "content": "Estilo do Fundo"
     },
     {
       "type": "color",
       "id": "bg_color",
-      "label": "Cor de Fundo"
+      "label": "Cor do Fundo",
+      "default": "#ffffff"
     },
     {
       "type": "color_background",
       "id": "bg_gradient",
-      "label": "Gradiente de Fundo"
+      "label": "Gradiente do Fundo"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout das Colunas (Desktop)",
+      "options": [
+        {
+          "value": "col-12 blog-card-row",
+          "label": "Lista (Cards em Linha)"
+        },
+        {
+          "value": "col-md-12",
+          "label": "Uma Coluna"
+        },
+        {
+          "value": "col-md-6",
+          "label": "Duas Colunas"
+        },
+        {
+          "value": "col-lg-4",
+          "label": "Três Colunas"
+        }
+      ],
+      "default": "col-lg-4"
+    },
+    {
+      "type": "select",
+      "id": "content_align_desktop",
+      "label": "Alinhamento (Desktop)",
+      "options": [
+        {
+          "value": "text-lg-left",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-lg-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-lg-left"
+    },
+    {
+      "type": "select",
+      "id": "content_align_mobile",
+      "label": "Alinhamento (Mobile)",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-left"
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "pt_lg",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "pb_lg",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "mt_lg",
+      "label": "Margin Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mb_lg",
+      "label": "Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento (Mobile)"
+    },
+    {
+      "type": "range",
+      "id": "pt_sm",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "pb_sm",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mt_sm",
+      "label": "Margin Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mb_sm",
+      "label": "Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
     }
   ],
   "blocks": [
     {
       "type": "article",
       "name": "Artigo",
+      "limit": 3,
       "settings": [
         {
           "type": "article",
           "id": "article",
           "label": "Artigo"
         }
-      ],
-      "limit": 5
+      ]
     }
   ],
-  "templates": ["index", "page", "blog"],
   "presets": [
     {
-      "name": "Blog Highlights",
-      "settings": {}
+      "name": "Destaques do Blog",
+      "blocks": [
+        {
+          "type": "article"
+        },
+        {
+          "type": "article"
+        },
+        {
+          "type": "article"
+        }
+      ]
     }
   ]
 }
 {% endschema %}
 
 {% stylesheet %}
-  .blog-cards {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  .blog-highlights-title {
+    margin-bottom: 1.5rem;
   }
 
-  .blog-cards::-webkit-scrollbar {
-    display: none;
+  .blog-highlights-subtitle {
+    margin-bottom: 2rem;
   }
 {% endstylesheet %}

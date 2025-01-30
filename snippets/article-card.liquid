@@ -1,0 +1,71 @@
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+
+{% assign card_size = size | default: 'medium' %}
+
+<article class="article-card h-100">
+  <a href="{{ article.url }}" class="article-card__link">
+    <div class="article-card__image-wrapper">
+      {%- if article.image -%}
+        <img
+          srcset="
+            {%- if article.image.width >= 533 -%}{{ article.image | image_url: width: 533 }} 533w,{%- endif -%}
+            {%- if article.image.width >= 720 -%}{{ article.image | image_url: width: 720 }} 720w,{%- endif -%}
+            {%- if article.image.width >= 1000 -%}{{ article.image | image_url: width: 1000 }} 1000w,{%- endif -%}
+          "
+          src="{{ article.image | image_url: width: 533 }}"
+          sizes="(min-width: 1100px) 535px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+          alt="{{ article.image.alt | escape }}"
+          class="article-card__image"
+          loading="lazy"
+          width="{{ article.image.width }}"
+          height="{{ article.image.height }}"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'article-card__image placeholder' }}
+      {%- endif -%}
+    </div>
+
+    <div class="article-card__content">
+      <div class="article-card__date">
+        {% assign month = article.published_at | date: '%B' %}
+        {% case month %}
+          {% when 'January' -%}
+            {%- assign month = 'Janeiro' %}
+          {% when 'February' -%}
+            {%- assign month = 'Fevereiro' %}
+          {% when 'March' -%}
+            {%- assign month = 'Março' %}
+          {% when 'April' -%}
+            {%- assign month = 'Abril' %}
+          {% when 'May' -%}
+            {%- assign month = 'Maio' %}
+          {% when 'June' -%}
+            {%- assign month = 'Junho' %}
+          {% when 'July' -%}
+            {%- assign month = 'Julho' %}
+          {% when 'August' -%}
+            {%- assign month = 'Agosto' %}
+          {% when 'September' -%}
+            {%- assign month = 'Setembro' %}
+          {% when 'October' -%}
+            {%- assign month = 'Outubro' %}
+          {% when 'November' -%}
+            {%- assign month = 'Novembro' %}
+          {% when 'December' -%}
+            {%- assign month = 'Dezembro' %}
+        {% endcase %}
+        {{ article.published_at | date: '%d' }} de {{ month }} de {{ article.published_at | date: '%Y' }}
+      </div>
+
+      <h3 class="article-card__title">
+        {%- if article.metafields.custom.t_tulo_card_e_seo != blank -%}
+          {{ article.metafields.custom.t_tulo_card_e_seo }}
+        {%- else -%}
+          {{ article.title }}
+        {%- endif -%}
+      </h3>
+
+      <span class="article-card__read-more"> Ler post </span>
+    </div>
+  </a>
+</article>

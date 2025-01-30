@@ -1,0 +1,504 @@
+<section
+  class="px-lg-12 px-md-4 px-4 pb-lg-{{section.settings.spb_lg}} mb-lg-{{section.settings.smb_lg}} pb-{{section.settings.spb_xs}} mb-{{section.settings.smb_xs}}"
+  {% if section.settings.bg_gradient != blank %}
+    style="background: {{ section.settings.bg_gradient }}"
+  {% else %}
+    style="background-color: {{section.settings.bg_color }}"
+  {% endif %}
+>
+  <div class="position-relative zi-1 text-xl-start container">
+    {%- if section.settings.title != blank and section.settings.show_title -%}
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }}">
+            <div class="row {{section.settings.align_desktop}} {{section.settings.align_mobile}}">
+              <div class="col-lg-12">
+                <h2
+                  class="blog-highlights-title {{ section.settings.title_size }} {{ section.settings.title_alignment }}"
+                >
+                  {{ section.settings.title }}
+                </h2>
+
+                {%- if section.settings.subtitle != blank and section.settings.show_subtitle -%}
+                  <div
+                    class="blog-highlights-subtitle fs-{{ section.settings.subtitle_size }} {{ section.settings.subtitle_alignment }}"
+                  >
+                    {{ section.settings.subtitle }}
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {% comment %}Se nenhum blog específico for selecionado, usa o blog da URL atual{% endcomment %}
+    {% if section.settings.blog != blank %}
+      {% assign blog_posts = blogs[section.settings.blog].articles %}
+    {% else %}
+      {% assign blog_posts = blog.articles %}
+    {% endif %}
+
+    <div
+      class="row g-4"
+      id="blog-posts-container"
+    >
+      {%- paginate blog.articles by 6 -%}
+        {%- for article in blog_posts -%}
+          <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}}">
+            <div
+              class="h-100"
+              data-aos="fade-down"
+              data-aos-delay="{{ 100 | times: forloop.index | plus: 50 }}"
+            >
+              {% render 'article-card', article: article %}
+            </div>
+          </div>
+        {%- endfor -%}
+
+        {%- if paginate.next -%}
+          <div class="col-12 text-center mt-4 mb-4">
+            <button
+              class=" btn btn-border rounded-black btn-border me-2 mb-3 load-more-button"
+              data-blog-handle="{{ blog.handle }}"
+              data-next-url="{{ paginate.next.url }}"
+            >
+              Carregar mais posts
+            </button>
+          </div>
+        {%- endif -%}
+      {%- endpaginate -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Posts do Blog",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Conteúdo"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Título",
+      "default": "Posts do Blog"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Mostrar título",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Tamanho do Título",
+      "options": [
+        {
+          "value": "display-1",
+          "label": "Extra Grande (88px)"
+        },
+        {
+          "value": "display-2",
+          "label": "Muito Grande (80px)"
+        },
+        {
+          "value": "display-3",
+          "label": "Grande (72px)"
+        },
+        {
+          "value": "display-4",
+          "label": "Médio (60px)"
+        }
+      ],
+      "default": "display-2"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Alinhamento do Título",
+      "options": [
+        {
+          "value": "text-start",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-center"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtítulo"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtitle",
+      "label": "Mostrar subtítulo",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "subtitle_alignment",
+      "label": "Alinhamento do Subtítulo",
+      "options": [
+        {
+          "value": "text-start",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-center"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout das Colunas (Desktop)",
+      "options": [
+        {
+          "value": "col-12 blog-card-row",
+          "label": "Lista (Cards em Linha)"
+        },
+        {
+          "value": "col-md-12",
+          "label": "Uma Coluna"
+        },
+        {
+          "value": "col-md-6",
+          "label": "Duas Colunas"
+        },
+        {
+          "value": "col-lg-4",
+          "label": "Três Colunas"
+        }
+      ],
+      "default": "col-lg-4"
+    },
+    {
+      "type": "select",
+      "id": "content_align_desktop",
+      "label": "Alinhamento (Desktop)",
+      "options": [
+        {
+          "value": "text-lg-left",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-lg-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-lg-left"
+    },
+    {
+      "type": "select",
+      "id": "content_align_mobile",
+      "label": "Alinhamento (Mobile)",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Esquerda"
+        },
+        {
+          "value": "text-center",
+          "label": "Centro"
+        }
+      ],
+      "default": "text-left"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Cor do Fundo",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "bg_gradient",
+      "label": "Gradiente do Fundo"
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "pt_lg",
+      "label": "Extra Padding Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "pb_lg",
+      "label": "Extra Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "mt_lg",
+      "label": "Extra Margin Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mb_lg",
+      "label": "Extra Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento (Mobile)"
+    },
+    {
+      "type": "range",
+      "id": "pt_sm",
+      "label": "Extra Padding Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "pb_sm",
+      "label": "Extra Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mt_sm",
+      "label": "Extra Margin Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mb_sm",
+      "label": "Extra Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento Content (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "py_lg",
+      "label": "Extra Padding Top Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "px_lg",
+      "label": "Extra Padding Left Right",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "my_lg",
+      "label": "Extra Margin Top Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mx_lg",
+      "label": "Extra Margin Left Right",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento Content (Mobile)"
+    },
+    {
+      "type": "range",
+      "id": "py_xs",
+      "label": "Extra Padding Top Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "px_xs",
+      "label": "Extra Padding Left Right",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "my_xs",
+      "label": "Extra Margin Top Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mx_xs",
+      "label": "Extra Margin Left Right",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento Bottom Section (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "spb_lg",
+      "label": "Extra Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "smb_lg",
+      "label": "Extra Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Espaçamento Bottom Section (Mobile)"
+    },
+    {
+      "type": "range",
+      "id": "spb_xs",
+      "label": "Extra Padding Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "smb_xs",
+      "label": "Extra Margin Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Posts do Blog",
+      "category": "Blog"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const loadMoreButtons = document.querySelectorAll('.load-more-button');
+
+    loadMoreButtons.forEach((button) => {
+      button.addEventListener('click', async function () {
+        const nextUrl = this.dataset.nextUrl;
+        const blogHandle = this.dataset.blogHandle;
+        const container = document.getElementById('blog-posts-container');
+        // Pega o layout atual do primeiro artigo para manter consistência
+        const firstArticle = container.querySelector('[class*="col-"]');
+        const layoutClasses = firstArticle ? firstArticle.className : '';
+
+        try {
+          const response = await fetch(nextUrl);
+          const data = await response.text();
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(data, 'text/html');
+
+          // Encontra os novos artigos
+          const newArticles = doc.querySelectorAll('#blog-posts-container > div:not(.text-center)');
+
+          // Adiciona os novos artigos ao container
+          newArticles.forEach((article) => {
+            // Aplica as mesmas classes de layout do primeiro artigo
+            article.className = layoutClasses;
+
+            // Adiciona a classe h-100 ao container interno
+            const innerContainer = article.querySelector('div');
+            if (innerContainer) {
+              innerContainer.classList.add('h-100');
+            }
+
+            container.insertBefore(article, button.parentElement);
+
+            // Inicializa animação AOS para o novo card
+            if (typeof AOS !== 'undefined') {
+              AOS.refresh();
+              article.offsetHeight;
+            }
+          });
+
+          // Atualiza ou remove o botão de load more
+          const nextPageButton = doc.querySelector('.load-more-button');
+          if (nextPageButton) {
+            button.dataset.nextUrl = nextPageButton.dataset.nextUrl;
+          } else {
+            button.parentElement.remove();
+          }
+        } catch (error) {
+          console.error('Erro ao carregar mais posts:', error);
+        }
+      });
+    });
+  });
+</script>

@@ -1,16 +1,21 @@
 {
   "sections": {
-    "blog-template": {
-      "type": "blog-template",
+    "main": {
+      "type": "blog-posts-grid",
       "settings": {
-        "show_author": true,
-        "show_date": true,
-        "show_excerpt": true,
-        "show_read_more": true
+        "show_title": true,
+        "title": "{{ blog.title }}",
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "show_subtitle": false,
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "bg_color": "#ffffff"
       }
     }
   },
   "order": [
-    "blog-template"
+    "main"
   ]
 } 
