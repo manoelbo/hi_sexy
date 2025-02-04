@@ -130,12 +130,8 @@
       "article-template": {
         "type": "article-template",
         "settings": {
-          "featured_courses": [
-            "comunicacao-executiva",
-            "explorando-futuros",
-            "lideranca-em-tempos-de-mudanca"
-          ],
-          "sidebar_title": "Próximos Cursos"
+          "featured_courses": [],
+          "sidebar_title": ""
         }
       }
     },
