@@ -131,7 +131,7 @@
         "type": "article-template",
         "settings": {
           "featured_courses": [],
-          "sidebar_title": "Cursos"
+          "sidebar_title": ""
         }
       }
     },
