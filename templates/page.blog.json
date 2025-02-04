@@ -39,7 +39,7 @@
         "article_w3jz7h": {
           "type": "article",
           "settings": {
-            "article": "news/exercite-a-colaboracao-em-equipe"
+            "article": "news/if-you-contribute-you-can-stay"
           }
         },
         "article_QAECEM": {
@@ -54,7 +54,6 @@
         "article_w3jz7h",
         "article_QAECEM"
       ],
-      "disabled": true,
       "settings": {
         "title": "Destaques do Blog",
         "show_title": true,

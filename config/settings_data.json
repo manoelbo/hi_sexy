@@ -129,6 +129,9 @@
       },
       "article-template": {
         "type": "article-template",
+        "custom_css": [
+          ".fs-4.fw-bold.mb-4.mt-4.mt-lg-0.text-uppercase.pb-8 {display: none !important;}"
+        ],
         "settings": {
           "featured_courses": [],
           "sidebar_title": ""
