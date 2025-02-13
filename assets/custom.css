@@ -287,7 +287,7 @@ a.click-card {
     border: 1px solid black;
 }
 .article-content .hyper-card {
-    border: 5px solid #FF7300;
+    border: none;
 }
 
 .hyper-card img {
@@ -499,3 +499,61 @@ a {
   .row.align-items-center {
     --bs-gutter-x: 2rem;
   }
+
+/* Estilos específicos para cards de cursos relacionados na sidebar */
+.sidebar-courses .hyper-card-content h1.display-8 {
+    font-size: 1.5rem;  /* Aumentado de 1.25rem para 1.5rem */
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-courses .hyper-card-content p {
+    font-size: 0.875rem;  
+    line-height: 1.4;
+}
+
+.sidebar-courses .hyper-card-content {
+    padding: 1rem 1.25rem;  
+}
+
+/* Estilos para o conteúdo do artigo */
+.article-content {
+    /* Aumenta o tamanho da fonte */
+    font-size: 1.125rem;  /* 18px */
+    
+    /* Aumenta o espaçamento entre linhas */
+    line-height: 1.7;
+    
+    /* Remove o kerning/tracking (espaçamento entre letras) */
+    letter-spacing: normal;
+    
+    /* Aumenta o peso da fonte */
+    font-weight: 500;  /* Medium */
+}
+
+/* Garante que parágrafos dentro do artigo mantenham o espaçamento */
+.article-content p {
+    margin-bottom: 1.5rem;
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 767px) {
+    .article-content {
+        font-size: 1rem;  /* 16px em mobile */
+        line-height: 1.6;
+    }
+}
+
+/* Estilo para o link de voltar ao blog */
+.back-to-blog {
+    color: #FF7300;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.back-to-blog:hover {
+    color: #cc5c00;
+}

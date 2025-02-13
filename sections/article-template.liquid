@@ -1,17 +1,34 @@
 <article class="article py-10" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="container">
+    <!-- Link superior para voltar ao blog -->
+    <div class="mb-6">
+      <a href="{{ blog.url }}" class="back-to-blog">←&nbsp;Voltar para {{ blog.title }}</a>
+    </div>
+
     <div class="row justify-content-center">
-      <div class="col-lg-7">
+      <div class="{% if section.settings.show_sidebar %}col-lg-9{% else %}col-lg-12{% endif %}">
         <h1 class="display-4 mb-4" itemprop="headline">
           {{ article.title }}
         </h1>
 
         <div class="article-meta mb-6">
           <p class="text-muted">
-            {% assign author = article.metafields.custom.autor.value %}
-            {% if author %}
+            {% assign author_1 = article.metafields.custom.autor.value %}
+            {% assign author_2 = article.metafields.custom.autor_2.value %}
+
+            {% if author_1 != blank or author_2 != blank %}
               <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ author.nome }}</span>
+                {% if author_1 != blank %}
+                  <span itemprop="name">{{ author_1.nome.value }}</span>
+                {% endif %}
+
+                {% if author_1 != blank and author_2 != blank %}
+                  e
+                {% endif %}
+
+                {% if author_2 != blank %}
+                  <span itemprop="name">{{ author_2.nome.value }}</span>
+                {% endif %}
               </span>
             {% endif %}
             •
@@ -110,31 +127,68 @@
           </div>
         </div>
 
-        {% assign author = article.metafields.custom.autor.value %}
-        {% if author %}
+        <!-- Link inferior para voltar ao blog -->
+        <div class="mt-8 mb-6">
+          <a href="{{ blog.url }}" class="back-to-blog">←&nbsp;Voltar para {{ blog.title }}</a>
+        </div>
+
+        <!-- Seção dos autores no final -->
+        {% assign author_1 = article.metafields.custom.autor.value %}
+        {% assign author_2 = article.metafields.custom.autor_2.value %}
+
+        {% if author_1 != blank or author_2 != blank %}
           <div class="author-section mt-8 mb-6 rte pb-6">
-            <div class="row align-items-center">
-              <div class="col-auto">
-                {% if author.foto %}
-                  <img
-                    src="{{ author.foto | image_url }}"
-                    alt="{{ author.nome }}"
-                    class="author-avatar rounded-circle"
-                    width="120"
-                    height="120"
-                    style="object-fit: cover;"
-                  >
-                {% endif %}
-              </div>
-              <div class="col">
-                <div class="author-info">
-                  <div class="author-name fs-4 fw-medium mb-2">{{ author.nome }}</div>
-                  {% if author.bio %}
-                    <p class="author-bio text-muted mb-0">{{ author.bio }}</p>
+            <!-- Primeiro autor -->
+            {% if author_1 != blank %}
+              <div class="row align-items-center {% if author_2 != blank %}mb-4{% endif %}">
+                <div class="col-auto">
+                  {% if author_1.foto.value != blank %}
+                    <img
+                      src="{{ author_1.foto.value | image_url }}"
+                      alt="{{ author_1.nome.value }}"
+                      class="author-avatar rounded-circle"
+                      width="120"
+                      height="120"
+                      style="object-fit: cover;"
+                    >
                   {% endif %}
                 </div>
+                <div class="col">
+                  <div class="author-info">
+                    <div class="author-name fs-4 fw-medium mb-2">{{ author_1.nome.value }}</div>
+                    {% if author_1.bio.value != blank %}
+                      <p class="author-bio text-muted mb-0">{{ author_1.bio.value }}</p>
+                    {% endif %}
+                  </div>
+                </div>
               </div>
-            </div>
+            {% endif %}
+
+            <!-- Segundo autor -->
+            {% if author_2 != blank %}
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  {% if author_2.foto.value != blank %}
+                    <img
+                      src="{{ author_2.foto.value | image_url }}"
+                      alt="{{ author_2.nome.value }}"
+                      class="author-avatar rounded-circle"
+                      width="120"
+                      height="120"
+                      style="object-fit: cover;"
+                    >
+                  {% endif %}
+                </div>
+                <div class="col">
+                  <div class="author-info">
+                    <div class="author-name fs-4 fw-medium mb-2">{{ author_2.nome.value }}</div>
+                    {% if author_2.bio.value != blank %}
+                      <p class="author-bio text-muted mb-0">{{ author_2.bio.value }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
           </div>
         {% endif %}
 
@@ -212,45 +266,50 @@
           </div>
         {% endif %}
       </div>
-      <div class="col-lg-4 offset-lg-1">
-        <div class="sidebar-courses">
-          <p class="fs-4 fw-bold mb-4 mt-4 mt-lg-0 text-uppercase pb-8">Próximos Cursos</p>
 
-          {% for product in section.settings.featured_courses %}
-            <div
-              class="category-card mb-4"
-              data-aos="fade-down"
-              data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}"
-            >
-              <a href="{{ product.url }}" class="click-card text-center pb-4">
-                <div class="content-container hyper-card">
-                  {% if product.featured_image != blank %}
-                    {{ product.featured_image | image_url: width: 600 | image_tag }}
-                  {% endif %}
+      {% if section.settings.show_sidebar %}
+        <div class="col-lg-3">
+          <div class="sidebar-courses">
+            <p class="fs-4 fw-bold mb-4 mt-4 mt-lg-0 text-uppercase pb-8">
+              {{ section.settings.sidebar_title | default: 'Cursos Relacionados' }}
+            </p>
 
-                  <div class="hyper-card-content">
-                    {% if product.title != blank %}
-                      <h1 class="display-8 {% if product.description == blank %}p-0 m-0{% endif %}">
-                        {{ product.title }}
-                      </h1>
+            {% for product in section.settings.featured_courses %}
+              <div
+                class="category-card mb-4"
+                data-aos="fade-down"
+                data-aos-delay="{{ 100 | times: forloop.index | plus: 10 }}"
+              >
+                <a href="{{ product.url }}" class="click-card text-center pb-4">
+                  <div class="content-container hyper-card">
+                    {% if product.featured_image != blank %}
+                      {{ product.featured_image | image_url: width: 600 | image_tag }}
                     {% endif %}
 
-                    {% if product.metafields.custom.excerpt != blank %}
-                      <p class="mt-6 pb-0 fs-7 mb-0">
-                        {{ product.metafields.custom.excerpt }}
-                      </p>
-                    {% else %}
-                      <p class="mt-6 pb-0 fs-7 mb-0">
-                        {{ product.description }}
-                      </p>
-                    {% endif %}
+                    <div class="hyper-card-content">
+                      {% if product.title != blank %}
+                        <h1 class="display-8 {% if product.description == blank %}p-0 m-0{% endif %}">
+                          {{ product.title }}
+                        </h1>
+                      {% endif %}
+
+                      {% if product.metafields.custom.excerpt != blank %}
+                        <p class="mt-6 pb-0 fs-7 mb-0">
+                          {{ product.metafields.custom.excerpt }}
+                        </p>
+                      {% else %}
+                        <p class="mt-6 pb-0 fs-7 mb-0">
+                          {{ product.description }}
+                        </p>
+                      {% endif %}
+                    </div>
                   </div>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
+                </a>
+              </div>
+            {% endfor %}
+          </div>
         </div>
-      </div>
+      {% endif %}
     </div>
   </div>
 </article>
@@ -295,20 +354,24 @@
   "name": "Article Template",
   "settings": [
     {
-      "type": "header",
-      "content": "Sidebar Courses"
-    },
-    {
-      "type": "product_list",
-      "id": "featured_courses",
-      "label": "Featured Courses",
-      "limit": 3
+      "type": "checkbox",
+      "id": "show_sidebar",
+      "label": "Mostrar Cursos Relacionados",
+      "default": true,
+      "info": "Ative para exibir a coluna lateral com cursos relacionados"
     },
     {
       "type": "text",
       "id": "sidebar_title",
-      "label": "Sidebar Title",
-      "default": "Próximos Cursos"
+      "label": "Título da Coluna Lateral",
+      "default": "Cursos Relacionados",
+      "info": "Texto que aparecerá como título da coluna lateral"
+    },
+    {
+      "type": "product_list",
+      "id": "featured_courses",
+      "label": "Cursos Relacionados",
+      "limit": 3
     }
   ]
 }
