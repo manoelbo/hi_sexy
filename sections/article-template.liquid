@@ -6,7 +6,7 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="{% if section.settings.show_sidebar %}col-lg-9{% else %}col-lg-12{% endif %}">
+      <div class="{% if section.settings.show_sidebar and section.settings.sidebar_position == 'side' %}col-lg-9{% else %}col-lg-12{% endif %}">
         <h1 class="display-4 mb-4" itemprop="headline">
           {{ article.title }}
         </h1>
@@ -62,6 +62,12 @@
               {% endcase %}
               de {{ article.published_at | date: '%Y' }}
             </time>
+            •
+            <span class="estimated-read-time">
+              {% assign words = article.content | strip_html | split: ' ' | size %}
+              {% assign minutes = words | divided_by: 100.0 | ceil %}
+              {{ minutes }} min de leitura
+            </span>
             {% if article.tags.size > 0 %}
               •
               {% for tag in article.tags %}
@@ -267,13 +273,13 @@
         {% endif %}
       </div>
 
-      {% if section.settings.show_sidebar %}
+      <!-- Sidebar (se a posição for 'side') -->
+      {% if section.settings.show_sidebar and section.settings.sidebar_position == 'side' %}
         <div class="col-lg-3">
           <div class="sidebar-courses">
             <p class="fs-4 fw-bold mb-4 mt-4 mt-lg-0 text-uppercase pb-8">
               {{ section.settings.sidebar_title | default: 'Cursos Relacionados' }}
             </p>
-
             {% for product in section.settings.featured_courses %}
               <div
                 class="category-card mb-4"
@@ -311,6 +317,40 @@
         </div>
       {% endif %}
     </div>
+
+    <!-- Cursos relacionados horizontais (se a posição for 'bottom') -->
+    {% if section.settings.show_sidebar and section.settings.sidebar_position == 'bottom' %}
+      <div class="related-courses-horizontal mt-8">
+        <p class="fs-4 fw-bold mb-4 text-uppercase">
+          {{ section.settings.sidebar_title | default: 'Cursos Relacionados' }}
+        </p>
+        <div class="row">
+          {% for product in section.settings.featured_courses %}
+            <div class="col-md-4 mb-4">
+              <div class="category-card">
+                <a href="{{ product.url }}" class="click-card text-center pb-4">
+                  <div class="content-container hyper-card">
+                    {% if product.featured_image != blank %}
+                      {{ product.featured_image | image_url: width: 600 | image_tag }}
+                    {% endif %}
+                    <div class="hyper-card-content">
+                      {% if product.title != blank %}
+                        <h1 class="display-8">{{ product.title }}</h1>
+                      {% endif %}
+                      {% if product.metafields.custom.excerpt != blank %}
+                        <p class="mt-6 pb-0 fs-7 mb-0">{{ product.metafields.custom.excerpt }}</p>
+                      {% else %}
+                        <p class="mt-6 pb-0 fs-7 mb-0">{{ product.description }}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
   </div>
 </article>
 
@@ -357,15 +397,29 @@
       "type": "checkbox",
       "id": "show_sidebar",
       "label": "Mostrar Cursos Relacionados",
-      "default": true,
-      "info": "Ative para exibir a coluna lateral com cursos relacionados"
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "sidebar_position",
+      "label": "Posição dos Cursos Relacionados",
+      "options": [
+        {
+          "value": "side",
+          "label": "Lateral (Sidebar)"
+        },
+        {
+          "value": "bottom",
+          "label": "Abaixo do Artigo"
+        }
+      ],
+      "default": "side"
     },
     {
       "type": "text",
       "id": "sidebar_title",
-      "label": "Título da Coluna Lateral",
-      "default": "Cursos Relacionados",
-      "info": "Texto que aparecerá como título da coluna lateral"
+      "label": "Título da Seção de Cursos",
+      "default": "Cursos Relacionados"
     },
     {
       "type": "product_list",
