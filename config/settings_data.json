@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_primary": "#000000",
@@ -6,33 +15,33 @@
     "color_body_text": "#212529",
     "font_headings": "roboto_n5",
     "font_body": "montserrat_n4",
-    "favicon": "shopify:\/\/shop_images\/favicon_32x32_467d4716-d981-4ba4-8abb-7ecc64e285a3.png",
-    "header_scripts": "<!-- Global site tag (gtag.js) - Google Ads: 586965911 -->\n<script async=\"\" src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=AW-586965911\"><\/script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-586965911');\n<\/script>",
-    "body_scripts": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text\/javascript\" id=\"hs-script-loader\" async=\"\" defer src=\"\/\/js.hs-scripts.com\/1588780.js\"><\/script>\n<!-- End of HubSpot Embed Code -->\n\n<!-- Start of HubSpot code snippet -->\n<button type=\"button\" id=\"hs_show_banner_button\" style=\"\n       background-color: #FF7300;\n       \/* border: 1px solid #FF7300; *\/\n       padding: 5px 5px;\n       display: block;\n       position: fixed;\n       left: 10px;\n       bottom: 10px;\n       border: 1px white solid;\n       text-decoration: none;\n       font-weight: bold;\n       color: #fff;\n       font-family: inherit;\n       font-size: inherit;\n       \/* font-weight: normal; *\/\n       line-height: inherit;\n       text-align: left;\n       text-shadow: none;\n       font-size: 12px;\n       \" onclick=\"(function(){\n  var _hsp = window._hsp = window._hsp || [];\n  _hsp.push(['showBanner']);\n})()\">\nCookies\n<\/button>\n\n<!-- End of HubSpot code snippet -->",
-    "logo_1": "shopify:\/\/shop_images\/1_Google_7c3b2c89-0388-4cd0-a867-47cc85aed0e4.png",
-    "logo_2": "shopify:\/\/shop_images\/2_Meta_48b6f3cd-e0d0-4cf5-aeb0-786a0a553e48.png",
-    "logo_3": "shopify:\/\/shop_images\/3_Santander_cdd4c9ae-9638-48aa-a995-e7a8c1a7a6be.png",
-    "logo_4": "shopify:\/\/shop_images\/4_Samsung_99e89cb6-9efc-4525-91c0-5f576847ba41.png",
-    "logo_5": "shopify:\/\/shop_images\/5_Mondelez_3f1c9e90-aed5-4472-b99a-68e0f832acf4.png",
-    "logo_6": "shopify:\/\/shop_images\/6_Scania_078eaace-78e3-4105-adc9-f67cc7422b74.png",
-    "logo_7": "shopify:\/\/shop_images\/7_Bradesco_5534a523-b7b8-41f1-857f-723ecd9c5c17.png",
-    "logo_8": "shopify:\/\/shop_images\/8_Pepsico_863e0f3e-d85e-4180-a50b-52422c694a9c.png",
-    "logo_9": "shopify:\/\/shop_images\/9_Unilever_a88a69c9-86cd-43c3-8e3b-908ac9125553.png",
-    "logo_10": "shopify:\/\/shop_images\/10_Itau_007e96cd-34e1-45a8-b0dd-4d0d9592f644.png",
-    "logo_11": "shopify:\/\/shop_images\/11_Mastercard_fa13a30b-a09d-4b97-a0ba-c8fffc4f8952.png",
-    "logo_12": "shopify:\/\/shop_images\/12_Nestle_782c2060-082c-4f66-b685-f372cdf6c932.png",
-    "logo_13": "shopify:\/\/shop_images\/13_IBM_58b44fdd-c36d-40c6-8428-81471e6b054d.png",
-    "logo_14": "shopify:\/\/shop_images\/14_Coca_89fe833c-0a06-42a3-9e4a-c411b9216484.png",
+    "favicon": "shopify://shop_images/favicon_32x32_467d4716-d981-4ba4-8abb-7ecc64e285a3.png",
+    "header_scripts": "<!-- Global site tag (gtag.js) - Google Ads: 586965911 -->\n<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=AW-586965911\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-586965911');\n</script>",
+    "body_scripts": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer src=\"//js.hs-scripts.com/1588780.js\"></script>\n<!-- End of HubSpot Embed Code -->\n\n<!-- Start of HubSpot code snippet -->\n<button type=\"button\" id=\"hs_show_banner_button\" style=\"\n       background-color: #FF7300;\n       /* border: 1px solid #FF7300; */\n       padding: 5px 5px;\n       display: block;\n       position: fixed;\n       left: 10px;\n       bottom: 10px;\n       border: 1px white solid;\n       text-decoration: none;\n       font-weight: bold;\n       color: #fff;\n       font-family: inherit;\n       font-size: inherit;\n       /* font-weight: normal; */\n       line-height: inherit;\n       text-align: left;\n       text-shadow: none;\n       font-size: 12px;\n       \" onclick=\"(function(){\n  var _hsp = window._hsp = window._hsp || [];\n  _hsp.push(['showBanner']);\n})()\">\nCookies\n</button>\n\n<!-- End of HubSpot code snippet -->",
+    "logo_1": "shopify://shop_images/1_Google_7c3b2c89-0388-4cd0-a867-47cc85aed0e4.png",
+    "logo_2": "shopify://shop_images/2_Meta_48b6f3cd-e0d0-4cf5-aeb0-786a0a553e48.png",
+    "logo_3": "shopify://shop_images/3_Santander_cdd4c9ae-9638-48aa-a995-e7a8c1a7a6be.png",
+    "logo_4": "shopify://shop_images/4_Samsung_99e89cb6-9efc-4525-91c0-5f576847ba41.png",
+    "logo_5": "shopify://shop_images/5_Mondelez_3f1c9e90-aed5-4472-b99a-68e0f832acf4.png",
+    "logo_6": "shopify://shop_images/6_Scania_078eaace-78e3-4105-adc9-f67cc7422b74.png",
+    "logo_7": "shopify://shop_images/7_Bradesco_5534a523-b7b8-41f1-857f-723ecd9c5c17.png",
+    "logo_8": "shopify://shop_images/8_Pepsico_863e0f3e-d85e-4180-a50b-52422c694a9c.png",
+    "logo_9": "shopify://shop_images/9_Unilever_a88a69c9-86cd-43c3-8e3b-908ac9125553.png",
+    "logo_10": "shopify://shop_images/10_Itau_007e96cd-34e1-45a8-b0dd-4d0d9592f644.png",
+    "logo_11": "shopify://shop_images/11_Mastercard_fa13a30b-a09d-4b97-a0ba-c8fffc4f8952.png",
+    "logo_12": "shopify://shop_images/12_Nestle_782c2060-082c-4f66-b685-f372cdf6c932.png",
+    "logo_13": "shopify://shop_images/13_IBM_58b44fdd-c36d-40c6-8428-81471e6b054d.png",
+    "logo_14": "shopify://shop_images/14_Coca_89fe833c-0a06-42a3-9e4a-c411b9216484.png",
     "footer_1": "footer-1-website-novo",
     "footer_2": "footer-2-website-novo",
     "social_facebook": "",
     "social_twitter": "",
-    "social_instagram": "https:\/\/www.instagram.com\/hyperisland.br\/",
+    "social_instagram": "https://www.instagram.com/hyperisland.br/",
     "social_pinterest": "",
     "social_tiktok": "",
     "social_snapchat": "",
     "social_youtube": "",
-    "social_linkedin": "https:\/\/www.linkedin.com\/company\/hyperislandbrasil\/",
+    "social_linkedin": "https://www.linkedin.com/company/hyperislandbrasil/",
     "social_whatsapp": "",
     "buttons_border_radius": "0.25rem",
     "cart_goal_enable": true,
@@ -57,7 +66,7 @@
           "bg_color": "bg-white text-dark",
           "shadow": "shadow-none",
           "menu_desktop": "menu-desktop-website-novo",
-          "logo": "shopify:\/\/shop_images\/HI_Primary_Logotype_Black_cedf3a6e-c199-4b9a-a71b-75d1a8f47ee0.png",
+          "logo": "shopify://shop_images/HI_Primary_Logotype_Black_cedf3a6e-c199-4b9a-a71b-75d1a8f47ee0.png",
           "logo_height_mobile": 32,
           "logo_height_desktop": 20,
           "offcanvas_menu_header_bg": "bg-dark text-white",
@@ -79,7 +88,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "announcement": "<p>Announce something important here<\/p>",
+          "announcement": "<p>Announce something important here</p>",
           "show": true,
           "homepage": false,
           "bg_color": "bg-dark text-white",
@@ -97,11 +106,11 @@
           "max_width": "560",
           "title": "Newsletter Subscribe",
           "title_size": "h3",
-          "description": "<p>Subscribe to get updates about our latest offers and other important stuff. We usually send once per week.<\/p>",
+          "description": "<p>Subscribe to get updates about our latest offers and other important stuff. We usually send once per week.</p>",
           "description_size": "fs-6",
           "input_group_size": "",
           "btn_color": "btn-primary",
-          "notice": "<p>By signing up for email, you agree to our <a href=\"#\" title=\"#\">Terms of Service<\/a> and <a href=\"#\" title=\"#\">Privacy Policy<\/a>.<\/p>",
+          "notice": "<p>By signing up for email, you agree to our <a href=\"#\" title=\"#\">Terms of Service</a> and <a href=\"#\" title=\"#\">Privacy Policy</a>.</p>",
           "pt": 10,
           "pb": 10,
           "mt": 0,
@@ -122,30 +131,32 @@
         "type": "article-template",
         "custom_css": [],
         "settings": {
-          "featured_courses": [],
-          "sidebar_title": ""
+          "show_sidebar": false,
+          "sidebar_position": "side",
+          "sidebar_title": "",
+          "featured_courses": []
         }
       }
     },
     "content_for_index": [],
     "blocks": {
       "5163884144194077907": {
-        "type": "shopify:\/\/apps\/sami-b2b-lock\/blocks\/app-embed\/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
+        "type": "shopify://apps/sami-b2b-lock/blocks/app-embed/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
         "disabled": true,
         "settings": {}
       },
       "13110355656412213437": {
-        "type": "shopify:\/\/apps\/ymq-b2b-login-lock-hide-price\/blocks\/app-embed\/4745f714-4e42-415f-ba5c-ddc47c7e555d",
+        "type": "shopify://apps/ymq-b2b-login-lock-hide-price/blocks/app-embed/4745f714-4e42-415f-ba5c-ddc47c7e555d",
         "disabled": true,
         "settings": {}
       },
       "9365423049038898845": {
-        "type": "shopify:\/\/apps\/tawk-to-live-chat\/blocks\/widget-embed-code\/91169e75-f163-40ce-90e0-9059f3c9b772",
+        "type": "shopify://apps/tawk-to-live-chat/blocks/widget-embed-code/91169e75-f163-40ce-90e0-9059f3c9b772",
         "disabled": false,
         "settings": {}
       },
       "1639135474517437502": {
-        "type": "shopify:\/\/apps\/adoric-pop-ups-email-popup\/blocks\/adoric-app-embed\/5093b4c9-1f84-4db8-8760-f4b25b818e1c",
+        "type": "shopify://apps/adoric-pop-ups-email-popup/blocks/adoric-app-embed/5093b4c9-1f84-4db8-8760-f4b25b818e1c",
         "disabled": false,
         "settings": {}
       }
