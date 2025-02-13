@@ -131,10 +131,13 @@
         "type": "article-template",
         "custom_css": [],
         "settings": {
-          "show_sidebar": false,
+          "show_sidebar": true,
           "sidebar_position": "side",
-          "sidebar_title": "",
-          "featured_courses": []
+          "sidebar_title": "Cursos Relacionados",
+          "featured_courses": [
+            "comunicacao-executiva",
+            "explorando-futuros"
+          ]
         }
       }
     },
