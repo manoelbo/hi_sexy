@@ -132,7 +132,7 @@
         "custom_css": [],
         "settings": {
           "show_sidebar": true,
-          "sidebar_position": "side",
+          "sidebar_position": "bottom",
           "sidebar_title": "Cursos Relacionados",
           "featured_courses": [
             "comunicacao-executiva",
