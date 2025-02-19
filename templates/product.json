@@ -51,6 +51,7 @@
     },
     "header_H4GQb3": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -130,6 +131,7 @@
         "card_QDHcje",
         "card_WXdj9K"
       ],
+      "disabled": true,
       "settings": {
         "header_size": "fs-6",
         "title_size": "display-6",
