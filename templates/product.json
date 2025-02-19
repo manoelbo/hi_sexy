@@ -51,7 +51,6 @@
     },
     "header_H4GQb3": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -79,6 +78,75 @@
         "mb_lg": 0,
         "pt_sm": 0,
         "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "card_fluid_MHi4dz": {
+      "type": "card-fluid",
+      "blocks": {
+        "card_7HUUbN": {
+          "type": "card",
+          "settings": {
+            "header": "Formato",
+            "title": "{{ product.metafields.custom.format.value }}",
+            "text": "",
+            "url": "",
+            "target": false,
+            "font_color": "text-light",
+            "bg_color": "#000000",
+            "bg_gradient": ""
+          }
+        },
+        "card_QDHcje": {
+          "type": "card",
+          "settings": {
+            "header": "Próxima Turma",
+            "title": "{{ product.metafields.custom.next_cohort_day.value }}",
+            "text": "",
+            "url": "",
+            "target": false,
+            "font_color": "text-light",
+            "bg_color": "#000000",
+            "bg_gradient": ""
+          }
+        },
+        "card_WXdj9K": {
+          "type": "card",
+          "settings": {
+            "header": "Horário",
+            "title": "{{ product.metafields.custom.time.value }}",
+            "text": "",
+            "url": "",
+            "target": false,
+            "font_color": "text-light",
+            "bg_color": "#000000",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_7HUUbN",
+        "card_QDHcje",
+        "card_WXdj9K"
+      ],
+      "settings": {
+        "header_size": "fs-6",
+        "title_size": "display-6",
+        "text_size": "fs-6",
+        "layout": "col-lg-4",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "pt_xl": 9,
+        "pb_xl": 9,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 9,
+        "pb_lg": 9,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 6,
+        "pb_sm": 6,
         "mt_sm": 0,
         "mb_sm": 0
       }
@@ -871,6 +939,7 @@
   "order": [
     "sp_media_grid_HFcQJL",
     "header_H4GQb3",
+    "card_fluid_MHi4dz",
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
