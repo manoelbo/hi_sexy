@@ -133,10 +133,11 @@
         "settings": {
           "show_sidebar": true,
           "sidebar_position": "bottom",
-          "sidebar_title": "Cursos Relacionados",
+          "sidebar_title": "Próximos Cursos",
           "featured_courses": [
             "comunicacao-executiva",
-            "explorando-futuros"
+            "explorando-futuros",
+            "lideranca-em-tempos-de-mudanca"
           ]
         }
       }
