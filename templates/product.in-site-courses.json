@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "sp_media_grid_Kidmh9": {
@@ -6,7 +15,7 @@
         "video_aP3dqR": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Design sem nome (2).mp4",
+            "video": "shopify://files/videos/Design sem nome (2).mp4",
             "link": "",
             "video_inline": true,
             "video_autoplay": true,
@@ -18,7 +27,7 @@
         "image_Wit4Lq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
+            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
             "link": ""
           }
         }
@@ -31,7 +40,7 @@
       "settings": {
         "background_color": "linear-gradient(320deg, rgba(0, 0, 0, 1) 16%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 87%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 \/ 9",
+        "media_aspect_ratio": "16 / 9",
         "max_width": 1000,
         "grid_gap": 25,
         "padding_top": 50,
@@ -60,7 +69,7 @@
         "price_text": "",
         "cta_1": "Comprar",
         "cta_2": "Programa do curso",
-        "cta_link_2": "https:\/\/www.hyperisland.com.br\/products\/lideranca-agil-1#programa",
+        "cta_link_2": "https://www.hyperisland.com.br/products/lideranca-agil-1#programa",
         "cta_3": "Tire suas Dúvidas",
         "cta_link_3": "",
         "zap": true,
@@ -78,7 +87,7 @@
         "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
           "type": "content",
           "settings": {
-            "title": "<strong>Online<\/strong>",
+            "title": "<strong>Online</strong>",
             "text": "Estude no seu tempo, onde e quando quiser, sem perder a qualidade dos conteúdos Hyper Island",
             "header": "",
             "svg": "",
@@ -186,13 +195,13 @@
         "padding_right": 10,
         "element_spacing": 15,
         "video_location": "left",
-        "video_aspect_ratio": "16 \/ 9",
+        "video_aspect_ratio": "16 / 9",
         "alignment": "left",
-        "headline": "<strong>TRAILER DO CURSO<\/strong>",
-        "content": "<p>Descubra como essa experiência imersiva pode transformar sua abordagem de liderança.<\/p>",
+        "headline": "<strong>TRAILER DO CURSO</strong>",
+        "content": "<p>Descubra como essa experiência imersiva pode transformar sua abordagem de liderança.</p>",
         "link_text": "Quero começar a aprender",
         "link": "",
-        "video": "shopify:\/\/files\/videos\/M1 - Aula 2.mp4",
+        "video": "shopify://files/videos/M1 - Aula 2.mp4",
         "video_inline": true,
         "video_autoplay": false,
         "video_loop": true,
@@ -264,7 +273,7 @@
         "padding_bottom": 25,
         "padding_left": 10,
         "padding_right": 10,
-        "video": "shopify:\/\/files\/videos\/Trailer do Curso - Liderança Ágil.mp4",
+        "video": "shopify://files/videos/Trailer do Curso - Liderança Ágil.mp4",
         "video_inline": true,
         "video_autoplay": false,
         "video_loop": false,
@@ -282,7 +291,7 @@
             "title": "6 Módulos",
             "text": "Com quase 7 horas de conteúdo gravado em formato microlearning, cada módulo foi planejado para oferecer uma experiência de aprendizado ágil e eficiente.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -293,7 +302,7 @@
             "title": "Kits de Aprendizagem",
             "text": "Materiais complementares que aprofundam o conteúdo de cada módulo, oferecendo recursos extras para ampliar seu conhecimento e aplicá-lo no dia a dia.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -304,7 +313,7 @@
             "title": "Atividades Práticas",
             "text": "Mais de 10 desafios práticos para você aplicar os conceitos de forma prática e ganhar fluidez no uso das estratégias de liderança ágil.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -315,7 +324,7 @@
             "title": "Certificado",
             "text": "Receba um certificado de participação ao concluir o curso, validando sua jornada de aprendizado e destacando sua qualificação em Liderança Ágil.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -385,7 +394,7 @@
           "type": "content",
           "settings": {
             "title": "",
-            "text": "<strong>☑ <\/strong>É um líder que quer aprimorar suas habilidades.",
+            "text": "<strong>☑ </strong>É um líder que quer aprimorar suas habilidades.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -396,7 +405,7 @@
           "type": "content",
           "settings": {
             "title": "",
-            "text": "<strong>☑ <\/strong>Está curioso para aprender sobre metodologias ágeis.",
+            "text": "<strong>☑ </strong>Está curioso para aprender sobre metodologias ágeis.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -407,7 +416,7 @@
           "type": "content",
           "settings": {
             "title": "",
-            "text": "<strong>☑<\/strong> Quer levar sua equipe e organização a alta performance, aprendendo com as empresas mais bem sucedidas.",
+            "text": "<strong>☑</strong> Quer levar sua equipe e organização a alta performance, aprendendo com as empresas mais bem sucedidas.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -418,7 +427,7 @@
           "type": "content",
           "settings": {
             "title": "",
-            "text": "<strong>☑<\/strong> Está aberto a um mindset inovador e quer se posicionar à frente das tendências globais de liderança.",
+            "text": "<strong>☑</strong> Está aberto a um mindset inovador e quer se posicionar à frente das tendências globais de liderança.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -434,7 +443,7 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "<strong>Este curso é para você se...<\/strong>",
+        "title": "<strong>Este curso é para você se...</strong>",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -486,7 +495,7 @@
     "html_WFQLgN": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"programa\"><\/div>",
+        "html": "<div id=\"programa\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -562,7 +571,7 @@
           "type": "content",
           "settings": {
             "title": "O MINDSET E A CULTURA ÁGIL",
-            "text": "Exploraremos o que compõe o <em>Mindset Agile<\/em>, e o que são os tais \"times autônomos\". Para que a metodologia ágil funcione realmente e traga todos os seus benefícios, não basta apenas colocar <em>post-its<\/em> na parede, é fundamental criar uma dinâmica e uma cultura no time, que envolva confiança, segurança psicológica, papéis e responsabilidades bem definidos, além de muita disciplina e foco.",
+            "text": "Exploraremos o que compõe o <em>Mindset Agile</em>, e o que são os tais \"times autônomos\". Para que a metodologia ágil funcione realmente e traga todos os seus benefícios, não basta apenas colocar <em>post-its</em> na parede, é fundamental criar uma dinâmica e uma cultura no time, que envolva confiança, segurança psicológica, papéis e responsabilidades bem definidos, além de muita disciplina e foco.",
             "header": "MÓDULO 6",
             "svg": "",
             "bg_color": "",
@@ -673,7 +682,7 @@
           "type": "button",
           "settings": {
             "text": "Quero receber uma aula grátis",
-            "url": "https:\/\/www.hyperisland.com.br\/cart\/add?id=45867073044702&quantity=1",
+            "url": "https://www.hyperisland.com.br/cart/add?id=45867073044702&quantity=1",
             "target": false,
             "style": "rounded-orange"
           }
@@ -690,7 +699,7 @@
         "text": "Quer entender o que te espera no curso de Liderança Ágil? Inscreva-se e receba uma videoaula exclusiva diretamente no seu e-mail. É uma amostra do que você vai aprender – prática, insights valiosos e conteúdo que vai transformar sua forma de liderar.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
+        "bg_image": "shopify://shop_images/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -737,8 +746,47 @@
         "video_loop": true,
         "video_controls": false,
         "video_muted": true,
-        "text": "<strong>Registre-se<\/strong>",
-        "link": "https:\/\/www.hyperisland.com.br\/cart\/add?id=45867073044702&quantity=1"
+        "text": "<strong>Registre-se</strong>",
+        "link": "https://www.hyperisland.com.br/cart/add?id=45867073044702&quantity=1"
+      }
+    },
+    "testimonial_4k8UE6": {
+      "type": "testimonial",
+      "blocks": {
+        "content_6t73GH": {
+          "type": "content",
+          "settings": {
+            "name": "{{ product.metafields.my_fields.name_testimonial_1.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_1.value }}"
+          }
+        },
+        "content_yyqbe6": {
+          "type": "content",
+          "settings": {
+            "name": "{{ product.metafields.my_fields.name_testimonial_2.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_2.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "content_6t73GH",
+        "content_yyqbe6"
+      ],
+      "settings": {
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout": "col-md-6",
+        "pt_lg": 12,
+        "mt_lg": 0,
+        "pt_xs": 6,
+        "mt_xs": 0,
+        "spb_lg": 12,
+        "smb_lg": 0,
+        "spb_xs": 6,
+        "smb_xs": 0
       }
     },
     "sp_faq_qMJVcF": {
@@ -783,14 +831,14 @@
           "type": "question",
           "settings": {
             "question": "Poderei fazer download dos slides e Kits de Aprendizagem?",
-            "answer": "<p>Sim, os Kits de Aprendizagem podem ser baixados para você consultar sempre que precisar.<\/p>"
+            "answer": "<p>Sim, os Kits de Aprendizagem podem ser baixados para você consultar sempre que precisar.</p>"
           }
         },
         "question_Bz3kjN": {
           "type": "question",
           "settings": {
             "question": "Poderei fazer download das videoaulas?",
-            "answer": "<p>Não. As videoaulas ficarão disponíveis apenas na plataforma por um período de 6 meses depois da sua compra.<\/p>"
+            "answer": "<p>Não. As videoaulas ficarão disponíveis apenas na plataforma por um período de 6 meses depois da sua compra.</p>"
           }
         }
       },
@@ -838,7 +886,7 @@
         "answer_color": "#555555",
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "headline": "<strong>TIRE SUAS DÚVIDAS<\/strong>",
+        "headline": "<strong>TIRE SUAS DÚVIDAS</strong>",
         "text": "",
         "headline_spacing": 30
       }
@@ -850,7 +898,7 @@
           "type": "question",
           "settings": {
             "question": "Quanto tempo dura o curso? Consigo conciliar com outras atividades?",
-            "answer": "<p>O curso possui uma duração estimada de 18h, somando as aulas e o trabalho pessoal (kits de aprendizagem, desafios práticos e reflexões guiadas). Você consegue fazê-lo no seu tempo, adequando a sua disponibilidade diária. Os conteúdos ficarão disponíveis para você num período de 6 meses depois da compra, assim poderá assistir quantas vezes quiser!<\/p>",
+            "answer": "<p>O curso possui uma duração estimada de 18h, somando as aulas e o trabalho pessoal (kits de aprendizagem, desafios práticos e reflexões guiadas). Você consegue fazê-lo no seu tempo, adequando a sua disponibilidade diária. Os conteúdos ficarão disponíveis para você num período de 6 meses depois da compra, assim poderá assistir quantas vezes quiser!</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -862,7 +910,7 @@
           "type": "question",
           "settings": {
             "question": "Quantas horas por semana precisarei dedicar aos estudos?",
-            "answer": "<p>O curso foi estruturado para ser concluído em 6 semanas, com um módulo por semana. Para acompanhar o ritmo, você precisará dedicar, em média, cerca de 3 horas semanais.<\/p>",
+            "answer": "<p>O curso foi estruturado para ser concluído em 6 semanas, com um módulo por semana. Para acompanhar o ritmo, você precisará dedicar, em média, cerca de 3 horas semanais.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -874,7 +922,7 @@
           "type": "question",
           "settings": {
             "question": "Como posso assistir as aulas?",
-            "answer": "<p>Após concluir seu registro em nosso site, você será redirecionado para a plataforma Thinkific, onde terá acesso às aulas, materiais de estudo e desafios práticos.<\/p>",
+            "answer": "<p>Após concluir seu registro em nosso site, você será redirecionado para a plataforma Thinkific, onde terá acesso às aulas, materiais de estudo e desafios práticos.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -886,7 +934,7 @@
           "type": "question",
           "settings": {
             "question": "Eu posso tirar dúvidas com o líder do curso?",
-            "answer": "<p>Sim, através da plataforma, você terá acesso à Líder do Curso, podendo tirar suas dúvidas diretamente com ela.<\/p>",
+            "answer": "<p>Sim, através da plataforma, você terá acesso à Líder do Curso, podendo tirar suas dúvidas diretamente com ela.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -898,7 +946,7 @@
           "type": "question",
           "settings": {
             "question": "Terei certificado de participação?",
-            "answer": "<p>Sim. O certificado de participação é enviado mediante a conclusão de todos os módulos, bem como envio de pelo menos 50% dos desafios práticos e reflexões guiadas na plataforma.<\/p>",
+            "answer": "<p>Sim. O certificado de participação é enviado mediante a conclusão de todos os módulos, bem como envio de pelo menos 50% dos desafios práticos e reflexões guiadas na plataforma.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -910,7 +958,7 @@
           "type": "question",
           "settings": {
             "question": "Poderei fazer download dos slides e Kits de aprendizagem?",
-            "answer": "<p>Sim, os kits de aprendizagem podem ser baixados para você consultar sempre que precisar.<\/p>",
+            "answer": "<p>Sim, os kits de aprendizagem podem ser baixados para você consultar sempre que precisar.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -922,7 +970,7 @@
           "type": "question",
           "settings": {
             "question": "Poderei fazer download das video-aulas?",
-            "answer": "<p>Não. As vídeo-aulas ficarão disponíveis apenas na plataforma por um período de 6 meses depois da sua compra.<\/p>",
+            "answer": "<p>Não. As vídeo-aulas ficarão disponíveis apenas na plataforma por um período de 6 meses depois da sua compra.</p>",
             "link": "",
             "video_inline": true,
             "video_autoplay": false,
@@ -972,7 +1020,7 @@
         "grid_gap": 10,
         "grid_display": "1fr",
         "vertical_alignment": "start",
-        "media_aspect_ratio": "4 \/ 3",
+        "media_aspect_ratio": "4 / 3",
         "media_radius": 5,
         "media_shadow": true,
         "media_border_size": 0,
@@ -990,7 +1038,7 @@
         "inactive_background_color": "linear-gradient(164deg, rgba(240, 240, 240, 1), rgba(240, 240, 240, 1) 100%)",
         "faq_indicator": "plus_minus",
         "headline_alignment": "center",
-        "headline": "<strong>TIRE SUAS DÚVIDAS<\/strong>",
+        "headline": "<strong>TIRE SUAS DÚVIDAS</strong>",
         "text": ""
       }
     },
@@ -1000,7 +1048,7 @@
         "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3": {
           "type": "content",
           "settings": {
-            "title": "<strong>Como funciona o curso?<\/strong>",
+            "title": "<strong>Como funciona o curso?</strong>",
             "text": "O curso é completamente remoto, com duração de 6 semanas. As sessões são todas ao vivo, mas ficam gravadas para que você possa consultar quando quiser. A jornada de aprendizagem acontece dentro e fora das sessões, com nossos kits de aprendizagem e exercícios semanais. Além disso, a cada semana você terá um encontro especial com os facilitadores do curso e todas as outras pessoas que embarcaram nessa experiência com você!",
             "header": "",
             "svg": "",
@@ -1011,7 +1059,7 @@
         "b3fd152d-8892-42ee-94b3-fd1ecd1abe0f": {
           "type": "content",
           "settings": {
-            "title": "<strong>Os encontros são gravados?<\/strong>",
+            "title": "<strong>Os encontros são gravados?</strong>",
             "text": "Sim! Todos os nossos encontros semanais são gravados e são disponibilizados em até 24h após o término da sessão. Você poderá acessar as gravações sempre que quiser no canal de comunicação do curso.",
             "header": "",
             "svg": "",
@@ -1022,7 +1070,7 @@
         "fed2d2e6-23e1-49da-b0f2-7bc204059924": {
           "type": "content",
           "settings": {
-            "title": "<strong>Por quanto tempo terei acesso aos materiais e gravações?<\/strong>",
+            "title": "<strong>Por quanto tempo terei acesso aos materiais e gravações?</strong>",
             "text": "Por tempo indeterminado! Você poderá acessar os arquivos sempre que quiser.",
             "header": "",
             "svg": "",
@@ -1033,7 +1081,7 @@
         "94f51f34-72b0-46af-9dc8-d9c978edc6c5": {
           "type": "content",
           "settings": {
-            "title": "<strong>Como funciona a metodologia da Hyper Island?<\/strong>",
+            "title": "<strong>Como funciona a metodologia da Hyper Island?</strong>",
             "text": "A nossa metodologia é baseada em uma abordagem centrada na experiência. Empoderamos e desafiamos as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos mais.",
             "header": "",
             "svg": "",
@@ -1055,7 +1103,7 @@
         "5f0b371a-b7bd-416f-a6d7-7b3e47c89253": {
           "type": "content",
           "settings": {
-            "title": "<strong>O curso possui certificado?<\/strong>",
+            "title": "<strong>O curso possui certificado?</strong>",
             "text": "Sim! Ao finalizar o curso, você receberá um certificado com o total de horas e participação comprovada. Para recebê-lo, é necessário ter pelo menos 70% de presença nas sessões ao vivo e concluir metade das atividades semanais.",
             "header": "",
             "svg": "",
@@ -1066,8 +1114,8 @@
         "a34c2e83-f8de-46eb-8f56-4d164ccff55c": {
           "type": "content",
           "settings": {
-            "title": "<strong>A Hyper Island oferece bolsa de estudos?<\/strong>",
-            "text": "Buscando contribuir para uma mudança positiva na sociedade, criamos um espaço para candidaturas de bolsas de estudo com descontos de até 100% em nossos cursos online. <a href=\"https:\/\/hyperisland-global.typeform.com\/to\/M4djFd5s\"><span style=\"text-decoration:underline\">Candidate-se aqui<\/span><\/a>.",
+            "title": "<strong>A Hyper Island oferece bolsa de estudos?</strong>",
+            "text": "Buscando contribuir para uma mudança positiva na sociedade, criamos um espaço para candidaturas de bolsas de estudo com descontos de até 100% em nossos cursos online. <a href=\"https://hyperisland-global.typeform.com/to/M4djFd5s\"><span style=\"text-decoration:underline\">Candidate-se aqui</span></a>.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -1184,7 +1232,7 @@
       "settings": {
         "title": "PARA GRUPOS E EMPRESAS",
         "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudo!",
-        "img": "shopify:\/\/shop_images\/1587057149123.jpg",
+        "img": "shopify://shop_images/1587057149123.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
@@ -1338,7 +1386,7 @@
         "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG1.png",
+        "bg_image": "shopify://shop_images/BG1.png",
         "overlay_opacity": 0,
         "font_color": "text-dark",
         "title_size": "display-5",
@@ -1408,6 +1456,7 @@
     "hubspot_form_EfT4yb",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "sp_action_button_Lk9hDr",
+    "testimonial_4k8UE6",
     "sp_faq_qMJVcF",
     "sp_faq_plus_GQ6hmB",
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
