@@ -750,6 +750,26 @@
         "link": "https://www.hyperisland.com.br/cart/add?id=45867073044702&quantity=1"
       }
     },
+    "richtext_6t7eyV": {
+      "type": "richtext",
+      "settings": {
+        "bg_color": "bg-light text-dark",
+        "max_width": "960",
+        "text_align": "text-center",
+        "title": "DEPOIMENTOS",
+        "title_size": "h1",
+        "description": "",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 14,
+        "pb": 2,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "testimonial_4k8UE6": {
       "type": "testimonial",
       "blocks": {
@@ -779,11 +799,11 @@
         "title_size": "display-4",
         "text_size": "fs-4",
         "layout": "col-md-6",
-        "pt_lg": 12,
+        "pt_lg": 9,
         "mt_lg": 0,
         "pt_xs": 6,
         "mt_xs": 0,
-        "spb_lg": 12,
+        "spb_lg": 9,
         "smb_lg": 0,
         "spb_xs": 6,
         "smb_xs": 0
@@ -1456,6 +1476,7 @@
     "hubspot_form_EfT4yb",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "sp_action_button_Lk9hDr",
+    "richtext_6t7eyV",
     "testimonial_4k8UE6",
     "sp_faq_qMJVcF",
     "sp_faq_plus_GQ6hmB",
