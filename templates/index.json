@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "6090c0d5-5f7f-46db-b197-6d723683e9b4": {
@@ -5,11 +14,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": true,
-        "title": "DESENVOLVA A TRANSFORMAÇÃO",
-        "text": "Descubra novas maneiras de cocriar e desenvolver suas ideias, a partir de experiências transformadoras.",
+        "title": "Prepare-se para o desconhecido",
+        "text": "Descubra novas formas de cocriar, aprender e se transformar por meio de experiências que geram impacto real.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/R0004196.jpg",
+        "bg_image": "shopify://shop_images/R0004196.jpg",
         "font_color": "text-dark",
         "title_size": "display-0",
         "text_size": "fs-4",
@@ -42,7 +51,7 @@
         "text": "Descubra novas maneiras de cocriar e desenvolver suas ideias, a partir de experiências transformadoras.",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/1_Header_Home.jpg",
+        "bg_image": "shopify://shop_images/1_Header_Home.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-1",
@@ -75,7 +84,7 @@
             "header": "PARA A SUA EMPRESA",
             "title": "BUSINESS TRANSFORMATION",
             "text": "Revolucione a maneira como você agrega valor às pessoas da sua equipe e organização.",
-            "url": "shopify:\/\/pages\/empresas",
+            "url": "shopify://pages/empresas",
             "target": false,
             "font_color": "text-dark",
             "bg_color": "#f3f0ed",
@@ -88,7 +97,7 @@
             "header": "PARA VOCÊ",
             "title": "NOSSOS CURSOS",
             "text": "Embarque em uma jornada de aprendizagem ao lado de pessoas incríveis.",
-            "url": "shopify:\/\/pages\/cursos",
+            "url": "shopify://pages/cursos",
             "target": true,
             "font_color": "text-dark",
             "bg_color": "#e3dfd3",
@@ -166,7 +175,7 @@
       "settings": {
         "hidden": false,
         "title": "Nosso Impacto",
-        "text": "Provocações que geram mudanças transformadoras em diferentes contextos - capazes de impactar empresas, pessoas e lugares ao redor do mundo. Saiba o que temos feito em <strong>28 anos de Hyper Island<\/strong>.",
+        "text": "Provocações que geram mudanças transformadoras em diferentes contextos - capazes de impactar empresas, pessoas e lugares ao redor do mundo. Saiba o que temos feito em <strong>28 anos de Hyper Island</strong>.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -230,7 +239,7 @@
         "text": "Utilizamos uma metodologia completamente centrada na experiência, dentro dos processos de aprendizagem e consultorias. Em cada jornada, provocações que levam as pessoas a um movimento de imersão e interação, onde começam a se desenvolver para o Futuro.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG2.png",
+        "bg_image": "shopify://shop_images/BG2.png",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -304,7 +313,7 @@
         "video_dgdPzY": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Design sem nome (2).mp4",
+            "video": "shopify://files/videos/Design sem nome (2).mp4",
             "link": "",
             "video_inline": true,
             "video_autoplay": true,
@@ -316,7 +325,7 @@
         "image_fEkmR7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
+            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
             "link": ""
           }
         }
@@ -329,7 +338,7 @@
       "settings": {
         "background_color": "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 \/ 9",
+        "media_aspect_ratio": "16 / 9",
         "max_width": 1000,
         "grid_gap": 25,
         "padding_top": 75,
@@ -344,11 +353,11 @@
         "card_xkQUVa": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado.jpg",
+            "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado.jpg",
             "category_id": "",
             "title": "Liderança em Tempos de Mudança",
             "text": "Repense sua liderança e descubra como levar suas equipes para alta performance, inspirando e engajando para o futuro",
-            "url": "shopify:\/\/products\/lideranca-em-tempos-de-mudanca",
+            "url": "shopify://products/lideranca-em-tempos-de-mudanca",
             "target": false
           }
         },
@@ -356,55 +365,55 @@
           "type": "card",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/Storytelling_AO_VIVO_laranja.jpg",
+            "img": "shopify://shop_images/Storytelling_AO_VIVO_laranja.jpg",
             "category_id": "",
             "title": "Storytelling",
             "text": "Saiba como estruturar e disseminar seus projetos a partir de narrativas envolventes e engajadoras, destravando um mindset de um contador de histórias",
-            "url": "shopify:\/\/products\/storytelling",
+            "url": "shopify://products/storytelling",
             "target": false
           }
         },
         "card_LcDHRi": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/IA_PARA_HUMANOS_AO_VIVO_laranaja.jpg",
+            "img": "shopify://shop_images/IA_PARA_HUMANOS_AO_VIVO_laranaja.jpg",
             "category_id": "",
             "title": "Inteligência Artificial para Humanos",
             "text": "Este programa te ajudará a ganhar fluência e enxergar oportunidades de negócio na nova era da Inteligência Artificial",
-            "url": "shopify:\/\/products\/ia-para-humanos",
+            "url": "shopify://products/ia-para-humanos",
             "target": false
           }
         },
         "card_KYqRdN": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EXPLORANDO_FUTUROS_AO_VIVO.jpg",
+            "img": "shopify://shop_images/EXPLORANDO_FUTUROS_AO_VIVO.jpg",
             "category_id": "",
             "title": "Explorando Futuros",
             "text": "Expanda seu pensamento estratégico e explore tendências e futuros possíveis",
-            "url": "shopify:\/\/products\/explorando-futuros",
+            "url": "shopify://products/explorando-futuros",
             "target": true
           }
         },
         "card_yqPMYT": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/COMUNICACAOEXECUTIVAAOVIVO.jpg",
+            "img": "shopify://shop_images/COMUNICACAOEXECUTIVAAOVIVO.jpg",
             "category_id": "",
             "title": "Comunicação Executiva",
             "text": "Aprimore suas habilidades de comunicação e influência no ambiente executivo",
-            "url": "shopify:\/\/products\/comunicacao-executiva",
+            "url": "shopify://products/comunicacao-executiva",
             "target": true
           }
         },
         "card_zB7AjE": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/lideranca_agil_ao_vivo_e_gravado.jpg",
+            "img": "shopify://shop_images/lideranca_agil_ao_vivo_e_gravado.jpg",
             "category_id": "",
             "title": "Liderança Ágil",
             "text": "Este curso online e gravado oferece uma imersão na liderança moderna, combinando teoria e prática para transformar como você e sua equipe trabalham",
-            "url": "shopify:\/\/products\/lideranca-agil-1",
+            "url": "shopify://products/lideranca-agil-1",
             "target": false
           }
         }
@@ -484,7 +493,7 @@
             "header": "40% off em todos os cursos com o cupom",
             "title": "HYPERFRIDAY",
             "text": "Adicione o cupom no carrinho.",
-            "url": "shopify:\/\/pages\/cursos",
+            "url": "shopify://pages/cursos",
             "target": false,
             "font_color": "text-light",
             "bg_color": "#000000",
@@ -496,8 +505,8 @@
           "settings": {
             "header": "Na compra de qualquer curso ganhe de brinde",
             "title": "curso liderança ágil",
-            "text": "Adicione <strong>ambos <\/strong>os cursos ao carrinho e aproveite!",
-            "url": "shopify:\/\/products\/lideranca-agil-1",
+            "text": "Adicione <strong>ambos </strong>os cursos ao carrinho e aproveite!",
+            "url": "shopify://products/lideranca-agil-1",
             "target": false,
             "font_color": "text-light",
             "bg_color": "#000000",
@@ -538,7 +547,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "",
-        "text": "<strong>Oferta válida por tempo limitado. Não perca a chance de transformar sua carreira!<\/strong>",
+        "text": "<strong>Oferta válida por tempo limitado. Não perca a chance de transformar sua carreira!</strong>",
         "bg_color": "#000000",
         "bg_gradient": "",
         "overlay_opacity": 0,
@@ -580,7 +589,7 @@
           "type": "button",
           "settings": {
             "text": "Utilizar Desconto",
-            "url": "shopify:\/\/pages\/cursos",
+            "url": "shopify://pages/cursos",
             "target": false,
             "style": "rounded-white"
           }
@@ -595,10 +604,10 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "",
-        "text": "Todos os cursos com 40% de desconto utilizando o cupom <strong>HYPERFRIDAY<\/strong>",
+        "text": "Todos os cursos com 40% de desconto utilizando o cupom <strong>HYPERFRIDAY</strong>",
         "bg_color": "#000000",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/Black_Friday_-_HI_3.png",
+        "bg_image": "shopify://shop_images/Black_Friday_-_HI_3.png",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-1",
@@ -682,7 +691,7 @@
           "type": "button",
           "settings": {
             "text": "SAIBA MAIS",
-            "url": "shopify:\/\/pages\/contato",
+            "url": "shopify://pages/contato",
             "target": false,
             "style": "rounded-white"
           }
@@ -696,7 +705,7 @@
         "text": "Nossos facilitadores estão prontos para receber a sua mensagem! Agende um horário com a gente e descubra como a Hyper Island pode ajudar você e sua organização.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG1.png",
+        "bg_image": "shopify://shop_images/BG1.png",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
