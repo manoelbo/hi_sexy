@@ -83,7 +83,7 @@
           "settings": {
             "header": "PARA A SUA EMPRESA",
             "title": "BUSINESS TRANSFORMATION",
-            "text": "Revolucione a maneira como você agrega valor às pessoas da sua equipe e organização.",
+            "text": "Revolucione sua organização com uma cultura de aprendizado contínuo e inovação colaborativa.",
             "url": "shopify://pages/empresas",
             "target": false,
             "font_color": "text-dark",
@@ -96,7 +96,7 @@
           "settings": {
             "header": "PARA VOCÊ",
             "title": "NOSSOS CURSOS",
-            "text": "Embarque em uma jornada de aprendizagem ao lado de pessoas incríveis.",
+            "text": "Embarque em uma jornada de aprendizagem imersiva e construa um futuro transformador.",
             "url": "shopify://pages/cursos",
             "target": true,
             "font_color": "text-dark",
