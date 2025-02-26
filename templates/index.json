@@ -690,7 +690,7 @@
         "cc058fd3-4f6a-4057-b059-3744a261b0be": {
           "type": "button",
           "settings": {
-            "text": "SAIBA MAIS",
+            "text": "Entrar em contato",
             "url": "shopify://pages/contato",
             "target": false,
             "style": "rounded-white"
