@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
@@ -19,11 +28,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>TREINAMENTOS CORPORATIVOS<\/strong>",
+        "title": "<strong>TREINAMENTOS CORPORATIVOS</strong>",
         "text": "Se a sua busca é por um impacto real, somos o parceiro de referência para a região das Américas! Hyper Island cria e lidera jornadas que inspiram organizações, catalisam inovação e transformam indivíduos.",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/R0009616.jpg",
+        "bg_image": "shopify://shop_images/R0009616.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-0",
@@ -103,7 +112,7 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "<strong>HYPER ISLAND IN-COMPANY<\/strong>",
+        "title": "<strong>HYPER ISLAND IN-COMPANY</strong>",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -158,10 +167,10 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "nossa metodologia",
-        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.<\/strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.</strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2_Metodologia.jpg",
+        "bg_image": "shopify://shop_images/2_Metodologia.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -194,7 +203,7 @@
             "title": "Conteúdos Relevantes",
             "text": "Inspirando os participantes através de conteúdos de ponta e cases práticos, para provocar e inspirar uma mudança de mindset.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -205,7 +214,7 @@
             "title": "Aprendizagem Ativa",
             "text": "Engajando os participantes em atividades lúdicas e grupos pequenos, para experimentar ferramentas e ampliar expertise.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -216,7 +225,7 @@
             "title": "Desafios pos-sessão",
             "text": "Incentivando os participantes a aplicar na vida real o que foi aprendido na sessão, por meio de desafios individuais ou em grupos, para promover a colaboração.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -227,7 +236,7 @@
             "title": "Reflexão Prática",
             "text": "Fomentando o hábito da reflexão crítica em indivíduos e equipes, para enriquecer a experiência de aprendizagem e otimizar seus resultados na organização.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -333,7 +342,7 @@
             "title": "Praticar a Reflexão",
             "text": "Fomentando o hábito da reflexão crítica em indivíduos e equipes, para enriquecer a experiência de aprendizagem e otimizar seus resultados na organização.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -726,7 +735,7 @@
       "settings": {
         "title": "Entre em contato",
         "text": "Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar na transformação da sua empresa ou equipe.",
-        "img": "shopify:\/\/shop_images\/1675811085451.jpg",
+        "img": "shopify://shop_images/1675811085451.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
@@ -802,88 +811,88 @@
         "3b9c8dac-055d-4318-b9c1-9a9a1ca6447e": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/BehaviouralDesign.jpg",
+            "img": "shopify://shop_images/BehaviouralDesign.jpg",
             "category_id": "Comunicação & Experiência",
             "title": "Behavioural Design",
             "text": "Equipe seus times com os princípios da ciência do comportamento humano, como os vieses influenciam nossos comportamentos, e como utilizá-los para gerar impactos positivos nos negócios.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/teste",
+            "url": "shopify://metaobjects/cursos_in_company/teste",
             "target": false
           }
         },
         "03eb4d2f-0961-44b1-917a-8ca2d0835017": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Storytelling.jpg",
+            "img": "shopify://shop_images/Storytelling.jpg",
             "category_id": "Comunicação & Experiência",
             "title": "Storytelling",
             "text": "Capacite seus times a estruturar, comunicar e disseminar projetos por meio de narrativas envolventes e impactantes, impulsionando a comunicação interna e externa.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/storytelling-in-company",
+            "url": "shopify://metaobjects/cursos_in_company/storytelling-in-company",
             "target": false
           }
         },
         "67c5c0dd-270b-4159-bb7c-986b8f5d72ff": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Customer_Experience_Design.png",
+            "img": "shopify://shop_images/Customer_Experience_Design.png",
             "category_id": "Comunicação & Experiência",
             "title": "Customer Experience",
             "text": "Convida seus colaboradores a repensar de maneira holística o que á Customer Experience, e a redesenhar experiências excepcionais e impactantes aplicando técnicas avançadas de comportamento humano e futurologia.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/customer-experience-in-company",
+            "url": "shopify://metaobjects/cursos_in_company/customer-experience-in-company",
             "target": false
           }
         },
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/A-curiosidade2_4c90cd3d-484c-4d91-a491-5386596ccfc2.jpg",
+            "img": "shopify://shop_images/A-curiosidade2_4c90cd3d-484c-4d91-a491-5386596ccfc2.jpg",
             "category_id": "Comunicação & Experiência",
             "title": "Marketing  Digital",
             "text": "Capacite suas equipes a criar, testar e implementar campanhas de marketing digital eficazes, gerando resultados mensuráveis que impulsionam o alcance e a conversão.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/marketing-digital",
+            "url": "shopify://metaobjects/cursos_in_company/marketing-digital",
             "target": false
           }
         },
         "f37f56f8-9c6f-4ce7-a2e8-0bc9695b5735": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Lideranca_em_tempos_de_mudanca_2.jpg",
+            "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_2.jpg",
             "category_id": "Liderança & Cultura",
             "title": "Liderança em Tempos de Mudança",
             "text": "Revolucione a abordagem de liderança de suas equipes, capacitando-os com ferramentas e cultivando a mentalidade essencial para liderar com excelência em um mundo em constante transformação.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/lideranca-em-tempos-de-mudanca",
+            "url": "shopify://metaobjects/cursos_in_company/lideranca-em-tempos-de-mudanca",
             "target": false
           }
         },
         "3cedf7c5-208a-4ac4-8612-5a6f0c0c4b1d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/humancentric2.jpg",
+            "img": "shopify://shop_images/humancentric2.jpg",
             "category_id": "Liderança & Cultura",
             "title": "Liderança Ágil",
             "text": "Transforme sua equipe de liderança com o mindset ágil, desenvolvendo uma cultura onde colaboração, autonomia e experimentação levam equipes para alta performance e bem estar.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/lideranca-agil",
+            "url": "shopify://metaobjects/cursos_in_company/lideranca-agil",
             "target": false
           }
         },
         "b1dc65dd-c2ef-4219-86ba-16c135623cca": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/L66A8697.jpg",
+            "img": "shopify://shop_images/L66A8697.jpg",
             "category_id": "Liderança & Cultura",
             "title": "Business Transformation",
             "text": "Forneça às suas equipes as ferramentas e habilidades necessárias para liderar transformações de forma autêntica e impactante na empresa, impulsionando o crescimento dos negócios.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/business-transformation",
+            "url": "shopify://metaobjects/cursos_in_company/business-transformation",
             "target": false
           }
         },
         "f32b31eb-e735-4799-abfa-65c5cb2f1936": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Conversation-5_f9c8970a-9859-4ad9-b3d2-e5388df4fe6d.png",
+            "img": "shopify://shop_images/Conversation-5_f9c8970a-9859-4ad9-b3d2-e5388df4fe6d.png",
             "category_id": "Liderança & Cultura",
             "title": "Diversidade & Inclusão",
             "text": "Capacite seus colaboradores para construir ambientes inclusivos e equipes diversificadas, promovendo a representatividade e o respeito mútuo.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/diversidade-inclusao",
+            "url": "shopify://metaobjects/cursos_in_company/diversidade-inclusao",
             "target": false
           }
         },
@@ -898,264 +907,264 @@
         "c348b121-119f-4505-8471-332c2ba2a87b": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/R0009008-2.jpg",
+            "img": "shopify://shop_images/R0009008-2.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Criatividade Aplicada",
             "text": "Desperte a confiança criativa de seus colaboradores e libere o potencial coletivo, ao oferecer ferramentas que desbloqueiam a inovação e inspiram soluções únicas.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/criatividade-aplicada",
+            "url": "shopify://metaobjects/cursos_in_company/criatividade-aplicada",
             "target": false
           }
         },
         "6b39c4d5-6747-4738-b174-4da941df48f3": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EXPLORANDO_FUTUROS_imagem.jpg",
+            "img": "shopify://shop_images/EXPLORANDO_FUTUROS_imagem.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Explorando Futuros",
             "text": "Prepare suas equipes para antecipar tendências e abraçar o futuro com uma mentalidade inovadora, equipando-as com as ferramentas e perspectivas de um futurista.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/future-thinking",
+            "url": "shopify://metaobjects/cursos_in_company/future-thinking",
             "target": false
           }
         },
         "2cc4603c-37bc-4415-9e43-3b8c4034cc83": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/LiderancaAgil_789e8770-7a3c-4470-a91a-9d17324acd47.jpg",
+            "img": "shopify://shop_images/LiderancaAgil_789e8770-7a3c-4470-a91a-9d17324acd47.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Human Centric Innovation",
             "text": "Explore a inovação centrada no ser humano, capacitando suas equipes com ferramentas e técnicas para acelerar os negocios com soluções realmente alinhadas com necessidades dos seus clientes.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/human-centric-innovation",
+            "url": "shopify://metaobjects/cursos_in_company/human-centric-innovation",
             "target": false
           }
         },
         "666b9cd2-e76d-46f0-8701-c1dba85d0744": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Hyper-Island-Stockholm-SHA7870.jpg",
+            "img": "shopify://shop_images/Hyper-Island-Stockholm-SHA7870.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Data Driven Business",
             "text": "Capacite suas equipes com ferramentas práticas para explorar o potencial dos dados como impulsionadores estratégicos, aprimorando a tomada de decisões informadas.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/data-driven-business",
+            "url": "shopify://metaobjects/cursos_in_company/data-driven-business",
             "target": false
           }
         },
         "2f95c0bb-8e4b-40af-8844-b67c85449db9": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Customer_Experience_Design.jpg",
+            "img": "shopify://shop_images/Customer_Experience_Design.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Inteligência Artificial Para Humanos",
             "text": "Capacite suas equipes sobre IA, para eles se tornarem agentes de mudança e acelerarem seus negócios graças as possibilidades infinitas criadas pela tecnologia.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/ia-para-humanos",
+            "url": "shopify://metaobjects/cursos_in_company/ia-para-humanos",
             "target": false
           }
         },
         "1cf540b5-8e1e-476d-ad49-903f4006abae": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/produtividade.jpg",
+            "img": "shopify://shop_images/produtividade.jpg",
             "category_id": "Liderança & Cultura",
             "title": "Produtividade",
             "text": "Através de uma combinação de teoria e prática, seus colaboradores explorarão técnicas avançadas de priorização, cultivarão um mindset produtivo e aprenderão a contribuir de forma significativa para o sucesso do seu negócio.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/produtividade",
+            "url": "shopify://metaobjects/cursos_in_company/produtividade",
             "target": false
           }
         },
         "794b311e-1bc9-4f31-a878-bb148653efe5": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3_Jornadas_de_Transformacao2.jpg",
+            "img": "shopify://shop_images/3_Jornadas_de_Transformacao2.jpg",
             "category_id": "Comunicação & Experiência",
             "title": "Conflito e Conversas Difíceis",
             "text": "Este curso tem como objetivo ajudar suas equipes a integrar e aplicar metodologias e ferramentas que lhes permitam gerenciar conflitos e ter conversas difíceis de forma saudável.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/conflito-e-conversas-dificeis",
+            "url": "shopify://metaobjects/cursos_in_company/conflito-e-conversas-dificeis",
             "target": false
           }
         },
         "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/COMUNICACAO_EXECUTIVA_IMAGEM.jpg",
+            "img": "shopify://shop_images/COMUNICACAO_EXECUTIVA_IMAGEM.jpg",
             "category_id": "Inovação & Negócios",
             "title": "Comunicação Executiva",
             "text": "Aprimore suas habilidades de comunicação e influência no ambiente executivo",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/comunicacao-executiva",
+            "url": "shopify://metaobjects/cursos_in_company/comunicacao-executiva",
             "target": true
           }
         },
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/BehaviouralDesign.jpg",
+            "img": "shopify://shop_images/BehaviouralDesign.jpg",
             "category_id": "Todos",
             "title": "Behavioural Design",
             "text": "Equipe seus times com os princípios da ciência do comportamento humano, como os vieses influenciam nossos comportamentos, e como utilizá-los para gerar impactos positivos nos negócios.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/teste",
+            "url": "shopify://metaobjects/cursos_in_company/teste",
             "target": false
           }
         },
         "51d4d49e-2611-431b-a829-381dc115762f": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Storytelling.jpg",
+            "img": "shopify://shop_images/Storytelling.jpg",
             "category_id": "Todos",
             "title": "Storytelling",
             "text": "Capacite seus times a estruturar, comunicar e disseminar projetos por meio de narrativas envolventes e impactantes, impulsionando a comunicação interna e externa.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/storytelling-in-company",
+            "url": "shopify://metaobjects/cursos_in_company/storytelling-in-company",
             "target": false
           }
         },
         "053307ba-1789-4e7e-a375-2f9d4ae4c4df": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Customer_Experience_Design.png",
+            "img": "shopify://shop_images/Customer_Experience_Design.png",
             "category_id": "Todos",
             "title": "Customer Experience",
             "text": "Convida seus colaboradores a repensar de maneira holística o que á Customer Experience, e a redesenhar experiências excepcionais e impactantes aplicando técnicas avançadas de comportamento humano e futurologia.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/customer-experience-in-company",
+            "url": "shopify://metaobjects/cursos_in_company/customer-experience-in-company",
             "target": false
           }
         },
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/A-curiosidade2_4c90cd3d-484c-4d91-a491-5386596ccfc2.jpg",
+            "img": "shopify://shop_images/A-curiosidade2_4c90cd3d-484c-4d91-a491-5386596ccfc2.jpg",
             "category_id": "Todos",
             "title": "Marketing Digital",
             "text": "Capacite suas equipes a criar, testar e implementar campanhas de marketing digital eficazes, gerando resultados mensuráveis que impulsionam o alcance e a conversão.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/marketing-digital",
+            "url": "shopify://metaobjects/cursos_in_company/marketing-digital",
             "target": false
           }
         },
         "461dc56f-8e26-4d71-aa88-0548fbc9b2d5": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Lideranca_em_tempos_de_mudanca_2.jpg",
+            "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_2.jpg",
             "category_id": "Todos",
             "title": "Liderança em Tempos de Mudança",
             "text": "Revolucione a abordagem de liderança de suas equipes, capacitando-os com ferramentas e cultivando a mentalidade essencial para liderar com excelência em um mundo em constante transformação.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/lideranca-em-tempos-de-mudanca",
+            "url": "shopify://metaobjects/cursos_in_company/lideranca-em-tempos-de-mudanca",
             "target": false
           }
         },
         "c82c2411-ea63-44d4-b355-42fedb58ed4b": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/humancentric2.jpg",
+            "img": "shopify://shop_images/humancentric2.jpg",
             "category_id": "Todos",
             "title": "Liderança Ágil",
             "text": "Transforme sua equipe de liderança com o mindset ágil, desenvolvendo uma cultura onde colaboração, autonomia e experimentação levam equipes para alta performance e bem estar.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/lideranca-agil",
+            "url": "shopify://metaobjects/cursos_in_company/lideranca-agil",
             "target": false
           }
         },
         "c362e5f4-b977-4098-870a-efc7507321b7": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/L66A8697.jpg",
+            "img": "shopify://shop_images/L66A8697.jpg",
             "category_id": "Todos",
             "title": "Business Transformation",
             "text": "Forneça às suas equipes as ferramentas e habilidades necessárias para liderar transformações de forma autêntica e impactante na empresa, impulsionando o crescimento dos negócios.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/business-transformation",
+            "url": "shopify://metaobjects/cursos_in_company/business-transformation",
             "target": false
           }
         },
         "56d4feb7-7b81-4faa-8204-23f80b4f941c": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Conversation-5_f9c8970a-9859-4ad9-b3d2-e5388df4fe6d.png",
+            "img": "shopify://shop_images/Conversation-5_f9c8970a-9859-4ad9-b3d2-e5388df4fe6d.png",
             "category_id": "Todos",
             "title": "Diversidade & Inclusão",
             "text": "Capacite seus colaboradores para construir ambientes inclusivos e equipes diversificadas, promovendo a representatividade e o respeito mútuo.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/diversidade-inclusao",
+            "url": "shopify://metaobjects/cursos_in_company/diversidade-inclusao",
             "target": false
           }
         },
         "e667f98a-588a-4de4-9215-34e85332d680": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/R0009008-2.jpg",
+            "img": "shopify://shop_images/R0009008-2.jpg",
             "category_id": "Todos",
             "title": "Criatividade Aplicada",
             "text": "Desperte a confiança criativa de seus colaboradores e libere o potencial coletivo, ao oferecer ferramentas que desbloqueiam a inovação e inspiram soluções únicas.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/criatividade-aplicada",
+            "url": "shopify://metaobjects/cursos_in_company/criatividade-aplicada",
             "target": false
           }
         },
         "8917977f-ea2d-47dd-badf-ba9230a54b20": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EXPLORANDO_FUTUROS_imagem.jpg",
+            "img": "shopify://shop_images/EXPLORANDO_FUTUROS_imagem.jpg",
             "category_id": "Todos",
             "title": "Explorando Futuros",
             "text": "Prepare suas equipes para antecipar tendências e abraçar o futuro com uma mentalidade inovadora, equipando-as com as ferramentas e perspectivas de um futurista.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/future-thinking",
+            "url": "shopify://metaobjects/cursos_in_company/future-thinking",
             "target": false
           }
         },
         "d82b80bb-eda7-4dcc-8018-1454a85a366d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/LiderancaAgil_789e8770-7a3c-4470-a91a-9d17324acd47.jpg",
+            "img": "shopify://shop_images/LiderancaAgil_789e8770-7a3c-4470-a91a-9d17324acd47.jpg",
             "category_id": "Todos",
             "title": "Human Centric Innovation",
             "text": "Explore a inovação centrada no ser humano, capacitando suas equipes com ferramentas e técnicas para acelerar os negocios com soluções realmente alinhadas com necessidades dos seus clientes.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/human-centric-innovation",
+            "url": "shopify://metaobjects/cursos_in_company/human-centric-innovation",
             "target": false
           }
         },
         "4233adba-de18-4cbf-a694-2032e01f3b0e": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Hyper-Island-Stockholm-SHA7870.jpg",
+            "img": "shopify://shop_images/Hyper-Island-Stockholm-SHA7870.jpg",
             "category_id": "Todos",
             "title": "Data Driven Business",
             "text": "Capacite suas equipes com ferramentas práticas para explorar o potencial dos dados como impulsionadores estratégicos, aprimorando a tomada de decisões informadas.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/data-driven-business",
+            "url": "shopify://metaobjects/cursos_in_company/data-driven-business",
             "target": false
           }
         },
         "263aeb57-9dc0-489d-95a3-6befd307fbbe": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Customer_Experience_Design.jpg",
+            "img": "shopify://shop_images/Customer_Experience_Design.jpg",
             "category_id": "Todos",
             "title": "Inteligência Artificial Para Humanos",
             "text": "Capacite suas equipes sobre IA, para eles se tornarem agentes de mudança e acelerarem seus negócios graças as possibilidades infinitas criadas pela tecnologia.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/ia-para-humanos",
+            "url": "shopify://metaobjects/cursos_in_company/ia-para-humanos",
             "target": false
           }
         },
         "eb60f8e6-919a-419e-882c-82643aa82af1": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/produtividade.jpg",
+            "img": "shopify://shop_images/produtividade.jpg",
             "category_id": "Todos",
             "title": "Produtividade",
             "text": "Através de uma combinação de teoria e prática, seus colaboradores explorarão técnicas avançadas de priorização, cultivarão um mindset produtivo e aprenderão a contribuir de forma significativa para o sucesso do seu negócio.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/produtividade",
+            "url": "shopify://metaobjects/cursos_in_company/produtividade",
             "target": false
           }
         },
         "9a0a3355-8e6e-484a-a0ee-465ba7b66133": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3_Jornadas_de_Transformacao2.jpg",
+            "img": "shopify://shop_images/3_Jornadas_de_Transformacao2.jpg",
             "category_id": "Todos",
             "title": "Conflito e Conversas Difíceis",
             "text": "Este curso tem como objetivo ajudar suas equipes a integrar e aplicar metodologias e ferramentas que lhes permitam gerenciar conflitos e ter conversas difíceis de forma saudável.",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/conflito-e-conversas-dificeis",
+            "url": "shopify://metaobjects/cursos_in_company/conflito-e-conversas-dificeis",
             "target": false
           }
         },
         "3b0eaabe-02cc-4812-9c7a-2db45e655049": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/COMUNICACAO_EXECUTIVA_IMAGEM.jpg",
+            "img": "shopify://shop_images/COMUNICACAO_EXECUTIVA_IMAGEM.jpg",
             "category_id": "Todos",
             "title": "Comunicação Executiva",
             "text": "Aprimore suas habilidades de comunicação e influência no ambiente executivo",
-            "url": "shopify:\/\/metaobjects\/cursos_in_company\/comunicacao-executiva",
+            "url": "shopify://metaobjects/cursos_in_company/comunicacao-executiva",
             "target": true
           }
         }
@@ -1246,7 +1255,7 @@
         "text": "Empresas de renome nacional e internacional depositam sua confiança em nosso trabalho para impulsionar a transformação de suas equipes por meio de nossas jornadas inovadoras. Entre em contato conosco para explorar nossos casos de sucesso na sua indústria.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2_Workshops2.jpg",
+        "bg_image": "shopify://shop_images/2_Workshops2.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -1331,7 +1340,7 @@
       "settings": {
         "title": "Fale com a gente",
         "text": "Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
-        "img": "shopify:\/\/shop_images\/Beni.png",
+        "img": "shopify://shop_images/Beni.png",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
@@ -1362,11 +1371,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>JORNADAS DE TRANSFORMAÇÃO<\/strong>",
+        "title": "<strong>JORNADAS DE TRANSFORMAÇÃO</strong>",
         "text": "Criamos jornadas que sejam flexíveis para que as pessoas consigam se apropriar de ferramentas, mentalidades e comportamentos para conduzirem a mudança dentro e fora das organizações.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/3-Jornadas-de-Transf..jpg",
+        "bg_image": "shopify://shop_images/3-Jornadas-de-Transf..jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -1397,10 +1406,10 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "WORKSHOPS",
-        "text": "Desenhamos e facilitamos <em>workshops<\/em> de diferentes formatos e tamanhos. Nossos facilitadores trabalham para empoderar pessoas e times para encontrarem soluções inclusivas, criativas e colaborativas.",
+        "text": "Desenhamos e facilitamos <em>workshops</em> de diferentes formatos e tamanhos. Nossos facilitadores trabalham para empoderar pessoas e times para encontrarem soluções inclusivas, criativas e colaborativas.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2-Workshops.jpg",
+        "bg_image": "shopify://shop_images/2-Workshops.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -1440,7 +1449,7 @@
         "18047f15-66cd-4693-921a-7ba553f84efb": {
           "type": "content",
           "settings": {
-            "title": "<strong>METODOLOGIA 3U<\/strong>",
+            "title": "<strong>METODOLOGIA 3U</strong>",
             "text": "Nossa metodologia 3U (Uncover, Unlock, Unleash) potencializa indivíduos a se tornarem agentes de mudança e cria um movimento de transformação sustentável de longo prazo.",
             "header": "",
             "svg": "",
@@ -1451,7 +1460,7 @@
         "18d64b6c-c55f-4059-ba78-4e16056af366": {
           "type": "content",
           "settings": {
-            "title": "<strong>CUSTOMIZAÇÃO<\/strong>",
+            "title": "<strong>CUSTOMIZAÇÃO</strong>",
             "text": "Customizamos nossos cursos para equipes, personalizando materiais e formatos para que seja mais adequado ao sprint.",
             "header": "",
             "svg": "",
@@ -1479,7 +1488,7 @@
       "disabled": true,
       "settings": {
         "hidden": false,
-        "title": "<strong>Sprints de Inovação<\/strong>",
+        "title": "<strong>Sprints de Inovação</strong>",
         "text": "Com sprints desde o diagnóstico do problema à prototipação, trabalhamos juntos para entregar um desenho completo de jornada de inovação. Em um período de tempo acordado previamente, ajudamos nossos clientes criando um ambiente de alta performance para que times trabalhem de forma criativa e criem soluções para problemas do negócio.",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -1534,11 +1543,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>CURADORIA DE EVENTOS<\/strong>",
-        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers<\/em>.",
+        "title": "<strong>CURADORIA DE EVENTOS</strong>",
+        "text": "Ajudamos a sua empresa com o desenho e planejamento de eventos corporativos. Projetos que vão desde a criação do conceito, desenvolvimento das dinâmicas de aprendizagem, até a construção do time de <em>speakers</em>.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/4-Eventos.jpg",
+        "bg_image": "shopify://shop_images/4-Eventos.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -1572,7 +1581,7 @@
         "text": "Nossos cursos remotos e presenciais estão disponíveis para turmas exclusivas, com opções de customização para que a jornada de aprendizagem faça sentido para o seu negócio e sua agenda.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2-Remoto.jpg",
+        "bg_image": "shopify://shop_images/2-Remoto.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -1606,7 +1615,7 @@
         "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG2.png",
+        "bg_image": "shopify://shop_images/BG2.png",
         "overlay_opacity": 0,
         "font_color": "text-dark",
         "title_size": "display-4",

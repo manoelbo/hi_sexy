@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "sp_media_grid_J88Hxk": {
@@ -6,7 +15,7 @@
         "video_Qkdrpc": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Design sem nome (2).mp4",
+            "video": "shopify://files/videos/Design sem nome (2).mp4",
             "link": "",
             "video_inline": true,
             "video_autoplay": true,
@@ -18,7 +27,7 @@
         "image_hdcV7X": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
+            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
             "link": ""
           }
         }
@@ -31,7 +40,7 @@
       "settings": {
         "background_color": "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 \/ 9",
+        "media_aspect_ratio": "16 / 9",
         "max_width": 1000,
         "grid_gap": 25,
         "padding_top": 75,
@@ -45,11 +54,11 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "<strong>CURSOS<\/strong>",
+        "title": "<strong>CURSOS</strong>",
         "text": "Prepare-se para o futuro e seja protagonista do seu próprio processo de transformação. Navegue em jornadas de aprendizado baseadas na experiência e desenvolva suas habilidades.",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/1-Header-Cursos.jpg",
+        "bg_image": "shopify://shop_images/1-Header-Cursos.jpg",
         "overlay_opacity": 30,
         "font_color": "text-light",
         "title_size": "display-0",
@@ -79,8 +88,8 @@
         "67039982-8553-4f92-8ea5-c1e7bc4a8842": {
           "type": "content",
           "settings": {
-            "title": "<strong>25%<\/strong> de desconto",
-            "text": "Ganhe <strong>25% OFF<\/strong> em cada curso com o cupom: <strong>HYPERFRIDAY <\/strong>",
+            "title": "<strong>25%</strong> de desconto",
+            "text": "Ganhe <strong>25% OFF</strong> em cada curso com o cupom: <strong>HYPERFRIDAY </strong>",
             "header": "em cada curso",
             "svg": "",
             "bg_color": "",
@@ -90,8 +99,8 @@
         "06f1f73e-63ac-4400-bbd9-e7ab3d913be3": {
           "type": "content",
           "settings": {
-            "title": "<strong>35% de desconto<\/strong>",
-            "text": "Adicione os 3 cursos ao checkout e aplique o cupom<strong> HYPERTUDO <\/strong>no final<strong> <\/strong>para ganhar<strong> 35% OFF<\/strong>.",
+            "title": "<strong>35% de desconto</strong>",
+            "text": "Adicione os 3 cursos ao checkout e aplique o cupom<strong> HYPERTUDO </strong>no final<strong> </strong>para ganhar<strong> 35% OFF</strong>.",
             "header": "combo: na compra dos 3 cursos",
             "svg": "",
             "bg_color": "",
@@ -107,13 +116,13 @@
       "settings": {
         "hidden": false,
         "title": "a melhor oportunidade do ano para impulsionar sua carreira com os nossos cursos",
-        "text": "<em>Cupons válidos até 28\/11 às 23h59 e apenas para os nossos cursos de Human Centric Innovation, Storytelling e Liderança do Futuro.<\/em>",
+        "text": "<em>Cupons válidos até 28/11 às 23h59 e apenas para os nossos cursos de Human Centric Innovation, Storytelling e Liderança do Futuro.</em>",
         "font_color": "text-light",
         "title_size": "display-4",
         "text_size": "fs-6",
         "header": "",
         "header_size": "fs-6",
-        "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 520 160\" width=\"400px\" style=\"enable-background:new 0 0 520 160;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n     <style type=\"text\/css\">\n          .st0{clip-path:url(#SVGID_00000102533263144243159760000007579178576261164720_);}\n          .st1{clip-path:url(#SVGID_00000152946354310252971460000001430868608467299229_);}\n          .st2{fill:#FF7300;}\n     <\/style>\n     <g>\n          <g transform=\"translate(384.22454, 505.712224)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(414.546869, 505.712224)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(467.153983, 505.712224)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(325.947406, 621.442512)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(401.260087, 621.442512)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(455.27289, 621.442512)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(473.58523, 621.442512)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(322.068063, 653.010801)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(355.748138, 653.010801)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(402.087794, 653.010801)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(456.272521, 653.010801)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(330.003186, 684.57909)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g transform=\"translate(417.72795, 684.57909)\">\n          <\/g>\n     <\/g>\n     <g>\n          <g>\n               <g>\n                    <defs>\n                         <rect id=\"SVGID_1_\" x=\"10.6\" y=\"2.9\" width=\"343.3\" height=\"95.1\"><\/rect>\n                    <\/defs>\n                    <clippath id=\"SVGID_00000018206718325602848330000005682736771607040643_\">\n                         <use xlink:href=\"#SVGID_1_\" style=\"overflow:visible;\"><\/use>\n                    <\/clippath>\n                    <g style=\"clip-path:url(#SVGID_00000018206718325602848330000005682736771607040643_);\">\n                         <g>\n                              <g>\n                                   <defs>\n                                        <polygon id=\"SVGID_00000026165744968009743540000004610927042507684782_\" points=\"353.9,2.9 10.6,2.9 50.3,50.5 10.6,98 \n                                             353.9,98 314.2,50.5 \t\t\t\t\t\t\t\"><\/polygon>\n                                   <\/defs>\n                                   <clippath id=\"SVGID_00000128469388967428166520000011694617810730568850_\">\n                                        <use xlink:href=\"#SVGID_00000026165744968009743540000004610927042507684782_\" style=\"overflow:visible;\"><\/use>\n                                   <\/clippath>\n                                   <g style=\"clip-path:url(#SVGID_00000128469388967428166520000011694617810730568850_);\">\n                                        <path class=\"st2\" d=\"M10.6,2.9h343.3V98H10.6V2.9z\"><\/path>\n                                   <\/g>\n                              <\/g>\n                         <\/g>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(206.548465, 347.633412)\">\n                    <g>\n                         <path d=\"M-129.1-338.3h15.6v13h10v-13h15.6v36.8h-15.6v-13.8h-10v13.8h-15.6V-338.3z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(291.808159, 347.633412)\">\n                    <g>\n                         <path d=\"M-156.8-312l-14.8-26.3h17.6l5.2,11.3l5.1-11.3h17.3l-14.8,26.3v10.5h-15.7V-312z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(372.45795, 347.633412)\">\n                    <g>\n                         <path d=\"M-205.4-338.3h20c5.8,0,10.3,1,13.5,2.9c3.2,1.9,4.8,5.1,4.8,9.5c0,4.6-1.6,8-4.7,10.1c-3.1,2.1-7.5,3.1-13.3,3.1h-4.7\n                              v11.2h-15.6V-338.3z M-187.9-321c1.7,0,3-0.4,4-1.1c0.9-0.8,1.4-1.9,1.4-3.6c0-1.5-0.4-2.7-1.4-3.4s-2.3-1-4-1h-1.9v9.1\n                              L-187.9-321L-187.9-321z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(448.830481, 347.633412)\">\n                    <g>\n                         <path d=\"M-240.5-338.3h35.3v8.8h-19.6v4.8h16.1v9h-16.1v5.3h19.7v8.9h-35.3L-240.5-338.3L-240.5-338.3z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(521.543607, 347.633412)\">\n                    <g>\n                         <path d=\"M-273.9-338.3h23.3c5.6,0,9.8,0.9,12.5,2.5s4.1,4.2,4.1,7.6c0,2.8-0.8,4.9-2.4,6.5c-1.5,1.6-3.6,2.6-6.2,3.2\n                              c2,0.3,3.7,0.8,4.9,1.5c1.3,0.6,2.2,1.5,2.9,2.6c0.6,1.1,1,2.7,1,4.5v8.4h-15.6v-8.6c0-1.6-0.5-2.8-1.5-3.4\n                              c-1-0.7-2.5-1.1-4.5-1.1h-2.9v13.1h-15.6V-338.3z M-254.7-322.4c3.6,0,5.3-1.3,5.3-4.1c0-1.3-0.4-2.3-1.4-2.8\n                              c-0.9-0.6-2.2-0.9-4-0.9h-3.6v7.8L-254.7-322.4L-254.7-322.4z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(184.567691, 429.767015)\">\n                    <g>\n                         <path d=\"M-119-376.1h33.5v9.2h-17.9v5.6h14.9v9.3h-14.9v12.7H-119C-119-339.3-119-376.1-119-376.1z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(252.908515, 429.767015)\">\n                    <g>\n                         <path d=\"M-150.4-376.1h23.3c5.6,0,9.8,0.9,12.5,2.5c2.7,1.7,4.1,4.2,4.1,7.6c0,2.8-0.8,4.9-2.4,6.5c-1.5,1.6-3.6,2.6-6.2,3.2\n                              c2,0.3,3.7,0.8,4.9,1.5c1.3,0.6,2.2,1.5,2.9,2.6s1,2.7,1,4.5v8.4h-15.6v-8.6c0-1.6-0.5-2.8-1.5-3.4s-2.5-1.1-4.5-1.1h-2.9v13\n                              h-15.6L-150.4-376.1L-150.4-376.1z M-131.3-360.2c3.6,0,5.3-1.3,5.3-4.1c0-1.3-0.4-2.3-1.4-2.8c-0.9-0.6-2.2-0.9-4-0.9h-3.6v7.8\n                              L-131.3-360.2L-131.3-360.2z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(334.793945, 429.767015)\">\n                    <g>\n                         <path d=\"M-188.1-376.1h15.6v36.8h-15.6V-376.1z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(372.623775, 429.767015)\">\n                    <g>\n                         <path d=\"M-205.5-376.1h19.8c15.2,0,22.8,6.1,22.8,18.2c0,6.4-2,11.1-5.9,14.1c-4,3-9.7,4.5-17.3,4.5h-19.5\n                              C-205.5-339.2-205.5-376.1-205.5-376.1z M-187.9-348.4c2.8,0,4.9-0.7,6.3-2.2c1.4-1.5,2.1-3.9,2.1-7.3c0-2.2-0.3-4-0.9-5.3\n                              c-0.6-1.3-1.5-2.3-2.7-2.8c-1.2-0.6-2.8-0.9-4.6-0.9h-2.1v18.6L-187.9-348.4L-187.9-348.4z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(458.263659, 429.767015)\">\n                    <g>\n                         <path d=\"M-234.9-376.1h22.1l12.4,36.8h-16.5l-1.6-5.9h-11l-1.7,5.9h-16.3L-234.9-376.1z M-220.8-354.7l-3.1-12l-3.2,12H-220.8\n                              L-220.8-354.7z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(544.759019, 429.767015)\">\n                    <g>\n                         <path d=\"M-273-349.8l-14.8-26.3h17.6l5.1,11.3l5.1-11.3h17.3l-14.8,26.3v10.5H-273V-349.8z\"><\/path>\n                    <\/g>\n               <\/g>\n          <\/g>\n          <g>\n               <g transform=\"translate(459.145628, 684.57909)\">\n               <\/g>\n          <\/g>\n     <\/g>\n<\/svg>",
+        "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 520 160\" width=\"400px\" style=\"enable-background:new 0 0 520 160;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n     <style type=\"text/css\">\n          .st0{clip-path:url(#SVGID_00000102533263144243159760000007579178576261164720_);}\n          .st1{clip-path:url(#SVGID_00000152946354310252971460000001430868608467299229_);}\n          .st2{fill:#FF7300;}\n     </style>\n     <g>\n          <g transform=\"translate(384.22454, 505.712224)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(414.546869, 505.712224)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(467.153983, 505.712224)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(325.947406, 621.442512)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(401.260087, 621.442512)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(455.27289, 621.442512)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(473.58523, 621.442512)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(322.068063, 653.010801)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(355.748138, 653.010801)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(402.087794, 653.010801)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(456.272521, 653.010801)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(330.003186, 684.57909)\">\n          </g>\n     </g>\n     <g>\n          <g transform=\"translate(417.72795, 684.57909)\">\n          </g>\n     </g>\n     <g>\n          <g>\n               <g>\n                    <defs>\n                         <rect id=\"SVGID_1_\" x=\"10.6\" y=\"2.9\" width=\"343.3\" height=\"95.1\"></rect>\n                    </defs>\n                    <clippath id=\"SVGID_00000018206718325602848330000005682736771607040643_\">\n                         <use xlink:href=\"#SVGID_1_\" style=\"overflow:visible;\"></use>\n                    </clippath>\n                    <g style=\"clip-path:url(#SVGID_00000018206718325602848330000005682736771607040643_);\">\n                         <g>\n                              <g>\n                                   <defs>\n                                        <polygon id=\"SVGID_00000026165744968009743540000004610927042507684782_\" points=\"353.9,2.9 10.6,2.9 50.3,50.5 10.6,98 \n                                             353.9,98 314.2,50.5 \t\t\t\t\t\t\t\"></polygon>\n                                   </defs>\n                                   <clippath id=\"SVGID_00000128469388967428166520000011694617810730568850_\">\n                                        <use xlink:href=\"#SVGID_00000026165744968009743540000004610927042507684782_\" style=\"overflow:visible;\"></use>\n                                   </clippath>\n                                   <g style=\"clip-path:url(#SVGID_00000128469388967428166520000011694617810730568850_);\">\n                                        <path class=\"st2\" d=\"M10.6,2.9h343.3V98H10.6V2.9z\"></path>\n                                   </g>\n                              </g>\n                         </g>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(206.548465, 347.633412)\">\n                    <g>\n                         <path d=\"M-129.1-338.3h15.6v13h10v-13h15.6v36.8h-15.6v-13.8h-10v13.8h-15.6V-338.3z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(291.808159, 347.633412)\">\n                    <g>\n                         <path d=\"M-156.8-312l-14.8-26.3h17.6l5.2,11.3l5.1-11.3h17.3l-14.8,26.3v10.5h-15.7V-312z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(372.45795, 347.633412)\">\n                    <g>\n                         <path d=\"M-205.4-338.3h20c5.8,0,10.3,1,13.5,2.9c3.2,1.9,4.8,5.1,4.8,9.5c0,4.6-1.6,8-4.7,10.1c-3.1,2.1-7.5,3.1-13.3,3.1h-4.7\n                              v11.2h-15.6V-338.3z M-187.9-321c1.7,0,3-0.4,4-1.1c0.9-0.8,1.4-1.9,1.4-3.6c0-1.5-0.4-2.7-1.4-3.4s-2.3-1-4-1h-1.9v9.1\n                              L-187.9-321L-187.9-321z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(448.830481, 347.633412)\">\n                    <g>\n                         <path d=\"M-240.5-338.3h35.3v8.8h-19.6v4.8h16.1v9h-16.1v5.3h19.7v8.9h-35.3L-240.5-338.3L-240.5-338.3z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(521.543607, 347.633412)\">\n                    <g>\n                         <path d=\"M-273.9-338.3h23.3c5.6,0,9.8,0.9,12.5,2.5s4.1,4.2,4.1,7.6c0,2.8-0.8,4.9-2.4,6.5c-1.5,1.6-3.6,2.6-6.2,3.2\n                              c2,0.3,3.7,0.8,4.9,1.5c1.3,0.6,2.2,1.5,2.9,2.6c0.6,1.1,1,2.7,1,4.5v8.4h-15.6v-8.6c0-1.6-0.5-2.8-1.5-3.4\n                              c-1-0.7-2.5-1.1-4.5-1.1h-2.9v13.1h-15.6V-338.3z M-254.7-322.4c3.6,0,5.3-1.3,5.3-4.1c0-1.3-0.4-2.3-1.4-2.8\n                              c-0.9-0.6-2.2-0.9-4-0.9h-3.6v7.8L-254.7-322.4L-254.7-322.4z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(184.567691, 429.767015)\">\n                    <g>\n                         <path d=\"M-119-376.1h33.5v9.2h-17.9v5.6h14.9v9.3h-14.9v12.7H-119C-119-339.3-119-376.1-119-376.1z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(252.908515, 429.767015)\">\n                    <g>\n                         <path d=\"M-150.4-376.1h23.3c5.6,0,9.8,0.9,12.5,2.5c2.7,1.7,4.1,4.2,4.1,7.6c0,2.8-0.8,4.9-2.4,6.5c-1.5,1.6-3.6,2.6-6.2,3.2\n                              c2,0.3,3.7,0.8,4.9,1.5c1.3,0.6,2.2,1.5,2.9,2.6s1,2.7,1,4.5v8.4h-15.6v-8.6c0-1.6-0.5-2.8-1.5-3.4s-2.5-1.1-4.5-1.1h-2.9v13\n                              h-15.6L-150.4-376.1L-150.4-376.1z M-131.3-360.2c3.6,0,5.3-1.3,5.3-4.1c0-1.3-0.4-2.3-1.4-2.8c-0.9-0.6-2.2-0.9-4-0.9h-3.6v7.8\n                              L-131.3-360.2L-131.3-360.2z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(334.793945, 429.767015)\">\n                    <g>\n                         <path d=\"M-188.1-376.1h15.6v36.8h-15.6V-376.1z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(372.623775, 429.767015)\">\n                    <g>\n                         <path d=\"M-205.5-376.1h19.8c15.2,0,22.8,6.1,22.8,18.2c0,6.4-2,11.1-5.9,14.1c-4,3-9.7,4.5-17.3,4.5h-19.5\n                              C-205.5-339.2-205.5-376.1-205.5-376.1z M-187.9-348.4c2.8,0,4.9-0.7,6.3-2.2c1.4-1.5,2.1-3.9,2.1-7.3c0-2.2-0.3-4-0.9-5.3\n                              c-0.6-1.3-1.5-2.3-2.7-2.8c-1.2-0.6-2.8-0.9-4.6-0.9h-2.1v18.6L-187.9-348.4L-187.9-348.4z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(458.263659, 429.767015)\">\n                    <g>\n                         <path d=\"M-234.9-376.1h22.1l12.4,36.8h-16.5l-1.6-5.9h-11l-1.7,5.9h-16.3L-234.9-376.1z M-220.8-354.7l-3.1-12l-3.2,12H-220.8\n                              L-220.8-354.7z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(544.759019, 429.767015)\">\n                    <g>\n                         <path d=\"M-273-349.8l-14.8-26.3h17.6l5.1,11.3l5.1-11.3h17.3l-14.8,26.3v10.5H-273V-349.8z\"></path>\n                    </g>\n               </g>\n          </g>\n          <g>\n               <g transform=\"translate(459.145628, 684.57909)\">\n               </g>\n          </g>\n     </g>\n</svg>",
         "bg_color": "#000000",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
@@ -229,11 +238,11 @@
         "card_BUfG8g": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado.jpg",
+            "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado.jpg",
             "category_id": "",
             "title": "Liderança em Tempos de Mudança",
             "text": "Repense sua liderança e descubra como levar suas equipes para alta performance, inspirando e engajando para o futuro",
-            "url": "shopify:\/\/products\/lideranca-em-tempos-de-mudanca",
+            "url": "shopify://products/lideranca-em-tempos-de-mudanca",
             "target": false
           }
         },
@@ -241,55 +250,56 @@
           "type": "card",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/Storytelling_AO_VIVO_laranja.jpg",
+            "img": "shopify://shop_images/Storytelling_AO_VIVO_laranja.jpg",
             "category_id": "",
             "title": "Storytelling",
             "text": "Saiba como estruturar e disseminar seus projetos a partir de narrativas envolventes e engajadoras, destravando um mindset de um contador de histórias",
-            "url": "shopify:\/\/products\/storytelling",
+            "url": "shopify://products/storytelling",
             "target": false
           }
         },
         "card_kpGQnx": {
           "type": "card",
+          "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/IA_PARA_HUMANOS_AO_VIVO_laranaja.jpg",
+            "img": "shopify://shop_images/IA_PARA_HUMANOS_AO_VIVO_laranaja.jpg",
             "category_id": "",
             "title": "Inteligência Artificial para Humanos",
             "text": "Este programa te ajudará a ganhar fluência e enxergar oportunidades de negócio na nova era da Inteligência Artificial",
-            "url": "shopify:\/\/products\/ia-para-humanos",
+            "url": "shopify://products/ia-para-humanos",
             "target": false
           }
         },
         "card_Dq6U33": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/COMUNICACAOEXECUTIVAAOVIVO.jpg",
+            "img": "shopify://shop_images/COMUNICACAOEXECUTIVAAOVIVO.jpg",
             "category_id": "",
             "title": "Comunicação Executiva",
             "text": "Aprimore suas habilidades de comunicação e influência no ambiente executivo.",
-            "url": "shopify:\/\/products\/comunicacao-executiva",
+            "url": "shopify://products/comunicacao-executiva",
             "target": true
           }
         },
         "card_NAHUtz": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/EXPLORANDO_FUTUROS_AO_VIVO.jpg",
+            "img": "shopify://shop_images/EXPLORANDO_FUTUROS_AO_VIVO.jpg",
             "category_id": "",
             "title": "Explorando Futuros",
             "text": "Expanda seu pensamento estratégico e explore tendências e futuros possíveis.",
-            "url": "shopify:\/\/products\/explorando-futuros",
+            "url": "shopify://products/explorando-futuros",
             "target": true
           }
         },
         "card_k4Hrmk": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/lideranca_agil_ao_vivo_e_gravado.jpg",
+            "img": "shopify://shop_images/lideranca_agil_ao_vivo_e_gravado.jpg",
             "category_id": "",
             "title": "Liderança Ágil",
             "text": "Este curso online e gravado oferece uma imersão na liderança moderna, combinando teoria e prática para transformar como você e sua equipe trabalham.",
-            "url": "shopify:\/\/products\/lideranca-agil-1",
+            "url": "shopify://products/lideranca-agil-1",
             "target": false
           }
         }
@@ -345,7 +355,7 @@
         "text": "Conecte-se com pessoas do Brasil e do mundo a partir de sessões completamente remotas. Desperte a sua curiosidade e faça parte de uma experiência interativa e imersiva, de onde estiver",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
+        "bg_image": "shopify://shop_images/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -378,7 +388,7 @@
         "text": "Em um formato presencial, tenha acesso à metodologia da Hyper Island de maneira intensiva. Ao lado de pessoas de diferentes áreas e expertises, crie conexões poderosas para a sua jornada de transformação.",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/3-Masterclass-2.jpg",
+        "bg_image": "shopify://shop_images/3-Masterclass-2.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-5",
@@ -411,7 +421,7 @@
             "title": "Experiência Prática",
             "text": "Provocações a partir de desafios reais e uma metodologia de aprendizagem baseada em projetos práticos.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 467 173\" style=\"enable-background:new 0 0 467 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M342.6,59.6L299.7,0H140.2c-9.4,0-17,7.6-17,17v92.2c0,9.4,7.6,17,17,17l0,0h159.5l42.9-59.6\n\tC344.1,64.4,344.1,61.7,342.6,59.6z M127,109.1V16.9c0-7.3,6-13.3,13.3-13.3h12.5v118.8h-12.5C132.9,122.4,127,116.5,127,109.1z\n\t M164.7,122.4h-8.2V3.7h8.2V122.4z M168.3,40.1H297V86H168.3V40.1z M300.6,7.5l22.6,31.4v48.3l-22.5,31.3L300.6,7.5z M296.9,3.7\n\tv32.8H168.3V3.7H296.9z M168.3,89.7h128.6v32.8H168.3V89.7z M339.6,64.3l-12.8,17.8V44l12.8,17.8C340.1,62.5,340.1,63.5,339.6,64.3z\n\t\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 467 173\" style=\"enable-background:new 0 0 467 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M342.6,59.6L299.7,0H140.2c-9.4,0-17,7.6-17,17v92.2c0,9.4,7.6,17,17,17l0,0h159.5l42.9-59.6\n\tC344.1,64.4,344.1,61.7,342.6,59.6z M127,109.1V16.9c0-7.3,6-13.3,13.3-13.3h12.5v118.8h-12.5C132.9,122.4,127,116.5,127,109.1z\n\t M164.7,122.4h-8.2V3.7h8.2V122.4z M168.3,40.1H297V86H168.3V40.1z M300.6,7.5l22.6,31.4v48.3l-22.5,31.3L300.6,7.5z M296.9,3.7\n\tv32.8H168.3V3.7H296.9z M168.3,89.7h128.6v32.8H168.3V89.7z M339.6,64.3l-12.8,17.8V44l12.8,17.8C340.1,62.5,340.1,63.5,339.6,64.3z\n\t\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -419,10 +429,10 @@
         "18d64b6c-c55f-4059-ba78-4e16056af366": {
           "type": "content",
           "settings": {
-            "title": "<strong>Expertises Múltiplas<\/strong>",
+            "title": "<strong>Expertises Múltiplas</strong>",
             "text": "Facilitadores de diferentes áreas e experiências. Reflexões sobre inovação, tecnologia e comportamento. De maneira ampla e diversificada.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M221.4,63.3h44.9c9.5,0,18.5-4.6,24-12.3c9.6,13.3,28.2,16.3,41.5,6.7s16.3-28.2,6.7-41.5S310.3-0.1,297,9.5\n\tc-2.6,1.9-4.8,4.1-6.7,6.7c-5.6-7.7-14.5-12.3-24-12.3h-75.2c-0.4,0-0.7,0-1.1,0V0h-67.2v87.7H148c1,22.2,19.8,39.3,42,38.3\n\tc12.1-0.6,23.3-6.5,30.5-16.3h123.6V68.7H224.5C223.6,66.8,222.6,65,221.4,63.3z M314.4,7.6c14.4,0,26,11.6,26,26\n\tc0,14.4-11.6,26-26,26c-8.9,0-17.1-4.5-21.9-12c4.7-8.7,4.7-19.2,0-28C297.2,12.2,305.5,7.6,314.4,7.6z M288.4,33.6\n\tc0-3.4,0.7-6.7,2-9.9c2.6,6.3,2.6,13.4,0,19.7C289,40.4,288.4,37,288.4,33.6z M191.1,7.6h75.2c8.9,0,17.1,4.5,21.9,12\n\tc-4.7,8.7-4.7,19.2,0,28c-4.8,7.5-13,12-21.9,12h-47.7c-7.2-8.4-17.5-13.4-28.6-13.9V7.7C190.3,7.6,190.7,7.6,191.1,7.6z\n\t M186.3,45.7c-5.4,0.2-10.7,1.6-15.6,4c-8.9-11.2-7-27.5,4.3-36.4c3.3-2.6,7.2-4.4,11.4-5.2V45.7z M186.3,62.9V84h-34.6\n\tc0.6-12.3,7.5-23.5,18.1-29.7C174.2,58.9,180,61.9,186.3,62.9z M173.3,52.5c4.1-1.8,8.5-2.9,13-3.1v9.7\n\tC181.4,58.2,176.9,55.9,173.3,52.5z M190,49.4c8.8,0.4,17.1,4.1,23.5,10.2h-22.4c-0.4,0-0.7,0-1.1,0V49.4z M126.5,3.7h59.8v0.6\n\tc-16.2,2.6-27.2,17.8-24.6,34c0.8,4.8,2.7,9.3,5.6,13.2c-11.5,7-18.8,19.2-19.4,32.6h-21.5V3.7z M188.1,122.4\n\tc-19.4,0-35.5-15.3-36.5-34.7H190V63.3c0.4,0,0.7,0,1.1,0h25.8c1.3,1.7,2.5,3.5,3.5,5.4h-10.9v41.2h6.2\n\tC208.8,117.8,198.7,122.4,188.1,122.4z M224.7,85.9c0,7.2-2.1,14.2-6.1,20.2h-5.4V72.4h8.9C223.8,76.7,224.7,81.3,224.7,85.9z\n\t M340.4,72.4v33.7H222.9c6-10.2,7.1-22.6,3.1-33.7H340.4z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M221.4,63.3h44.9c9.5,0,18.5-4.6,24-12.3c9.6,13.3,28.2,16.3,41.5,6.7s16.3-28.2,6.7-41.5S310.3-0.1,297,9.5\n\tc-2.6,1.9-4.8,4.1-6.7,6.7c-5.6-7.7-14.5-12.3-24-12.3h-75.2c-0.4,0-0.7,0-1.1,0V0h-67.2v87.7H148c1,22.2,19.8,39.3,42,38.3\n\tc12.1-0.6,23.3-6.5,30.5-16.3h123.6V68.7H224.5C223.6,66.8,222.6,65,221.4,63.3z M314.4,7.6c14.4,0,26,11.6,26,26\n\tc0,14.4-11.6,26-26,26c-8.9,0-17.1-4.5-21.9-12c4.7-8.7,4.7-19.2,0-28C297.2,12.2,305.5,7.6,314.4,7.6z M288.4,33.6\n\tc0-3.4,0.7-6.7,2-9.9c2.6,6.3,2.6,13.4,0,19.7C289,40.4,288.4,37,288.4,33.6z M191.1,7.6h75.2c8.9,0,17.1,4.5,21.9,12\n\tc-4.7,8.7-4.7,19.2,0,28c-4.8,7.5-13,12-21.9,12h-47.7c-7.2-8.4-17.5-13.4-28.6-13.9V7.7C190.3,7.6,190.7,7.6,191.1,7.6z\n\t M186.3,45.7c-5.4,0.2-10.7,1.6-15.6,4c-8.9-11.2-7-27.5,4.3-36.4c3.3-2.6,7.2-4.4,11.4-5.2V45.7z M186.3,62.9V84h-34.6\n\tc0.6-12.3,7.5-23.5,18.1-29.7C174.2,58.9,180,61.9,186.3,62.9z M173.3,52.5c4.1-1.8,8.5-2.9,13-3.1v9.7\n\tC181.4,58.2,176.9,55.9,173.3,52.5z M190,49.4c8.8,0.4,17.1,4.1,23.5,10.2h-22.4c-0.4,0-0.7,0-1.1,0V49.4z M126.5,3.7h59.8v0.6\n\tc-16.2,2.6-27.2,17.8-24.6,34c0.8,4.8,2.7,9.3,5.6,13.2c-11.5,7-18.8,19.2-19.4,32.6h-21.5V3.7z M188.1,122.4\n\tc-19.4,0-35.5-15.3-36.5-34.7H190V63.3c0.4,0,0.7,0,1.1,0h25.8c1.3,1.7,2.5,3.5,3.5,5.4h-10.9v41.2h6.2\n\tC208.8,117.8,198.7,122.4,188.1,122.4z M224.7,85.9c0,7.2-2.1,14.2-6.1,20.2h-5.4V72.4h8.9C223.8,76.7,224.7,81.3,224.7,85.9z\n\t M340.4,72.4v33.7H222.9c6-10.2,7.1-22.6,3.1-33.7H340.4z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -433,7 +443,7 @@
             "title": "Transformação Pessoal",
             "text": "Conteúdos desenvolvidos a fim de provocar mudanças significativas na maneira de pensar e agir.",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M303.4,84.3h-31c6.1-3.4,10.8-9,13.2-15.6h35.7c11.6,0,21-9.5,21-21.2c0-10.9-8.3-20.1-19-21.1V22c0-12.1-9.8-22-21.8-22\n\th-1.7c-11.3,0-20.7,8.8-21.7,20.1H260c-6.8,0-13.2,3.5-16.8,9.4h-34.7c-16,0-28.9,13.1-28.9,29.2c0,10.6,5.7,20.4,14.9,25.6h-31\n\tc-21.4,0-38.7,17.6-38.7,39.2v1.8h217.4v-1.8C342.1,101.8,324.8,84.3,303.4,84.3z M260,23.9h21.5V22c0-10.1,8.1-18.3,18.1-18.3h1.6\n\tc10,0,18.1,8.2,18.1,18.3v8h1.8c9.6,0,17.3,7.9,17.3,17.5c0,9.7-7.8,17.5-17.4,17.5h-34.6c3.4-15.8-6.4-31.3-22-34.8\n\tc-2-0.5-4.1-0.7-6.2-0.7h-10.5C250.9,25.9,255.3,23.9,260,23.9z M243.8,40.3c0-2.4,0.5-4.9,1.6-7.1h12.9c14,0,25.3,11.4,25.3,25.5\n\tc0,2.1-0.3,4.2-0.8,6.2h-56.2c-6.3,0-11.3-5.1-11.3-11.4c0-6.3,5.1-11.4,11.3-11.4c0,0,0,0,0,0h17.2V40.3z M183.3,58.8\n\tc0-14.1,11.3-25.5,25.3-25.5h32.9c-0.6,1.7-1,3.4-1.2,5.2h-13.6c-8.3,0-15,6.8-15,15.1s6.7,15.1,15,15.1l0,0h55\n\tc-4,9.5-13.1,15.6-23.3,15.6h-49.8C194.6,84.3,183.3,72.9,183.3,58.8z M128.4,121.6c1-18.8,16.4-33.6,35-33.6h139.9\n\tc18.7,0,34,14.8,35,33.6H128.4z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M303.4,84.3h-31c6.1-3.4,10.8-9,13.2-15.6h35.7c11.6,0,21-9.5,21-21.2c0-10.9-8.3-20.1-19-21.1V22c0-12.1-9.8-22-21.8-22\n\th-1.7c-11.3,0-20.7,8.8-21.7,20.1H260c-6.8,0-13.2,3.5-16.8,9.4h-34.7c-16,0-28.9,13.1-28.9,29.2c0,10.6,5.7,20.4,14.9,25.6h-31\n\tc-21.4,0-38.7,17.6-38.7,39.2v1.8h217.4v-1.8C342.1,101.8,324.8,84.3,303.4,84.3z M260,23.9h21.5V22c0-10.1,8.1-18.3,18.1-18.3h1.6\n\tc10,0,18.1,8.2,18.1,18.3v8h1.8c9.6,0,17.3,7.9,17.3,17.5c0,9.7-7.8,17.5-17.4,17.5h-34.6c3.4-15.8-6.4-31.3-22-34.8\n\tc-2-0.5-4.1-0.7-6.2-0.7h-10.5C250.9,25.9,255.3,23.9,260,23.9z M243.8,40.3c0-2.4,0.5-4.9,1.6-7.1h12.9c14,0,25.3,11.4,25.3,25.5\n\tc0,2.1-0.3,4.2-0.8,6.2h-56.2c-6.3,0-11.3-5.1-11.3-11.4c0-6.3,5.1-11.4,11.3-11.4c0,0,0,0,0,0h17.2V40.3z M183.3,58.8\n\tc0-14.1,11.3-25.5,25.3-25.5h32.9c-0.6,1.7-1,3.4-1.2,5.2h-13.6c-8.3,0-15,6.8-15,15.1s6.7,15.1,15,15.1l0,0h55\n\tc-4,9.5-13.1,15.6-23.3,15.6h-49.8C194.6,84.3,183.3,72.9,183.3,58.8z M128.4,121.6c1-18.8,16.4-33.6,35-33.6h139.9\n\tc18.7,0,34,14.8,35,33.6H128.4z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -513,7 +523,7 @@
         "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
         "bg_color": "rgba(0,0,0,0)",
         "bg_gradient": "",
-        "bg_image": "shopify:\/\/shop_images\/BG2.png",
+        "bg_image": "shopify://shop_images/BG2.png",
         "overlay_opacity": 0,
         "font_color": "text-dark",
         "title_size": "display-4",

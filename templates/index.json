@@ -375,6 +375,7 @@
         },
         "card_LcDHRi": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/IA_PARA_HUMANOS_AO_VIVO_laranaja.jpg",
             "category_id": "",
