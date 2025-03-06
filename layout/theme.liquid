@@ -91,6 +91,13 @@
 </script> 
 <link rel="preload" href="{{ 'design-pack-styles.css' | asset_url }}" as="style">
 {{ 'design-pack-styles.css' | asset_url | stylesheet_tag }} 
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "qk1knlupwd");
+</script>
 </head>
 
 <body class="{{ request.page_type | prepend: 'page-type-' }}">
