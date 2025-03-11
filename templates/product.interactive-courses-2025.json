@@ -9,46 +9,6 @@
  */
 {
   "sections": {
-    "sp_media_grid_Kidmh9": {
-      "type": "sp-media-grid",
-      "blocks": {
-        "video_aP3dqR": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Design sem nome (2).mp4",
-            "link": "",
-            "video_inline": true,
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
-          }
-        },
-        "image_Wit4Lq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_aP3dqR",
-        "image_Wit4Lq"
-      ],
-      "disabled": true,
-      "settings": {
-        "background_color": "linear-gradient(320deg, rgba(0, 0, 0, 1) 16%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 87%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 / 9",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_left": 10,
-        "padding_right": 15
-      }
-    },
     "5141daf1-700c-4f4a-bbce-4398352a1f4c": {
       "type": "course-header",
       "settings": {
@@ -1462,7 +1422,6 @@
     }
   },
   "order": [
-    "sp_media_grid_Kidmh9",
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "sp_video_rich_text_GPWANR",
