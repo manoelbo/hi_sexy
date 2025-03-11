@@ -1419,6 +1419,15 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
+    },
+    "course_header_2_TEN9NM": {
+      "type": "course-header-2",
+      "settings": {
+        "cta_1": "Registrar",
+        "cta_2": "Baixe o programa",
+        "cta_link_2": "",
+        "cta_3": "Tirar dúvida"
+      }
     }
   },
   "order": [
@@ -1445,6 +1454,7 @@
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "d1445347-876e-4eee-a179-ba8f568a5085",
     "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa",
-    "577b8190-d683-4d05-92aa-43b63a3a640d"
+    "577b8190-d683-4d05-92aa-43b63a3a640d",
+    "course_header_2_TEN9NM"
   ]
 }
