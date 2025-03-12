@@ -3,7 +3,40 @@
 %}
 
 
-<section id="course-header"  > 
+<section id="course-header"  >
+    <div class="course-info text-center text-lg-left text-black">
+        <div class="text-xl-start container-xxl">
+            <div class="row  flex-md-row-reverse">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="250" >
+                            {{ product.description }}
+                            {% if section.settings.display_timezone == true and section.settings.date_est != blank %}
+                               <span class="mt-4"> </br> *Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration_text }}"> </span>
+                            {% endif %}
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
+                            <div>
+                                <div class="course-price">
+                                    <p class="price-header">{{ product.price | money }}</p>
+                                    {% if section.settings.price_option == true %}
+                                        <p class="price-sub">à vista ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
+                                    {% endif %}
+                                    {% if section.settings.price_subtitle != blank %}
+                                        <p class="price-sub">{{ section.settings.price_subtitle }}</p>
+                                    {% endif %}
+                                    {% if section.settings.price_text != blank %}
+                                        <div class="price-extra">{{ section.settings.price_text }}</div>
+                                    {% endif %}
+        
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="course-btns">
         <div class="container-fluid">
             <div class="row">
@@ -123,8 +156,29 @@
             "id": "cta_3",
             "label": "TEXT CTA THREE (CONTACT)",
             "default": "Tirar dúvida"
-        }
-
+        },
+        {
+            "type": "url", 
+            "id": "cta_link_3",
+            "label": "CTA THREE LINK (CONTACT)",
+            "info": "use mailto:email@dominio.com for emails"
+        },
+        {
+            "type": "checkbox",
+            "id": "zap",
+            "label": "WhatsApp Link (CTA 3)"
+        },
+        {
+            "type": "text",
+            "id": "zap_number",
+            "label": "WhatsApp Phone Number",
+            "info": "Use format 00115555555"
+        },
+        {
+            "type": "text",
+            "id": "zap_msg",
+            "label": " Texto da Mensagem"
+        },
     ],
     "templates": ["product"],
     "presets": [
