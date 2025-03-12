@@ -41,6 +41,19 @@
         "duration_text": "120"
       }
     },
+    "course_header_2_RPYcTw": {
+      "type": "course-header-2",
+      "settings": {
+        "cta_1": "Comprar",
+        "cta_2": "Programa do curso",
+        "cta_link_2": "https://www.hyperisland.com.br/products/lideranca-agil-1#programa",
+        "cta_3": "Tire suas Dúvidas",
+        "cta_link_3": "",
+        "zap": true,
+        "zap_number": "5511969077907",
+        "zap_msg": ""
+      }
+    },
     "5ca41278-01ed-4970-a967-bd751801d84e": {
       "type": "content",
       "blocks": {
@@ -1265,6 +1278,7 @@
   },
   "order": [
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
+    "course_header_2_RPYcTw",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "sp_video_rich_text_GPWANR",
     "header_aPhqii",
