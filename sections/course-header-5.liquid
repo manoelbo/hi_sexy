@@ -20,7 +20,7 @@
                                 <div class="course-price">
                                     <p class="price-header">{{ product.price | money }}</p>
                                     {% if section.settings.price_option == true %}
-                                        <p class="price-sub">à vista ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
+                                        <p class="price-sub">ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
                                     {% endif %}
                                     {% if section.settings.price_subtitle != blank %}
                                         <p class="price-sub">{{ section.settings.price_subtitle }}</p>
