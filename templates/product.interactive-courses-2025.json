@@ -1261,15 +1261,6 @@
         "font_color": "text-light",
         "title_size": "display-0"
       }
-    },
-    "course_header_2_wx4C7K": {
-      "type": "course-header-2",
-      "settings": {
-        "cta_1": "Registrar",
-        "cta_2": "Baixe o programa",
-        "cta_link_2": "",
-        "cta_3": "Tirar dúvida"
-      }
     }
   },
   "order": [
@@ -1296,7 +1287,6 @@
     "577b8190-d683-4d05-92aa-43b63a3a640d",
     "course_header_5_t8tWnY",
     "course_header_3_eAgBLh",
-    "course_header_4_DCQJMw",
-    "course_header_2_wx4C7K"
+    "course_header_4_DCQJMw"
   ]
 }
