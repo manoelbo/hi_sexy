@@ -82,37 +82,6 @@
             </div>
         </div>
     </div>
-    <div class="course-btns">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-lg-4 g-0">                                      
-                    <a  id="add_to_card" href="" class="w-100 course-btn one">
-                        <p>{{ section.settings.cta_1 }}</p>
-                    </a>
-                </div>
-
-                <div class="col-6 col-lg-4 g-0">                                      
-                <a  href="{{ section.settings.cta_link_2 }}" class="w-100 course-btn two">
-                    <p>{{ section.settings.cta_2 }}</p>
-                </a>
-                </div>
-
-                {% if section.settings.zap == true %}
-         
-                {%- assign link = "https://api.whatsapp.com/send?phone=" | append: section.settings.zap_number | append: "&text=" | append: section.settings.zap_msg | url_escape -%}
-            
-                {% else %}
-                {%- assign link =  section.settings.url %}
-             {% endif %}
-
-                <div class="col-6 col-lg-4 g-0">                                      
-                <a  href="{{ link }}" class="w-100 course-btn three">
-                    <p>{{ section.settings.cta_3 }}</p>
-                </a>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <div class="hidden-product-form">
 {% render 'product-form' %}
