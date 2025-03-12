@@ -769,108 +769,6 @@
         "smb_xs": 6
       }
     },
-    "sp_faq_qMJVcF": {
-      "type": "sp-faq",
-      "blocks": {
-        "question_q6P3mU": {
-          "type": "question",
-          "settings": {
-            "question": "Quanto tempo dura o curso? Consigo conciliar com outras atividades?",
-            "answer": ""
-          }
-        },
-        "question_F78fXm": {
-          "type": "question",
-          "settings": {
-            "question": "Quantas horas por semana precisarei dedicar aos estudos?",
-            "answer": ""
-          }
-        },
-        "question_fHpPgR": {
-          "type": "question",
-          "settings": {
-            "question": "Como posso assistir as aulas?",
-            "answer": ""
-          }
-        },
-        "question_PzrkKx": {
-          "type": "question",
-          "settings": {
-            "question": "Eu posso tirar dúvidas com o líder do curso?",
-            "answer": ""
-          }
-        },
-        "question_3RTehx": {
-          "type": "question",
-          "settings": {
-            "question": "Terei certificado de participação?",
-            "answer": ""
-          }
-        },
-        "question_z6afxf": {
-          "type": "question",
-          "settings": {
-            "question": "Poderei fazer download dos slides e Kits de Aprendizagem?",
-            "answer": "<p>Sim, os Kits de Aprendizagem podem ser baixados para você consultar sempre que precisar.</p>"
-          }
-        },
-        "question_Bz3kjN": {
-          "type": "question",
-          "settings": {
-            "question": "Poderei fazer download das videoaulas?",
-            "answer": "<p>Não. As videoaulas ficarão disponíveis apenas na plataforma por um período de 6 meses depois da sua compra.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_q6P3mU",
-        "question_F78fXm",
-        "question_fHpPgR",
-        "question_PzrkKx",
-        "question_3RTehx",
-        "question_z6afxf",
-        "question_Bz3kjN"
-      ],
-      "disabled": true,
-      "settings": {
-        "override_fonts": false,
-        "headline_font": "sans-serif",
-        "text_font": "sans-serif",
-        "text_size": 15,
-        "mobile_text_size": 15,
-        "text_line_height": "inherit",
-        "headline_size": 45,
-        "mobile_headline_size": 40,
-        "headline_line_height": "inherit",
-        "text_color": "#111111",
-        "link_color": "#005bd3",
-        "show_on_device": "all",
-        "section_background_color": "linear-gradient(319deg, rgba(255, 255, 255, 1) 13%, rgba(255, 255, 255, 1) 85%)",
-        "section_padding_top_bottom": 50,
-        "mobile_section_padding_top_bottom": 25,
-        "section_padding_left_right": 25,
-        "mobile_section_padding_left_right": 25,
-        "container_background_color": "",
-        "container_max_width": 1000,
-        "container_padding_top_bottom": 10,
-        "mobile_container_padding_top_bottom": 10,
-        "container_padding_left_right": 10,
-        "mobile_container_padding_left_right": 10,
-        "element_spacing": 20,
-        "container_radius": 0,
-        "container_shadow": false,
-        "container_border_size": 0,
-        "container_border_color": "#888888",
-        "question_text_size": 10,
-        "question_color": "#111111",
-        "answer_color": "#555555",
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "headline": "<strong>TIRE SUAS DÚVIDAS</strong>",
-        "text": "",
-        "headline_spacing": 30
-      }
-    },
     "sp_faq_plus_GQ6hmB": {
       "type": "sp-faq-plus",
       "blocks": {
@@ -1334,6 +1232,44 @@
         "cta_link_2": "",
         "cta_3": "Tirar dúvida"
       }
+    },
+    "course_header_5_t8tWnY": {
+      "type": "course-header-5",
+      "settings": {
+        "price_option": false,
+        "price_subtitle": "",
+        "price_text": ""
+      }
+    },
+    "course_header_3_eAgBLh": {
+      "type": "course-header-3",
+      "settings": {
+        "label_1": "Formato",
+        "info_1": "Online",
+        "label_2": "Próxima Truma",
+        "info_2": "13 de Julho",
+        "label_3": "Horário",
+        "info_3": "Quarta, 18h-20h BRT",
+        "label_4": "Duração",
+        "info_4": "4 semanas",
+        "cta_link_3": "",
+        "zap": false,
+        "zap_number": "",
+        "zap_msg": "",
+        "display_timezone": false,
+        "date_est": "15-04-2023-18:00",
+        "week_day": "Quata",
+        "duration_text": "120"
+      }
+    },
+    "course_header_4_DCQJMw": {
+      "type": "course-header-4",
+      "settings": {
+        "overlay_opacity": 0,
+        "bg_position": "center",
+        "font_color": "text-dark",
+        "title_size": "display-1"
+      }
     }
   },
   "order": [
@@ -1352,13 +1288,15 @@
     "sp_action_button_Lk9hDr",
     "richtext_6t7eyV",
     "testimonial_4k8UE6",
-    "sp_faq_qMJVcF",
     "sp_faq_plus_GQ6hmB",
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
     "f39daef8-3263-467c-b5e2-581de2221700",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa",
     "577b8190-d683-4d05-92aa-43b63a3a640d",
-    "course_header_2_TEN9NM"
+    "course_header_2_TEN9NM",
+    "course_header_5_t8tWnY",
+    "course_header_3_eAgBLh",
+    "course_header_4_DCQJMw"
   ]
 }
