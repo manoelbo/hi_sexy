@@ -7,6 +7,8 @@
     <header 
         class="bg-size-cover position-relative px-lg-12 px-md-4 px-4 pb-2 pt-12 pt-md-10 pb-lg-7 pt-lg-16 pb-xl-10 pt-xl-18 pt-xxl-20 {% if section.settings.bg_position != blank %}bg-position-{{ section.settings.bg_position }}{% else %} bg-position-center {% endif %}" 
         {% if product.featured_image %} data-bg-src="{{ product.featured_image | image_url }}" {% endif %} >
+        <div class="top-0 start-0 bottom-0 end-0 zi-0 opacity-{{ section.settings.overlay_opacity }} bg-bg-1 w-100 h-100 position-absolute mw-100 mh-100">
+        </div>
         <div class="position-relative zi-1 text-xl-start container-fluid">
             <div class="row align-items-center flex-md-row-reverse bg-size-cover bg-position-top-left">
                 <div class="col-12">
@@ -56,10 +58,6 @@
                             {% if section.settings.display_timezone == true and section.settings.date_est != blank %}
                                <span class="mt-4"> </br> *Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration_text }}"> </span>
                             {% endif %}
-                        </div>
-                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
-                            <div>
-                            </div>       
                         </div>
                     </div>
                 </div>
