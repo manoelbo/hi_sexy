@@ -62,19 +62,6 @@
                         </div>
                         <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
                             <div>
-                                <div class="course-price">
-                                    <p class="price-header">{{ product.price | money }}</p>
-                                    {% if section.settings.price_option == true %}
-                                        <p class="price-sub">à vista ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
-                                    {% endif %}
-                                    {% if section.settings.price_subtitle != blank %}
-                                        <p class="price-sub">{{ section.settings.price_subtitle }}</p>
-                                    {% endif %}
-                                    {% if section.settings.price_text != blank %}
-                                        <div class="price-extra">{{ section.settings.price_text }}</div>
-                                    {% endif %}
-        
-                                </div>
                             </div>       
                         </div>
                     </div>
@@ -269,25 +256,6 @@
             "id": "info_4",
             "label": "Info Four",
             "default": "4 semanas"
-        },
-        {
-            "type": "header",
-            "content": "Course Description and Price"
-        },
-        {
-            "type": "checkbox",
-            "id": "price_option",
-            "label": "Add 6x Cart Description"
-        },
-        {
-            "type": "inline_richtext", 
-            "id": "price_subtitle",
-            "label": "Price Text"
-        },        
-        {
-            "type": "richtext", 
-            "id": "price_text",
-            "label": "Price Extra Text"
         },
         {
             "type": "url", 
