@@ -15,23 +15,6 @@
                                <span class="mt-4"> </br> *Timezone: {{ section.settings.week_day }}, </span><span id="timezone" date="{{ section.settings.date_est }}" duration="{{ section.settings.duration_text }}"> </span>
                             {% endif %}
                         </div>
-                        <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
-                            <div>
-                                <div class="course-price">
-                                    <p class="price-header">{{ product.price | money }}</p>
-                                    {% if section.settings.price_option == true %}
-                                        <p class="price-sub">à vista ou em até 6x de {{ product.price | divided_by: 6 | money }}</p>
-                                    {% endif %}
-                                    {% if section.settings.price_subtitle != blank %}
-                                        <p class="price-sub">{{ section.settings.price_subtitle }}</p>
-                                    {% endif %}
-                                    {% if section.settings.price_text != blank %}
-                                        <div class="price-extra">{{ section.settings.price_text }}</div>
-                                    {% endif %}
-        
-                                </div>
-                            </div>       
-                        </div>
                     </div>
                 </div>
             </div>
