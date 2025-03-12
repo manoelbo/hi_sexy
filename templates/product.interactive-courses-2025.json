@@ -11,6 +11,7 @@
   "sections": {
     "5141daf1-700c-4f4a-bbce-4398352a1f4c": {
       "type": "course-header",
+      "disabled": true,
       "settings": {
         "overlay_opacity": 30,
         "bg_position": "{{ product.metafields.custom.img_background_position.value }}",
