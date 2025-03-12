@@ -1268,7 +1268,7 @@
         "overlay_opacity": 30,
         "bg_position": "center",
         "font_color": "text-light",
-        "title_size": "display-1"
+        "title_size": "display-0"
       }
     }
   },
