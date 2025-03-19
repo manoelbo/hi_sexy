@@ -856,7 +856,7 @@
         "desktop_only": false,
         "title": "Acesse o programa",
         "text": "Saiba mais sobre os módulos, dinâmica das aulas, materiais complementares, facilitadores e muito mais.",
-        "bg_color": "#fefefe",
+        "bg_color": "#fbfbfb",
         "bg_gradient": "",
         "bg_image": "{{ product.metafields.custom.syllabus_gif.value }}",
         "font_color": "text-dark",
