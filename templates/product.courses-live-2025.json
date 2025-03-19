@@ -188,7 +188,7 @@
         "default_spacing": false,
         "pt_xl": 13,
         "pb_xl": 13,
-        "mt_xl": 0,
+        "mt_xl": 12,
         "mb_xl": 0,
         "pt_lg": 13,
         "pb_lg": 13,
@@ -206,7 +206,7 @@
         "px_xs": 0,
         "my_xs": 0,
         "mx_xs": 0,
-        "spb_lg": 0,
+        "spb_lg": 12,
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
@@ -831,6 +831,15 @@
         "smb_xs": 0
       }
     },
+    "course_header_5_6kMWNz": {
+      "type": "course-header-5",
+      "custom_css": [],
+      "settings": {
+        "price_option": true,
+        "price_subtitle": "",
+        "price_text": ""
+      }
+    },
     "f39daef8-3263-467c-b5e2-581de2221700": {
       "type": "button-section",
       "blocks": {
@@ -1127,15 +1136,6 @@
         "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
-      }
-    },
-    "course_header_5_6kMWNz": {
-      "type": "course-header-5",
-      "custom_css": [],
-      "settings": {
-        "price_option": true,
-        "price_subtitle": "",
-        "price_text": ""
       }
     }
   },
