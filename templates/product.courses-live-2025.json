@@ -825,13 +825,13 @@
         "title_size": "display-4",
         "text_size": "fs-2",
         "layout": "col-md-6",
-        "pt_lg": 10,
+        "pt_lg": 12,
         "mt_lg": 0,
-        "pt_xs": 7,
+        "pt_xs": 10,
         "mt_xs": 0,
         "spb_lg": 13,
         "smb_lg": 0,
-        "spb_xs": 13,
+        "spb_xs": 0,
         "smb_xs": 0
       }
     },
