@@ -143,16 +143,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "5163884144194077907": {
-        "type": "shopify://apps/sami-b2b-lock/blocks/app-embed/8d86a3b4-97b3-44ab-adc1-ec01c5a89da9",
-        "disabled": true,
-        "settings": {}
-      },
-      "13110355656412213437": {
-        "type": "shopify://apps/ymq-b2b-login-lock-hide-price/blocks/app-embed/4745f714-4e42-415f-ba5c-ddc47c7e555d",
-        "disabled": true,
-        "settings": {}
-      },
       "9365423049038898845": {
         "type": "shopify://apps/tawk-to-live-chat/blocks/widget-embed-code/91169e75-f163-40ce-90e0-9059f3c9b772",
         "disabled": false,
