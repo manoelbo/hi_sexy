@@ -72,53 +72,6 @@
         "duration_text": "120"
       }
     },
-    "header_half_3Ajid7": {
-      "type": "header_half",
-      "blocks": {
-        "button_VJQMqm": {
-          "type": "button",
-          "settings": {
-            "text": "Baixar o Programa",
-            "url": "{{ product.metafields.my_fields.syllabus.value }}",
-            "target": false,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "button_VJQMqm"
-      ],
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "",
-        "text": "{{ product.metafields.custom.description_3.value }}",
-        "bg_color": "#e3dfd3",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "button_section_J44P86": {
       "type": "button-section",
       "blocks": {
@@ -166,48 +119,36 @@
         "mb_sm": 0
       }
     },
-    "5ca41278-01ed-4970-a967-bd751801d84e": {
+    "content_LwrmAR": {
       "type": "content",
       "blocks": {
-        "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
+        "content_RBpncz": {
           "type": "content",
           "settings": {
-            "title": "<strong>O que devo esperar?</strong>",
-            "text": "{{ product.metafields.my_fields.o_que_vou_aprender_.value }}",
+            "title": "Online",
+            "text": "Estude no seu tempo, onde e quando quiser, sem perder a qualidade dos conteúdos Hyper Island",
             "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
           }
         },
-        "e71745f9-44c5-4ceb-9905-dfd8436563ca": {
+        "content_Di9Kgf": {
           "type": "content",
           "settings": {
-            "title": "Como vou aprender?",
-            "text": "Nossos cursos são cuidadosamente desenhados para oferecer uma experiência de aprendizado imersiva e transformadora. Com facilitadores experientes, você participará de sessões ao vivo semanais que incentivam uma jornada ativa de exploração e aplicação prática. Você será desafiado a expandir seus conhecimentos e habilidades em um ambiente colaborativo e inspirador, garantindo que cada momento contribua para seu crescimento pessoal e profissional.",
+            "title": "Acesso imediato",
+            "text": "As aulas são gravadas e você tem acesso por 6 meses para assistir quantas vezes quiser.",
             "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
           }
         },
-        "ad76ca31-6918-454a-b837-213f971bcc31": {
+        "content_G34dLJ": {
           "type": "content",
           "settings": {
-            "title": "Por quê Hyper Island?",
-            "text": "Na Hyper Island, acreditamos que o aprendizado mais profundo ocorre quando questionamos o status quo e nos abrimos ao novo. Inspirados pelos avanços constantes da tecnologia e pela inovação, oferecemos um espaço onde você pode explorar novas maneiras de pensar, criar e liderar. Aqui, você desenvolve um mindset futurista e prático, que vai além de respostas prontas, para construir um impacto positivo e duradouro em sua carreira e no mundo ao seu redor.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "title": "About Hyper with numbers",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "title": "Prática & Mentoria",
+            "text": "Atividades mão na massa ao longo da jornada e possibilidade de interação com o líder do curso.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -216,18 +157,17 @@
         }
       },
       "block_order": [
-        "e1cdf001-ba57-4c64-8543-e5fe36210b92",
-        "e71745f9-44c5-4ceb-9905-dfd8436563ca",
-        "ad76ca31-6918-454a-b837-213f971bcc31",
-        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0"
+        "content_RBpncz",
+        "content_Di9Kgf",
+        "content_G34dLJ"
       ],
       "settings": {
-        "hidden": true,
-        "title": "About Hyper with numbers",
-        "text": "",
+        "hidden": false,
+        "title": "",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
         "font_color": "text-dark",
         "title_size": "display-4",
-        "text_size": "fs-4",
+        "text_size": "fs-3",
         "header": "",
         "header_size": "fs-6",
         "svg": "",
@@ -235,16 +175,74 @@
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
+        "content_width": "w-lg-75",
         "c_font_color": "text-dark",
-        "c_title_size": "display-5",
-        "c_text_size": "fs-6",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
         "layout": "col-lg-4",
         "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "header_LQ89hG": {
+      "type": "header",
+      "blocks": {
+        "button_naxytV": {
+          "type": "button",
+          "settings": {
+            "text": "Quero começar a aprender",
+            "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "button_naxytV"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Trailer do Curso",
+        "text": "Descubra como essa experiência imersiva pode transformar sua abordagem de liderança.",
+        "bg_color": "#f3f0ed",
+        "bg_gradient": "",
+        "overlay_opacity": 0,
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-50",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
@@ -257,19 +255,7 @@
         "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 16,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 13,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
+        "mb_sm": 0
       }
     },
     "8b0e92c1-272e-42cf-8650-be49d5da4f42": {
@@ -801,6 +787,112 @@
         "smb_xs": 0
       }
     },
+    "5ca41278-01ed-4970-a967-bd751801d84e": {
+      "type": "content",
+      "blocks": {
+        "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>O que devo esperar?</strong>",
+            "text": "{{ product.metafields.my_fields.o_que_vou_aprender_.value }}",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "e71745f9-44c5-4ceb-9905-dfd8436563ca": {
+          "type": "content",
+          "settings": {
+            "title": "Como vou aprender?",
+            "text": "Nossos cursos são cuidadosamente desenhados para oferecer uma experiência de aprendizado imersiva e transformadora. Com facilitadores experientes, você participará de sessões ao vivo semanais que incentivam uma jornada ativa de exploração e aplicação prática. Você será desafiado a expandir seus conhecimentos e habilidades em um ambiente colaborativo e inspirador, garantindo que cada momento contribua para seu crescimento pessoal e profissional.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "ad76ca31-6918-454a-b837-213f971bcc31": {
+          "type": "content",
+          "settings": {
+            "title": "Por quê Hyper Island?",
+            "text": "Na Hyper Island, acreditamos que o aprendizado mais profundo ocorre quando questionamos o status quo e nos abrimos ao novo. Inspirados pelos avanços constantes da tecnologia e pela inovação, oferecemos um espaço onde você pode explorar novas maneiras de pensar, criar e liderar. Aqui, você desenvolve um mindset futurista e prático, que vai além de respostas prontas, para construir um impacto positivo e duradouro em sua carreira e no mundo ao seu redor.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "About Hyper with numbers",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "e1cdf001-ba57-4c64-8543-e5fe36210b92",
+        "e71745f9-44c5-4ceb-9905-dfd8436563ca",
+        "ad76ca31-6918-454a-b837-213f971bcc31",
+        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0"
+      ],
+      "settings": {
+        "hidden": true,
+        "title": "About Hyper with numbers",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-5",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 16,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 13,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
     "d1445347-876e-4eee-a179-ba8f568a5085": {
       "type": "content",
       "disabled": true,
@@ -855,39 +947,6 @@
         "smb_xs": 0
       }
     },
-    "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa": {
-      "type": "header",
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "Sobre a Hyper Island",
-        "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
-        "bg_color": "#e3dfd3",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/BG1.png",
-        "overlay_opacity": 0,
-        "font_color": "text-dark",
-        "title_size": "display-5",
-        "text_size": "fs-6",
-        "container": "container-fluid",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "577b8190-d683-4d05-92aa-43b63a3a640d": {
       "type": "newsletter-session",
       "settings": {
@@ -923,9 +982,9 @@
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
-    "header_half_3Ajid7",
     "button_section_J44P86",
-    "5ca41278-01ed-4970-a967-bd751801d84e",
+    "content_LwrmAR",
+    "header_LQ89hG",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
@@ -934,8 +993,8 @@
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
+    "5ca41278-01ed-4970-a967-bd751801d84e",
     "d1445347-876e-4eee-a179-ba8f568a5085",
-    "e1ee17c5-9a80-4d4e-bd81-22f8c90f3daa",
     "577b8190-d683-4d05-92aa-43b63a3a640d"
   ]
 }
