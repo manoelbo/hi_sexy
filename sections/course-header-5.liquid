@@ -18,9 +18,9 @@
                         <div class="col-lg-6" data-aos="fade-down" data-aos-delay="400">
                             <div>
                                 <div class="course-price">
-                                    <p class="price-header">{{ product.price | divided_by: 6 | money }}</p>
+                                    <p class="price-header">6x de {{ product.price | divided_by: 6 | money }}</p>
                                     {% if section.settings.price_option == true %}
-                                        <p class="price-sub">ou à vista por{{ product.price | money }}</p>
+                                        <p class="price-sub">ou à vista por {{ product.price | money }}</p>
                                     {% endif %}
                                     {% if section.settings.price_subtitle != blank %}
                                         <p class="price-sub">{{ section.settings.price_subtitle }}</p>
