@@ -258,6 +258,24 @@
         "mb_sm": 0
       }
     },
+    "sp_video_standalone_WCA3zL": {
+      "type": "sp-video-standalone",
+      "settings": {
+        "background_color": "",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "video": "shopify://files/videos/Trailer do Curso - Liderança Ágil.mp4",
+        "video_inline": true,
+        "video_autoplay": false,
+        "video_loop": false,
+        "video_controls": true,
+        "video_muted": false,
+        "big_play_pause_button": false
+      }
+    },
     "8b0e92c1-272e-42cf-8650-be49d5da4f42": {
       "type": "header_half",
       "settings": {
@@ -985,6 +1003,7 @@
     "button_section_J44P86",
     "content_LwrmAR",
     "header_LQ89hG",
+    "sp_video_standalone_WCA3zL",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "c2954fe7-0bb8-4d8f-a271-3a659e9b5bbb",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
