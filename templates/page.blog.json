@@ -27,112 +27,9 @@
         "mb": 0
       }
     },
-    "blog_highlights_kxiG6k": {
-      "type": "blog-highlights",
-      "blocks": {
-        "article_kNqQHi": {
-          "type": "article",
-          "settings": {
-            "article": "news/love-bomb-the-science-of-appreciation"
-          }
-        },
-        "article_w3jz7h": {
-          "type": "article",
-          "settings": {
-            "article": "news/if-you-contribute-you-can-stay"
-          }
-        },
-        "article_QAECEM": {
-          "type": "article",
-          "settings": {
-            "article": "news/embracing-the-power-of-the-paradox-mindset-cognitive-agility-as-the-core-meta-skill-for-future-leaders"
-          }
-        }
-      },
-      "block_order": [
-        "article_kNqQHi",
-        "article_w3jz7h",
-        "article_QAECEM"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Destaques do Blog",
-        "show_title": true,
-        "title_size": "display-1",
-        "title_alignment": "text-center",
-        "subtitle": "",
-        "subtitle_alignment": "text-center",
-        "show_subtitle": true,
-        "subtitle_size": 16,
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "layout": "col-lg-4",
-        "content_align_desktop": "text-lg-left",
-        "content_align_mobile": "text-left",
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
-    "blog_highlights_fEeCBb": {
-      "type": "blog-highlights",
-      "blocks": {
-        "article_GJmrKK": {
-          "type": "article",
-          "settings": {
-            "article": "news/os-prazos-sao-mesmo-pra-ontem"
-          }
-        },
-        "article_MiqXHn": {
-          "type": "article",
-          "settings": {
-            "article": ""
-          }
-        },
-        "article_AAdNJz": {
-          "type": "article",
-          "settings": {
-            "article": ""
-          }
-        }
-      },
-      "block_order": [
-        "article_GJmrKK",
-        "article_MiqXHn",
-        "article_AAdNJz"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Destaques do Blog",
-        "show_title": false,
-        "title_size": "display-2",
-        "title_alignment": "text-center",
-        "subtitle": "",
-        "subtitle_alignment": "text-center",
-        "show_subtitle": true,
-        "subtitle_size": 16,
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "layout": "col-md-12",
-        "content_align_desktop": "text-lg-left",
-        "content_align_mobile": "text-left",
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
     "blog_posts_grid_9D8xnR": {
       "type": "blog-posts-grid",
+      "disabled": true,
       "settings": {
         "blog": "news",
         "title": "Todos os artigos",
@@ -169,13 +66,189 @@
         "smb_xs": 0
       }
     },
+    "blog_highlights_WzByEW": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_3mkNMG": {
+          "type": "article",
+          "settings": {
+            "article": "news/manter-a-consciencia-da-nossa-finitude-como-um-caminho-para-a-plenitude"
+          }
+        },
+        "article_HWeMjE": {
+          "type": "article",
+          "settings": {
+            "article": "news/a-inteligencia-artificial-e-os-artificios-da-emocao"
+          }
+        },
+        "article_FJKemM": {
+          "type": "article",
+          "settings": {
+            "article": "news/o-poder-e-a-desconfianca-da-mensagem-inesperada-de-pensei-em-voce"
+          }
+        }
+      },
+      "block_order": [
+        "article_3mkNMG",
+        "article_HWeMjE",
+        "article_FJKemM"
+      ],
+      "settings": {
+        "title": "Artigos em Português",
+        "show_title": true,
+        "title_size": "display-1",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 22,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "blog_highlights_QCXUYg": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_NmWCPi": {
+          "type": "article",
+          "settings": {
+            "article": "news/sem-resposta-sem-fechamento-um-caso-contra-o-ghosting-nos-negocios"
+          }
+        }
+      },
+      "block_order": [
+        "article_NmWCPi"
+      ],
+      "settings": {
+        "title": "",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-12 blog-card-row",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "blog_highlights_FPWpP7": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_Y9TxbJ": {
+          "type": "article",
+          "settings": {
+            "article": "news/keeping-awareness-of-our-finitude-as-a-path-to-fulfillment"
+          }
+        },
+        "article_W8Xbke": {
+          "type": "article",
+          "settings": {
+            "article": "news/we-are-designed-to-fail-individually-and-thrive-collectively"
+          }
+        },
+        "article_zW3Lq7": {
+          "type": "article",
+          "settings": {
+            "article": "news/are-you-productive-or-just-active"
+          }
+        }
+      },
+      "block_order": [
+        "article_Y9TxbJ",
+        "article_W8Xbke",
+        "article_zW3Lq7"
+      ],
+      "settings": {
+        "title": "Artigos em Inglês",
+        "show_title": true,
+        "title_size": "display-1",
+        "title_alignment": "text-center",
+        "subtitle": "Articles in English",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 22,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "blog_highlights_nxicE3": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_MrFnMf": {
+          "type": "article",
+          "settings": {
+            "article": "news/if-you-contribute-you-can-stay"
+          }
+        }
+      },
+      "block_order": [
+        "article_MrFnMf"
+      ],
+      "settings": {
+        "title": "",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-12 blog-card-row",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "newsletter_session_crGtWW": {
       "type": "newsletter-session",
       "settings": {
         "title": "<strong>Inscreva-se na nossa Newsletter e esteja sempre conectado com o futuro.</strong>",
         "text": "Receba insights exclusivos, tendências do mercado e as últimas novidades em criatividade, inovação, futuro e aprendizado contínuo mensalmente na sua caixa de entrada.",
         "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
-        "bg_color": "#FFFFFF",
+        "bg_color": "#ffffff",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -202,9 +275,11 @@
   },
   "order": [
     "html_em9Lh7",
-    "blog_highlights_kxiG6k",
-    "blog_highlights_fEeCBb",
     "blog_posts_grid_9D8xnR",
+    "blog_highlights_WzByEW",
+    "blog_highlights_QCXUYg",
+    "blog_highlights_FPWpP7",
+    "blog_highlights_nxicE3",
     "newsletter_session_crGtWW"
   ]
 }
