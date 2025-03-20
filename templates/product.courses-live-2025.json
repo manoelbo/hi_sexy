@@ -145,7 +145,7 @@
         "content_width": "w-lg-75",
         "c_font_color": "text-dark",
         "c_title_size": "display-4",
-        "c_text_size": "fs-4",
+        "c_text_size": "fs-5",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
@@ -255,7 +255,7 @@
         "bg_image": "shopify://shop_images/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
         "font_color": "text-dark",
         "title_size": "display-1",
-        "text_size": "fs-5",
+        "text_size": "fs-4",
         "container": "container-fluid",
         "layout-align": "right",
         "align_desktop": "text-lg-left",
@@ -943,25 +943,12 @@
             "bg_color": "",
             "bg_gradient": ""
           }
-        },
-        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "title": "About Hyper with numbers",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
         }
       },
       "block_order": [
         "e1cdf001-ba57-4c64-8543-e5fe36210b92",
         "e71745f9-44c5-4ceb-9905-dfd8436563ca",
-        "ad76ca31-6918-454a-b837-213f971bcc31",
-        "b8ab85c3-3b5a-4789-b84d-f1d7b5020ac0"
+        "ad76ca31-6918-454a-b837-213f971bcc31"
       ],
       "settings": {
         "hidden": true,
@@ -979,8 +966,8 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
         "c_font_color": "text-dark",
-        "c_title_size": "display-5",
-        "c_text_size": "fs-6",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-5",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
@@ -1036,7 +1023,7 @@
       "settings": {
         "title": "6x de R$498,33",
         "text": "<strong>ou à vista por R$2.990,00</strong>",
-        "bg_color": "#E3DFD3",
+        "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-0",
@@ -1120,212 +1107,155 @@
         "mb_sm": 0
       }
     },
-    "1cb5682b-ba57-45ef-b33e-6bc5346bd719": {
-      "type": "content",
+    "sp_faq_plus_EiCn7w": {
+      "type": "sp-faq-plus",
       "blocks": {
-        "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3": {
-          "type": "content",
+        "question_xdUNWq": {
+          "type": "question",
           "settings": {
-            "title": "<strong>Como funciona o curso?</strong>",
-            "text": "O curso é completamente remoto, com duração de 6 semanas. As sessões são todas ao vivo, mas ficam gravadas para que você possa consultar quando quiser. A jornada de aprendizagem acontece dentro e fora das sessões, com nossos kits de aprendizagem e exercícios semanais. Além disso, a cada semana você terá um encontro especial com os facilitadores do curso e todas as outras pessoas que embarcaram nessa experiência com você!",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>Como funciona o curso?</strong>",
+            "answer": "<p>O curso é completamente remoto, com duração de 6 semanas. As sessões são todas ao vivo, mas ficam gravadas para que você possa consultar quando quiser. A jornada de aprendizagem acontece dentro e fora das sessões, com nossos kits de aprendizagem e exercícios semanais. Além disso, a cada semana você terá um encontro especial com os facilitadores do curso e todas as outras pessoas que embarcaram nessa experiência com você!</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "b3fd152d-8892-42ee-94b3-fd1ecd1abe0f": {
-          "type": "content",
+        "question_ddwrDg": {
+          "type": "question",
           "settings": {
-            "title": "<strong>Os encontros são gravados?</strong>",
-            "text": "Sim! Todos os nossos encontros semanais são gravados e são disponibilizados em até 24h após o término da sessão. Você poderá acessar as gravações sempre que quiser no canal de comunicação do curso.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>Os encontros são gravados?</strong>",
+            "answer": "<p>Sim! Todos os nossos encontros semanais são gravados e são disponibilizados em até 24h após o término da sessão. Você poderá acessar as gravações sempre que quiser no canal de comunicação do curso.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "fed2d2e6-23e1-49da-b0f2-7bc204059924": {
-          "type": "content",
+        "question_myw7QL": {
+          "type": "question",
           "settings": {
-            "title": "<strong>Por quanto tempo terei acesso aos materiais e gravações?</strong>",
-            "text": "Por tempo indeterminado! Você poderá acessar os arquivos sempre que quiser.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>Por quanto tempo terei acesso aos materiais e gravações?</strong>",
+            "answer": "<p>Por tempo indeterminado! Você poderá acessar os arquivos sempre que quiser.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "94f51f34-72b0-46af-9dc8-d9c978edc6c5": {
-          "type": "content",
+        "question_EtVHbF": {
+          "type": "question",
           "settings": {
-            "title": "<strong>Como funciona a metodologia da Hyper Island?</strong>",
-            "text": "A nossa metodologia é baseada em uma abordagem centrada na experiência. Empoderamos e desafiamos as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos mais.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>Como funciona a metodologia da Hyper Island?</strong>",
+            "answer": "<p>A nossa metodologia é baseada em uma abordagem centrada na experiência. Empoderamos e desafiamos as pessoas a assumirem o seu próprio aprendizado. Assim todos aprendemos mais.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "5e19636c-65dd-49eb-bf4f-84d97fca46c4": {
-          "type": "content",
+        "question_nzQC69": {
+          "type": "question",
           "settings": {
-            "title": "Quais são as formas de pagamento aceitas?",
-            "text": "Você pode escolher entre pagar o curso com cartões de crédito ou débito. Caso prefira, também aceitamos PIX e depósito bancário.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "Quais são as formas de pagamento aceitas?",
+            "answer": "<p>Você pode escolher entre pagar o curso com cartões de crédito ou débito. Caso prefira, também aceitamos PIX e depósito bancário.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "5f0b371a-b7bd-416f-a6d7-7b3e47c89253": {
-          "type": "content",
+        "question_kfxMXK": {
+          "type": "question",
           "settings": {
-            "title": "<strong>O curso possui certificado?</strong>",
-            "text": "Sim! Ao finalizar o curso, você receberá um certificado com o total de horas e participação comprovada. Para recebê-lo, é necessário ter pelo menos 70% de presença nas sessões ao vivo e concluir metade das atividades semanais.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>O curso possui certificado?</strong>",
+            "answer": "<p>Sim! Ao finalizar o curso, você receberá um certificado com o total de horas e participação comprovada. Para recebê-lo, é necessário ter pelo menos 70% de presença nas sessões ao vivo e concluir metade das atividades semanais.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         },
-        "a34c2e83-f8de-46eb-8f56-4d164ccff55c": {
-          "type": "content",
+        "question_BAyCrQ": {
+          "type": "question",
           "settings": {
-            "title": "<strong>A Hyper Island oferece bolsa de estudos?</strong>",
-            "text": "Buscando contribuir para uma mudança positiva na sociedade, criamos um espaço para candidaturas de bolsas de estudo com descontos de até 100% em nossos cursos online. <a href=\"https://hyperisland-global.typeform.com/to/M4djFd5s\"><span style=\"text-decoration:underline\">Candidate-se aqui</span></a>.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "aaacaf64-db3a-40ea-89be-01b841512d14": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "title": "About Hyper with numbers",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet justo donec enim diam vulputate. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Tincidunt id aliquet risus feugiat in ante. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla.",
-            "header": "",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
+            "question": "<strong>A Hyper Island oferece bolsa de estudos?</strong>",
+            "answer": "<p>Buscando contribuir para uma mudança positiva na sociedade, criamos um espaço para candidaturas de bolsas de estudo com descontos de até 100% em nossos cursos online. <a href=\"https://hyperisland-global.typeform.com/to/M4djFd5s\"><span style=\"text-decoration:underline\">Candidate-se aqui</span></a>.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
           }
         }
       },
       "block_order": [
-        "4d6a7811-6f06-4e23-a3aa-af4f7a8a3ed3",
-        "b3fd152d-8892-42ee-94b3-fd1ecd1abe0f",
-        "fed2d2e6-23e1-49da-b0f2-7bc204059924",
-        "94f51f34-72b0-46af-9dc8-d9c978edc6c5",
-        "5e19636c-65dd-49eb-bf4f-84d97fca46c4",
-        "5f0b371a-b7bd-416f-a6d7-7b3e47c89253",
-        "a34c2e83-f8de-46eb-8f56-4d164ccff55c",
-        "aaacaf64-db3a-40ea-89be-01b841512d14"
+        "question_xdUNWq",
+        "question_ddwrDg",
+        "question_myw7QL",
+        "question_EtVHbF",
+        "question_nzQC69",
+        "question_kfxMXK",
+        "question_BAyCrQ"
       ],
       "settings": {
-        "hidden": false,
-        "title": "TIRE SUAS DÚVIDAS",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-6",
-        "c_text_size": "fs-6",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-12",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 14,
-        "my_lg": 7,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 10,
-        "my_xs": 11,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "d1445347-876e-4eee-a179-ba8f568a5085": {
-      "type": "content",
-      "disabled": true,
-      "settings": {
-        "hidden": false,
-        "title": "Sobre a Hyper Island",
-        "text": "Em 2023 a Hyper completa 27 anos como provedora de educação e facilitadora de experiências de aprendizagem imersivas, tanto para indivíduos quanto para empresas. Nesse tempo, trabalhamos para ajudar pessoas a se desenvolverem e cultivarem suas habilidades para enfrentarem os desafios de uma sociedade em constante mudança.",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-6",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-left",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 13,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 16,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 50,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(319deg, rgba(255, 255, 255, 1) 13%, rgba(255, 255, 255, 1) 85%)",
+        "section_padding_top_bottom": 100,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1000,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "grid_gap": 10,
+        "grid_display": "1fr",
+        "vertical_alignment": "start",
+        "media_aspect_ratio": "4 / 3",
+        "media_radius": 5,
+        "media_shadow": true,
+        "media_border_size": 0,
+        "media_border_color": "#888",
+        "question_size": 26,
+        "question_color": "#111111",
+        "answer_color": "#555555",
+        "faq_spacing": 15,
+        "faq_gap": 10,
+        "faq_shadow": false,
+        "faq_radius": 5,
+        "faq_border_size": 0,
+        "faq_border_color": "#fbfbfb",
+        "active_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "inactive_background_color": "linear-gradient(164deg, rgba(243, 243, 243, 1) 5%, rgba(243, 243, 243, 1) 99%)",
+        "faq_indicator": "plus_minus",
+        "headline_alignment": "center",
+        "headline": "<strong>TIRE SUAS DÚVIDAS</strong>",
+        "text": ""
       }
     },
     "577b8190-d683-4d05-92aa-43b63a3a640d": {
@@ -1334,7 +1264,7 @@
         "title": "RECEBA NOSSOS CONTEÚDOS",
         "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
         "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
-        "bg_color": "#ffffff",
+        "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -1380,8 +1310,7 @@
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "button_section_7nCUGw",
     "f39daef8-3263-467c-b5e2-581de2221700",
-    "1cb5682b-ba57-45ef-b33e-6bc5346bd719",
-    "d1445347-876e-4eee-a179-ba8f568a5085",
+    "sp_faq_plus_EiCn7w",
     "577b8190-d683-4d05-92aa-43b63a3a640d"
   ]
 }
