@@ -27,45 +27,6 @@
         "mb": 0
       }
     },
-    "blog_posts_grid_9D8xnR": {
-      "type": "blog-posts-grid",
-      "disabled": true,
-      "settings": {
-        "blog": "news",
-        "title": "Todos os artigos",
-        "show_title": true,
-        "title_size": "display-2",
-        "title_alignment": "text-center",
-        "subtitle": "",
-        "show_subtitle": true,
-        "subtitle_alignment": "text-center",
-        "layout": "col-lg-4",
-        "content_align_desktop": "text-lg-left",
-        "content_align_mobile": "text-left",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
     "blog_highlights_QCXUYg": {
       "type": "blog-highlights",
       "blocks": {
@@ -293,6 +254,44 @@
         "mb_sm": 0
       }
     },
+    "blog_posts_grid_9D8xnR": {
+      "type": "blog-posts-grid",
+      "settings": {
+        "blog": "news",
+        "title": "Todos os artigos",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "show_subtitle": true,
+        "subtitle_alignment": "text-center",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
     "newsletter_session_crGtWW": {
       "type": "newsletter-session",
       "settings": {
@@ -326,12 +325,12 @@
   },
   "order": [
     "html_em9Lh7",
-    "blog_posts_grid_9D8xnR",
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
     "blog_highlights_FPWpP7",
     "blog_highlights_nxicE3",
+    "blog_posts_grid_9D8xnR",
     "newsletter_session_crGtWW"
   ]
 }
