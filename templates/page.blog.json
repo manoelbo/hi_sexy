@@ -256,6 +256,7 @@
     },
     "blog_posts_grid_9D8xnR": {
       "type": "blog-posts-grid",
+      "disabled": true,
       "settings": {
         "blog": "news",
         "title": "Todos os artigos",
