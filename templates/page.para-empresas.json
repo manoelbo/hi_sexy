@@ -443,6 +443,36 @@
             "url": "",
             "target": false
           }
+        },
+        "card_kV6feJ": {
+          "type": "card",
+          "settings": {
+            "category_id": "workshops",
+            "title": "Adaptabilidade",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "card_Rf6R9e": {
+          "type": "card",
+          "settings": {
+            "category_id": "workshops",
+            "title": "Inteligência Artificial",
+            "text": "",
+            "url": "",
+            "target": false
+          }
+        },
+        "card_xqWYeb": {
+          "type": "card",
+          "settings": {
+            "category_id": "workshops",
+            "title": "Future Foresight",
+            "text": "",
+            "url": "",
+            "target": false
+          }
         }
       },
       "block_order": [
@@ -469,7 +499,10 @@
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
         "51d4d49e-2611-431b-a829-381dc115762f",
         "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
-        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0"
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
+        "card_kV6feJ",
+        "card_Rf6R9e",
+        "card_xqWYeb"
       ],
       "settings": {
         "font_color": "text-dark",
