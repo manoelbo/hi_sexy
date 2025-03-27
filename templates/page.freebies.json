@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/mockup1.png",
+            "category_id": "liderança",
+            "title": "Teste - Que tipo de Líder você é?",
+            "text": "Descubra seu estilo de liderança e como você guia pessoas em cenários de incerteza, transformação e oportunidades.",
+            "url": "shopify://pages/que-tipo-de-lider-voce-e",
+            "target": true
+          }
+        },
         "c348b121-119f-4505-8471-332c2ba2a87b": {
           "type": "card",
           "settings": {
@@ -207,17 +218,6 @@
             "title": "App Hyper Trends 2025",
             "text": "Coleção dos Relatórios de Tendências de 2025 com curadoria da Hyper Island.",
             "url": "shopify://pages/trends-app-2025",
-            "target": true
-          }
-        },
-        "053307ba-1789-4e7e-a375-2f9d4ae4c4df": {
-          "type": "card",
-          "settings": {
-            "img": "shopify://shop_images/mockup_ltm_freebie.png",
-            "category_id": "liderança",
-            "title": "Teste - Sua equipe está pronta para mudanças?",
-            "text": "Identifique o nível da sua equipe em relação a adaptabilidade e resiliência e receba sugestões práticas de como deixar a sua equipe preparada para mudanças",
-            "url": "shopify://pages/sua-equipe-esta-pronta-para-mudancas",
             "target": true
           }
         },
@@ -251,6 +251,17 @@
             "title": "Future Ethics Playbook",
             "text": "Desafie de maneira criativa a si e sua equipe para pensar em respostas a questões éticas para produtos e serviços do futuro.",
             "url": "https://knowledge.hyperisland.com/pt-br/future-ethics-brasil",
+            "target": true
+          }
+        },
+        "053307ba-1789-4e7e-a375-2f9d4ae4c4df": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/mockup_ltm_freebie.png",
+            "category_id": "liderança",
+            "title": "Teste - Sua equipe está pronta para mudanças?",
+            "text": "Identifique o nível da sua equipe em relação a adaptabilidade e resiliência e receba sugestões práticas de como deixar a sua equipe preparada para mudanças",
+            "url": "shopify://pages/sua-equipe-esta-pronta-para-mudancas",
             "target": true
           }
         },
@@ -408,17 +419,6 @@
             "url": "https://open.spotify.com/show/1iQwaKirJTEW5UQ0m1KcAH",
             "target": true
           }
-        },
-        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "category_id": "programas",
-            "title": "Análise de lacunas de competências",
-            "text": "",
-            "url": "",
-            "target": false
-          }
         }
       },
       "block_order": [
@@ -426,11 +426,12 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
         "c348b121-119f-4505-8471-332c2ba2a87b",
-        "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
         "51d4d49e-2611-431b-a829-381dc115762f",
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
         "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f",
+        "053307ba-1789-4e7e-a375-2f9d4ae4c4df",
         "794b311e-1bc9-4f31-a878-bb148653efe5",
         "6b39c4d5-6747-4738-b174-4da941df48f3",
         "2f95c0bb-8e4b-40af-8844-b67c85449db9",
@@ -444,8 +445,7 @@
         "f32b31eb-e735-4799-abfa-65c5cb2f1936",
         "3cedf7c5-208a-4ac4-8612-5a6f0c0c4b1d",
         "b1dc65dd-c2ef-4219-86ba-16c135623cca",
-        "1cf540b5-8e1e-476d-ad49-903f4006abae",
-        "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0"
+        "1cf540b5-8e1e-476d-ad49-903f4006abae"
       ],
       "settings": {
         "font_color": "text-dark",
