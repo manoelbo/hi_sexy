@@ -1358,6 +1358,33 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
+    },
+    "sp_action_button_3kFMbb": {
+      "type": "sp-action-button",
+      "settings": {
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "alignment": "right",
+        "text_color": "#111",
+        "padding_top": 10,
+        "padding_bottom": 100,
+        "padding_left": 10,
+        "padding_right": 10,
+        "icon_background_color": "linear-gradient(164deg, rgba(255, 119, 0, 1), rgba(255, 119, 0, 1) 100%)",
+        "icon_color": "#fff",
+        "icon_size": 25,
+        "icon_shape": "circle",
+        "icon_padding": 10,
+        "icon": "cart",
+        "video_inline": true,
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": false,
+        "video_muted": true,
+        "text": "<strong>Registre-se</strong>",
+        "link": "{{ product.metafields.my_fields.add_to_cart_button.value }}"
+      }
     }
   },
   "order": [
@@ -1384,6 +1411,7 @@
     "course_header_2_a7WkJK",
     "f39daef8-3263-467c-b5e2-581de2221700",
     "sp_faq_plus_EiCn7w",
-    "577b8190-d683-4d05-92aa-43b63a3a640d"
+    "577b8190-d683-4d05-92aa-43b63a3a640d",
+    "sp_action_button_3kFMbb"
   ]
 }
