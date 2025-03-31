@@ -30,6 +30,12 @@
     "blog_highlights_QCXUYg": {
       "type": "blog-highlights",
       "blocks": {
+        "article_n6j46F": {
+          "type": "article",
+          "settings": {
+            "article": "news/em-tempos-tecnologicos-ser-humano-e-fundamental"
+          }
+        },
         "article_NmWCPi": {
           "type": "article",
           "settings": {
@@ -38,6 +44,7 @@
         }
       },
       "block_order": [
+        "article_n6j46F",
         "article_NmWCPi"
       ],
       "settings": {
@@ -51,7 +58,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -118,16 +125,17 @@
     "blog_highlights_aXknDr": {
       "type": "blog-highlights",
       "blocks": {
+        "article_nUX87i": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "article": "news/em-tempos-tecnologicos-ser-humano-e-fundamental"
+          }
+        },
         "article_GzntLR": {
           "type": "article",
           "settings": {
             "article": "news/when-our-phones-die-and-what-that-says-about-us"
-          }
-        },
-        "article_nUX87i": {
-          "type": "article",
-          "settings": {
-            "article": ""
           }
         },
         "article_MWtzJr": {
@@ -138,8 +146,8 @@
         }
       },
       "block_order": [
-        "article_GzntLR",
         "article_nUX87i",
+        "article_GzntLR",
         "article_MWtzJr"
       ],
       "settings": {
