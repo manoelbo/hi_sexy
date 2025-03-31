@@ -203,7 +203,7 @@
           "type": "button",
           "settings": {
             "text": "Quero ver o programa do Curso",
-            "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
+            "url": "{{ product.metafields.my_fields.syllabus.value }}",
             "target": false,
             "style": "rounded-orange"
           }
