@@ -138,9 +138,9 @@
         "button_naxytV": {
           "type": "button",
           "settings": {
-            "text": "Quero começar a aprender",
+            "text": "COMECE A APRENDER",
             "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
-            "target": false,
+            "target": true,
             "style": "rounded-orange"
           }
         }
@@ -202,9 +202,9 @@
         "button_9Jh76f": {
           "type": "button",
           "settings": {
-            "text": "Quero ver o programa do Curso",
+            "text": "VEJA O PROGRAMA DO CURSO",
             "url": "{{ product.metafields.my_fields.syllabus.value }}",
-            "target": false,
+            "target": true,
             "style": "rounded-orange"
           }
         }
@@ -915,7 +915,7 @@
           "settings": {
             "text": "Mandar Email",
             "url": "mailto:sabryna.alsfasser@hyperisland.com",
-            "target": false,
+            "target": true,
             "zap": false,
             "zap_number": "",
             "zap_msg": "",
