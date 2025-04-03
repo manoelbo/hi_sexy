@@ -30,6 +30,12 @@
     "blog_highlights_QCXUYg": {
       "type": "blog-highlights",
       "blocks": {
+        "article_Yjq7Q9": {
+          "type": "article",
+          "settings": {
+            "article": "news/algoritmos-amor-odio"
+          }
+        },
         "article_n6j46F": {
           "type": "article",
           "settings": {
@@ -44,6 +50,7 @@
         }
       },
       "block_order": [
+        "article_Yjq7Q9",
         "article_n6j46F",
         "article_NmWCPi"
       ],
@@ -58,7 +65,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -127,9 +134,8 @@
       "blocks": {
         "article_nUX87i": {
           "type": "article",
-          "disabled": true,
           "settings": {
-            "article": "news/em-tempos-tecnologicos-ser-humano-e-fundamental"
+            "article": "news/algorithms-i-hate-them-i-love-them"
           }
         },
         "article_GzntLR": {
@@ -161,7 +167,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-12",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
