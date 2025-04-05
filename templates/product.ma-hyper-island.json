@@ -21,14 +21,14 @@
     "course_header_3_dW63gC": {
       "type": "course-header-3",
       "settings": {
-        "label_1": "Formato",
-        "info_1": "{{ product.metafields.custom.format.value }}",
-        "label_2": "Próxima Truma",
-        "info_2": "{{ product.metafields.custom.next_cohort_day.value }}",
-        "label_3": "Horário",
-        "info_3": "{{ product.metafields.custom.time.value }}",
-        "label_4": "Duração",
-        "info_4": "{{ product.metafields.custom.duration.value }}",
+        "label_1": "Format",
+        "info_1": "Online and In Person",
+        "label_2": "Date In Person",
+        "info_2": "August 19/20th 2025",
+        "label_3": "Duration",
+        "info_3": "4 weeks",
+        "label_4": "Location",
+        "info_4": "Grupo Unis - Cidade Universitária | MG",
         "cta_link_3": "",
         "zap": false,
         "zap_number": "",
@@ -45,9 +45,9 @@
         "content_RBpncz": {
           "type": "content",
           "settings": {
-            "title": "Ao-Vivo Online",
-            "text": "Aulas semanais interativas com atividades mão na massa",
-            "header": "",
+            "title": "<strong>Online Preparation (2 x 3-Hour Workshops)</strong>",
+            "text": "Introduction to the Hyper Island methodology and ways of working🔹 Expectation setting for the in-person sessions",
+            "header": "PHASE 1",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -56,9 +56,9 @@
         "content_Di9Kgf": {
           "type": "content",
           "settings": {
-            "title": "Acesso Vitalício",
-            "text": "Você poderá acessar sem limite de tempo às gravações das aulas, bem como todos os materiais de apoio",
-            "header": "",
+            "title": "<strong>In-Person Workshop - 2 Days in Minas Gerais.</strong>",
+            "text": "<strong>DAY 1 – Future Thinking & Trends </strong>Exploration of signals of change, emerging trends, and strategic foresight, using AI and visual frameworks to develop an applicable future vision. 🔹 <strong>DAY 2 – Scenario Building & Application: </strong>Creation of future scenarios, mapping of strategic uncertainties, and application of new ways of working to drive digital transformation.",
+            "header": "Phase 2",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -67,9 +67,9 @@
         "content_G34dLJ": {
           "type": "content",
           "settings": {
-            "title": "Prática & Mentoria",
-            "text": "Atividades assíncronas para consolidação do aprendizado",
-            "header": "",
+            "title": "<strong>Coaching & Reflection</strong>",
+            "text": "1-hour individual coaching session🔹 Final 3-hour online session – Presentation, sharing of learnings, and feedback",
+            "header": "phase 3",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -84,7 +84,7 @@
       "settings": {
         "hidden": false,
         "title": "",
-        "text": "{{ product.metafields.custom.description_3.value }}",
+        "text": "Unlock your future skills and solve real world challenges with the world's most innovative business school",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-3",
@@ -97,7 +97,7 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-75",
         "c_font_color": "text-dark",
-        "c_title_size": "display-4",
+        "c_title_size": "display-5",
         "c_text_size": "fs-5",
         "c_header_size": "fs-6",
         "c_bg_color": "",
@@ -138,21 +138,31 @@
         "button_naxytV": {
           "type": "button",
           "settings": {
-            "text": "COMECE A APRENDER",
+            "text": "Download the Syllabus",
             "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
             "target": true,
             "style": "rounded-orange"
           }
+        },
+        "button_k9bq87": {
+          "type": "button",
+          "settings": {
+            "text": "Join the Waiting List",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
         }
       },
       "block_order": [
-        "button_naxytV"
+        "button_naxytV",
+        "button_k9bq87"
       ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Trailer do Curso",
-        "text": "Descubra como essa experiência imersiva pode transformar sua carreira",
+        "title": "Course Trailer",
+        "text": "Discover how this immersive experience can transform your career",
         "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "overlay_opacity": 0,
@@ -202,7 +212,7 @@
         "button_9Jh76f": {
           "type": "button",
           "settings": {
-            "text": "VEJA O PROGRAMA DO CURSO",
+            "text": "Download the Syllabus",
             "url": "{{ product.metafields.my_fields.syllabus.value }}",
             "target": true,
             "style": "rounded-orange"
@@ -215,8 +225,8 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "NOSSA METODOLOGIA",
-        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.</strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "title": "About hyper island",
+        "text": "28 years of transforming individuals and organizations. <strong>The Hyper Island approach is different from a traditional online education. </strong>We combine hands-on learning with a fast-paced, social environment to create a powerful experience that truly pays off.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/2_Remoto_d69c406e-a81f-49bb-856c-319e338612a8.png",
@@ -249,8 +259,8 @@
         "content_RrbHeU": {
           "type": "content",
           "settings": {
-            "title": "6 Módulos",
-            "text": "Uma jornada completa e abrangente, onde cada módulo foi planejado para oferecer uma experiência de aprendizado eficiente.",
+            "title": "",
+            "text": "✅ Develop a future <strong>mindset </strong>to navigate digital transformation",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"></path>\n</svg>",
             "bg_color": "",
@@ -260,8 +270,8 @@
         "content_mqKgKC": {
           "type": "content",
           "settings": {
-            "title": "Kits de Aprendizagem",
-            "text": "Materiais complementares que aprofundam o conteúdo de cada módulo, oferecendo recursos extras para ampliar seu conhecimento.",
+            "title": "",
+            "text": "✅ Apply foresight tools to solve <strong>your</strong> business challenges",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"></path>\n</svg>",
             "bg_color": "",
@@ -271,8 +281,8 @@
         "content_pKP8fe": {
           "type": "content",
           "settings": {
-            "title": "Atividades Práticas",
-            "text": "6 desafios práticos + 6 diários de reflexão para você aplicar os conceitos na vida real e ganhar fluidez no uso das estratégias de liderança.",
+            "title": "",
+            "text": "✅ Build <strong>leadership skills</strong> to foster a culture of continuous transformation",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"></path>\n</svg>",
             "bg_color": "",
@@ -282,8 +292,8 @@
         "content_Bc6YHc": {
           "type": "content",
           "settings": {
-            "title": "Certificado",
-            "text": "Receba um certificado de participação validando sua jornada de aprendizado e destacando sua qualificação em Liderança.",
+            "title": "",
+            "text": "✅ Explore scenarios, trends, and strategic uncertainties to drive <strong>innovation</strong>",
             "header": "",
             "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"></path>\n</svg>",
             "bg_color": "",
@@ -352,7 +362,7 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "Para quem quer transformar seu jeito de liderar e de impactar o mundo.",
+        "title": "HYPER ISLAND’S MA DEGREE PROGRAMSACCREDITED BY TEESSIDE UNIVERSITY, UK",
         "text": "",
         "font_color": "text-light",
         "title_size": "display-1",
@@ -399,6 +409,47 @@
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
+      }
+    },
+    "sp_rich_text_grid_collums_WFPF97": {
+      "type": "sp-rich-text-grid-collums",
+      "blocks": {
+        "text_K4kAeJ": {
+          "type": "text",
+          "settings": {
+            "alignment": "left",
+            "text": "<p>Designed in collaboration with industry experts, and accredited by UK-based Teesside University, Hyper Island’s Master’s Degree programs are redefining business education by bringing learning and doing together in powerful new ways. </p><p>Learning at your own pace is a trend that we have experienced and is growing in popularity the world over. In collaboration with Grupa UNIS, Hyper Island are now proud to offer a co-created Level 7 / Master’s Level accredited course in <strong>Leading Digital Futures.</strong></p>"
+          }
+        },
+        "text_8djhxG": {
+          "type": "text",
+          "settings": {
+            "alignment": "left",
+            "text": "<p>Upon successful completion you will be awarded certification of an ‘Accredited CPD’ - this equates to a<strong> total of 10 credits at Level 7 (Master’s Level). </strong></p><p>Internationally recognised, you can take this certification into your CPD plan at work, as well as declare it upon application for a Master’s Degree Programme. </p><p>Use this opportunity to get a taste for a Hyper Island </p><p>MA in Digital Management. <a href=\"https://hyperisland.com/en/programs/master-degree?_gl=1*1ktgx39*_up*MQ..*_ga*ODU5MTg4Njg1LjE3NDM3ODAxMjI.*_ga_S2W3BWJ5VS*MTc0Mzc4MDEyMC4xLjAuMTc0Mzc4MDEyMC4wLjAuMA..\"><span style=\"text-decoration:underline\">Register your interest here to secure a place for September 2026. </span></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_K4kAeJ",
+        "text_8djhxG"
+      ],
+      "settings": {
+        "text_font": "montserrat_n4",
+        "text_size": 20,
+        "text_line_height": "1.5",
+        "headline_font": "sans-serif",
+        "headline_line_height": "1.15",
+        "headline_size": 25,
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111",
+        "headline_color": "#111",
+        "max_width": 1000,
+        "grid_gap": 50,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_left": 10,
+        "padding_right": 10,
+        "element_spacing": 15
       }
     },
     "content_bpYrpx": {
@@ -479,6 +530,7 @@
         "content_pWPG4M",
         "content_GqqNJW"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "PROGRAMA DO CURSO",
@@ -532,6 +584,7 @@
     },
     "content_Fwz68i": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "DEPOIMENTOS",
@@ -625,6 +678,7 @@
         "content_3qigkg",
         "content_9ytHUq"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#ffffff",
         "bg_gradient": "",
@@ -640,6 +694,36 @@
         "smb_lg": 0,
         "spb_xs": 11,
         "smb_xs": 0
+      }
+    },
+    "newsletter_session_WMBfh7": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "Sign up for the Waiting List",
+        "text": "Sign up for the waiting list to be informed when registration opens and receive a special payment option - <strong>R$500 discount for those on the waiting list</strong>",
+        "form_id": "be314d7f-f3fb-4bf1-a17b-7465e801e726",
+        "bg_color": "#FFFFFF",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 12,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 12,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
       }
     },
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57": {
@@ -658,6 +742,7 @@
       "block_order": [
         "79fdb188-a6ab-4147-9e19-e0c63c2ceabb"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -693,7 +778,7 @@
       "type": "clients",
       "settings": {
         "hidden": false,
-        "title": "Empresas que confiam nos nossos cursos",
+        "title": "Companies that trust us",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-3",
@@ -811,6 +896,7 @@
         "e71745f9-44c5-4ceb-9905-dfd8436563ca",
         "ad76ca31-6918-454a-b837-213f971bcc31"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "Por que investir em você agora?",
@@ -864,11 +950,12 @@
     },
     "header_t9LXn8": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "6x de R$498,33",
-        "text": "<strong>ou à vista por R$2.990</strong>",
+        "title": "R$4.500",
+        "text": "",
         "bg_color": "#fbfbfb",
         "bg_gradient": "",
         "overlay_opacity": 0,
@@ -896,6 +983,7 @@
     },
     "course_header_2_a7WkJK": {
       "type": "course-header-2",
+      "disabled": true,
       "settings": {
         "cta_1": "Comprar",
         "cta_2": "Programa do curso",
@@ -913,7 +1001,7 @@
         "90aa23df-1295-46c6-9bfb-0546c85e4550": {
           "type": "button",
           "settings": {
-            "text": "Mandar Email",
+            "text": "Send an Email",
             "url": "mailto:sabryna.alsfasser@hyperisland.com",
             "target": true,
             "zap": false,
@@ -925,11 +1013,11 @@
         "27e043bb-8543-455b-bfd3-89f17b5e710b": {
           "type": "button",
           "settings": {
-            "text": "Enviar Mensagem",
+            "text": "Send a Message",
             "url": "",
             "target": false,
             "zap": true,
-            "zap_number": "593991223305",
+            "zap_number": "5521976646326",
             "zap_msg": "",
             "style": "rounded-white"
           }
@@ -940,9 +1028,9 @@
         "27e043bb-8543-455b-bfd3-89f17b5e710b"
       ],
       "settings": {
-        "title": "PARA GRUPOS E EMPRESAS",
-        "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudar!",
-        "img": "shopify://shop_images/1587057149123.jpg",
+        "title": "Talk to Gleisson and clear up your doubts",
+        "text": "Send us a message to find out how we can help you.",
+        "img": "shopify://shop_images/Nova_Foto_de_Perfil.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
@@ -1064,6 +1152,7 @@
         "question_kfxMXK",
         "question_BAyCrQ"
       ],
+      "disabled": true,
       "settings": {
         "override_fonts": false,
         "headline_font": "sans-serif",
@@ -1120,6 +1209,7 @@
     },
     "577b8190-d683-4d05-92aa-43b63a3a640d": {
       "type": "newsletter-session",
+      "disabled": true,
       "settings": {
         "title": "RECEBA NOSSOS CONTEÚDOS",
         "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
@@ -1150,6 +1240,7 @@
     },
     "sp_action_button_3kFMbb": {
       "type": "sp-action-button",
+      "disabled": true,
       "settings": {
         "override_fonts": false,
         "text_font": "sans-serif",
@@ -1185,9 +1276,11 @@
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
     "content_H9FyLN",
     "content_EUPGeK",
+    "sp_rich_text_grid_collums_WFPF97",
     "content_bpYrpx",
     "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
+    "newsletter_session_WMBfh7",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "content_3bmDAK",
