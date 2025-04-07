@@ -700,13 +700,13 @@
     "html_Lbebyd": {
       "type": "html",
       "settings": {
-        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "html": "<div id=\"form\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
-        "title": "HTML code",
+        "title": "",
         "title_size": "h2",
-        "description": "<p>Write something catchy for this section</p>",
+        "description": "",
         "description_size": "fs-6",
         "pt": 0,
         "pb": 0,
