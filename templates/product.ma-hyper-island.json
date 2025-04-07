@@ -139,7 +139,7 @@
           "type": "button",
           "settings": {
             "text": "Download the Syllabus",
-            "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
+            "url": "https://hyperisland.com/hubfs/FUTURE%20FORESIGHT%20FOR%20DIGITAL%20TRANSFORMATION%20-%20Hyper%20Island%20_%20UNIS%20portfolio.pdf",
             "target": true,
             "style": "rounded-orange"
           }
@@ -697,6 +697,23 @@
         "smb_xs": 0
       }
     },
+    "html_Lbebyd": {
+      "type": "html",
+      "settings": {
+        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "HTML code",
+        "title_size": "h2",
+        "description": "<p>Write something catchy for this section</p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "newsletter_session_WMBfh7": {
       "type": "newsletter-session",
       "settings": {
@@ -782,7 +799,7 @@
           "type": "button",
           "settings": {
             "text": "Download the Syllabus",
-            "url": "{{ product.metafields.my_fields.syllabus.value }}",
+            "url": "https://hyperisland.com/hubfs/FUTURE%20FORESIGHT%20FOR%20DIGITAL%20TRANSFORMATION%20-%20Hyper%20Island%20_%20UNIS%20portfolio.pdf",
             "target": true,
             "style": "rounded-orange"
           }
@@ -1295,6 +1312,7 @@
     "content_Fwz68i",
     "header_t9LXn8",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
+    "html_Lbebyd",
     "newsletter_session_WMBfh7",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
     "8b0e92c1-272e-42cf-8650-be49d5da4f42",
