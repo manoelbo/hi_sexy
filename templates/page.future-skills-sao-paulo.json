@@ -33,7 +33,55 @@
         "text": "",
         "bg_color": "#212529",
         "bg_gradient": "",
-        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Desktop.jpg",
+        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Desktop_1.jpg",
+        "overlay_opacity": 0,
+        "font_color": "text-light",
+        "title_size": "display-0",
+        "text_size": "fs-5",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "default_spacing": false,
+        "pt_xl": 15,
+        "pb_xl": 12,
+        "mt_xl": 13,
+        "mb_xl": 10,
+        "pt_lg": 10,
+        "pb_lg": 10,
+        "mt_lg": 13,
+        "mb_lg": 10,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 10,
+        "mb_sm": 7
+      }
+    },
+    "header_8zQNhh": {
+      "type": "header",
+      "blocks": {
+        "button_3P36jz": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "text": "ENTRE EM CONTATO",
+            "url": "shopify://pages/contato",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_3P36jz"
+      ],
+      "settings": {
+        "mobile_only": true,
+        "desktop_only": false,
+        "title": "",
+        "text": "",
+        "bg_color": "#212529",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Mobile.jpg",
         "overlay_opacity": 0,
         "font_color": "text-light",
         "title_size": "display-0",
@@ -383,9 +431,10 @@
         "card_BfXhrr": {
           "type": "card",
           "settings": {
+            "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_01_v2.jpg",
             "category_id": "",
             "title": "DIA 1: O FUTURO DA INOVAÇÃO",
-            "text": "Dia 10/06",
+            "text": "Inovação para um Mundo Pós-Humano-Cêntrico - <strong>Dia 10/06</strong>",
             "url": "shopify://products/dia-1-o-futuro-da-inovacao",
             "target": false
           }
@@ -393,9 +442,10 @@
         "card_tJXMG6": {
           "type": "card",
           "settings": {
+            "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_02_v2.jpg",
             "category_id": "",
             "title": "DIA 2: CONEXÕES CRIATIVAS",
-            "text": "Dia 11/06",
+            "text": "Colabore, conte histórias e transforme sua perspectiva criativa - <strong>Dia 11/06</strong>",
             "url": "",
             "target": false
           }
@@ -403,9 +453,10 @@
         "card_bpcQjV": {
           "type": "card",
           "settings": {
+            "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_03_v2.jpg",
             "category_id": "",
             "title": "DIA 3: LIDERE A MUDANÇA",
-            "text": "Dia 12/06",
+            "text": "Habilidades para liderar a transformação - <strong>Dia 12/06</strong>",
             "url": "",
             "target": false
           }
@@ -413,9 +464,10 @@
         "card_8EeXjy": {
           "type": "card",
           "settings": {
+            "img": "shopify://shop_images/Banner_Future_Skills_2025_Full_Pass.jpg",
             "category_id": "",
             "title": "FULL PASS",
-            "text": "3 Dias de Evento - Dias 10/11/12 de Junho",
+            "text": "3 Dias de Evento - <strong>Dias 10/11/12 de Junho</strong>",
             "url": "",
             "target": false
           }
@@ -1031,6 +1083,7 @@
   },
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
+    "header_8zQNhh",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "collection_cards_d4A6ha",
     "sp_video_standalone_WcG3Cy",
