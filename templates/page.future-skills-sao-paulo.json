@@ -446,7 +446,7 @@
             "category_id": "",
             "title": "DIA 2: CONEXÕES CRIATIVAS",
             "text": "Colabore, conte histórias e transforme sua perspectiva criativa - <strong>Dia 11/06</strong>",
-            "url": "",
+            "url": "shopify://products/dia-2-conexoes-criativas",
             "target": false
           }
         },
@@ -457,7 +457,7 @@
             "category_id": "",
             "title": "DIA 3: LIDERE A MUDANÇA",
             "text": "Habilidades para liderar a transformação - <strong>Dia 12/06</strong>",
-            "url": "",
+            "url": "shopify://products/dia-3-lidere-a-mudanca",
             "target": false
           }
         },
@@ -468,7 +468,7 @@
             "category_id": "",
             "title": "FULL PASS",
             "text": "3 Dias de Evento - <strong>Dias 10/11/12 de Junho</strong>",
-            "url": "",
+            "url": "shopify://products/full-pass-3-dias-de-evento",
             "target": false
           }
         }
