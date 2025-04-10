@@ -271,7 +271,7 @@
           "type": "button",
           "settings": {
             "text": "Registrar",
-            "url": "https://www.hyperisland.com.br/cart/add?id=46593015152862&quantity=1",
+            "url": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
             "target": true,
             "style": "rounded-orange"
           }
