@@ -314,7 +314,7 @@
         "pb_lg": 10,
         "mt_lg": 0,
         "mb_lg": 0,
-        "pt_sm": 13,
+        "pt_sm": 0,
         "pb_sm": 6,
         "mt_sm": 0,
         "mb_sm": 0
@@ -469,7 +469,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "GARANTA UM DESCONTO PARA SUA EQUIPE",
-        "text": "<strong>Oferecemos preços especiais para grupos de empresas.</strong>Agende uma conversa com um de nossos especialistas em masterclasses e descubra como sua equipe pode se qualificar para um valor especial.",
+        "text": "<strong>Oferecemos preços especiais para grupos de empresas. </strong>Agende uma conversa com um de nossos especialistas em masterclasses e descubra como sua equipe pode se qualificar para um valor especial.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/IMG_6767_430x_6370a5a4-6dc4-4928-95d5-01156ca07656.webp",
