@@ -635,7 +635,7 @@
         "mt_lg": 0,
         "mb_lg": 0,
         "pt_sm": 14,
-        "pb_sm": 14,
+        "pb_sm": 11,
         "mt_sm": 0,
         "mb_sm": 0,
         "py_lg": 0,
@@ -648,7 +648,7 @@
         "mx_xs": 0,
         "spb_lg": 10,
         "smb_lg": 0,
-        "spb_xs": 0,
+        "spb_xs": 8,
         "smb_xs": 0
       }
     },
