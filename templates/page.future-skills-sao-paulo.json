@@ -180,11 +180,11 @@
         "layout": "col-lg-3 col-md-6",
         "default_spacing": false,
         "pt_xl": 13,
-        "pb_xl": 4,
+        "pb_xl": 9,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 13,
-        "pb_lg": 5,
+        "pb_lg": 12,
         "mt_lg": 0,
         "mb_lg": 0,
         "pt_sm": 10,
@@ -199,6 +199,7 @@
     },
     "sp_video_standalone_WcG3Cy": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "max_width": 1000,
