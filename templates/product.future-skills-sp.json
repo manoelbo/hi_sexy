@@ -216,6 +216,7 @@
         "button_naxytV",
         "button_k9bq87"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -248,6 +249,7 @@
     },
     "sp_video_standalone_WCA3zL": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 1000,
@@ -290,6 +292,7 @@
         "button_Vjg8nj",
         "button_Rd6VNm"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -400,7 +403,7 @@
       ],
       "settings": {
         "hidden": false,
-        "title": "Resultados Esperados",
+        "title": "O que você vai ganhar",
         "text": "Ao final deste masterclass, você terá adquirido os seguintes conhecimentos e habilidades, que poderá aplicar imediatamente no seu trabalho ou incluir no seu currículo:",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -408,7 +411,7 @@
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#f3f0ed",
+        "bg_color": "#ffffff",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-left",
