@@ -361,62 +361,6 @@
         "media_shadow": true
       }
     },
-    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1": {
-      "type": "header_half",
-      "blocks": {
-        "button_fep6Xp": {
-          "type": "button",
-          "settings": {
-            "text": "Garanta seu Ingresso",
-            "url": "shopify://pages/future-skills-sao-paulo",
-            "target": false,
-            "style": "rounded-orange"
-          }
-        }
-      },
-      "block_order": [
-        "button_fep6Xp"
-      ],
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "Future Skills - São Paulo",
-        "text": "O <strong>Future Skills Masterclass </strong>chega a<strong> São Paulo</strong> em clima de celebração. Essa edição especial faz parte da campanha de 10 anos e reúne nomes inspiradores para discutir as <strong>habilidades que vão moldar o mundo nos próximos anos</strong>. É uma oportunidade de <strong>aprendizado, conexão e transformação.</strong>",
-        "bg_color": "#e3dfd3",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Mobile.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
-    "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
     "sp_accordion_edRB9w": {
       "type": "sp-accordion",
       "blocks": {
@@ -475,10 +419,10 @@
         "text_color": "#111",
         "link_color": "#005bd3",
         "show_on_device": "all",
-        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_color": "linear-gradient(127deg, rgba(NaN, NaN, NaN, 0) 11%, rgba(241, 246, 251, 1) 81%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
-        "section_padding_top_bottom": 0,
+        "section_padding_top_bottom": 60,
         "mobile_section_padding_top_bottom": 25,
         "section_padding_left_right": 25,
         "mobile_section_padding_left_right": 25,
@@ -503,6 +447,53 @@
         "headline": "Histórias de Impacto",
         "text": "10 anos, milhares de vidas tocadas",
         "headline_spacing": 15
+      }
+    },
+    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1": {
+      "type": "header_half",
+      "blocks": {
+        "button_fep6Xp": {
+          "type": "button",
+          "settings": {
+            "text": "Garanta seu Ingresso",
+            "url": "shopify://pages/future-skills-sao-paulo",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "button_fep6Xp"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Future Skills - São Paulo",
+        "text": "O <strong>Future Skills Masterclass </strong>chega a<strong> São Paulo</strong> em clima de celebração. Essa edição especial faz parte da campanha de 10 anos e reúne nomes inspiradores para discutir as <strong>habilidades que vão moldar o mundo nos próximos anos</strong>. É uma oportunidade de <strong>aprendizado, conexão e transformação.</strong>",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Mobile.jpg",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
       }
     },
     "sp_video_grid_to_slide_jnaaBf": {
@@ -573,6 +564,24 @@
         "padding_right": 10,
         "big_play_pause_button": false,
         "auto_slide": false
+      }
+    },
+    "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
+      }
+    },
+    "separator_6PY7eW": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
       }
     },
     "sp_accordion_LB6TXU": {
@@ -667,7 +676,7 @@
         "text_color": "#111",
         "link_color": "#005bd3",
         "show_on_device": "all",
-        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_color": "linear-gradient(127deg, rgba(NaN, NaN, NaN, 0) 11%, rgba(241, 246, 251, 1) 81%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
         "section_padding_top_bottom": 0,
@@ -1015,11 +1024,12 @@
     "content_qXR3e7",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
     "sp_review_grid_QLeTei",
-    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
-    "cfba652b-8c1e-4b99-96c5-2081ff943b95",
     "sp_accordion_edRB9w",
+    "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
     "sp_video_grid_to_slide_jnaaBf",
+    "cfba652b-8c1e-4b99-96c5-2081ff943b95",
     "sp_accordion_LB6TXU",
+    "separator_6PY7eW",
     "header_half_ap7MCG",
     "d4de43bb-dd3a-444d-bded-010b7f361444",
     "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca",
