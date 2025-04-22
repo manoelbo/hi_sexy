@@ -242,6 +242,7 @@
     },
     "3fcd7bb3-0766-45f7-b699-098b939ab85b": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "<strong>Hyper island Way™ também é sobre ser.</strong>",
@@ -293,16 +294,97 @@
         "smb_xs": 0
       }
     },
+    "sp_review_grid_QLeTei": {
+      "type": "sp-review-grid",
+      "blocks": {
+        "review_XTNxCT": {
+          "type": "review",
+          "settings": {
+            "background_image": "shopify://shop_images/Miami2025KVOFICIALBGHeaderFutureSkills2025_Desktop_1.jpg",
+            "quote": "<strong>Future Skills Masterclass</strong>",
+            "cite": "São Paulo | Programação feita para refletir sobre os próximos 10 anos.",
+            "cta_link": ""
+          }
+        },
+        "review_HtPwKd": {
+          "type": "review",
+          "settings": {
+            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash2.jpg",
+            "quote": "<strong>Promoção especial de cursos</strong>",
+            "cite": "50% off em todos os Cursos durante o mês de Maio",
+            "cta_link": ""
+          }
+        },
+        "review_gNQeMG": {
+          "type": "review",
+          "settings": {
+            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash.jpg",
+            "quote": "<strong>Podcast Especial</strong>",
+            "cite": "Edição Especial de Aniversário",
+            "cta_link": ""
+          }
+        },
+        "review_KfXbra": {
+          "type": "review",
+          "settings": {
+            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash_430x_8111d487-68c6-411a-912b-8b3216c66be5.webp",
+            "quote": "<strong>Newsletter comemorativa</strong>",
+            "cite": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_XTNxCT",
+        "review_HtPwKd",
+        "review_gNQeMG",
+        "review_KfXbra"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "text_font": "montserrat_n4",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#fff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "cover_opacity": 25,
+        "highlight_color": "#FFFFFF",
+        "max_width": 2000,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "element_spacing": 15,
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
     "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1": {
       "type": "header_half",
+      "blocks": {
+        "button_fep6Xp": {
+          "type": "button",
+          "settings": {
+            "text": "Garanta seu Ingresso",
+            "url": "shopify://pages/future-skills-sao-paulo",
+            "target": false,
+            "style": "rounded-orange"
+          }
+        }
+      },
+      "block_order": [
+        "button_fep6Xp"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Nossa metodologia",
-        "text": "Na Hyper Island nós não trazemos as respostas. <strong>A nossa metodologia é baseada em uma abordagem centrada na experiência.</strong> Nós criamos jornadas de aprendizado facilitadas, nas quais descobrir, aplicar e refletir são partes do processo no qual os participantes internalizam os seus aprendizados, desenvolvem habilidades e geram conhecimentos que poderão aplicar imediatamente em seus desafios de negócio.",
+        "title": "Future Skills - São Paulo",
+        "text": "O Future Skills Masterclass chega a São Paulo em clima de celebração. Essa edição especial faz parte da campanha de 10 anos e reúne nomes inspiradores para discutir as habilidades que vão moldar o mundo nos próximos anos. É uma oportunidade de aprendizado, conexão e transformação.",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
-        "bg_image": "shopify://shop_images/2_Metodologia_92de7774-1a0d-4c4e-9c8b-e7fd33b385d8.jpg",
+        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Mobile.jpg",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -585,6 +667,7 @@
     "content_UQxdit",
     "content_qXR3e7",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
+    "sp_review_grid_QLeTei",
     "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
     "cfba652b-8c1e-4b99-96c5-2081ff943b95",
     "d4de43bb-dd3a-444d-bded-010b7f361444",
