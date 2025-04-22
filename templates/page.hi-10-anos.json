@@ -373,7 +373,7 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": true,
+            "video_controls": false,
             "video_muted": false
           }
         },
@@ -385,7 +385,7 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": true,
+            "video_controls": false,
             "video_muted": false
           }
         },
@@ -397,7 +397,7 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": true,
+            "video_controls": false,
             "video_muted": false
           }
         }
