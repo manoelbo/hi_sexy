@@ -317,6 +317,7 @@
         },
         "review_gNQeMG": {
           "type": "review",
+          "disabled": true,
           "settings": {
             "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash.jpg",
             "quote": "<strong>Podcast Especial</strong>",
@@ -372,8 +373,8 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
+            "video_controls": true,
+            "video_muted": false
           }
         },
         "video_fcnWUt": {
@@ -384,8 +385,8 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
+            "video_controls": true,
+            "video_muted": false
           }
         },
         "video_ixB7eK": {
@@ -396,8 +397,8 @@
             "video_inline": true,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
+            "video_controls": true,
+            "video_muted": false
           }
         }
       },
@@ -445,7 +446,7 @@
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "headline": "Histórias de Impacto",
-        "text": "10 anos, milhares de vidas tocadas",
+        "text": "10 anos, milhares de vidas transformadas",
         "headline_spacing": 15
       }
     },
@@ -697,6 +698,15 @@
         "headline_spacing": 15
       }
     },
+    "separator_jcHdEp": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
+      }
+    },
     "header_half_8p8PaQ": {
       "type": "header_half",
       "blocks": {
@@ -716,7 +726,7 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "Campanha especial de cursos",
+        "title": "promoção especial de cursos",
         "text": "Aprender é um presente. Durante o mês de Maio, vamos oferecer condições especiais para você transformar sua jornada com a gente. Utilize o cupom <strong>HI10ANOS </strong>para ter <strong>50% de desconto</strong> em todos os cursos",
         "bg_color": "#e3dfd3",
         "bg_gradient": "",
@@ -745,15 +755,6 @@
       }
     },
     "separator_6PY7eW": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
-    "separator_jcHdEp": {
       "type": "separator",
       "settings": {
         "full_width": false,
@@ -1045,8 +1046,8 @@
         "f231376a-701d-4694-bd9c-d3e8466b8c21"
       ],
       "settings": {
-        "title": "RECEBA NOSSOS CONTEÚDOS",
-        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades da Hyper Island Brasil.",
+        "title": "RECEBA NOSSOS CONTEÚDOS ESPECIAIS DE ANIVERSÁRIO",
+        "text": "Tenha acesso a conteúdos exclusivos e saiba quais são as novidades que estamos preparando para os próximos meses!",
         "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
         "bg_color": "#ffffff",
         "bg_gradient": "",
