@@ -753,6 +753,15 @@
         "mb": 13
       }
     },
+    "separator_jcHdEp": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
+      }
+    },
     "header_half_ap7MCG": {
       "type": "header_half",
       "blocks": {
@@ -1077,6 +1086,7 @@
     "sp_video_grid_to_slide_jnaaBf",
     "cfba652b-8c1e-4b99-96c5-2081ff943b95",
     "sp_accordion_LB6TXU",
+    "separator_jcHdEp",
     "header_half_8p8PaQ",
     "separator_6PY7eW",
     "header_half_ap7MCG",
