@@ -881,6 +881,7 @@
     },
     "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca": {
       "type": "separator",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
