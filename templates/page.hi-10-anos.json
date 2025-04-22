@@ -345,11 +345,11 @@
         "text_font": "montserrat_n4",
         "text_size": 15,
         "text_line_height": "inherit",
-        "text_color": "#fff",
+        "text_color": "#ffffff",
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
         "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
         "cover_opacity": 25,
-        "highlight_color": "#FFFFFF",
+        "highlight_color": "#ffffff",
         "max_width": 2000,
         "grid_gap": 20,
         "padding_top": 25,
@@ -410,12 +410,358 @@
     },
     "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
       "type": "separator",
-      "disabled": true,
       "settings": {
         "full_width": false,
         "opacity": 0,
         "mt": 0,
         "mb": 13
+      }
+    },
+    "sp_accordion_edRB9w": {
+      "type": "sp-accordion",
+      "blocks": {
+        "video_ffcxC3": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video_diego_miami (1).mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_fcnWUt": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_ixB7eK": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video_diego_miami (1).mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "video_ffcxC3",
+        "video_fcnWUt",
+        "video_ixB7eK"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 18,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 61,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 0,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1000,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 300,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "Histórias de Impacto",
+        "text": "10 anos, milhares de vidas tocadas",
+        "headline_spacing": 15
+      }
+    },
+    "sp_video_grid_to_slide_jnaaBf": {
+      "type": "sp-video-grid-to-slide",
+      "blocks": {
+        "video_qjYAXx": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video_diego_miami (1).mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_TzUGqi": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_M7zhan": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video_diego_miami (1).mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": false,
+            "video_muted": false
+          }
+        },
+        "video_ReQ8qL": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": false,
+            "video_muted": false
+          }
+        }
+      },
+      "block_order": [
+        "video_qjYAXx",
+        "video_TzUGqi",
+        "video_M7zhan",
+        "video_ReQ8qL"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "highlight_color": "#111",
+        "video_aspect_ratio": "1 / 1",
+        "max_width": 1000,
+        "grid_gap": 25,
+        "padding_top": 0,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "big_play_pause_button": false,
+        "auto_slide": false
+      }
+    },
+    "sp_accordion_LB6TXU": {
+      "type": "sp-accordion",
+      "blocks": {
+        "image_AH7d7n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BannerFutureSkills2025Dia03v2.jpg",
+            "link": ""
+          }
+        },
+        "image_6NUz8E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Future_Skills_2025_Dia_01_v2.jpg",
+            "link": ""
+          }
+        },
+        "image_4WY7XX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Future_Skills_2025_Dia_02_v2.jpg",
+            "link": ""
+          }
+        },
+        "image_PA3nCE": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_qCj7em": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_LJaUGB": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_yg6pgc": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_8hrqrj": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_799mzb": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_yENhnQ": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AH7d7n",
+        "image_6NUz8E",
+        "image_4WY7XX",
+        "image_PA3nCE",
+        "image_qCj7em",
+        "image_LJaUGB",
+        "image_yg6pgc",
+        "image_8hrqrj",
+        "image_799mzb",
+        "image_yENhnQ"
+      ],
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 18,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 61,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 0,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1500,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 300,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "10 Anos - 10 Aprendizados",
+        "text": "Durante uma década, aprendemos com líderes, equipes e contextos diversos. Aqui estão 10 aprendizados que continuam nos guiando",
+        "headline_spacing": 15
+      }
+    },
+    "header_half_ap7MCG": {
+      "type": "header_half",
+      "blocks": {
+        "button_aHK6zm": {
+          "type": "button",
+          "settings": {
+            "text": "Ver Cursos Disponíveis",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "button_qrd4Fz": {
+          "type": "button",
+          "settings": {
+            "text": "Participar do Future Skills",
+            "url": "shopify://pages/future-skills-sao-paulo",
+            "target": false,
+            "style": "rounded-white"
+          }
+        },
+        "button_UwNkeK": {
+          "type": "button",
+          "settings": {
+            "text": "Receber a Newsletter Especial",
+            "url": "",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_aHK6zm",
+        "button_qrd4Fz",
+        "button_UwNkeK"
+      ],
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Faça Parte dos Próximos 10",
+        "text": "Essa história é feita de gente. De olhares curiosos, perguntas difíceis, transformações reais. Você fez — ou pode fazer — parte disso!",
+        "bg_color": "#e3dfd3",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Logo_Black_H10_4x5_1.png",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": true,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 16,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 13
       }
     },
     "d4de43bb-dd3a-444d-bded-010b7f361444": {
@@ -670,6 +1016,10 @@
     "sp_review_grid_QLeTei",
     "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
     "cfba652b-8c1e-4b99-96c5-2081ff943b95",
+    "sp_accordion_edRB9w",
+    "sp_video_grid_to_slide_jnaaBf",
+    "sp_accordion_LB6TXU",
+    "header_half_ap7MCG",
     "d4de43bb-dd3a-444d-bded-010b7f361444",
     "c1dbb8fd-a1f4-4fc7-bfa8-b8528d8bf2ca",
     "8fe5ae8b-6a52-47ff-b7c0-dbc7449b9b16",
