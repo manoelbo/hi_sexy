@@ -575,15 +575,6 @@
         "mb": 13
       }
     },
-    "separator_6PY7eW": {
-      "type": "separator",
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
-      }
-    },
     "sp_accordion_LB6TXU": {
       "type": "sp-accordion",
       "blocks": {
@@ -704,6 +695,15 @@
         "headline": "10 Anos - 10 Aprendizados",
         "text": "Durante uma década, aprendemos com líderes, equipes e contextos diversos. Aqui estão 10 aprendizados que continuam nos guiando",
         "headline_spacing": 15
+      }
+    },
+    "separator_6PY7eW": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 0,
+        "mb": 13
       }
     },
     "header_half_ap7MCG": {
@@ -893,7 +893,7 @@
       "settings": {
         "hidden": false,
         "title": "Nossa história",
-        "text": "Nascemos em 1996 na Suécia, após nossos fundadores trabalharem em um projeto de CD-ROM. Ao final do projeto se perguntaram: e se ajudássemos pessoas a se adaptarem às mudanças tecnológicas que estão por vir? Alguns meses depois encontraram um prédio perfeito para provocar a mudança: um presídio abandonado na ilha de Karlskrona. Assim nascia a Hyper Island.  Após 25 anos impactamos diretamente mais de 10 milhões de pessoas, formamos mais de 15 mil alunos, trabalhamos juntos com mais de 2 mil empresas e possuímos globalmente mais de 500 colaboradores atuando em hubs na Suécia, Inglaterra, Estados Unidos, Singapura e Brasil.",
+        "text": "Nascemos em 1996 na Suécia, após nossos fundadores trabalharem em um projeto de CD-ROM. Ao final do projeto se perguntaram: e se ajudássemos pessoas a se adaptarem às mudanças tecnológicas que estão por vir? Alguns meses depois encontraram um prédio perfeito para provocar a mudança: um presídio abandonado na ilha de Karlskrona. Assim nascia a Hyper Island.  Após 29 anos impactamos diretamente mais de 10 milhões de pessoas, formamos mais de 15 mil alunos, trabalhamos juntos com mais de 2 mil empresas e possuímos globalmente mais de 500 colaboradores atuando em hubs na Suécia, Inglaterra, Estados Unidos, Singapura e Brasil.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
