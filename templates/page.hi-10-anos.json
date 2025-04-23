@@ -847,7 +847,7 @@
             "text": "Ver Cursos Disponíveis",
             "url": "",
             "target": false,
-            "style": "rounded-orange"
+            "style": "rounded-white"
           }
         },
         "button_WrzPfp": {
@@ -865,7 +865,7 @@
             "text": "Receber a Newsletter Especial",
             "url": "",
             "target": false,
-            "style": "rounded-orange"
+            "style": "rounded-white"
           }
         }
       },
@@ -877,10 +877,10 @@
       "settings": {
         "title": "Faça Parte dos Próximos 10",
         "text": "Essa história é feita de gente. De olhares curiosos, perguntas difíceis, transformações reais. Você fez — ou pode fazer — parte disso!",
-        "bg_color": "#111111",
+        "bg_color": "#f3f0ed",
         "bg_gradient": "",
-        "font_color": "text-light",
-        "title_size": "display-1",
+        "font_color": "text-dark",
+        "title_size": "display-0",
         "text_size": "fs-4",
         "layout_align": "five",
         "align_desktop": "text-lg-left",
@@ -923,7 +923,7 @@
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#f5f5f5",
+        "bg_color": "#ffffff",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
@@ -968,7 +968,7 @@
       "type": "external-video",
       "settings": {
         "external_video": "https://www.youtube.com/watch?v=5quLHRQRo8s",
-        "bg_color": "bg-light text-dark",
+        "bg_color": "bg-white text-dark",
         "max_width": "960",
         "video_border": "",
         "pt": 8,
