@@ -342,7 +342,7 @@
         "padding_right": 10,
         "element_spacing": 15,
         "media_radius": 5,
-        "media_shadow": true
+        "media_shadow": false
       }
     },
     "sp_accordion_edRB9w": {
