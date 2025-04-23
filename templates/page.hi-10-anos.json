@@ -370,10 +370,10 @@
           "settings": {
             "video": "shopify://files/videos/video_diego_miami (1).mp4",
             "link": "",
-            "video_inline": true,
+            "video_inline": false,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
+            "video_controls": true,
             "video_muted": false
           }
         },
@@ -382,10 +382,10 @@
           "settings": {
             "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
             "link": "",
-            "video_inline": true,
+            "video_inline": false,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
+            "video_controls": true,
             "video_muted": false
           }
         },
@@ -394,10 +394,10 @@
           "settings": {
             "video": "shopify://files/videos/video_diego_miami (1).mp4",
             "link": "",
-            "video_inline": true,
+            "video_inline": false,
             "video_autoplay": false,
             "video_loop": true,
-            "video_controls": false,
+            "video_controls": true,
             "video_muted": false
           }
         }
@@ -414,7 +414,7 @@
         "text_size": 18,
         "mobile_text_size": 15,
         "text_line_height": "inherit",
-        "headline_size": 61,
+        "headline_size": 75,
         "mobile_headline_size": 40,
         "headline_line_height": "inherit",
         "text_color": "#111111",
@@ -669,7 +669,7 @@
         "text_size": 18,
         "mobile_text_size": 15,
         "text_line_height": "inherit",
-        "headline_size": 61,
+        "headline_size": 75,
         "mobile_headline_size": 40,
         "headline_line_height": "inherit",
         "text_color": "#111111",
