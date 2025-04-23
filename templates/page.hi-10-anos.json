@@ -685,7 +685,7 @@
         "container_radius": 0,
         "container_shadow": false,
         "container_border_size": 0,
-        "container_border_color": "#888888",
+        "container_border_color": "#ffffff",
         "gap": 5,
         "mobile_display": "accordion",
         "height": 300,
