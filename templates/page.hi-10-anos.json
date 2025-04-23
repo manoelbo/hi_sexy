@@ -582,63 +582,70 @@
         "image_AH7d7n": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BannerFutureSkills2025Dia03v2.jpg",
+            "image": "shopify://shop_images/Aprender_a_aprender_e_a_maior_habilidade_do_seculo._1.png",
             "link": ""
           }
         },
         "image_6NUz8E": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Future_Skills_2025_Dia_01_v2.jpg",
+            "image": "shopify://shop_images/Frase_02.png",
             "link": ""
           }
         },
         "image_4WY7XX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Future_Skills_2025_Dia_02_v2.jpg",
+            "image": "shopify://shop_images/Frase_03.png",
             "link": ""
           }
         },
         "image_PA3nCE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_04.png",
             "link": ""
           }
         },
         "image_qCj7em": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_05.png",
             "link": ""
           }
         },
         "image_LJaUGB": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_06.png",
             "link": ""
           }
         },
         "image_yg6pgc": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_07.png",
             "link": ""
           }
         },
         "image_8hrqrj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_08.png",
             "link": ""
           }
         },
         "image_799mzb": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_09.png",
             "link": ""
           }
         },
         "image_yENhnQ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Frase_10.png",
             "link": ""
           }
         }
@@ -686,11 +693,11 @@
         "container_shadow": false,
         "container_border_size": 0,
         "container_border_color": "#ffffff",
-        "gap": 5,
+        "gap": 8,
         "mobile_display": "accordion",
         "height": 300,
         "media_radius": 5,
-        "media_shadow": true,
+        "media_shadow": false,
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "headline": "10 Anos - 10 Aprendizados",
