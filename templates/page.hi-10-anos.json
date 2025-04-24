@@ -321,7 +321,7 @@
         "text_color": "#ffffff",
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
-        "cover_opacity": 25,
+        "cover_opacity": 15,
         "highlight_color": "#ffffff",
         "max_width": 1000,
         "grid_gap": 40,
