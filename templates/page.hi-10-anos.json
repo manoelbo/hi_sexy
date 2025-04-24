@@ -282,14 +282,16 @@
         "review_qMDfLj": {
           "type": "review",
           "settings": {
-            "quote": "<strong>FUTURE SKILLS MASTERCLASS</strong>",
-            "cite": "São Paulo | Programação feita para refletir sobre os próximos 10 anos.",
+            "background_image": "shopify://shop_images/Miami_2025_KV_OFICIAL_BGHeader_Future_Skills_2025_Desktop.jpg",
+            "quote": "<strong>FUTURE SKILLS MASTERCLASS (SÃO PAULO)</strong>",
+            "cite": "Programação feita para refletir sobre os próximos 10 anos.",
             "cta_link": ""
           }
         },
         "review_JHabEY": {
           "type": "review",
           "settings": {
+            "background_image": "shopify://shop_images/Meta_Session_Feed_Instagram.jpg",
             "quote": "<strong>PROMOÇÃO</strong>",
             "cite": "50% off em todos os Cursos durante o mês de Maio",
             "cta_link": ""
@@ -298,6 +300,7 @@
         "review_tEwTKQ": {
           "type": "review",
           "settings": {
+            "background_image": "shopify://shop_images/PT_LK_Hyper_News_Divulgacao_copy_e1ee12a1-b775-4d7b-a92b-7e42fb56b7ae.png",
             "quote": "<strong>NEWSLETTER COMEMORATIVA</strong>",
             "cite": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
             "cta_link": ""
@@ -321,81 +324,12 @@
         "cover_opacity": 25,
         "highlight_color": "#FFFFFF",
         "max_width": 1000,
-        "grid_gap": 20,
+        "grid_gap": 40,
         "padding_top": 100,
         "padding_bottom": 50,
         "padding_left": 10,
         "padding_right": 10,
-        "element_spacing": 15,
-        "media_radius": 5,
-        "media_shadow": false
-      }
-    },
-    "sp_review_grid_QLeTei": {
-      "type": "sp-review-grid",
-      "blocks": {
-        "review_XTNxCT": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/Miami2025KVOFICIALBGHeaderFutureSkills2025_Desktop_1.jpg",
-            "quote": "<strong>Future Skills Masterclass</strong>",
-            "cite": "São Paulo | Programação feita para refletir sobre os próximos 10 anos.",
-            "cta_link": ""
-          }
-        },
-        "review_HtPwKd": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash2.jpg",
-            "quote": "<strong>Promoção especial de cursos</strong>",
-            "cite": "50% off em todos os Cursos durante o mês de Maio",
-            "cta_link": ""
-          }
-        },
-        "review_gNQeMG": {
-          "type": "review",
-          "disabled": true,
-          "settings": {
-            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash.jpg",
-            "quote": "<strong>Podcast Especial</strong>",
-            "cite": "Edição Especial de Aniversário",
-            "cta_link": ""
-          }
-        },
-        "review_KfXbra": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/martin-martz-IKEX2B0tJJY-unsplash_430x_8111d487-68c6-411a-912b-8b3216c66be5.webp",
-            "quote": "<strong>Newsletter comemorativa</strong>",
-            "cite": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
-            "cta_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_XTNxCT",
-        "review_HtPwKd",
-        "review_gNQeMG",
-        "review_KfXbra"
-      ],
-      "custom_css": [],
-      "settings": {
-        "override_fonts": false,
-        "text_font": "montserrat_n4",
-        "text_size": 15,
-        "text_line_height": "inherit",
-        "text_color": "#ffffff",
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
-        "cover_opacity": 25,
-        "highlight_color": "#ffffff",
-        "max_width": 1500,
-        "grid_gap": 20,
-        "padding_top": 100,
-        "padding_bottom": 50,
-        "padding_left": 10,
-        "padding_right": 10,
-        "element_spacing": 15,
+        "element_spacing": 10,
         "media_radius": 5,
         "media_shadow": false
       }
@@ -1085,7 +1019,6 @@
     "content_3pBf4H",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
     "sp_review_grid_2_iUgXaP",
-    "sp_review_grid_QLeTei",
     "sp_accordion_edRB9w",
     "separator_LKQDAF",
     "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
