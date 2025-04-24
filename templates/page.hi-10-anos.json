@@ -276,6 +276,61 @@
         "smb_xs": 0
       }
     },
+    "sp_review_grid_2_iUgXaP": {
+      "type": "sp-review-grid-2",
+      "blocks": {
+        "review_qMDfLj": {
+          "type": "review",
+          "settings": {
+            "quote": "<strong>FUTURE SKILLS MASTERCLASS</strong>",
+            "cite": "São Paulo | Programação feita para refletir sobre os próximos 10 anos.",
+            "cta_link": ""
+          }
+        },
+        "review_JHabEY": {
+          "type": "review",
+          "settings": {
+            "quote": "<strong>PROMOÇÃO</strong>",
+            "cite": "50% off em todos os Cursos durante o mês de Maio",
+            "cta_link": ""
+          }
+        },
+        "review_tEwTKQ": {
+          "type": "review",
+          "settings": {
+            "quote": "<strong>NEWSLETTER COMEMORATIVA</strong>",
+            "cite": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
+            "cta_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_qMDfLj",
+        "review_JHabEY",
+        "review_tEwTKQ"
+      ],
+      "name": "🚀SP - Review Grid",
+      "settings": {
+        "override_fonts": false,
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "text_line_height": "inherit",
+        "text_color": "#fff",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
+        "cover_opacity": 25,
+        "highlight_color": "#FFFFFF",
+        "max_width": 1000,
+        "grid_gap": 20,
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "padding_left": 10,
+        "padding_right": 10,
+        "element_spacing": 15,
+        "media_radius": 5,
+        "media_shadow": false
+      }
+    },
     "sp_review_grid_QLeTei": {
       "type": "sp-review-grid",
       "blocks": {
@@ -1029,6 +1084,7 @@
     "content_UQxdit",
     "content_3pBf4H",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
+    "sp_review_grid_2_iUgXaP",
     "sp_review_grid_QLeTei",
     "sp_accordion_edRB9w",
     "separator_LKQDAF",
