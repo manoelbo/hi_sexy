@@ -11,8 +11,11 @@
   "sections": {
     "html_eUWjEm": {
       "type": "html",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.header__search summary {border: 2px solid; border-radius: var(--inputs-radius); width: 250px; padding: 1rem; text-decoration: none; } .header__icon span {justify-content: flex-start; } .header__search summary, .header__icon span:after {color: white !important; border-radius: 15px; }}"
+      ],
       "settings": {
-        "html": "<div id=\"topo\"><\/div>",
+        "html": "<div id=\"topo\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -79,10 +82,10 @@
         "content_c97ckG": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#acao\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#acao\">Ativando Ação<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#acao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#acao\">Ativando Ação</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M221.4,63.3h44.9c9.5,0,18.5-4.6,24-12.3c9.6,13.3,28.2,16.3,41.5,6.7s16.3-28.2,6.7-41.5S310.3-0.1,297,9.5\n\tc-2.6,1.9-4.8,4.1-6.7,6.7c-5.6-7.7-14.5-12.3-24-12.3h-75.2c-0.4,0-0.7,0-1.1,0V0h-67.2v87.7H148c1,22.2,19.8,39.3,42,38.3\n\tc12.1-0.6,23.3-6.5,30.5-16.3h123.6V68.7H224.5C223.6,66.8,222.6,65,221.4,63.3z M314.4,7.6c14.4,0,26,11.6,26,26\n\tc0,14.4-11.6,26-26,26c-8.9,0-17.1-4.5-21.9-12c4.7-8.7,4.7-19.2,0-28C297.2,12.2,305.5,7.6,314.4,7.6z M288.4,33.6\n\tc0-3.4,0.7-6.7,2-9.9c2.6,6.3,2.6,13.4,0,19.7C289,40.4,288.4,37,288.4,33.6z M191.1,7.6h75.2c8.9,0,17.1,4.5,21.9,12\n\tc-4.7,8.7-4.7,19.2,0,28c-4.8,7.5-13,12-21.9,12h-47.7c-7.2-8.4-17.5-13.4-28.6-13.9V7.7C190.3,7.6,190.7,7.6,191.1,7.6z\n\t M186.3,45.7c-5.4,0.2-10.7,1.6-15.6,4c-8.9-11.2-7-27.5,4.3-36.4c3.3-2.6,7.2-4.4,11.4-5.2V45.7z M186.3,62.9V84h-34.6\n\tc0.6-12.3,7.5-23.5,18.1-29.7C174.2,58.9,180,61.9,186.3,62.9z M173.3,52.5c4.1-1.8,8.5-2.9,13-3.1v9.7\n\tC181.4,58.2,176.9,55.9,173.3,52.5z M190,49.4c8.8,0.4,17.1,4.1,23.5,10.2h-22.4c-0.4,0-0.7,0-1.1,0V49.4z M126.5,3.7h59.8v0.6\n\tc-16.2,2.6-27.2,17.8-24.6,34c0.8,4.8,2.7,9.3,5.6,13.2c-11.5,7-18.8,19.2-19.4,32.6h-21.5V3.7z M188.1,122.4\n\tc-19.4,0-35.5-15.3-36.5-34.7H190V63.3c0.4,0,0.7,0,1.1,0h25.8c1.3,1.7,2.5,3.5,3.5,5.4h-10.9v41.2h6.2\n\tC208.8,117.8,198.7,122.4,188.1,122.4z M224.7,85.9c0,7.2-2.1,14.2-6.1,20.2h-5.4V72.4h8.9C223.8,76.7,224.7,81.3,224.7,85.9z\n\t M340.4,72.4v33.7H222.9c6-10.2,7.1-22.6,3.1-33.7H340.4z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M221.4,63.3h44.9c9.5,0,18.5-4.6,24-12.3c9.6,13.3,28.2,16.3,41.5,6.7s16.3-28.2,6.7-41.5S310.3-0.1,297,9.5\n\tc-2.6,1.9-4.8,4.1-6.7,6.7c-5.6-7.7-14.5-12.3-24-12.3h-75.2c-0.4,0-0.7,0-1.1,0V0h-67.2v87.7H148c1,22.2,19.8,39.3,42,38.3\n\tc12.1-0.6,23.3-6.5,30.5-16.3h123.6V68.7H224.5C223.6,66.8,222.6,65,221.4,63.3z M314.4,7.6c14.4,0,26,11.6,26,26\n\tc0,14.4-11.6,26-26,26c-8.9,0-17.1-4.5-21.9-12c4.7-8.7,4.7-19.2,0-28C297.2,12.2,305.5,7.6,314.4,7.6z M288.4,33.6\n\tc0-3.4,0.7-6.7,2-9.9c2.6,6.3,2.6,13.4,0,19.7C289,40.4,288.4,37,288.4,33.6z M191.1,7.6h75.2c8.9,0,17.1,4.5,21.9,12\n\tc-4.7,8.7-4.7,19.2,0,28c-4.8,7.5-13,12-21.9,12h-47.7c-7.2-8.4-17.5-13.4-28.6-13.9V7.7C190.3,7.6,190.7,7.6,191.1,7.6z\n\t M186.3,45.7c-5.4,0.2-10.7,1.6-15.6,4c-8.9-11.2-7-27.5,4.3-36.4c3.3-2.6,7.2-4.4,11.4-5.2V45.7z M186.3,62.9V84h-34.6\n\tc0.6-12.3,7.5-23.5,18.1-29.7C174.2,58.9,180,61.9,186.3,62.9z M173.3,52.5c4.1-1.8,8.5-2.9,13-3.1v9.7\n\tC181.4,58.2,176.9,55.9,173.3,52.5z M190,49.4c8.8,0.4,17.1,4.1,23.5,10.2h-22.4c-0.4,0-0.7,0-1.1,0V49.4z M126.5,3.7h59.8v0.6\n\tc-16.2,2.6-27.2,17.8-24.6,34c0.8,4.8,2.7,9.3,5.6,13.2c-11.5,7-18.8,19.2-19.4,32.6h-21.5V3.7z M188.1,122.4\n\tc-19.4,0-35.5-15.3-36.5-34.7H190V63.3c0.4,0,0.7,0,1.1,0h25.8c1.3,1.7,2.5,3.5,3.5,5.4h-10.9v41.2h6.2\n\tC208.8,117.8,198.7,122.4,188.1,122.4z M224.7,85.9c0,7.2-2.1,14.2-6.1,20.2h-5.4V72.4h8.9C223.8,76.7,224.7,81.3,224.7,85.9z\n\t M340.4,72.4v33.7H222.9c6-10.2,7.1-22.6,3.1-33.7H340.4z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -90,10 +93,10 @@
         "content_GHi436": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#autolideranca\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#autolideranca\">Autoliderança<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\" title=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\">Autoliderança</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -101,10 +104,10 @@
         "content_9EyEYz": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#criatividade\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#criatividade\">Criatividade<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#criatividade\" title=\"https://www.hyperisland.com.br/pages/toolbox/#criatividade\">Criatividade</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 467 173\" style=\"enable-background:new 0 0 467 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M342.6,59.6L299.7,0H140.2c-9.4,0-17,7.6-17,17v92.2c0,9.4,7.6,17,17,17l0,0h159.5l42.9-59.6\n\tC344.1,64.4,344.1,61.7,342.6,59.6z M127,109.1V16.9c0-7.3,6-13.3,13.3-13.3h12.5v118.8h-12.5C132.9,122.4,127,116.5,127,109.1z\n\t M164.7,122.4h-8.2V3.7h8.2V122.4z M168.3,40.1H297V86H168.3V40.1z M300.6,7.5l22.6,31.4v48.3l-22.5,31.3L300.6,7.5z M296.9,3.7\n\tv32.8H168.3V3.7H296.9z M168.3,89.7h128.6v32.8H168.3V89.7z M339.6,64.3l-12.8,17.8V44l12.8,17.8C340.1,62.5,340.1,63.5,339.6,64.3z\n\t\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 467 173\" style=\"enable-background:new 0 0 467 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M342.6,59.6L299.7,0H140.2c-9.4,0-17,7.6-17,17v92.2c0,9.4,7.6,17,17,17l0,0h159.5l42.9-59.6\n\tC344.1,64.4,344.1,61.7,342.6,59.6z M127,109.1V16.9c0-7.3,6-13.3,13.3-13.3h12.5v118.8h-12.5C132.9,122.4,127,116.5,127,109.1z\n\t M164.7,122.4h-8.2V3.7h8.2V122.4z M168.3,40.1H297V86H168.3V40.1z M300.6,7.5l22.6,31.4v48.3l-22.5,31.3L300.6,7.5z M296.9,3.7\n\tv32.8H168.3V3.7H296.9z M168.3,89.7h128.6v32.8H168.3V89.7z M339.6,64.3l-12.8,17.8V44l12.8,17.8C340.1,62.5,340.1,63.5,339.6,64.3z\n\t\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -112,10 +115,10 @@
         "content_izUcfc": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#energizadores\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#energizadores\">Energizadores<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\" title=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\">Energizadores</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -123,10 +126,10 @@
         "content_f4QxCe": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#equipes\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#equipes\">Equipes<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\" title=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\">Equipes</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -134,10 +137,10 @@
         "content_4MEW9r": {
           "type": "content",
           "settings": {
-            "title": "<a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#inovacao\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#inovacao\">Inovação<\/a>",
+            "title": "<a href=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\">Inovação</a>",
             "text": "",
             "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"><\/path>\n<\/svg>",
+            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M201.2,0v17.1c-2.1-0.3-4.2-0.4-6.3-0.4h-25.7c-25.6,0-46.4,20.8-46.4,46.4c0,25.6,20.8,46.4,46.4,46.4h25.7\n\tc2.1,0,4.2-0.1,6.3-0.4V126H344V0H201.2z M237.5,63c0,19.7-13.5,36.8-32.6,41.5v-83C224,26.2,237.5,43.3,237.5,63z M201.2,22v82.1\n\tc-22.7-6.4-35.9-30-29.5-52.7C175.8,37.2,186.9,26,201.2,22z M241.2,63c0-18.6-11.1-35.4-28.2-42.7h25.5c23.6,0,42.7,19.1,42.7,42.7\n\ts-19.1,42.7-42.7,42.7l0,0H213C230.1,98.4,241.2,81.6,241.2,63z M126.5,63c0-23.6,19.1-42.6,42.7-42.7h25.5\n\tc-23.6,10-34.5,37.3-24.5,60.8c4.7,11,13.5,19.8,24.5,24.5h-25.5C145.6,105.7,126.6,86.6,126.5,63z M340.3,122.3H204.9v-13.6\n\tc2.6,0.4,5.2,0.7,7.9,0.7h25.7c25.6,0,46.4-20.8,46.4-46.4c0-25.6-20.8-46.4-46.4-46.4h-25.7c-2.6,0-5.3,0.2-7.9,0.7V3.7h135.4\n\tL340.3,122.3z\"></path>\n</svg>",
             "bg_color": "",
             "bg_gradient": ""
           }
@@ -211,10 +214,10 @@
         "text_align": "text-center",
         "title": "Navegue entre as categorias",
         "title_size": "h2",
-        "description": "<p><\/p><p><\/p><p><a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#acao\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#acao\">Ativando Ação  | <\/a> <a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#autolideranca\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#autolideranca\">Autoliderança  |<\/a>  <a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#energizadores\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#energizadores\">Energizadores  | <\/a> <a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#equipes\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#equipes\">Equipes  |<\/a>  <a href=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#inovacao\" title=\"https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#inovacao\">Inovação e Criatividade<\/a><\/p><p><\/p>",
+        "description": "<p></p><p></p><p><a href=\"https://www.hyperisland.com.br/pages/toolbox/#acao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#acao\">Ativando Ação  | </a> <a href=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\" title=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\">Autoliderança  |</a>  <a href=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\" title=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\">Energizadores  | </a> <a href=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\" title=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\">Equipes  |</a>  <a href=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\">Inovação e Criatividade</a></p><p></p>",
         "description_size": "fs-5",
         "btn_text": "",
-        "btn_url": "https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#inovacao",
+        "btn_url": "https://www.hyperisland.com.br/pages/toolbox/#inovacao",
         "btn_color": "btn-primary",
         "btn_size": "",
         "pt": 11,
@@ -226,7 +229,7 @@
     "html_tQR8gX": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"acao\"><\/div>",
+        "html": "<div id=\"acao\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -317,176 +320,176 @@
         "card_9J4w9N": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Dotmocracy_Votacao_por_pontos_icone.png",
+            "img": "shopify://shop_images/Dotmocracy_Votacao_por_pontos_icone.png",
             "category_id": "Ação",
             "title": "Dotmocracy (Votação por pontos)",
             "text": "Método simples para a priorização ou a tomada de decisões em grupo. Não é uma atividade em si, mas um método a ser usado em processos onde a priorização ou tomada de decisão é necessária. Ajuda a identificar rapidamente quais opções são mais relevantes para o grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/dotmocracy-votacao-por-pontos",
+            "url": "shopify://metaobjects/toolbox_new/dotmocracy-votacao-por-pontos",
             "target": false
           }
         },
         "card_X7d6eL": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3_passos_para_acao.png",
+            "img": "shopify://shop_images/3_passos_para_acao.png",
             "category_id": "Ação",
             "title": "3 passos para ação",
             "text": "Esta é uma sessão de planejamento estratégico, em pequena escala, que ajuda grupos e indivíduos a partirem para ação, em direção a mudança desejada. Muitas vezes, é usado ao final de um workshop. Neste exercício o grupo define uma visão e cria algumas etapas de ação para alcançar essa visão. O escopo do desafio também é definido, através da discussão dos fatores que são úteis e nocivos para o grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/3-passos-para-acao",
+            "url": "shopify://metaobjects/toolbox_new/3-passos-para-acao",
             "target": true
           }
         },
         "card_zrbPz3": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Projeto_ponto_de_partida.png",
+            "img": "shopify://shop_images/Projeto_ponto_de_partida.png",
             "category_id": "Ação",
             "title": "Projeto ponto de partida",
             "text": "Este é um método para definir estrutura, direcionamento e primeiros passos de um projeto para ser feito sozinho ou em grupo. Deve-se responder uma lista de perguntas, registrando a resposta num formato digital que possa ser compartilhado. Pode ser tanto um documento \"vivo\" que se desenvolve com o projeto ou ser um registro claro e conciso do ponto de partida.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/projeto-ponto-de-partida",
+            "url": "shopify://metaobjects/toolbox_new/projeto-ponto-de-partida",
             "target": false
           }
         },
         "card_bEKY8p": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Avaliacao_da_evolucao_do_Projeto.png",
+            "img": "shopify://shop_images/Avaliacao_da_evolucao_do_Projeto.png",
             "category_id": "Ação",
             "title": "Avaliação da evolução do Projeto",
             "text": "Este método é útil para avaliar um projeto em andamento e verificar se é necessário fazer ajustes para que a equipe trabalhe de forma mais eficaz em conjunto. Ele fornece uma estrutura para discussão onde os participantes se concentram nas coisas que ajudam e impedem o processo da equipe e criam etapas de melhorias.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/avaliacao-da-evolucao-do-projeto",
+            "url": "shopify://metaobjects/toolbox_new/avaliacao-da-evolucao-do-projeto",
             "target": false
           }
         },
         "card_FnmFWp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Estacionamento.png",
+            "img": "shopify://shop_images/Estacionamento.png",
             "category_id": "Ação",
             "title": "Estacionamento",
             "text": "Esta é uma ferramenta de negócios clássica usada para manter reuniões e workshops focados em seu propósito. Durante as discussões, muitas vezes surgirão questões que são importantes, mas não são totalmente relevantes para propósito que está sendo trabalhado no momento. Essas questões ou problemas, então, devem ficar \"estacionados\" em um flipchart, para serem endereçados e respondidos mais tarde. ",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/estacionamento",
+            "url": "shopify://metaobjects/toolbox_new/estacionamento",
             "target": false
           }
         },
         "card_6MDX8V": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Revisando_o_projeto.png",
+            "img": "shopify://shop_images/Revisando_o_projeto.png",
             "category_id": "Ação",
             "title": "Revisando o projeto",
             "text": "Esta sessão é para que os membros de uma equipe possam aprender com suas experiências em um projeto, para apoiar o desenvolvimento deles e oferecer um encerramento para a equipe. Eles começam desenhando os pontos altos e baixos do projeto, e usam estes para iniciar uma discussão sobre o que aprenderam. Eles definem algumas ações que levarão para projetos futuros, e dão feedback uns aos outros para desenvolver o grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/revisando-o-projeto",
+            "url": "shopify://metaobjects/toolbox_new/revisando-o-projeto",
             "target": false
           }
         },
         "card_fQCkdw": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Uma_carta_para_mim.png",
+            "img": "shopify://shop_images/Uma_carta_para_mim.png",
             "category_id": "Ação",
             "title": "Uma carta para mim",
             "text": "Muitas utilizado ao final de um workshop, o propósito deste exercício é apoiar os participantes a implementar suas idéias e aprendizados. Os participantes, então, devem escrever uma carta para eles próprios, no futuro, onde eles podem definir quais ações gostariam que o seu “eu do futuro” realizasse e expressar as razões pelas quais a mudança precisa acontecer.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/uma-carta-para-mim",
+            "url": "shopify://metaobjects/toolbox_new/uma-carta-para-mim",
             "target": false
           }
         },
         "card_MUefWg": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Workshop_de_Plano_de_Acao_a_seta.png",
+            "img": "shopify://shop_images/Workshop_de_Plano_de_Acao_a_seta.png",
             "category_id": "Ação",
             "title": "Workshop de Plano de Ação: a seta",
             "text": "Este workshop tem como objetivo ajudar os participantes a definir, decidir e alcançar seus objetivos. Ele apoia os participantes a imaginar onde eles querem estar no futuro, em um nível holístico, e ajuda a definir os passos que os levarão até lá. Ao final, os participantes terão uma imagem mais clara das ações que eles precisam realizar.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/workshop-de-plano-de-acao-a-seta",
+            "url": "shopify://metaobjects/toolbox_new/workshop-de-plano-de-acao-a-seta",
             "target": false
           }
         },
         "card_rDLyae": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Planejamento_de_Reunioes_IDOARRT.png",
+            "img": "shopify://shop_images/Planejamento_de_Reunioes_IDOARRT.png",
             "category_id": "Ação",
             "title": "Planejamento de Reuniões IDOARRT",
             "text": "IDOARRT é uma ferramenta simples que ajuda você a conduzir um processo em grupo ou uma reunião eficaz ao determinar claramente, logo no início, seu propósito, estrutura e objetivos. A ideia é que todos os participantes compreendam todos os aspectos da reunião ou processo, criando assim um terreno comum seguro para começar.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/planejamento-de-reunioes-idoarrt",
+            "url": "shopify://metaobjects/toolbox_new/planejamento-de-reunioes-idoarrt",
             "target": false
           }
         },
         "card_NP6yyH": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Participantes_dificeis.png",
+            "img": "shopify://shop_images/Participantes_dificeis.png",
             "category_id": "Ação",
             "title": "Participantes difíceis",
             "text": "Esta é uma atividade de compartilhamento estruturado que nos permite explorar técnicas para lidar com participantes que interrompem sessões interativas. Pode ser opressor lidar com participantes difíceis durante uma reunião. Uma sessão prática e útil para facilitadores, treinadores, professores, coaches - qualquer pessoa que esteja liderando um encontro interativo de pessoas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/participantes-dificeis",
+            "url": "shopify://metaobjects/toolbox_new/participantes-dificeis",
             "target": false
           }
         },
         "card_AJMbpg": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Chapeus_de_Feedback.png",
+            "img": "shopify://shop_images/Chapeus_de_Feedback.png",
             "category_id": "Ação",
             "title": "Chapéus de Feedback",
             "text": "Como atividade de feedback, os chapéus do pensamento fornecem lentes diferentes para feedback construtivo dos colegas sobre ideias e conceitos.  Os membros da equipe apresentam ideias ou trabalhos em andamento para o restante da equipe. Pessoas selecionadas dão feedback aos apresentadores da perspectiva de um dos chapéus do pensamento de Bono.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/chapeus-de-feedback",
+            "url": "shopify://metaobjects/toolbox_new/chapeus-de-feedback",
             "target": false
           }
         },
         "card_ByUJJy": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Balao_de_ar_quente.png",
+            "img": "shopify://shop_images/Balao_de_ar_quente.png",
             "category_id": "Ação",
             "title": "Balão de ar quente",
             "text": "O balão de ar quente é um método metafórico que visa identificar pontos fortes, pontos fracos, forças externas, partes interessadas e objetivos, tudo em um processo simples e bem estruturado. O charme é que você não está contando com outra matriz monótona, mas na verdade passando por uma jornada imaginária que nos envolve a pensar fora de nossos padrões de pensamento típicos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/balao-de-ar-quente",
+            "url": "shopify://metaobjects/toolbox_new/balao-de-ar-quente",
             "target": false
           }
         },
         "card_jfYqnj": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Decisao_Relampago_Improvisada.png",
+            "img": "shopify://shop_images/Decisao_Relampago_Improvisada.png",
             "category_id": "Ação",
             "title": "Decisão Relâmpago Improvisada",
             "text": "O problema com qualquer coisa que exija pensamento criativo é que é fácil se perder, perder o foco e cair na armadilha de ter discussões inúteis, abertas e não estruturadas. Aqui está uma solução eficaz: Substitua toda discussão aberta e não estruturada por um processo claro.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/decisao-relampago-improvisada",
+            "url": "shopify://metaobjects/toolbox_new/decisao-relampago-improvisada",
             "target": false
           }
         },
         "card_NwAF87": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Analise_de_Stakeholders.png",
+            "img": "shopify://shop_images/Analise_de_Stakeholders.png",
             "category_id": "Ação",
             "title": "Análise de Stakeholders",
             "text": "Este workshop ajuda você a identificar os \"stakeholders\" do seu projeto, e a levar em consideração todos os que influenciam significativamente uma decisão ou podem ser afetados por ela. Identificar quem tem vários níveis de contribuição e interesse em seus projetos pode ajudar a alinhar as decisões. Uma análise de \"stakeholders\" pode ajudá-lo a desenvolver uma estratégia eficaz para se comunicar com essas pessoas importantes e gerenciar suas expectativas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/analise-de-stakeholders",
+            "url": "shopify://metaobjects/toolbox_new/analise-de-stakeholders",
             "target": false
           }
         },
         "card_diTbBW": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Proximo_Querido.png",
+            "img": "shopify://shop_images/Proximo_Querido.png",
             "category_id": "Ação",
             "title": "Próximo & Querido",
             "text": "Esta ferramenta ajuda a identificar quem realmente tem um interesse no resultado e permite que o grupo obtenha uma perspectiva sobre qual voz (ou vozes) deve ser uma prioridade no processo decisório.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/proximo-querido",
+            "url": "shopify://metaobjects/toolbox_new/proximo-querido",
             "target": false
           }
         },
         "card_HM4f3z": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Pensamento_Sistemico_O_Modelo_do_Iceberg.png",
+            "img": "shopify://shop_images/Pensamento_Sistemico_O_Modelo_do_Iceberg.png",
             "category_id": "Ação",
             "title": "Pensamento Sistêmico: O Modelo do Iceberg",
             "text": "O pensamento sistêmico é uma maneira de abordar problemas que pergunta como vários elementos dentro de um sistema - que pode ser um ecossistema, uma organização ou algo mais disperso, como uma cadeia de suprimentos - influenciam uns aos outros. Em vez de reagir a problemas individuais que surgem, um pensador de sistemas perguntará sobre relacionamentos com outras atividades dentro do sistema, procurará padrões ao longo do tempo e buscará causas raiz.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/pensamento-sistemico-o-modelo-do-iceberg",
+            "url": "shopify://metaobjects/toolbox_new/pensamento-sistemico-o-modelo-do-iceberg",
             "target": false
           }
         }
@@ -539,7 +542,7 @@
     "html_DrMaWJ": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"autolideranca\"><\/div>",
+        "html": "<div id=\"autolideranca\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -630,209 +633,209 @@
         "card_RqbqKN": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Escuta_ativa.png",
+            "img": "shopify://shop_images/Escuta_ativa.png",
             "category_id": "Auto-Liderança",
             "title": "Escuta ativa",
             "text": "Esta atividade apoia os participantes a refletir sobre uma questão e gerar suas próprias soluções usando princípios simples de escuta ativa. É uma excelente introdução à escuta ativa, mas também pode ser usada com grupos que já estão familiarizados com ela. Os participantes trabalham em grupos de três e se revezam como \"o sujeito\", “o ouvinte” e “o observador”.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/escuta-ativa",
+            "url": "shopify://metaobjects/toolbox_new/escuta-ativa",
             "target": false
           }
         },
         "card_QPRfV6": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Stinky_Fish_peixe_fedido.png",
+            "img": "shopify://shop_images/Stinky_Fish_peixe_fedido.png",
             "category_id": "Auto-Liderança",
             "title": "Stinky Fish (peixe fedido)",
             "text": "O foco é o compartilhamento de medos, ansiedades e incertezas relacionadas ao tema do workshop ou atividade proposta. O propósito é criar abertura e confiança dentro do grupo. O Stinky Fish é uma metáfora para: \"aquilo que você carrega consigo e não gosta de falar sobre, porém por mais tempo que você esconda isso, mais vai cheirar mal\".",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/stinky-fish-peixe-fedido",
+            "url": "shopify://metaobjects/toolbox_new/stinky-fish-peixe-fedido",
             "target": false
           }
         },
         "card_tKe6cf": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Feedback_o_que_eu_mais_aprecio.png",
+            "img": "shopify://shop_images/Feedback_o_que_eu_mais_aprecio.png",
             "category_id": "Auto-Liderança",
             "title": "Feedback: o que eu mais aprecio…",
             "text": "Os exercícios de feedback têm como objetivo construir confiança e colaboração no grupo e também autoconsciência e percepção para os indivíduos. Este é um bom exercício de feedback inicial quando os membros do grupo ainda estão se conhecendo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/feedback-o-que-eu-mais-aprecio",
+            "url": "shopify://metaobjects/toolbox_new/feedback-o-que-eu-mais-aprecio",
             "target": false
           }
         },
         "card_RYwfFQ": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Feedback_Comecar_Parar_Continuar.png",
+            "img": "shopify://shop_images/Feedback_Comecar_Parar_Continuar.png",
             "category_id": "Autoliderança",
             "title": "Feedback: Começar, Parar, Continuar",
             "text": "Os exercícios de feedback visam apoiar grupos a criarem confiança e colaboração, para que os indivíduos obtenham autoconsciência e percepção. Este é um exercício para grupos ou equipes que trabalham juntos por algum tempo e estão familiarizados com dar e receber feedback. Ele usa as palavras \"parar\", \"iniciar\" e \"continuar\" para orientar as mensagens de feedback.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/feedback-comecar-parar-continuar",
+            "url": "shopify://metaobjects/toolbox_new/feedback-comecar-parar-continuar",
             "target": false
           }
         },
         "card_YLaRc8": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Feedback_Impressao_atual_mais_forte.png",
+            "img": "shopify://shop_images/Feedback_Impressao_atual_mais_forte.png",
             "category_id": "Autoliderança",
             "title": "Feedback: Impressão atual mais forte",
             "text": "Os exercícios de feedback devem sempre ser conduzidos com atenção e consciência da dinâmica de grupo. Temos aqui um bom primeiro exercício de feedback que ajuda o participante a tentar dar e receber um tipo de feedback muito básico de forma segura.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/feedback-impressao-atual-mais-forte",
+            "url": "shopify://metaobjects/toolbox_new/feedback-impressao-atual-mais-forte",
             "target": false
           }
         },
         "card_NcwWqy": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Explore_os_seus_valores.png",
+            "img": "shopify://shop_images/Explore_os_seus_valores.png",
             "category_id": "Autoliderança",
             "title": "Explore os seus valores",
             "text": "\"Explore os seus valores\" é um exercício para os participantes explorarem quais são seus valores mais importantes. Ele é feito de forma intuitiva e rápida para encorajar os participantes a seguir sua intuição ao invés de pensar demais para encontrar os valores \"corretos\". É um bom exercício para iniciar a reflexão e o diálogo em torno de valores pessoais.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/explore-os-seus-valores",
+            "url": "shopify://metaobjects/toolbox_new/explore-os-seus-valores",
             "target": false
           }
         },
         "card_Faxtec": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Principios_do_feedback_eficaz.png",
+            "img": "shopify://shop_images/Principios_do_feedback_eficaz.png",
             "category_id": "Autoliderança",
             "title": "Princípios do feedback eficaz",
             "text": "O objetivo deste exercício é que o grupo discuta, defina e chegue a um acordo sobre princípios fundamentais do feedback eficaz. Os participantes discutem exemplos de feedback eficaz e ineficaz em dupla, depois trabalham com o grupo para definir o que é um \"feedback eficaz\". Depois, em grupo, criam uma lista de princípios que terão como objetivo trabalhar.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/principios-do-feedback-eficaz",
+            "url": "shopify://metaobjects/toolbox_new/principios-do-feedback-eficaz",
             "target": false
           }
         },
         "card_z99Hjm": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Feedback_em_grupo.png",
+            "img": "shopify://shop_images/Feedback_em_grupo.png",
             "category_id": "Autoliderança",
             "title": "Feedback em grupo",
             "text": "O Feedback em grupo é um exercício em que cada membro de um grupo dá feedback a todos os outros membros do grupo. Muitas vezes usado como atividade de fechamento, ele visa facilitar o feedback, gerar energia positiva e criar um senso de equipe.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/feedback-em-grupo",
+            "url": "shopify://metaobjects/toolbox_new/feedback-em-grupo",
             "target": false
           }
         },
         "card_a9TCCK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Feedback_de_costas.png",
+            "img": "shopify://shop_images/Feedback_de_costas.png",
             "category_id": "Autoliderança",
             "title": "Feedback de costas",
             "text": "O feedback regular e efetivo é um dos ingredientes mais importantes na construção de relacionamentos e equipes. Colaboração cria confiança e confiança cria ainda mais colaboração. Os exercícios de feedback têm como objetivo construir confiança e colaboração no grupo e também autoconsciência e percepção para os indivíduos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/feedback-de-costas",
+            "url": "shopify://metaobjects/toolbox_new/feedback-de-costas",
             "target": false
           }
         },
         "card_nECUWt": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Avaliacao_pessoal_SWOB.png",
+            "img": "shopify://shop_images/Avaliacao_pessoal_SWOB.png",
             "category_id": "Autoliderança",
             "title": "Avaliação pessoal SWOB",
-            "text": "Um workshop versátil para avaliação pessoal e planejamento de ações, em que os participantes usam o modelo SWOB (Strengths \/ Forças, Weaknesses \/ Fraquezas, Opportunities \/ Oportunidades e Barriers \/ Barreiras) para se avaliar e refletir sobre áreas-chave para o desenvolvimento e criar um plano de ação conciso.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/avaliacao-pessoal-swob",
+            "text": "Um workshop versátil para avaliação pessoal e planejamento de ações, em que os participantes usam o modelo SWOB (Strengths / Forças, Weaknesses / Fraquezas, Opportunities / Oportunidades e Barriers / Barreiras) para se avaliar e refletir sobre áreas-chave para o desenvolvimento e criar um plano de ação conciso.",
+            "url": "shopify://metaobjects/toolbox_new/avaliacao-pessoal-swob",
             "target": false
           }
         },
         "card_HEFKMj": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mapa_do_Feedback.png",
+            "img": "shopify://shop_images/Mapa_do_Feedback.png",
             "category_id": "Autoliderança",
             "title": "Mapa do Feedback",
             "text": "Este é um exercício de feedback para apoiar os participantes a enviar comentários que sejam claros e específicos, especialmente depois de trabalhar em equipes de projetos multidisciplinares por um longo período de tempo. A equipe mapeia as conexões entre indivíduos e, em seguida, usa pontos específicos de interação para obter feedback imediato.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mapa-do-feedback",
+            "url": "shopify://metaobjects/toolbox_new/mapa-do-feedback",
             "target": false
           }
         },
         "card_9yqHUL": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Reflexao_Individual.png",
+            "img": "shopify://shop_images/Reflexao_Individual.png",
             "category_id": "Autoliderança",
             "title": "Reflexão: Individual",
             "text": "A reflexão individual ajuda a analisar as experiências complexas, para que os seus sucessos possam ser repetidos e as falhas evitadas no futuro. O formato desta ferramenta é flexível. Você será guiado por meio dos estágios-chave do processo de reflexão e ao fim final do processo, terminará com pontos-chave para ação.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/reflexao-individual",
+            "url": "shopify://metaobjects/toolbox_new/reflexao-individual",
             "target": false
           }
         },
         "card_QgJLdY": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/5-4-3-2-1_Tecnica_de_Aterramento.png",
+            "img": "shopify://shop_images/5-4-3-2-1_Tecnica_de_Aterramento.png",
             "category_id": "Bem-Estar",
             "title": "5-4-3-2-1 Técnica de Aterramento",
             "text": "Este exercício de 5 etapas pode apoiar as pessoas em momentos de estresse, ajudando-as a se firmar no momento presente quando seu foco está sendo distraído por pensamentos inúteis.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/5-4-3-2-1-tecnica-de-aterramento",
+            "url": "shopify://metaobjects/toolbox_new/5-4-3-2-1-tecnica-de-aterramento",
             "target": false
           }
         },
         "card_cYFb7e": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Treine-se_para_sair_de_um_problema_em_3_etapas.png",
+            "img": "shopify://shop_images/Treine-se_para_sair_de_um_problema_em_3_etapas.png",
             "category_id": "Bem-Estar",
             "title": "Treine-se para sair de um problema em 3 etapas",
-            "text": "A vida é cheia de contrastes, bom ou mau, claro ou escuro, feliz ou triste, com ou sem - então precisamos de alguns processos\/ferramentas\/métodos para nos facilitar ir para um lugar melhor. Além disso, quando as coisas estão em alta e para cima, ainda é útil organizar sua própria caixa de ferramentas para construir a si mesmo e apoiar os outros.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/treine-se-para-sair-de-um-problema-em-3-etapas",
+            "text": "A vida é cheia de contrastes, bom ou mau, claro ou escuro, feliz ou triste, com ou sem - então precisamos de alguns processos/ferramentas/métodos para nos facilitar ir para um lugar melhor. Além disso, quando as coisas estão em alta e para cima, ainda é útil organizar sua própria caixa de ferramentas para construir a si mesmo e apoiar os outros.",
+            "url": "shopify://metaobjects/toolbox_new/treine-se-para-sair-de-um-problema-em-3-etapas",
             "target": false
           }
         },
         "card_hkQUaU": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mentalidade_de_pensamento_critico.png",
+            "img": "shopify://shop_images/Mentalidade_de_pensamento_critico.png",
             "category_id": "Autoliderança",
             "title": "Mentalidade de pensamento crítico",
             "text": "O pensamento crítico envolve a avaliação de fontes como dados, fatos, mídia, histórias, fenômenos observáveis e resultados de pesquisas. Bons pensadores críticos podem tirar conclusões razoáveis de um conjunto de informações e discriminar entre detalhes úteis e menos úteis para resolver um problema ou para tomar uma decisão.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mentalidade-de-pensamento-critico",
+            "url": "shopify://metaobjects/toolbox_new/mentalidade-de-pensamento-critico",
             "target": false
           }
         },
         "card_hTtwp8": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Exercicios_e_atividades_de_gratidao_55d35bd1-a721-4465-9fb0-8c60e3c699f4.png",
+            "img": "shopify://shop_images/Exercicios_e_atividades_de_gratidao_55d35bd1-a721-4465-9fb0-8c60e3c699f4.png",
             "category_id": "Bem-Estar",
             "title": "Exercícios e atividades de gratidão",
             "text": "Embora seja admirável compartilhar nossa gratidão e bons sentimentos com os outros, raramente paramos para pensar sobre o que agradecer aos outros pode fazer por nós. Acontece que isso faz muito pelo nosso cérebro e pelo nosso bem-estar mental.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/exercicios-e-atividades-de-gratidao",
+            "url": "shopify://metaobjects/toolbox_new/exercicios-e-atividades-de-gratidao",
             "target": false
           }
         },
         "card_aVCwiw": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Habito_de_Reflexao.png",
+            "img": "shopify://shop_images/Habito_de_Reflexao.png",
             "category_id": "Autoliderança",
             "title": "Hábito de Reflexão",
             "text": "Esta é uma ferramenta simples para ajudá-lo a criar um hábito que realmente gruda! É uma técnica apoiada por pesquisas que funciona muito bem e é chamada de “Reflexão de Hábito”. É poderoso porque é personalizado para sua história e experiências pessoais. Reflexão de Hábito é tudo sobre como usar as lições do seu passado no presente.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/habito-de-reflexao",
+            "url": "shopify://metaobjects/toolbox_new/habito-de-reflexao",
             "target": false
           }
         },
         "card_KQJq37": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Meu_Pacto_Diario.png",
+            "img": "shopify://shop_images/Meu_Pacto_Diario.png",
             "category_id": "Bem-Estar",
             "title": "Meu Pacto Diário",
             "text": "My Daily P.A.C.T.\" pode ser o suporte adicional de que precisamos para garantir que permaneçamos energizados, positivos e que contribuamos com nossa organização e em qualquer lugar que seja importante.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/meu-pacto-diario",
+            "url": "shopify://metaobjects/toolbox_new/meu-pacto-diario",
             "target": false
           }
         },
         "card_AkFkYk": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Projete_sua_vida_-_O_modelo_de_arco_e_flecha.png",
+            "img": "shopify://shop_images/Projete_sua_vida_-_O_modelo_de_arco_e_flecha.png",
             "category_id": "Autoliderança",
             "title": "Projete sua vida - O modelo de arco e flecha",
             "text": "Essas perguntas o ajudarão a se conectar com sua sabedoria interior e tomar decisões alinhadas com suas necessidades pessoais. Recomendamos aplicar o Modelo de Arco e Flecha quando você se sentir perdido ou perceber que algo está impedindo seu progresso, impedindo-o de buscar seus objetivos e a vida que aspira viver.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/projete-sua-vida-o-modelo-de-arco-e-flecha",
+            "url": "shopify://metaobjects/toolbox_new/projete-sua-vida-o-modelo-de-arco-e-flecha",
             "target": false
           }
         }
@@ -888,7 +891,7 @@
     "html_7NRU7U": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"criatividade\"><\/div>",
+        "html": "<div id=\"criatividade\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -979,77 +982,77 @@
         "card_chGAcp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Captura_de_conversas.png",
+            "img": "shopify://shop_images/Captura_de_conversas.png",
             "category_id": "Criatividade",
             "title": "Captura de conversas",
             "text": "Observar a vida dos outros não é apenas um elemento essencial na definição de nossas próprias identidades, mas também pode ser uma ótima faísca para a criatividade. Esta atividade foi inspirada em um post de blog de Russell Davies e é especificamente perfeita tanto para aprimorar suas habilidades de escuta e observação, quanto para transformar isso em uma saída diária no estilo documentário.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/captura-de-conversas",
+            "url": "shopify://metaobjects/toolbox_new/captura-de-conversas",
             "target": false
           }
         },
         "card_eVUxUH": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Protobot.png",
+            "img": "shopify://shop_images/Protobot.png",
             "category_id": "Criatividade",
             "title": "Protobot",
             "text": "Uma das melhores maneiras de explorar a criatividade é através da construção. Protótipos simples e de baixa fidelidade podem nos permitir transformar ideias simples (e às vezes complexas) em algo físico. Essa ferramenta foi projetada para ajudá-lo a explorar a diversão da experimentação prática. Esta é uma ótima atividade para realizar individualmente ou em grupos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/protobot",
+            "url": "shopify://metaobjects/toolbox_new/protobot",
             "target": false
           }
         },
         "card_bCD4Mp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Quantifique-se.png",
+            "img": "shopify://shop_images/Quantifique-se.png",
             "category_id": "Criatividade",
             "title": "Quantifique-se",
             "text": "O objetivo desta atividade é ajudar indivíduos e equipes a explorar o potencial dessas ferramentas de rastreamento para descobrir novos insights sobre nós mesmos e nossos comportamentos, bem como pensar em como as saídas de dados podem fazer parte do processo criativo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/quantifique-se",
+            "url": "shopify://metaobjects/toolbox_new/quantifique-se",
             "target": false
           }
         },
         "card_heBh93": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Comece_Pequeno.png",
+            "img": "shopify://shop_images/Comece_Pequeno.png",
             "category_id": "Criatividade",
             "title": "Comece Pequeno",
             "text": "Em uma mente de iniciante, há possibilidade, abertura, curiosidade: todas as qualidades que são úteis para uma exploração da criatividade. Esta atividade simples pode ser usada individualmente ou em grupos para iniciar uma oficina ou projeto ou quando você está sentindo um bloqueio criativo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/comece-pequeno",
+            "url": "shopify://metaobjects/toolbox_new/comece-pequeno",
             "target": false
           }
         },
         "card_xfP9RA": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/A_Coluna_da_Historia.png",
+            "img": "shopify://shop_images/A_Coluna_da_Historia.png",
             "category_id": "Criatividade",
             "title": "A Coluna da História",
             "text": "Começando com uma introdução envolvente, a coluna da história nos leva a uma jornada por interrupções, consequências, tensões crescentes e uma resolução satisfatória. A coluna da história é uma maneira que pode ajudá-lo a pensar na criação de uma história de marca poderosa que comunique seus valores e missão de maneira memorável e impactante, deixando uma impressão duradoura em seu público.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/a-coluna-da-historia",
+            "url": "shopify://metaobjects/toolbox_new/a-coluna-da-historia",
             "target": false
           }
         },
         "card_WFkXrK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Isso_e_Aquilo.png",
+            "img": "shopify://shop_images/Isso_e_Aquilo.png",
             "category_id": "Criatividade",
             "title": "Isso e Aquilo",
             "text": "Encontramos uma ferramenta online simples de Dave Birss que ajuda a definir objetos aleatórios que podem servir de base para sua combinação criativa.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/isso-e-aquilo",
+            "url": "shopify://metaobjects/toolbox_new/isso-e-aquilo",
             "target": false
           }
         },
         "card_7BckCi": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Passeio_Criativo.png",
+            "img": "shopify://shop_images/Passeio_Criativo.png",
             "category_id": "Criatividade",
             "title": "Passeio Criativo",
             "text": "Pesquisadores de Stanford descobriram recentemente que caminhar ao ar livre levou a quase três vezes mais ideias criativas do que ficar sentado em ambientes fechados. Essa atividade simples pode ser usada individualmente ou em grupos para iniciar uma oficina ou projeto, ou quando você sentir um bloqueio criativo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/passeio-criativo",
+            "url": "shopify://metaobjects/toolbox_new/passeio-criativo",
             "target": false
           }
         }
@@ -1093,7 +1096,7 @@
     "html_MMb8aU": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"energizadores\"><\/div>",
+        "html": "<div id=\"energizadores\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -1184,165 +1187,165 @@
         "card_xQWwcM": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Hello_Kitty.png",
+            "img": "shopify://shop_images/Hello_Kitty.png",
             "category_id": "Energizadores",
             "title": "Hello Kitty",
             "text": "Um exercício em grupo, simples e rápido, sobre tentar fazer um ao outro abrir um sorriso. Os participantes se revezam como \"gatinhos\" e \"cachorros\". Os cachorros tentam fazer as gatinhas sorrir. O último gatinho em pé é o vencedor! Um original da Agência The Northern Quarter.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/hello-kitty",
+            "url": "shopify://metaobjects/toolbox_new/hello-kitty",
             "target": false
           }
         },
         "card_RnfDbK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_Viking.png",
+            "img": "shopify://shop_images/O_Viking.png",
             "category_id": "Energizadores",
             "title": "O Viking",
             "text": "Neste exercício em grupo, os jogadores se reunam em um círculo e realizam uma série de movimentos físicos, passando de uma pessoa para a outra. Quando um jogador hesita ou comete algum erro, ele ou ela é eliminado e o jogo continua. Este exercício também gera muitas risadas no grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-viking",
+            "url": "shopify://metaobjects/toolbox_new/o-viking",
             "target": false
           }
         },
         "card_rTN6RT": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Dance_Dance_Dance.png",
+            "img": "shopify://shop_images/Dance_Dance_Dance.png",
             "category_id": "Energizadores",
             "title": "Dance, Dance, Dance",
             "text": "Nesse exercício curto e \"energizante\" os participantes dançam em pequenos grupos. Com frequência a música muda e os membros dos grupos se revezam liderando a dança. O objetivo é melhorar o clima do grupo e pode ser usado para descontrair um grupo de pessoas mais \"sérias\".",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/dance-dance-dance",
+            "url": "shopify://metaobjects/toolbox_new/dance-dance-dance",
             "target": false
           }
         },
         "card_yLR3L7": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Bang.png",
+            "img": "shopify://shop_images/Bang.png",
             "category_id": "Energizadores",
             "title": "Bang",
             "text": "Os participantes devem reagir rapidamente ou enfrentar a eliminação. Uma pessoa fica no meio do círculo como \"o xerife\", apontando para outros jogadores que devem se agachar rapidamente, enquanto os jogadores ao lado deles devem rapidamente se juntar e gritar o nome um do outro.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/bang",
+            "url": "shopify://metaobjects/toolbox_new/bang",
             "target": false
           }
         },
         "card_depeMR": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Eu_te_amo_querido.png",
+            "img": "shopify://shop_images/Eu_te_amo_querido.png",
             "category_id": "Energizadores",
             "title": "Eu te amo, querido...",
             "text": "O objetivo é fazer as pessoas sorrirem. Os participantes se revezam indo para o meio do círculo e tentando fazer outra pessoa a sorrir falando apenas \"eu te amo querido, você pode dar um sorriso para mim?\". O exercício faz com que as pessoas sorriam e ajuda a construir confiança e abertura no grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/eu-te-amo-querido",
+            "url": "shopify://metaobjects/toolbox_new/eu-te-amo-querido",
             "target": false
           }
         },
         "card_rEgJDg": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Maquina_Humana.png",
+            "img": "shopify://shop_images/Maquina_Humana.png",
             "category_id": "Energizadores",
             "title": "Máquina Humana",
             "text": "Este exercício rápido e ativo faz com que os participantes se movam e trabalhem junto para gerar energia e promover a colaboração. Os membros do grupo se tornam partes da \"máquina\", cada um fazendo um movimento físico distinto e um som, até que todo o grupo esteja trabalhando em conjunto, como uma máquina humana.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/maquina-humana",
+            "url": "shopify://metaobjects/toolbox_new/maquina-humana",
             "target": false
           }
         },
         "card_BBcF3Q": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Vamos_sacudir.png",
+            "img": "shopify://shop_images/Vamos_sacudir.png",
             "category_id": "Energizadores",
             "title": "Vamos Sacudir",
             "text": "Neste energizante e rápido exercício, o grupo sacode o seu corpo. Começando com oito sacudidas no braço direito, seguidas por 8 no braço esquerdo, 8 na perna direita, depois 8 na perna esquerda. O exercício continua com uma rodada de 4 sacudidas para cada membro, depois duas e depois uma e termina com uma grande comemoração.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/vamos-sacudir",
+            "url": "shopify://metaobjects/toolbox_new/vamos-sacudir",
             "target": false
           }
         },
         "card_mx7TBH": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Go_Bananas.png",
+            "img": "shopify://shop_images/Go_Bananas.png",
             "category_id": "Energizadores",
             "title": "Go Bananas",
             "text": "Este é um exercício físico e energizante capaz de recarregar rapidamente as energias do grupo, que deve repetir uma canção continuamente, cantando cada vez mais alto. Ao final, o grupo estará animado e pulando.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/go-bananas",
+            "url": "shopify://metaobjects/toolbox_new/go-bananas",
             "target": false
           }
         },
         "card_tWrnTE": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/png.png",
+            "img": "shopify://shop_images/png.png",
             "category_id": "Energizadores",
             "title": "Você ama o seu vizinho?",
             "text": "Os participantes sentam em um círculo e uma pessoa fica no meio. A pessoa do meio deve fazer diferentes perguntas para forçar as pessoas a se levantarem e rapidamente acharem outra cadeira. Uma pessoa sempre fica no meio sem ter lugar para sentar. É um jeito eficiente de promover o desenvolvimento do grupo ou simplesmente melhorar o clima.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/voce-ama-o-seu-vizinho",
+            "url": "shopify://metaobjects/toolbox_new/voce-ama-o-seu-vizinho",
             "target": false
           }
         },
         "card_FwLEiM": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_jogo_do_Grito.png",
+            "img": "shopify://shop_images/O_jogo_do_Grito.png",
             "category_id": "Energizadores",
             "title": "O jogo do Grito",
             "text": "Neste simples e rápido exercício, os participantes devem escolher algumas pessoas para encarar, esperando que elas não olhem de volta para eles. Sempre que o contato visual é estabelecido entre dois participantes, ambos devem gritar de forma selvagem e sair da roda. É um exercício divertido que aumenta a energia do grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-jogo-do-grito",
+            "url": "shopify://metaobjects/toolbox_new/o-jogo-do-grito",
             "target": false
           }
         },
         "card_GQEiHp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_que_voce_esta_fazendo.png",
+            "img": "shopify://shop_images/O_que_voce_esta_fazendo.png",
             "category_id": "Energizadores",
             "title": "O que você está fazendo?",
             "text": "Este é um exercício simples de encenação em que os participantes se revezam perguntando uns aos outros \"O que você está fazendo?” e depois encenam as diversas respostas. Embora simples, envolve a imaginação e desafia suavemente os participantes a sairem de suas zonas de conforto, fazendo com que eles encenem uma série de ações diferentes.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-que-voce-esta-fazendo",
+            "url": "shopify://metaobjects/toolbox_new/o-que-voce-esta-fazendo",
             "target": false
           }
         },
         "card_E7QDA9": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mazunga.png",
+            "img": "shopify://shop_images/Mazunga.png",
             "category_id": "Energizadores",
             "title": "Mazunga!",
             "text": "Esse é um exercício rápido, e eficaz para levantar a energia em um curto espaço de tempo. O grupo fica em círculo e uma pessoa deve começar a gritar \"Maaaaah....\" a pessoa ao lado começa a gritar também, depois a pessoa ao lado e assim vai. O som vai ficando mais alto conforme mais pessoas do círculo gritam, até que todos estejam falando \"Maaaaah...\" e deve terminar com todos falando \"Zunga\" ao mesmo tempo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mazunga",
+            "url": "shopify://metaobjects/toolbox_new/mazunga",
             "target": false
           }
         },
         "card_zTEtrw": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Palmas_Sincronizadas.png",
+            "img": "shopify://shop_images/Palmas_Sincronizadas.png",
             "category_id": "Energizadores",
             "title": "Palmas Sincronizadas",
             "text": "Os participantes estão em círculo e enviam um aplauso ao redor da roda. Cada aplauso envolve dois membros do grupo batendo palmas ao mesmo tempo. O grupo tenta mover o aplauso ao redor do círculo o mais rápido e com a maior sincronia possível. O exercício fica ainda mais desafiador quando o \"duplo aplauso\" é introduzido para mudar a direção do fluxo de aplausos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/palmas-sincronizadas",
+            "url": "shopify://metaobjects/toolbox_new/palmas-sincronizadas",
             "target": false
           }
         },
         "card_iWyKE4": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_que_tem_na_sacola.png",
+            "img": "shopify://shop_images/O_que_tem_na_sacola.png",
             "category_id": "Energizadores",
             "title": "O que tem na sacola?",
             "text": "Este é um quebra-gelo divertido ou energizador, onde os participantes são perguntados \"O que tem na sacola?\" É uma maneira simples de envolver as pessoas e se divertir conhecendo uns aos outros, faz com que os participantes entrem no espaço juntos. Cada equipe ganha pontos por quaisquer itens que tenham com eles.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-que-tem-na-sacola",
+            "url": "shopify://metaobjects/toolbox_new/o-que-tem-na-sacola",
             "target": false
           }
         },
         "card_Bbb3ak": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Quem_somos_nos_agora.png",
+            "img": "shopify://shop_images/Quem_somos_nos_agora.png",
             "category_id": "Energizadores",
             "title": "Quem somos nós agora?",
             "text": "Este é um quebra-gelo ou energizador divertido! Ótimo para risos e energia, desestressar, status e funções.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/quem-somos-nos-agora",
+            "url": "shopify://metaobjects/toolbox_new/quem-somos-nos-agora",
             "target": false
           }
         }
@@ -1394,7 +1397,7 @@
     "html_r3NKmh": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"equipes\"><\/div>",
+        "html": "<div id=\"equipes\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -1476,451 +1479,451 @@
         "card_hRwyVR": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MethodKit_para_Desenvolver_Equipes.png",
+            "img": "shopify://shop_images/MethodKit_para_Desenvolver_Equipes.png",
             "category_id": "Equipes",
             "title": "MethodKit para Desenvolver Equipes",
             "text": " O kit, composto por vários cartões, pode ser usado de diversas maneiras. Esta ferramenta reúne o essencial para ter e elaborar ideias, servindo de base para fomentar a criatividade.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/method-kit-para-desenvolver-equipes",
+            "url": "shopify://metaobjects/toolbox_new/method-kit-para-desenvolver-equipes",
             "target": false
           }
         },
         "card_LDgktp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Respostas_a_situacoes_de_conflito.png",
+            "img": "shopify://shop_images/Respostas_a_situacoes_de_conflito.png",
             "category_id": "Equipes",
             "title": "Respostas a situações de conflito",
             "text": "O workshop utiliza o modelo Thomas-Killman de respostas a situações de conflito para criar uma discussão com reflexões. Utilize-o para começar a discutir um conflito com o grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/respostas-a-situacoes-de-conflito",
+            "url": "shopify://metaobjects/toolbox_new/respostas-a-situacoes-de-conflito",
             "target": false
           }
         },
         "card_FdUj7b": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Reflexao_de_equipe_com_o_Myers-Briggs.png",
+            "img": "shopify://shop_images/Reflexao_de_equipe_com_o_Myers-Briggs.png",
             "category_id": "Equipes",
             "title": "Reflexão de equipe com o Myers-Briggs",
             "text": "Um workshop para explorar traços pessoais e relações interpessoais, usando o modelo de personalidades Myers-Briggs. Utilize esta ferramenta para que o grupo aprofunde sua compreensão de cada membro.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/reflexao-de-equipe-com-o-myers-briggs",
+            "url": "shopify://metaobjects/toolbox_new/reflexao-de-equipe-com-o-myers-briggs",
             "target": false
           }
         },
         "card_6EE968": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Circulos_de_influencia.png",
+            "img": "shopify://shop_images/Circulos_de_influencia.png",
             "category_id": "Equipes",
             "title": "Círculos de influência",
             "text": "Um workshop para avaliar as prioridades da equipe e fazer escolhas sobre no que se concentrar individual e coletivamente. Use-o para apurar as prioridades e aumentar o senso de pertencimento ao grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/circulos-de-influencia",
+            "url": "shopify://metaobjects/toolbox_new/circulos-de-influencia",
             "target": false
           }
         },
         "card_tMhWbE": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Design_Sprint_para_qualquer_equipe.png",
+            "img": "shopify://shop_images/Design_Sprint_para_qualquer_equipe.png",
             "category_id": "Equipes",
             "title": "Design Sprint para qualquer equipe",
             "text": "Este workshop apresenta uma estrutura para prototipar e testar novas ideias rapidamente. Use-o para idealizar, prototipar e experimentar um novo conceito de forma criativa e rápida com sua equipe.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/design-sprint-para-qualquer-equipe",
+            "url": "shopify://metaobjects/toolbox_new/design-sprint-para-qualquer-equipe",
             "target": false
           }
         },
         "card_ijE6am": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Alinhamento_e_autonomia.png",
+            "img": "shopify://shop_images/Alinhamento_e_autonomia.png",
             "category_id": "Equipes",
             "title": "Alinhamento e autonomia",
-            "text": "Um workshop, inspirado no modelo de responsabilidade pessoal de Peter Smith, para a equipe ponderar e, em última instância, melhorar seu alinhamento com o propósito\/objetivos e a autonomia dos membros da equipe.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/alinhamento-e-autonomia",
+            "text": "Um workshop, inspirado no modelo de responsabilidade pessoal de Peter Smith, para a equipe ponderar e, em última instância, melhorar seu alinhamento com o propósito/objetivos e a autonomia dos membros da equipe.",
+            "url": "shopify://metaobjects/toolbox_new/alinhamento-e-autonomia",
             "target": false
           }
         },
         "card_bWJPVV": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Desenvolvimento_do_sistema_operacional_da_equipe_0043aa9e-8a8a-4ca4-8200-275acf730b49.png",
+            "img": "shopify://shop_images/Desenvolvimento_do_sistema_operacional_da_equipe_0043aa9e-8a8a-4ca4-8200-275acf730b49.png",
             "category_id": "Equipes",
             "title": "Desenvolvimento do sistema operacional da equipe",
             "text": "O objetivo é promover um desenvolvimento gradual, mais do que uma mudança radical, isto é, faz-se a projeção do estado ideal para a equipe e se trabalha paulatinamente nesse sentido.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/desenvolvimento-do-sistema-operacional-da-equipe",
+            "url": "shopify://metaobjects/toolbox_new/desenvolvimento-do-sistema-operacional-da-equipe",
             "target": false
           }
         },
         "card_r8azJU": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Estatuto_da_equipe_para_trabalho_remoto_EQUIPE_5.png",
+            "img": "shopify://shop_images/Estatuto_da_equipe_para_trabalho_remoto_EQUIPE_5.png",
             "category_id": "Equipes",
             "title": "Estatuto da equipe para trabalho remoto",
             "text": "Esta ferramenta guia a equipe no processo de elaboração de um estatuto para trabalho remoto, definindo as diretrizes e o comportamento esperado de quem trabalha à distância.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/estatuto-da-equipe-para-trabalho-remoto",
+            "url": "shopify://metaobjects/toolbox_new/estatuto-da-equipe-para-trabalho-remoto",
             "target": false
           }
         },
         "card_tAPfTF": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Proposito_e_cultura_da_equipe_icone.png",
+            "img": "shopify://shop_images/Proposito_e_cultura_da_equipe_icone.png",
             "category_id": "Equipes",
             "title": "Propósito e cultura da equipe",
             "text": "Este é um processo essencial desenvolvido para ajudar as equipes a definir seu propósito (por que existem) e sua cultura (como trabalham juntos para atingir esse objetivo). Definir essas duas coisas ajudará qualquer equipe a se concentrar e alinhar.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/proposito-e-cultura-da-equipe",
+            "url": "shopify://metaobjects/toolbox_new/proposito-e-cultura-da-equipe",
             "target": false
           }
         },
         "card_NRWV7X": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Autoavaliacao_de_equipes.png",
+            "img": "shopify://shop_images/Autoavaliacao_de_equipes.png",
             "category_id": "Equipes",
             "title": "Autoavaliação de equipes",
             "text": "A estrutura incentiva os participantes a serem abertos e honestos na avaliação. Depois de refletir individualmente, o grupo monta um mapa coletivo para embasar as próximas discussões e ações. A avaliação se baseia em 6 dimensões, incentivando o grupo a refletir e analisar um elemento diferente e crucial do comportamento.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/autoavaliacao-de-equipes",
+            "url": "shopify://metaobjects/toolbox_new/autoavaliacao-de-equipes",
             "target": false
           }
         },
         "card_LBDA67": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Check-In_da_Montanha_Russa.png",
+            "img": "shopify://shop_images/Check-In_da_Montanha_Russa.png",
             "category_id": "Equipes",
             "title": "Check-In da Montanha Russa",
             "text": "O check-in é uma forma simples para uma equipe iniciar uma reunião, workshop ou atividade. Esta versão alternativa apoia os participantes a pensar de forma diferente sobre como se sentem. As pessoas se colocam em pontos diferentes na montanha-russa, explicando seu sentimento dominante no momento.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/check-in-da-montanha-russa",
+            "url": "shopify://metaobjects/toolbox_new/check-in-da-montanha-russa",
             "target": false
           }
         },
         "card_7KkMTt": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mapa_da_Historia.png",
+            "img": "shopify://shop_images/Mapa_da_Historia.png",
             "category_id": "Equipes",
             "title": "Mapa da História",
             "text": "O objetivo principal desta atividade é lembrar e refletir sobre experiências passadas dos participantes e criar uma experiência coletiva e uma história compartilhada. Use este exercício no final de um projeto ou programa como forma de reforçar aprendizados, celebrar destaques e criar um fechamento.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mapa-da-historia",
+            "url": "shopify://metaobjects/toolbox_new/mapa-da-historia",
             "target": false
           }
         },
         "card_CMei7w": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Apresentacoes_Pessoais.png",
+            "img": "shopify://shop_images/Apresentacoes_Pessoais.png",
             "category_id": "Equipe",
             "title": "Apresentações Pessoais",
             "text": "Os participantes preparam uma apresentação pessoal envolvendo experiências, eventos, pessoas e histórias que foram fundamentais na sua vida. O propósito desse exercício é que os membros do grupo se conheçam melhor e assim aumentar a confiança e colaboração entre todos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/apresentacoes-pessoais",
+            "url": "shopify://metaobjects/toolbox_new/apresentacoes-pessoais",
             "target": false
           }
         },
         "card_iHVtNA": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Reflexao_em_grupo.png",
+            "img": "shopify://shop_images/Reflexao_em_grupo.png",
             "category_id": "EQUIPES",
             "title": "Reflexão em grupo",
             "text": "A reflexão em grupo tem por objetivo fazer com que os participantes exprimam pensamentos, sentimentos e opiniões sobre uma experiência compartilhada, criando, assim, abertura e confiança na equipe, além de gerar aprendizados e ideias importantes para aplicar em experiências futuras.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/reflexao-em-grupo",
+            "url": "shopify://metaobjects/toolbox_new/reflexao-em-grupo",
             "target": false
           }
         },
         "card_QhGYd8": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Check-In_Check-Out.png",
+            "img": "shopify://shop_images/Check-In_Check-Out.png",
             "category_id": "Equipes",
-            "title": "Check-In \/ Check-Out",
-            "text": "O check-in ou check-out é uma maneira simples para uma equipe iniciar ou encerrar um processo, de forma significativa e colaborativa. O Check-in \/ out convida cada membro de um grupo a estar presente, ser visto e ouvido, e expressar uma reflexão ou um sentimento.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/check-in-check-out",
+            "title": "Check-In / Check-Out",
+            "text": "O check-in ou check-out é uma maneira simples para uma equipe iniciar ou encerrar um processo, de forma significativa e colaborativa. O Check-in / out convida cada membro de um grupo a estar presente, ser visto e ouvido, e expressar uma reflexão ou um sentimento.",
+            "url": "shopify://metaobjects/toolbox_new/check-in-check-out",
             "target": false
           }
         },
         "card_tJhFfB": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Vamos_contar.png",
+            "img": "shopify://shop_images/Vamos_contar.png",
             "category_id": "Equipes",
             "title": "Vamos contar!",
             "text": "Neste breve exercício, um grupo deve contar até certo número, se revezando em uma ordem aleatória, sem que duas pessoas falem ao mesmo tempo. A tarefa é simples, no entanto, é preciso foco, calma e consciência para ter sucesso. Este exercício é eficaz para acalmar e gerar uma energia centrada no foco do grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/vamos-contar",
+            "url": "shopify://metaobjects/toolbox_new/vamos-contar",
             "target": false
           }
         },
         "card_Pi3yHy": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Na_linha.png",
+            "img": "shopify://shop_images/Na_linha.png",
             "category_id": "Equipes",
             "title": "Na linha",
             "text": "Neste curto desafio em grupo, os participantes devem se organizar em uma linha de acordo com um determinado critério (como a altura) sem se falar. A atividade promove a comunicação não-verbal e o trabalho em equipe. Versões mais simples da atividade podem ser usadas em estágios iniciais de desenvolvimento de grupo, enquanto versões mais complexas podem ser usadas para desafiar grupos mais estabelecidos.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/na-linha",
+            "url": "shopify://metaobjects/toolbox_new/na-linha",
             "target": false
           }
         },
         "card_kB33e7": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Contando_nossas_Historias.png",
+            "img": "shopify://shop_images/Contando_nossas_Historias.png",
             "category_id": "Equipes",
             "title": "Contando nossas Histórias",
             "text": "Para trabalhar de forma eficaz, os membros da equipe precisam construir relações, demonstrar confiança e estar receptivos uns com os outros. Este método oferece um apoio para tudo isso por meio de um processo estruturado de narrativa. Os membros da equipe respondem perguntas relacionadas à sua infância, adolescência e sobre hoje, levando-os construir uma narrativa de suas histórias pessoais para depois, compartilhar elas com o resto do grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/contando-nossas-historias",
+            "url": "shopify://metaobjects/toolbox_new/contando-nossas-historias",
             "target": false
           }
         },
         "card_RTHhpX": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Galeria_de_Retratos.png",
+            "img": "shopify://shop_images/Galeria_de_Retratos.png",
             "category_id": "Equipes",
             "title": "Galeria de Retratos",
             "text": "A Galeria de Retratos é um divertido e energizante jogo de quebra-gelo que faz com que os participantes interajam entre si por meio de desenhos colaborativos de cada um dos membros do grupo. A atividade cria um senso de grupo porque faz com que cada participante receba um retrato desenhado pelos outros membros do grupo. Também tem um resultado visual muito colorido: um conjunto de retratos que podem ser postados no espaço.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/galeria-de-retratos",
+            "url": "shopify://metaobjects/toolbox_new/galeria-de-retratos",
             "target": false
           }
         },
         "card_qFcK4d": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Perguntas_de_check-in.png",
+            "img": "shopify://shop_images/Perguntas_de_check-in.png",
             "category_id": "Equipes",
             "title": "Perguntas de check-in",
             "text": "Esta ferramenta fornece sugestões sobre como fazer diferentes tipos de check-ins. Check-in é uma maneira simples para uma equipe iniciar um projeto. Os grupos passam por diferentes estágios: quando eles começam; durante um projeto; e quando um projeto termina. Você pode apoiar o grupo fazendo perguntas diferentes em momentos diferentes.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/perguntas-de-check-in",
+            "url": "shopify://metaobjects/toolbox_new/perguntas-de-check-in",
             "target": false
           }
         },
         "card_EXnKJF": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Rio_de_Crocodilos.png",
+            "img": "shopify://shop_images/Rio_de_Crocodilos.png",
             "category_id": "Equipes",
             "title": "Rio de Crocodilos",
             "text": "Um exercício para a melhorar a interação do grupo, no qual os participantes são desafiados fisicamente e devem ajudar-se, de modo que consigam atravessar um espaço pré-determinado. Os participantes devem trabalhar em conjunto, usando estratégia e criatividade para resolverem um problema. O foco é na comunicação, colaboração, liderança, paciência e resolução de problemas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/rio-de-crocodilos",
+            "url": "shopify://metaobjects/toolbox_new/rio-de-crocodilos",
             "target": false
           }
         },
         "card_UUV3kp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Desafio_do_Lego.png",
+            "img": "shopify://shop_images/Desafio_do_Lego.png",
             "category_id": "Equipes",
             "title": "Desafio do Lego",
             "text": "Uma atividade de desenvolvimento de equipe em que os grupos devem trabalhar juntos para construir uma estrutura de lego, mas cada indivíduo tem uma \"atribuição\" secreta que torna o processo colaborativo mais desafiador. Este desafio enfatiza a comunicação do grupo, a dinâmica da liderança, o conflito, a cooperação, a paciência e a estratégia de resolução de problemas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/desafio-do-lego",
+            "url": "shopify://metaobjects/toolbox_new/desafio-do-lego",
             "target": false
           }
         },
         "card_RDeHBQ": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Desafio_do_marshmallow.png",
+            "img": "shopify://shop_images/Desafio_do_marshmallow.png",
             "category_id": "Equipes",
             "title": "Desafio do marshmallow",
             "text": "É uma atividade de formação de equipe que consiste numa competição entre os grupos para montar com 20 espaguetes, fita e barbante – cerca de um metro cada – e um marshmallow a estrutura vertical mais alta que conseguirem. A ênfase da atividade é na comunicação em grupo, dinâmica de liderança, colaboração, inovação e estratégia para resolver problemas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/desafio-do-marshmallow",
+            "url": "shopify://metaobjects/toolbox_new/desafio-do-marshmallow",
             "target": false
           }
         },
         "card_zCdfAF": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Desafio_do_jantar.png",
+            "img": "shopify://shop_images/Desafio_do_jantar.png",
             "category_id": "Equipes",
             "title": "Desafio do jantar",
             "text": "Esta é uma atividade que explora a dinâmica do grupo, o desenvolvimento de equipes e a resolução criativa de problemas. E também é uma atividade muito divertida. Uma equipe de qualquer tamanho tem o desafio de preparar um jantar com recursos e tempo limitados. Funciona bem com novas equipes como um exercício para ajudá-los a se unirem, mas também pode ser eficaz para o desenvolvimento de equipes experientes.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/desafio-do-jantar",
+            "url": "shopify://metaobjects/toolbox_new/desafio-do-jantar",
             "target": false
           }
         },
         "card_EBRNti": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3_Question_Mingle.png",
+            "img": "shopify://shop_images/3_Question_Mingle.png",
             "category_id": "Equipes",
             "title": "3 Question Mingle",
-            "text": "Uma atividade para fazer o grupo se conhecer e se enturmar por meio de um conjunto de perguntas que eles mesmos criam. A atividade faz com que os participantes circulem e se encontrem cara a cara. É útil nos estágios iniciais do desenvolvimento da equipe e \/ ou para que os grupos se reconectem uns com os outros após um período de tempo separados.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/3-perguntas-misturadas",
+            "text": "Uma atividade para fazer o grupo se conhecer e se enturmar por meio de um conjunto de perguntas que eles mesmos criam. A atividade faz com que os participantes circulem e se encontrem cara a cara. É útil nos estágios iniciais do desenvolvimento da equipe e / ou para que os grupos se reconectem uns com os outros após um período de tempo separados.",
+            "url": "shopify://metaobjects/toolbox_new/3-perguntas-misturadas",
             "target": false
           }
         },
         "card_eAaEja": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Ciclo_de_apreciacao.png",
+            "img": "shopify://shop_images/Ciclo_de_apreciacao.png",
             "category_id": "Equipes",
             "title": "Ciclo de apreciação",
             "text": "Este é um excelente exercício para aproximar grupos, criar vínculos interpessoais e construir confiança. Os participantes ficam frente uns aos outros e têm 30 segundos para dar feedback positivo à outra pessoa. O grupo se move até que todos tenham dado feedback a todos. Muitas vezes é usado como parte das atividades de encerramento, para criar uma sensação energizada para sair.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/trem-de-apreciacao",
+            "url": "shopify://metaobjects/toolbox_new/trem-de-apreciacao",
             "target": false
           }
         },
         "card_WGQqU7": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Investigacao_Apreciativa_Causas_da_Raiz_do_Sucesso.png",
+            "img": "shopify://shop_images/Investigacao_Apreciativa_Causas_da_Raiz_do_Sucesso.png",
             "category_id": "Equipes",
             "title": "Investigação Apreciativa: Causas da Raiz do Sucesso",
             "text": "O que tornou o sucesso possível? Em menos de uma hora, um grupo de qualquer tamanho pode gerar a lista de condições essenciais para seu sucesso. O movimento positivo é desencadeado pela busca pelo que funciona agora e pela descoberta das causas básicas que tornam o sucesso possível.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/investigacao-apreciativa-causas-da-raiz-do-sucesso",
+            "url": "shopify://metaobjects/toolbox_new/investigacao-apreciativa-causas-da-raiz-do-sucesso",
             "target": false
           }
         },
         "card_BK6U8L": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Fogueira.png",
+            "img": "shopify://shop_images/Fogueira.png",
             "category_id": "Equipes",
             "title": "Fogueira",
-            "text": "Campfire é útil não apenas porque atua como um jogo de treinamento informal, mas também porque revela pontos em comum (e diversidade) na percepção e experiência das pessoas. - Esta sessão pode ser revisada para ser usada como aquecimento, quebra-gelo, sessão de aprofundamento, em qualquer lugar que a narrativa possa ser útil para o seu grupo \/ equipe.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/fogueira",
+            "text": "Campfire é útil não apenas porque atua como um jogo de treinamento informal, mas também porque revela pontos em comum (e diversidade) na percepção e experiência das pessoas. - Esta sessão pode ser revisada para ser usada como aquecimento, quebra-gelo, sessão de aprofundamento, em qualquer lugar que a narrativa possa ser útil para o seu grupo / equipe.",
+            "url": "shopify://metaobjects/toolbox_new/fogueira",
             "target": false
           }
         },
         "card_wqzidn": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Matriz_de_impacto_esforco.png",
+            "img": "shopify://shop_images/Matriz_de_impacto_esforco.png",
             "category_id": "Equipes",
-            "title": "Matriz de impacto\/esforço",
+            "title": "Matriz de impacto/esforço",
             "text": "Têm como objetivo gerar ideias e examiná-las por dois fatores: Impacto e Esforço. Neste exercício de tomada de decisão, as ações possíveis são mapeadas com base no esforço necessário para a implementação e o impacto potencial. Algumas ideias são caras, mas podem ter uma recompensa maior a longo prazo do que ações de curto prazo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/matriz-de-impacto-esforco",
+            "url": "shopify://metaobjects/toolbox_new/matriz-de-impacto-esforco",
             "target": false
           }
         },
         "card_PRm8an": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Jogo_Pizza_Kanban.png",
+            "img": "shopify://shop_images/Jogo_Pizza_Kanban.png",
             "category_id": "Equipes",
             "title": "Jogo \"Pizza Kanban\"",
             "text": "O jogo ensina como passar de um processo existente para um sistema Kanban, visualizando esse novo sistema e começando a modificar o convencional em algo novo. O Pizza Game também permite que as equipes tenham uma experiência prática sentindo as dores, ganhos, frustrações e diversão ao longo do processo, e ainda a reflexão sobre as melhorias que os participantes podem compartilhar em seus locais de trabalho.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/jogo-pizza-kanban",
+            "url": "shopify://metaobjects/toolbox_new/jogo-pizza-kanban",
             "target": false
           }
         },
         "card_AF9nHU": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mapeamento_da_Cultura_Organizacional.png",
+            "img": "shopify://shop_images/Mapeamento_da_Cultura_Organizacional.png",
             "category_id": "Equipes",
             "title": "Mapeamento da Cultura Organizacional",
             "text": "O Mapeamento de cultura fornece as informações inteligentes de que você precisa para fazer um caso de intervenção de negócios, suporte executivo e o orçamento que você precisará para minimizar o risco e maximizar as chances de sucesso de sua iniciativa de mudança.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mapeamento-da-cultura-organizacional",
+            "url": "shopify://metaobjects/toolbox_new/mapeamento-da-cultura-organizacional",
             "target": false
           }
         },
         "card_NBQXbL": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Caixa_de_ferramentas_remota_Sozinho_Equipe.png",
+            "img": "shopify://shop_images/Caixa_de_ferramentas_remota_Sozinho_Equipe.png",
             "category_id": "Equipes",
             "title": "Caixa de ferramentas remota: Sozinho + Equipe",
             "text": "Com base em nossa capacidade de projetar muitas experiências remotas e treinar mais de 10.000 líderes remotos, selecionamos algumas de nossas principais dicas e ferramentas, para colaboração e facilitação online de sucesso. Nós criamos a Caixa de Ferramentas Remota: Colaboração Online Sozinho + Equipe e continuaremos adicionando ferramentas a esta caixa, então volte e visite regularmente.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/caixa-de-ferramentas-remota-sozinho-equipe",
+            "url": "shopify://metaobjects/toolbox_new/caixa-de-ferramentas-remota-sozinho-equipe",
             "target": false
           }
         },
         "card_jc9FKK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Ferramentas_e_Plataformas_Remotas_Colaboracao_em_Equipe.png",
+            "img": "shopify://shop_images/Ferramentas_e_Plataformas_Remotas_Colaboracao_em_Equipe.png",
             "category_id": "Equipes",
             "title": "Ferramentas e Plataformas Remotas: Colaboração em Equipe",
             "text": "Ferramentas e plataformas digitais que melhoram a colaboração virtual, workshops e reuniões. Faz parte do trabalho remoto redesenhar todas as interações pessoais para uma maior experiência digital.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/ferramentas-e-plataformas-remotas-colaboracao-em-equipe",
+            "url": "shopify://metaobjects/toolbox_new/ferramentas-e-plataformas-remotas-colaboracao-em-equipe",
             "target": false
           }
         },
         "card_7jaitn": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Funcoes_e_responsabilidades.png",
+            "img": "shopify://shop_images/Funcoes_e_responsabilidades.png",
             "category_id": "Equipes",
             "title": "Funções e responsabilidades",
             "text": "Definir funções e responsabilidades é essencial para mover sua equipe de “storming” para “normal”, ou ajudar as equipes de “desempenho” a voltarem, ou, se manterem no caminho certo. Isso pode ajudá-los a entender melhor o papel de cada um e a aprender quem é responsável pelo o quê.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/funcoes-e-responsabilidades",
+            "url": "shopify://metaobjects/toolbox_new/funcoes-e-responsabilidades",
             "target": false
           }
         },
         "card_qhD9dX": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Retrospectiva_da_equipe.png",
+            "img": "shopify://shop_images/Retrospectiva_da_equipe.png",
             "category_id": "Equipes",
             "title": "Retrospectiva da equipe",
             "text": "Retrospectivas de equipe são reuniões normalmente realizadas no final de um projeto, \"sprint\", semana, mês ou temporada com o objetivo de identificar o que funcionou bem, o que poderia ser melhorado e descobrir áreas desafiadoras que toda a equipe pode aprender e melhorar.  Você precisa de mais suporte para implementar ferramentas de equipe em seu local de trabalho?",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/retrospectiva-da-equipe",
+            "url": "shopify://metaobjects/toolbox_new/retrospectiva-da-equipe",
             "target": false
           }
         },
         "card_qtBKeV": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_Modelo_de_Coaching_GROW.png",
+            "img": "shopify://shop_images/O_Modelo_de_Coaching_GROW.png",
             "category_id": "Equipes",
             "title": "O Modelo de Coaching \"GROW\"",
             "text": "O modelo \"GROW\" é uma estrutura de coaching usada em conversas, reuniões e liderança diária para desbloquear potências e possibilidades. É uma estrutura simples e eficaz para estruturar suas sessões de coaching e mentoring, sendo fácil de usar para reuniões presenciais e online.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-modelo-de-coaching-grow",
+            "url": "shopify://metaobjects/toolbox_new/o-modelo-de-coaching-grow",
             "target": false
           }
         },
         "card_6hbLTr": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Matriz_Quem_O_que_Quando.png",
+            "img": "shopify://shop_images/Matriz_Quem_O_que_Quando.png",
             "category_id": "Equipes",
             "title": "Matriz \"Quem | O que | Quando\"",
-            "text": "Muitas reuniões terminam com uma discussão sobre os “próximos passos” ou “itens de ação”. Essas discussões são frequentemente abstratas, sem nenhum prazo específico anexado. Ao concentrar a discussão em uma matriz \"Quem \/ O quê \/ Quando\", você pode conectar as pessoas com ações nítidas sobre as tarefas e um compromisso sobre quando elas irão concluir a tarefa.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/matriz-quem-o-que-quando",
+            "text": "Muitas reuniões terminam com uma discussão sobre os “próximos passos” ou “itens de ação”. Essas discussões são frequentemente abstratas, sem nenhum prazo específico anexado. Ao concentrar a discussão em uma matriz \"Quem / O quê / Quando\", você pode conectar as pessoas com ações nítidas sobre as tarefas e um compromisso sobre quando elas irão concluir a tarefa.",
+            "url": "shopify://metaobjects/toolbox_new/matriz-quem-o-que-quando",
             "target": false
           }
         },
         "card_DfdPTL": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_Modelo_de_Feedback_AIR.png",
+            "img": "shopify://shop_images/O_Modelo_de_Feedback_AIR.png",
             "category_id": "Equipes",
             "title": "O Modelo de Feedback AIR",
             "text": "Feedback construtivo é o retorno sobre o desempenho de um indivíduo que pode ser usado para construir (construir) conexões, hábitos e comportamentos bem-sucedidos. O componente construtivo (construtivo) é fundamental porque, com essa mentalidade e abordagem, o feedback aparentemente negativo não se torna desencorajador.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-modelo-de-feedback-air",
+            "url": "shopify://metaobjects/toolbox_new/o-modelo-de-feedback-air",
             "target": false
           }
         },
         "card_BxiyPM": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_jogo_do_esboco.png",
+            "img": "shopify://shop_images/O_jogo_do_esboco.png",
             "category_id": "Múltiplas Categorias",
             "title": "O jogo do esboço",
-            "text": "Um exercício de desenho que nos mostra como podemos ter diferentes perspectivas e diversidades culturais sobre vários assuntos e\/ou objetos, pode nos ajudar a desvendar algumas de nossas suposições e preconceitos inconscientes.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-jogo-do-esboco",
+            "text": "Um exercício de desenho que nos mostra como podemos ter diferentes perspectivas e diversidades culturais sobre vários assuntos e/ou objetos, pode nos ajudar a desvendar algumas de nossas suposições e preconceitos inconscientes.",
+            "url": "shopify://metaobjects/toolbox_new/o-jogo-do-esboco",
             "target": false
           }
         },
         "card_Weyj7Y": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Demandas_Continuas_2.png",
+            "img": "shopify://shop_images/Demandas_Continuas_2.png",
             "category_id": "Múltiplas Categorias",
             "title": "Design Inclusivo",
-            "text": "Uma ferramenta que ajuda um designer a avaliar as demandas que um produto\/design impõe ao usuário. Essa ferramenta pode ser usada por qualquer pessoa que esteja criando um produto, design ou serviço, e queira avaliar criticamente sua demanda sobre os usuários.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/demandas-continuas",
+            "text": "Uma ferramenta que ajuda um designer a avaliar as demandas que um produto/design impõe ao usuário. Essa ferramenta pode ser usada por qualquer pessoa que esteja criando um produto, design ou serviço, e queira avaliar criticamente sua demanda sobre os usuários.",
+            "url": "shopify://metaobjects/toolbox_new/demandas-continuas",
             "target": false
           }
         },
         "card_DfkXdk": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_Circulo_de_Confianca_2.png",
+            "img": "shopify://shop_images/O_Circulo_de_Confianca_2.png",
             "category_id": "Múltiplas Categorias",
             "title": "O Círculo de Confiança",
             "text": "O Círculo de Confiança é uma ferramenta que pode ser usada tanto individualmente quanto em grupos. Você pode avaliar seu círculo de confiança - pense em seu ‘círculo interno’; trabalho, escola ou outro grupo - para ver o quão diverso é o grupo de pessoas em quem você confia. Esta ferramenta ajuda a descobrir o viés de afinidade inconsciente.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-circulo-de-confianca",
+            "url": "shopify://metaobjects/toolbox_new/o-circulo-de-confianca",
             "target": false
           }
         },
@@ -2009,7 +2012,7 @@
     "html_3VtmkQ": {
       "type": "html",
       "settings": {
-        "html": "<div id=\"inovacao\"><\/div>",
+        "html": "<div id=\"inovacao\"></div>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
@@ -2100,220 +2103,220 @@
         "card_eqRBJK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Um_prototipo_em_90_minutos_ICONE.png",
+            "img": "shopify://shop_images/Um_prototipo_em_90_minutos_ICONE.png",
             "category_id": "Inovação",
             "title": "Um protótipo em 90 minutos",
             "text": "A equipe tem o desafio de criar o protótipo básico de um aplicativo numa sessão curta de somente 90 minutos. É um workshop fácil de preparar e fazer que demonstra como dá para transformar rapidamente uma visão num protótipo pronto para testes. Use-o para inspirar o grupo a aderir ao espírito de prototipagem.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/um-prototipo-em-90-minutos",
+            "url": "shopify://metaobjects/toolbox_new/um-prototipo-em-90-minutos",
             "target": false
           }
         },
         "card_7Jf8jN": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Os_5_porques_b8de6fe8-bde6-45c9-aac1-9b0d333d6760.png",
+            "img": "shopify://shop_images/Os_5_porques_b8de6fe8-bde6-45c9-aac1-9b0d333d6760.png",
             "category_id": "Inovação",
             "title": "Os 5 porquês",
             "text": "Este método é útil para chegar ao núcleo de um problema ou desafio. Como o título sugere, o grupo define problemas, então faz a pergunta \"por que\" cinco vezes, muitas vezes utilizando a explicação resultante como ponto de partida para a resolução criativa de problemas.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/os-5-porques",
+            "url": "shopify://metaobjects/toolbox_new/os-5-porques",
             "target": false
           }
         },
         "card_Qrya6x": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Reflexao_da_curva_de_difusao.png",
+            "img": "shopify://shop_images/Reflexao_da_curva_de_difusao.png",
             "category_id": "Inovação",
             "title": "Reflexão da curva de difusão",
             "text": "Atividade de reflexão e discussão baseada na teoria da difusão de inovações. A atividade pede que os participantes reflitam sobre em quais áreas da vida deles, eles se consideram: “inovadores”, “primeiros-adotadores”, “primeira maioria”, “maioria tardia” ou “resistentes”?",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/reflexao-da-curva-de-difusao",
+            "url": "shopify://metaobjects/toolbox_new/reflexao-da-curva-de-difusao",
             "target": false
           }
         },
         "card_i9LU8T": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Tendencias_de_Futuro.png",
+            "img": "shopify://shop_images/Tendencias_de_Futuro.png",
             "category_id": "Inovação",
             "title": "Tendências de Futuro",
             "text": "Esta ferramenta ajuda grupos grandes e pequenos a identificar as principais tendências de transformação para os próximos três anos, explorar suas consequências e começar a pensar como podem ser atingidas para criar oportunidades comerciais.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/tendencias-de-futuro",
+            "url": "shopify://metaobjects/toolbox_new/tendencias-de-futuro",
             "target": false
           }
         },
         "card_PABjAr": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mapeamento_do_Futuro.png",
+            "img": "shopify://shop_images/Mapeamento_do_Futuro.png",
             "category_id": "Inovação",
             "title": "Mapeamento do Futuro",
             "text": "No workshop, os participantes mapeiam tendências chaves do último ano, ano atual e dos próximos 3 anos. Após esse processo, eles revisam esse mapeamento, identificam padrões e debatem sobre a relevância das diferentes tendências. É um workshop útil para auxiliar na discussão e debate sobre temas como: sociedade, tecnologia, política, etc.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mapeamento-do-futuro",
+            "url": "shopify://metaobjects/toolbox_new/mapeamento-do-futuro",
             "target": false
           }
         },
         "card_a8PDpV": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Ideacao_de_desenho_da_maca.png",
+            "img": "shopify://shop_images/Ideacao_de_desenho_da_maca.png",
             "category_id": "Inovação",
             "title": "Ideação de desenho da maçã",
             "text": "O propósito desse exercício é demonstrar 3 princípios básicos usados para criação e geração de ideias: quantidade é condição para qualidade, construir sobre ideias que já existem, as ideias que temos são geralmente iguais. Ao final do exercício, o grupo reflete sobre os desenhos e aprendizados.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/ideacao-de-desenho-da-maca",
+            "url": "shopify://metaobjects/toolbox_new/ideacao-de-desenho-da-maca",
             "target": false
           }
         },
         "card_kFjmXp": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mash-Up_de_Inovacao.png",
+            "img": "shopify://shop_images/Mash-Up_de_Inovacao.png",
             "category_id": "Inovação",
             "title": "Mash-Up de Inovação",
             "text": "O primeiro passo consiste em um brainstorm de diferentes áreas, como tecnologia, necessidades humanas e serviços existentes. O segundo passo é a combinação dos elementos, para a criação de novos conceitos. Esse exercício mostra como é fácil e rápido criar ideias inovadoras.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/mash-up-de-inovacao",
+            "url": "shopify://metaobjects/toolbox_new/mash-up-de-inovacao",
             "target": false
           }
         },
         "card_jfY7kF": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Consequencias_nao-intencionais.png",
+            "img": "shopify://shop_images/Consequencias_nao-intencionais.png",
             "category_id": "Inovação",
             "title": "Consequências não-intencionais",
             "text": "Neste workshop, os grupos examinam as conseqüências não desejadas das novas tecnologias e as utilizam para inspirar potenciais oportunidades comerciais. Ao ir além do entendimento comum das novas tecnologias, este workshop desafia os participantes a descobrir um potencial inesperado e como ele pode ser aproveitado.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/consequencias-nao-intencionais",
+            "url": "shopify://metaobjects/toolbox_new/consequencias-nao-intencionais",
             "target": false
           }
         },
         "card_DYVhQh": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/O_cliente_no_centro_dos_negocios_50bf8a7f-d044-4bc7-bc41-e3d62f8283fa.png",
+            "img": "shopify://shop_images/O_cliente_no_centro_dos_negocios_50bf8a7f-d044-4bc7-bc41-e3d62f8283fa.png",
             "category_id": "Inovação",
             "title": "O cliente no centro dos negócios",
             "text": "É uma abordagem às empresas  Este exercício promove a exploração colaborativa e a reflexão em torno da abordagem de uma organização aos seus clientes. Os participantes discutem e compartilham experiências positivas que tiveram como clientes e usam isso para definir sua abordagem de \"centralização do cliente\".",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/o-cliente-no-centro-dos-negocios",
+            "url": "shopify://metaobjects/toolbox_new/o-cliente-no-centro-dos-negocios",
             "target": false
           }
         },
         "card_xQtCKe": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Ideacao_e_desenvolvimento_de_conceitos.png",
+            "img": "shopify://shop_images/Ideacao_e_desenvolvimento_de_conceitos.png",
             "category_id": "Inovação",
             "title": "Ideação e desenvolvimento de conceitos",
             "text": "No processo Ideação e Desenvolvimento de Conceitos, os grupos trabalham de forma criativa e colaborativa para gerar ideias criativas. É uma abordagem que pode ser adaptada e personalizada para diferentes cenários. Inclui princípios básicos para a geração de ideias e vários passos para os grupos trabalharem, inclusive passos de seleção e desenvolvimento de ideias.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/ideacao-e-desenvolvimento-de-conceitos",
+            "url": "shopify://metaobjects/toolbox_new/ideacao-e-desenvolvimento-de-conceitos",
             "target": false
           }
         },
         "card_g6mWkK": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/World_Cafe.png",
+            "img": "shopify://shop_images/World_Cafe.png",
             "category_id": "Inovação",
             "title": "World Café",
             "text": "O World Café é um método simples e poderoso, originado por Juanita Brown, que permite que conversas significativas sejam conduzidos pelos participantes. Os facilitadores criam um ambiente semelhante a um Café, onde os participantes se auto-organizam e exploram um conjunto de tópicos ou questões relevantes para o grupo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/world-cafe",
+            "url": "shopify://metaobjects/toolbox_new/world-cafe",
             "target": false
           }
         },
         "card_M6afAy": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Expresse_sua_opiniao.png",
+            "img": "shopify://shop_images/Expresse_sua_opiniao.png",
             "category_id": "Inovação",
             "title": "Expresse sua opinião",
             "text": "Este é um método prático, dinâmico e versátil para grupos explorarem idéias e questões em conjunto. Os participantes respondem a perguntas enquanto caminham ao redor do espaço e se posicionam em uma linha imaginária. Este exercício fornece um ponto de partida para reflexão e discussão, e aproxima as equipes.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/expresse-sua-opiniao",
+            "url": "shopify://metaobjects/toolbox_new/expresse-sua-opiniao",
             "target": false
           }
         },
         "card_deQNV4": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Momentos_do_dia_do_usuario.png",
+            "img": "shopify://shop_images/Momentos_do_dia_do_usuario.png",
             "category_id": "Inovação",
             "title": "Momentos do dia do usuário",
             "text": "As equipes criam um usuário imaginário (uma persona), mapeiam um dia regular na vida dele e identificam os desafios que ele ou ela experimentam ao longo do dia. As equipes então usam isso para fazer um brainstorm de novos produtos ou serviços que poderiam ajudar com esses desafios. Finalmente, os esboços ou protótipos das melhores idéias são rapidamente desenvolvidos e apresentados para feedback",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/momentos-do-dia-do-usuario",
+            "url": "shopify://metaobjects/toolbox_new/momentos-do-dia-do-usuario",
             "target": false
           }
         },
         "card_hFW7B4": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Rapid_Research.png",
+            "img": "shopify://shop_images/Rapid_Research.png",
             "category_id": "Inovação",
             "title": "Rapid Research",
             "text": "Use este exercício ao criar idéias, desenvolver um novo produto ou serviço ou planejar uma estratégia. Neste exercício, os participantes telefonam para um colega de trabalho e fazem perguntas que sejam relevantes para a tarefa. Isso gera rapidamente uma entrada significativa de perspectivas \"externas\". Muitas vezes, os participantes ficarão surpresos com a simplicidade de solicitar essa contribuição e o quanto ela é importante para o processo.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/pesquisa-rapida",
+            "url": "shopify://metaobjects/toolbox_new/pesquisa-rapida",
             "target": false
           }
         },
         "card_jq4bkC": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_2_4_TODOS.png",
+            "img": "shopify://shop_images/1_2_4_TODOS.png",
             "category_id": "Inovação",
             "title": "1, 2, 4, TODOS!",
             "text": "Com esta técnica facilitadora \"1, 2, 4, TODOS\", você pode incluir imediatamente todos, independentemente do tamanho do grupo. Você pode gerar ideias melhores e mais delas com mais rapidez do que nunca. Você pode explorar o know-how e a imaginação amplamente distribuídos em lugares desconhecidos de antemão. Uma conversa aberta e generativa se desenvolve. Ideias e soluções são peneiradas rapidamente.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/1-2-4-todos",
+            "url": "shopify://metaobjects/toolbox_new/1-2-4-todos",
             "target": false
           }
         },
         "card_VXX6b4": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Desenho_de_Torrada.png",
+            "img": "shopify://shop_images/Desenho_de_Torrada.png",
             "category_id": "Inovação",
             "title": "Desenho de Torrada",
             "text": "Este workshop ajuda as pessoas a se envolverem umas com as outras e a pensarem visualmente - é um exercício de mapeamento fantástico com foco na construção de um modelo de sistemas de um desafio importante, ou seja, deixar nítida a sua visão, melhorar o fluxo de caixa e descobrir o próximo desafio ousado.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/desenho-de-torrada",
+            "url": "shopify://metaobjects/toolbox_new/desenho-de-torrada",
             "target": false
           }
         },
         "card_K9JzwH": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Perguntas_Como_podemos.png",
+            "img": "shopify://shop_images/Perguntas_Como_podemos.png",
             "category_id": "Inovação",
             "title": "Perguntas \"Como podemos?\"",
-            "text": "Ao definir temas e ideias, você identifica áreas problemáticas que representam desafios para as pessoas para as quais você está projetando. Agora, tente reformular suas declarações de insights como perguntas de \"Como podemos\/poderíamos?\" para transformar esses desafios em oportunidades de design.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/perguntas-como-podemos",
+            "text": "Ao definir temas e ideias, você identifica áreas problemáticas que representam desafios para as pessoas para as quais você está projetando. Agora, tente reformular suas declarações de insights como perguntas de \"Como podemos/poderíamos?\" para transformar esses desafios em oportunidades de design.",
+            "url": "shopify://metaobjects/toolbox_new/perguntas-como-podemos",
             "target": false
           }
         },
         "card_qWVdxy": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Matriz_How-Now-Wow.png",
+            "img": "shopify://shop_images/Matriz_How-Now-Wow.png",
             "category_id": "Inovação",
             "title": "Matriz \"How-Now-Wow\"",
             "text": "A matriz \"How-Now-Wow\" é uma ferramenta de seleção de ideias que quebra o \"creadox\", forçando as pessoas a pesar cada ideia em 2 parâmetros.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/matriz-how-now-wow",
+            "url": "shopify://metaobjects/toolbox_new/matriz-how-now-wow",
             "target": false
           }
         },
         "card_JUxGQx": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Eu_gosto_Eu_desejo_Eu_questiono.png",
+            "img": "shopify://shop_images/Eu_gosto_Eu_desejo_Eu_questiono.png",
             "category_id": "Inovação",
             "title": "Eu gosto | Eu desejo | Eu questiono",
             "text": "Um processo como Eu gosto | Eu desejo | Eu questiono, pode ajudar as equipes a coletar um feedback rapidamente, podendo ser executado online ou pessoalmente.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/eu-gosto-eu-desejo-eu-questiono",
+            "url": "shopify://metaobjects/toolbox_new/eu-gosto-eu-desejo-eu-questiono",
             "target": false
           }
         },
         "card_7F6pjt": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Cone_de_plausibilidade_shopify.png",
+            "img": "shopify://shop_images/Cone_de_plausibilidade_shopify.png",
             "category_id": "",
             "title": "Cone de Plausibilidade",
             "text": "O Cone de Plausibilidade é uma ferramenta visual que ajuda a organizar pensamentos e avaliar a probabilidade de diferentes cenários futuros. Ele oferece uma perspectiva de longo prazo, permitindo entender como eventos podem se desenrolar ao longo do tempo. Com isso, é possível planejar estratégias mais eficazes para experimentação e desenvolvimento, facilitando a navegação em meio às incertezas e a preparação para o futuro.",
-            "url": "shopify:\/\/metaobjects\/toolbox_new\/cone-de-plausibilidade",
+            "url": "shopify://metaobjects/toolbox_new/cone-de-plausibilidade",
             "target": false
           }
         },
@@ -2321,7 +2324,7 @@
           "type": "card",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/Story-Building.png",
+            "img": "shopify://shop_images/Story-Building.png",
             "category_id": "Inovação",
             "title": "Story-Building",
             "text": "Esta ferramenta se inicia com uma discussão do propósito, resultados e recursos, e então, é realizada uma seleção das atividades apropriadas. As ferramentas do Kit de Ferramentas são projetadas para serem usadas individualmente ou em combinas entre si e com outras atividades dentro de um workshop.",
@@ -2391,7 +2394,7 @@
         "description": "",
         "description_size": "fs-5",
         "btn_text": "VOLTAR AO TOPO",
-        "btn_url": "https:\/\/www.hyperisland.com.br\/pages\/toolbox\/#topo",
+        "btn_url": "https://www.hyperisland.com.br/pages/toolbox/#topo",
         "btn_color": "btn-primary",
         "btn_size": "btn-sm",
         "pt": 2,
@@ -2435,7 +2438,7 @@
       "settings": {
         "title": "Fale com a gente",
         "text": "Agende uma conversa com a Sabryna e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
-        "img": "shopify:\/\/shop_images\/Sabryna_Alsfasser.jpg",
+        "img": "shopify://shop_images/Sabryna_Alsfasser.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
