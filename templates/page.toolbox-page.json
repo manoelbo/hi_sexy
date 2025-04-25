@@ -9,29 +9,6 @@
  */
 {
   "sections": {
-    "html_eUWjEm": {
-      "type": "html",
-      "custom_css": [
-        ".custom-search-section {text-align: center; margin: 2rem 0;}",
-        ".search-input {padding: 0.5rem 1rem; width: 60%; max-width: 400px; border: 1px solid #ccc; border-radius: 4px 0 0 4px;}",
-        ".search-button {padding: 0.5rem 1rem; border: 1px solid #ccc; background: #000; color: #fff; border-radius: 0 4px 4px 0; cursor: pointer;}",
-        ".search-button:hover {background: #333;}"
-      ],
-      "settings": {
-        "html": "<div id=\"topo\"></div>\n<!-- Seção de Pesquisa -->\n<section class=\"custom-search-section\">\n  <form action=\"/search\" method=\"get\" role=\"search\" class=\"search-form\">\n    <!-- Rótulo oculto para acessibilidade -->\n    <label for=\"search-input\" class=\"visually-hidden\">Pesquisar</label>\n    <!-- Campo de busca -->\n    <input type=\"search\" id=\"search-input\" name=\"q\" placeholder=\"O que você procura?\" aria-label=\"Pesquisar\" required=\"\" class=\"search-input\">\n    <!-- Botão de envio -->\n    <button type=\"submit\" class=\"search-button\">🔍</button>\n  </form>\n</section>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
       "blocks": {
@@ -77,6 +54,24 @@
         "pb_sm": 0,
         "mt_sm": 10,
         "mb_sm": 7
+      }
+    },
+    "html_eUWjEm": {
+      "type": "html",
+      "custom_css": [],
+      "settings": {
+        "html": "<!-- HTML -->\n<section class=\"page-search\">\n  <input type=\"text\" id=\"page-search-input\" placeholder=\"Buscar nesta página…\" aria-label=\"Buscar nesta página\">\n  <button type=\"button\" id=\"page-search-button\">🔍</button>\n</section>\n\n<!-- CSS -->\n<style>\n  .page-search {\n    text-align: center;\n    margin: 2rem 0;\n  }\n  #page-search-input {\n    padding: 0.5rem 1rem;\n    width: 60%;\n    max-width: 400px;\n    border: 1px solid #ccc;\n    border-radius: 4px 0 0 4px;\n  }\n  #page-search-button {\n    padding: 0.5rem 1rem;\n    border: 1px solid #ccc;\n    background: #000;\n    color: #fff;\n    border-radius: 0 4px 4px 0;\n    cursor: pointer;\n  }\n  #page-search-button:hover {\n    background: #333;\n  }\n  .search-highlight {\n    background-color: yellow;\n  }\n</style>\n\n<!-- JavaScript -->\n<script>\n  (function() {\n    const input = document.getElementById('page-search-input');\n    const button = document.getElementById('page-search-button');\n\n    button.addEventListener('click', () => {\n      clearHighlights();\n      const term = input.value.trim();\n      if (!term) return;\n      highlightTerm(document.body, term);\n      const first = document.querySelector('.search-highlight');\n      if (first) {\n        first.scrollIntoView({ behavior: 'smooth', block: 'center' });\n      } else {\n        alert(`\"${term}\" não foi encontrado nesta página.`);\n      }\n    });\n\n    function clearHighlights() {\n      document.querySelectorAll('.search-highlight').forEach(span => {\n        const parent = span.parentNode;\n        parent.replaceChild(document.createTextNode(span.textContent), span);\n        parent.normalize();\n      });\n    }\n\n    function highlightTerm(node, term) {\n      if (node.nodeType === 3) {  // texto\n        const idx = node.data.toLowerCase().indexOf(term.toLowerCase());\n        if (idx >= 0) {\n          const matched = node.splitText(idx);\n          const after = matched.splitText(term.length);\n          const wrap = document.createElement('span');\n          wrap.className = 'search-highlight';\n          wrap.textContent = matched.textContent;\n          matched.parentNode.replaceChild(wrap, matched);\n        }\n      } else if (node.nodeType === 1 && node.childNodes && !['SCRIPT','STYLE','NOSCRIPT'].includes(node.tagName)) {\n        node.childNodes.forEach(child => highlightTerm(child, term));\n      }\n    }\n  })();\n</script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     },
     "content_RDF6G4": {
