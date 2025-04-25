@@ -12,14 +12,17 @@
     "html_eUWjEm": {
       "type": "html",
       "custom_css": [
-        "@media screen and (min-width: 990px) {.header__search summary {border: 2px solid; border-radius: var(--inputs-radius); width: 250px; padding: 1rem; text-decoration: none; } .header__icon span {justify-content: flex-start; } .header__search summary, .header__icon span:after {color: black !important; border-radius: 15px; }}"
+        ".custom-search-section {text-align: center; margin: 2rem 0;}",
+        ".search-input {padding: 0.5rem 1rem; width: 60%; max-width: 400px; border: 1px solid #ccc; border-radius: 4px 0 0 4px;}",
+        ".search-button {padding: 0.5rem 1rem; border: 1px solid #ccc; background: #000; color: #fff; border-radius: 0 4px 4px 0; cursor: pointer;}",
+        ".search-button:hover {background: #333;}"
       ],
       "settings": {
-        "html": "<div id=\"topo\"></div>",
+        "html": "<div id=\"topo\"></div>\n<!-- Seção de Pesquisa -->\n<section class=\"custom-search-section\">\n  <form action=\"/search\" method=\"get\" role=\"search\" class=\"search-form\">\n    <!-- Rótulo oculto para acessibilidade -->\n    <label for=\"search-input\" class=\"visually-hidden\">Pesquisar</label>\n    <!-- Campo de busca -->\n    <input type=\"search\" id=\"search-input\" name=\"q\" placeholder=\"O que você procura?\" aria-label=\"Pesquisar\" required=\"\" class=\"search-input\">\n    <!-- Botão de envio -->\n    <button type=\"submit\" class=\"search-button\">🔍</button>\n  </form>\n</section>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
-        "title": "teste",
+        "title": "",
         "title_size": "h2",
         "description": "",
         "description_size": "fs-6",
@@ -2465,8 +2468,8 @@
     }
   },
   "order": [
-    "html_eUWjEm",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
+    "html_eUWjEm",
     "content_RDF6G4",
     "richtext_3K7Txf",
     "html_tQR8gX",
