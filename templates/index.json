@@ -307,13 +307,13 @@
         "smb_xs": 0
       }
     },
-    "sp_media_grid_mmhKrL": {
-      "type": "sp-media-grid",
+    "sp_media_grid_2_Tqx4EN": {
+      "type": "sp-media-grid-2",
       "blocks": {
-        "video_dgdPzY": {
+        "video_6fEGTn": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Design sem nome (2).mp4",
+            "video": "shopify://files/videos/HI10 NIVER_813c54f2-effe-4516-84f5-7501cd92e786.mp4",
             "link": "",
             "video_inline": true,
             "video_autoplay": true,
@@ -322,23 +322,28 @@
             "video_muted": true
           }
         },
-        "image_fEkmR7": {
-          "type": "image",
+        "video_hLK3R7": {
+          "type": "video",
           "settings": {
-            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
-            "link": ""
+            "video": "shopify://files/videos/HI10 NIVER_c23b31ce-7454-4ca4-97c7-17c4009d805c.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
           }
         }
       },
       "block_order": [
-        "video_dgdPzY",
-        "image_fEkmR7"
+        "video_6fEGTn",
+        "video_hLK3R7"
       ],
-      "disabled": true,
+      "name": "Media Grid",
       "settings": {
-        "background_color": "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 / 9",
+        "media_aspect_ratio": "21 / 9",
         "max_width": 1000,
         "grid_gap": 25,
         "padding_top": 75,
@@ -738,7 +743,7 @@
     "c35830d0-0a96-42c8-91ef-2a2a4a155d79",
     "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5",
     "92c8cdb0-c545-4567-a937-d91527bfe434",
-    "sp_media_grid_mmhKrL",
+    "sp_media_grid_2_Tqx4EN",
     "card_RaUPwp",
     "header_XYqzaT",
     "card_fluid_KtPezg",
