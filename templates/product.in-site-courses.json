@@ -9,46 +9,6 @@
  */
 {
   "sections": {
-    "sp_media_grid_Kidmh9": {
-      "type": "sp-media-grid",
-      "blocks": {
-        "video_aP3dqR": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Design sem nome (2).mp4",
-            "link": "",
-            "video_inline": true,
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
-          }
-        },
-        "image_Wit4Lq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Black_Friday_-_HI_b544be05-f4a2-4d25-b0fc-27b8b8202a4f.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_aP3dqR",
-        "image_Wit4Lq"
-      ],
-      "disabled": true,
-      "settings": {
-        "background_color": "linear-gradient(320deg, rgba(0, 0, 0, 1) 16%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 87%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "16 / 9",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_left": 10,
-        "padding_right": 15
-      }
-    },
     "5141daf1-700c-4f4a-bbce-4398352a1f4c": {
       "type": "course-header",
       "settings": {
@@ -1459,10 +1419,55 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
+    },
+    "sp_media_grid_2_gqgLzn": {
+      "type": "sp-media-grid-2",
+      "blocks": {
+        "video_HnpTGW": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/HI10 NIVER_813c54f2-effe-4516-84f5-7501cd92e786.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_eeiGqA": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/HI10 NIVER_a92523ad-fbed-4003-b2dd-b38f5fc8e693.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "video_HnpTGW",
+        "video_eeiGqA"
+      ],
+      "name": "Media Grid",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1000,
+        "grid_gap": 100,
+        "padding_top": 30,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0
+      }
     }
   },
   "order": [
-    "sp_media_grid_Kidmh9",
+    "sp_media_grid_2_gqgLzn",
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "sp_video_rich_text_GPWANR",
