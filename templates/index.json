@@ -341,7 +341,7 @@
       ],
       "name": "Media Grid",
       "settings": {
-        "background_color": "linear-gradient(164deg, rgba(236, 237, 238, 1), rgba(243, 240, 237, 1) 100%)",
+        "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
         "media_aspect_ratio": "21 / 9",
         "max_width": 1000,
