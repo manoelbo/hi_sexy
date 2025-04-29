@@ -74,6 +74,64 @@
         "mb": 0
       }
     },
+    "sp_tabs_Qktq6R": {
+      "type": "sp-tabs",
+      "blocks": {
+        "tab_77VRbJ": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Categorias →",
+            "tab_content": ""
+          }
+        },
+        "tab_GbPwUw": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Ativando Ação",
+            "tab_content": "<p><a href=\"/pages/toolbox_new/dotmocracy-votacao-por-pontos\" target=\"_blank\" title=\"Dotmocracy (Votação por pontos)\">Dotmocracy </a></p><p>sdad</p><p>asdasd</p><p>asdasds</p><p>adasd</p><p></p>"
+          }
+        },
+        "tab_LFx49b": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Autoliderança",
+            "tab_content": "<p>teste</p><p>teste</p><p>teste</p>"
+          }
+        },
+        "tab_49xfUk": {
+          "type": "tab",
+          "settings": {
+            "tab_name": "Criatividade",
+            "tab_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_77VRbJ",
+        "tab_GbPwUw",
+        "tab_LFx49b",
+        "tab_49xfUk"
+      ],
+      "disabled": true,
+      "name": "Tabs",
+      "settings": {
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "headline_font": "sans-serif",
+        "headline_size": 25,
+        "text_color": "#212529",
+        "background_color": "transparent",
+        "tab_active_color": "#111",
+        "tab_inactive_color": "#888",
+        "tab_border_color": "#ddd",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "element_spacing": 15
+      }
+    },
     "content_RDF6G4": {
       "type": "content",
       "blocks": {
@@ -201,27 +259,6 @@
         "smb_lg": 1,
         "spb_xs": 0,
         "smb_xs": 0
-      }
-    },
-    "richtext_3K7Txf": {
-      "type": "richtext",
-      "disabled": true,
-      "settings": {
-        "bg_color": "bg-light text-dark",
-        "max_width": "960",
-        "text_align": "text-center",
-        "title": "Navegue entre as categorias",
-        "title_size": "h2",
-        "description": "<p></p><p></p><p><a href=\"https://www.hyperisland.com.br/pages/toolbox/#acao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#acao\">Ativando Ação  | </a> <a href=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\" title=\"https://www.hyperisland.com.br/pages/toolbox/#autolideranca\">Autoliderança  |</a>  <a href=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\" title=\"https://www.hyperisland.com.br/pages/toolbox/#energizadores\">Energizadores  | </a> <a href=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\" title=\"https://www.hyperisland.com.br/pages/toolbox/#equipes\">Equipes  |</a>  <a href=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\" title=\"https://www.hyperisland.com.br/pages/toolbox/#inovacao\">Inovação e Criatividade</a></p><p></p>",
-        "description_size": "fs-5",
-        "btn_text": "",
-        "btn_url": "https://www.hyperisland.com.br/pages/toolbox/#inovacao",
-        "btn_color": "btn-primary",
-        "btn_size": "",
-        "pt": 11,
-        "pb": 11,
-        "mt": 0,
-        "mb": 0
       }
     },
     "html_tQR8gX": {
@@ -2483,8 +2520,8 @@
   "order": [
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "html_eUWjEm",
+    "sp_tabs_Qktq6R",
     "content_RDF6G4",
-    "richtext_3K7Txf",
     "html_tQR8gX",
     "content_WRmehb",
     "card_WErceL",
