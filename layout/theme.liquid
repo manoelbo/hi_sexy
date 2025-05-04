@@ -160,13 +160,19 @@
     }
   });
 </script>
-<style>
-  .typebot-bubble-button {
-    bottom: 100px !important; /* Substitua por quanto você quer subir */
-    right: 20px !important;
-    z-index: 9999 !important;
-  }
-</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const repositionTypebot = setInterval(() => {
+      const bubble = document.querySelector(".typebot-bubble-button");
+      if (bubble) {
+        bubble.style.bottom = "100px"; // Altere para a altura que desejar
+        bubble.style.right = "20px";
+        bubble.style.zIndex = "9999";
+        clearInterval(repositionTypebot);
+      }
+    }, 300);
+  });
+</script>
 
 </body>
 </html>
