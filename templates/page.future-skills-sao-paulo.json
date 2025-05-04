@@ -560,6 +560,22 @@
         "mb_sm": 0
       }
     },
+    "sp_image_standalone_GJVQnC": {
+      "type": "sp-image-standalone",
+      "name": "Image Standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "max_width": 1000,
+        "padding_top": 100,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10,
+        "image": "shopify://shop_images/Hyper_Island_Future_Skills_Masterclass_2025_Europe_Syllabus_1.png",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
     "content_N9engr": {
       "type": "content",
       "blocks": {
@@ -1094,6 +1110,7 @@
     "content_HHaa3Q",
     "card_FBjkWc",
     "card_fluid_9M7rdq",
+    "sp_image_standalone_GJVQnC",
     "content_N9engr",
     "title_section_qKnncj",
     "content_8Ct4hi",
