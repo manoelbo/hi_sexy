@@ -123,6 +123,19 @@
         render 'offcanvas-search'
     %}
     {{ settings.body_scripts }}
+    <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.href.includes("/pages/toolbox")) {
+      var checkTawk = setInterval(function () {
+        if (typeof Tawk_API !== 'undefined' && Tawk_API.hide) {
+          Tawk_API.hide();
+          clearInterval(checkTawk);
+        }
+      }, 500);
+    }
+  });
+</script>
+
 </body>
 </html>
     
