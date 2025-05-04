@@ -78,7 +78,7 @@
       "type": "html",
       "name": "HTML",
       "settings": {
-        "html": "<script type=\"module\">\n  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'\n\n  Typebot.initBubble({\n    typebot: \"my-typebot-ds3lsl5\",\n    previewMessage: {\n      message:\n        \"Não sabe qual ferramenta escolher? Me diga o que você precisa que eu te indico a melhor ferramenta\",\n      autoShowDelay: 5000,\n    },\n    theme: {\n      button: { backgroundColor: \"#1D1D1D\" },\n      chatWindow: { backgroundColor: \"#fff\" },\n    },\n    customStyles: {\n      button: {\n        bottom: '100px', // ajusta a altura\n        right: '20px',   // posição horizontal (opcional)\n        zIndex: 9999     // garante que fique na frente de outros elementos\n      }\n    }\n  });\n</script>",
+        "html": "<script type=\"module\">\n  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'\n\n  Typebot.initBubble({\n    typebot: \"my-typebot-ds3lsl5\",\n    previewMessage: {\n      message:\n        \"Não sabe qual ferramenta escolher? Me diga o que você precisa que eu te indico a melhor ferramenta\",\n      autoShowDelay: 5000,\n    },\n    theme: {\n      button: { backgroundColor: \"#1D1D1D\" },\n      chatWindow: { backgroundColor: \"#fff\" },\n    }\n  });\n</script>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
