@@ -123,19 +123,21 @@
         render 'offcanvas-search'
     %}
     {{ settings.body_scripts }}
-    <script type="text/javascript">
+    <script>
   document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.href.includes("/pages/toolbox")) {
-      var checkTawk = setInterval(function () {
-        if (typeof Tawk_API !== 'undefined' && Tawk_API.hide) {
+    const isToolboxPage = window.location.pathname.includes("/pages/toolbox");
+
+    if (isToolboxPage) {
+      // Espera até que o Tawk_API esteja carregado
+      const interval = setInterval(function () {
+        if (typeof Tawk_API !== "undefined" && Tawk_API.hide) {
           Tawk_API.hide();
-          clearInterval(checkTawk);
+          clearInterval(interval);
         }
-      }, 500);
+      }, 300);
     }
   });
 </script>
-
 </body>
 </html>
     
