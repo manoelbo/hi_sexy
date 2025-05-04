@@ -78,7 +78,7 @@
       "type": "html",
       "name": "HTML",
       "settings": {
-        "html": "<iframe src=\"https://typebot.co/my-typebot-ds3lsl5\" style=\"border: none; width: 100%; height: 600px\"></iframe>",
+        "html": "<script type=\"module\">\n  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'\n\n  Typebot.initBubble({\n    typebot: \"my-typebot-ds3lsl5\",\n    previewMessage: {\n      message: \"Não sabe qual ferramenta escolher? Deixa que eu te ajudo!\",\n    },\n    theme: {\n      button: {\n        backgroundColor: \"#1D1D1D\",\n        customIconSrc:\n          \"https://s3.typebot.io/public/workspaces/cma9pmozu001us4x0u777887k/typebots/cma9r81fr0001du5uqds3lsl5/bubble-icon?v=1746371670406\",\n      },\n      chatWindow: { backgroundColor: \"#fff\" },\n    },\n  });\n</script>",
         "bg_color": "",
         "container": "container",
         "text_align": "text-center",
