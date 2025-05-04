@@ -161,17 +161,17 @@
   });
 </script>
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const repositionTypebot = setInterval(() => {
-      const bubble = document.querySelector(".typebot-bubble-button");
-      if (bubble) {
-        bubble.style.bottom = "100px"; // Altere para a altura que desejar
-        bubble.style.right = "20px";
-        bubble.style.zIndex = "9999";
-        clearInterval(repositionTypebot);
-      }
-    }, 300);
+  const observer = new MutationObserver(() => {
+    const bubble = document.querySelector(".typebot-bubble-button");
+    if (bubble) {
+      bubble.style.bottom = "100px";
+      bubble.style.right = "20px";
+      bubble.style.zIndex = "9999";
+      observer.disconnect(); // Para de observar depois de ajustar
+    }
   });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 </script>
 
 </body>
