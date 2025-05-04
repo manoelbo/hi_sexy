@@ -123,57 +123,6 @@
         render 'offcanvas-search'
     %}
     {{ settings.body_scripts }}
-    <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const isToolboxPage = window.location.pathname.includes("/pages/toolbox");
-
-    if (isToolboxPage) {
-      // Espera até que o Tawk_API esteja carregado
-      const interval = setInterval(function () {
-        if (typeof Tawk_API !== "undefined" && Tawk_API.hide) {
-          Tawk_API.hide();
-          clearInterval(interval);
-        }
-      }, 300);
-    }
-  });
-</script>
-  <style>
-  /* Aguarda o botão do Typebot carregar e move ele */
-  .typebot-bubble-button {
-    bottom: 100px !important; /* Ajuste aqui a altura que você quiser */
-    z-index: 9999 !important;
-  }
-</style>
-  <style>
-  body[data-tawk-hide="true"] #tawkchat-container,
-  body[data-tawk-hide="true"] iframe[src*="tawk.to"] {
-    display: none !important;
-  }
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const currentPath = window.location.pathname;
-    if (currentPath.includes("/pages/toolbox")) {
-      document.body.setAttribute("data-tawk-hide", "true");
-    }
-  });
-</script>
-<script>
-  const observer = new MutationObserver(() => {
-    const bubble = document.querySelector(".typebot-bubble-button");
-    if (bubble) {
-      bubble.style.bottom = "100px";
-      bubble.style.right = "20px";
-      bubble.style.zIndex = "9999";
-      observer.disconnect(); // Para de observar depois de ajustar
-    }
-  });
-
-  observer.observe(document.body, { childList: true, subtree: true });
-</script>
-
 </body>
 </html>
     
