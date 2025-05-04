@@ -145,6 +145,22 @@
     z-index: 9999 !important;
   }
 </style>
+  <style>
+  body[data-tawk-hide="true"] #tawkchat-container,
+  body[data-tawk-hide="true"] iframe[src*="tawk.to"] {
+    display: none !important;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname;
+    if (currentPath.includes("/pages/toolbox")) {
+      document.body.setAttribute("data-tawk-hide", "true");
+    }
+  });
+</script>
+
 </body>
 </html>
     
