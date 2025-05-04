@@ -144,13 +144,13 @@
     },
     "content_for_index": [],
     "blocks": {
-      "9365423049038898845": {
-        "type": "shopify://apps/tawk-to-live-chat/blocks/widget-embed-code/91169e75-f163-40ce-90e0-9059f3c9b772",
+      "1639135474517437502": {
+        "type": "shopify://apps/adoric-pop-ups-email-popup/blocks/adoric-app-embed/5093b4c9-1f84-4db8-8760-f4b25b818e1c",
         "disabled": false,
         "settings": {}
       },
-      "1639135474517437502": {
-        "type": "shopify://apps/adoric-pop-ups-email-popup/blocks/adoric-app-embed/5093b4c9-1f84-4db8-8760-f4b25b818e1c",
+      "9365423049038898845": {
+        "type": "shopify://apps/tawk-to-live-chat/blocks/widget-embed-code/91169e75-f163-40ce-90e0-9059f3c9b772",
         "disabled": false,
         "settings": {}
       }
