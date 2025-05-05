@@ -862,7 +862,7 @@
         "mobile_display": "accordion",
         "height": 170,
         "media_radius": 5,
-        "media_shadow": false,
+        "media_shadow": true,
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "headline": "",
