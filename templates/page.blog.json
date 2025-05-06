@@ -184,6 +184,12 @@
     "blog_highlights_aXknDr": {
       "type": "blog-highlights",
       "blocks": {
+        "article_MWtzJr": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-third-law-of-adaptability-success-is-a-volume-game-and-the-poisonous-nature-of-admiration"
+          }
+        },
         "article_nUX87i": {
           "type": "article",
           "settings": {
@@ -195,18 +201,12 @@
           "settings": {
             "article": "news/when-our-phones-die-and-what-that-says-about-us"
           }
-        },
-        "article_MWtzJr": {
-          "type": "article",
-          "settings": {
-            "article": ""
-          }
         }
       },
       "block_order": [
+        "article_MWtzJr",
         "article_nUX87i",
-        "article_GzntLR",
-        "article_MWtzJr"
+        "article_GzntLR"
       ],
       "settings": {
         "title": "Artigos em Inglês",
@@ -219,7 +219,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
