@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "b11cfaf5-4cbe-4a0e-a28c-76d9142eaab4": {
@@ -33,6 +42,24 @@
         "mb_sm": 0
       }
     },
+    "html_b6DVhx": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<script type=\"module\">\n  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.3/dist/web.js'\n\n  Typebot.initBubble({\n    typebot: \"my-typebot-ds3lsl5\",\n    previewMessage: {\n      message:\n        \"Não sabe qual ferramenta escolher? Descreva o que você precisa e eu vou te recomendar a melhor ferramenta da Toolbox da Hyper Island!\",\n      autoShowDelay: 5000,\n    },\n    theme: {\n      button: {\n        backgroundColor: \"#1D1D1D\",\n        customIconSrc:\n          \"https://s3.typebot.io/public/workspaces/cma9pmozu001us4x0u777887k/typebots/cma9r81fr0001du5uqds3lsl5/bubble-icon?v=1746382178826\",\n        size: \"large\",\n      },\n      chatWindow: { backgroundColor: \"#fff\" },\n    },\n  });\n</script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "richtext_QPpbbY": {
       "type": "richtext",
       "custom_css": [],
@@ -42,7 +69,7 @@
         "text_align": "text-start",
         "title": "{{ metaobject.parte_do_curso_title.value }}",
         "title_size": "h2",
-        "description": "<p>{{ metaobject.parte_do_curso_description.value }}<\/p>",
+        "description": "<p>{{ metaobject.parte_do_curso_description.value }}</p>",
         "description_size": "fs-6",
         "btn_text": "{{ metaobject.parte_do_curso_button_text.value }}",
         "btn_url": "{{ metaobject.parte_do_curso_button.value }}",
@@ -552,13 +579,14 @@
         "padding_bottom": 10,
         "padding_left": 15,
         "padding_right": 15,
-        "text": "<strong>Voltar para Toolbox<\/strong>",
-        "link": "shopify:\/\/pages\/toolbox"
+        "text": "<strong>Voltar para Toolbox</strong>",
+        "link": "shopify://pages/toolbox"
       }
     }
   },
   "order": [
     "b11cfaf5-4cbe-4a0e-a28c-76d9142eaab4",
+    "html_b6DVhx",
     "richtext_QPpbbY",
     "content_aEVrri",
     "05cf08d8-8bc8-4968-b8e1-f340ed6bd9b9",
