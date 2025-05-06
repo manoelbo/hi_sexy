@@ -27,6 +27,58 @@
         "mb": 0
       }
     },
+    "blog_highlights_3jr4Fn": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_GWLyL9": {
+          "type": "article",
+          "settings": {
+            "article": "news/a-terceira-lei-da-adaptabilidade-sucesso-e-um-jogo-de-volume-e-a-natureza-venenosa-da-admiracao"
+          }
+        },
+        "article_nkirAL": {
+          "type": "article",
+          "settings": {
+            "article": ""
+          }
+        },
+        "article_bdtFg9": {
+          "type": "article",
+          "settings": {
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_GWLyL9",
+        "article_nkirAL",
+        "article_bdtFg9"
+      ],
+      "name": "Destaques do Blog",
+      "settings": {
+        "title": "Artigos em Português",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-12 blog-card-row",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "blog_highlights_QCXUYg": {
       "type": "blog-highlights",
       "blocks": {
@@ -55,7 +107,7 @@
         "article_NmWCPi"
       ],
       "settings": {
-        "title": "Artigos em Português",
+        "title": "",
         "show_title": true,
         "title_size": "display-2",
         "title_alignment": "text-center",
@@ -340,6 +392,7 @@
   },
   "order": [
     "html_em9Lh7",
+    "blog_highlights_3jr4Fn",
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
