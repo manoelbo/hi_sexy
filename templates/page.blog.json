@@ -70,13 +70,13 @@
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
-        "pb_lg": 13,
+        "pb_lg": 10,
         "mt_lg": 0,
-        "mb_lg": 0,
+        "mb_lg": 11,
         "pt_sm": 10,
         "pb_sm": 10,
         "mt_sm": 0,
-        "mb_sm": 0
+        "mb_sm": 7
       }
     },
     "blog_highlights_QCXUYg": {
