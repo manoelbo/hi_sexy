@@ -736,12 +736,13 @@
           "type": "content",
           "settings": {
             "name": "{{ product.metafields.my_fields.name_testimonial_2.value }}",
-            "text": "{{ product.metafields.my_fields.testimonial_2.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_2.value }}  🔗 Assista ao Depoimento Completo",
             "img": "{{ product.metafields.custom.testimonial_photo_2.value }}"
           }
         },
         "content_3qigkg": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "name": "{{ product.metafields.custom.name_testimonial_3.value }}",
             "text": "{{ product.metafields.custom.testimonial_3.value }}",
@@ -750,6 +751,7 @@
         },
         "content_9ytHUq": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "name": "{{ product.metafields.custom.name_testimonial_4.value }}",
             "text": "{{ product.metafields.custom.testimonial_4.value }}",
@@ -837,7 +839,7 @@
         "headline_size": 40,
         "mobile_headline_size": 40,
         "headline_line_height": "inherit",
-        "text_color": "#111",
+        "text_color": "#111111",
         "link_color": "#005bd3",
         "show_on_device": "desktop",
         "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
@@ -857,7 +859,7 @@
         "container_radius": 0,
         "container_shadow": false,
         "container_border_size": 0,
-        "container_border_color": "#888",
+        "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
         "height": 170,
