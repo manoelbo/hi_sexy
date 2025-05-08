@@ -788,33 +788,34 @@
         "image_7ANxzJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-54-25.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-05-06.png",
             "link": ""
           }
         },
         "image_MrtB7e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-54-49.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-05-37.png",
             "link": ""
           }
         },
         "image_6X8dFe": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-56-00.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-06-16.png",
             "link": ""
           }
         },
         "image_6byTke": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-55-10.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-06-45.png",
             "link": ""
           }
         },
         "image_zU7MHD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-55-44.png",
             "link": ""
