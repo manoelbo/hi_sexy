@@ -742,7 +742,6 @@
         },
         "content_3qigkg": {
           "type": "content",
-          "disabled": true,
           "settings": {
             "name": "{{ product.metafields.custom.name_testimonial_3.value }}",
             "text": "{{ product.metafields.custom.testimonial_3.value }}",
