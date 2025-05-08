@@ -199,7 +199,6 @@
     },
     "sp_video_standalone_WcG3Cy": {
       "type": "sp-video-standalone",
-      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "max_width": 1000,
@@ -207,7 +206,7 @@
         "padding_bottom": 100,
         "padding_left": 10,
         "padding_right": 10,
-        "video": "shopify://files/videos/Trailer do Curso - Liderança Ágil.mp4",
+        "video": "shopify://files/videos/Video Beni com thumbnail final.mp4",
         "video_inline": true,
         "video_autoplay": false,
         "video_loop": false,
