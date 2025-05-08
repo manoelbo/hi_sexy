@@ -863,7 +863,7 @@
         "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
-        "height": 170,
+        "height": 300,
         "media_radius": 5,
         "media_shadow": true,
         "text_alignment": "center",
