@@ -768,7 +768,7 @@
             "background_image": "shopify://shop_images/TESTE_IMAGEM_2.png",
             "quote": "<strong>DE 2 A 3 PESSOAS</strong>",
             "cite": "Ideal para quem quer companhia",
-            "cta_link": "https://www.hyperisland.com.br/discount/FSTEAM10?redirect=%2Fproducts%2Ffull-pass-3-dias-de-evento"
+            "cta_link": "shopify://pages/cursos-para-empresas"
           }
         },
         "review_7jpN3X": {
@@ -813,62 +813,6 @@
         "padding_left": 10,
         "padding_right": 10,
         "element_spacing": 10,
-        "media_radius": 5,
-        "media_shadow": true
-      }
-    },
-    "sp_review_grid_VPghrA": {
-      "type": "sp-review-grid",
-      "blocks": {
-        "review_KqV8iE": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/TESTE_IMAGEM_2.png",
-            "quote": "This is a sample review.",
-            "cite": "Sample Reviewer",
-            "cta_link": "https://www.hyperisland.com.br/discount/FSTEAM10?redirect=%2Fproducts%2Ffull-pass-3-dias-de-evento"
-          }
-        },
-        "review_aDTM4g": {
-          "type": "review",
-          "settings": {
-            "quote": "This is a sample review.",
-            "cite": "Sample Reviewer",
-            "cta_link": ""
-          }
-        },
-        "review_DKKf6c": {
-          "type": "review",
-          "settings": {
-            "quote": "This is a sample review.",
-            "cite": "Sample Reviewer",
-            "cta_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_KqV8iE",
-        "review_aDTM4g",
-        "review_DKKf6c"
-      ],
-      "name": "🚀SP - Review Grid",
-      "settings": {
-        "override_fonts": false,
-        "text_font": "sans-serif",
-        "text_size": 15,
-        "text_line_height": "inherit",
-        "text_color": "#fff",
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
-        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
-        "cover_opacity": 25,
-        "highlight_color": "#FFFFFF",
-        "max_width": 1000,
-        "grid_gap": 20,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10,
-        "element_spacing": 15,
         "media_radius": 5,
         "media_shadow": true
       }
@@ -1230,7 +1174,6 @@
     "content_N9engr",
     "content_y7fXnR",
     "sp_review_grid_2_wewbMw",
-    "sp_review_grid_VPghrA",
     "title_section_qKnncj",
     "content_8Ct4hi",
     "sp_video_standalone_xcN4Br",
