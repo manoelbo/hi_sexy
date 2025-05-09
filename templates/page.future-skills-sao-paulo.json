@@ -707,6 +707,7 @@
     },
     "content_y7fXnR": {
       "type": "content",
+      "disabled": true,
       "name": "HI23 Content Section",
       "settings": {
         "hidden": false,
@@ -795,6 +796,7 @@
         "review_7jpN3X",
         "review_WUW9PM"
       ],
+      "disabled": true,
       "name": "🚀SP - Review Grid",
       "settings": {
         "override_fonts": false,
