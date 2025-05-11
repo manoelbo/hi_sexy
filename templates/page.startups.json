@@ -186,6 +186,53 @@
         "text": ""
       }
     },
+    "button_section_q7VzYA": {
+      "type": "button-section",
+      "blocks": {
+        "button_QyCydU": {
+          "type": "button",
+          "settings": {
+            "text": "Quero me inscrever",
+            "url": "",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-black"
+          }
+        }
+      },
+      "block_order": [
+        "button_QyCydU"
+      ],
+      "name": "HI23 Buttons Section",
+      "settings": {
+        "title": "Transforme sua startup hoje mesmo",
+        "text": "Vagas Limitadas. Inscreva-se antes do dia 30/06",
+        "bg_color": "#ff7300",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-3",
+        "text_size": "fs-4",
+        "layout_align": "one",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "newsletter_session_crGtWW": {
       "type": "newsletter-session",
       "settings": {
@@ -221,6 +268,7 @@
     "header_tJemxC",
     "html_em9Lh7",
     "sp_faq_plus_CKPKKP",
+    "button_section_q7VzYA",
     "newsletter_session_crGtWW"
   ]
 }
