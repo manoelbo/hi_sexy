@@ -169,7 +169,7 @@
         "media_shadow": true,
         "media_border_size": 0,
         "media_border_color": "#888",
-        "question_size": 25,
+        "question_size": 30,
         "question_color": "#111111",
         "answer_color": "#555555",
         "faq_spacing": 20,
