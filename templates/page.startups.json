@@ -217,7 +217,7 @@
         "layout_align": "five",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
+        "content_width": "w-lg-50",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
