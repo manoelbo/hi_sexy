@@ -73,6 +73,119 @@
         "mb": 0
       }
     },
+    "sp_faq_plus_CKPKKP": {
+      "type": "sp-faq-plus",
+      "blocks": {
+        "question_zTdpBx": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Qual o custo para participar do programa?</strong>",
+            "answer": "<p>O programa é 100% gratuito! Ele é uma forma da Hyper Island compartilhar com a sociedade parte do conhecimento acumulado nos últimos 10 anos. Caso selecionado, a sua startup terá acesso a todas as mentorias, cursos e eventos de forma gratuita. </p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_Fz7K7m": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quais os critérios de Seleção?</strong>",
+            "answer": "<p>Avaliamos: <strong>(1)</strong> Potencial de impacto e escalabilidade do negócio; <strong>(2) </strong>Qualidade e complementaridade do time; <strong>(3)</strong> Estágio de desenvolvimento (preferência para MVP validado); <strong>(4)</strong> Alinhamento com os temas do programa; <strong>(5)</strong> Disponibilidade para participar de todas as atividades. </p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_a7qJUH": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>O programa é presencial ou online?</strong>",
+            "answer": "<p>O programa é 100% online. Tanto as mentorias quantos os cursos serão realizadas em ambientes virtuais, porém as startups selecionadas terão direito a ingressos para os eventos presenciais da Hyper Island, com o Future Skills.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_h6UTqK": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>O que faz parte do programa?</strong>",
+            "answer": "<p>Mentoria mensal com os consultores da Hyper Island nas áreas de:<strong> Liderança, Inovação, Criatividade, Futuros, Growth, Marketing, Social Media, Finanças e Gestão de Pessoas. </strong>Além de participação gratuita nos cursos da Hyper Island, como <strong>Comunicação Executiva, Liderança em Tempos de Mudança, Explorando Futuros, Creative Thinking</strong> e muito mais. Os participantes também farão <strong>conexões com investidores e potenciais parceiros</strong>. Ao final do programa, as Startups participantes ganharão um <strong>Certificado de Conclusão</strong></p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "question_zTdpBx",
+        "question_Fz7K7m",
+        "question_a7qJUH",
+        "question_h6UTqK"
+      ],
+      "name": "🚀SP - FAQ Plus",
+      "settings": {
+        "override_fonts": true,
+        "headline_font": "montserrat_n8",
+        "text_font": "montserrat_n4",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 40,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(319deg, rgba(245, 245, 245, 1) 1%, rgba(245, 245, 245, 1) 100%)",
+        "section_padding_top_bottom": 50,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1000,
+        "container_padding_top_bottom": 20,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "grid_gap": 10,
+        "grid_display": "1fr",
+        "vertical_alignment": "start",
+        "media_aspect_ratio": "4 / 3",
+        "media_radius": 5,
+        "media_shadow": true,
+        "media_border_size": 0,
+        "media_border_color": "#888",
+        "question_size": 18,
+        "question_color": "#111111",
+        "answer_color": "#555555",
+        "faq_spacing": 20,
+        "faq_gap": 10,
+        "faq_shadow": true,
+        "faq_radius": 5,
+        "faq_border_size": 0,
+        "faq_border_color": "#888",
+        "active_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "inactive_background_color": "linear-gradient(164deg, rgba(240, 240, 240, 1), rgba(240, 240, 240, 1) 100%)",
+        "faq_indicator": "plus_minus",
+        "headline_alignment": "center",
+        "headline": "<strong>Perguntas Frequentes</strong>",
+        "text": ""
+      }
+    },
     "newsletter_session_crGtWW": {
       "type": "newsletter-session",
       "settings": {
@@ -107,6 +220,7 @@
   "order": [
     "header_tJemxC",
     "html_em9Lh7",
+    "sp_faq_plus_CKPKKP",
     "newsletter_session_crGtWW"
   ]
 }
