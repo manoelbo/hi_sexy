@@ -1221,6 +1221,24 @@
         "text": "<strong>Registre-se</strong>",
         "link": "{{ product.metafields.my_fields.add_to_cart_button.value }}"
       }
+    },
+    "html_nAhf3z": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<div id=\"product-component-1748126769227\"></div>\n<script type=\"text/javascript\">\n/*<![CDATA[*/\n(function () {\n  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';\n  if (window.ShopifyBuy) {\n    if (window.ShopifyBuy.UI) {\n      ShopifyBuyInit();\n    } else {\n      loadScript();\n    }\n  } else {\n    loadScript();\n  }\n  function loadScript() {\n    var script = document.createElement('script');\n    script.async = true;\n    script.src = scriptURL;\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);\n    script.onload = ShopifyBuyInit;\n  }\n  function ShopifyBuyInit() {\n    var client = ShopifyBuy.buildClient({\n      domain: 'hyperislandbrasil.myshopify.com',\n      storefrontAccessToken: '367dbb8999df7083d1533720d4d0592f',\n    });\n    ShopifyBuy.UI.onReady(client).then(function (ui) {\n      ui.createComponent('product', {\n        id: '8860601483486',\n        node: document.getElementById('product-component-1748126769227'),\n        moneyFormat: 'R%24%20%7B%7Bamount_with_comma_separator%7D%7D',\n        options: {\n  \"product\": {\n    \"styles\": {\n      \"product\": {\n        \"@media (min-width: 601px)\": {\n          \"max-width\": \"calc(25% - 20px)\",\n          \"margin-left\": \"20px\",\n          \"margin-bottom\": \"50px\"\n        }\n      }\n    },\n    \"contents\": {\n      \"img\": false,\n      \"title\": false,\n      \"price\": false\n    },\n    \"text\": {\n      \"button\": \"Add to cart\"\n    }\n  },\n  \"productSet\": {\n    \"styles\": {\n      \"products\": {\n        \"@media (min-width: 601px)\": {\n          \"margin-left\": \"-20px\"\n        }\n      }\n    }\n  },\n  \"modalProduct\": {\n    \"contents\": {\n      \"img\": false,\n      \"imgWithCarousel\": true,\n      \"button\": false,\n      \"buttonWithQuantity\": true\n    },\n    \"styles\": {\n      \"product\": {\n        \"@media (min-width: 601px)\": {\n          \"max-width\": \"100%\",\n          \"margin-left\": \"0px\",\n          \"margin-bottom\": \"0px\"\n        }\n      }\n    },\n    \"text\": {\n      \"button\": \"Add to cart\"\n    }\n  },\n  \"option\": {},\n  \"cart\": {\n    \"text\": {\n      \"total\": \"Subtotal\",\n      \"button\": \"Checkout\"\n    },\n    \"popup\": false\n  },\n  \"toggle\": {}\n},\n      });\n    });\n  }\n})();\n/*]]>*/\n</script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
@@ -1245,6 +1263,7 @@
     "f39daef8-3263-467c-b5e2-581de2221700",
     "sp_faq_plus_EiCn7w",
     "577b8190-d683-4d05-92aa-43b63a3a640d",
-    "sp_action_button_3kFMbb"
+    "sp_action_button_3kFMbb",
+    "html_nAhf3z"
   ]
 }
