@@ -965,17 +965,35 @@
         "content_width": "w-lg-50",
         "default_spacing": true,
         "pt_xl": 15,
-        "pb_xl": 12,
+        "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 15,
-        "pb_lg": 11,
+        "pb_lg": 0,
         "mt_lg": 0,
         "mb_lg": 0,
         "pt_sm": 11,
-        "pb_sm": 9,
+        "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
+      }
+    },
+    "html_iCgyJD": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<!-- Payment Method Icons Section -->\n<section class=\"payment-methods\">\n  <ul class=\"payment-icons\">\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg\" alt=\"Visa\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg\" alt=\"Mastercard\"></li>\n    <li><img src=\"https://images.icon-icons.com/2341/PNG/512/elo_payment_method_card_icon_142740.png\" alt=\"Elo\"></li>\n    <li><img src=\"https://images.icon-icons.com/1178/PNG/512/amex_82052.png\" alt=\"American Express\"></li>\n    <li><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg/1200px-Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg.png\" alt=\"Pix\"></li>\n    <li><img src=\"https://www.treinarminas.com.br/wp-content/uploads/2022/09/Credito-Educacional-Boleto.png\" alt=\"Boleto\"></li>\n  </ul>\n</section>\n\n<style>\n  .payment-methods {\n    text-align: center;\n    padding: 1em 0;\n  }\n  .payment-icons {\n    list-style: none;\n    display: inline-flex;\n    gap: 1em;\n    margin: 0;\n    padding: 0;\n  }\n  .payment-icons li img {\n    width: 40px;\n    height: auto;\n    opacity: 0.6;\n    transition: opacity 0.3s;\n  }\n  .payment-icons li img:hover {\n    opacity: 0.9;\n  }\n</style>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 13
       }
     },
     "course_header_2_a7WkJK": {
@@ -1278,6 +1296,7 @@
     "content_3bmDAK",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "header_t9LXn8",
+    "html_iCgyJD",
     "course_header_2_a7WkJK",
     "f39daef8-3263-467c-b5e2-581de2221700",
     "sp_faq_plus_EiCn7w",
