@@ -524,9 +524,9 @@
         "px_xs": 0,
         "my_xs": 0,
         "mx_xs": 0,
-        "spb_lg": 13,
+        "spb_lg": 6,
         "smb_lg": 0,
-        "spb_xs": 10,
+        "spb_xs": 6,
         "smb_xs": 0
       }
     },
@@ -537,7 +537,7 @@
           "type": "button",
           "settings": {
             "text": "Quero participar",
-            "url": "https://hyperislandbrasil.myshopify.com/cart/46513148952798:1?channel=buy_button",
+            "url": "https://www.hyperisland.com.br/cart/add?id=42955185619166&quantity=1",
             "target": false,
             "style": "rounded-orange"
           }
