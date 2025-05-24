@@ -640,7 +640,7 @@
         "mt_xs": 0,
         "spb_lg": 0,
         "smb_lg": 0,
-        "spb_xs": 3,
+        "spb_xs": 0,
         "smb_xs": 0
       }
     },
@@ -699,7 +699,7 @@
         "section_background_color": "linear-gradient(320deg, rgba(245, 245, 245, 1) 52%, rgba(245, 245, 245, 1) 87%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
-        "section_padding_top_bottom": 50,
+        "section_padding_top_bottom": 30,
         "mobile_section_padding_top_bottom": 25,
         "section_padding_left_right": 25,
         "mobile_section_padding_left_right": 25,
