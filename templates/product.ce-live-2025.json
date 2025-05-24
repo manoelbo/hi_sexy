@@ -526,7 +526,7 @@
         "px_xs": 0,
         "my_xs": 0,
         "mx_xs": 0,
-        "spb_lg": 13,
+        "spb_lg": 7,
         "smb_lg": 0,
         "spb_xs": 10,
         "smb_xs": 0
@@ -566,15 +566,15 @@
         "content_width": "w-lg-auto",
         "default_spacing": true,
         "pt_xl": 0,
-        "pb_xl": 8,
+        "pb_xl": 12,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
-        "pb_lg": 9,
+        "pb_lg": 12,
         "mt_lg": 0,
         "mb_lg": 0,
         "pt_sm": 0,
-        "pb_sm": 6,
+        "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 0
       }
