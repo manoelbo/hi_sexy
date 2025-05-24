@@ -544,7 +544,7 @@
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#ffffff",
+        "bg_color": "#f5f5f5",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-center",
@@ -631,7 +631,7 @@
       ],
       "settings": {
         "bg_color": "#ffffff",
-        "bg_gradient": "",
+        "bg_gradient": "linear-gradient(310deg, rgba(245, 245, 245, 1) 15%, rgba(245, 245, 245, 1) 85%)",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-2",
