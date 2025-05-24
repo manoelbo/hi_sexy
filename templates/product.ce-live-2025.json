@@ -652,28 +652,35 @@
         "image_mbQpYr": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/depoimento_ef_2.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-54-25.png",
             "link": ""
           }
         },
         "image_dCi3xF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-05-37.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-54-49.png",
             "link": ""
           }
         },
         "image_YTD8PY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-05-37_a20b2106-9c88-4609-9b39-be9125ed81f8.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-56-00.png",
             "link": ""
           }
         },
         "image_4KJFdq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/depoimento_print.png",
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-55-10.png",
+            "link": ""
+          }
+        },
+        "image_GQkrNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-05_17-55-44.png",
             "link": ""
           }
         }
@@ -682,7 +689,8 @@
         "image_mbQpYr",
         "image_dCi3xF",
         "image_YTD8PY",
-        "image_4KJFdq"
+        "image_4KJFdq",
+        "image_GQkrNV"
       ],
       "name": "🚀 Accordion",
       "settings": {
@@ -718,7 +726,7 @@
         "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
-        "height": 250,
+        "height": 170,
         "media_radius": 5,
         "media_shadow": true,
         "text_alignment": "center",
