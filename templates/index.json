@@ -419,7 +419,7 @@
             "category_id": "",
             "title": "Liderança Ágil",
             "text": "Curso online e gravado que une teoria e prática para uma imersão na liderança moderna, transformando a maneira como você e sua equipe trabalham.",
-            "url": "shopify://products/lideranca-agil-1",
+            "url": "shopify://products/curso-lideranca-agil",
             "target": false
           }
         }
@@ -512,7 +512,7 @@
             "header": "Na compra de qualquer curso ganhe de brinde",
             "title": "curso liderança ágil",
             "text": "Adicione <strong>ambos </strong>os cursos ao carrinho e aproveite!",
-            "url": "shopify://products/lideranca-agil-1",
+            "url": "shopify://products/curso-lideranca-agil",
             "target": false,
             "font_color": "text-light",
             "bg_color": "#000000",
