@@ -148,6 +148,7 @@
       "block_order": [
         "button_naxytV"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -180,6 +181,7 @@
     },
     "sp_video_standalone_WCA3zL": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(180deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "max_width": 1000,
@@ -352,7 +354,7 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "Para quem quer transformar seu jeito de liderar e de impactar o mundo.",
+        "title": "Para quem quer antecipar tendências, questionar o presente e moldar os caminhos do amanhã.",
         "text": "",
         "font_color": "text-light",
         "title_size": "display-1",
@@ -407,8 +409,8 @@
         "content_mEq6Kt": {
           "type": "content",
           "settings": {
-            "title": "LIDERANÇA EM UM MUNDO EM CONSTANTE MUDANÇA",
-            "text": "Neste módulo introdutório, mergulharemos no cenário da liderança contemporânea. Exploraremos como as transformações no ambiente de trabalho e o contínuo impacto da revolução digital estão constantemente redefinindo o papel dos líderes. Você será convidado a refletir profundamente sobre sua motivação para liderar e como pode efetivamente influenciar sua equipe para alcançar resultados desejados.",
+            "title": "SINAIS DE MUDANÇA",
+            "text": "Explore algumas das principais estruturas e usos de Tendências e Futurologia em diferentes organizações. Discutiremos algumas características-chave de uma <strong>mentalidade futurista</strong> ou de criador de futuros, bem como algumas das barreiras e vieses comuns que enfrentamos como seres humanos ao tentar imaginar, projetar e enfrentar mudanças. Iremos identificar <strong>aplicações reais</strong> de tendências e começar a ajudar você a construir seu próprio kit de métodos, além de introduzir alguns comportamentos simples que você pode incorporar em sua rotina para obter resultados agora.",
             "header": "Módulo 1",
             "svg": "",
             "bg_color": "",
@@ -418,8 +420,8 @@
         "content_9Jh4bf": {
           "type": "content",
           "settings": {
-            "title": "LIDERANÇA FACILITADORA",
-            "text": "Vamos incentivar você a investir no desenvolvimento da autoliderança, reconhecendo a importância de cuidar de si mesmo para melhor cuidarem dos outros. Exploraremos em detalhes o conceito de \"liderança facilitadora\", ajudando você a transcender o papel tradicional de especialista e a adotar uma abordagem que estimula o engajamento e empoderamento nas equipes. Ferramentas práticas serão fornecidas para promover essa transformação.",
+            "title": "FUTUROS ADJACENTES",
+            "text": "Este módulo parte das <strong>tendências de hoje</strong> para explorar como elas podem surgir e evoluir em futuros possíveis. Ajudaremos você com <strong>frameworks</strong> e ferramentas simples, como Rodas de Futuros e Cones de Plausibilidade. Você também explorará a importância do <strong>pensamento sistêmico</strong> e de abordagens centradas no ser humano para explorar as consequências das mudanças. Discutiremos comportamentos e habilidades centrais para uma mentalidade mais curiosa, para virar o jogo em relação ao futuro e começar a desenvolver perspectivas mais inclusivas e expansivas sobre futuros possíveis. ",
             "header": "Módulo 2",
             "svg": "",
             "bg_color": "",
@@ -429,8 +431,8 @@
         "content_Uxnf3N": {
           "type": "content",
           "settings": {
-            "title": "CONSTRUINDO EQUIPES DE ALTO DESEMPENHO",
-            "text": "Neste módulo, desvendaremos os atributos fundamentais de equipes altamente eficazes e o papel central do líder na sua formação. Abordaremos estratégias para construir confiança e estabelecer uma atmosfera de segurança psicológica. Além disso, exploraremos a importância não apenas de fornecer, mas também solicitar feedback regularmente, e discutiremos como se preparar para conduzir conversas desafiadoras.",
+            "title": "CONSTRUÇÃO DE CENÁRIOS ",
+            "text": "Este módulo introduz como criar e aplicar <strong>Cenários Futuros</strong> para uma variedade de necessidades de negócios – desde planejamento estratégico até criação de conceitos de inovação radical. Você aprenderá o processo para construir <strong>matrizes de cenários</strong> simples e descobrirá uma variedade de exemplos reais de diferentes indústrias. Este módulo também ajudará você a desenvolver <strong>habilidades de storytelling e criatividade</strong> para explorar possibilidades. Você terá experiência prática em criar alguns cenários em torno de diferentes temas sociais e culturais.",
             "header": "Módulo 3",
             "svg": "",
             "bg_color": "",
@@ -440,8 +442,8 @@
         "content_L4yY3M": {
           "type": "content",
           "settings": {
-            "title": "NAVEGANDO A COMPLEXIDADE",
-            "text": "No quarto módulo, exploraremos ferramentas e abordagens práticas para lidar com as múltiplas polaridades que os líderes enfrentam. Abordaremos questões como o equilíbrio entre alinhamento e autonomia, a dicotomia entre ser um agente de ruptura ou um facilitador, e como encontrar a proporção certa entre foco na execução e no planejamento de longo prazo.",
+            "title": "PLAY IN THE FUTURE",
+            "text": "Este módulo altamente dinâmico apresenta novas ferramentas para desbloquear o <strong>poder dos cenários especulativos</strong>. Oferece uma excelente oportunidade de testar uma ferramenta simples para ajudar você e sua equipe a <strong>explorar futuros possíveis</strong> e refletir sobre as implicações dessa metodologia para impulsionar criatividade, colaboração e inovação. Exploramos o poder do Pensamento de Futuros Episódicos, não apenas para o sucesso profissional, mas também para agilidade mental pessoal em um mundo cada vez mais complexo.",
             "header": "Módulo 4",
             "svg": "",
             "bg_color": "",
@@ -451,8 +453,8 @@
         "content_pWPG4M": {
           "type": "content",
           "settings": {
-            "title": "AGILIDADE & DIVERSIDADE COMO ACELERADORES",
-            "text": "Discutiremos como você pode alavancar agilidade e diversidade para acelerar a transformação de sua equipe e impactar positivamente os resultados do negócio. Investigaremos os desafios inerentes à liderança para a inovação e exploraremos como essa abordagem está moldando tanto a cultura individual quanto a coletiva das equipes.",
+            "title": "DESIGN ESPECULATIVO E DESIGN DE FICÇÃO",
+            "text": "Discutiremos como aplicamos nossos mapas e radares para tendências futuras em produtos, serviços e ideias para o futuro. Você aprenderá como influenciar a mudança por meio da <strong>criação de design de ficção e futuros especulativos</strong>, além de explorar a importância de <strong>criar narrativas</strong> envolventes.Veremos como conectar e envolver outras pessoas na sua organização em torno de visões mais claras do futuro de maneiras divertidas, colaborativas e envolventes para alcançar os resultados desejados.",
             "header": "Módulo 5",
             "svg": "",
             "bg_color": "",
@@ -462,8 +464,8 @@
         "content_GqqNJW": {
           "type": "content",
           "settings": {
-            "title": "LIDERANDO PARA O FUTURO",
-            "text": "No último módulo, exploraremos como você pode se preparar, bem como preparar suas equipes e organizações, para enfrentar o futuro com uma mentalidade de curiosidade, clareza e adaptabilidade. Baseados em tendências atuais, analisaremos as habilidades cruciais que os líderes do futuro devem desenvolver desde já para liderar com sucesso em um ambiente em constante evolução.",
+            "title": "FUTUROS APLICADOS E ÉTICA DO FUTURO ",
+            "text": "Você verá como aplicar o conteúdo do curso dentro de sua organização. Faremos uma imersão profunda na <strong>aplicação de ferramentas de futuros</strong> para desenvolvimento de <strong>estratégias ágeis</strong> e exploraremos modelos como os <strong>3 horizontes</strong>.Este último módulo também permitirá que você reflita sobre o material do curso, os principais insights e como aplicá-los em sua vida, equipe e organização. Ajudaremos você a criar <strong>planos de ação pessoais</strong> para se tornar um Criador de Futuros.",
             "header": "Módulo 6",
             "svg": "",
             "bg_color": "",
@@ -642,6 +644,88 @@
         "smb_xs": 0
       }
     },
+    "sp_accordion_pzc43T": {
+      "type": "sp-accordion",
+      "blocks": {
+        "image_mbQpYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/depoimento_ef_2.png",
+            "link": ""
+          }
+        },
+        "image_dCi3xF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-05-37.png",
+            "link": ""
+          }
+        },
+        "image_YTD8PY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Captura_de_tela_-_2025-05-07_21-06-16.png",
+            "link": ""
+          }
+        },
+        "image_4KJFdq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/depoimento_print.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mbQpYr",
+        "image_dCi3xF",
+        "image_YTD8PY",
+        "image_4KJFdq"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 40,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "desktop",
+        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 2000,
+        "container_padding_top_bottom": 30,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 250,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "",
+        "text": "",
+        "headline_spacing": 15
+      }
+    },
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57": {
       "type": "header_half",
       "blocks": {
@@ -775,8 +859,8 @@
         "e1cdf001-ba57-4c64-8543-e5fe36210b92": {
           "type": "content",
           "settings": {
-            "title": "Porque o mundo não vai desacelerar",
-            "text": "Quanto mais complexos os desafios, mais necessárias são lideranças capazes de agir com clareza, coragem e empatia. Este curso te prepara para liderar nesse novo mundo, com consciência e impacto real.",
+            "title": "<strong>Porque o futuro está sendo decidido hoje</strong>",
+            "text": "As transformações globais não esperam. Para navegar nas incertezas e antecipar oportunidades, é preciso desenvolver uma mentalidade de futuros. Este curso te prepara para agir com visão, estratégia e intenção no presente.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -786,8 +870,8 @@
         "e71745f9-44c5-4ceb-9905-dfd8436563ca": {
           "type": "content",
           "settings": {
-            "title": "Porque esperar pode custar caro",
-            "text": "Adiar o desenvolvimento da sua liderança pode significar oportunidades perdidas, equipes desmotivadas e decisões mal tomadas. Você pode começar agora a se tornar a referência que seu time precisa.",
+            "title": "<strong>Porque ignorar o futuro pode sair caro</strong>",
+            "text": "Negócios que não pensam no longo prazo ficam presos em respostas reativas. Desenvolver sua capacidade de antecipar cenários ajuda a tomar decisões mais conscientes, inovar com mais segurança e gerar valor sustentável.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -797,8 +881,8 @@
         "ad76ca31-6918-454a-b837-213f971bcc31": {
           "type": "content",
           "settings": {
-            "title": "Mais do que teoria de MBA",
-            "text": "Aqui você não encontra fórmulas prontas. Encontra experiências, ferramentas práticas e um espaço seguro para experimentar e evoluir. É formação com profundidade e aplicação imediata.",
+            "title": "<strong>Mais do que tendências ou futurologia</strong>",
+            "text": "Aqui você não recebe previsões prontas. Você aprende métodos, ferramentas e práticas para explorar o futuro de forma crítica, colaborativa e criativa. É uma jornada prática e transformadora para quem quer liderar com visão.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -899,9 +983,9 @@
       "settings": {
         "cta_1": "Comprar",
         "cta_2": "Programa do curso",
-        "cta_link_2": "",
+        "cta_link_2": "https://share.hsforms.com/1UxfDWENpTl2cNQ9DaRoInwy1ws?__hstc=20450983.3f0438a703abdfd9e460f944380845e4.1733142569813.1748096176624.1748120003946.299&__hssc=20450983.9.1748120003946&__hsfp=1556678618",
         "cta_3": "Tire suas Dúvidas",
-        "cta_link_3": "",
+        "cta_link_3": "mailto:sabryna.alsfasser@hyperisland.com",
         "zap": true,
         "zap_number": "593991223305",
         "zap_msg": ""
@@ -1188,6 +1272,7 @@
     "content_bpYrpx",
     "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
+    "sp_accordion_pzc43T",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "content_3bmDAK",
