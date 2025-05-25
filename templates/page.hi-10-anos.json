@@ -216,14 +216,78 @@
         "px_xs": 0,
         "my_xs": 0,
         "mx_xs": 0,
-        "spb_lg": 0,
+        "spb_lg": 10,
         "smb_lg": 0,
-        "spb_xs": 0,
+        "spb_xs": 10,
         "smb_xs": 0
+      }
+    },
+    "sp_accordion_fRejzP": {
+      "type": "sp-accordion",
+      "blocks": {
+        "video_xiVQLi": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video Beni 10 anos quadrado.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": true,
+            "video_muted": false
+          }
+        }
+      },
+      "block_order": [
+        "video_xiVQLi"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 16,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 60,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1) 11%, rgba(245, 245, 245, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 500,
+        "container_padding_top_bottom": 50,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 500,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "<strong>Benito Berretta</strong>",
+        "text": "Managing Director Hyper Island Americas",
+        "headline_spacing": 15
       }
     },
     "sp_video_with_text_wCQKpf": {
       "type": "sp-video-with-text",
+      "disabled": true,
       "name": "Video with Text",
       "settings": {
         "text_font": "montserrat_n5",
@@ -1084,6 +1148,7 @@
     "a9975935-5465-4fb0-830c-d87d16f77dad",
     "content_UQxdit",
     "content_3pBf4H",
+    "sp_accordion_fRejzP",
     "sp_video_with_text_wCQKpf",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
     "sp_review_grid_2_iUgXaP",
