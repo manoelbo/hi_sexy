@@ -777,7 +777,7 @@
         "container_border_color": "#ffffff",
         "gap": 8,
         "mobile_display": "accordion",
-        "height": 150,
+        "height": 200,
         "media_radius": 5,
         "media_shadow": false,
         "text_alignment": "center",
