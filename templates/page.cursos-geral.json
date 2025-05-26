@@ -41,6 +41,7 @@
         "video_TLPddN",
         "video_tTeUhE"
       ],
+      "disabled": true,
       "name": "Media Grid",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
