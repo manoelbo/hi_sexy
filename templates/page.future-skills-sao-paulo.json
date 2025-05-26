@@ -959,6 +959,24 @@
         "big_play_pause_button": true
       }
     },
+    "html_AwdrLH": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<div id=\"form\"></div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "newsletter_session_wqbhG8": {
       "type": "newsletter-session",
       "settings": {
@@ -1179,6 +1197,7 @@
     "title_section_qKnncj",
     "content_8Ct4hi",
     "sp_video_standalone_xcN4Br",
+    "html_AwdrLH",
     "newsletter_session_wqbhG8",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
     "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
