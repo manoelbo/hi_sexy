@@ -441,7 +441,7 @@
           "settings": {
             "video": "shopify://files/videos/Depoimento Renata BASF.mp4",
             "link": "",
-            "video_inline": false,
+            "video_inline": true,
             "video_autoplay": false,
             "video_loop": false,
             "video_controls": false,
