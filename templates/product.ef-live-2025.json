@@ -611,7 +611,7 @@
           "type": "content",
           "settings": {
             "name": "{{ product.metafields.my_fields.name_testimonial_1.value }}",
-            "text": "{{ product.metafields.my_fields.testimonial_1.value }}",
+            "text": "{{ product.metafields.my_fields.testimonial_1.value }} <a href=\"https://youtu.be/FBGLDAOEqog\" target=\"_blank\" title=\"https://youtu.be/FBGLDAOEqog\">▶️ <strong>Assista ao Depoimento Completo</strong></a>",
             "img": "{{ product.metafields.custom.testimonial_photo_1.value }}"
           }
         },
