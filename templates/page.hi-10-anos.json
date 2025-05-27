@@ -63,12 +63,75 @@
         "smb_xs": 0
       }
     },
+    "sp_accordion_fRejzP": {
+      "type": "sp-accordion",
+      "blocks": {
+        "video_xiVQLi": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/video Beni 10 anos quadrado.mp4",
+            "link": "",
+            "video_inline": false,
+            "video_autoplay": false,
+            "video_loop": false,
+            "video_controls": true,
+            "video_muted": false
+          }
+        }
+      },
+      "block_order": [
+        "video_xiVQLi"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 16,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 60,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 81%)",
+        "section_background_image_color": "#f3f0ed",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 500,
+        "container_padding_top_bottom": 0,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 500,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "",
+        "text": "",
+        "headline_spacing": 15
+      }
+    },
     "a9975935-5465-4fb0-830c-d87d16f77dad": {
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "",
-        "text": "Há 10 anos, a<strong> Hyper Island</strong> chegou às Américas com uma missão simples, mas profunda: <strong>ajudar pessoas e organizações a navegarem o desconhecido e prosperarem. </strong>Desde então, temos desbravado o futuro ao lado de empresas que ousam se transformar. Criamos experiências que desafiam, inspiram e provocam. E a cada treinamento, cada projeto, cada conversa, reafirmamos aquilo que acreditamos: o futuro não é um lugar ao qual chegamos. É algo que cocriamos, juntos.",
+        "title": "<strong>Benito Berretta</strong>",
+        "text": "Managing Director Hyper Island Americas",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -116,13 +179,12 @@
         "smb_xs": 0
       }
     },
-    "content_UQxdit": {
+    "content_jHak6t": {
       "type": "content",
-      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "",
-        "text": "Desde então, temos desbravado o futuro ao lado de empresas que ousam se transformar. Criamos experiências que desafiam, inspiram e provocam. E a cada treinamento, cada projeto, cada conversa, reafirmamos aquilo que acreditamos: o futuro não é um lugar ao qual chegamos. É algo que cocriamos, juntos.",
+        "text": "Há 10 anos, a<strong> Hyper Island</strong> chegou às Américas com uma missão simples, mas profunda: <strong>ajudar pessoas e organizações a navegarem o desconhecido e prosperarem. </strong>Desde então, temos desbravado o futuro ao lado de empresas que ousam se transformar. Criamos experiências que desafiam, inspiram e provocam. E a cada treinamento, cada projeto, cada conversa, reafirmamos aquilo que acreditamos: o futuro não é um lugar ao qual chegamos. É algo que cocriamos, juntos.",
         "font_color": "text-dark",
         "title_size": "display-4",
         "text_size": "fs-5",
@@ -142,23 +204,23 @@
         "c_bg_gradient": "",
         "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
-        "content_align_mobile": "text-center",
+        "content_align_mobile": "text-left",
         "default_spacing": false,
-        "pt_xl": 5,
-        "pb_xl": 0,
+        "pt_xl": 10,
+        "pb_xl": 2,
         "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 5,
-        "pb_lg": 0,
+        "pt_lg": 10,
+        "pb_lg": 4,
         "mt_lg": 0,
         "mb_lg": 0,
-        "pt_sm": 5,
-        "pb_sm": 0,
+        "pt_sm": 10,
+        "pb_sm": 3,
         "mt_sm": 0,
         "mb_sm": 0,
         "py_lg": 0,
         "px_lg": 0,
-        "my_lg": 6,
+        "my_lg": 0,
         "mx_lg": 0,
         "py_xs": 0,
         "px_xs": 0,
@@ -221,104 +283,6 @@
         "smb_lg": 0,
         "spb_xs": 10,
         "smb_xs": 0
-      }
-    },
-    "sp_accordion_fRejzP": {
-      "type": "sp-accordion",
-      "blocks": {
-        "video_xiVQLi": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/video Beni 10 anos quadrado.mp4",
-            "link": "",
-            "video_inline": false,
-            "video_autoplay": false,
-            "video_loop": false,
-            "video_controls": true,
-            "video_muted": false
-          }
-        }
-      },
-      "block_order": [
-        "video_xiVQLi"
-      ],
-      "name": "🚀 Accordion",
-      "settings": {
-        "override_fonts": false,
-        "headline_font": "sans-serif",
-        "text_font": "sans-serif",
-        "text_size": 16,
-        "mobile_text_size": 15,
-        "text_line_height": "inherit",
-        "headline_size": 60,
-        "mobile_headline_size": 40,
-        "headline_line_height": "inherit",
-        "text_color": "#111111",
-        "link_color": "#005bd3",
-        "show_on_device": "all",
-        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1) 11%, rgba(245, 245, 245, 1) 81%)",
-        "section_background_image_color": "",
-        "section_background_size": "cover",
-        "section_padding_top_bottom": 25,
-        "mobile_section_padding_top_bottom": 25,
-        "section_padding_left_right": 25,
-        "mobile_section_padding_left_right": 25,
-        "container_background_color": "",
-        "container_max_width": 500,
-        "container_padding_top_bottom": 50,
-        "mobile_container_padding_top_bottom": 10,
-        "container_padding_left_right": 10,
-        "mobile_container_padding_left_right": 10,
-        "element_spacing": 15,
-        "container_radius": 0,
-        "container_shadow": false,
-        "container_border_size": 0,
-        "container_border_color": "#888888",
-        "gap": 5,
-        "mobile_display": "accordion",
-        "height": 500,
-        "media_radius": 5,
-        "media_shadow": true,
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "headline": "<strong>Benito Berretta</strong>",
-        "text": "Managing Director Hyper Island Americas",
-        "headline_spacing": 15
-      }
-    },
-    "sp_video_with_text_wCQKpf": {
-      "type": "sp-video-with-text",
-      "disabled": true,
-      "name": "Video with Text",
-      "settings": {
-        "text_font": "montserrat_n5",
-        "text_size": 15,
-        "headline_font": "montserrat_n9",
-        "headline_size": 40,
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "text_color": "#111111",
-        "headline_color": "#111111",
-        "button_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "button_text_color": "#ffffff",
-        "max_width": 1000,
-        "padding_top": 75,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10,
-        "element_spacing": 15,
-        "video_location": "right",
-        "video_aspect_ratio": "4 / 3",
-        "headline": "Benito Berretta",
-        "content": "Managing Director Hyper Island Americas",
-        "link_text": "",
-        "link": "",
-        "video": "shopify://files/videos/video Beni 10 anos quadrado.mp4",
-        "video_inline": true,
-        "video_autoplay": false,
-        "video_loop": true,
-        "video_controls": false,
-        "video_muted": false,
-        "big_play_pause_button": true
       }
     },
     "3fcd7bb3-0766-45f7-b699-098b939ab85b": {
@@ -575,76 +539,6 @@
         "pb_sm": 0,
         "mt_sm": 13,
         "mb_sm": 13
-      }
-    },
-    "sp_video_grid_to_slide_jnaaBf": {
-      "type": "sp-video-grid-to-slide",
-      "blocks": {
-        "video_qjYAXx": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/video_diego_miami (1).mp4",
-            "video_inline": true,
-            "video_autoplay": false,
-            "video_loop": false,
-            "video_controls": false,
-            "video_muted": false
-          }
-        },
-        "video_TzUGqi": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
-            "video_inline": true,
-            "video_autoplay": false,
-            "video_loop": false,
-            "video_controls": false,
-            "video_muted": false
-          }
-        },
-        "video_M7zhan": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/video_diego_miami (1).mp4",
-            "video_inline": true,
-            "video_autoplay": false,
-            "video_loop": false,
-            "video_controls": false,
-            "video_muted": false
-          }
-        },
-        "video_ReQ8qL": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Futuro do RH _ 30s - Final.mp4",
-            "video_inline": true,
-            "video_autoplay": false,
-            "video_loop": false,
-            "video_controls": false,
-            "video_muted": false
-          }
-        }
-      },
-      "block_order": [
-        "video_qjYAXx",
-        "video_TzUGqi",
-        "video_M7zhan",
-        "video_ReQ8qL"
-      ],
-      "disabled": true,
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "highlight_color": "#111111",
-        "video_aspect_ratio": "1 / 1",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 0,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10,
-        "big_play_pause_button": false,
-        "auto_slide": false
       }
     },
     "cfba652b-8c1e-4b99-96c5-2081ff943b95": {
@@ -1146,17 +1040,15 @@
   "order": [
     "sp_image_standalone_FcJrPh",
     "collection_cards_6yT4Qr",
-    "a9975935-5465-4fb0-830c-d87d16f77dad",
-    "content_UQxdit",
-    "content_3pBf4H",
     "sp_accordion_fRejzP",
-    "sp_video_with_text_wCQKpf",
+    "a9975935-5465-4fb0-830c-d87d16f77dad",
+    "content_jHak6t",
+    "content_3pBf4H",
     "3fcd7bb3-0766-45f7-b699-098b939ab85b",
     "sp_review_grid_2_iUgXaP",
     "sp_accordion_edRB9w",
     "separator_LKQDAF",
     "d1b7a232-01d0-41f1-9fb7-f5eb300a20d1",
-    "sp_video_grid_to_slide_jnaaBf",
     "cfba652b-8c1e-4b99-96c5-2081ff943b95",
     "sp_accordion_LB6TXU",
     "separator_jcHdEp",
