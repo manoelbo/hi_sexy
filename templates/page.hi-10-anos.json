@@ -443,8 +443,8 @@
             "link": "",
             "video_inline": false,
             "video_autoplay": false,
-            "video_loop": true,
-            "video_controls": true,
+            "video_loop": false,
+            "video_controls": false,
             "video_muted": false
           }
         },
