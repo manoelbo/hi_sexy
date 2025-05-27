@@ -999,7 +999,7 @@
       ],
       "name": "HI23 Testimonial",
       "settings": {
-        "bg_color": "#000000",
+        "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "font_color": "text-light",
         "title_size": "display-4",
