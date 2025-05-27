@@ -850,7 +850,7 @@
         "layout_align": "five",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
-        "content_width": "w-lg-100",
+        "content_width": "w-lg-auto",
         "default_spacing": false,
         "pt_xl": 15,
         "pb_xl": 13,
