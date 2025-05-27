@@ -384,7 +384,7 @@
             "background_image": "shopify://shop_images/Miami_2025_KV_OFICIAL_BGHeader_Future_Skills_2025_Desktop.jpg",
             "quote": "<strong>FUTURE SKILLS MASTERCLASS (SÃO PAULO)</strong>",
             "cite": "Programação feita para refletir sobre os próximos 10 anos.",
-            "cta_link": ""
+            "cta_link": "shopify://pages/future-skills-sao-paulo"
           }
         },
         "review_JHabEY": {
@@ -393,7 +393,7 @@
             "background_image": "shopify://shop_images/Meta_Session_Feed_Instagram.jpg",
             "quote": "<strong>PROMOÇÃO</strong>",
             "cite": "50% off em todos os Cursos durante o mês de Maio",
-            "cta_link": ""
+            "cta_link": "shopify://pages/cursos"
           }
         },
         "review_tEwTKQ": {
@@ -402,7 +402,7 @@
             "background_image": "shopify://shop_images/PT_LK_Hyper_News_Divulgacao_copy_e1ee12a1-b775-4d7b-a92b-7e42fb56b7ae.png",
             "quote": "<strong>NEWSLETTER COMEMORATIVA</strong>",
             "cite": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
-            "cta_link": ""
+            "cta_link": "shopify://pages/newsletter"
           }
         }
       },
