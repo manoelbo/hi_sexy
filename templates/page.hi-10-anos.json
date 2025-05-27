@@ -462,9 +462,8 @@
         },
         "video_ixB7eK": {
           "type": "video",
-          "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/video_diego_miami (1).mp4",
+            "video": "shopify://files/videos/Depoimento Yas Para site 10 anos.mp4",
             "link": "",
             "video_inline": false,
             "video_autoplay": false,
