@@ -303,9 +303,9 @@
         "card_yF7Bdr": {
           "type": "card",
           "settings": {
-            "header": "SÓ MÊS DE MAIO",
+            "header": "PROMOÇÃO",
             "title": "50% OFF EM TODOS OS CURSOS",
-            "text": "Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
+            "text": "50% off em todos os Cursos durante o mês de Maio. Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
             "url": "shopify://pages/cursos",
             "target": true,
             "font_color": "text-dark",
@@ -316,7 +316,7 @@
         "card_cct49x": {
           "type": "card",
           "settings": {
-            "header": "PARA VOCÊ",
+            "header": "CONTEÚDO",
             "title": "<strong>NEWSLETTER COMEMORATIVA</strong>",
             "text": "Conteúdos exclusivos, bastidores da nossa história e dicas práticas para quem quer viver o futuro, agora.",
             "url": "shopify://pages/newsletter",
@@ -335,7 +335,7 @@
       "name": "HI23 Cards Fluid",
       "settings": {
         "header_size": "fs-6",
-        "title_size": "display-2",
+        "title_size": "display-1",
         "text_size": "fs-5",
         "layout": "col-lg-4",
         "align_desktop": "text-lg-left",
