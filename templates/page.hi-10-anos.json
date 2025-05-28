@@ -1035,61 +1035,6 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "sp_review_grid_jkTnwV": {
-      "type": "sp-review-grid",
-      "blocks": {
-        "review_UqB6At": {
-          "type": "review",
-          "settings": {
-            "quote": "CURSOS",
-            "cite": "cursos",
-            "cta_link": "shopify://pages/cursos"
-          }
-        },
-        "review_rPGxUh": {
-          "type": "review",
-          "settings": {
-            "quote": "This is a sample review.",
-            "cite": "Sample Reviewer",
-            "cta_link": ""
-          }
-        },
-        "review_jLrGgc": {
-          "type": "review",
-          "settings": {
-            "quote": "This is a sample review.",
-            "cite": "Sample Reviewer",
-            "cta_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_UqB6At",
-        "review_rPGxUh",
-        "review_jLrGgc"
-      ],
-      "name": "🚀SP - Review Grid",
-      "settings": {
-        "override_fonts": false,
-        "text_font": "sans-serif",
-        "text_size": 15,
-        "text_line_height": "inherit",
-        "text_color": "#fff",
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
-        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
-        "cover_opacity": 25,
-        "highlight_color": "#FFFFFF",
-        "max_width": 1000,
-        "grid_gap": 20,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10,
-        "element_spacing": 15,
-        "media_radius": 5,
-        "media_shadow": true
-      }
     }
   },
   "order": [
@@ -1115,7 +1060,6 @@
     "8fe5ae8b-6a52-47ff-b7c0-dbc7449b9b16",
     "5d32c958-6129-4005-95c2-46ad8671fe4d",
     "html_VtpkDN",
-    "f228795d-e400-469b-8e3d-4924a4b61625",
-    "sp_review_grid_jkTnwV"
+    "f228795d-e400-469b-8e3d-4924a4b61625"
   ]
 }
