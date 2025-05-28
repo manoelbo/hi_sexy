@@ -322,7 +322,7 @@
             "url": "shopify://pages/newsletter",
             "target": true,
             "font_color": "text-dark",
-            "bg_color": "#ffffff",
+            "bg_color": "#f3f0ed",
             "bg_gradient": ""
           }
         }
