@@ -339,7 +339,7 @@
         "text_size": "fs-5",
         "layout": "col-lg-4",
         "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
+        "align_mobile": "text-center",
         "pt_xl": 18,
         "pb_xl": 17,
         "mt_xl": 0,
