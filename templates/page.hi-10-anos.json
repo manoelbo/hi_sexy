@@ -756,7 +756,7 @@
           "type": "button",
           "settings": {
             "text": "Ver Cursos Disponíveis",
-            "url": "",
+            "url": "shopify://pages/cursos",
             "target": false,
             "style": "rounded-white"
           }
@@ -774,7 +774,7 @@
           "type": "button",
           "settings": {
             "text": "Receber a Newsletter Especial",
-            "url": "",
+            "url": "shopify://pages/newsletter",
             "target": false,
             "style": "rounded-white"
           }
