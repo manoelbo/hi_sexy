@@ -291,7 +291,7 @@
           "type": "card",
           "settings": {
             "header": "MASTERCLASS (SÃO PAULO)",
-            "title": "FUTURE SKILLS",
+            "title": "FUTURE SKILLS MASTERCLASS",
             "text": "Programação feita para refletir sobre os próximos 10 anos.",
             "url": "shopify://pages/future-skills-sao-paulo",
             "target": true,
@@ -304,7 +304,7 @@
           "type": "card",
           "settings": {
             "header": "PROMOÇÃO",
-            "title": "50% OFF",
+            "title": "50% DE DESCONTO EM CURSOS",
             "text": "50% off em todos os Cursos durante o mês de Maio. Experiencie o Hyper Island Way™ e co-crie a transformação do seu negócio.",
             "url": "shopify://pages/cursos",
             "target": true,
@@ -332,7 +332,6 @@
         "card_yF7Bdr",
         "card_cct49x"
       ],
-      "name": "HI23 Cards Fluid",
       "settings": {
         "header_size": "fs-6",
         "title_size": "display-1",
