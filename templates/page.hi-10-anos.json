@@ -844,7 +844,7 @@
           "type": "button",
           "settings": {
             "text": "Se inscrever na Newsletter",
-            "url": "",
+            "url": "shopify://pages/newsletter",
             "target": false,
             "style": "rounded-white"
           }
