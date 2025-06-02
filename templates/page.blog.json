@@ -33,17 +33,19 @@
         "article_GWLyL9": {
           "type": "article",
           "settings": {
-            "article": "news/a-terceira-lei-da-adaptabilidade-sucesso-e-um-jogo-de-volume-e-a-natureza-venenosa-da-admiracao"
+            "article": "news/por-que-as-meta-skills-importam-mais-do-que-nunca-talentos-preparados-para-o-futuro-em-um-mundo-do-trabalho-em-transformacao"
           }
         },
         "article_nkirAL": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/segunda-lei-da-adaptabilidade-somos-projetados-para-falhar-individualmente-e-prosperar-coletivamente"
           }
         },
         "article_bdtFg9": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/primeira-lei-da-adaptabilidade-se-voce-contribui-voce-pode-ficar"
           }
@@ -66,7 +68,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-lg-4",
+        "layout": "col-12 blog-card-row",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -77,6 +79,58 @@
         "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 7
+      }
+    },
+    "blog_highlights_L9mXQV": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_mjWCnE": {
+          "type": "article",
+          "settings": {
+            "article": "news/a-terceira-lei-da-adaptabilidade-sucesso-e-um-jogo-de-volume-e-a-natureza-venenosa-da-admiracao"
+          }
+        },
+        "article_8JatVJ": {
+          "type": "article",
+          "settings": {
+            "article": "news/segunda-lei-da-adaptabilidade-somos-projetados-para-falhar-individualmente-e-prosperar-coletivamente"
+          }
+        },
+        "article_kTFwtN": {
+          "type": "article",
+          "settings": {
+            "article": "news/primeira-lei-da-adaptabilidade-se-voce-contribui-voce-pode-ficar"
+          }
+        }
+      },
+      "block_order": [
+        "article_mjWCnE",
+        "article_8JatVJ",
+        "article_kTFwtN"
+      ],
+      "name": "Destaques do Blog",
+      "settings": {
+        "title": "",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 2,
+        "pb_lg": 5,
+        "mt_lg": 0,
+        "mb_lg": 5,
+        "pt_sm": 0,
+        "pb_sm": 4,
+        "mt_sm": 0,
+        "mb_sm": 2
       }
     },
     "blog_highlights_QCXUYg": {
@@ -393,6 +447,7 @@
   "order": [
     "html_em9Lh7",
     "blog_highlights_3jr4Fn",
+    "blog_highlights_L9mXQV",
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
