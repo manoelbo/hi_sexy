@@ -148,7 +148,6 @@
       "block_order": [
         "button_naxytV"
       ],
-      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -181,7 +180,6 @@
     },
     "sp_video_standalone_WCA3zL": {
       "type": "sp-video-standalone",
-      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(180deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "max_width": 1000,
@@ -189,7 +187,7 @@
         "padding_bottom": 100,
         "padding_left": 10,
         "padding_right": 10,
-        "video": "shopify://files/videos/LTM VIDEO COMPLETO.mp4",
+        "video": "shopify://files/videos/Trailer curso Comunicacao executiva 720p.mp4",
         "video_inline": true,
         "video_autoplay": false,
         "video_loop": false,
