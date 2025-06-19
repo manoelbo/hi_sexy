@@ -1,6 +1,9 @@
 {% capture ymq_lock_login_require_template %}{% include 'ymq_lock' %}{% endcapture %}{% unless ymq_lock_login_require_template contains 'Liquid error' %}{{ ymq_lock_login_require_template }}{% endunless %}<!doctype html>
 <html lang="{{ request.locale.iso_code }}">
 <head>
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="{{ settings.color_primary }}">
