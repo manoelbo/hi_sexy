@@ -15,7 +15,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "Ferramentas de IA para Produtividade",
-        "text": "Baixe e Explore",
+        "text": "Uma jornada para trabalhar com mais foco, leveza e inteligência",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/Mockup_15_Ferramentas_3.png",
@@ -47,7 +47,7 @@
       "settings": {
         "hidden": false,
         "title": "",
-        "text": "Estamos vivendo uma era de transformações rápidas, onde a Inteligência Artificial não é apenas uma tendência, mas uma parte integral do nosso cotidiano e das nossas práticas profissionais. Preparamos esta curadoria de ferramentas de IA para você experimentar com família, amigos e colegas!",
+        "text": "Mais do que uma seleção de ferramentas, estamos fazendo um convite. Um convite para explorar, experimentar e, acima de tudo, desenvolver um novo repertório de possibilidades com a IA, deforma prática, ética e humana.",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -153,7 +153,7 @@
       "settings": {
         "hidden": false,
         "title": "",
-        "text": "Neste guia queremos te oferecer ferramentas práticas que você pode <strong>experimentar de maneira leve</strong> e que vão trazer para você uma visão ampla das áreas onde a IA pode melhorar a sua vida. Cada ferramenta foi selecionada por sua capacidade de <strong>melhorar a eficiência, estimular a criatividade e expandir suas habilidades</strong>. Esperamos que você encontre valor nestas ferramentas e que elas sirvam como uma ponte para aprofundar seu conhecimento e aplicação da IA em suas atividades diárias.",
+        "text": "Aqui, você vai encontrar 20 ferramentas que ampliam a produtividade e podem te ajudar a repensar rotinas, desbloquear ideias e criar novos caminhos. Mas o mais importante: este guia é um ponto de partida, não de chegada.",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
@@ -220,6 +220,7 @@
     },
     "sp_image_standalone_aQWiFw": {
       "type": "sp-image-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 1000,
@@ -238,7 +239,7 @@
       "settings": {
         "title": "Prepare-se para explorar, experimentar e inovar.",
         "text": "Preencha o formulário e embarque nesta jornada fascinante pela Inteligência Artificial!",
-        "form_id": "d95e9639-0101-4a72-83eb-662f00d3c775",
+        "form_id": "3d14e164-31d6-4c39-ab06-a10f901338a4",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "font_color": "text-dark",
