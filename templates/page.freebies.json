@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "card_hj4Gm4": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Free_iPad_Mockup_24.png",
+            "category_id": "IA",
+            "title": "Ferramentas de IA para Produtividade",
+            "text": "20 ferramentas que ampliam a produtividade e podem te ajudar a repensar rotinas, desbloquear ideias e criar novos caminhos.",
+            "url": "shopify://pages/ferramentas-de-ia-para-produtividade",
+            "target": true
+          }
+        },
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0": {
           "type": "card",
           "settings": {
@@ -426,6 +437,7 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "card_hj4Gm4",
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
         "c348b121-119f-4505-8471-332c2ba2a87b",
         "51d4d49e-2611-431b-a829-381dc115762f",
