@@ -220,7 +220,6 @@
     },
     "sp_image_standalone_aQWiFw": {
       "type": "sp-image-standalone",
-      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 1000,
@@ -228,7 +227,7 @@
         "padding_bottom": 0,
         "padding_left": 0,
         "padding_right": 0,
-        "image": "shopify://shop_images/Mockup_15_Ferramentas_1.png",
+        "image": "shopify://shop_images/make_banner_ferramentas_de_ia.png",
         "media_aspect_ratio": "auto",
         "media_radius": 0,
         "media_shadow": false
