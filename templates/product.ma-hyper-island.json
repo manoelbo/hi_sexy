@@ -1087,6 +1087,24 @@
         "mb_sm": 0
       }
     },
+    "html_KNdRB7": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<body>\n<!-- saved from url=(0011)about:blank -->\n\n\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"https://creative-concha-818549.netlify.app/vite.svg\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n  <title>Landing Page - Liderando Futuros Digitais</title>\n  <style>\n    /* Conteúdo de index-yOuN4grT.css (inline) */\n    /* --- Início do CSS --- */\n@import url('https://fonts.googleapis.com/css2?family=Atlassian+Sans+Ext:wght@100;200;300;400;500;600;700;800;900&display=swap');\n:root {\n  --orange-900: #7a341e;\n  --orange-800: #9a3412;\n  --orange-600: #ea580c;\n  --orange-500: #f97316;\n  --orange-400: #fb923c;\n  --orange-200: #fed7aa;\n  --orange-100: #ffedd5;\n  --orange-50: #fff7ed;\n  --red-400: #f87171;\n  --gray-50: #f9fafb;\n  --gray-100: #f3f4f6;\n  --gray-200: #e5e7eb;\n  --gray-300: #d1d5db;\n  --gray-600: #4b5563;\n  --gray-800: #1f2937;\n  --gray-900: #111827;\n}\nbody {\n  margin: 0;\n  font-family: 'Atlassian Sans Ext', sans-serif;\n}\n.bg-white { background-color: #ffffff; }\n.text-white { color: #ffffff; }\n.min-h-screen { min-height: 100vh; }\n.container { max-width: 1280px; }\n.mx-auto { margin-left: auto; margin-right: auto; }\n.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }\n.py-16 { padding-top: 4rem; padding-bottom: 4rem; }\n.py-20 { padding-top: 5rem; padding-bottom: 5rem; }\n.py-32 { padding-top: 8rem; padding-bottom: 8rem; }\n.text-center { text-align: center; }\n/* --- adicione aqui todas as classes Tailwind usadas --- */\n  </style>\n  <script>\n    // Conteúdo de index-PbJkTScx.js.download (inline)\n    // --- Início do JS ---\ndocument.addEventListener('DOMContentLoaded', function() {\n  // Exemplo: efeito de scroll suave\n  document.querySelectorAll('a[href^=\"#\"]').forEach(el => {\n    el.addEventListener('click', e => {\n      e.preventDefault();\n      document.querySelector(el.getAttribute('href')).scrollIntoView({\n        behavior: 'smooth'\n      });\n    });\n  });\n});\n// --- Fim do JS ---\n  </script>\n\n\n  <div id=\"root\">\n    <section class=\"min-h-screen text-white bg-gradient-to-br from-orange-900 via-orange-800 to-orange-900 overflow-hidden relative\">\n      <div class=\"absolute inset-0 bg-black/20\"></div>\n      <div class=\"absolute inset-0 bg-[url('https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg')] bg-cover bg-center opacity-10\"></div>\n      <div class=\"container mx-auto px-6 py-20 lg:py-32 relative\">\n        <div class=\"max-w-4xl mx-auto text-center\">\n          <div class=\"inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8\">\n            <svg ...>...ícone award...</svg>\n            <span class=\"text-sm font-medium\">CPD ACREDITADO NO REINO UNIDO</span>\n          </div>\n          <h1 class=\"text-4xl lg:text-6xl font-bold mb-6 leading-tight\">\n            Liderando Futuros\n            <span class=\"bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent\"> Digitais</span>\n          </h1>\n          <p class=\"text-xl lg:text-2xl mb-4 text-orange-100\">Teesside University • Hyper Island • Grupo Unis</p>\n          <p class=\"text-lg mb-10 text-orange-200 leading-relaxed\">\n            Desenvolva habilidades de foresight para liderar a transformação digital e criar estratégias inovadoras para o futuro dos negócios.\n          </p>\n          <div class=\"flex flex-col sm:flex-row gap-4 justify-center items-center\">\n            <button class=\"bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl\">\n              Inscreva-se Agora\n              <svg ...>...ícone chevron-right...</svg>\n            </button>\n            <button class=\"border-2 border-white/30 hover:border-white text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 backdrop-blur-sm\">\n              Saiba Mais\n            </button>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <!-- Repita as outras seções seguindo a mesma estrutura ilustrada acima -->\n    <!-- Seção de cards de informações -->\n    <section class=\"py-16 bg-gray-50\">\n      <div class=\"container mx-auto px-6\">\n        <!-- Cards com ícones e textos -->\n      </div>\n    </section>\n\n    <!-- Continue para todas as seções até o footer -->\n\n    <footer class=\"bg-gray-900 text-white py-12\">\n      <div class=\"container mx-auto px-6 text-center\">\n        <p>© 2025 Liderando Futuros Digitais. Todos os direitos reservados.</p>\n      </div>\n    </footer>\n  </div>\n\n</body>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "HTML code",
+        "title_size": "h2",
+        "description": "<p>Write something catchy for this section</p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "sp_faq_plus_EiCn7w": {
       "type": "sp-faq-plus",
       "blocks": {
@@ -1321,6 +1339,7 @@
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "course_header_2_a7WkJK",
     "f39daef8-3263-467c-b5e2-581de2221700",
+    "html_KNdRB7",
     "sp_faq_plus_EiCn7w",
     "577b8190-d683-4d05-92aa-43b63a3a640d",
     "sp_action_button_3kFMbb"
