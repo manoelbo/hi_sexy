@@ -9,6 +9,40 @@
  */
 {
   "sections": {
+    "header_half_dw8FxT": {
+      "type": "header_half",
+      "name": "HI23 Header Hero Half",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "CREATIVITY HACKS",
+        "text": "Descubra os segredos da criatividade e transforme ideias em inovação",
+        "bg_color": "#E3DFD3",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Creativity_Hacks_Cover.png",
+        "font_color": "text-dark",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "header_YmATNf": {
       "type": "header",
       "settings": {
@@ -209,6 +243,7 @@
     }
   },
   "order": [
+    "header_half_dw8FxT",
     "header_YmATNf",
     "content_WLQ6gf",
     "header_half_G47tKN",
