@@ -14,7 +14,7 @@
       "name": "HI23 Header Hero Full",
       "settings": {
         "mobile_only": false,
-        "desktop_only": false,
+        "desktop_only": true,
         "title": "Rapid Rapport Handbook ",
         "text": "Bem-vindo ao Rapid Rapport Handbook um guia dinâmico para ajudá-lo a aplicar empatia para si mesmo, sua equipe e seus clientes.",
         "bg_color": "#E3DFD3",
