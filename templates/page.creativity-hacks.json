@@ -95,57 +95,38 @@
         "smb_xs": 0
       }
     },
-    "content_Ld99mD": {
-      "type": "content",
+    "header_half_G47tKN": {
+      "type": "header_half",
+      "name": "HI23 Header Hero Half",
       "settings": {
-        "hidden": false,
+        "mobile_only": false,
+        "desktop_only": false,
         "title": "",
-        "text": "Nele, você irá encontrar: <strong>○ </strong>Diversas técnicas de criatividade adotadas por indivíduos e organizações.<strong>○ </strong>Atividades diárias para fortalecer sua resiliência criativa.<strong>○ </strong>Ferramentas e recursos para expandir sua criatividade.Este material é um recurso valioso para aumentar suas habilidades criativas, seja você um profissional em busca de inovação ou alguém que deseja liberar seu potencial criativo",
+        "text": "Nele, você irá encontrar: diversas técnicas de criatividade adotadas por indivíduos e organizações, atividades diárias para fortalecer sua resiliência criativa e<strong> </strong>ferramentas e recursos para expandir sua criatividade. Este material é um recurso valioso para aumentar suas habilidades criativas, seja você um profissional em busca de inovação ou alguém que deseja liberar seu potencial criativo.",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Creativity_Hacks_Page2.png",
         "font_color": "text-dark",
         "title_size": "display-1",
         "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-75",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-3",
-        "c_text_size": "fs-5",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-6",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-left",
+        "container": "container-fluid",
+        "layout-align": "right",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
         "default_spacing": false,
-        "pt_xl": 11,
-        "pb_xl": 16,
+        "pt_xl": 0,
+        "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 11,
-        "pb_lg": 16,
+        "pt_lg": 0,
+        "pb_lg": 0,
         "mt_lg": 0,
         "mb_lg": 0,
-        "pt_sm": 9,
-        "pb_sm": 13,
+        "pt_sm": 0,
+        "pb_sm": 0,
         "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
+        "mb_sm": 0
       }
     },
     "html_NP96Y3": {
@@ -163,21 +144,6 @@
         "pb": 0,
         "mt": 0,
         "mb": 0
-      }
-    },
-    "sp_image_standalone_aQWiFw": {
-      "type": "sp-image-standalone",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 1000,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "image": "shopify://shop_images/Creativity_Hacks_Page.png",
-        "media_aspect_ratio": "auto",
-        "media_radius": 0,
-        "media_shadow": false
       }
     },
     "newsletter_session_t9wUdh": {
@@ -240,50 +206,14 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "header_half_G47tKN": {
-      "type": "header_half",
-      "name": "HI23 Header Hero Half",
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "",
-        "text": "Nele, você irá encontrar: diversas técnicas de criatividade adotadas por indivíduos e organizações, atividades diárias para fortalecer sua resiliência criativa e<strong> </strong>ferramentas e recursos para expandir sua criatividade. Este material é um recurso valioso para aumentar suas habilidades criativas, seja você um profissional em busca de inovação ou alguém que deseja liberar seu potencial criativo.",
-        "bg_color": "#E3DFD3",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/Creativity_Hacks_Page2.png",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
     }
   },
   "order": [
     "header_YmATNf",
     "content_WLQ6gf",
-    "content_Ld99mD",
+    "header_half_G47tKN",
     "html_NP96Y3",
-    "sp_image_standalone_aQWiFw",
     "newsletter_session_t9wUdh",
-    "newsletter_session_jqnCdq",
-    "header_half_G47tKN"
+    "newsletter_session_jqnCdq"
   ]
 }
