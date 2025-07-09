@@ -189,6 +189,7 @@
       "block_order": [
         "df7d5120-88c7-493f-b557-023dad40f405"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": true,
@@ -237,6 +238,7 @@
       "block_order": [
         "button_3P36jz"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": true,
         "desktop_only": false,
@@ -270,6 +272,7 @@
     },
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
       "type": "content",
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "",
@@ -323,6 +326,7 @@
     },
     "collection_cards_d4A6ha": {
       "type": "collection-cards",
+      "disabled": true,
       "settings": {
         "filter": false,
         "collection_list": [],
@@ -362,6 +366,7 @@
     },
     "sp_video_standalone_WcG3Cy": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
         "max_width": 1000,
@@ -380,6 +385,7 @@
     },
     "header_half_yWLUEj": {
       "type": "header_half",
+      "disabled": true,
       "name": "HI23 Header Hero Half",
       "settings": {
         "mobile_only": false,
@@ -454,6 +460,7 @@
         "content_zUJ4LM",
         "content_Mf3eCr"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "",
@@ -559,6 +566,7 @@
         "card_bpcQjV",
         "card_8EeXjy"
       ],
+      "disabled": true,
       "settings": {
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -618,6 +626,7 @@
         "card_McxHnP",
         "card_wbaEYz"
       ],
+      "disabled": true,
       "settings": {
         "header_size": "fs-6",
         "title_size": "display-4",
@@ -641,6 +650,7 @@
     },
     "sp_image_standalone_GJVQnC": {
       "type": "sp-image-standalone",
+      "disabled": true,
       "name": "Image Standalone",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
@@ -697,6 +707,7 @@
         "content_8L9jRY",
         "content_anpBfY"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "UMA EXPERIÊNCIA DE APRENDIZADO RELEVANTE E PRÁTICA",
@@ -750,6 +761,7 @@
     },
     "title_section_qKnncj": {
       "type": "title-section",
+      "disabled": true,
       "settings": {
         "title": "QUEM ESTARÁ LÁ:",
         "text": "Você irá participar ao lado de cerca de <strong>40 líderes e tomadores de decisão</strong> de diversos setores e empresas… <strong>estrategistas, profissionais de RH, líderes de Treinamento e Desenvolvimento, além de especialistas em Marketing e Indústrias Criativas.</strong>",
@@ -819,6 +831,7 @@
         "content_9XbQVb",
         "content_zLCmW8"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "NÃO PRECISA FICAR SÓ NA NOSSA PALAVRA…",
@@ -872,6 +885,7 @@
     },
     "sp_video_standalone_xcN4Br": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 300,
@@ -890,6 +904,7 @@
     },
     "html_AwdrLH": {
       "type": "html",
+      "disabled": true,
       "name": "HTML",
       "settings": {
         "html": "<div id=\"form\"></div>",
@@ -908,6 +923,7 @@
     },
     "newsletter_session_wqbhG8": {
       "type": "newsletter-session",
+      "disabled": true,
       "settings": {
         "title": "Baixe o programa do evento",
         "text": "",
