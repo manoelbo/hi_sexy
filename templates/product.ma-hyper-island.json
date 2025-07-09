@@ -39,6 +39,147 @@
         "duration_text": "120"
       }
     },
+    "content_EUPGeK": {
+      "type": "content",
+      "settings": {
+        "hidden": false,
+        "title": "HYPER ISLAND’S MA DEGREE PROGRAMSACCREDITED BY TEESSIDE UNIVERSITY, UK",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-75",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-4",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#000000",
+        "c_bg_gradient": "",
+        "layout": "col-md-6",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 17,
+        "pb_xl": 2,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 16,
+        "pb_lg": 3,
+        "mt_lg": 10,
+        "mb_lg": 0,
+        "pt_sm": 13,
+        "pb_sm": 4,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "sp_rich_text_grid_collums_WFPF97": {
+      "type": "sp-rich-text-grid-collums",
+      "blocks": {
+        "text_K4kAeJ": {
+          "type": "text",
+          "settings": {
+            "alignment": "left",
+            "text": "<p>Designed in collaboration with industry experts, and accredited by UK-based Teesside University, Hyper Island’s Master’s Degree programs are redefining business education by bringing learning and doing together in powerful new ways. </p><p>Learning at your own pace is a trend that we have experienced and is growing in popularity the world over. In collaboration with Grupo UNIS, Hyper Island are now proud to offer a co-created Level 7 / Master’s Level accredited course in <strong>Leading Digital Futures.</strong></p>"
+          }
+        },
+        "text_8djhxG": {
+          "type": "text",
+          "settings": {
+            "alignment": "left",
+            "text": "<p>Upon successful completion you will be awarded certification of an ‘Accredited CPD’ - this equates to a<strong> total of 10 credits at Level 7 (Master’s Level). </strong></p><p>Internationally recognised, you can take this certification into your CPD plan at work, as well as declare it upon application for a Master’s Degree Programme. </p><p>Use this opportunity to get a taste for a Hyper Island </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_K4kAeJ",
+        "text_8djhxG"
+      ],
+      "settings": {
+        "text_font": "montserrat_n4",
+        "text_size": 20,
+        "text_line_height": "1.5",
+        "headline_font": "sans-serif",
+        "headline_line_height": "1.15",
+        "headline_size": 25,
+        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111111",
+        "headline_color": "#111111",
+        "max_width": 1000,
+        "grid_gap": 50,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_left": 15,
+        "padding_right": 15,
+        "element_spacing": 15
+      }
+    },
+    "button_section_YxADJN": {
+      "type": "button-section",
+      "blocks": {
+        "button_ficCmV": {
+          "type": "button",
+          "settings": {
+            "text": "Download the Syllabus",
+            "url": "",
+            "target": true,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_ficCmV"
+      ],
+      "name": "HI23 Buttons Section",
+      "settings": {
+        "title": "Learn more",
+        "text": "",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 8,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "content_LwrmAR": {
       "type": "content",
       "blocks": {
@@ -82,7 +223,7 @@
         "content_G34dLJ"
       ],
       "settings": {
-        "hidden": false,
+        "hidden": true,
         "title": "",
         "text": "Unlock your future skills and solve real world challenges with the world's most innovative business school",
         "font_color": "text-dark",
@@ -309,100 +450,6 @@
         "smb_lg": 0,
         "spb_xs": 7,
         "smb_xs": 0
-      }
-    },
-    "content_EUPGeK": {
-      "type": "content",
-      "settings": {
-        "hidden": false,
-        "title": "HYPER ISLAND’S MA DEGREE PROGRAMSACCREDITED BY TEESSIDE UNIVERSITY, UK",
-        "text": "",
-        "font_color": "text-light",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#000000",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-75",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "#000000",
-        "c_bg_gradient": "",
-        "layout": "col-md-6",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 13,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 13,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 13,
-        "pb_sm": 13,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "sp_rich_text_grid_collums_WFPF97": {
-      "type": "sp-rich-text-grid-collums",
-      "blocks": {
-        "text_K4kAeJ": {
-          "type": "text",
-          "settings": {
-            "alignment": "left",
-            "text": "<p>Designed in collaboration with industry experts, and accredited by UK-based Teesside University, Hyper Island’s Master’s Degree programs are redefining business education by bringing learning and doing together in powerful new ways. </p><p>Learning at your own pace is a trend that we have experienced and is growing in popularity the world over. In collaboration with Grupa UNIS, Hyper Island are now proud to offer a co-created Level 7 / Master’s Level accredited course in <strong>Leading Digital Futures.</strong></p>"
-          }
-        },
-        "text_8djhxG": {
-          "type": "text",
-          "settings": {
-            "alignment": "left",
-            "text": "<p>Upon successful completion you will be awarded certification of an ‘Accredited CPD’ - this equates to a<strong> total of 10 credits at Level 7 (Master’s Level). </strong></p><p>Internationally recognised, you can take this certification into your CPD plan at work, as well as declare it upon application for a Master’s Degree Programme. </p><p>Use this opportunity to get a taste for a Hyper Island </p><p>MA in Digital Management. <a href=\"https://hyperisland.com/en/programs/master-degree?_gl=1*1ktgx39*_up*MQ..*_ga*ODU5MTg4Njg1LjE3NDM3ODAxMjI.*_ga_S2W3BWJ5VS*MTc0Mzc4MDEyMC4xLjAuMTc0Mzc4MDEyMC4wLjAuMA..\"><span style=\"text-decoration:underline\">Register your interest here to secure a place for September 2026. </span></a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_K4kAeJ",
-        "text_8djhxG"
-      ],
-      "settings": {
-        "text_font": "montserrat_n4",
-        "text_size": 20,
-        "text_line_height": "1.5",
-        "headline_font": "sans-serif",
-        "headline_line_height": "1.15",
-        "headline_size": 25,
-        "background_color": "linear-gradient(164deg, rgba(245, 245, 245, 1) 100%, rgba(255, 255, 255, 1) 100%)",
-        "text_color": "#111111",
-        "headline_color": "#111111",
-        "max_width": 1000,
-        "grid_gap": 50,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_left": 15,
-        "padding_right": 15,
-        "element_spacing": 15
       }
     },
     "content_bpYrpx": {
@@ -1013,20 +1060,6 @@
         "smb_xs": 0
       }
     },
-    "course_header_2_a7WkJK": {
-      "type": "course-header-2",
-      "disabled": true,
-      "settings": {
-        "cta_1": "Comprar",
-        "cta_2": "Programa do curso",
-        "cta_link_2": "",
-        "cta_3": "Tire suas Dúvidas",
-        "cta_link_3": "",
-        "zap": true,
-        "zap_number": "593991223305",
-        "zap_msg": ""
-      }
-    },
     "f39daef8-3263-467c-b5e2-581de2221700": {
       "type": "button-section",
       "blocks": {
@@ -1288,32 +1321,18 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "course_header_2_6WGz8g": {
-      "type": "course-header-2",
-      "disabled": true,
-      "name": "HI Course Header 2",
-      "settings": {
-        "cta_1": "Registrar",
-        "cta_2": "Baixe o programa",
-        "cta_link_2": "",
-        "cta_3": "Tirar dúvida",
-        "cta_link_3": "",
-        "zap": false,
-        "zap_number": "",
-        "zap_msg": ""
-      }
     }
   },
   "order": [
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
+    "content_EUPGeK",
+    "sp_rich_text_grid_collums_WFPF97",
+    "button_section_YxADJN",
     "content_LwrmAR",
     "header_LQ89hG",
     "sp_video_standalone_WCA3zL",
     "content_H9FyLN",
-    "content_EUPGeK",
-    "sp_rich_text_grid_collums_WFPF97",
     "content_bpYrpx",
     "content_Fwz68i",
     "header_t9LXn8",
@@ -1325,11 +1344,9 @@
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "content_3bmDAK",
     "5ca41278-01ed-4970-a967-bd751801d84e",
-    "course_header_2_a7WkJK",
     "f39daef8-3263-467c-b5e2-581de2221700",
     "html_TWcQHy",
     "sp_faq_plus_EiCn7w",
-    "577b8190-d683-4d05-92aa-43b63a3a640d",
-    "course_header_2_6WGz8g"
+    "577b8190-d683-4d05-92aa-43b63a3a640d"
   ]
 }
