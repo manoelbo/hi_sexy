@@ -9,6 +9,150 @@
  */
 {
   "sections": {
+    "html_W3XaCC": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Women Forward Section</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: linear-gradient(90deg, #f8f5f2 0%, #fcf8f6 100%);}\n  </style>\n\n\n  <section class=\"flex flex-col md:flex-row items-center justify-center min-h-screen w-full px-6 md:px-0 bg-[#f8f5f2]\">\n    <!-- LEFT -->\n    <div class=\"w-full md:w-[44%] flex flex-col items-start justify-center\">\n      <!-- Early Bird Badge -->\n      <div class=\"mb-6\">\n        <span class=\"inline-flex items-center gap-2 rounded-full bg-[#ffe4cf] text-[#d46a13] px-4 py-1 font-medium text-sm\">\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#d46a13\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m7-3a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg>\n          Early Bird até 31 de Julho - 15% OFF\n        </span>\n      </div>\n      <!-- Headline -->\n      <h1 class=\"text-6xl font-bold text-[#18191F] mb-6\">\n        Women <span class=\"text-[#f36c21]\">Forward</span>\n      </h1>\n      <!-- Description -->\n      <p class=\"text-lg text-[#5B5D63] mb-8 max-w-lg\">\n        Uma jornada imersiva de 3 dias para mulheres executivas que querem <span class=\"font-bold text-[#f36c21]\">liderar o futuro</span> com autenticidade, propósito e conexões poderosas.\n      </p>\n      <!-- Infos -->\n      <div class=\"grid grid-cols-2 gap-y-3 gap-x-8 text-[#18191F] text-base mb-10\">\n        <!-- Data -->\n        <div class=\"flex items-start gap-3\">\n          <span class=\"mt-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\" stroke-width=\"2\"></rect><path d=\"M16 2v4M8 2v4M4 10h16\" stroke-width=\"2\"></path></svg>\n          </span>\n          <div>\n            <div class=\"font-semibold\">16-18 de Outubro</div>\n            <div class=\"text-sm text-[#5B5D63]\">3 dias imersivos</div>\n          </div>\n        </div>\n        <!-- Local -->\n        <div class=\"flex items-start gap-3\">\n          <span class=\"mt-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17.657 16.657L13.414 12.414a4 4 0 10-1.414 1.414l4.243 4.243a1 1 0 001.414-1.414z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 11a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg>\n          </span>\n          <div>\n            <div class=\"font-semibold\">Club Med Mogi das Cruzes</div>\n            <div class=\"text-sm text-[#5B5D63]\">Experiência completa</div>\n          </div>\n        </div>\n        <!-- Participantes -->\n        <div class=\"flex items-start gap-3\">\n          <span class=\"mt-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 20h5v-2a4 4 0 00-3-3.87M9 20h6M4 20h5M9 11a4 4 0 11-8 0 4 4 0 018 0zM21 11a4 4 0 11-8 0 4 4 0 018 0z\"></path></svg>\n          </span>\n          <div>\n            <div class=\"font-semibold\">35-40 participantes</div>\n            <div class=\"text-sm text-[#5B5D63]\">Grupo exclusivo</div>\n          </div>\n        </div>\n        <!-- Parceria -->\n        <div class=\"flex items-start gap-3\">\n          <span class=\"mt-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12h8M12 8v8\"></path></svg>\n          </span>\n          <div>\n            <div class=\"font-semibold\">Hyper Island + LinkedIn</div>\n            <div class=\"text-sm text-[#5B5D63]\">Parceria inédita</div>\n          </div>\n        </div>\n      </div>\n      <!-- Botões -->\n      <div class=\"flex gap-4 w-full md:w-auto\">\n        <a href=\"#\" class=\"bg-[#f36c21] hover:bg-[#d46a13] text-white font-bold rounded-full px-8 py-4 text-lg shadow-lg transition\">\n          Garanta sua vaga\n        </a>\n        <a href=\"#\" class=\"border-2 border-[#f36c21] text-[#f36c21] font-bold rounded-full px-8 py-4 text-lg bg-white hover:bg-[#ffe4cf] transition\">\n          Conhecer programa\n        </a>\n      </div>\n    </div>\n    <!-- RIGHT -->\n    <div class=\"w-full md:w-[46%] flex items-center justify-center mt-10 md:mt-0 md:ml-16\">\n      <div class=\"relative rounded-3xl shadow-2xl overflow-hidden w-full max-w-[500px]\">\n        <!-- Badge Últimas Vagas -->\n        <span class=\"absolute top-4 right-4 z-10 bg-[#ff7675] text-white font-semibold text-sm px-4 py-1 rounded-full shadow\">Últimas vagas!</span>\n        <!-- Foto -->\n        <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/3_Jornadas_de_Transformacao2.jpg?v=1682692772\" alt=\"Women Forward\" class=\"object-cover w-full h-[400px] md:h-[420px]\">\n        <!-- Depoimento -->\n        <div class=\"absolute bottom-4 left-4 right-4 bg-[#18191F]/70 text-white text-lg font-semibold rounded-xl px-6 py-3 shadow-lg\">\n          \"Uma experiência que transforma não apenas carreiras, mas vidas inteiras\"\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_wkbYP9": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>O que é o Women Forward?</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fff;}\n  </style>\n\n\n  <section class=\"w-full max-w-6xl mx-auto px-4 py-14\">\n    <!-- Título e Descrição -->\n    <div class=\"text-center mb-10\">\n      <h2 class=\"text-4xl md:text-5xl font-bold text-[#18191F] mb-4\">\n        O que é o <span class=\"text-[#f36c21]\">Women Forward?</span>\n      </h2>\n      <p class=\"text-lg text-[#3d3f43] max-w-2xl mx-auto\">\n        Uma imersão cocriada por <span class=\"font-bold text-[#18191F]\">Hyper Island</span> e <span class=\"font-bold text-[#18191F]\">LinkedIn</span> para impulsionar mulheres que lideram — ou querem liderar — com mais coragem, autenticidade e impacto.\n      </p>\n    </div>\n    <!-- Grid Principal -->\n    <div class=\"flex flex-col md:flex-row md:items-start gap-10 md:gap-16 mb-12\">\n      <!-- Coluna esquerda -->\n      <div class=\"flex-1\">\n        <div class=\"mb-4\">\n          <span class=\"text-2xl md:text-xl font-bold text-[#18191F]\">Não é um curso. É uma <span class=\"text-[#f36c21]\">pausa estratégica.</span></span>\n        </div>\n        <p class=\"text-base text-[#5B5D63] mb-7 max-w-lg\">\n          Um espaço seguro para se ouvir, se desafiar e se transformar. Durante 3 dias intensivos, você terá a oportunidade de se reconectar com sua essência e descobrir novas perspectivas sobre liderança feminina.\n        </p>\n        <!-- Lista de benefícios -->\n        <ul class=\"flex flex-col gap-4\">\n          <!-- Item 1 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-[#f36c21] bg-[#fff3e6] rounded-full p-1\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" fill=\"#fff3e6\"></circle>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Reconectar-se com sua essência</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Redescubra seus valores e propósito de liderança</span>\n            </div>\n          </li>\n          <!-- Item 2 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-[#f36c21] bg-[#fff3e6] rounded-full p-1\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" fill=\"#fff3e6\"></circle>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l2 2\"></path>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Desenvolver habilidades essenciais</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Para um mundo em constante mudança</span>\n            </div>\n          </li>\n          <!-- Item 3 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-[#f36c21] bg-[#fff3e6] rounded-full p-1\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" fill=\"#fff3e6\"></circle>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l-5 8-3-4\"></path>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Fortalecer uma rede de mulheres</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Conexões poderosas com propósito</span>\n            </div>\n          </li>\n          <!-- Item 4 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6 text-[#f36c21] bg-[#fff3e6] rounded-full p-1\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" fill=\"#fff3e6\"></circle>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12h6m-3-3v6\"></path>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Sair com clareza</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Sobre seus próximos passos profissionais</span>\n            </div>\n          </li>\n        </ul>\n      </div>\n      <!-- Coluna direita: Imagem -->\n      <div class=\"flex-1 flex justify-center\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/humancentric2.jpg?v=1695926926\" alt=\"Women Forward\" class=\"rounded-2xl shadow-xl w-full max-w-md object-cover h-[280px] md:h-[320px]\">\n      </div>\n    </div>\n    <!-- Card: Quem estará lá -->\n    <div class=\"w-full rounded-2xl bg-[#fff3e6] p-8 md:p-10 shadow flex flex-col items-center\">\n      <h3 class=\"text-2xl md:text-3xl font-bold text-[#18191F] mb-2 text-center\">Quem estará lá?</h3>\n      <p class=\"text-base text-[#3d3f43] mb-6 text-center max-w-2xl\">\n        Mulheres em posições de liderança ou prontas para dar o próximo passo. Um grupo diverso de executivas que querem crescer — e crescer juntas.\n      </p>\n      <div class=\"grid grid-cols-1 md:grid-cols-4 gap-4 w-full max-w-4xl\">\n        <!-- Executivas -->\n        <div class=\"bg-white rounded-xl py-6 px-4 text-center shadow border border-[#f8e3ce]\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-1\">Executivas</div>\n          <div class=\"text-sm text-[#5B5D63]\">De grandes empresas nacionais e multinacionais</div>\n        </div>\n        <!-- Empreendedoras -->\n        <div class=\"bg-white rounded-xl py-6 px-4 text-center shadow border border-[#f8e3ce]\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-1\">Empreendedoras</div>\n          <div class=\"text-sm text-[#5B5D63]\">De impacto e startups de alta performance</div>\n        </div>\n        <!-- Líderes de RH -->\n        <div class=\"bg-white rounded-xl py-6 px-4 text-center shadow border border-[#f8e3ce]\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-1\">Líderes de RH</div>\n          <div class=\"text-sm text-[#5B5D63]\">E profissionais de People &amp; Culture</div>\n        </div>\n        <!-- Inovadoras -->\n        <div class=\"bg-white rounded-xl py-6 px-4 text-center shadow border border-[#f8e3ce]\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-1\">Inovadoras</div>\n          <div class=\"text-sm text-[#5B5D63]\">Em comunicação e transformação digital</div>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_PWUyXW": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Programa da Imersão</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fafbfc;}\n  </style>\n\n\n  <section class=\"w-full max-w-5xl mx-auto px-2 md:px-0 pt-14 pb-6\">\n    <!-- Título -->\n    <h2 class=\"text-4xl md:text-5xl font-bold text-[#18191F] text-center mb-2\">\n      Programa da <span class=\"text-[#f36c21]\">Imersão</span>\n    </h2>\n    <p class=\"text-lg text-[#5B5D63] text-center mb-12\">\n      Três dias intensivos desenhados para transformar sua liderança e ampliar suas conexões\n    </p>\n\n    <!-- Cards dos dias -->\n    <div class=\"flex flex-col gap-7\">\n\n      <!-- DIA 1 -->\n      <div class=\"flex flex-col md:flex-row w-full rounded-2xl overflow-hidden shadow bg-white\">\n        <!-- Esquerda: Gradiente -->\n        <div class=\"w-full md:w-[38%] p-8 bg-gradient-to-br from-[#fa892c] to-[#f05b3c] text-white flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center gap-2 mb-4\">\n              <span>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-7 w-7 opacity-80\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                  <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" stroke=\"#fff\" fill=\"none\"></circle>\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l2 2\" stroke=\"#fff\"></path>\n                </svg>\n              </span>\n              <span class=\"uppercase font-bold text-base tracking-wide\">DIA 1</span>\n            </div>\n            <div class=\"text-2xl font-bold mb-2\">Liderar de Dentro para Fora</div>\n            <div class=\"font-semibold mb-3 text-lg\">Autoliderança e Autenticidade</div>\n            <div class=\"text-base mb-7 text-white/90\">\n              Explore como cultivar uma liderança enraizada em autoconhecimento e autenticidade. Identifique seus valores, forças e pontos de tensão.\n            </div>\n          </div>\n          <div class=\"flex items-center gap-4 text-sm font-medium opacity-90\">\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7V3M16 7V3M4 11h16M5 21h14a2 2 0 002-2v-7H3v7a2 2 0 002 2z\"></path>\n              </svg>\n              09:00 - 17:00\n            </span>\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16 8c0-2.21-3.582-4-8-4S0 5.79 0 8v8c0 2.21 3.582 4 8 4s8-1.79 8-4V8z\" transform=\"translate(4 4)\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"3\"></circle>\n              </svg>\n              Presencial\n            </span>\n          </div>\n        </div>\n        <!-- Direita: Conteúdo -->\n        <div class=\"flex-1 p-8 flex flex-col justify-between bg-white\">\n          <div>\n            <div class=\"font-bold text-[#18191F] text-lg mb-4\">Você vai trabalhar:</div>\n            <ul class=\"space-y-2 mb-6\">\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Autoliderança em contextos de alta pressão\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Polaridades femininas no ambiente corporativo\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Práticas de autoconsciência e regulação emocional\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Crenças que fortalecem sua presença de liderança\n              </li>\n            </ul>\n            <div class=\"bg-[#fff3e6] rounded-xl p-4 text-[#18191F] text-base\">\n              <span class=\"font-semibold\">Como o dia termina:</span> <br>\n              Rituais de reconexão e histórias de coragem compartilhadas\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- DIA 2 -->\n      <div class=\"flex flex-col md:flex-row w-full rounded-2xl overflow-hidden shadow bg-white\">\n        <!-- Esquerda: Gradiente -->\n        <div class=\"w-full md:w-[38%] p-8 bg-gradient-to-br from-[#fa892c] via-[#f05b3c] to-[#d94e99] text-white flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center gap-2 mb-4\">\n              <span>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-7 w-7 opacity-80\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                  <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" stroke=\"#fff\" fill=\"none\"></circle>\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l2 2\" stroke=\"#fff\"></path>\n                </svg>\n              </span>\n              <span class=\"uppercase font-bold text-base tracking-wide\">DIA 2</span>\n            </div>\n            <div class=\"text-2xl font-bold mb-2\">Inspiração e Comunicação</div>\n            <div class=\"font-semibold mb-3 text-lg\">Influência e Impacto</div>\n            <div class=\"text-base mb-7 text-white/90\">\n              Desenvolva habilidades para inspirar equipes e comunicar com impacto. Aprenda a navegar conversas difíceis e liderar mudanças.\n            </div>\n          </div>\n          <div class=\"flex items-center gap-4 text-sm font-medium opacity-90\">\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7V3M16 7V3M4 11h16M5 21h14a2 2 0 002-2v-7H3v7a2 2 0 002 2z\"></path>\n              </svg>\n              09:00 - 17:00\n            </span>\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16 8c0-2.21-3.582-4-8-4S0 5.79 0 8v8c0 2.21 3.582 4 8 4s8-1.79 8-4V8z\" transform=\"translate(4 4)\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"3\"></circle>\n              </svg>\n              Presencial\n            </span>\n          </div>\n        </div>\n        <!-- Direita: Conteúdo -->\n        <div class=\"flex-1 p-8 flex flex-col justify-between bg-white\">\n          <div>\n            <div class=\"font-bold text-[#18191F] text-lg mb-4\">Você vai trabalhar:</div>\n            <ul class=\"space-y-2 mb-6\">\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f05b3c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Comunicação assertiva e persuasiva\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f05b3c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Storytelling para liderança\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f05b3c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Gestão de conflitos e conversas difíceis\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f05b3c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Influência sem autoridade formal\n              </li>\n            </ul>\n            <div class=\"bg-[#fff3e6] rounded-xl p-4 text-[#18191F] text-base\">\n              <span class=\"font-semibold\">Como o dia termina:</span> <br>\n              Conversa franca com convidadas inspiradoras e jantar de celebração\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- DIA 3 -->\n      <div class=\"flex flex-col md:flex-row w-full rounded-2xl overflow-hidden shadow bg-white\">\n        <!-- Esquerda: Gradiente -->\n        <div class=\"w-full md:w-[38%] p-8 bg-gradient-to-br from-[#fa892c] via-[#f05b3c] to-[#d94e99] text-white flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center gap-2 mb-4\">\n              <span>\n                <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-7 w-7 opacity-80\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                  <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\" stroke=\"#fff\" fill=\"none\"></circle>\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l2 2\" stroke=\"#fff\"></path>\n                </svg>\n              </span>\n              <span class=\"uppercase font-bold text-base tracking-wide\">DIA 3</span>\n            </div>\n            <div class=\"text-2xl font-bold mb-2\">Conexões e Futuro</div>\n            <div class=\"font-semibold mb-3 text-lg\">Rede e Próximos Passos</div>\n            <div class=\"text-base mb-7 text-white/90\">\n              Construa uma rede sólida de mulheres líderes e defina seu plano de ação para os próximos desafios profissionais.\n            </div>\n          </div>\n          <div class=\"flex items-center gap-4 text-sm font-medium opacity-90\">\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7V3M16 7V3M4 11h16M5 21h14a2 2 0 002-2v-7H3v7a2 2 0 002 2z\"></path>\n              </svg>\n              09:00 - 17:00\n            </span>\n            <span class=\"flex items-center gap-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 inline\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"#fff\" stroke-width=\"2\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16 8c0-2.21-3.582-4-8-4S0 5.79 0 8v8c0 2.21 3.582 4 8 4s8-1.79 8-4V8z\" transform=\"translate(4 4)\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"3\"></circle>\n              </svg>\n              Presencial\n            </span>\n          </div>\n        </div>\n        <!-- Direita: Conteúdo -->\n        <div class=\"flex-1 p-8 flex flex-col justify-between bg-white\">\n          <div>\n            <div class=\"font-bold text-[#18191F] text-lg mb-4\">Você vai trabalhar:</div>\n            <ul class=\"space-y-2 mb-6\">\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#eea51c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Networking estratégico e autêntico\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#eea51c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Mentoria e sponsorship\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#eea51c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Planejamento de carreira e sucessão\n              </li>\n              <li class=\"flex items-start gap-2\">\n                <span>\n                  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#eea51c] bg-[#fff3e6] rounded-full p-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12l2 2 4-4\"></path>\n                  </svg>\n                </span>\n                Construindo um legado de liderança\n              </li>\n            </ul>\n            <div class=\"bg-[#fff3e6] rounded-xl p-4 text-[#18191F] text-base\">\n              <span class=\"font-semibold\">Como o dia termina:</span> <br>\n              Ritual coletivo de compromisso com o futuro que queremos construir\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <!-- METODOLOGIA HYPER ISLAND -->\n    <div class=\"w-full max-w-5xl mx-auto mt-12 mb-6\">\n      <div class=\"bg-[#cd520e] rounded-2xl px-8 py-10 md:py-11 flex flex-col items-center text-center\">\n        <div class=\"text-2xl md:text-3xl font-bold text-white mb-2\">Metodologia Hyper Island</div>\n        <p class=\"text-white/90 text-base md:text-lg max-w-2xl mb-5\">\n          Experiencial, colaborativa e desenhada para o mundo real. Mais de 28 anos desenvolvendo líderes e organizações em todo o mundo.\n        </p>\n        <div class=\"flex flex-col md:flex-row gap-4 justify-center items-center text-white font-medium text-base\">\n          <span class=\"flex items-center gap-2\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-white\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 20h5v-2a4 4 0 00-3-3.87M9 20h6M4 20h5M9 11a4 4 0 11-8 0 4 4 0 018 0zM21 11a4 4 0 11-8 0 4 4 0 018 0z\"></path>\n            </svg>\n            Aprendizagem entre pares\n          </span>\n          <span class=\"flex items-center gap-2\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-white\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"2\"></circle>\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12H9\"></path>\n            </svg>\n            Foco em aplicabilidade\n          </span>\n          <span class=\"flex items-center gap-2\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-white\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12h6m-3-3v6\"></path>\n            </svg>\n            Experiência transformadora\n          </span>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_KCNK6R": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>O que você vai levar</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fff;}\n  </style>\n\n\n  <section class=\"w-full max-w-6xl mx-auto px-4 pt-14 pb-10\">\n    <!-- Título -->\n    <div class=\"text-center mb-2\">\n      <h2 class=\"text-4xl md:text-5xl font-bold text-[#18191F] mb-2\">\n        O que você vai <span class=\"text-[#f36c21]\">levar</span>\n      </h2>\n      <p class=\"text-[#5B5D63] text-base md:text-lg max-w-2xl mx-auto\">\n        Resultados tangíveis e transformações duradouras que vão impactar sua carreira e sua vida pessoal\n      </p>\n    </div>\n\n    <!-- Grid dos cards -->\n    <div class=\"mt-12 grid grid-cols-1 md:grid-cols-3 gap-6\">\n      <!-- Card 1 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone setinha -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 17l5-5 5-5\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Clareza sobre sua identidade de liderança</span>\n        <span class=\"text-[#5B5D63] text-base\">Descubra seu estilo único e seu próximo passo profissional com maior autoconhecimento</span>\n      </div>\n      <!-- Card 2 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone escudo -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3l7 4v5c0 5.25-7 9-7 9s-7-3.75-7-9V7l7-4z\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Ferramentas práticas para navegar desafios</span>\n        <span class=\"text-[#5B5D63] text-base\">Métodos comprovados para influenciar com autenticidade em situações complexas</span>\n      </div>\n      <!-- Card 3 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone network -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <rect x=\"9\" y=\"9\" width=\"6\" height=\"6\" rx=\"1\"></rect>\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3v3m0 12v3m9-9h-3M6 12H3m13.5 3.5l2.5 2.5M6.5 6.5L4 4m13.5 13.5L20 20\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Rede de mulheres líderes com propósito</span>\n        <span class=\"text-[#5B5D63] text-base\">Conexões genuínas que vão além do evento, criando parcerias duradouras</span>\n      </div>\n      <!-- Card 4 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone lâmpada -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a7 7 0 016.11 10.43c-.28.42-.48.93-.64 1.57a1 1 0 01-.94.66h-8.06a1 1 0 01-.94-.66c-.16-.64-.36-1.15-.64-1.57A7 7 0 0112 3z\"></path><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 17h6m-4 4h2\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Inspiração para liderar com coragem</span>\n        <span class=\"text-[#5B5D63] text-base\">Energia renovada para enfrentar mudanças e transformar realidades</span>\n      </div>\n      <!-- Card 5 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone checklist -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <rect x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"2\"></rect>\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 10l2 2 4-4\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Plano de ação concreto</span>\n        <span class=\"text-[#5B5D63] text-base\">Estratégias específicas e aplicáveis no seu contexto profissional atual</span>\n      </div>\n      <!-- Card 6 -->\n      <div class=\"bg-[#f8fafc] rounded-2xl p-6 flex flex-col gap-2 shadow-sm\">\n        <span class=\"w-9 h-9 flex items-center justify-center bg-[#fff3e6] rounded-xl mb-2\">\n          <!-- Ícone coração -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#fa892c]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 21C12 21 7 16.5 7 12a5 5 0 0110 0c0 4.5-5 9-5 9z\"></path>\n          </svg>\n        </span>\n        <span class=\"font-bold text-[#18191F] text-lg block\">Reconexão com seu propósito</span>\n        <span class=\"text-[#5B5D63] text-base\">Redescubra o que realmente importa e alinhe carreira com valores pessoais</span>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_RkWyR7": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Mais que um evento</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fff;}\n  </style>\n\n\n  <section class=\"flex justify-center py-8 px-2\">\n    <div class=\"flex flex-col md:flex-row items-center w-full max-w-4xl bg-[#fff3e6] rounded-2xl shadow px-8 py-8 md:py-10 md:px-12 gap-8\">\n      <!-- Texto -->\n      <div class=\"flex-1\">\n        <h2 class=\"text-4xl font-bold text-[#18191F] mb-6\">\n          Mais que um evento, uma <span class=\"text-[#f36c21]\">transformação</span>\n        </h2>\n        <ul class=\"flex flex-col gap-3\">\n          <!-- Item 1 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21] bg-[#fff3e6] rounded-full\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <rect x=\"0\" y=\"0\" width=\"24\" height=\"24\" rx=\"12\" fill=\"#fff3e6\"></rect>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"9.5\" stroke=\"#fff3e6\"></circle>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Certificado de participação</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Reconhecimento oficial da sua jornada de desenvolvimento</span>\n            </div>\n          </li>\n          <!-- Item 2 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21] bg-[#fff3e6] rounded-full\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <rect x=\"0\" y=\"0\" width=\"24\" height=\"24\" rx=\"12\" fill=\"#fff3e6\"></rect>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"9.5\" stroke=\"#fff3e6\"></circle>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Acesso ao grupo exclusivo</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Comunidade permanente para troca de experiências</span>\n            </div>\n          </li>\n          <!-- Item 3 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21] bg-[#fff3e6] rounded-full\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <rect x=\"0\" y=\"0\" width=\"24\" height=\"24\" rx=\"12\" fill=\"#fff3e6\"></rect>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"9.5\" stroke=\"#fff3e6\"></circle>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Material de apoio completo</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Ferramentas e templates para aplicar no dia a dia</span>\n            </div>\n          </li>\n          <!-- Item 4 -->\n          <li class=\"flex items-start gap-3\">\n            <span class=\"mt-1\">\n              <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21] bg-[#fff3e6] rounded-full\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n                <rect x=\"0\" y=\"0\" width=\"24\" height=\"24\" rx=\"12\" fill=\"#fff3e6\"></rect>\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path>\n                <circle cx=\"12\" cy=\"12\" r=\"9.5\" stroke=\"#fff3e6\"></circle>\n              </svg>\n            </span>\n            <div>\n              <span class=\"font-bold text-[#18191F]\">Follow-up personalizado</span><br>\n              <span class=\"text-sm text-[#5B5D63]\">Acompanhamento individual dos seus próximos passos</span>\n            </div>\n          </li>\n        </ul>\n      </div>\n      <!-- Imagem -->\n      <div class=\"flex-shrink-0\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/DSC8214_2.jpg?v=1682692771\" alt=\"Transformação\" class=\"rounded-xl shadow-lg w-[400px] h-[250px] object-cover object-center\">\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_yHz6tK": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Facilitadoras</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fafbfc;}\n  </style>\n\n\n  <section class=\"w-full max-w-7xl mx-auto px-4 pt-14 pb-10\">\n    <!-- Título -->\n    <div class=\"text-center mb-2\">\n      <h2 class=\"text-4xl md:text-5xl font-bold text-[#18191F] mb-2\">\n        Suas <span class=\"text-[#f36c21]\">Facilitadoras</span>\n      </h2>\n      <p class=\"text-[#5B5D63] text-base md:text-lg max-w-3xl mx-auto\">\n        Profissionais experientes que vão guiar sua jornada de transformação com expertise e humanidade\n      </p>\n    </div>\n\n    <!-- Cards -->\n    <div class=\"mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6\">\n      \n      <!-- Sabryna Alsfasser -->\n      <div class=\"bg-white rounded-2xl shadow p-0 flex flex-col overflow-hidden\">\n        <img src=\"https://media.licdn.com/dms/image/v2/C4D03AQEeLblDxW45LQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1587057161201?e=1757548800&amp;v=beta&amp;t=RKHVVSdtts_uYlEqJaNMnDNkipfZrzFlkr-M8pUcNnA\" alt=\"Sabryna Alsfasser\" class=\"w-full h-56 object-cover rounded-t-2xl\">\n        <div class=\"p-6 flex flex-col flex-1\">\n          <span class=\"font-bold text-lg text-[#18191F]\">Sabryna Alsfasser</span>\n          <span class=\"text-[#f36c21] font-semibold text-base leading-tight\">Head of Learning Design</span>\n          <span class=\"text-[#5B5D63] text-sm mb-1\">Hyper Island</span>\n          <p class=\"text-[#18191F] text-sm mt-2 mb-3\">Especialista em design de aprendizagem com mais de 15 anos desenvolvendo líderes. Pioneira em metodologias experienciais para desenvolvimento executivo.</p>\n          <span class=\"font-semibold text-xs text-[#18191F] mb-2\">Especialidades:</span>\n          <div class=\"flex flex-wrap gap-2 mb-4\">\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Design Thinking</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Liderança Transformacional</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Facilitação Experiencial</span>\n          </div>\n          <a href=\"https://www.linkedin.com/in/sabryna-alsfasser/\" target=\"_blank\" class=\"flex items-center gap-1 text-[#f36c21] font-semibold text-sm mt-auto hover:underline\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 mb-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M16 8a6 6 0 01-12 0C4 5.239 6.239 3 9 3s5 2.239 5 5-2.239 5-5 5a5.984 5.984 0 01-3.895-1.458M9 21v-6h6v6\"></path></svg>\n            Ver perfil\n          </a>\n        </div>\n      </div>\n\n      <!-- Veronica Magariños -->\n      <div class=\"bg-white rounded-2xl shadow p-0 flex flex-col overflow-hidden\">\n        <img src=\"https://media.licdn.com/dms/image/v2/D4E03AQH-UePcalxRTA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718237763879?e=1757548800&amp;v=beta&amp;t=AoskkZ4u3Lm66yxf5p9HbYQbni7WbnfbQqFV7gcW_pc\" alt=\"Veronica Magariños\" class=\"w-full h-56 object-cover rounded-t-2xl\">\n        <div class=\"p-6 flex flex-col flex-1\">\n          <span class=\"font-bold text-lg text-[#18191F]\">Veronica Magariños</span>\n          <span class=\"text-[#f36c21] font-semibold text-base leading-tight\">Senior Leadership Coach</span>\n          <span class=\"text-[#5B5D63] text-sm mb-1\">Hyper Island</span>\n          <p class=\"text-[#18191F] text-sm mt-2 mb-3\">Coach executiva certificada com especialização em liderança feminina. Mentora de mais de 200 executivas em processos de transformação.</p>\n          <span class=\"font-semibold text-xs text-[#18191F] mb-2\">Especialidades:</span>\n          <div class=\"flex flex-wrap gap-2 mb-4\">\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Executive Coaching</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Liderança Feminina</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Desenvolvimento Pessoal</span>\n          </div>\n          <a href=\"https://www.linkedin.com/in/veronica-magari%C3%B1os-turner/\" target=\"_blank\" class=\"flex items-center gap-1 text-[#f36c21] font-semibold text-sm mt-auto hover:underline\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 mb-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M16 8a6 6 0 01-12 0C4 5.239 6.239 3 9 3s5 2.239 5 5-2.239 5-5 5a5.984 5.984 0 01-3.895-1.458M9 21v-6h6v6\"></path></svg>\n            Ver perfil\n          </a>\n        </div>\n      </div>\n\n      <!-- Sauanne Bispo -->\n      <div class=\"bg-white rounded-2xl shadow p-0 flex flex-col overflow-hidden\">\n        <img src=\"https://media.licdn.com/dms/image/v2/D4D03AQEkD-pAQ7LqSQ/profile-displayphoto-shrink_800_800/B4DZbPslH9HEAk-/0/1747241292890?e=1757548800&amp;v=beta&amp;t=V-Ga-UHYydmlZqVUelkOptsyVnZK4Np0CxkiARi7A18\" alt=\"Sauanne Bispo\" class=\"w-full h-56 object-cover rounded-t-2xl\">\n        <div class=\"p-6 flex flex-col flex-1\">\n          <span class=\"font-bold text-lg text-[#18191F]\">Sauanne Bispo</span>\n          <span class=\"text-[#f36c21] font-semibold text-base leading-tight\">Experience Designer</span>\n          <span class=\"text-[#5B5D63] text-sm mb-1\">Hyper Island</span>\n          <p class=\"text-[#18191F] text-sm mt-2 mb-3\">Designer de experiências focada em jornadas de transformação. Especialista em criar ambientes seguros para desenvolvimento pessoal e profissional.</p>\n          <span class=\"font-semibold text-xs text-[#18191F] mb-2\">Especialidades:</span>\n          <div class=\"flex flex-wrap gap-2 mb-4\">\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Design de Experiência</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Facilitação</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Transformação Organizacional</span>\n          </div>\n          <a href=\"https://www.linkedin.com/in/sauannebispo/\" target=\"_blank\" class=\"flex items-center gap-1 text-[#f36c21] font-semibold text-sm mt-auto hover:underline\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 mb-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M16 8a6 6 0 01-12 0C4 5.239 6.239 3 9 3s5 2.239 5 5-2.239 5-5 5a5.984 5.984 0 01-3.895-1.458M9 21v-6h6v6\"></path></svg>\n            Ver perfil\n          </a>\n        </div>\n      </div>\n\n      <!-- Laís Rodrigues -->\n      <div class=\"bg-white rounded-2xl shadow p-0 flex flex-col overflow-hidden\">\n        <img src=\"https://media.licdn.com/dms/image/v2/D4D03AQEgUbeA6TjK1g/profile-displayphoto-shrink_800_800/0/1645030733301?e=1757548800&amp;v=beta&amp;t=RSZ0VpQXNOwym4JDkQWDJUz81kZz5n3bMuEyHP4QENQ\" alt=\"Laís Rodrigues\" class=\"w-full h-56 object-cover rounded-t-2xl\">\n        <div class=\"p-6 flex flex-col flex-1\">\n          <span class=\"font-bold text-lg text-[#18191F]\">Laís Rodrigues</span>\n          <span class=\"text-[#f36c21] font-semibold text-base leading-tight\">Partnership Manager</span>\n          <span class=\"text-[#5B5D63] text-sm mb-1\">LinkedIn</span>\n          <p class=\"text-[#18191F] text-sm mt-2 mb-3\">Estrategista de parcerias com foco em desenvolvimento de liderança. Conecta talentos e organizações para criar impacto positivo no mercado.</p>\n          <span class=\"font-semibold text-xs text-[#18191F] mb-2\">Especialidades:</span>\n          <div class=\"flex flex-wrap gap-2 mb-4\">\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Networking Estratégico</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Parcerias</span>\n            <span class=\"bg-[#fff3e6] text-[#f36c21] rounded-lg px-2 py-1 text-xs font-semibold\">Desenvolvimento de Carreira</span>\n          </div>\n          <a href=\"#\" class=\"flex items-center gap-1 text-[#f36c21] font-semibold text-sm mt-auto hover:underline cursor-default pointer-events-none opacity-60\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 mb-[2px]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><path d=\"M16 8a6 6 0 01-12 0C4 5.239 6.239 3 9 3s5 2.239 5 5-2.239 5-5 5a5.984 5.984 0 01-3.895-1.458M9 21v-6h6v6\"></path></svg>\n            Ver perfil\n          </a>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_6P6KiN": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Sobre a Hyper Island &amp; LinkedIn</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fafbfc;}\n  </style>\n\n\n  <section class=\"w-full flex justify-center py-12 px-2\">\n    <div class=\"w-full max-w-6xl rounded-2xl bg-[#df570c] px-8 md:px-20 py-14 flex flex-col items-center\">\n      <h2 class=\"text-white text-3xl md:text-4xl font-bold text-center mb-8\">\n        Sobre a Hyper Island &amp; LinkedIn\n      </h2>\n      <div class=\"flex flex-col md:flex-row w-full justify-center items-start gap-12 md:gap-20\">\n        <!-- Hyper Island -->\n        <div class=\"flex-1 flex flex-col items-center text-center\">\n          <span class=\"flex items-center justify-center w-[70px] h-[70px] bg-[#e06622] rounded-2xl mb-6\">\n            <img src=\"https://media.licdn.com/dms/image/v2/D4D0BAQHYpg6-Thb-Kw/company-logo_200_200/company-logo_200_200/0/1726562591847/hyper_island_logo?e=2147483647&amp;v=beta&amp;t=3iC7IwUQ8pXPII3IvUrFRSCD21wc7bgXG9tlpNL5Eb8\" alt=\"Logo Hyper Island\" class=\"w-10 h-10 object-contain\">\n          </span>\n          <span class=\"text-white font-semibold text-2xl mb-2 block\">Hyper Island</span>\n          <span class=\"text-white text-base leading-relaxed block\">\n            Consultoria global de aprendizagem com mais de 28 anos de experiência desenvolvendo líderes e organizações em todo o mundo. Metodologia experiencial, colaborativa e desenhada para o mundo real.\n          </span>\n        </div>\n        <!-- LinkedIn -->\n        <div class=\"flex-1 flex flex-col items-center text-center\">\n          <span class=\"flex items-center justify-center w-[70px] h-[70px] bg-[#e06622] rounded-2xl mb-6\">\n            <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png\" alt=\"Logo LinkedIn\" class=\"w-10 h-10 object-contain\">\n          </span>\n          <span class=\"text-white font-semibold text-2xl mb-2 block\">LinkedIn</span>\n          <span class=\"text-white text-base leading-relaxed block\">\n            A maior rede profissional do mundo, com mais de 900 milhões de membros. Acredita no poder das conexões para impulsionar carreiras e transformar realidades. Parceria inédita para ativar o potencial feminino na liderança.\n          </span>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "html_VFatwy": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Garanta sua vaga</title>\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap\" rel=\"stylesheet\">\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n  <style>\n    body { font-family: 'Inter', sans-serif; background: #fafbfc;}\n    .hs-form-frame input, .hs-form-frame select, .hs-form-frame textarea {\n      font-family: 'Inter', sans-serif;\n      font-size: 1rem;\n      border-radius: 0.5rem;\n      border: 1.5px solid #DFE3E8;\n      background: #fff;\n      padding: 0.5rem 0.75rem;\n      outline: none;\n      width: 100%;\n    }\n    .hs-form-frame label {\n      font-weight: 600;\n      font-size: 1rem;\n      color: #18191F;\n    }\n    .hs-form-frame button,\n    .hs-form-frame input[type=\"submit\"] {\n      background: #f36c21 !important;\n      color: #fff !important;\n      font-weight: bold !important;\n      border-radius: 0.75rem !important;\n      padding: 1rem 0 !important;\n      font-size: 1.13rem !important;\n      box-shadow: 0 2px 6px 0 #f36c2133;\n      margin-top: 1rem;\n    }\n  </style>\n  <!-- Hubspot embed abaixo (requer internet ativa para renderização real) -->\n  <script src=\"https://js.hsforms.net/forms/embed/1588780.js\" defer></script>\n\n\n  <section class=\"w-full max-w-6xl mx-auto px-4 pt-12 pb-14\">\n    <h2 class=\"text-4xl md:text-5xl font-bold text-center text-[#18191F] mb-1\">Garanta sua <span class=\"text-[#f36c21]\">vaga</span>\n</h2>\n    <p class=\"text-[#5B5D63] text-center text-base md:text-lg mb-10\">Vagas limitadas para garantir a qualidade das conexões e experiência personalizada</p>\n    <div class=\"flex flex-col md:flex-row gap-8 mb-8\">\n      <!-- Esquerda: Informações -->\n      <div class=\"w-full md:w-[40%] flex flex-col gap-5\">\n        <!-- Card Infos -->\n        <div class=\"bg-white rounded-2xl shadow p-7\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-4\">Informações do Investimento</div>\n          <div class=\"bg-[#fff3e6] rounded-lg px-4 py-3 flex items-center justify-between mb-4\">\n            <div>\n              <div class=\"text-xs text-[#f36c21] font-medium mb-1\">Early Bird até 31 de Julho</div>\n              <div class=\"flex items-baseline gap-2\">\n                <span class=\"text-[#f36c21] font-bold text-2xl\">R$ 15.291</span>\n                <span class=\"text-[#aaa] line-through text-base\">R$ 17.999</span>\n              </div>\n            </div>\n            <div class=\"flex flex-col items-end\">\n              <span class=\"text-[#f36c21] text-sm font-semibold\">15% OFF</span>\n              <span class=\"text-[#a3653b] text-xs\">Últimos dias</span>\n            </div>\n          </div>\n          <ul class=\"flex flex-col gap-3 mb-3 text-[#18191F] text-base\">\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> 3 dias de imersão completa</li>\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> Hospedagem no Club Med</li>\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> Todas as refeições inclusas</li>\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> Material de apoio completo</li>\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> Certificado de participação</li>\n            <li class=\"flex items-center gap-2\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg> Acesso ao grupo exclusivo</li>\n          </ul>\n          <hr class=\"my-3 border-[#DFE3E8]\">\n          <div class=\"flex items-start gap-2 mb-2\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <rect x=\"5\" y=\"4\" width=\"14\" height=\"16\" rx=\"2\" stroke=\"#f36c21\" stroke-width=\"2\" fill=\"#fff3e6\"></rect>\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 10l2 2 4-4\"></path>\n            </svg>\n            <span class=\"text-[#f36c21] font-semibold\">Parcelamento disponível</span>\n          </div>\n          <div class=\"text-[#18191F] text-sm mb-1 ml-7\">Até 6x sem juros no cartão de crédito<br>Desconto para pagamento à vista</div>\n          <div class=\"flex items-center gap-2 text-[#2dcc85] text-sm font-medium ml-7\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"#e8f6ed\" stroke-width=\"2\"></circle><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4\"></path></svg>\n            Garantia de 7 dias para cancelamento\n          </div>\n        </div>\n        <!-- Card Desconto Corporativo -->\n        <div class=\"bg-[#f36c21] rounded-2xl px-6 py-7 text-white mt-2 flex flex-col gap-3\">\n          <div class=\"font-bold text-lg mb-1\">Desconto Corporativo</div>\n          <div class=\"text-base\">Sua empresa pode patrocinar sua participação ou enviar múltiplas executivas com desconto progressivo.</div>\n          <ul class=\"text-base font-medium mb-3\">\n            <li>- 2 vagas: <span class=\"font-bold\">5% de desconto</span>\n</li>\n            <li>- 3+ vagas: <span class=\"font-bold\">10% de desconto</span>\n</li>\n            <li>- 5+ vagas: <span class=\"font-bold\">15% de desconto</span>\n</li>\n          </ul>\n          <a href=\"#\" class=\"bg-white text-[#f36c21] rounded-xl font-bold py-3 px-4 w-fit mt-2 hover:bg-[#fff3e6] hover:text-[#e06622] transition\">Falar com consultor</a>\n        </div>\n      </div>\n      <!-- Direita: Formulário -->\n      <div class=\"w-full md:w-[60%]\">\n        <div class=\"bg-white rounded-2xl shadow p-7\">\n          <div class=\"font-bold text-lg text-[#18191F] mb-4\">Inscreva-se agora</div>\n          <!-- Formulário Hubspot Embed -->\n          <div class=\"mb-2\">\n            <div class=\"hs-form-frame\" data-region=\"na1\" data-form-id=\"3bacda62-0461-44de-b2f9-d3eef2f0c94d\" data-portal-id=\"1588780\"></div>\n          </div>\n          \n          <div class=\"flex items-center gap-2 text-[#5B5D63] text-sm mt-3\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 text-[#f36c21]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m7-3a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n            </svg>\n            Processamento em até 24 horas\n          </div>\n          <div class=\"flex items-center gap-2 text-[#5B5D63] text-sm mt-1\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-4 w-4 text-[#2dcc85]\" fill=\"none\" viewbox=\"0 0 24 24\" stroke=\"currentColor\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m7-3a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n            </svg>\n            Dúvidas? WhatsApp: (11) 99999-9999\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "bg_color": "",
+        "container": "container-fluid",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "0de6791b-2d4b-438b-ae88-3f868a603e3c": {
       "type": "header",
       "blocks": {
@@ -247,126 +391,6 @@
         "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
-      }
-    },
-    "collection_cards_yVEjdm": {
-      "type": "collection-cards",
-      "disabled": true,
-      "settings": {
-        "filter": false,
-        "collection_list": [],
-        "hidden": false,
-        "title": "A MASTERCLASS",
-        "text": "Os <strong>Future Skills Masterclasses</strong> da Hyper Island são eventos globais criados para te preparar com a mentalidade e as ferramentas necessárias para prosperar em um mundo em constante transformação.",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "layout": "col-lg-3 col-md-6",
-        "default_spacing": false,
-        "pt_xl": 15,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 15,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 12,
-        "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "collection_cards_CxWDfR": {
-      "type": "collection-cards",
-      "disabled": true,
-      "settings": {
-        "filter": false,
-        "collection_list": [],
-        "hidden": false,
-        "title": "",
-        "text": "Curamos uma variedade de conteúdos e sessões imersivas de aprendizagem que irão te inspirar a pensar de forma diferente, inovar com ousadia e liderar com confiança diante das incertezas.",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "layout": "col-lg-3 col-md-6",
-        "default_spacing": false,
-        "pt_xl": 7,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 5,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 8,
-        "pb_sm": 8,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "collection_cards_FxCGdC": {
-      "type": "collection-cards",
-      "disabled": true,
-      "settings": {
-        "filter": false,
-        "collection_list": [],
-        "hidden": false,
-        "title": "",
-        "text": "Este evento de 3 dias foi especialmente desenhado para preparar você e sua equipe com as <strong>habilidades do futuro </strong>necessárias para prosperar em um mundo em constante mudança.",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#ffffff",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "layout": "col-lg-3 col-md-6",
-        "default_spacing": false,
-        "pt_xl": 7,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 5,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 5,
-        "smb_xs": 0
       }
     },
     "content_HHaa3Q": {
@@ -705,120 +729,6 @@
         "smb_xs": 0
       }
     },
-    "content_y7fXnR": {
-      "type": "content",
-      "disabled": true,
-      "name": "HI23 Content Section",
-      "settings": {
-        "hidden": false,
-        "title": "Traga o seu time e compre ingressos em condições especiais",
-        "text": "Quanto maior o grupo, menor o valor do ingresso. Aproveite condições até 30% OFF.",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-6",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-left",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
-    "sp_review_grid_2_wewbMw": {
-      "type": "sp-review-grid-2",
-      "blocks": {
-        "review_4j67xF": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/TESTE_IMAGEM_2.png",
-            "quote": "<strong>DE 2 A 3 PESSOAS</strong>",
-            "cite": "Ideal para quem quer companhia",
-            "cta_link": "shopify://pages/cursos-para-empresas"
-          }
-        },
-        "review_7jpN3X": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/TESTE_IMAGEM_3.png",
-            "quote": "<strong>DE 3 A 5 PESSOAS</strong>",
-            "cite": "Ideal para quem quer levar o time",
-            "cta_link": "https://www.hyperisland.com.br/discount/FSTEAM10?redirect=%2Fproducts%2Ffull-pass-3-dias-de-evento"
-          }
-        },
-        "review_WUW9PM": {
-          "type": "review",
-          "settings": {
-            "background_image": "shopify://shop_images/TESTE_IMAGEM_4.png",
-            "quote": "<strong>DE 5 A 10 PESSOAS</strong>",
-            "cite": "Ideal para times grandes",
-            "cta_link": "https://www.hyperisland.com.br/discount/FSTEAM10?redirect=%2Fproducts%2Ffull-pass-3-dias-de-evento"
-          }
-        }
-      },
-      "block_order": [
-        "review_4j67xF",
-        "review_7jpN3X",
-        "review_WUW9PM"
-      ],
-      "disabled": true,
-      "name": "🚀SP - Review Grid",
-      "settings": {
-        "override_fonts": false,
-        "text_font": "sans-serif",
-        "text_size": 20,
-        "text_line_height": "inherit",
-        "text_color": "#ffffff",
-        "background_color": "linear-gradient(164deg, rgba(243, 240, 237, 1), rgba(243, 240, 237, 1) 100%)",
-        "cover_background": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(85, 85, 85, 1) 100%)",
-        "cover_opacity": 0,
-        "highlight_color": "#ffffff",
-        "max_width": 1000,
-        "grid_gap": 40,
-        "padding_top": 30,
-        "padding_bottom": 200,
-        "padding_left": 10,
-        "padding_right": 10,
-        "element_spacing": 10,
-        "media_radius": 5,
-        "media_shadow": true
-      }
-    },
     "title_section_qKnncj": {
       "type": "title-section",
       "settings": {
@@ -1007,142 +917,6 @@
         "mb_sm": 0
       }
     },
-    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
-      "type": "header_half",
-      "blocks": {
-        "0d748ca9-71e7-46b0-9384-556cf20677f9": {
-          "type": "button",
-          "settings": {
-            "text": "Saiba Mais",
-            "url": "shopify://pages/cursos-para-empresas",
-            "target": false,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "0d748ca9-71e7-46b0-9384-556cf20677f9"
-      ],
-      "disabled": true,
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "CURSOS IN-COMPANY",
-        "text": "Nossos cursos remotos e presenciais estão disponíveis para turmas exclusivas, com opções de customização para que a jornada de aprendizagem faça sentido para o seu negócio e sua agenda.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/2-Remoto.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
-      "type": "button-section",
-      "blocks": {
-        "726717ac-617a-4f9a-8b5f-fca52b092f42": {
-          "type": "button",
-          "settings": {
-            "text": "Mandar e-mail",
-            "url": "mailto:benito.berretta@hyperisland.com",
-            "target": false,
-            "zap": false,
-            "zap_number": "",
-            "zap_msg": "",
-            "style": "rounded-white"
-          }
-        },
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
-          "type": "button",
-          "settings": {
-            "text": "Enviar Mensagem",
-            "url": "",
-            "target": false,
-            "zap": true,
-            "zap_number": "5511991352064",
-            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "726717ac-617a-4f9a-8b5f-fca52b092f42",
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "FALE COM O BENITO",
-        "text": "Queremos te ouvir! Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
-        "img": "shopify://shop_images/fotoBenito.jpg",
-        "bg_color": "#000000",
-        "bg_gradient": "",
-        "font_color": "text-light",
-        "title_size": "display-5",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
-    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f": {
-      "type": "clients",
-      "disabled": true,
-      "settings": {
-        "hidden": false,
-        "title": "Nossos Clientes",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-4",
-        "text_size": "fs-4",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "default_spacing": true,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 16,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 16,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 13
-      }
-    },
     "ca91f808-6934-447a-aaba-35feb8712939": {
       "type": "header",
       "settings": {
@@ -1178,30 +952,30 @@
     }
   },
   "order": [
+    "html_W3XaCC",
+    "html_wkbYP9",
+    "html_PWUyXW",
+    "html_KCNK6R",
+    "html_RkWyR7",
+    "html_yHz6tK",
+    "html_6P6KiN",
+    "html_VFatwy",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
     "header_8zQNhh",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "collection_cards_d4A6ha",
     "sp_video_standalone_WcG3Cy",
     "header_half_yWLUEj",
-    "collection_cards_yVEjdm",
-    "collection_cards_CxWDfR",
-    "collection_cards_FxCGdC",
     "content_HHaa3Q",
     "card_FBjkWc",
     "card_fluid_9M7rdq",
     "sp_image_standalone_GJVQnC",
     "content_N9engr",
-    "content_y7fXnR",
-    "sp_review_grid_2_wewbMw",
     "title_section_qKnncj",
     "content_8Ct4hi",
     "sp_video_standalone_xcN4Br",
     "html_AwdrLH",
     "newsletter_session_wqbhG8",
-    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
-    "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
     "ca91f808-6934-447a-aaba-35feb8712939"
   ]
 }
