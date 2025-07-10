@@ -141,6 +141,7 @@
       "blocks": {
         "image_kGHNnc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/foto-hotel_2_20161210141153_151.jpg",
             "link": ""
@@ -148,6 +149,7 @@
         },
         "image_QVc3mb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Club-Med-Lake-Paradise_Slide_Piscinas.jpg",
             "link": ""
@@ -155,6 +157,7 @@
         },
         "image_XLV3JV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/capa-41.jpg",
             "link": ""
@@ -302,6 +305,80 @@
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
+      }
+    },
+    "sp_accordion_ecWYxj": {
+      "type": "sp-accordion",
+      "blocks": {
+        "image_WwbDPG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/foto-hotel_2_20161210141153_151.jpg",
+            "link": ""
+          }
+        },
+        "image_94AGwK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Club-Med-Lake-Paradise_Slide_Piscinas.jpg",
+            "link": ""
+          }
+        },
+        "image_KA8wU7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/capa-41.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WwbDPG",
+        "image_94AGwK",
+        "image_KA8wU7"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "sans-serif",
+        "text_font": "sans-serif",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 40,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 0,
+        "mobile_section_padding_top_bottom": 0,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1500,
+        "container_padding_top_bottom": 0,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 300,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "",
+        "text": "",
+        "headline_spacing": 0
       }
     },
     "html_6P6KiN": {
@@ -1050,25 +1127,6 @@
         "spb_xs": 0,
         "smb_xs": 0
       }
-    },
-    "sp_video_standalone_xcN4Br": {
-      "type": "sp-video-standalone",
-      "disabled": true,
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 300,
-        "padding_top": 25,
-        "padding_bottom": 100,
-        "padding_left": 10,
-        "padding_right": 10,
-        "video": "shopify://files/videos/video_diego_miami (1).mp4",
-        "video_inline": true,
-        "video_autoplay": false,
-        "video_loop": false,
-        "video_controls": false,
-        "video_muted": false,
-        "big_play_pause_button": true
-      }
     }
   },
   "order": [
@@ -1081,6 +1139,7 @@
     "html_yHz6tK",
     "sp_accordion_X8XbNi",
     "content_QJmUmq",
+    "sp_accordion_ecWYxj",
     "html_6P6KiN",
     "html_VFatwy",
     "0de6791b-2d4b-438b-ae88-3f868a603e3c",
@@ -1095,7 +1154,6 @@
     "sp_image_standalone_GJVQnC",
     "content_N9engr",
     "title_section_qKnncj",
-    "content_8Ct4hi",
-    "sp_video_standalone_xcN4Br"
+    "content_8Ct4hi"
   ]
 }
