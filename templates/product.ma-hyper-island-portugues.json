@@ -971,6 +971,7 @@
         "image_RKRhHe",
         "image_mEKbWD"
       ],
+      "disabled": true,
       "name": "🚀 Accordion",
       "settings": {
         "override_fonts": false,
