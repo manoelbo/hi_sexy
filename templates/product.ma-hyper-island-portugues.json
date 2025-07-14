@@ -1004,7 +1004,7 @@
         "container_border_size": 0,
         "container_border_color": "#ffffff",
         "gap": 5,
-        "mobile_display": "accordion",
+        "mobile_display": "stacked",
         "height": 100,
         "media_radius": 5,
         "media_shadow": true,
