@@ -736,7 +736,7 @@
         "cta_2": "Registrar",
         "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
         "cta_3": "Tirar dúvida",
-        "cta_link_3": "",
+        "cta_link_3": "mailto:tim.lucas@hyperislan.com",
         "zap": false,
         "zap_number": "",
         "zap_msg": ""
