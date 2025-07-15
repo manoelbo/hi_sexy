@@ -137,11 +137,11 @@
       "type": "course-header-2",
       "name": "HI Course Header 2",
       "settings": {
-        "cta_1": "Registrar",
-        "cta_2": "Baixe o programa",
-        "cta_link_2": "",
+        "cta_1": "⮕",
+        "cta_2": "REGISTRAR",
+        "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
         "cta_3": "Tirar dúvida",
-        "cta_link_3": "",
+        "cta_link_3": "mailto:tim.lucas@hyperisland.com",
         "zap": false,
         "zap_number": "",
         "zap_msg": ""
@@ -732,7 +732,7 @@
       "type": "course-header-2",
       "name": "HI Course Header 2",
       "settings": {
-        "cta_1": "Registrar",
+        "cta_1": "⮕",
         "cta_2": "Registrar",
         "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
         "cta_3": "Tirar dúvida",
