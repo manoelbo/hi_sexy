@@ -567,7 +567,6 @@
       "block_order": [
         "content_3iLUbx"
       ],
-      "disabled": true,
       "settings": {
         "hidden": false,
         "title": "",
@@ -617,15 +616,6 @@
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
-      }
-    },
-    "course_header_5_p7EUdE": {
-      "type": "course-header-5",
-      "name": "HI Course Header 5",
-      "settings": {
-        "price_option": true,
-        "price_subtitle": "",
-        "price_text": ""
       }
     },
     "header_t9LXn8": {
@@ -1244,7 +1234,6 @@
     "content_H9FyLN",
     "content_bpYrpx",
     "content_Fwz68i",
-    "course_header_5_p7EUdE",
     "header_t9LXn8",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "html_Lbebyd",
