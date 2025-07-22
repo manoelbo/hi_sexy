@@ -713,6 +713,20 @@
         "smb_xs": 0
       }
     },
+    "course_header_2_NznWYj": {
+      "type": "course-header-2",
+      "name": "HI Course Header 2",
+      "settings": {
+        "cta_1": "⮕",
+        "cta_2": "Registrar",
+        "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
+        "cta_3": "Tirar dúvida",
+        "cta_link_3": "mailto:tim.lucas@hyperislan.com",
+        "zap": false,
+        "zap_number": "",
+        "zap_msg": ""
+      }
+    },
     "html_Lbebyd": {
       "type": "html",
       "settings": {
@@ -730,27 +744,12 @@
         "mb": 0
       }
     },
-    "course_header_2_NznWYj": {
-      "type": "course-header-2",
-      "name": "HI Course Header 2",
-      "settings": {
-        "cta_1": "⮕",
-        "cta_2": "Registrar",
-        "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
-        "cta_3": "Tirar dúvida",
-        "cta_link_3": "mailto:tim.lucas@hyperislan.com",
-        "zap": false,
-        "zap_number": "",
-        "zap_msg": ""
-      }
-    },
     "newsletter_session_WMBfh7": {
       "type": "newsletter-session",
-      "disabled": true,
       "settings": {
-        "title": "Se inscreva na lista de espera",
-        "text": "Inscreva-se na lista de espera para ser informado quando as inscrições abrirem e receber uma condição especial de pagamento – <strong>R$500 de desconto para quem estiver na lista de espera</strong>.",
-        "form_id": "be314d7f-f3fb-4bf1-a17b-7465e801e726",
+        "title": "Baixe o programa do curso",
+        "text": "",
+        "form_id": "e549785f-9fc4-46ba-ac8d-c17f09494f77",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "font_color": "text-dark",
@@ -1238,8 +1237,8 @@
     "content_Fwz68i",
     "header_t9LXn8",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
-    "html_Lbebyd",
     "course_header_2_NznWYj",
+    "html_Lbebyd",
     "newsletter_session_WMBfh7",
     "content_eDhDf8",
     "sp_accordion_VdnKyd",
