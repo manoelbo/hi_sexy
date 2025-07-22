@@ -140,8 +140,8 @@
         "cta_1": "⮕",
         "cta_2": "REGISTRAR",
         "cta_link_2": "{{ product.metafields.my_fields.add_to_cart_button.value }}",
-        "cta_3": "Tirar dúvida",
-        "cta_link_3": "mailto:tim.lucas@hyperisland.com",
+        "cta_3": "BAIXAR PROGRAMA",
+        "cta_link_3": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
         "zap": false,
         "zap_number": "",
         "zap_msg": ""
