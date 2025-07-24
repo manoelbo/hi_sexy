@@ -393,7 +393,7 @@
         "content_align_mobile": "text-center",
         "default_spacing": false,
         "pt_xl": 9,
-        "pb_xl": 14,
+        "pb_xl": 16,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
@@ -705,7 +705,7 @@
         "content_align_mobile": "text-left",
         "default_spacing": false,
         "pt_xl": 7,
-        "pb_xl": 12,
+        "pb_xl": 13,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
@@ -728,6 +728,16 @@
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
+      }
+    },
+    "separator_AgpFMi": {
+      "type": "separator",
+      "name": "Separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0,
+        "mt": 15,
+        "mb": 0
       }
     },
     "f39daef8-3263-467c-b5e2-581de2221700": {
@@ -810,6 +820,7 @@
     "content_nUiDxw",
     "html_hkTT8g",
     "content_eDhDf8",
+    "separator_AgpFMi",
     "f39daef8-3263-467c-b5e2-581de2221700"
   ]
 }
