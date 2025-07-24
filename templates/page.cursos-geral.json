@@ -348,6 +348,16 @@
             "url": "shopify://products/curso-lideranca-agil",
             "target": false
           }
+        },
+        "card_4KCh63": {
+          "type": "card",
+          "settings": {
+            "category_id": "",
+            "title": "Liderando Futuros Digitais",
+            "text": "Este curso curto e credenciado (10 créditos de mestrando Nível 7) equipa você com as habilidades necessárias para explorar cenários organizacionais futuros, propor estratégias e desenvolver planos de ação pessoais.",
+            "url": "shopify://products/liderando-futuros-digitais",
+            "target": true
+          }
         }
       },
       "block_order": [
@@ -356,7 +366,8 @@
         "card_kpGQnx",
         "card_Dq6U33",
         "card_NAHUtz",
-        "card_k4Hrmk"
+        "card_k4Hrmk",
+        "card_4KCh63"
       ],
       "settings": {
         "font_color": "text-dark",
