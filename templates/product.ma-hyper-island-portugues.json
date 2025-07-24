@@ -67,14 +67,14 @@
         "content_align_mobile": "text-center",
         "default_spacing": false,
         "pt_xl": 17,
-        "pb_xl": 2,
+        "pb_xl": 5,
         "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 16,
+        "pt_lg": 0,
         "pb_lg": 3,
         "mt_lg": 10,
         "mb_lg": 0,
-        "pt_sm": 13,
+        "pt_sm": 0,
         "pb_sm": 4,
         "mt_sm": 0,
         "mb_sm": 0,
@@ -206,7 +206,7 @@
       "settings": {
         "full_width": false,
         "opacity": 0,
-        "mt": 17,
+        "mt": 15,
         "mb": 0
       }
     },
@@ -445,7 +445,7 @@
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": true,
-        "pt_xl": 15,
+        "pt_xl": 14,
         "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
@@ -490,7 +490,7 @@
         "content_width": "w-lg-50",
         "default_spacing": true,
         "pt_xl": 5,
-        "pb_xl": 12,
+        "pb_xl": 10,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
@@ -540,7 +540,7 @@
         "title": "Baixe o programa do curso",
         "text": "",
         "form_id": "e549785f-9fc4-46ba-ac8d-c17f09494f77",
-        "bg_color": "#ffffff",
+        "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "font_color": "text-dark",
         "title_size": "display-4",
@@ -550,69 +550,29 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
         "default_spacing": true,
-        "pt_xl": 14,
-        "pb_xl": 0,
+        "pt_xl": 18,
+        "pb_xl": 10,
         "mt_xl": 0,
-        "mb_xl": 8,
-        "pt_lg": 13,
+        "mb_xl": 0,
+        "pt_lg": 0,
         "pb_lg": 0,
         "mt_lg": 0,
-        "mb_lg": 5,
-        "pt_sm": 9,
+        "mb_lg": 0,
+        "pt_sm": 0,
         "pb_sm": 0,
         "mt_sm": 0,
-        "mb_sm": 5
+        "mb_sm": 0
       }
     },
-    "content_eDhDf8": {
+    "content_nUiDxw": {
       "type": "content",
-      "blocks": {
-        "content_xNgCKt": {
-          "type": "content",
-          "settings": {
-            "title": "Teesside University",
-            "text": "Reputação internacional de excelência acadêmica, focada em transformar vidas e economias por meio da educação. Reconhecida pela criatividade e liderança em inovação digital, a Teesside University foi o primeiro Adobe Creative Campus da Europa e é uma Apple Distinguished School. Comprometida em oferecer os mais altos padrões de ensino para estudantes ao redor do mundo, a Teesside alcançou o padrão ouro em todas as áreas do Teaching Excellence Framework 2023 do governo do Reino Unido.",
-            "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M341.3,38.8L300.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1C255,44.6,256,45,257,45h3.3v29.6h-53.7\n\tV45h3.3c2,0,3.6-1.6,3.6-3.6c0-1-0.4-2-1.2-2.7L171.4,0.9c-1.4-1.3-3.5-1.3-4.9,0l-40.9,37.9c-1.5,1.3-1.6,3.6-0.2,5.1\n\tC126,44.6,127,45,128,45h3.3v80.8h75.3V78.3h53.7v47.5h75.3V45h3.3c2,0,3.6-1.6,3.6-3.6C342.4,40.4,342,39.5,341.3,38.8L341.3,38.8z\n\t M202.9,122.2h-68V41.4h-6.8l40.7-37.8l40.8,37.8h-6.8v33.3h-21.7c-1-6.8-7.3-11.4-14.1-10.4c-6.8,1-11.4,7.3-10.4,14.1\n\tc1,6.8,7.3,11.4,14.1,10.4c5.4-0.8,9.6-5,10.4-10.4h21.7V122.2z M177.7,76.5c0,4.8-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7\n\tc0-4.8,3.9-8.7,8.7-8.7C173.8,67.7,177.7,71.6,177.7,76.5z M331.9,41.4v80.8h-68V78.3h21.7c1,6.8,7.3,11.5,14.1,10.5\n\tc6.8-1,11.5-7.3,10.5-14.1c-1-6.8-7.3-11.5-14.1-10.5c-5.4,0.8-9.7,5.1-10.5,10.5h-21.7V41.4h-6.8l40.7-37.8l40.8,37.8L331.9,41.4z\n\t M289.1,76.5c0-4.8,3.9-8.7,8.7-8.7s8.7,3.9,8.7,8.7c0,4.8-3.9,8.7-8.7,8.7C293.1,85.2,289.2,81.3,289.1,76.5L289.1,76.5z\"></path>\n</svg>",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "content_36YNYw": {
-          "type": "content",
-          "settings": {
-            "title": "Hyper Island",
-            "text": "Fundada em 1996 na Suécia, é uma renomada escola de negócios digitais criativa com presença global. A Hyper Island é conhecida por sua abordagem inovadora e prática de ensino, que enfatiza o aprendizado experiencial, a colaboração e a prontidão para o mercado. Ao se associar a líderes da indústria, a Hyper Island capacita indivíduos e organizações com as habilidades necessárias para prosperar em um cenário digital em constante mudança.",
-            "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M299.3,0H167.5C142.9,0,123,20,123,44.6c0,24.6,19.9,44.5,44.5,44.5h15.2c-2.2,3.4-1.5,7.9,1.6,10.5\n\tc-3.4,2.8-3.9,7.9-1,11.3c0.3,0.4,0.7,0.7,1,1c-3.4,2.8-3.9,7.9-1,11.3c1.5,1.8,3.8,2.9,6.1,2.9h88c4.4,0,8-3.6,8-8\n\tc0-2.4-1.1-4.6-2.9-6.1c3.4-2.8,3.9-7.9,1-11.3c-0.3-0.4-0.7-0.7-1-1c3.1-2.6,3.8-7.1,1.6-10.5h15.2c24.6,0,44.6-19.9,44.6-44.6\n\tS323.9,0,299.3,0z M281.8,118c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3h88\n\tC279.8,113.7,281.8,115.7,281.8,118z M281.8,105.7c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c0,0,0,0,0,0\n\th88C279.8,101.4,281.8,103.4,281.8,105.7z M281.8,93.4c0,2.4-1.9,4.3-4.3,4.3h-88c-2.4,0-4.3-1.9-4.3-4.3c0-2.4,1.9-4.3,4.3-4.3\n\tc0,0,0,0,0,0h88C279.8,89.1,281.8,91,281.8,93.4z M221.8,36.8l-18.6,0.1l0,0c-3.6-0.1-6.5-3.2-6.4-6.8c0.1-3.5,2.9-6.2,6.4-6.4h12\n\tc3.6,0,6.6,2.9,6.6,6.6L221.8,36.8z M241.6,85.4h-16.1V40.5l16.1-0.1V85.4z M299.4,85.4h-54.1v-45l18.6-0.1\n\tc5.6,0,10.1-4.5,10.1-10.1s-4.5-10.1-10.1-10.1l-12.1,0c-2.7,0-5.3,1.1-7.2,3c-1.9,1.9-3,4.5-3,7.2v6.5l-16.1,0.1v-6.5\n\tc0-5.7-4.6-10.3-10.3-10.3c0,0,0,0,0,0h-12c-5.7,0.2-10.1,4.9-10,10.5c0.1,5.5,4.5,9.8,10,10l0,0l18.6-0.1v44.9h-54.2\n\tc-22.6,0-40.9-18.3-40.9-40.9S145,3.7,167.5,3.7h131.8c22.6,0,40.9,18.3,40.9,40.9S321.9,85.4,299.4,85.4L299.4,85.4z M245.3,36.8\n\tv-6.5c0-3.6,2.9-6.4,6.4-6.5c0,0,0,0,0,0l0,0l12.1,0c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5L245.3,36.8z\"></path>\n</svg>",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        },
-        "content_wQC7RP": {
-          "type": "content",
-          "settings": {
-            "title": "Grupo Unis",
-            "text": "Localizada em Minas Gerais, Brasil, oferece mais de 50 cursos em diversos níveis de educação. Conhecida por seus métodos de ensino modernos e infraestrutura de ponta, a instituição aprimora as experiências dos estudantes. O Grupo Unis também promove parcerias internacionais, oferecendo mobilidade acadêmica global e enriquecimento cultural, e desenvolve profissionais socialmente responsáveis que contribuem para o desenvolvimento regional e global.",
-            "header": "",
-            "svg": "<!--?xml version=\"1.0\" encoding=\"utf-8\"?-->\n<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 466.9 173\" style=\"enable-background:new 0 0 466.9 173;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<path d=\"M309.1,46c11.7-7,15.5-22.3,8.5-34c-4.5-7.4-12.5-12-21.2-12h-30.7c-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2\n\tc-7,0.6-13.8,3.1-19.4,7.3c-5.7-4.2-12.4-6.8-19.4-7.3c11.7-7,15.5-22.3,8.5-34C218,4.6,209.9,0,201.2,0h-30.7\n\tc-13.7,0-24.8,11.1-24.8,24.8c0,8.7,4.6,16.8,12,21.2c-19.7,1.7-34.8,18.2-34.9,38V126H344V84C344,64.2,328.9,47.7,309.1,46z\n\t M244.6,24.8c0-11.6,9.4-21.1,21.1-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5c-0.2,11.3-9.3,20.5-20.7,20.7h-30.7\n\tC254,45.8,244.6,36.4,244.6,24.8z M149.4,24.8c0-11.6,9.4-21,21-21.1h30.7c11.6,0.2,20.9,9.8,20.7,21.5\n\tc-0.2,11.3-9.3,20.5-20.7,20.7h-30.7C158.9,45.8,149.4,36.4,149.4,24.8z M126.5,122.3V84c0-19,15.4-34.4,34.4-34.4h49.8\n\tc7,0,13.9,2.2,19.7,6.2C222.5,63,218,73.2,218,84v38.4H126.5z M221.7,122.3V84c0-9.9,4.3-19.3,11.7-25.8\n\tc7.5,6.5,11.7,15.9,11.7,25.8v38.4H221.7z M340.3,122.3h-91.5V84c0-10.7-4.5-21-12.5-28.2c5.8-4.1,12.6-6.2,19.7-6.2h49.8\n\tc19,0,34.4,15.4,34.4,34.4V122.3z\"></path>\n</svg>",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_xNgCKt",
-        "content_36YNYw",
-        "content_wQC7RP"
-      ],
       "name": "HI23 Content Section",
       "settings": {
         "hidden": false,
         "title": "Nossos Parceiros",
         "text": "",
         "font_color": "text-dark",
-        "title_size": "display-4",
+        "title_size": "display-2",
         "text_size": "fs-4",
         "header": "",
         "header_size": "fs-6",
@@ -632,16 +592,128 @@
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
         "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 13,
+        "pt_xl": 17,
+        "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 13,
+        "pt_lg": 0,
+        "pb_lg": 0,
         "mt_lg": 0,
         "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 0,
+        "spb_lg": 0,
+        "smb_lg": 0,
+        "spb_xs": 0,
+        "smb_xs": 0
+      }
+    },
+    "html_hkTT8g": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Logos Section</title>\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n    <style>\n        /* Custom fade-in animation */\n        @keyframes subtleFadeIn {\n            from { opacity: 0; transform: translateY(10px); }\n            to { opacity: 1; transform: translateY(0); }\n        }\n        \n        .logo-fade-in {\n            animation: subtleFadeIn 0.8s ease-out forwards;\n        }\n        \n        /* Custom hover effect */\n        .logo-hover {\n            transition: all 0.3s ease;\n            filter: grayscale(100%);\n        }\n        \n        .logo-hover:hover {\n            filter: grayscale(0%);\n            transform: scale(1.05);\n        }\n        \n        /* Responsive adjustments */\n        @media (max-width: 640px) {\n            .logo-container {\n                grid-template-columns: repeat(2, 1fr);\n                gap: 1.5rem;\n            }\n        }\n    </style>\n\n\n    <!-- Main Content (example) -->\n    <main class=\"container mx-auto px-4 py-12\">\n        <!-- Other content would go here -->\n        \n        <!-- Logos Section -->\n        <section class=\"my-0 px-4\">\n            <div class=\"max-w-6xl mx-auto\">\n             \n                \n                <div class=\"logo-container grid grid-cols-4 gap-8 items-center justify-center opacity-90 bg-white p-6 rounded-lg\">\n                    <!-- Hyper Island Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.1s;\">\n                        <img src=\"https://media.licdn.com/dms/image/v2/D4D0BAQElqKkkF2uZFQ/company-logo_200_200/company-logo_200_200/0/1684438929648/hyper_island_north_america_logo?e=2147483647&amp;v=beta&amp;t=uI5TV1C7y_v4pSNYU-YUSJk3dMGsmHEHhHrZQ2_9l94\" alt=\"Hyper Island\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Teesside University Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.2s;\">\n                        <img src=\"https://i0.wp.com/asbp.org.uk/wp-content/uploads/2024/07/Teesside-University-Black-1.png?fit=650%2C650&amp;ssl=1\" alt=\"Teesside University\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Grupo Unis Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.3s;\">\n                        <img src=\"https://site-sindsempmg.s3.amazonaws.com/uploads/3648/c1320695497951ceb0f460c6d3908618.jpg?v=20221207112200\" alt=\"Grupo Unis\" class=\"logo-hover h-25 object-contain w-full max-w-[200px] bg-white p-2 rounded-full\">\n                    </div>\n                    \n                    <!-- British Council Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.4s;\">\n                        <img src=\"https://brandlogos.net/wp-content/uploads/2021/12/british_council-brandlogo.net_-512x512.png\" alt=\"British Council\" class=\"logo-hover h-21 object-contain w-full max-w-[170px] bg-white p-2\">\n                    </div>\n                </div>\n            </div>\n        </section>\n        \n        <!-- Other content would continue here -->\n    </main>\n\n    <script>\n        // Simple intersection observer to trigger animations when logos come into view\n        document.addEventListener('DOMContentLoaded', function() {\n            const logoItems = document.querySelectorAll('.logo-item');\n            \n            const observer = new IntersectionObserver((entries) => {\n                entries.forEach(entry => {\n                    if (entry.isIntersecting) {\n                        entry.target.classList.add('logo-fade-in');\n                        observer.unobserve(entry.target);\n                    }\n                });\n            }, {\n                threshold: 0.1\n            });\n            \n            logoItems.forEach(item => {\n                observer.observe(item);\n            });\n        });\n    </script>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "content_eDhDf8": {
+      "type": "content",
+      "blocks": {
+        "content_xNgCKt": {
+          "type": "content",
+          "settings": {
+            "title": "TEESIDE UNIVERSITY",
+            "text": "Reputação internacional de excelência acadêmica, focada em transformar vidas e economias por meio da educação. Reconhecida pela criatividade e liderança em inovação digital, a Teesside University foi o primeiro Adobe Creative Campus da Europa e é uma Apple Distinguished School. Comprometida em oferecer os mais altos padrões de ensino para estudantes ao redor do mundo, a Teesside alcançou o padrão ouro em todas as áreas do Teaching Excellence Framework 2023 do governo do Reino Unido.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_36YNYw": {
+          "type": "content",
+          "settings": {
+            "title": "HYPER ISLAND",
+            "text": "Fundada em 1996 na Suécia, é uma renomada escola de negócios digitais criativa com presença global. A Hyper Island é conhecida por sua abordagem inovadora e prática de ensino, que enfatiza o aprendizado experiencial, a colaboração e a prontidão para o mercado. Ao se associar a líderes da indústria, a Hyper Island capacita indivíduos e organizações com as habilidades necessárias para prosperar em um cenário digital em constante mudança.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_wQC7RP": {
+          "type": "content",
+          "settings": {
+            "title": "GRUPO UNIS",
+            "text": "Localizada em Minas Gerais, Brasil, oferece mais de 50 cursos em diversos níveis de educação. Conhecida por seus métodos de ensino modernos e infraestrutura de ponta, a instituição aprimora as experiências dos estudantes. O Grupo Unis também promove parcerias internacionais, oferecendo mobilidade acadêmica global e enriquecimento cultural, e desenvolve profissionais socialmente responsáveis que contribuem para o desenvolvimento regional e global.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_xNgCKt",
+        "content_36YNYw",
+        "content_wQC7RP"
+      ],
+      "name": "HI23 Content Section",
+      "settings": {
+        "hidden": true,
+        "title": "",
+        "text": "",
+        "font_color": "text-dark",
+        "title_size": "display-2",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "c_font_color": "text-dark",
+        "c_title_size": "display-6",
+        "c_text_size": "fs-6",
+        "c_header_size": "fs-6",
+        "c_bg_color": "#ffffff",
+        "c_bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-left",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 10,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0,
         "py_lg": 0,
@@ -717,24 +789,6 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "html_hkTT8g": {
-      "type": "html",
-      "name": "HTML",
-      "settings": {
-        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Logos Section</title>\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n    <style>\n        /* Custom fade-in animation */\n        @keyframes subtleFadeIn {\n            from { opacity: 0; transform: translateY(10px); }\n            to { opacity: 1; transform: translateY(0); }\n        }\n        \n        .logo-fade-in {\n            animation: subtleFadeIn 0.8s ease-out forwards;\n        }\n        \n        /* Custom hover effect */\n        .logo-hover {\n            transition: all 0.3s ease;\n            filter: grayscale(100%);\n        }\n        \n        .logo-hover:hover {\n            filter: grayscale(0%);\n            transform: scale(1.05);\n        }\n        \n        /* Responsive adjustments */\n        @media (max-width: 640px) {\n            .logo-container {\n                grid-template-columns: repeat(2, 1fr);\n                gap: 1.5rem;\n            }\n        }\n    </style>\n\n\n    <!-- Main Content (example) -->\n    <main class=\"container mx-auto px-4 py-12\">\n        <!-- Other content would go here -->\n        \n        <!-- Logos Section -->\n        <section class=\"my-0 px-4\">\n            <div class=\"max-w-6xl mx-auto\">\n             \n                \n                <div class=\"logo-container grid grid-cols-4 gap-8 items-center justify-center opacity-90 bg-white p-6 rounded-lg\">\n                    <!-- Hyper Island Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.1s;\">\n                        <img src=\"https://media.licdn.com/dms/image/v2/D4D0BAQElqKkkF2uZFQ/company-logo_200_200/company-logo_200_200/0/1684438929648/hyper_island_north_america_logo?e=2147483647&amp;v=beta&amp;t=uI5TV1C7y_v4pSNYU-YUSJk3dMGsmHEHhHrZQ2_9l94\" alt=\"Hyper Island\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Teesside University Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.2s;\">\n                        <img src=\"https://i0.wp.com/asbp.org.uk/wp-content/uploads/2024/07/Teesside-University-Black-1.png?fit=650%2C650&amp;ssl=1\" alt=\"Teesside University\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Grupo Unis Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.3s;\">\n                        <img src=\"https://site-sindsempmg.s3.amazonaws.com/uploads/3648/c1320695497951ceb0f460c6d3908618.jpg?v=20221207112200\" alt=\"Grupo Unis\" class=\"logo-hover h-25 object-contain w-full max-w-[200px] bg-white p-2 rounded-full\">\n                    </div>\n                    \n                    <!-- British Council Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.4s;\">\n                        <img src=\"https://brandlogos.net/wp-content/uploads/2021/12/british_council-brandlogo.net_-512x512.png\" alt=\"British Council\" class=\"logo-hover h-21 object-contain w-full max-w-[170px] bg-white p-2\">\n                    </div>\n                </div>\n            </div>\n        </section>\n        \n        <!-- Other content would continue here -->\n    </main>\n\n    <script>\n        // Simple intersection observer to trigger animations when logos come into view\n        document.addEventListener('DOMContentLoaded', function() {\n            const logoItems = document.querySelectorAll('.logo-item');\n            \n            const observer = new IntersectionObserver((entries) => {\n                entries.forEach(entry => {\n                    if (entry.isIntersecting) {\n                        entry.target.classList.add('logo-fade-in');\n                        observer.unobserve(entry.target);\n                    }\n                });\n            }, {\n                threshold: 0.1\n            });\n            \n            logoItems.forEach(item => {\n                observer.observe(item);\n            });\n        });\n    </script>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
     }
   },
   "order": [
@@ -753,8 +807,9 @@
     "course_header_2_NznWYj",
     "html_Lbebyd",
     "newsletter_session_WMBfh7",
+    "content_nUiDxw",
+    "html_hkTT8g",
     "content_eDhDf8",
-    "f39daef8-3263-467c-b5e2-581de2221700",
-    "html_hkTT8g"
+    "f39daef8-3263-467c-b5e2-581de2221700"
   ]
 }
