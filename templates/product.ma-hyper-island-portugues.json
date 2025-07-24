@@ -624,10 +624,10 @@
       "settings": {
         "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Logos Section</title>\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n    <style>\n        /* Custom fade-in animation */\n        @keyframes subtleFadeIn {\n            from { opacity: 0; transform: translateY(10px); }\n            to { opacity: 1; transform: translateY(0); }\n        }\n        \n        .logo-fade-in {\n            animation: subtleFadeIn 0.8s ease-out forwards;\n        }\n        \n        /* Custom hover effect */\n        .logo-hover {\n            transition: all 0.3s ease;\n            filter: grayscale(100%);\n        }\n        \n        .logo-hover:hover {\n            filter: grayscale(0%);\n            transform: scale(1.05);\n        }\n        \n        /* Responsive adjustments */\n        @media (max-width: 640px) {\n            .logo-container {\n                grid-template-columns: repeat(2, 1fr);\n                gap: 1.5rem;\n            }\n        }\n    </style>\n\n\n    <!-- Main Content (example) -->\n    <main class=\"container mx-auto px-4 py-12\">\n        <!-- Other content would go here -->\n        \n        <!-- Logos Section -->\n        <section class=\"my-0 px-4\">\n            <div class=\"max-w-6xl mx-auto\">\n             \n                \n                <div class=\"logo-container grid grid-cols-4 gap-8 items-center justify-center opacity-90 bg-white p-6 rounded-lg\">\n                    <!-- Hyper Island Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.1s;\">\n                        <img src=\"https://media.licdn.com/dms/image/v2/D4D0BAQElqKkkF2uZFQ/company-logo_200_200/company-logo_200_200/0/1684438929648/hyper_island_north_america_logo?e=2147483647&amp;v=beta&amp;t=uI5TV1C7y_v4pSNYU-YUSJk3dMGsmHEHhHrZQ2_9l94\" alt=\"Hyper Island\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Teesside University Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.2s;\">\n                        <img src=\"https://i0.wp.com/asbp.org.uk/wp-content/uploads/2024/07/Teesside-University-Black-1.png?fit=650%2C650&amp;ssl=1\" alt=\"Teesside University\" class=\"logo-hover h-25 object-contain w-full max-w-[150px] bg-white p-2\">\n                    </div>\n                    \n                    <!-- Grupo Unis Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.3s;\">\n                        <img src=\"https://site-sindsempmg.s3.amazonaws.com/uploads/3648/c1320695497951ceb0f460c6d3908618.jpg?v=20221207112200\" alt=\"Grupo Unis\" class=\"logo-hover h-25 object-contain w-full max-w-[200px] bg-white p-2 rounded-full\">\n                    </div>\n                    \n                    <!-- British Council Logo -->\n                    <div class=\"logo-item flex justify-center logo-fade-in\" style=\"animation-delay: 0.4s;\">\n                        <img src=\"https://brandlogos.net/wp-content/uploads/2021/12/british_council-brandlogo.net_-512x512.png\" alt=\"British Council\" class=\"logo-hover h-21 object-contain w-full max-w-[170px] bg-white p-2\">\n                    </div>\n                </div>\n            </div>\n        </section>\n        \n        <!-- Other content would continue here -->\n    </main>\n\n    <script>\n        // Simple intersection observer to trigger animations when logos come into view\n        document.addEventListener('DOMContentLoaded', function() {\n            const logoItems = document.querySelectorAll('.logo-item');\n            \n            const observer = new IntersectionObserver((entries) => {\n                entries.forEach(entry => {\n                    if (entry.isIntersecting) {\n                        entry.target.classList.add('logo-fade-in');\n                        observer.unobserve(entry.target);\n                    }\n                });\n            }, {\n                threshold: 0.1\n            });\n            \n            logoItems.forEach(item => {\n                observer.observe(item);\n            });\n        });\n    </script>",
         "bg_color": "",
-        "container": "container",
+        "container": "container-fluid",
         "text_align": "text-center",
         "title": "",
-        "title_size": "h2",
+        "title_size": "h5",
         "description": "",
         "description_size": "fs-6",
         "pt": 0,
@@ -639,22 +639,22 @@
     "content_eDhDf8": {
       "type": "content",
       "blocks": {
-        "content_xNgCKt": {
+        "content_36YNYw": {
           "type": "content",
           "settings": {
-            "title": "TEESIDE UNIVERSITY",
-            "text": "Reputação internacional de excelência acadêmica, focada em transformar vidas e economias por meio da educação. Reconhecida pela criatividade e liderança em inovação digital, a Teesside University foi o primeiro Adobe Creative Campus da Europa e é uma Apple Distinguished School. Comprometida em oferecer os mais altos padrões de ensino para estudantes ao redor do mundo, a Teesside alcançou o padrão ouro em todas as áreas do Teaching Excellence Framework 2023 do governo do Reino Unido.",
+            "title": "HYPER ISLAND",
+            "text": "Fundada em 1996 na Suécia, é uma renomada escola de negócios digitais criativa com presença global. A Hyper Island é conhecida por sua abordagem inovadora e prática de ensino, que enfatiza o aprendizado experiencial, a colaboração e a prontidão para o mercado. Ao se associar a líderes da indústria, a Hyper Island capacita indivíduos e organizações com as habilidades necessárias para prosperar em um cenário digital em constante mudança.",
             "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
           }
         },
-        "content_36YNYw": {
+        "content_xNgCKt": {
           "type": "content",
           "settings": {
-            "title": "HYPER ISLAND",
-            "text": "Fundada em 1996 na Suécia, é uma renomada escola de negócios digitais criativa com presença global. A Hyper Island é conhecida por sua abordagem inovadora e prática de ensino, que enfatiza o aprendizado experiencial, a colaboração e a prontidão para o mercado. Ao se associar a líderes da indústria, a Hyper Island capacita indivíduos e organizações com as habilidades necessárias para prosperar em um cenário digital em constante mudança.",
+            "title": "TEESIDE UNIVERSITY",
+            "text": "Reputação internacional de excelência acadêmica, focada em transformar vidas e economias por meio da educação. Reconhecida pela criatividade e liderança em inovação digital, a Teesside University foi o primeiro Adobe Creative Campus da Europa e é uma Apple Distinguished School. Comprometida em oferecer os mais altos padrões de ensino para estudantes ao redor do mundo, a Teesside alcançou o padrão ouro em todas as áreas do Teaching Excellence Framework 2023 do governo do Reino Unido.",
             "header": "",
             "svg": "",
             "bg_color": "",
@@ -674,8 +674,8 @@
         }
       },
       "block_order": [
-        "content_xNgCKt",
         "content_36YNYw",
+        "content_xNgCKt",
         "content_wQC7RP"
       ],
       "name": "HI23 Content Section",
@@ -704,8 +704,8 @@
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
         "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 10,
+        "pt_xl": 7,
+        "pb_xl": 12,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
