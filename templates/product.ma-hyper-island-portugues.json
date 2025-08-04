@@ -207,6 +207,20 @@
         "mb": 0
       }
     },
+    "course_header_2_nz8bAH": {
+      "type": "course-header-2",
+      "name": "HI Course Header 2",
+      "settings": {
+        "cta_1": "Comprar",
+        "cta_2": "Baixe o programa",
+        "cta_link_2": "",
+        "cta_3": "Tirar dúvida",
+        "cta_link_3": "mailto:gleisson.dias@hyperisland.com",
+        "zap": false,
+        "zap_number": "",
+        "zap_msg": ""
+      }
+    },
     "content_LwrmAR": {
       "type": "content",
       "blocks": {
@@ -749,6 +763,7 @@
     "content_ymrcct",
     "course_header_1_QFzciB",
     "separator_EwDKzn",
+    "course_header_2_nz8bAH",
     "content_LwrmAR",
     "separator_KAyijJ",
     "content_H9FyLN",
