@@ -194,7 +194,7 @@
         "cta_2": "Baixe o programa",
         "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
         "cta_3": "REGISTRAR",
-        "cta_link_3": "https://share.hsforms.com/15Ul4X5_ERrqsjcF_CUlPdwy1ws",
+        "cta_link_3": "{{ product.url }}",
         "zap": false,
         "zap_number": "",
         "zap_msg": ""
