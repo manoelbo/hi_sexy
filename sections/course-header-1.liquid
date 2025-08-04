@@ -1,0 +1,158 @@
+{% liquid
+    assign current_variant = product.selected_or_first_available_variant
+%}
+
+
+<section id="course-header"  >
+    <div class="course-btns">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-4 g-0">                                      
+                    <a  id="add_to_card" href="" class="w-100 course-btn one">
+                        <p>{{ section.settings.cta_1 }}</p>
+                    </a>
+                </div>
+
+                <div class="col-6 col-lg-4 g-0">                                      
+                <a  href="{{ section.settings.cta_link_2 }}" class="w-100 course-btn two">
+                    <p>{{ section.settings.cta_2 }}</p>
+                </a>
+                </div>
+
+                {% if section.settings.zap == true %}
+         
+                {%- assign link = "https://api.whatsapp.com/send?phone=" | append: section.settings.zap_number | append: "&text=" | append: section.settings.zap_msg | url_escape -%}
+            
+                {% else %}
+                {%- assign link =  section.settings.url %}
+             {% endif %}
+
+                <div class="col-6 col-lg-4 g-0">                                      
+                <a  href="{{ link }}" class="w-100 course-btn three">
+                    <p>{{ section.settings.cta_3 }}</p>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="hidden-product-form">
+{% render 'product-form' %}
+</div>
+
+{%- liquid
+    if product.selected_or_first_available_variant.featured_media
+        assign seo_media = product.selected_or_first_available_variant.featured_media
+    else
+        assign seo_media = product.featured_media
+    endif
+-%}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ request.origin | append: product.url | json }},
+    {% if seo_media -%}
+        "image": [
+            {{ seo_media | image_url: width: seo_media.preview_image.width | prepend: "https:" | json }}
+        ],
+    {%- endif %}
+    "description": {{ product.description | strip_html | json }},
+    {% if product.selected_or_first_available_variant.sku != blank -%}
+        "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    {%- endif %}
+    "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+    },
+    "offers": [
+        {%- for variant in product.variants -%}
+            {
+            "@type" : "Offer",
+            {%- if variant.sku != blank -%}
+                "sku": {{ variant.sku | json }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 12 -%}
+                "gtin12": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 13 -%}
+                "gtin13": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 14 -%}
+                "gtin14": {{ variant.barcode }},
+            {%- endif -%}
+            "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+            "price" : {{ variant.price | divided_by: 100.00 | json }},
+            "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "url" : {{ request.origin | append: variant.url | json }}
+            }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+    ]
+}
+</script>
+
+{% schema %}
+{
+    "name": "HI Course Header 2",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Call To Action Options"
+        },
+        {
+            "type": "text", 
+            "id": "cta_1",
+            "label": "TEXT CTA ONE (REGISTER)",
+            "default": "Registrar"
+        },        
+        {
+            "type": "text", 
+            "id": "cta_2",
+            "label": "TEXT CTA TWO (SYLLABYUS)",
+            "default": "Baixe o programa"
+        },
+        {
+            "type": "url", 
+            "id": "cta_link_2",
+            "label": "CTA TWO LINK (SYLLABUS)"
+        },
+        {
+            "type": "text", 
+            "id": "cta_3",
+            "label": "TEXT CTA THREE (CONTACT)",
+            "default": "Tirar dúvida"
+        },
+        {
+            "type": "url", 
+            "id": "cta_link_3",
+            "label": "CTA THREE LINK (CONTACT)",
+            "info": "use mailto:email@dominio.com for emails"
+        },
+        {
+            "type": "checkbox",
+            "id": "zap",
+            "label": "WhatsApp Link (CTA 3)"
+        },
+        {
+            "type": "text",
+            "id": "zap_number",
+            "label": "WhatsApp Phone Number",
+            "info": "Use format 00115555555"
+        },
+        {
+            "type": "text",
+            "id": "zap_msg",
+            "label": " Texto da Mensagem"
+        },
+    ],
+    "templates": ["product"],
+    "presets": [
+        {
+            "name": "HI Course Header 2",
+            "category": "Product page"
+        }
+    ]
+}
+{% endschema %}
