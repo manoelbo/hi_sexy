@@ -495,12 +495,12 @@
       "settings": {
         "cta_1": "Comprar",
         "cta_2": "Baixe o programa",
-        "cta_link_2": "",
+        "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
         "cta_3": "Tirar dúvida",
         "cta_link_3": "mailto:gleisson.dias@hyperisland.com",
-        "zap": false,
-        "zap_number": "",
-        "zap_msg": ""
+        "zap": true,
+        "zap_number": "+55 21 97664-6326",
+        "zap_msg": "Olá! Gostaria de tirar uma dúvida sobre o mestrado Liderando Futuros Digitais."
       }
     },
     "html_Lbebyd": {
