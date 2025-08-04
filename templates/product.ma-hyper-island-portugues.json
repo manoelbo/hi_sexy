@@ -186,8 +186,20 @@
         "smb_xs": 0
       }
     },
+    "course_header_1_QFzciB": {
+      "type": "course-header-1",
+      "name": "Buttons",
+      "settings": {
+        "cta_1": "Comprar",
+        "cta_2": "Baixe o programa",
+        "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
+        "cta_3": "Registrar",
+        "cta_link_3": "https://share.hsforms.com/15Ul4X5_ERrqsjcF_CUlPdwy1ws"
+      }
+    },
     "course_header_2_XhbRVV": {
       "type": "course-header-2",
+      "disabled": true,
       "name": "HI Course Header 2",
       "settings": {
         "cta_1": "Comprar",
@@ -208,17 +220,6 @@
         "opacity": 0,
         "mt": 15,
         "mb": 0
-      }
-    },
-    "course_header_1_QFzciB": {
-      "type": "course-header-1",
-      "name": "Buttons",
-      "settings": {
-        "cta_1": "Comprar",
-        "cta_2": "Baixe o programa",
-        "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
-        "cta_3": "Registrar",
-        "cta_link_3": "https://share.hsforms.com/15Ul4X5_ERrqsjcF_CUlPdwy1ws"
       }
     },
     "content_LwrmAR": {
@@ -750,9 +751,9 @@
     "content_EUPGeK",
     "sp_rich_text_grid_collums_WFPF97",
     "content_ymrcct",
+    "course_header_1_QFzciB",
     "course_header_2_XhbRVV",
     "separator_EwDKzn",
-    "course_header_1_QFzciB",
     "content_LwrmAR",
     "separator_KAyijJ",
     "content_H9FyLN",
