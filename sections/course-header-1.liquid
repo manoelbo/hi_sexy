@@ -19,16 +19,8 @@
                 </a>
                 </div>
 
-                {% if section.settings.zap == true %}
-         
-                {%- assign link = "https://api.whatsapp.com/send?phone=" | append: section.settings.zap_number | append: "&text=" | append: section.settings.zap_msg | url_escape -%}
-            
-                {% else %}
-                {%- assign link =  section.settings.url %}
-             {% endif %}
-
                 <div class="col-6 col-lg-4 g-0">                                      
-                <a  href="{{ link }}" class="w-100 course-btn three">
+                <a  href="{{ section.settings.cta_link_3 }}" class="w-100 course-btn three"> 
                     <p>{{ section.settings.cta_3 }}</p>
                 </a>
                 </div>
@@ -95,7 +87,7 @@
 
 {% schema %}
 {
-    "name": "HI Course Header 2",
+    "name": "HI Course Header 1",
     "settings": [
         {
             "type": "header",
@@ -104,8 +96,8 @@
         {
             "type": "text", 
             "id": "cta_1",
-            "label": "TEXT CTA ONE (REGISTER)",
-            "default": "Registrar"
+            "label": "TEXT CTA ONE (BUY)",
+            "default": "Comprar"
         },        
         {
             "type": "text", 
@@ -121,36 +113,19 @@
         {
             "type": "text", 
             "id": "cta_3",
-            "label": "TEXT CTA THREE (CONTACT)",
-            "default": "Tirar dúvida"
+            "label": "TEXT CTA THREE (REGISTER)",
+            "default": "Registrar"
         },
         {
             "type": "url", 
             "id": "cta_link_3",
-            "label": "CTA THREE LINK (CONTACT)",
-            "info": "use mailto:email@dominio.com for emails"
-        },
-        {
-            "type": "checkbox",
-            "id": "zap",
-            "label": "WhatsApp Link (CTA 3)"
-        },
-        {
-            "type": "text",
-            "id": "zap_number",
-            "label": "WhatsApp Phone Number",
-            "info": "Use format 00115555555"
-        },
-        {
-            "type": "text",
-            "id": "zap_msg",
-            "label": " Texto da Mensagem"
+            "label": "CTA THREE LINK (REGISTER)",
         },
     ],
     "templates": ["product"],
     "presets": [
         {
-            "name": "HI Course Header 2",
+            "name": "Buttons",
             "category": "Product page"
         }
     ]
