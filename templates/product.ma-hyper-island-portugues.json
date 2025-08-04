@@ -186,17 +186,6 @@
         "smb_xs": 0
       }
     },
-    "course_header_1_QFzciB": {
-      "type": "course-header-1",
-      "name": "Buttons",
-      "settings": {
-        "cta_1": "Comprar",
-        "cta_2": "Baixe o programa",
-        "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
-        "cta_3": "Registrar",
-        "cta_link_3": "https://share.hsforms.com/15Ul4X5_ERrqsjcF_CUlPdwy1ws"
-      }
-    },
     "separator_EwDKzn": {
       "type": "separator",
       "name": "Separator",
@@ -761,9 +750,8 @@
     "content_EUPGeK",
     "sp_rich_text_grid_collums_WFPF97",
     "content_ymrcct",
-    "course_header_1_QFzciB",
-    "separator_EwDKzn",
     "course_header_2_nz8bAH",
+    "separator_EwDKzn",
     "content_LwrmAR",
     "separator_KAyijJ",
     "content_H9FyLN",
