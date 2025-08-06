@@ -168,7 +168,7 @@
         "layout-align": "left",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
-        "content_width": "w-lg-75",
+        "content_width": "w-lg-auto",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
