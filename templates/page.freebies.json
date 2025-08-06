@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "card_Kdpg8D": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Free_iPad_Mockup_24_recursos_gratuiros.png",
+            "category_id": "",
+            "title": "5 Erros que executivos cometem ao apresentar suas ideias – E como evitá-los",
+            "text": "Um guia prático para líderes que querem comunicar com clareza, presença e impacto.",
+            "url": "shopify://pages/5-erros-que-executivos-cometem-ao-apresentar-suas-ideias-e-como-evita-los",
+            "target": true
+          }
+        },
         "card_hj4Gm4": {
           "type": "card",
           "settings": {
@@ -437,6 +448,7 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "card_Kdpg8D",
         "card_hj4Gm4",
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
         "c348b121-119f-4505-8471-332c2ba2a87b",
