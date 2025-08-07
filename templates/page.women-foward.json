@@ -86,10 +86,10 @@
       "type": "html",
       "name": "HTML",
       "settings": {
-        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "html": "",
         "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
+        "container": "",
+        "text_align": "text-start",
         "title": "",
         "title_size": "h2",
         "description": "",
