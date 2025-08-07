@@ -82,6 +82,24 @@
         "mb": 0
       }
     },
+    "html_VLd64f": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "html_KCNK6R": {
       "type": "html",
       "name": "HTML",
@@ -1002,6 +1020,7 @@
     "html_i9jMxb",
     "html_wkbYP9",
     "html_PWUyXW",
+    "html_VLd64f",
     "html_KCNK6R",
     "html_RkWyR7",
     "html_WRqAzD",
