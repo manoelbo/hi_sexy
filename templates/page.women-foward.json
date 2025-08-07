@@ -357,55 +357,6 @@
         "mb": 0
       }
     },
-    "header_8zQNhh": {
-      "type": "header",
-      "blocks": {
-        "button_3P36jz": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "text": "ENTRE EM CONTATO",
-            "url": "shopify://pages/contato",
-            "target": false,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "button_3P36jz"
-      ],
-      "disabled": true,
-      "settings": {
-        "mobile_only": true,
-        "desktop_only": false,
-        "title": "",
-        "text": "",
-        "bg_color": "#212529",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/Header_Future_Skills_2025_Mobile_c6b46408-d29b-4976-88d3-3d116d7d6b76.jpg",
-        "overlay_opacity": 0,
-        "font_color": "text-light",
-        "title_size": "display-0",
-        "text_size": "fs-5",
-        "container": "container-fluid",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
-        "default_spacing": false,
-        "pt_xl": 15,
-        "pb_xl": 12,
-        "mt_xl": 13,
-        "mb_xl": 10,
-        "pt_lg": 10,
-        "pb_lg": 10,
-        "mt_lg": 13,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 10,
-        "mb_sm": 7
-      }
-    },
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d": {
       "type": "content",
       "disabled": true,
@@ -1000,7 +951,6 @@
     "html_q83pnp",
     "html_aA8rUm",
     "html_VFatwy",
-    "header_8zQNhh",
     "ce27a1f8-de25-4b33-91a9-14f96c42e20d",
     "collection_cards_d4A6ha",
     "header_half_yWLUEj",
