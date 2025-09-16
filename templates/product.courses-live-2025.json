@@ -741,7 +741,7 @@
         "text_color": "#111111",
         "link_color": "#005bd3",
         "show_on_device": "desktop",
-        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1) 6.115%, rgba(255, 255, 255, 1) 11%, rgba(245, 245, 245, 1) 86%)",
+        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
         "section_padding_top_bottom": 30,
