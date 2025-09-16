@@ -763,7 +763,6 @@
         "image_rTNx6n",
         "image_m8dpRJ"
       ],
-      "disabled": true,
       "name": "🚀 Accordion",
       "settings": {
         "override_fonts": false,
@@ -775,7 +774,7 @@
         "headline_size": 40,
         "mobile_headline_size": 40,
         "headline_line_height": "inherit",
-        "text_color": "#111",
+        "text_color": "#111111",
         "link_color": "#005bd3",
         "show_on_device": "all",
         "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
@@ -795,7 +794,7 @@
         "container_radius": 0,
         "container_shadow": false,
         "container_border_size": 0,
-        "container_border_color": "#888",
+        "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
         "height": 300,
@@ -803,8 +802,8 @@
         "media_shadow": true,
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "headline": "<strong>Sample Headline</strong>",
-        "text": "Use this block to add a description. Leave blank to remove.",
+        "headline": "",
+        "text": "",
         "headline_spacing": 15
       }
     },
