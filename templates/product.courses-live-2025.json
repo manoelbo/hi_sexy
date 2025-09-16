@@ -736,6 +736,78 @@
         "mb_sm": 0
       }
     },
+    "sp_accordion_CPPybm": {
+      "type": "sp-accordion",
+      "blocks": {
+        "image_iqp4Be": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_rTNx6n": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_m8dpRJ": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iqp4Be",
+        "image_rTNx6n",
+        "image_m8dpRJ"
+      ],
+      "disabled": true,
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 40,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1000,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 300,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "<strong>Sample Headline</strong>",
+        "text": "Use this block to add a description. Leave blank to remove.",
+        "headline_spacing": 15
+      }
+    },
     "9948f854-b2fb-4a4d-985c-154befb25a21": {
       "type": "clients",
       "settings": {
@@ -1131,8 +1203,8 @@
       ],
       "settings": {
         "override_fonts": false,
-        "headline_font": "sans-serif",
-        "text_font": "sans-serif",
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
         "text_size": 16,
         "mobile_text_size": 15,
         "text_line_height": "inherit",
@@ -1217,7 +1289,7 @@
       "type": "sp-action-button",
       "settings": {
         "override_fonts": false,
-        "text_font": "sans-serif",
+        "text_font": "system_ui_n4",
         "text_size": 15,
         "alignment": "right",
         "text_color": "#111111",
@@ -1255,6 +1327,7 @@
     "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
+    "sp_accordion_CPPybm",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "content_3bmDAK",
     "5ca41278-01ed-4970-a967-bd751801d84e",
