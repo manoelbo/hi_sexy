@@ -683,7 +683,7 @@
         "mt_lg": 0,
         "pt_xs": 0,
         "mt_xs": 0,
-        "spb_lg": 13,
+        "spb_lg": 9,
         "smb_lg": 0,
         "spb_xs": 11,
         "smb_xs": 0
@@ -744,7 +744,7 @@
         "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
-        "section_padding_top_bottom": 30,
+        "section_padding_top_bottom": 25,
         "mobile_section_padding_top_bottom": 25,
         "section_padding_left_right": 25,
         "mobile_section_padding_left_right": 25,
