@@ -742,18 +742,28 @@
         "image_iqp4Be": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/depoimento_ltm_2.png",
             "link": ""
           }
         },
         "image_rTNx6n": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/depoimento_ltm_1.png",
             "link": ""
           }
         },
         "image_m8dpRJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/depoimento_ltm_4.png",
+            "link": ""
+          }
+        },
+        "image_im39fR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/depoimento_ltm_3.png",
             "link": ""
           }
         }
@@ -761,7 +771,8 @@
       "block_order": [
         "image_iqp4Be",
         "image_rTNx6n",
-        "image_m8dpRJ"
+        "image_m8dpRJ",
+        "image_im39fR"
       ],
       "name": "🚀 Accordion",
       "settings": {
@@ -776,17 +787,17 @@
         "headline_line_height": "inherit",
         "text_color": "#111111",
         "link_color": "#005bd3",
-        "show_on_device": "all",
-        "section_background_color": "linear-gradient(127deg, rgba(241, 246, 251, 1) 11%, rgba(241, 246, 251, 1) 81%)",
+        "show_on_device": "desktop",
+        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1) 11%, rgba(245, 245, 245, 1) 86%)",
         "section_background_image_color": "",
         "section_background_size": "cover",
-        "section_padding_top_bottom": 25,
+        "section_padding_top_bottom": 30,
         "mobile_section_padding_top_bottom": 25,
         "section_padding_left_right": 25,
         "mobile_section_padding_left_right": 25,
         "container_background_color": "",
-        "container_max_width": 1000,
-        "container_padding_top_bottom": 10,
+        "container_max_width": 2000,
+        "container_padding_top_bottom": 30,
         "mobile_container_padding_top_bottom": 10,
         "container_padding_left_right": 10,
         "mobile_container_padding_left_right": 10,
@@ -797,7 +808,7 @@
         "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
-        "height": 300,
+        "height": 250,
         "media_radius": 5,
         "media_shadow": true,
         "text_alignment": "center",
