@@ -38,9 +38,8 @@
         },
         "article_nkirAL": {
           "type": "article",
-          "disabled": true,
           "settings": {
-            "article": "news/segunda-lei-da-adaptabilidade-somos-projetados-para-falhar-individualmente-e-prosperar-coletivamente"
+            "article": "news/medos-falhas-e-o-que-entendemos-errado-sobre-feedback"
           }
         },
         "article_bdtFg9": {
@@ -68,7 +67,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -246,9 +245,8 @@
         },
         "article_nUX87i": {
           "type": "article",
-          "disabled": true,
           "settings": {
-            "article": "news/algorithms-i-hate-them-i-love-them"
+            "article": "news/fears-failures-and-what-we-got-wrong-about-feedback"
           }
         },
         "article_GzntLR": {
@@ -275,7 +273,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
