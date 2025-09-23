@@ -9,6 +9,24 @@
  */
 {
   "sections": {
+    "html_3GtpaY": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "HTML code",
+        "title_size": "h2",
+        "description": "<p>Write something catchy for this section</p>",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "course_header_4_qmA3LY": {
       "type": "course-header-4",
       "settings": {
@@ -734,6 +752,7 @@
     }
   },
   "order": [
+    "html_3GtpaY",
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
     "content_EUPGeK",
