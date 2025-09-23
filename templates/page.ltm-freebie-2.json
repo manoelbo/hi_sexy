@@ -64,7 +64,7 @@
           "type": "button",
           "settings": {
             "text": "Começar o Teste Agora",
-            "url": "https://www.hyperisland.com.br/pages/sua-equipe-esta-pronta-para-mudancas/#form",
+            "url": "https://www.hyperisland.com.br/pages/que-tipo-de-lider-voce-e/#form",
             "target": false,
             "style": "rounded-orange"
           }
@@ -504,10 +504,10 @@
       "type": "sp-headline-with-pill-left",
       "disabled": true,
       "settings": {
-        "text_font": "madera_i4",
+        "text_font": "jost_i3",
         "text_size": 16,
         "text_line_height": "inherit",
-        "headline_font": "sans-serif",
+        "headline_font": "system_ui_n4",
         "headline_size": 25,
         "headline_line_height": "inherit",
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
@@ -839,7 +839,7 @@
         "mobile_custom_css": "",
         "override_theme_font": false,
         "heading_font": "serif",
-        "main_font": "sans-serif"
+        "main_font": "system_ui_n4"
       }
     },
     "design_pack_about_with_photo_frame_free_HaKjfB": {
@@ -901,7 +901,7 @@
         "mobile_custom_css": "",
         "override_theme_font": false,
         "heading_font": "serif",
-        "main_font": "sans-serif"
+        "main_font": "system_ui_n4"
       }
     },
     "header_half_UAqqg4": {
