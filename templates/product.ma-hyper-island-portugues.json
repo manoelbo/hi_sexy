@@ -9,17 +9,18 @@
  */
 {
   "sections": {
-    "html_3GtpaY": {
+    "html_AJTEVh": {
       "type": "html",
+      "disabled": true,
       "name": "HTML",
       "settings": {
-        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "html": "<meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Liderando Futuros Digitais | Hyper Island</title>\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n    <link href=\"https://unpkg.com/aos@2.3.1/dist/aos.css\" rel=\"stylesheet\">\n    <script src=\"https://unpkg.com/aos@2.3.1/dist/aos.js\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js\"></script>\n    <script src=\"https://unpkg.com/feather-icons\"></script>\n    <style>\n        .hero-gradient {\n            background: linear-gradient(135deg, #ff7700 0%, #ff9900 100%);\n        }\n        .highlight-box {\n            background: rgba(255, 255, 255, 0.1);\n            backdrop-filter: blur(10px);\n            border: 1px solid rgba(255, 255, 255, 0.2);\n        }\n        .phase-card {\n            transition: all 0.3s ease;\n        }\n        .phase-card:hover {\n            transform: translateY(-5px);\n            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);\n        }\n    </style>\n\n\n    <!-- Hero Section -->\n    <section class=\"hero-gradient text-white py-18 md:py-20 px-4\">\n        <div class=\"container mx-auto max-w-6xl\">\n            <div class=\"flex flex-col md:flex-row items-center\">\n                <div class=\"md:w-1/2 mb-10 md:mb-0\" data-aos=\"fade-right\">\n                    <div class=\"bg-white text-orange-600 font-bold py-1 px-3 rounded-full text-sm inline-block mb-4\">PRÉ-MBA HYPER ISLAND / TEESSIDE UNIVERSITY</div>\n                    <h1 class=\"text-4xl md:text-6xl font-bold mb-6 leading-tight\">Liderando Futuros Digitais</h1>\n                    <p class=\"text-xl mb-8 opacity-90\">Desenvolva uma mentalidade de futuro para navegar na transformação digital com o programa da Hyper Island em parceria com a Teesside University.</p>\n                    <div class=\"flex flex-col sm:flex-row gap-4\">\n                        <button class=\"bg-white text-orange-600 hover:bg-gray-100 font-semibold py-3 px-6 rounded-lg transition duration-300\">\n                            Baixar Programa\n                        </button>\n                        <button class=\"border-2 border-white text-white hover:bg-white hover:text-orange-600 font-semibold py-3 px-6 rounded-lg transition duration-300\">\n                            Fale Conosco\n                        </button>\n                    </div>\n                </div>\n                <div class=\"md:w-1/2\" data-aos=\"fade-left\">\n                    <div class=\"highlight-box rounded-2xl p-8 max-w-md mx-auto\">\n                        <div class=\"flex items-center mb-4\">\n                            <div class=\"bg-white bg-opacity-20 p-2 rounded-full mr-3\">\n                                <i data-feather=\"award\" class=\"text-white\"></i>\n                            </div>\n                            <h2 class=\"font-bold text-lg\">CRÉDITOS DE MESTRADO</h2>\n                        </div>\n                        <p class=\"mb-4\">Concedidos pela Teesside University, Reino Unido</p>\n                        <p class=\"text-sm opacity-80\">Após a conclusão, você receberá a certificação de um \"CPD Acreditado\" - equivalente a 10 créditos no Nível 7 (Mestrado).</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </section>\n\n\n    <script>\n        AOS.init({\n            duration: 800,\n            once: true\n        });\n        feather.replace();\n    </script>",
         "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "HTML code",
+        "container": "",
+        "text_align": "text-start",
+        "title": "",
         "title_size": "h2",
-        "description": "<p>Write something catchy for this section</p>",
+        "description": "",
         "description_size": "fs-6",
         "pt": 0,
         "pb": 0,
@@ -29,6 +30,7 @@
     },
     "course_header_4_qmA3LY": {
       "type": "course-header-4",
+      "disabled": true,
       "settings": {
         "overlay_opacity": 30,
         "bg_position": "{{ product.metafields.custom.img_background_position.value }}",
@@ -752,7 +754,7 @@
     }
   },
   "order": [
-    "html_3GtpaY",
+    "html_AJTEVh",
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
     "content_EUPGeK",
