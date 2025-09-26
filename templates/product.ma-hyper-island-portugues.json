@@ -30,7 +30,6 @@
     },
     "course_header_4_qmA3LY": {
       "type": "course-header-4",
-      "disabled": true,
       "settings": {
         "overlay_opacity": 30,
         "bg_position": "{{ product.metafields.custom.img_background_position.value }}",
