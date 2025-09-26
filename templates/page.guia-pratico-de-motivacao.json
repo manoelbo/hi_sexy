@@ -285,10 +285,10 @@
       "type": "content",
       "settings": {
         "hidden": false,
-        "title": "Esta <strong>lista de verificação</strong> rápida ajudará você a testar seu projeto, produto ou solução usando princípios comportamentais.",
+        "title": "Aprimore ainda mais sua liderança e poder de motivação",
         "text": "",
         "font_color": "text-dark",
-        "title_size": "display-3",
+        "title_size": "display-5",
         "text_size": "fs-4",
         "header": "",
         "header_size": "fs-6",
@@ -309,11 +309,11 @@
         "content_align_mobile": "text-left",
         "default_spacing": false,
         "pt_xl": 16,
-        "pb_xl": 13,
+        "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 16,
-        "pb_lg": 13,
+        "pb_lg": 0,
         "mt_lg": 0,
         "mb_lg": 0,
         "pt_sm": 0,
@@ -364,6 +364,50 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
+    },
+    "card_pNVW99": {
+      "type": "card",
+      "blocks": {
+        "card_iYNWiK": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado_2.jpg",
+            "category_id": "",
+            "title": "Liderança em Tempos de Mudança",
+            "text": "Repense sua liderança e descubra como levar suas equipes para a alta performance, inspirando e engajando para o futuro",
+            "url": "",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "card_iYNWiK"
+      ],
+      "name": "HI23 Card Section",
+      "settings": {
+        "font_color": "text-dark",
+        "title_size": "display-4",
+        "text_size": "fs-4",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "",
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "default_spacing": false,
+        "pt_xl": 13,
+        "pb_xl": 13,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 13,
+        "pb_lg": 13,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
     }
   },
   "order": [
@@ -376,6 +420,7 @@
     "sp_image_standalone_aQWiFw",
     "newsletter_session_t9wUdh",
     "content_qY3Da6",
-    "newsletter_session_jqnCdq"
+    "newsletter_session_jqnCdq",
+    "card_pNVW99"
   ]
 }
