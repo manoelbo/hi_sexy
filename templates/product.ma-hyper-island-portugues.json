@@ -428,7 +428,7 @@
       "settings": {
         "hidden": false,
         "title": "",
-        "text": "DE R$6.500 POR",
+        "text": "DE R$4.500 POR",
         "font_color": "text-light",
         "title_size": "display-3",
         "text_size": "fs-4",
@@ -481,7 +481,7 @@
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
-        "title": "R$4.500",
+        "title": "R$ 3.800",
         "text": "",
         "bg_color": "#000000",
         "bg_gradient": "",
