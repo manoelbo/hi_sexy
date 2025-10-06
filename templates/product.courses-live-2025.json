@@ -577,6 +577,24 @@
         "mb_sm": 9
       }
     },
+    "html_PgQec4": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<div id=\"testimonials\"></div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "content_Fwz68i": {
       "type": "content",
       "settings": {
@@ -1334,6 +1352,7 @@
     "content_EUPGeK",
     "content_bpYrpx",
     "header_MEKYBN",
+    "html_PgQec4",
     "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "sp_accordion_CPPybm",
