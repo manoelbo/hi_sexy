@@ -198,6 +198,54 @@
         "media_shadow": false
       }
     },
+    "html_4nVAnP": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<div id=\"FORM\"></div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "newsletter_session_t9wUdh": {
+      "type": "newsletter-session",
+      "settings": {
+        "title": "<strong>Vamos começar?</strong>",
+        "text": "Preencha o formulário e descubra como podemos desenhar uma jornada exclusiva para o seu time!",
+        "form_id": "6cdc4fa7-e881-46c5-802d-5914960e7d8a",
+        "bg_color": "#f5f5f5",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-2",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 10,
+        "mb_xl": 10,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 10,
+        "mb_lg": 10,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 7
+      }
+    },
     "sp_faq_plus_ex3NW7": {
       "type": "sp-faq-plus",
       "blocks": {
@@ -361,36 +409,6 @@
         "headline_alignment": "center",
         "headline": "<strong>Perguntas Frequentes</strong>",
         "text": ""
-      }
-    },
-    "newsletter_session_t9wUdh": {
-      "type": "newsletter-session",
-      "settings": {
-        "title": "<strong>Vamos começar?</strong>",
-        "text": "Preencha o formulário e descubra como podemos desenhar uma jornada exclusiva para o seu time!",
-        "form_id": "6cdc4fa7-e881-46c5-802d-5914960e7d8a",
-        "bg_color": "#f5f5f5",
-        "bg_gradient": "",
-        "font_color": "text-dark",
-        "title_size": "display-2",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 10,
-        "mb_xl": 10,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 10,
-        "mb_lg": 10,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 7
       }
     },
     "content_WLQ6gf": {
@@ -719,6 +737,7 @@
     "html_AdG8mC",
     "html_BrhJYr",
     "sp_image_standalone_aQWiFw",
+    "html_4nVAnP",
     "newsletter_session_t9wUdh",
     "sp_faq_plus_ex3NW7",
     "content_WLQ6gf",
