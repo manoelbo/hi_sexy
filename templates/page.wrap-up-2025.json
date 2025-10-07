@@ -365,7 +365,6 @@
     },
     "newsletter_session_t9wUdh": {
       "type": "newsletter-session",
-      "disabled": true,
       "settings": {
         "title": "<strong>Vamos começar?</strong>",
         "text": "Preencha o formulário e descubra como podemos desenhar uma jornada exclusiva para o seu time!",
@@ -720,8 +719,8 @@
     "html_AdG8mC",
     "html_BrhJYr",
     "sp_image_standalone_aQWiFw",
-    "sp_faq_plus_ex3NW7",
     "newsletter_session_t9wUdh",
+    "sp_faq_plus_ex3NW7",
     "content_WLQ6gf",
     "content_qY3Da6",
     "content_Ld99mD",
