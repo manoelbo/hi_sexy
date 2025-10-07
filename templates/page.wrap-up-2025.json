@@ -11,6 +11,20 @@
   "sections": {
     "header_YmATNf": {
       "type": "header",
+      "blocks": {
+        "button_f4hU98": {
+          "type": "button",
+          "settings": {
+            "text": "Baixe o programa",
+            "url": "https://www.hyperisland.com.br/pages/wrap-up-2025#form",
+            "target": false,
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_f4hU98"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
