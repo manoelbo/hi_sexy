@@ -183,24 +183,6 @@
         "mb": 0
       }
     },
-    "html_4nVAnP": {
-      "type": "html",
-      "name": "HTML",
-      "settings": {
-        "html": "<div id=\"FORM\"></div>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "sp_image_standalone_aQWiFw": {
       "type": "sp-image-standalone",
       "settings": {
@@ -244,6 +226,24 @@
         "pb_sm": 0,
         "mt_sm": 13,
         "mb_sm": 7
+      }
+    },
+    "html_4nVAnP": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<div id=\"FORM\"></div>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     },
     "sp_faq_plus_ex3NW7": {
@@ -736,9 +736,9 @@
     "header_half_HKjPJk",
     "html_AdG8mC",
     "html_BrhJYr",
-    "html_4nVAnP",
     "sp_image_standalone_aQWiFw",
     "newsletter_session_t9wUdh",
+    "html_4nVAnP",
     "sp_faq_plus_ex3NW7",
     "content_WLQ6gf",
     "content_qY3Da6",
