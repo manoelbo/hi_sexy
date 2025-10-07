@@ -30,16 +30,16 @@
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
-        "mt_xl": 6,
-        "mb_xl": 6,
+        "mt_xl": 5,
+        "mb_xl": 5,
         "pt_lg": 0,
         "pb_lg": 0,
-        "mt_lg": 8,
-        "mb_lg": 8,
+        "mt_lg": 6,
+        "mb_lg": 6,
         "pt_sm": 0,
         "pb_sm": 0,
-        "mt_sm": 7,
-        "mb_sm": 7
+        "mt_sm": 5,
+        "mb_sm": 5
       }
     },
     "html_NkqGht": {
