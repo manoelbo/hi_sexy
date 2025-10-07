@@ -150,6 +150,171 @@
         "mb": 0
       }
     },
+    "sp_faq_plus_ex3NW7": {
+      "type": "sp-faq-plus",
+      "blocks": {
+        "question_aeY43n": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Qual a duração ideal para o meu time?</strong>",
+            "answer": "<p>Depende da disponibilidade e profundidade desejada. O Intensivo (1 dia) é ideal para times que precisam de resultados rápidos. O Sprint (2×4h) equilibra profundidade com agenda corporativa. O Offsite (1.5–2 dias) oferece tempo para reflexão estratégica mais ampla.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_JTAKj3": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quantas pessoas podem participar?</strong>",
+            "answer": "<p>O formato funciona melhor com 8–25 participantes. Para grupos maiores, recomendamos estruturas paralelas ou múltiplas sessões para garantir participação ativa de todos.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_9Djddx": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>É presencial ou online?</strong>",
+            "answer": "<p>Oferecemos ambos os formatos, além de híbrido quando necessário. A escolha depende da sua preferência e contexto organizacional.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_PDRahN": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Posso personalizar o workshop?</strong>",
+            "answer": "<p>Sim. Todos os workshops são adaptados ao contexto, desafios e prioridades da sua organização. A estrutura das quatro etapas é mantida, mas o conteúdo é customizado.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_tkiLFC": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quais são os </strong>entregáveis<strong> completos?</strong>",
+            "answer": "<p>Você receberá: direcionadores estratégicos 2026, objetivos com resultados-chave (OKR), roadmap de 90 dias, registro de aprendizados acionáveis e documentação de rituais e indicadores.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_3trUwR": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Em qual idioma está disponível?</strong>",
+            "answer": "<p>Português, Inglês e Espanhol. Todos os materiais e facilitação são fornecidos no idioma escolhido.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_YPJXtq": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Qual é o investimento?</strong>",
+            "answer": "<p>O valor varia de acordo com formato, duração, número de participantes e customização. Entre em contato para uma proposta personalizada.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        },
+        "question_aPAdbf": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Quando devo realizar o workshop?</strong>",
+            "answer": "<p>O período ideal é entre outubro e dezembro de 2025, mas podemos adequar ao calendário da sua organização. Quanto antes planejar, melhor para garantir disponibilidade.</p>",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "question_aeY43n",
+        "question_JTAKj3",
+        "question_9Djddx",
+        "question_PDRahN",
+        "question_tkiLFC",
+        "question_3trUwR",
+        "question_YPJXtq",
+        "question_aPAdbf"
+      ],
+      "name": "🚀SP - FAQ Plus",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 50,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(319deg, rgba(255, 255, 255, 1) 13%, rgba(255, 255, 255, 1) 85%)",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1000,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "grid_gap": 10,
+        "grid_display": "1fr",
+        "vertical_alignment": "start",
+        "media_aspect_ratio": "4 / 3",
+        "media_radius": 5,
+        "media_shadow": true,
+        "media_border_size": 0,
+        "media_border_color": "#888",
+        "question_size": 25,
+        "question_color": "#111111",
+        "answer_color": "#555555",
+        "faq_spacing": 15,
+        "faq_gap": 10,
+        "faq_shadow": true,
+        "faq_radius": 5,
+        "faq_border_size": 0,
+        "faq_border_color": "#888",
+        "active_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "inactive_background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "faq_indicator": "plus_minus",
+        "headline_alignment": "center",
+        "headline": "<strong>Perguntas Frequentes</strong>",
+        "text": ""
+      }
+    },
     "content_WLQ6gf": {
       "type": "content",
       "settings": {
@@ -549,6 +714,7 @@
     "html_n6Mjbx",
     "html_AdG8mC",
     "html_BrhJYr",
+    "sp_faq_plus_ex3NW7",
     "content_WLQ6gf",
     "content_qY3Da6",
     "content_Ld99mD",
