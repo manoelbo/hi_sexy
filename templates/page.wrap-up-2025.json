@@ -183,21 +183,6 @@
         "mb": 0
       }
     },
-    "sp_image_standalone_aQWiFw": {
-      "type": "sp-image-standalone",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 2500,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_left": 0,
-        "padding_right": 0,
-        "image": "shopify://shop_images/Amarelo_Azul_e_Branco_Moderno_Produto_Aviao_Publicacao_do_Instagram_1.png",
-        "media_aspect_ratio": "auto",
-        "media_radius": 0,
-        "media_shadow": false
-      }
-    },
     "html_4nVAnP": {
       "type": "html",
       "name": "HTML",
@@ -214,6 +199,21 @@
         "pb": 0,
         "mt": 0,
         "mb": 0
+      }
+    },
+    "sp_image_standalone_aQWiFw": {
+      "type": "sp-image-standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "max_width": 2500,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "image": "shopify://shop_images/Amarelo_Azul_e_Branco_Moderno_Produto_Aviao_Publicacao_do_Instagram_1.png",
+        "media_aspect_ratio": "auto",
+        "media_radius": 0,
+        "media_shadow": false
       }
     },
     "newsletter_session_t9wUdh": {
@@ -736,8 +736,8 @@
     "header_half_HKjPJk",
     "html_AdG8mC",
     "html_BrhJYr",
-    "sp_image_standalone_aQWiFw",
     "html_4nVAnP",
+    "sp_image_standalone_aQWiFw",
     "newsletter_session_t9wUdh",
     "sp_faq_plus_ex3NW7",
     "content_WLQ6gf",
