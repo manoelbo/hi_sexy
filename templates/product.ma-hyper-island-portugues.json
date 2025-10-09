@@ -37,6 +37,40 @@
         "title_size": "display-0"
       }
     },
+    "header_8Yjein": {
+      "type": "header",
+      "name": "HI23 Header Hero Full",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "LIDERANDO FUTUROS DIGITAIS",
+        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
+        "bg_color": "#111111",
+        "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Img3117622.jpg",
+        "overlay_opacity": 40,
+        "font_color": "text-light",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-50",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "course_header_3_dW63gC": {
       "type": "course-header-3",
       "settings": {
@@ -750,45 +784,12 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
-    },
-    "header_8Yjein": {
-      "type": "header",
-      "name": "HI23 Header Hero Full",
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "COCRIANDO FUTUROS",
-        "text": "Cocriação e aprendizagem contínua. Metodologias interativas e imersivas que preparam pessoas e organizações para novos futuros possíveis.",
-        "bg_color": "#E3DFD3",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/Img3117622.jpg",
-        "overlay_opacity": 0,
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
     }
   },
   "order": [
     "html_AJTEVh",
     "course_header_4_qmA3LY",
+    "header_8Yjein",
     "course_header_3_dW63gC",
     "content_EUPGeK",
     "content_K3CRRJ",
@@ -805,7 +806,6 @@
     "content_eDhDf8",
     "html_hkTT8g",
     "separator_AgpFMi",
-    "f39daef8-3263-467c-b5e2-581de2221700",
-    "header_8Yjein"
+    "f39daef8-3263-467c-b5e2-581de2221700"
   ]
 }
