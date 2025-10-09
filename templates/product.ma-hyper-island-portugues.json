@@ -365,6 +365,8 @@
     },
     "separator_EwDKzn": {
       "type": "separator",
+      "disabled": true,
+      "custom_css": [],
       "name": "Separator",
       "settings": {
         "full_width": false,
@@ -425,7 +427,7 @@
         "header": "",
         "header_size": "fs-6",
         "svg": "",
-        "bg_color": "#ffffff",
+        "bg_color": "#f3f0ed",
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-left",
@@ -440,8 +442,8 @@
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
         "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
+        "pt_xl": 12,
+        "pb_xl": 7,
         "mt_xl": 0,
         "mb_xl": 0,
         "pt_lg": 0,
@@ -468,6 +470,7 @@
     },
     "separator_KAyijJ": {
       "type": "separator",
+      "disabled": true,
       "name": "Separator",
       "settings": {
         "full_width": false,
