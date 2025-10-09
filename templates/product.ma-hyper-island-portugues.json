@@ -74,7 +74,7 @@
         "bg_gradient": "",
         "align_desktop": "text-lg-center",
         "align_mobile": "text-left",
-        "content_width": "w-lg-75",
+        "content_width": "w-lg-50",
         "c_font_color": "text-light",
         "c_title_size": "display-4",
         "c_text_size": "fs-4",
@@ -111,10 +111,10 @@
         "smb_xs": 0
       }
     },
-    "content_H9FyLN": {
+    "content_K3CRRJ": {
       "type": "content",
       "blocks": {
-        "content_RrbHeU": {
+        "content_V6igyk": {
           "type": "content",
           "settings": {
             "title": "",
@@ -125,7 +125,7 @@
             "bg_gradient": ""
           }
         },
-        "content_mqKgKC": {
+        "content_YG3Q9b": {
           "type": "content",
           "settings": {
             "title": "",
@@ -136,7 +136,7 @@
             "bg_gradient": ""
           }
         },
-        "content_pKP8fe": {
+        "content_QfyUja": {
           "type": "content",
           "settings": {
             "title": "",
@@ -147,7 +147,7 @@
             "bg_gradient": ""
           }
         },
-        "content_Bc6YHc": {
+        "content_aQmF94": {
           "type": "content",
           "settings": {
             "title": "",
@@ -160,10 +160,10 @@
         }
       },
       "block_order": [
-        "content_RrbHeU",
-        "content_mqKgKC",
-        "content_pKP8fe",
-        "content_Bc6YHc"
+        "content_V6igyk",
+        "content_YG3Q9b",
+        "content_QfyUja",
+        "content_aQmF94"
       ],
       "settings": {
         "hidden": false,
@@ -182,7 +182,7 @@
         "content_width": "w-lg-50",
         "c_font_color": "text-dark",
         "c_title_size": "display-6",
-        "c_text_size": "fs-6",
+        "c_text_size": "fs-5",
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
@@ -757,7 +757,7 @@
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
     "content_EUPGeK",
-    "content_H9FyLN",
+    "content_K3CRRJ",
     "sp_rich_text_grid_collums_WFPF97",
     "content_ymrcct",
     "separator_EwDKzn",
