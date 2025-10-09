@@ -555,7 +555,7 @@
         "bg_color": "#000000",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/Img312778.jpg",
-        "overlay_opacity": 0,
+        "overlay_opacity": 70,
         "font_color": "text-light",
         "title_size": "display-0",
         "text_size": "fs-3",
