@@ -258,11 +258,12 @@
           "type": "text",
           "settings": {
             "alignment": "left",
-            "text": "<p>Projetados em colaboração com especialistas da indústria e acreditados pela Teesside University, do Reino Unido, os programas de Mestrado da Hyper Island estão redefinindo a educação em negócios ao unir aprendizado e prática de maneiras inovadoras. </p><p>Aprender no seu próprio ritmo é uma tendência que temos observado e que está crescendo em popularidade em todo o mundo. Em parceria com o Grupo UNIS, a Hyper Island tem o orgulho de oferecer agora um curso co-criado e acreditado no Nível 7 / Nível de Mestrado em <strong>Liderando Futuros Digitais</strong></p>"
+            "text": "<p>O <strong>Liderando Futuros Digitais</strong> é o primeiro curso da Hyper Island que concede <strong>créditos acadêmicos de mestrado</strong>, resultado de uma parceria com a <strong>Teesside University (Reino Unido)</strong> e o <strong>Grupo Unis (Brasil)</strong>.</p><p>O programa é <strong>híbrido</strong>, combinando atividades online e um encontro presencial em São Paulo, e foi criado para profissionais que desejam liderar transformações digitais, conectar inovação à estratégia e preparar-se para novas responsabilidades.</p><p>Ao concluir o curso, os participantes recebem um <strong>certificado internacional equivalente a 10 créditos de Nível 7 (padrão britânico)</strong>, reconhecido para <strong>desenvolvimento profissional contínuo (CPD)</strong> e elegível para <strong>progressão acadêmica</strong> conforme as políticas das instituições de destino.</p>"
           }
         },
         "text_8djhxG": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "alignment": "left",
             "text": "<p>Após a conclusão bem-sucedida, você receberá a certificação de um “CPD Acreditado” – o que equivale a um total de 10 créditos no Nível 7 (Nível de Mestrado). </p><p>Reconhecida internacionalmente, essa certificação pode ser incluída no seu plano de desenvolvimento profissional contínuo (CPD) no trabalho, além de ser declarada ao se candidatar a um programa de Mestrado. </p>"
