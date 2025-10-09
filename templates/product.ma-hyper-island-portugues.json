@@ -186,7 +186,7 @@
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
-        "layout": "col-lg-3",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-center",
         "default_spacing": false,
