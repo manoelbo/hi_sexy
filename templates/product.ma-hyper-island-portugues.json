@@ -55,7 +55,7 @@
         "container": "container-fluid",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
-        "content_width": "w-lg-25",
+        "content_width": "w-lg-50",
         "default_spacing": false,
         "pt_xl": 0,
         "pb_xl": 0,
