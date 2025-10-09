@@ -51,7 +51,7 @@
         "overlay_opacity": 40,
         "font_color": "text-light",
         "title_size": "display-0",
-        "text_size": "fs-3",
+        "text_size": "fs-4",
         "container": "container-fluid",
         "align_desktop": "text-lg-left",
         "align_mobile": "text-left",
