@@ -49,7 +49,7 @@
         "bg_color": "#111111",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/Img311762_b7f715e9-270f-432f-8f96-e9eeb5812c44.jpg",
-        "overlay_opacity": 40,
+        "overlay_opacity": 60,
         "font_color": "text-light",
         "title_size": "display-0",
         "text_size": "fs-4",
