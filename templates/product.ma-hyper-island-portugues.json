@@ -30,6 +30,7 @@
     },
     "course_header_4_qmA3LY": {
       "type": "course-header-4",
+      "disabled": true,
       "settings": {
         "overlay_opacity": 30,
         "bg_position": "{{ product.metafields.custom.img_background_position.value }}",
@@ -362,6 +363,22 @@
         "smb_xs": 0
       }
     },
+    "sp_image_standalone_fcVfF4": {
+      "type": "sp-image-standalone",
+      "name": "Image Standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "max_width": 1500,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "image": "shopify://shop_images/Img312778.jpg",
+        "media_aspect_ratio": "21 / 9",
+        "media_radius": 0,
+        "media_shadow": false
+      }
+    },
     "separator_EwDKzn": {
       "type": "separator",
       "name": "Separator",
@@ -537,6 +554,7 @@
         "text": "",
         "bg_color": "#000000",
         "bg_gradient": "",
+        "bg_image": "shopify://shop_images/Img312778.jpg",
         "overlay_opacity": 0,
         "font_color": "text-light",
         "title_size": "display-0",
@@ -796,6 +814,7 @@
     "sp_rich_text_grid_collums_WFPF97",
     "html_hkTT8g",
     "content_ymrcct",
+    "sp_image_standalone_fcVfF4",
     "separator_EwDKzn",
     "content_LwrmAR",
     "separator_KAyijJ",
