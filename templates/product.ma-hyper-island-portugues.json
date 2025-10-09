@@ -547,6 +547,20 @@
     },
     "header_t9LXn8": {
       "type": "header",
+      "blocks": {
+        "button_9t3K4i": {
+          "type": "button",
+          "settings": {
+            "text": "OPORTUNIDADE ÚNICA",
+            "url": "",
+            "target": false,
+            "style": "rounded-black"
+          }
+        }
+      },
+      "block_order": [
+        "button_9t3K4i"
+      ],
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
