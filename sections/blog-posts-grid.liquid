@@ -5,6 +5,7 @@
   {% else %}
     style="background-color: {{section.settings.bg_color }}"
   {% endif %}
+  data-section-id="{{ section.id }}"
 >
   <div class="position-relative zi-1 text-xl-start container">
     {%- if section.settings.title != blank and section.settings.show_title -%}
@@ -63,11 +64,12 @@
           {%- endfor -%}
 
           {%- if paginate.next -%}
-            <div class="col-12 text-center mt-4 mb-4">
+            <div class="col-12 text-center mt-4 mb-4 load-more-wrapper">
               <button
                 class="btn rounded-black btn-border btn-border me-2 mb-3 load-more-button"
                 data-blog-handle="{{ current_blog.handle }}"
                 data-next-url="{{ paginate.next.url }}"
+                data-section-id="{{ section.id }}"
               >
                 Carregar mais posts
               </button>
@@ -458,57 +460,66 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const loadMoreButtons = document.querySelectorAll('.load-more-button');
+    const container = document.getElementById('blog-posts-container');
+    if (!container) return;
 
-    loadMoreButtons.forEach((button) => {
-      button.addEventListener('click', async function () {
-        const nextUrl = this.dataset.nextUrl;
-        const blogHandle = this.dataset.blogHandle;
-        const container = document.getElementById('blog-posts-container');
-        // Pega o layout atual do primeiro artigo para manter consistência
-        const firstArticle = container.querySelector('[class*="col-"]');
-        const layoutClasses = firstArticle ? firstArticle.className : '';
+    // Delegação de evento para o botão (funciona mesmo após inserir novos nós)
+    container.addEventListener('click', async function (e) {
+      const button = e.target.closest('.load-more-button');
+      if (!button) return;
 
-        try {
-          const response = await fetch(nextUrl);
-          const data = await response.text();
-          const parser = new DOMParser();
-          const doc = parser.parseFromString(data, 'text/html');
+      const wrapper = button.closest('.load-more-wrapper') || button.parentElement;
+      const nextUrlRaw = button.dataset.nextUrl; // normalmente "?page=2"
+      const sectionId = button.dataset.sectionId;
 
-          // Encontra os novos artigos
-          const newArticles = doc.querySelectorAll('#blog-posts-container > div:not(.text-center)');
+      if (!nextUrlRaw || !sectionId) return;
 
-          // Adiciona os novos artigos ao container
-          newArticles.forEach((article) => {
-            // Aplica as mesmas classes de layout do primeiro artigo
-            article.className = layoutClasses;
+      // Constrói URL absoluta e acrescenta section_id (Section Rendering API)
+      const nextUrl = new URL(nextUrlRaw, window.location.href);
+      nextUrl.searchParams.set('section_id', sectionId);
 
-            // Adiciona a classe h-100 ao container interno
-            const innerContainer = article.querySelector('div');
-            if (innerContainer) {
-              innerContainer.classList.add('h-100');
-            }
+      button.disabled = true;
+      const originalLabel = button.textContent;
+      button.textContent = 'Carregando...';
 
-            container.insertBefore(article, button.parentElement);
+      try {
+        const res = await fetch(nextUrl.toString(), { credentials: 'same-origin' });
+        const html = await res.text();
 
-            // Inicializa animação AOS para o novo card
-            if (typeof AOS !== 'undefined') {
-              AOS.refresh();
-              article.offsetHeight;
-            }
-          });
+        // Usa um wrapper temporário para parsear o HTML retornado da seção
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
 
-          // Atualiza ou remove o botão de load more
-          const nextPageButton = doc.querySelector('.load-more-button');
-          if (nextPageButton) {
-            button.dataset.nextUrl = nextPageButton.dataset.nextUrl;
-          } else {
-            button.parentElement.remove();
+        // Encontra somente os itens de post dentro do container da seção carregada
+        const incomingContainer = temp.querySelector('#blog-posts-container');
+        if (!incomingContainer) throw new Error('Container da seção não encontrado na resposta.');
+
+        const incomingItems = Array.from(incomingContainer.children)
+          .filter(el => !el.classList.contains('load-more-wrapper') && !el.querySelector('.load-more-button'));
+
+        // Insere os novos cards antes do wrapper/botão atual
+        incomingItems.forEach(el => {
+          container.insertBefore(el, wrapper);
+          if (typeof AOS !== 'undefined') {
+            AOS.refresh();
+            el.offsetHeight; // força reflow para AOS
           }
-        } catch (error) {
-          console.error('Erro ao carregar mais posts:', error);
+        });
+
+        // Atualiza ou remove o botão conforme a existência de próxima página
+        const nextBtnInResponse = temp.querySelector('.load-more-button');
+        if (nextBtnInResponse && nextBtnInResponse.dataset.nextUrl) {
+          button.dataset.nextUrl = nextBtnInResponse.dataset.nextUrl;
+          button.disabled = false;
+          button.textContent = originalLabel || 'Carregar mais posts';
+        } else {
+          wrapper.remove();
         }
-      });
+      } catch (error) {
+        console.error('Erro ao carregar mais posts:', error);
+        button.disabled = false;
+        button.textContent = 'Tentar novamente';
+      }
     });
   });
 </script>
