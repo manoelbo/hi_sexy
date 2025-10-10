@@ -469,45 +469,73 @@
       if (!button) return;
 
       const wrapper = button.closest('.load-more-wrapper') || button.parentElement;
-      const nextUrlRaw = button.dataset.nextUrl; // normalmente "?page=2"
       const sectionId = button.dataset.sectionId;
+      const originalLabel = button.textContent;
+      let nextUrlRaw = button.dataset.nextUrl;
 
-      if (!nextUrlRaw || !sectionId) return;
+      if (!nextUrlRaw) return;
 
-      // Constrói URL absoluta e acrescenta section_id (Section Rendering API)
-      const nextUrl = new URL(nextUrlRaw, window.location.href);
-      nextUrl.searchParams.set('section_id', sectionId);
+      // Monta URL absoluta e acrescenta section_id
+      let fetchUrl;
+      try {
+        const u = new URL(nextUrlRaw, window.location.href);
+        if (sectionId) u.searchParams.set('section_id', sectionId);
+        fetchUrl = u.toString();
+      } catch (_) {
+        fetchUrl = nextUrlRaw + (nextUrlRaw.includes('?') ? '&' : '?') + 'section_id=' + encodeURIComponent(sectionId || '');
+      }
 
       button.disabled = true;
-      const originalLabel = button.textContent;
       button.textContent = 'Carregando...';
 
       try {
-        const res = await fetch(nextUrl.toString(), { credentials: 'same-origin' });
-        const html = await res.text();
+        const res = await fetch(fetchUrl, { credentials: 'same-origin', cache: 'no-store' });
+        let html = await res.text();
 
-        // Usa um wrapper temporário para parsear o HTML retornado da seção
+        // Fallback: se vier JSON do endpoint ?sections=
+        if ((html.trim().startsWith('{') || html.trim().startsWith('{"')) && sectionId) {
+          try {
+            const json = JSON.parse(html);
+            html = json[sectionId] || html;
+          } catch(_) {}
+        }
+
         const temp = document.createElement('div');
         temp.innerHTML = html;
 
-        // Encontra somente os itens de post dentro do container da seção carregada
-        const incomingContainer = temp.querySelector('#blog-posts-container');
-        if (!incomingContainer) throw new Error('Container da seção não encontrado na resposta.');
+        // Container da seção carregada
+        let incomingContainer = temp.querySelector('#blog-posts-container') || temp;
 
+        // Pega apenas os cards (ignora o wrapper do botão)
         const incomingItems = Array.from(incomingContainer.children)
+          .filter(el => el.nodeType === 1)
           .filter(el => !el.classList.contains('load-more-wrapper') && !el.querySelector('.load-more-button'));
 
-        // Insere os novos cards antes do wrapper/botão atual
+        if (!incomingItems.length) throw new Error('Nenhum post encontrado na resposta.');
+
+        // Insere antes do wrapper/botão atual
         incomingItems.forEach(el => {
           container.insertBefore(el, wrapper);
-          if (typeof AOS !== 'undefined') {
-            AOS.refresh();
-            el.offsetHeight; // força reflow para AOS
-          }
+
+          // --- Correção AOS: garante visibilidade dos novos nós ---
+          el.querySelectorAll('[data-aos]').forEach(node => {
+            node.classList.add('aos-init','aos-animate'); // força estado visível
+            node.style.opacity = '';                      // remove estilos inline de ocultação (caso existam)
+            node.style.transform = '';
+          });
         });
 
-        // Atualiza ou remove o botão conforme a existência de próxima página
-        const nextBtnInResponse = temp.querySelector('.load-more-button');
+        // Recalcula AOS
+        if (window.AOS) {
+          if (typeof AOS.refreshHard === 'function') AOS.refreshHard();
+          else if (typeof AOS.refresh === 'function') AOS.refresh();
+        }
+
+        // Atualiza/remover botão conforme próxima página
+        let nextBtnInResponse =
+          temp.querySelector('.load-more-button') ||
+          temp.querySelector('.load-more-wrapper .load-more-button');
+
         if (nextBtnInResponse && nextBtnInResponse.dataset.nextUrl) {
           button.dataset.nextUrl = nextBtnInResponse.dataset.nextUrl;
           button.disabled = false;
