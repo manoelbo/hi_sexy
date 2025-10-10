@@ -20,7 +20,7 @@
         "subtitle": "",
         "show_subtitle": false,
         "subtitle_alignment": "text-center",
-        "layout": "col-lg-4",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "bg_color": "#ffffff",
