@@ -454,7 +454,7 @@
         "svg": "",
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-lg-3 col-md-6",
+        "layout": "col-lg-4",
         "default_spacing": false,
         "pt_xl": 18,
         "pb_xl": 13,
