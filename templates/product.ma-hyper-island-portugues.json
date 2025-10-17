@@ -77,10 +77,10 @@
       "settings": {
         "label_1": "Formato",
         "info_1": "Online e Presencial",
-        "label_2": "Data do encontro presencial",
+        "label_2": "Datas do encontro presencial",
         "info_2": "27 e 28 de Janeiro de 2026",
-        "label_3": "Duração total do programa",
-        "info_3": "4 semanas",
+        "label_3": "Idioma do curso",
+        "info_3": "Inglês",
         "label_4": "Local do encontro presencial",
         "info_4": "São Paulo - TBD",
         "cta_link_3": "",
