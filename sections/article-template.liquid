@@ -337,11 +337,11 @@
                       {% if product.title != blank %}
                         <h1 class="display-8">{{ product.title }}</h1>
                       {% endif %}
-                      {% if product.metafields.custom.excerpt != blank %}
-                        <p class="mt-6 pb-0 fs-7 mb-0">{{ product.metafields.custom.excerpt }}</p>
-                      {% else %}
-                        <p class="mt-6 pb-0 fs-7 mb-0">{{ product.description }}</p>
-                      {% endif %}
+                     {% if product.metafields.custom.excerpt != blank %}
+  <p class="mt-6 pb-0 fs-7 mb-0">{{ product.metafields.custom.excerpt | metafield_tag | strip_html }}</p>
+{% else %}
+  <p class="mt-6 pb-0 fs-7 mb-0">{{ product.description | strip_html }}</p>
+{% endif %}
                     </div>
                   </div>
                 </a>
