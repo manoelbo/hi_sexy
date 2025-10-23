@@ -240,20 +240,19 @@
         "article_MWtzJr": {
           "type": "article",
           "settings": {
-            "article": "news/why-meta-skills-matter-more-than-ever-future-ready-talent-for-a-shifting-world-of-work"
+            "article": "news/what-is-ai-doing-to-human-cognition"
           }
         },
         "article_nUX87i": {
           "type": "article",
           "settings": {
-            "article": "news/fears-failures-and-what-we-got-wrong-about-feedback"
+            "article": "news/from-global-village-to-digital-tribes"
           }
         },
         "article_GzntLR": {
           "type": "article",
-          "disabled": true,
           "settings": {
-            "article": "news/when-our-phones-die-and-what-that-says-about-us"
+            "article": "news/the-medium-is-still-the-message"
           }
         }
       },
@@ -268,6 +267,58 @@
         "title_size": "display-2",
         "title_alignment": "text-center",
         "subtitle": "Articles in English",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 11,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "blog_highlights_YtAryE": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_wGk8N6": {
+          "type": "article",
+          "settings": {
+            "article": "news/why-meta-skills-matter-more-than-ever-future-ready-talent-for-a-shifting-world-of-work"
+          }
+        },
+        "article_V6ECQf": {
+          "type": "article",
+          "settings": {
+            "article": "news/fears-failures-and-what-we-got-wrong-about-feedback"
+          }
+        },
+        "article_itiq8M": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "article": "news/when-our-phones-die-and-what-that-says-about-us"
+          }
+        }
+      },
+      "block_order": [
+        "article_wGk8N6",
+        "article_V6ECQf",
+        "article_itiq8M"
+      ],
+      "settings": {
+        "title": "",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
         "subtitle_alignment": "text-center",
         "show_subtitle": true,
         "subtitle_size": 16,
@@ -502,6 +553,7 @@
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
+    "blog_highlights_YtAryE",
     "blog_highlights_UWpXiG",
     "blog_highlights_FPWpP7",
     "blog_highlights_nxicE3",
