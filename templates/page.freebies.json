@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "card_bcxUJD": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/mockup_ipad_ai_assessment_2.png",
+            "category_id": "",
+            "title": "AI Assessment",
+            "text": "Descubra o nível de maturidade da sua empresa em relação a adoção de Inteligência Artificial",
+            "url": "https://readiness-insights.lovable.app/",
+            "target": true
+          }
+        },
         "card_Kdpg8D": {
           "type": "card",
           "settings": {
@@ -448,6 +459,7 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "card_bcxUJD",
         "card_Kdpg8D",
         "card_hj4Gm4",
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
