@@ -302,7 +302,6 @@
         },
         "article_itiq8M": {
           "type": "article",
-          "disabled": true,
           "settings": {
             "article": "news/when-our-phones-die-and-what-that-says-about-us"
           }
@@ -324,7 +323,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
@@ -349,13 +348,13 @@
         "article_UANFwK": {
           "type": "article",
           "settings": {
-            "article": "news/algorithms-i-hate-them-i-love-them"
+            "article": "news/we-are-designed-to-fail-individually-and-thrive-collectively"
           }
         },
         "article_kMhhj3": {
           "type": "article",
           "settings": {
-            "article": "news/when-our-phones-die-and-what-that-says-about-us"
+            "article": "news/if-you-contribute-you-can-stay"
           }
         }
       },
@@ -400,7 +399,7 @@
         "article_W8Xbke": {
           "type": "article",
           "settings": {
-            "article": "news/we-are-designed-to-fail-individually-and-thrive-collectively"
+            "article": "news/algorithms-i-hate-them-i-love-them"
           }
         },
         "article_zW3Lq7": {
@@ -452,6 +451,7 @@
       "block_order": [
         "article_MrFnMf"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "show_title": true,
@@ -553,8 +553,8 @@
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
-    "blog_highlights_YtAryE",
     "blog_highlights_UWpXiG",
+    "blog_highlights_YtAryE",
     "blog_highlights_FPWpP7",
     "blog_highlights_nxicE3",
     "blog_posts_grid_9D8xnR",
