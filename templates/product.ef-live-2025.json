@@ -39,6 +39,34 @@
         "duration_text": "120"
       }
     },
+    "sp_media_grid_FwdbP4": {
+      "type": "sp-media-grid",
+      "blocks": {
+        "image_xWyjcF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hyper_friday_30_off_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xWyjcF"
+      ],
+      "disabled": true,
+      "name": "Media Grid",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1000,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 25,
+        "padding_right": 25
+      }
+    },
     "content_LwrmAR": {
       "type": "content",
       "blocks": {
@@ -702,8 +730,8 @@
       "name": "🚀 Accordion",
       "settings": {
         "override_fonts": false,
-        "headline_font": "sans-serif",
-        "text_font": "sans-serif",
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
         "text_size": 15,
         "mobile_text_size": 15,
         "text_line_height": "inherit",
@@ -1185,8 +1213,8 @@
       ],
       "settings": {
         "override_fonts": false,
-        "headline_font": "sans-serif",
-        "text_font": "sans-serif",
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
         "text_size": 16,
         "mobile_text_size": 15,
         "text_line_height": "inherit",
@@ -1271,7 +1299,7 @@
       "type": "sp-action-button",
       "settings": {
         "override_fonts": false,
-        "text_font": "sans-serif",
+        "text_font": "system_ui_n4",
         "text_size": 17,
         "alignment": "right",
         "text_color": "#111111",
@@ -1298,6 +1326,7 @@
   "order": [
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
+    "sp_media_grid_FwdbP4",
     "content_LwrmAR",
     "header_LQ89hG",
     "sp_video_standalone_WCA3zL",
