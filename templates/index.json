@@ -353,6 +353,52 @@
         "padding_right": 0
       }
     },
+    "sp_media_grid_2_FfapBD": {
+      "type": "sp-media-grid-2",
+      "blocks": {
+        "video_Pjzmba": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/hyper island 1.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_6eCTm9": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/hyper friday 2_32cb31d8-8f86-4357-b705-da767672c6f7.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "video_Pjzmba",
+        "video_6eCTm9"
+      ],
+      "disabled": true,
+      "name": "Media Grid",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1000,
+        "grid_gap": 100,
+        "padding_top": 30,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0
+      }
+    },
     "card_RaUPwp": {
       "type": "card",
       "blocks": {
@@ -509,7 +555,7 @@
         "card_fmJnBm": {
           "type": "card",
           "settings": {
-            "header": "40% off em todos os cursos com o cupom",
+            "header": "30% off em todos os cursos com o cupom",
             "title": "HYPERFRIDAY",
             "text": "Adicione o cupom no carrinho.",
             "url": "shopify://pages/cursos",
@@ -595,15 +641,6 @@
     "header_b6yGPP": {
       "type": "header",
       "blocks": {
-        "button_g7pjHW": {
-          "type": "button",
-          "settings": {
-            "text": "Call to Action",
-            "url": "",
-            "target": false,
-            "style": "rounded-white"
-          }
-        },
         "button_PYmawd": {
           "type": "button",
           "settings": {
@@ -615,7 +652,6 @@
         }
       },
       "block_order": [
-        "button_g7pjHW",
         "button_PYmawd"
       ],
       "disabled": true,
@@ -623,7 +659,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "",
-        "text": "Todos os cursos com 40% de desconto utilizando o cupom <strong>HYPERFRIDAY</strong>",
+        "text": "Todos os cursos com 30% de desconto utilizando o cupom <strong>HYPERFRIDAY</strong>",
         "bg_color": "#000000",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/Black_Friday_-_HI_3.png",
@@ -757,6 +793,7 @@
     "adfe69fc-dcc2-4ba1-baf7-0261fb893eb5",
     "92c8cdb0-c545-4567-a937-d91527bfe434",
     "sp_media_grid_2_Tqx4EN",
+    "sp_media_grid_2_FfapBD",
     "card_RaUPwp",
     "header_XYqzaT",
     "card_fluid_KtPezg",
