@@ -93,6 +93,34 @@
         "duration_text": "120"
       }
     },
+    "sp_media_grid_WnAAHK": {
+      "type": "sp-media-grid",
+      "blocks": {
+        "image_wAy37y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hyper_friday_30_off_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wAy37y"
+      ],
+      "disabled": true,
+      "name": "Media Grid",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1000,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 25,
+        "padding_right": 25
+      }
+    },
     "content_EUPGeK": {
       "type": "content",
       "settings": {
@@ -743,6 +771,7 @@
     "course_header_4_qmA3LY",
     "header_8Yjein",
     "course_header_3_dW63gC",
+    "sp_media_grid_WnAAHK",
     "content_EUPGeK",
     "content_K3CRRJ",
     "sp_rich_text_grid_collums_WFPF97",
