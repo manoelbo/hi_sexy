@@ -631,60 +631,6 @@
         "mb_sm": 9
       }
     },
-    "content_Fwz68i": {
-      "type": "content",
-      "disabled": true,
-      "settings": {
-        "hidden": false,
-        "title": "DEPOIMENTOS",
-        "text": "",
-        "font_color": "text-dark",
-        "title_size": "display-3",
-        "text_size": "fs-4",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "",
-        "bg_color": "#f5f5f5",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-auto",
-        "c_font_color": "text-dark",
-        "c_title_size": "display-4",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-6",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 13,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 13,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 12,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 0,
-        "spb_lg": 0,
-        "smb_lg": 0,
-        "spb_xs": 0,
-        "smb_xs": 0
-      }
-    },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
       "type": "testimonial",
       "blocks": {
@@ -1326,6 +1272,24 @@
         "text": "<strong>Registre-se</strong>",
         "link": "{{ product.metafields.my_fields.add_to_cart_button.value }}"
       }
+    },
+    "html_nKHPi8": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<body>\n\n\n  <meta charset=\"UTF-8\">\n  <title>Joguinho do Kairós</title>\n  <style>\n    /* Estilo do \"Kairós\" – isolado para não quebrar o resto do site */\n    .kairos-easter-egg {\n      position: fixed;           /* Fica por cima da página, acompanhando a tela */\n      width: 100px;              /* Tamanho pedido */\n      height: auto;\n      display: none;             /* Começa invisível */\n      z-index: 999999;           /* Bem acima de outros elementos */\n      cursor: pointer;\n      transition: opacity 0.3s ease;\n    }\n  </style>\n\n\n  <!-- Conteúdo normal da página aqui -->\n\n  <!-- Imagem do Kairós (joguinho) -->\n  <img id=\"kairos-image\" class=\"kairos-easter-egg\" src=\"https://www.meisterdrucke.ie/kunstwerke/1000px/Francesco_Salviati_-_Time_as_Occasion_%28Kairos%29_-_%28MeisterDrucke-1557318%29.jpg\" alt=\"Kairós - Time as Occasion\">\n\n  <script>\n    (function () {\n      const kairosImg = document.getElementById(\"kairos-image\");\n\n      // Configurações de tempo (em ms)\n      const VISIBLE_TIME = 5000;    // 5 segundos visível\n      const HIDDEN_TIME = 120000;   // 2 minutos invisível\n\n      // Função para gerar uma posição aleatória na tela\n      function positionKairos() {\n        const imgSize = 100; // 100px de largura (altura proporcional)\n        const padding = 10;  // margem de segurança das bordas\n\n        const maxX = window.innerWidth - imgSize - padding;\n        const maxY = window.innerHeight - imgSize - padding;\n\n        const randomX = Math.floor(Math.random() * (maxX - padding)) + padding;\n        const randomY = Math.floor(Math.random() * (maxY - padding)) + padding;\n\n        kairosImg.style.left = randomX + \"px\";\n        kairosImg.style.top = randomY + \"px\";\n      }\n\n      // Fase em que a imagem fica visível\n      function showKairos() {\n        positionKairos();\n        kairosImg.style.display = \"block\";\n        kairosImg.style.opacity = \"1\";\n\n        // Depois de 5 segundos, esconde e agenda o próximo aparecimento\n        setTimeout(function () {\n          kairosImg.style.display = \"none\";\n          kairosImg.style.opacity = \"0\";\n          startHiddenPhase();\n        }, VISIBLE_TIME);\n      }\n\n      // Fase em que a imagem fica invisível por 2 minutos\n      function startHiddenPhase() {\n        setTimeout(function () {\n          showKairos();\n        }, HIDDEN_TIME);\n      }\n\n      // Clique leva para o e-mail com mensagem pré-definida\n      kairosImg.addEventListener(\"click\", function () {\n        const email = \"gleisson.dias@hyperisland.com\";\n        const mensagem = \"EU ACHEI O KAIRÓS\";\n        const mailtoLink =\n          \"mailto:\" +\n          encodeURIComponent(email) +\n          \"?subject=\" +\n          encodeURIComponent(mensagem) +\n          \"&body=\" +\n          encodeURIComponent(mensagem);\n\n        window.location.href = mailtoLink;\n      });\n\n      // Inicia o ciclo: começa com 2 minutos invisível, depois aparece 5s, e assim por diante\n      document.addEventListener(\"DOMContentLoaded\", function () {\n        startHiddenPhase();\n      });\n    })();\n  </script>\n\n</body>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
@@ -1340,7 +1304,6 @@
     "content_EUPGeK",
     "content_bpYrpx",
     "header_MEKYBN",
-    "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "sp_accordion_CPPybm",
     "html_XNYwCP",
@@ -1353,6 +1316,7 @@
     "f39daef8-3263-467c-b5e2-581de2221700",
     "sp_faq_plus_EiCn7w",
     "577b8190-d683-4d05-92aa-43b63a3a640d",
-    "sp_action_button_3kFMbb"
+    "sp_action_button_3kFMbb",
+    "html_nKHPi8"
   ]
 }
