@@ -232,7 +232,7 @@
           "type": "button",
           "settings": {
             "text": "VEJA O PROGRAMA DO CURSO",
-            "url": "{{ product.metafields.my_fields.syllabus.value }}",
+            "url": "https://www.hyperisland.com.br/products/curso-liderar-na-era-da-ia#form",
             "target": true,
             "style": "rounded-orange"
           }
@@ -1051,7 +1051,7 @@
       "settings": {
         "cta_1": "Comprar",
         "cta_2": "Programa do curso",
-        "cta_link_2": "{{ product.metafields.my_fields.syllabus.value }}",
+        "cta_link_2": "https://www.hyperisland.com.br/products/curso-liderar-na-era-da-ia#form",
         "cta_3": "Tire suas Dúvidas",
         "cta_link_3": "mailto:sabryna.alsfasser@hyperisland.com",
         "zap": true,
