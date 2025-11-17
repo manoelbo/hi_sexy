@@ -808,6 +808,7 @@
     },
     "newsletter_session_Rf3iKe": {
       "type": "newsletter-session",
+      "disabled": true,
       "name": "HI23 Newsletter",
       "settings": {
         "title": "Acesse o programa",
