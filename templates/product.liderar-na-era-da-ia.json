@@ -609,25 +609,6 @@
         "mb_sm": 9
       }
     },
-    "html_PgQec4": {
-      "type": "html",
-      "disabled": true,
-      "name": "HTML",
-      "settings": {
-        "html": "<div id=\"testimonials\"></div>",
-        "bg_color": "",
-        "container": "container",
-        "text_align": "text-center",
-        "title": "",
-        "title_size": "h2",
-        "description": "",
-        "description_size": "fs-6",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
-      }
-    },
     "content_Fwz68i": {
       "type": "content",
       "disabled": true,
@@ -825,6 +806,37 @@
         "headline_spacing": 15
       }
     },
+    "newsletter_session_Rf3iKe": {
+      "type": "newsletter-session",
+      "name": "HI23 Newsletter",
+      "settings": {
+        "title": "Acesse o programa",
+        "text": "Saiba mais sobre os módulos, dinâmica das aulas, materiais complementares, facilitadores e muito mais.",
+        "form_id": "ba1144b5-f5a2-45e2-ad47-a6ce34de1715",
+        "bg_color": "#FFFFFF",
+        "bg_gradient": "",
+        "font_color": "text-dark",
+        "title_size": "display-1",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 15,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 14,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57": {
       "type": "header_half",
       "blocks": {
@@ -841,6 +853,7 @@
       "block_order": [
         "79fdb188-a6ab-4147-9e19-e0c63c2ceabb"
       ],
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -1335,10 +1348,10 @@
     "content_EUPGeK",
     "content_bpYrpx",
     "header_MEKYBN",
-    "html_PgQec4",
     "content_Fwz68i",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "sp_accordion_CPPybm",
+    "newsletter_session_Rf3iKe",
     "296f1e8e-a91a-47e9-abfe-904bf9bebf57",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
     "5ca41278-01ed-4970-a967-bd751801d84e",
