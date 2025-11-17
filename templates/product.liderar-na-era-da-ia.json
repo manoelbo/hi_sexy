@@ -436,9 +436,9 @@
         "content_mEq6Kt": {
           "type": "content",
           "settings": {
-            "title": "LIDERANÇA EM UM MUNDO EM CONSTANTE MUDANÇA",
-            "text": "Neste módulo introdutório, mergulharemos no cenário da liderança contemporânea. Exploraremos como as transformações no ambiente de trabalho e o contínuo impacto da revolução digital estão constantemente redefinindo o papel dos líderes. Você será convidado a refletir profundamente sobre sua motivação para liderar e como pode efetivamente influenciar sua equipe para alcançar resultados desejados.",
-            "header": "Módulo 1",
+            "title": "O  que muda quando a inteligência deixa de ser escassa",
+            "text": "A IA muda a lógica da liderança porque inteligência passa a ser abundante e acessível. Você vai entender como isso <strong>transforma expectativas, responsabilidades e o próprio papel do líder.</strong> E vai descobrir o que continua exclusivamente humano e ganha ainda mais valor neste novo cenário.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -447,9 +447,9 @@
         "content_9Jh4bf": {
           "type": "content",
           "settings": {
-            "title": "LIDERANÇA FACILITADORA",
-            "text": "Vamos incentivar você a investir no desenvolvimento da autoliderança, reconhecendo a importância de cuidar de si mesmo para melhor cuidarem dos outros. Exploraremos em detalhes o conceito de \"liderança facilitadora\", ajudando você a transcender o papel tradicional de especialista e a adotar uma abordagem que estimula o engajamento e empoderamento nas equipes. Ferramentas práticas serão fornecidas para promover essa transformação.",
-            "header": "Módulo 2",
+            "title": "Redesenhando o trabalho: do strategy tasks skills ao workflow real",
+            "text": "Você aprende a analisar o trabalho por tarefas em vez de cargos e usa esse olhar para <strong>redesenhar workflows</strong> que aproveitam a IA de forma inteligente. Em vez de “adicionar IA” em práticas antigas, você aprende a <strong>reconstruir processos</strong> que liberam tempo, melhoram decisões e aumentam o impacto da equipe. Esse tema dá clareza imediata sobre onde a IA ajuda, onde atrapalha e onde o humano é indispensável.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -458,9 +458,9 @@
         "content_Uxnf3N": {
           "type": "content",
           "settings": {
-            "title": "CONSTRUINDO EQUIPES DE ALTO DESEMPENHO",
-            "text": "Neste módulo, desvendaremos os atributos fundamentais de equipes altamente eficazes e o papel central do líder na sua formação. Abordaremos estratégias para construir confiança e estabelecer uma atmosfera de segurança psicológica. Além disso, exploraremos a importância não apenas de fornecer, mas também solicitar feedback regularmente, e discutiremos como se preparar para conduzir conversas desafiadoras.",
-            "header": "Módulo 3",
+            "title": "As competências humanas que ganham valor",
+            "text": "Você descobre quais habilidades humanas se tornam mais valiosas quando máquinas assumem parte do raciocínio. Trabalhamos <strong>empatia, adaptabilidade, comunicação influente e ética</strong> aplicada com foco na prática, para que você use essas competências no dia a dia e veja impacto rápido na equipe. Você também identifica suas lacunas e aprende como fortalecê las para liderar de forma mais clara e confiável.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -469,9 +469,9 @@
         "content_L4yY3M": {
           "type": "content",
           "settings": {
-            "title": "NAVEGANDO A COMPLEXIDADE",
-            "text": "No quarto módulo, exploraremos ferramentas e abordagens práticas para lidar com as múltiplas polaridades que os líderes enfrentam. Abordaremos questões como o equilíbrio entre alinhamento e autonomia, a dicotomia entre ser um agente de ruptura ou um facilitador, e como encontrar a proporção certa entre foco na execução e no planejamento de longo prazo.",
-            "header": "Módulo 4",
+            "title": "Liderando medo, incerteza e segurança psicológica",
+            "text": "Você aprende a <strong>reconhecer os medos</strong> que surgem quando a IA acelera mudanças e como <strong>criar segurança psicológica</strong> mesmo em momentos de instabilidade. Exploramos conversas difíceis e práticas que aumentam confiança, abertura e alinhamento. Esse tema ajuda você a <strong>manter sua equipe engajada</strong> quando tudo muda ao mesmo tempo.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -480,9 +480,20 @@
         "content_pWPG4M": {
           "type": "content",
           "settings": {
-            "title": "AGILIDADE & DIVERSIDADE COMO ACELERADORES",
-            "text": "Discutiremos como você pode alavancar agilidade e diversidade para acelerar a transformação de sua equipe e impactar positivamente os resultados do negócio. Investigaremos os desafios inerentes à liderança para a inovação e exploraremos como essa abordagem está moldando tanto a cultura individual quanto a coletiva das equipes.",
-            "header": "Módulo 5",
+            "title": "resolução de problemas com IA",
+            "text": "Você descobre como a IA se torna uma parceira poderosa para <strong>formular hipóteses, testar cenários e acelerar ciclos de aprendizado</strong>. Aprendemos a <strong>quebrar problemas complexos em partes claras</strong> para resolver com mais foco e menos atrito. Isso ajuda você a transformar incerteza em ação e tomar decisões mais inteligentes com sua equipe.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_edBAwz": {
+          "type": "content",
+          "settings": {
+            "title": "Tomada de decisão com IA e redução de Vieses",
+            "text": "Você aprende como a IA amplia nossa capacidade de análise, mas também intensifica alguns dos nossos vieses mais perigosos. Trabalhamos técnicas simples para <strong>avaliar outputs com consciência</strong>, equilibrar intuição e dados e evitar decisões precipitadas. Esse tema ajuda você a <strong>decidir com mais clareza</strong> mesmo quando tudo parece urgente.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -491,9 +502,20 @@
         "content_GqqNJW": {
           "type": "content",
           "settings": {
-            "title": "LIDERANDO PARA O FUTURO",
-            "text": "No último módulo, exploraremos como você pode se preparar, bem como preparar suas equipes e organizações, para enfrentar o futuro com uma mentalidade de curiosidade, clareza e adaptabilidade. Baseados em tendências atuais, analisaremos as habilidades cruciais que os líderes do futuro devem desenvolver desde já para liderar com sucesso em um ambiente em constante evolução.",
-            "header": "Módulo 6",
+            "title": "Colaboração humano IA no dia a dia",
+            "text": "Você aprende como integrar a IA ao trabalho de forma natural, sem atrito e sem perder controle ou qualidade. Exploramos como humanos e máquinas se complementam para <strong>ampliar resultados, acelerar entregas e eliminar tarefas que consomem tempo sem gerar valor</strong>. Esse tema ajuda você a transformar a IA em parceira real da equipe, não em mais uma ferramenta difícil de usar.",
+            "header": "",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        },
+        "content_eh9p4L": {
+          "type": "content",
+          "settings": {
+            "title": "O líder como tradutor de futuros",
+            "text": "Você aprende a identificar <strong>sinais de mudança</strong>, enxergar consequências e conectar sua equipe ao que está por vir. Exploramos <strong>ferramentas de foresight</strong> que tornam o futuro mais concreto e útil para decisões diárias. Isso ajuda você a <strong>liderar com propósito e direção </strong>em vez de reagir ao ritmo caótico das tecnologias.",
+            "header": "",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -506,12 +528,13 @@
         "content_Uxnf3N",
         "content_L4yY3M",
         "content_pWPG4M",
-        "content_GqqNJW"
+        "content_edBAwz",
+        "content_GqqNJW",
+        "content_eh9p4L"
       ],
-      "disabled": true,
       "settings": {
         "hidden": false,
-        "title": "PROGRAMA DO CURSO",
+        "title": "TEMAS ABORDADOS",
         "text": "",
         "font_color": "text-dark",
         "title_size": "display-3",
