@@ -402,8 +402,20 @@
     "card_RaUPwp": {
       "type": "card",
       "blocks": {
+        "card_9wDwHA": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/LIDERANDO_FUTUROS_DIGITAIS_AO_VIVO.png",
+            "category_id": "",
+            "title": "Liderar na Era da IA",
+            "text": "<strong>NOVO CURSO</strong> - prepara você para liderar pessoas, decisões e mudanças em um mundo transformado pela inteligência artificial.",
+            "url": "shopify://products/curso-liderar-na-era-da-ia",
+            "target": false
+          }
+        },
         "card_xkQUVa": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/Lideranca_em_tempos_de_mudanca_ao_vivo_e_gravado.jpg",
             "category_id": "",
@@ -483,6 +495,7 @@
         }
       },
       "block_order": [
+        "card_9wDwHA",
         "card_xkQUVa",
         "card_xCeYYc",
         "card_LcDHRi",
