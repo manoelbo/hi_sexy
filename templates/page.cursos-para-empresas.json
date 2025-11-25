@@ -1312,7 +1312,7 @@
           "type": "button",
           "settings": {
             "text": "E-mail",
-            "url": "mailto:benito.berretta@hyperisland.com",
+            "url": "mailto:viviane.nishimura@hyperisland.com",
             "target": false,
             "zap": false,
             "zap_number": "",
@@ -1327,7 +1327,7 @@
             "url": "",
             "target": false,
             "zap": true,
-            "zap_number": "5511991352064",
+            "zap_number": "5511999882445",
             "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
             "style": "rounded-white"
           }
@@ -1339,8 +1339,8 @@
       ],
       "settings": {
         "title": "Fale com a gente",
-        "text": "Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
-        "img": "shopify://shop_images/Beni.png",
+        "text": "Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
+        "img": "shopify://shop_images/1675811085451.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
