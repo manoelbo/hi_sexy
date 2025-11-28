@@ -107,6 +107,7 @@
       "block_order": [
         "image_wAy37y"
       ],
+      "disabled": true,
       "name": "Media Grid",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
@@ -711,7 +712,7 @@
           "type": "button",
           "settings": {
             "text": "Enviar Email",
-            "url": "mailto:sabryna.alsfasser@hyperisland.com",
+            "url": "mailto:gleisson.dias@hyperisland.com",
             "target": true,
             "zap": false,
             "zap_number": "",
