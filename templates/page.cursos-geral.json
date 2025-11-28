@@ -210,6 +210,51 @@
         "smb_xs": 0
       }
     },
+    "sp_media_grid_fPEL3c": {
+      "type": "sp-media-grid",
+      "blocks": {
+        "video_aRLhFE": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/hyper island 1.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
+        "video_f4r7Xt": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/hyper friday 2_32cb31d8-8f86-4357-b705-da767672c6f7.mp4",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        }
+      },
+      "block_order": [
+        "video_aRLhFE",
+        "video_f4r7Xt"
+      ],
+      "name": "Media Grid",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "media_aspect_ratio": "21 / 9",
+        "max_width": 1000,
+        "grid_gap": 100,
+        "padding_top": 30,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0
+      }
+    },
     "d43f0700-a7db-4720-9e46-1afcacd78820": {
       "type": "collection-cards",
       "blocks": {
@@ -367,7 +412,7 @@
             "img": "shopify://shop_images/LIDERANDO_FUTUROS_DIGITAIS_PRESENCIAL_4f478755-9fab-40d7-8ed1-24dc63f58c0f.png",
             "category_id": "",
             "title": "Liderando Futuros Digitais",
-            "text": "Este curso oferece 10 créditos de mestrando Nível 7 creditados pela Teesside University, do Reino Unido. Você aprenderá as habilidades necessárias para explorar cenários organizacionais futuros, propor estratégias e desenvolver planos de ação pessoais.",
+            "text": "<strong>Turma de Janeiro ESGOTADA - Entre para a lista de Espera.  </strong>Este curso oferece 10 créditos de mestrando Nível 7 creditados pela Teesside University, do Reino Unido. Você aprenderá as habilidades necessárias para explorar cenários organizacionais futuros, propor estratégias e desenvolver planos de ação pessoais.",
             "url": "shopify://products/liderando-futuros-digitais",
             "target": true
           }
@@ -616,51 +661,6 @@
         "pb_sm": 0,
         "mt_sm": 13,
         "mb_sm": 13
-      }
-    },
-    "sp_media_grid_fPEL3c": {
-      "type": "sp-media-grid",
-      "blocks": {
-        "video_aRLhFE": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/hyper island 1.mp4",
-            "link": "",
-            "video_inline": true,
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
-          }
-        },
-        "video_f4r7Xt": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/hyper friday 2_32cb31d8-8f86-4357-b705-da767672c6f7.mp4",
-            "link": "",
-            "video_inline": true,
-            "video_autoplay": true,
-            "video_loop": true,
-            "video_controls": false,
-            "video_muted": true
-          }
-        }
-      },
-      "block_order": [
-        "video_aRLhFE",
-        "video_f4r7Xt"
-      ],
-      "name": "Media Grid",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "21 / 9",
-        "max_width": 1000,
-        "grid_gap": 100,
-        "padding_top": 30,
-        "padding_bottom": 40,
-        "padding_left": 0,
-        "padding_right": 0
       }
     }
   },
