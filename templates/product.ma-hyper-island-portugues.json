@@ -543,12 +543,12 @@
       "type": "course-header-2",
       "name": "HI Course Header 2",
       "settings": {
-        "cta_1": "Comprar",
+        "cta_1": "Turma Esgotada",
         "cta_2": "Baixe o programa",
         "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
-        "cta_3": "Tirar dúvida",
+        "cta_3": "Entrar para lista de espera",
         "cta_link_3": "mailto:gleisson.dias@hyperisland.com",
-        "zap": true,
+        "zap": false,
         "zap_number": "+55 21 97664-6326",
         "zap_msg": "Olá! Gostaria de tirar uma dúvida sobre o mestrado Liderando Futuros Digitais."
       }
