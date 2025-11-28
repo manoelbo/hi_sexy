@@ -549,9 +549,9 @@
         "cta_link_2": "https://www.hyperisland.com.br/products/liderando-futuros-digitais#form",
         "cta_3": "Entrar para lista de espera",
         "cta_link_3": "mailto:gleisson.dias@hyperisland.com",
-        "zap": false,
+        "zap": true,
         "zap_number": "+55 21 97664-6326",
-        "zap_msg": "Olá! Gostaria de tirar uma dúvida sobre o mestrado Liderando Futuros Digitais."
+        "zap_msg": "Olá! Gostaria de entrar para a lista de espera da próxima turma de Liderando Futuros Digitais."
       }
     },
     "html_Lbebyd": {
