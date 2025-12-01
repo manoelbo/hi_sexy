@@ -53,6 +53,7 @@
       "block_order": [
         "image_Qb4qUj"
       ],
+      "disabled": true,
       "name": "Media Grid",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
