@@ -30,10 +30,16 @@
     "blog_highlights_3jr4Fn": {
       "type": "blog-highlights",
       "blocks": {
+        "article_bdtFg9": {
+          "type": "article",
+          "settings": {
+            "article": "news/ia-dilema-do-ceo-x-expectativa-dos-stakeholders"
+          }
+        },
         "article_GWLyL9": {
           "type": "article",
           "settings": {
-            "article": "news/por-que-as-meta-skills-importam-mais-do-que-nunca-talentos-preparados-para-o-futuro-em-um-mundo-do-trabalho-em-transformacao"
+            "article": "news/alem-da-coerencia-o-que-a-ia-nao-entende-sobre-a-verdadeira-inteligencia"
           }
         },
         "article_nkirAL": {
@@ -41,19 +47,12 @@
           "settings": {
             "article": "news/medos-falhas-e-o-que-entendemos-errado-sobre-feedback"
           }
-        },
-        "article_bdtFg9": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/primeira-lei-da-adaptabilidade-se-voce-contribui-voce-pode-ficar"
-          }
         }
       },
       "block_order": [
+        "article_bdtFg9",
         "article_GWLyL9",
-        "article_nkirAL",
-        "article_bdtFg9"
+        "article_nkirAL"
       ],
       "name": "Destaques do Blog",
       "settings": {
@@ -67,7 +66,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
