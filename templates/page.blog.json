@@ -33,17 +33,19 @@
         "article_bdtFg9": {
           "type": "article",
           "settings": {
-            "article": "news/ia-dilema-do-ceo-x-expectativa-dos-stakeholders"
+            "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
           }
         },
         "article_GWLyL9": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/alem-da-coerencia-o-que-a-ia-nao-entende-sobre-a-verdadeira-inteligencia"
           }
         },
         "article_nkirAL": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/medos-falhas-e-o-que-entendemos-errado-sobre-feedback"
           }
@@ -66,7 +68,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-lg-4",
+        "layout": "col-12 blog-card-row",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -74,6 +76,58 @@
         "mt_lg": 0,
         "mb_lg": 11,
         "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 7
+      }
+    },
+    "blog_highlights_kBPNPB": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_NcKLj7": {
+          "type": "article",
+          "settings": {
+            "article": "news/ia-dilema-do-ceo-x-expectativa-dos-stakeholders"
+          }
+        },
+        "article_4UJqpG": {
+          "type": "article",
+          "settings": {
+            "article": "news/alem-da-coerencia-o-que-a-ia-nao-entende-sobre-a-verdadeira-inteligencia"
+          }
+        },
+        "article_kzd9rH": {
+          "type": "article",
+          "settings": {
+            "article": "news/medos-falhas-e-o-que-entendemos-errado-sobre-feedback"
+          }
+        }
+      },
+      "block_order": [
+        "article_NcKLj7",
+        "article_4UJqpG",
+        "article_kzd9rH"
+      ],
+      "name": "Destaques do Blog",
+      "settings": {
+        "title": "",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-lg-4",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 7,
+        "pb_lg": 10,
+        "mt_lg": 0,
+        "mb_lg": 11,
+        "pt_sm": 1,
         "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 7
@@ -599,6 +653,7 @@
   "order": [
     "html_em9Lh7",
     "blog_highlights_3jr4Fn",
+    "blog_highlights_kBPNPB",
     "blog_highlights_L9mXQV",
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
