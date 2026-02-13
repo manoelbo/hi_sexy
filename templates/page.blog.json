@@ -236,17 +236,16 @@
     "blog_highlights_aXknDr": {
       "type": "blog-highlights",
       "blocks": {
+        "article_nUX87i": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-three-terrible-f-s-of-learning"
+          }
+        },
         "article_MWtzJr": {
           "type": "article",
           "settings": {
             "article": "news/beyond-coherence-what-ai-misses-about-real-intelligence"
-          }
-        },
-        "article_nUX87i": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/from-global-village-to-digital-tribes"
           }
         },
         "article_GzntLR": {
@@ -258,8 +257,8 @@
         }
       },
       "block_order": [
-        "article_MWtzJr",
         "article_nUX87i",
+        "article_MWtzJr",
         "article_GzntLR"
       ],
       "settings": {
@@ -273,7 +272,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
