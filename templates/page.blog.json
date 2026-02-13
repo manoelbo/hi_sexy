@@ -30,17 +30,16 @@
     "blog_highlights_3jr4Fn": {
       "type": "blog-highlights",
       "blocks": {
+        "article_GWLyL9": {
+          "type": "article",
+          "settings": {
+            "article": "news/os-tres-terriveis-f-s-da-aprendizagem"
+          }
+        },
         "article_bdtFg9": {
           "type": "article",
           "settings": {
             "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
-          }
-        },
-        "article_GWLyL9": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/alem-da-coerencia-o-que-a-ia-nao-entende-sobre-a-verdadeira-inteligencia"
           }
         },
         "article_nkirAL": {
@@ -52,8 +51,8 @@
         }
       },
       "block_order": [
-        "article_bdtFg9",
         "article_GWLyL9",
+        "article_bdtFg9",
         "article_nkirAL"
       ],
       "name": "Destaques do Blog",
@@ -68,7 +67,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
