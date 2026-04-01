@@ -15,7 +15,7 @@
         "mobile_only": false,
         "desktop_only": false,
         "title": "Estratégia e Pensamento Crítico com IA",
-        "text": "para explorar as possibilidades da IA",
+        "text": "A IA não substitui o julgamento, mas ela muda a forma como chegamos ao julgamento.",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "bg_image": "shopify://shop_images/energizer-1.jpg",
@@ -236,9 +236,9 @@
     "newsletter_session_t9wUdh": {
       "type": "newsletter-session",
       "settings": {
-        "title": "Prepare-se para explorar, experimentar e inovar.",
-        "text": "Preencha o formulário e embarque nesta jornada fascinante pela Inteligência Artificial!",
-        "form_id": "d95e9639-0101-4a72-83eb-662f00d3c775",
+        "title": "Pós-IA, precisamos de novas habilidades, não apenas de novas ferramentas.",
+        "text": "A maioria das equipes está usando IA para ir mais rápido, mas não necessariamente para ir de forma mais inteligente. Este webinar mostra como futuros, foresight e pensamento crítico com IA ajudam líderes a tomar melhores decisões em contextos de complexidade e incerteza.",
+        "form_id": "d508fd04-5bba-42ad-848b-ca9bc34697ce",
         "bg_color": "#ffffff",
         "bg_gradient": "",
         "font_color": "text-dark",
@@ -297,12 +297,12 @@
   },
   "order": [
     "header_YmATNf",
+    "newsletter_session_t9wUdh",
     "content_WLQ6gf",
     "content_qY3Da6",
     "content_Ld99mD",
     "html_NP96Y3",
     "sp_image_standalone_aQWiFw",
-    "newsletter_session_t9wUdh",
     "newsletter_session_jqnCdq"
   ]
 }
