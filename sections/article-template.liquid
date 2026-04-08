@@ -94,7 +94,35 @@
           </div>
         {% endif %}
 
-        <div class="article-content rte" itemprop="articleBody" style="font-size: 16px; line-height: 1.8;">
+      <div class="article-content rte" itemprop="articleBody" 
+     style="font-size: 16px; line-height: 1.7;">
+
+  <style>
+    .article-content h2,
+    .article-content h3,
+    .article-content h4 {
+      font-family: inherit !important;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .article-content h2 {
+      font-size: 28px;
+      margin-top: 2em;
+      margin-bottom: 0.8em;
+    }
+
+    .article-content h3 {
+      font-size: 22px;
+      margin-top: 1.6em;
+      margin-bottom: 0.6em;
+    }
+
+    .article-content h4 {
+      font-size: 18px;
+    }
+  </style>
+
   {{ article.content }}
 </div>
 
