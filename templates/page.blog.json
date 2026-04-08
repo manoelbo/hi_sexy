@@ -30,6 +30,12 @@
     "blog_highlights_3jr4Fn": {
       "type": "blog-highlights",
       "blocks": {
+        "article_nkirAL": {
+          "type": "article",
+          "settings": {
+            "article": "news/o-dilema-da-ambidestria"
+          }
+        },
         "article_GWLyL9": {
           "type": "article",
           "settings": {
@@ -41,19 +47,12 @@
           "settings": {
             "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
           }
-        },
-        "article_nkirAL": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/medos-falhas-e-o-que-entendemos-errado-sobre-feedback"
-          }
         }
       },
       "block_order": [
+        "article_nkirAL",
         "article_GWLyL9",
-        "article_bdtFg9",
-        "article_nkirAL"
+        "article_bdtFg9"
       ],
       "name": "Destaques do Blog",
       "settings": {
@@ -67,7 +66,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -289,6 +288,12 @@
     "blog_highlights_aXknDr": {
       "type": "blog-highlights",
       "blocks": {
+        "article_GzntLR": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ambidexterity-dilemma"
+          }
+        },
         "article_nUX87i": {
           "type": "article",
           "settings": {
@@ -300,19 +305,12 @@
           "settings": {
             "article": "news/beyond-coherence-what-ai-misses-about-real-intelligence"
           }
-        },
-        "article_GzntLR": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/the-medium-is-still-the-message"
-          }
         }
       },
       "block_order": [
+        "article_GzntLR",
         "article_nUX87i",
-        "article_MWtzJr",
-        "article_GzntLR"
+        "article_MWtzJr"
       ],
       "settings": {
         "title": "Artigos em Inglês",
@@ -325,7 +323,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
