@@ -35,15 +35,15 @@
            <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}" itemprop="datePublished">
   {{ article.published_at | date: '%-d' }} de
   {% case article.published_at | date: "%m" %}
-    {% when '01' %}janeiro
-    {% when '02' %}fevereiro
-    {% when '03' %}março
-    {% when '04' %}abril
-    {% when '05' %}maio
-    {% when '06' %}junho
-    {% when '07' %}julho
-    {% when '08' %}agosto
-    {% when '09' %}setembro
+    {% when '1' %}janeiro
+    {% when '2' %}fevereiro
+    {% when '3' %}março
+    {% when '4' %}abril
+    {% when '5' %}maio
+    {% when '6' %}junho
+    {% when '7' %}julho
+    {% when '8' %}agosto
+    {% when '9' %}setembro
     {% when '10' %}outubro
     {% when '11' %}novembro
     {% when '12' %}dezembro
