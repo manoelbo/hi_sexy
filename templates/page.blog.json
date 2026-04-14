@@ -33,17 +33,19 @@
         "article_nkirAL": {
           "type": "article",
           "settings": {
-            "article": "news/o-dilema-da-ambidestria"
+            "article": "news/o-lider-o-maratonista-e-o-panda-gigante"
           }
         },
         "article_GWLyL9": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/os-tres-terriveis-f-s-da-aprendizagem"
           }
         },
         "article_bdtFg9": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
           }
@@ -57,6 +59,58 @@
       "name": "Destaques do Blog",
       "settings": {
         "title": "Artigos em Português",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-12 blog-card-row",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 6,
+        "pt_sm": 10,
+        "pb_sm": 7,
+        "mt_sm": 0,
+        "mb_sm": 5
+      }
+    },
+    "blog_highlights_ymKD8t": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_qmGzVj": {
+          "type": "article",
+          "settings": {
+            "article": "news/o-dilema-da-ambidestria"
+          }
+        },
+        "article_M8HPUH": {
+          "type": "article",
+          "settings": {
+            "article": "news/os-tres-terriveis-f-s-da-aprendizagem"
+          }
+        },
+        "article_R4kaUM": {
+          "type": "article",
+          "settings": {
+            "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
+          }
+        }
+      },
+      "block_order": [
+        "article_qmGzVj",
+        "article_M8HPUH",
+        "article_R4kaUM"
+      ],
+      "name": "Destaques do Blog",
+      "settings": {
+        "title": "",
         "show_title": true,
         "title_size": "display-2",
         "title_alignment": "text-center",
@@ -650,6 +704,7 @@
   "order": [
     "html_em9Lh7",
     "blog_highlights_3jr4Fn",
+    "blog_highlights_ymKD8t",
     "blog_highlights_kBPNPB",
     "blog_highlights_L9mXQV",
     "blog_highlights_QCXUYg",
