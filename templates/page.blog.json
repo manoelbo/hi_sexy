@@ -345,17 +345,19 @@
         "article_GzntLR": {
           "type": "article",
           "settings": {
-            "article": "news/the-ambidexterity-dilemma"
+            "article": "news/the-leader-the-binge-watcher-and-the-giant-panda"
           }
         },
         "article_nUX87i": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/the-three-terrible-f-s-of-learning"
           }
         },
         "article_MWtzJr": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/beyond-coherence-what-ai-misses-about-real-intelligence"
           }
@@ -368,6 +370,57 @@
       ],
       "settings": {
         "title": "Artigos em Inglês",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "Articles in English",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-12 blog-card-row",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 11,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "blog_highlights_UeYjmx": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_3DfgTp": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-ambidexterity-dilemma"
+          }
+        },
+        "article_EUKEGw": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-three-terrible-f-s-of-learning"
+          }
+        },
+        "article_LtBaH4": {
+          "type": "article",
+          "settings": {
+            "article": "news/beyond-coherence-what-ai-misses-about-real-intelligence"
+          }
+        }
+      },
+      "block_order": [
+        "article_3DfgTp",
+        "article_EUKEGw",
+        "article_LtBaH4"
+      ],
+      "settings": {
+        "title": "",
         "show_title": true,
         "title_size": "display-2",
         "title_alignment": "text-center",
@@ -710,6 +763,7 @@
     "blog_highlights_QCXUYg",
     "blog_highlights_WzByEW",
     "blog_highlights_aXknDr",
+    "blog_highlights_UeYjmx",
     "blog_highlights_ADa6yp",
     "blog_highlights_UWpXiG",
     "blog_highlights_YtAryE",
