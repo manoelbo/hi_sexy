@@ -32,9 +32,9 @@
               </span>
             {% endif %}
             •
-           <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}" itemprop="datePublished">
+           <time datetime="{{ article.published_at | date: '%Y-%-m-%d' }}" itemprop="datePublished">
   {{ article.published_at | date: '%-d' }} de
-  {% case article.published_at | date: "%m" %}
+  {% case article.published_at | date: "%-m" %}
     {% when '1' %}janeiro
     {% when '2' %}fevereiro
     {% when '3' %}março
