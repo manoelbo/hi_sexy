@@ -130,10 +130,7 @@
       },
       "article-template": {
         "type": "article-template",
-        "custom_css": [
-          ".article-template__content,.article-template__content p,.article-template__content h1,.article-template__content h2,.article-template__content h3,.article-template__content ul,.article-template__content ol {max-width: 720px; margin-left: auto; margin-right: auto;}",
-          ".article-template__content {padding-left: 20px; padding-right: 20px;}"
-        ],
+        "custom_css": [],
         "settings": {
           "show_sidebar": true,
           "sidebar_position": "bottom",
