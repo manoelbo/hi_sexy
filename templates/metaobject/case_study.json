@@ -42,9 +42,31 @@
         "mt_sm": 0,
         "mb_sm": 0
       }
+    },
+    "richtext_gP4NHA": {
+      "type": "richtext",
+      "name": "Richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "960",
+        "text_align": "text-center",
+        "title": "{{ metaobject.titulo.value }}",
+        "title_size": "h2",
+        "description": "{{ metaobject.complete_case | metafield_tag }}",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
     }
   },
   "order": [
-    "header_qzeKYd"
+    "header_qzeKYd",
+    "richtext_gP4NHA"
   ]
 }
