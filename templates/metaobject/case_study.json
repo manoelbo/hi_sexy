@@ -49,7 +49,7 @@
       "settings": {
         "bg_color": "",
         "max_width": "960",
-        "text_align": "text-center",
+        "text_align": "text-start",
         "title": "{{ metaobject.titulo.value }}",
         "title_size": "h2",
         "description": "{{ metaobject.complete_case | metafield_tag }}",
@@ -58,10 +58,10 @@
         "btn_url": "",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "pt": 0,
-        "pb": 0,
-        "mt": 0,
-        "mb": 0
+        "pt": 10,
+        "pb": 10,
+        "mt": 10,
+        "mb": 11
       }
     }
   },
