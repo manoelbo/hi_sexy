@@ -482,13 +482,14 @@
             "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_02_v2.jpg",
             "category_id": "",
             "title": "DIA 2: CONEXÕES CRIATIVAS",
-            "text": "Colabore, conte histórias e transforme sua perspectiva criativa - <strong>Dia 11/06</strong>",
+            "text": "Colabore, conte histórias e transforme sua perspectiva criativa - <strong>Dia 20/08</strong>",
             "url": "shopify://products/future-skills-masterclass-dia-2-conexoes-criativas",
             "target": false
           }
         },
         "card_bpcQjV": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_03_v2.jpg",
             "category_id": "",
