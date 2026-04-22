@@ -471,7 +471,7 @@
             "img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_01_v2.jpg",
             "category_id": "",
             "title": "DIA 1: O FUTURO DA INOVAÇÃO",
-            "text": "Inovação para um Mundo Pós-Humano-Cêntrico - <strong>Dia 10/06</strong>",
+            "text": "Inovação para um Mundo Pós-Humano-Cêntrico - <strong>Dia 19/08</strong>",
             "url": "shopify://products/future-skills-masterclass-dia-1-o-futuro-da-inovacao",
             "target": false
           }
@@ -800,7 +800,7 @@
       "name": "🚀SP - Review Grid",
       "settings": {
         "override_fonts": false,
-        "text_font": "sans-serif",
+        "text_font": "system_ui_n4",
         "text_size": 20,
         "text_line_height": "inherit",
         "text_color": "#ffffff",
