@@ -746,7 +746,7 @@
           "type": "button",
           "settings": {
             "text": "Mandar e-mail",
-            "url": "mailto:viviane.nishimura@hyperisland.com",
+            "url": "mailto:sabryna.alsfasser@hyperisland.com",
             "target": false,
             "zap": false,
             "zap_number": "",
@@ -761,7 +761,7 @@
             "url": "",
             "target": false,
             "zap": true,
-            "zap_number": "551199988-2445",
+            "zap_number": "+593 99 122 3305",
             "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
             "style": "rounded-white"
           }
@@ -772,8 +772,8 @@
         "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
       ],
       "settings": {
-        "title": "FALE COM a VIVI",
-        "text": "Queremos te ouvir! Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "title": "FALE COM a SABRYNA",
+        "text": "Queremos te ouvir! Agende uma conversa com a Sabryna e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
         "img": "shopify://shop_images/1675811085451.jpg",
         "bg_color": "#000000",
         "bg_gradient": "",
