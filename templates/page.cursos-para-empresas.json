@@ -1186,6 +1186,28 @@
             "url": "shopify://metaobjects/cursos_in_company/comunicacao-executiva",
             "target": true
           }
+        },
+        "card_YacDdW": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Copy_of_FSMC-017.jpg",
+            "category_id": "Todos",
+            "title": "Facilitação",
+            "text": "Capacite suas equipes a desenhar e conduzir encontros que realmente geram resultado. Aprenda a transformar reuniões improdutivas em experiências colaborativas, onde as pessoas participam, tomam decisões e se comprometem com a execução.",
+            "url": "shopify://metaobjects/cursos_in_company/facilitacao",
+            "target": true
+          }
+        },
+        "card_JfpiUR": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Copy_of_FSMC-017.jpg",
+            "category_id": "Comunicação & Experiência",
+            "title": "Facilitação",
+            "text": "Capacite suas equipes a desenhar e conduzir encontros que realmente geram resultado. Aprenda a transformar reuniões improdutivas em experiências colaborativas, onde as pessoas participam, tomam decisões e se comprometem com a execução.",
+            "url": "shopify://metaobjects/cursos_in_company/facilitacao",
+            "target": true
+          }
         }
       },
       "block_order": [
@@ -1224,7 +1246,9 @@
         "263aeb57-9dc0-489d-95a3-6befd307fbbe",
         "eb60f8e6-919a-419e-882c-82643aa82af1",
         "9a0a3355-8e6e-484a-a0ee-465ba7b66133",
-        "3b0eaabe-02cc-4812-9c7a-2db45e655049"
+        "3b0eaabe-02cc-4812-9c7a-2db45e655049",
+        "card_YacDdW",
+        "card_JfpiUR"
       ],
       "settings": {
         "font_color": "text-dark",
