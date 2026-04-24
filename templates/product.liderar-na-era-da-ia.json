@@ -1036,6 +1036,7 @@
         "90aa23df-1295-46c6-9bfb-0546c85e4550",
         "27e043bb-8543-455b-bfd3-89f17b5e710b"
       ],
+      "disabled": true,
       "settings": {
         "title": "PARA GRUPOS E EMPRESAS",
         "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudar!",
@@ -1060,6 +1061,66 @@
         "mb_lg": 0,
         "pt_sm": 8,
         "pb_sm": 11,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "button_section_FtByfP": {
+      "type": "button-section",
+      "blocks": {
+        "button_R8ALQh": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar e-mail",
+            "url": "mailto:sabryna.alsfasser@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        },
+        "button_P88Yc9": {
+          "type": "button",
+          "settings": {
+            "text": "Enviar Mensagem",
+            "url": "",
+            "target": false,
+            "zap": true,
+            "zap_number": "593991223305",
+            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_R8ALQh",
+        "button_P88Yc9"
+      ],
+      "settings": {
+        "title": "PARA GRUPOS E EMPRESAS",
+        "text": "Quer levar esse curso para uma sessão exclusiva in-company? Converse com a Sabryna para saber como podemos te ajudar!",
+        "img": "shopify://shop_images/Sabryna_nova_foto_de_perfil2.png",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-5",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 0
       }
@@ -1295,6 +1356,7 @@
     "html_BzjJkx",
     "course_header_2_a7WkJK",
     "f39daef8-3263-467c-b5e2-581de2221700",
+    "button_section_FtByfP",
     "sp_faq_plus_EiCn7w",
     "577b8190-d683-4d05-92aa-43b63a3a640d",
     "sp_action_button_3kFMbb"
