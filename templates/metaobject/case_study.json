@@ -215,6 +215,76 @@
         "mb": 11
       }
     },
+    "ss_gallery_1_4yq6WC": {
+      "type": "ss-gallery-1",
+      "blocks": {
+        "image_dieHiJ": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.imagem_principal.value }}",
+            "gallery_url": ""
+          }
+        },
+        "image_4HFzy4": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.imagem_3.value }}",
+            "gallery_url": ""
+          }
+        },
+        "image_J8AqXh": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.image_4.value }}",
+            "gallery_url": ""
+          }
+        },
+        "image_ahVe4H": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.image_5.value }}",
+            "gallery_url": ""
+          }
+        },
+        "image_Da4HJk": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.image_6.value }}",
+            "gallery_url": ""
+          }
+        },
+        "image_BgHyQn": {
+          "type": "image",
+          "settings": {
+            "gallery_photo": "{{ metaobject.image_7.value }}",
+            "gallery_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dieHiJ",
+        "image_4HFzy4",
+        "image_J8AqXh",
+        "image_ahVe4H",
+        "image_Da4HJk",
+        "image_BgHyQn"
+      ],
+      "name": "SS - Image Gallery",
+      "settings": {
+        "gallery_title": "",
+        "gallery_title_font_size": 20,
+        "gallery_insta_title": "",
+        "gallery_insta_url": "",
+        "gallery_image": "{{ metaobject.imagem_2.value }}",
+        "gallery_url": "",
+        "section_bg_color": "#fff",
+        "type_header_font": "assistant_n4",
+        "type_insta_font": "assistant_n4",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section-width": 120
+      }
+    },
     "button_section_NpfpTm": {
       "type": "button-section",
       "blocks": {
@@ -302,79 +372,21 @@
         "mb_sm": 0
       }
     },
-    "ss_gallery_1_4yq6WC": {
-      "type": "ss-gallery-1",
-      "blocks": {
-        "image_dieHiJ": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.imagem_2.value }}",
-            "gallery_url": ""
-          }
-        },
-        "image_4HFzy4": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.imagem_3.value }}",
-            "gallery_url": ""
-          }
-        },
-        "image_J8AqXh": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.image_4.value }}",
-            "gallery_url": ""
-          }
-        },
-        "image_ahVe4H": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.image_5.value }}",
-            "gallery_url": ""
-          }
-        },
-        "image_Da4HJk": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.image_6.value }}",
-            "gallery_url": ""
-          }
-        },
-        "image_BgHyQn": {
-          "type": "image",
-          "settings": {
-            "gallery_photo": "{{ metaobject.image_7.value }}",
-            "gallery_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_dieHiJ",
-        "image_4HFzy4",
-        "image_J8AqXh",
-        "image_ahVe4H",
-        "image_Da4HJk",
-        "image_BgHyQn"
-      ],
-      "name": "SS - Image Gallery",
-      "settings": {
-        "gallery_title": "",
-        "gallery_title_font_size": 20,
-        "gallery_insta_title": "",
-        "gallery_insta_url": "",
-        "gallery_image": "{{ metaobject.video.value }}",
-        "gallery_url": "",
-        "section_bg_color": "#fff",
-        "type_header_font": "assistant_n4",
-        "type_insta_font": "assistant_n4",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section-width": 120
-      }
-    },
     "sp_media_grid_2_Ncq9kF": {
       "type": "sp-media-grid-2",
       "blocks": {
+        "video_fUtrRG": {
+          "type": "video",
+          "settings": {
+            "video": "{{ metaobject.video.value }}",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": true,
+            "video_loop": true,
+            "video_controls": false,
+            "video_muted": true
+          }
+        },
         "image_nLFRrV": {
           "type": "image",
           "settings": {
@@ -401,16 +413,18 @@
         }
       },
       "block_order": [
+        "video_fUtrRG",
         "image_nLFRrV",
         "image_7Uebji",
         "image_6Pxbrg",
         "image_VXLtHp"
       ],
+      "disabled": true,
       "name": "Media Grid",
       "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "21 / 9",
+        "media_aspect_ratio": "1 / 1",
         "max_width": 1000,
         "grid_gap": 25,
         "padding_top": 25,
@@ -427,9 +441,9 @@
     "richtext_gP4NHA",
     "sp_video_rich_text_aW9Fah",
     "richtext_dt4W9b",
+    "ss_gallery_1_4yq6WC",
     "button_section_NpfpTm",
     "clients_pL3aRt",
-    "ss_gallery_1_4yq6WC",
     "sp_media_grid_2_Ncq9kF"
   ]
 }
