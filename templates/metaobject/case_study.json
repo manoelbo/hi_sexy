@@ -87,7 +87,7 @@
         "video_location": "right",
         "video_aspect_ratio": "4 / 3",
         "alignment": "left",
-        "headline": "Depoimento do cliente",
+        "headline": "{{ metaobject.video_text_1.value }}",
         "content": "<p>Dê play no vídeo e ouça o depoimento de quem participou do treinamento</p>",
         "link_text": "",
         "link": "",
