@@ -212,7 +212,7 @@
         "pt": 10,
         "pb": 10,
         "mt": 10,
-        "mb": 11
+        "mb": 2
       }
     },
     "ss_gallery_1_4yq6WC": {
@@ -269,6 +269,7 @@
         "image_Da4HJk",
         "image_BgHyQn"
       ],
+      "disabled": true,
       "name": "SS - Image Gallery",
       "settings": {
         "gallery_title": "",
@@ -283,6 +284,104 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "section-width": 120
+      }
+    },
+    "sp_accordion_nPKTNY": {
+      "type": "sp-accordion",
+      "blocks": {
+        "image_dVhLdr": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.imagem_2.value }}",
+            "link": ""
+          }
+        },
+        "image_heRzCi": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.imagem_3.value }}",
+            "link": ""
+          }
+        },
+        "image_k9X6DJ": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_4.value }}",
+            "link": ""
+          }
+        },
+        "image_BFVza8": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_5.value }}",
+            "link": ""
+          }
+        },
+        "image_gt7ry7": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_6.value }}",
+            "link": ""
+          }
+        },
+        "image_xefaQH": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_7.value }}",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dVhLdr",
+        "image_heRzCi",
+        "image_k9X6DJ",
+        "image_BFVza8",
+        "image_gt7ry7",
+        "image_xefaQH"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
+        "text_size": 15,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 40,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 1500,
+        "container_padding_top_bottom": 15,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 300,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "<strong>Registros e Momentos</strong>",
+        "text": "",
+        "headline_spacing": 15
       }
     },
     "button_section_NpfpTm": {
@@ -370,104 +469,6 @@
         "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0
-      }
-    },
-    "sp_accordion_nPKTNY": {
-      "type": "sp-accordion",
-      "blocks": {
-        "image_dVhLdr": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.imagem_2.value }}",
-            "link": ""
-          }
-        },
-        "image_heRzCi": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.imagem_3.value }}",
-            "link": ""
-          }
-        },
-        "image_k9X6DJ": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.image_4.value }}",
-            "link": ""
-          }
-        },
-        "image_BFVza8": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.image_5.value }}",
-            "link": ""
-          }
-        },
-        "image_gt7ry7": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.image_6.value }}",
-            "link": ""
-          }
-        },
-        "image_xefaQH": {
-          "type": "image",
-          "settings": {
-            "image": "{{ metaobject.image_7.value }}",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_dVhLdr",
-        "image_heRzCi",
-        "image_k9X6DJ",
-        "image_BFVza8",
-        "image_gt7ry7",
-        "image_xefaQH"
-      ],
-      "name": "🚀 Accordion",
-      "settings": {
-        "override_fonts": false,
-        "headline_font": "system_ui_n4",
-        "text_font": "system_ui_n4",
-        "text_size": 15,
-        "mobile_text_size": 15,
-        "text_line_height": "inherit",
-        "headline_size": 40,
-        "mobile_headline_size": 40,
-        "headline_line_height": "inherit",
-        "text_color": "#111",
-        "link_color": "#005bd3",
-        "show_on_device": "all",
-        "section_background_color": "linear-gradient(127deg, rgba(255, 255, 255, 1) 11%, rgba(255, 255, 255, 1) 81%)",
-        "section_background_image_color": "",
-        "section_background_size": "cover",
-        "section_padding_top_bottom": 25,
-        "mobile_section_padding_top_bottom": 25,
-        "section_padding_left_right": 25,
-        "mobile_section_padding_left_right": 25,
-        "container_background_color": "",
-        "container_max_width": 1500,
-        "container_padding_top_bottom": 10,
-        "mobile_container_padding_top_bottom": 10,
-        "container_padding_left_right": 10,
-        "mobile_container_padding_left_right": 10,
-        "element_spacing": 15,
-        "container_radius": 0,
-        "container_shadow": false,
-        "container_border_size": 0,
-        "container_border_color": "#888",
-        "gap": 5,
-        "mobile_display": "accordion",
-        "height": 300,
-        "media_radius": 5,
-        "media_shadow": true,
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "headline": "<strong>Registros e Momentos</strong>",
-        "text": "",
-        "headline_spacing": 15
       }
     }
   },
