@@ -385,6 +385,7 @@
         },
         "content_zUJ4LM": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Conexões Criativas",
             "text": "No segundo dia, você vai explorar como a criatividade pode transformar a maneira como nos relacionamos com clientes, audiências e equipes no ambiente digital e conectado. Começaremos o dia com o conceito de Systemic CX, ampliando o olhar tradicional sobre a experiência do cliente para incluir perspectivas sistêmicas e soluções inovadoras que beneficiam ecossistemas inteiros.",
@@ -397,9 +398,9 @@
         "content_Mf3eCr": {
           "type": "content",
           "settings": {
-            "title": "Lidere a Mudança",
-            "text": "O terceiro dia tem como objetivo capacitar você a se tornar um líder mais adaptável, confiante e com impacto real em um mundo definido por mudanças constantes, incertezas e tecnologias emergentes como a Inteligência Artificial. Por meio de atividades práticas, você irá explorar mentalidades de liderança e ferramentas essenciais para navegar pela complexidade, promover a colaboração e liderar processos de transformação dentro da sua equipe ou organização.",
-            "header": "Dia 3",
+            "title": "Liderando a Transformação Contínua",
+            "text": "O segundo dia tem como objetivo capacitar você a se tornar um líder mais adaptável, confiante e com impacto real em um mundo definido por mudanças constantes, incertezas e tecnologias emergentes como a Inteligência Artificial. Por meio de atividades práticas, você irá explorar mentalidades de liderança e ferramentas essenciais para navegar pela complexidade, promover a colaboração e liderar processos de transformação dentro da sua equipe ou organização.",
+            "header": "Dia 2",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -432,7 +433,7 @@
         "c_header_size": "fs-6",
         "c_bg_color": "",
         "c_bg_gradient": "",
-        "layout": "col-lg-4",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
         "default_spacing": false,
