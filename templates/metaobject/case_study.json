@@ -362,7 +362,7 @@
         "gallery_title_font_size": 20,
         "gallery_insta_title": "",
         "gallery_insta_url": "",
-        "gallery_image": "{{ metaobject.client_logo.value }}",
+        "gallery_image": "{{ metaobject.imagem_2.value }}",
         "gallery_url": "",
         "section_bg_color": "#fff",
         "type_header_font": "assistant_n4",
