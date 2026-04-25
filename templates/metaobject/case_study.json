@@ -14,9 +14,9 @@
       "name": "SP - Image Standalone",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
-        "max_width": 450,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "max_width": 300,
+        "padding_top": 10,
+        "padding_bottom": 10,
         "padding_left": 0,
         "padding_right": 0,
         "image": "{{ metaobject.client_logo.value }}",
