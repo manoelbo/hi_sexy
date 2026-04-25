@@ -375,18 +375,6 @@
     "sp_accordion_nPKTNY": {
       "type": "sp-accordion",
       "blocks": {
-        "video_eANAWK": {
-          "type": "video",
-          "settings": {
-            "video": "{{ metaobject.video.value }}",
-            "link": "",
-            "video_inline": false,
-            "video_autoplay": false,
-            "video_loop": true,
-            "video_controls": true,
-            "video_muted": false
-          }
-        },
         "image_dVhLdr": {
           "type": "image",
           "settings": {
@@ -404,15 +392,39 @@
         "image_k9X6DJ": {
           "type": "image",
           "settings": {
+            "image": "{{ metaobject.image_4.value }}",
+            "link": ""
+          }
+        },
+        "image_BFVza8": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_5.value }}",
+            "link": ""
+          }
+        },
+        "image_gt7ry7": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_6.value }}",
+            "link": ""
+          }
+        },
+        "image_xefaQH": {
+          "type": "image",
+          "settings": {
+            "image": "{{ metaobject.image_7.value }}",
             "link": ""
           }
         }
       },
       "block_order": [
-        "video_eANAWK",
         "image_dVhLdr",
         "image_heRzCi",
-        "image_k9X6DJ"
+        "image_k9X6DJ",
+        "image_BFVza8",
+        "image_gt7ry7",
+        "image_xefaQH"
       ],
       "name": "🚀 Accordion",
       "settings": {
@@ -436,7 +448,7 @@
         "section_padding_left_right": 25,
         "mobile_section_padding_left_right": 25,
         "container_background_color": "",
-        "container_max_width": 1000,
+        "container_max_width": 1500,
         "container_padding_top_bottom": 10,
         "mobile_container_padding_top_bottom": 10,
         "container_padding_left_right": 10,
@@ -453,8 +465,8 @@
         "media_shadow": true,
         "text_alignment": "center",
         "mobile_text_alignment": "center",
-        "headline": "<strong>Sample Headline</strong>",
-        "text": "Use this block to add a description. Leave blank to remove.",
+        "headline": "<strong>Registros e Momentos</strong>",
+        "text": "",
         "headline_spacing": 15
       }
     }
@@ -467,8 +479,8 @@
     "sp_video_rich_text_aW9Fah",
     "richtext_dt4W9b",
     "ss_gallery_1_4yq6WC",
+    "sp_accordion_nPKTNY",
     "button_section_NpfpTm",
-    "clients_pL3aRt",
-    "sp_accordion_nPKTNY"
+    "clients_pL3aRt"
   ]
 }
