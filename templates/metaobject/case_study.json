@@ -152,6 +152,7 @@
     },
     "sp_video_rich_text_aW9Fah": {
       "type": "sp-video-rich-text",
+      "disabled": true,
       "name": "Video Rich Text",
       "settings": {
         "text_font": "montserrat_n4",
@@ -192,6 +193,69 @@
         "button_padding_tb": 10,
         "button_padding_lr": 25,
         "button_border_radius": 5
+      }
+    },
+    "sp_accordion_6g3RUj": {
+      "type": "sp-accordion",
+      "blocks": {
+        "video_gt4NBr": {
+          "type": "video",
+          "settings": {
+            "video": "{{ metaobject.video.value }}",
+            "link": "",
+            "video_inline": true,
+            "video_autoplay": false,
+            "video_loop": true,
+            "video_controls": true,
+            "video_muted": false
+          }
+        }
+      },
+      "block_order": [
+        "video_gt4NBr"
+      ],
+      "name": "🚀 Accordion",
+      "settings": {
+        "override_fonts": false,
+        "headline_font": "system_ui_n4",
+        "text_font": "system_ui_n4",
+        "text_size": 16,
+        "mobile_text_size": 15,
+        "text_line_height": "inherit",
+        "headline_size": 50,
+        "mobile_headline_size": 40,
+        "headline_line_height": "inherit",
+        "text_color": "#111",
+        "link_color": "#005bd3",
+        "show_on_device": "all",
+        "section_background_color": "linear-gradient(127deg, rgba(243, 240, 237, 1) 11%, rgba(243, 240, 237, 1) 81%)",
+        "section_background_image_color": "",
+        "section_background_size": "cover",
+        "section_padding_top_bottom": 25,
+        "mobile_section_padding_top_bottom": 25,
+        "section_padding_left_right": 25,
+        "mobile_section_padding_left_right": 25,
+        "container_background_color": "",
+        "container_max_width": 500,
+        "container_padding_top_bottom": 10,
+        "mobile_container_padding_top_bottom": 10,
+        "container_padding_left_right": 10,
+        "mobile_container_padding_left_right": 10,
+        "element_spacing": 15,
+        "container_radius": 0,
+        "container_shadow": false,
+        "container_border_size": 0,
+        "container_border_color": "#888",
+        "gap": 5,
+        "mobile_display": "accordion",
+        "height": 600,
+        "media_radius": 5,
+        "media_shadow": true,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "headline": "{{ metaobject.video_text_1.value }}",
+        "text": "{{ metaobject.video_text_2.value }}",
+        "headline_spacing": 15
       }
     },
     "richtext_dt4W9b": {
@@ -596,6 +660,7 @@
     "card_fluid_X7Pt8y",
     "richtext_gP4NHA",
     "sp_video_rich_text_aW9Fah",
+    "sp_accordion_6g3RUj",
     "richtext_dt4W9b",
     "ss_gallery_1_4yq6WC",
     "sp_video_rich_text_YaUkmV",
