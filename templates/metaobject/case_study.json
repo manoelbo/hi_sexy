@@ -145,7 +145,7 @@
         "btn_color": "btn-primary",
         "btn_size": "",
         "pt": 10,
-        "pb": 10,
+        "pb": 0,
         "mt": 10,
         "mb": 11
       }
@@ -545,7 +545,7 @@
         "mobile_section_padding_left_right": 25,
         "container_background_color": "",
         "container_max_width": 1500,
-        "container_padding_top_bottom": 0,
+        "container_padding_top_bottom": 15,
         "mobile_container_padding_top_bottom": 10,
         "container_padding_left_right": 10,
         "mobile_container_padding_left_right": 10,
