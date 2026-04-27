@@ -20,7 +20,7 @@
         "padding_left": 0,
         "padding_right": 0,
         "image": "{{ metaobject.client_logo.value }}",
-        "media_aspect_ratio": "21 / 9",
+        "media_aspect_ratio": "auto",
         "media_radius": 5,
         "media_shadow": false
       }
