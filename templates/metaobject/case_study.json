@@ -152,7 +152,6 @@
     },
     "sp_video_rich_text_aW9Fah": {
       "type": "sp-video-rich-text",
-      "disabled": true,
       "name": "Video Rich Text",
       "settings": {
         "text_font": "montserrat_n4",
@@ -214,6 +213,7 @@
       "block_order": [
         "video_gt4NBr"
       ],
+      "disabled": true,
       "name": "🚀 Accordion",
       "settings": {
         "override_fonts": false,
@@ -225,7 +225,7 @@
         "headline_size": 50,
         "mobile_headline_size": 40,
         "headline_line_height": "inherit",
-        "text_color": "#111",
+        "text_color": "#111111",
         "link_color": "#005bd3",
         "show_on_device": "all",
         "section_background_color": "linear-gradient(127deg, rgba(243, 240, 237, 1) 11%, rgba(243, 240, 237, 1) 81%)",
@@ -245,7 +245,7 @@
         "container_radius": 0,
         "container_shadow": false,
         "container_border_size": 0,
-        "container_border_color": "#888",
+        "container_border_color": "#888888",
         "gap": 5,
         "mobile_display": "accordion",
         "height": 600,
