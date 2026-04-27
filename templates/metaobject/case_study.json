@@ -274,9 +274,9 @@
         "btn_color": "btn-primary",
         "btn_size": "",
         "pt": 10,
-        "pb": 10,
+        "pb": 0,
         "mt": 10,
-        "mb": 2
+        "mb": 0
       }
     },
     "ss_gallery_1_4yq6WC": {
@@ -545,7 +545,7 @@
         "mobile_section_padding_left_right": 25,
         "container_background_color": "",
         "container_max_width": 1500,
-        "container_padding_top_bottom": 15,
+        "container_padding_top_bottom": 0,
         "mobile_container_padding_top_bottom": 10,
         "container_padding_left_right": 10,
         "mobile_container_padding_left_right": 10,
@@ -612,11 +612,11 @@
         "align_mobile": "text-left",
         "content_width": "w-lg-auto",
         "default_spacing": false,
-        "pt_xl": 0,
+        "pt_xl": 8,
         "pb_xl": 0,
         "mt_xl": 0,
         "mb_xl": 0,
-        "pt_lg": 0,
+        "pt_lg": 12,
         "pb_lg": 0,
         "mt_lg": 0,
         "mb_lg": 0,
