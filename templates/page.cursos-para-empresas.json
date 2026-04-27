@@ -1380,10 +1380,71 @@
         "a8bb4d50-d328-4a90-8f5d-a3a7575f5ec8",
         "f852d232-e984-4635-8d12-e778644f5f18"
       ],
+      "disabled": true,
       "settings": {
         "title": "Fale com a gente",
         "text": "Agende uma conversa com a Vivi e saiba como a Hyper Island pode ajudar a transformar a sua empresa.",
         "img": "shopify://shop_images/1675811085451.jpg",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "font_color": "text-light",
+        "title_size": "display-5",
+        "text_size": "fs-4",
+        "layout_align": "five",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-auto",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 10,
+        "pb_sm": 10,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
+    },
+    "button_section_wDFpxF": {
+      "type": "button-section",
+      "blocks": {
+        "button_PRGfN3": {
+          "type": "button",
+          "settings": {
+            "text": "Mandar e-mail",
+            "url": "mailto:sabryna.alsfasser@hyperisland.com",
+            "target": false,
+            "zap": false,
+            "zap_number": "",
+            "zap_msg": "",
+            "style": "rounded-white"
+          }
+        },
+        "button_3t4WFi": {
+          "type": "button",
+          "settings": {
+            "text": "Enviar Mensagem",
+            "url": "",
+            "target": false,
+            "zap": true,
+            "zap_number": "593991223305",
+            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
+            "style": "rounded-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_PRGfN3",
+        "button_3t4WFi"
+      ],
+      "settings": {
+        "title": "FALE COM a SABRYNA",
+        "text": "Queremos te ouvir! Agende uma conversa com a Sabryna e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
+        "img": "shopify://shop_images/Sabryna_nova_foto_de_perfil2.png",
         "bg_color": "#000000",
         "bg_gradient": "",
         "font_color": "text-light",
@@ -1474,16 +1535,6 @@
         "pb_sm": 0,
         "mt_sm": 13,
         "mb_sm": 13
-      }
-    },
-    "109d28db-848c-4d3f-85ba-4a8e64fb65ce": {
-      "type": "separator",
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "opacity": 0,
-        "mt": 0,
-        "mb": 13
       }
     },
     "08897541-1444-4312-8baa-ea342ede0dd4": {
@@ -1746,9 +1797,9 @@
     "1cc9d964-8e5d-4175-bd79-fcb6e81d5f88",
     "897fa3fd-a750-4cd5-ad93-1b772eeafa2f",
     "6f6ab3d1-eacb-4d81-873e-61f67eb66dca",
+    "button_section_wDFpxF",
     "b0665530-e062-48f4-bd01-2da5ebf8f79a",
     "fe79b999-4357-4e47-a1c4-6197f81fb334",
-    "109d28db-848c-4d3f-85ba-4a8e64fb65ce",
     "08897541-1444-4312-8baa-ea342ede0dd4",
     "1da6d290-5e65-44fc-8b7a-6af03f274b37",
     "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
