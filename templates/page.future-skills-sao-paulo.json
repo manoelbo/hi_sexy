@@ -960,6 +960,7 @@
     },
     "sp_video_standalone_xcN4Br": {
       "type": "sp-video-standalone",
+      "disabled": true,
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 300,
@@ -974,6 +975,123 @@
         "video_controls": false,
         "video_muted": false,
         "big_play_pause_button": true
+      }
+    },
+    "sp_image_marquee_carrossel_4xkxrz": {
+      "type": "sp-image-marquee-carrossel",
+      "blocks": {
+        "image_DxHwKX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1111.jpg",
+            "link": ""
+          }
+        },
+        "image_aFERt4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9099.jpg",
+            "link": ""
+          }
+        },
+        "image_kyNcdP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_IMG_0822.jpg",
+            "link": ""
+          }
+        },
+        "image_MYaXi6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6767.jpg",
+            "link": ""
+          }
+        },
+        "image_fex8Rn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9950.jpg",
+            "link": ""
+          }
+        },
+        "image_7PWYrm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_FSMC-002.jpg",
+            "link": ""
+          }
+        },
+        "image_Dtcx9L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9091.jpg",
+            "link": ""
+          }
+        },
+        "image_XkQrTa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8790.jpg",
+            "link": ""
+          }
+        },
+        "image_Pdt9Dr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8926.jpg",
+            "link": ""
+          }
+        },
+        "image_9GiQNT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9707.jpg",
+            "link": ""
+          }
+        },
+        "image_AFi9yC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9026.jpg",
+            "link": ""
+          }
+        },
+        "image_6aQy3y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0487.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DxHwKX",
+        "image_aFERt4",
+        "image_kyNcdP",
+        "image_MYaXi6",
+        "image_fex8Rn",
+        "image_7PWYrm",
+        "image_Dtcx9L",
+        "image_XkQrTa",
+        "image_Pdt9Dr",
+        "image_9GiQNT",
+        "image_AFi9yC",
+        "image_6aQy3y"
+      ],
+      "name": "Image Marquee - Carrossel",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "slideshow_speed": "30s",
+        "image_aspect_ratio": "4 / 3",
+        "max_width": 2000,
+        "height": 300,
+        "grid_gap": 25,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10
       }
     },
     "html_AwdrLH": {
@@ -1020,115 +1138,6 @@
         "mb_lg": 0,
         "pt_sm": 10,
         "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
-    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad": {
-      "type": "header_half",
-      "blocks": {
-        "0d748ca9-71e7-46b0-9384-556cf20677f9": {
-          "type": "button",
-          "settings": {
-            "text": "Saiba Mais",
-            "url": "shopify://pages/cursos-para-empresas",
-            "target": false,
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "0d748ca9-71e7-46b0-9384-556cf20677f9"
-      ],
-      "disabled": true,
-      "settings": {
-        "mobile_only": false,
-        "desktop_only": false,
-        "title": "CURSOS IN-COMPANY",
-        "text": "Nossos cursos remotos e presenciais estão disponíveis para turmas exclusivas, com opções de customização para que a jornada de aprendizagem faça sentido para o seu negócio e sua agenda.",
-        "bg_color": "#f3f0ed",
-        "bg_gradient": "",
-        "bg_image": "shopify://shop_images/2-Remoto.jpg",
-        "font_color": "text-dark",
-        "title_size": "display-1",
-        "text_size": "fs-4",
-        "container": "container-fluid",
-        "layout-align": "right",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 0,
-        "mb_sm": 0
-      }
-    },
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975": {
-      "type": "button-section",
-      "blocks": {
-        "726717ac-617a-4f9a-8b5f-fca52b092f42": {
-          "type": "button",
-          "settings": {
-            "text": "Mandar e-mail",
-            "url": "mailto:benito.berretta@hyperisland.com",
-            "target": false,
-            "zap": false,
-            "zap_number": "",
-            "zap_msg": "",
-            "style": "rounded-white"
-          }
-        },
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334": {
-          "type": "button",
-          "settings": {
-            "text": "Enviar Mensagem",
-            "url": "",
-            "target": false,
-            "zap": true,
-            "zap_number": "5511991352064",
-            "zap_msg": "Olá, gostaria de saber mais sobre a Hyper Island.",
-            "style": "rounded-white"
-          }
-        }
-      },
-      "block_order": [
-        "726717ac-617a-4f9a-8b5f-fca52b092f42",
-        "709e746d-79fc-4e8a-b7cd-cf6ac3f99334"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "FALE COM O BENITO",
-        "text": "Queremos te ouvir! Agende uma conversa com o Benito e saiba como a Hyper Island pode ajudar a sua empresa ou equipe.",
-        "img": "shopify://shop_images/fotoBenito.jpg",
-        "bg_color": "#000000",
-        "bg_gradient": "",
-        "font_color": "text-light",
-        "title_size": "display-5",
-        "text_size": "fs-4",
-        "layout_align": "five",
-        "align_desktop": "text-lg-left",
-        "align_mobile": "text-left",
-        "content_width": "w-lg-auto",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 0,
-        "mb_xl": 0,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 0,
-        "mb_lg": 0,
-        "pt_sm": 10,
-        "pb_sm": 10,
         "mt_sm": 0,
         "mb_sm": 0
       }
@@ -1188,10 +1197,9 @@
     "title_section_qKnncj",
     "content_8Ct4hi",
     "sp_video_standalone_xcN4Br",
+    "sp_image_marquee_carrossel_4xkxrz",
     "html_AwdrLH",
     "newsletter_session_wqbhG8",
-    "0ecdc749-4f62-466d-a1a6-e3ff2f9185ad",
-    "c6fc23ab-03c0-4570-b724-c2b2b2b6c975",
     "ca91f808-6934-447a-aaba-35feb8712939"
   ]
 }
