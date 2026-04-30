@@ -1,0 +1,412 @@
+<section 
+    class="px-lg-12 px-md-4 px-4 pb-lg-{{section.settings.spb_lg}} mb-lg-{{section.settings.smb_lg}} pb-{{section.settings.spb_xs}} mb-{{section.settings.smb_xs}}"
+    {% if section.settings.bg_gradient != blank %} 
+    style="background: {{ section.settings.bg_gradient }}"
+    {% else %}
+    style="background-color: {{ section.settings.bg_color }}"
+    {% endif %}
+>
+    <div class="position-relative zi-1 text-xl-start container">
+        <div class="mb-{{ section.settings.mb_sm }} mt-{{ section.settings.mt_sm }} pb-{{ section.settings.pb_sm }} pt-{{ section.settings.pt_sm }} mb-lg-{{ section.settings.mb_lg }} mt-lg-{{ section.settings.mt_lg }} pb-lg-{{ section.settings.pb_lg }} pt-lg-{{ section.settings.pt_lg }} mb-xl-{{ section.settings.mb_xl }} mt-xl-{{ section.settings.mt_xl }} pb-xl-{{ section.settings.pb_xl }} pt-xl-{{ section.settings.pt_xl }}">
+
+            <div class="row align-items-center {{ section.settings.row_direction }}">
+
+                {%- comment -%} ── CONTENT COLUMN ── {%- endcomment -%}
+                <div class="col-lg-{{ section.settings.content_col }} col-12 {{ section.settings.align_desktop }} {{ section.settings.align_mobile }} mb-6 mb-lg-0">
+                    {% if section.settings.svg != blank %}
+                        {{ section.settings.svg }}
+                    {% endif %}
+                    {% if section.settings.header != blank %}
+                        <p class="text-decoration-underline text-uppercase fw-bold {{ section.settings.font_color }} {{ section.settings.header_size }}">
+                            {{ section.settings.header }}
+                        </p>
+                    {% endif %}
+                    {% if section.settings.title != blank %}
+                        <h1 class="mb-6 {{ section.settings.font_color }} {{ section.settings.title_size }}" data-aos="fade-down" data-aos-delay="150">
+                            {{ section.settings.title }}
+                        </h1>
+                    {% endif %}
+                    {% if section.settings.text != blank %}
+                        <p class="pb-0 mb-0 {{ section.settings.text_size }} {{ section.settings.font_color }}" data-aos="fade-down" data-aos-delay="250">
+                            {{ section.settings.text }}
+                        </p>
+                    {% endif %}
+                </div>
+
+                {%- comment -%} ── CARD COLUMN ── {%- endcomment -%}
+                <div class="col-lg-{{ section.settings.card_col }} col-12" data-aos="fade-down" data-aos-delay="200">
+                    {% if section.settings.card_url != blank %}
+                        <a href="{{ section.settings.card_url }}"
+                           target="{% if section.settings.card_target == true %}_blank{% else %}_self{% endif %}"
+                           class="click-card text-center d-block">
+                    {% else %}
+                        <div class="text-center">
+                    {% endif %}
+
+                    <div 
+                        class="content-container hyper-card {% if section.settings.card_img == blank %} d-flex align-items-center {% endif %}"
+                        {% if section.settings.card_bg_gradient != blank %}
+                            style="background: {{ section.settings.card_bg_gradient }}"
+                        {% elsif section.settings.card_bg_color != blank %}
+                            style="background-color: {{ section.settings.card_bg_color }}"
+                        {% endif %}
+                    >
+                        {% if section.settings.card_img != blank %}
+                            {{ section.settings.card_img | image_url: width: 800 | image_tag }}
+                        {% endif %}
+
+                        <div class="hyper-card-content">
+                            {% if section.settings.card_svg != blank %}
+                                {{ section.settings.card_svg }}
+                            {% endif %}
+                            {% if section.settings.card_header != blank %}
+                                <p class="text-decoration-underline text-uppercase fw-bold {{ section.settings.c_font_color }} {{ section.settings.c_header_size }}">
+                                    {{ section.settings.card_header }}
+                                </p>
+                            {% endif %}
+                            {% if section.settings.card_title != blank %}
+                                <h1 class="display-8 {{ section.settings.c_font_color }} {% if section.settings.card_text == blank %} p-0 m-0 {% endif %}">
+                                    {{ section.settings.card_title }}
+                                </h1>
+                            {% endif %}
+                            {% if section.settings.card_text != blank %}
+                                <p class="mt-6 pb-0 fs-7 mb-0 {{ section.settings.c_font_color }}">
+                                    {{ section.settings.card_text }}
+                                </p>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    {% if section.settings.card_url != blank %}
+                        </a>
+                    {% else %}
+                        </div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Content + Card Section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "row_direction",
+      "label": "Content Position",
+      "options": [
+        { "value": "",                  "label": "Content Left / Card Right" },
+        { "value": "flex-row-reverse",  "label": "Content Right / Card Left" }
+      ],
+      "default": ""
+    },
+    {
+      "type": "select",
+      "id": "content_col",
+      "label": "Content Column Width",
+      "options": [
+        { "value": "4",  "label": "33%" },
+        { "value": "5",  "label": "42%" },
+        { "value": "6",  "label": "50%" },
+        { "value": "7",  "label": "58%" },
+        { "value": "8",  "label": "67%" }
+      ],
+      "default": "6"
+    },
+    {
+      "type": "select",
+      "id": "card_col",
+      "label": "Card Column Width",
+      "options": [
+        { "value": "4",  "label": "33%" },
+        { "value": "5",  "label": "42%" },
+        { "value": "6",  "label": "50%" },
+        { "value": "7",  "label": "58%" },
+        { "value": "8",  "label": "67%" }
+      ],
+      "default": "6"
+    },
+    {
+      "type": "header",
+      "content": "── CONTENT ──"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "About Hyper with numbers"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Subtitle"
+    },
+    {
+      "type": "html",
+      "id": "svg",
+      "label": "SVG Icon"
+    },
+    {
+      "type": "header",
+      "content": "Content Typography"
+    },
+    {
+      "type": "select",
+      "id": "font_color",
+      "label": "Font Color",
+      "options": [
+        { "value": "text-dark",  "label": "Dark" },
+        { "value": "text-light", "label": "White" }
+      ],
+      "default": "text-dark"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Title Size",
+      "options": [
+        { "value": "display-1", "label": "5.5 rem (88px)" },
+        { "value": "display-2", "label": "5 rem (80px)" },
+        { "value": "display-3", "label": "4.5 rem (72px)" },
+        { "value": "display-4", "label": "3.75 rem (60px)" },
+        { "value": "display-5", "label": "3 rem (48px)" },
+        { "value": "display-6", "label": "2.5 rem (40px)" }
+      ],
+      "default": "display-4"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Text Size",
+      "options": [
+        { "value": "fs-1", "label": "1.5 rem (24px)" },
+        { "value": "fs-2", "label": "1.375 rem (22px)" },
+        { "value": "fs-3", "label": "1.25 rem (20px)" },
+        { "value": "fs-4", "label": "1.125 rem (18px)" },
+        { "value": "fs-5", "label": "0.875 rem (14px)" },
+        { "value": "fs-6", "label": "0.75 rem (12px)" }
+      ],
+      "default": "fs-4"
+    },
+    {
+      "type": "select",
+      "id": "header_size",
+      "label": "Subtitle Size",
+      "options": [
+        { "value": "fs-1", "label": "1.5 rem (24px)" },
+        { "value": "fs-2", "label": "1.375 rem (22px)" },
+        { "value": "fs-3", "label": "1.25 rem (20px)" },
+        { "value": "fs-4", "label": "1.125 rem (18px)" },
+        { "value": "fs-5", "label": "0.875 rem (14px)" },
+        { "value": "fs-6", "label": "0.75 rem (12px)" }
+      ],
+      "default": "fs-6"
+    },
+    {
+      "type": "select",
+      "id": "align_desktop",
+      "label": "Content Align (Desktop)",
+      "options": [
+        { "value": "text-lg-start",  "label": "Left" },
+        { "value": "text-lg-center", "label": "Center" }
+      ],
+      "default": "text-lg-start"
+    },
+    {
+      "type": "select",
+      "id": "align_mobile",
+      "label": "Content Align (Mobile)",
+      "options": [
+        { "value": "text-start",  "label": "Left" },
+        { "value": "text-center", "label": "Center" }
+      ],
+      "default": "text-start"
+    },
+    {
+      "type": "header",
+      "content": "── CARD ──"
+    },
+    {
+      "type": "image_picker",
+      "id": "card_img",
+      "label": "Card Image"
+    },
+    {
+      "type": "text",
+      "id": "card_header",
+      "label": "Card Subtitle"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "card_title",
+      "label": "Card Title",
+      "default": "Criatividade Aplicada"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "card_text",
+      "label": "Card Text",
+      "default": "Expanda sua confiança criativa e destrave o seu potencial individual e coletivo."
+    },
+    {
+      "type": "html",
+      "id": "card_svg",
+      "label": "Card SVG Icon"
+    },
+    {
+      "type": "url",
+      "id": "card_url",
+      "label": "Card Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "card_target",
+      "label": "Open Link in New Tab"
+    },
+    {
+      "type": "header",
+      "content": "Card Typography"
+    },
+    {
+      "type": "select",
+      "id": "c_font_color",
+      "label": "Card Font Color",
+      "options": [
+        { "value": "text-dark",  "label": "Dark" },
+        { "value": "text-light", "label": "White" }
+      ],
+      "default": "text-dark"
+    },
+    {
+      "type": "select",
+      "id": "c_header_size",
+      "label": "Card Subtitle Size",
+      "options": [
+        { "value": "fs-1", "label": "1.5 rem (24px)" },
+        { "value": "fs-2", "label": "1.375 rem (22px)" },
+        { "value": "fs-3", "label": "1.25 rem (20px)" },
+        { "value": "fs-4", "label": "1.125 rem (18px)" },
+        { "value": "fs-5", "label": "0.875 rem (14px)" },
+        { "value": "fs-6", "label": "0.75 rem (12px)" }
+      ],
+      "default": "fs-6"
+    },
+    {
+      "type": "header",
+      "content": "Card Background"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card Background Color"
+    },
+    {
+      "type": "color_background",
+      "id": "card_bg_gradient",
+      "label": "Card Background Gradient"
+    },
+    {
+      "type": "header",
+      "content": "Section Background"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "bg_gradient",
+      "label": "Background Gradient"
+    },
+    {
+      "type": "header",
+      "content": "Spacing (Extra Large Desktop)"
+    },
+    {
+      "type": "range", "id": "pt_xl", "label": "Padding Top",    "min": 0, "max": 20, "step": 1, "default": 13
+    },
+    {
+      "type": "range", "id": "pb_xl", "label": "Padding Bottom", "min": 0, "max": 20, "step": 1, "default": 13
+    },
+    {
+      "type": "range", "id": "mt_xl", "label": "Margin Top",     "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "range", "id": "mb_xl", "label": "Margin Bottom",  "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing (Desktop)"
+    },
+    {
+      "type": "range", "id": "pt_lg", "label": "Padding Top",    "min": 0, "max": 20, "step": 1, "default": 13
+    },
+    {
+      "type": "range", "id": "pb_lg", "label": "Padding Bottom", "min": 0, "max": 20, "step": 1, "default": 13
+    },
+    {
+      "type": "range", "id": "mt_lg", "label": "Margin Top",     "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "range", "id": "mb_lg", "label": "Margin Bottom",  "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing (Mobile)"
+    },
+    {
+      "type": "range", "id": "pt_sm", "label": "Padding Top",    "min": 0, "max": 20, "step": 1, "default": 10
+    },
+    {
+      "type": "range", "id": "pb_sm", "label": "Padding Bottom", "min": 0, "max": 20, "step": 1, "default": 10
+    },
+    {
+      "type": "range", "id": "mt_sm", "label": "Margin Top",     "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "range", "id": "mb_sm", "label": "Margin Bottom",  "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Bottom Section (Desktop)"
+    },
+    {
+      "type": "range", "id": "spb_lg", "label": "Padding Bottom", "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "range", "id": "smb_lg", "label": "Margin Bottom",  "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Spacing Bottom Section (Mobile)"
+    },
+    {
+      "type": "range", "id": "spb_xs", "label": "Padding Bottom", "min": 0, "max": 20, "step": 1, "default": 0
+    },
+    {
+      "type": "range", "id": "smb_xs", "label": "Margin Bottom",  "min": 0, "max": 20, "step": 1, "default": 0
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "HI23 Content + Card Section"
+    }
+  ]
+}
+{% endschema %}
