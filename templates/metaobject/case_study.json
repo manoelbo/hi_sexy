@@ -454,7 +454,7 @@
       "name": "Video Standalone",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 300,
+        "max_width": 600,
         "padding_top": 0,
         "padding_bottom": 25,
         "padding_left": 10,
@@ -466,6 +466,64 @@
         "video_controls": true,
         "video_muted": false,
         "big_play_pause_button": true
+      }
+    },
+    "richtext_6t9WbY": {
+      "type": "richtext",
+      "name": "Richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "960",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "{{ metaobject.case_part_3 | metafield_tag }}",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 10,
+        "pb": 0,
+        "mt": 10,
+        "mb": 0
+      }
+    },
+    "sp_image_standalone_jMphPE": {
+      "type": "sp-image-standalone",
+      "name": "Image Standalone",
+      "settings": {
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "max_width": 1000,
+        "padding_top": 25,
+        "padding_bottom": 0,
+        "padding_left": 10,
+        "padding_right": 10,
+        "image": "{{ metaobject.imagem_principal.value }}",
+        "media_aspect_ratio": "16 / 9",
+        "media_radius": 5,
+        "media_shadow": true
+      }
+    },
+    "richtext_xDNH7D": {
+      "type": "richtext",
+      "name": "Richtext",
+      "settings": {
+        "bg_color": "",
+        "max_width": "960",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "{{ metaobject.case_part_4 | metafield_tag }}",
+        "description_size": "fs-6",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_color": "btn-primary",
+        "btn_size": "",
+        "pt": 5,
+        "pb": 0,
+        "mt": 10,
+        "mb": 0
       }
     },
     "sp_accordion_nPKTNY": {
@@ -666,6 +724,9 @@
     "sp_video_rich_text_YaUkmV",
     "content_MBLRKH",
     "sp_video_standalone_zJ6Bap",
+    "richtext_6t9WbY",
+    "sp_image_standalone_jMphPE",
+    "richtext_xDNH7D",
     "sp_accordion_nPKTNY",
     "button_section_NpfpTm",
     "clients_pL3aRt"
