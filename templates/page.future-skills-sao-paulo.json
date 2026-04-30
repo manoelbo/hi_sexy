@@ -316,7 +316,7 @@
       "type": "content-card-section",
       "name": "HI23 Content + Card Section",
       "settings": {
-        "row_direction": "flex-row-reverse",
+        "row_direction": "",
         "content_col": "6",
         "card_col": "6",
         "title": "DIA 02",
@@ -329,7 +329,7 @@
         "header_size": "fs-5",
         "align_desktop": "text-lg-start",
         "align_mobile": "text-start",
-        "card_img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_01_v2_3efcff8e-567a-443d-8329-97929b4a82f6.jpg",
+        "card_img": "shopify://shop_images/Banner_Future_Skills_2025_Dia_02_v2_4b2f8840-a507-4ce7-9a43-0f11fe9b3c06.jpg",
         "card_header": "",
         "card_title": "ACESSE JÁ",
         "card_text": "",
