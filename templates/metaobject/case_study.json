@@ -422,7 +422,7 @@
         "layout": "col-md-6",
         "content_align_desktop": "text-lg-center",
         "content_align_mobile": "text-left",
-        "default_spacing": false,
+        "default_spacing": true,
         "pt_xl": 8,
         "pb_xl": 0,
         "mt_xl": 0,
@@ -454,7 +454,7 @@
       "name": "Video Standalone",
       "settings": {
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "max_width": 600,
+        "max_width": 500,
         "padding_top": 0,
         "padding_bottom": 25,
         "padding_left": 10,
@@ -493,13 +493,13 @@
       "type": "sp-image-standalone",
       "name": "Image Standalone",
       "settings": {
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
         "max_width": 1000,
         "padding_top": 25,
         "padding_bottom": 0,
         "padding_left": 10,
         "padding_right": 10,
-        "image": "{{ metaobject.imagem_principal.value }}",
+        "image": "{{ metaobject.imgem_principal_2.value }}",
         "media_aspect_ratio": "16 / 9",
         "media_radius": 5,
         "media_shadow": true
