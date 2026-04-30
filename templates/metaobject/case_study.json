@@ -499,7 +499,7 @@
         "padding_bottom": 0,
         "padding_left": 10,
         "padding_right": 10,
-        "image": "{{ metaobject.imgem_principal_2.value }}",
+        "image": "{{ metaobject.imagem_principal.value }}",
         "media_aspect_ratio": "16 / 9",
         "media_radius": 5,
         "media_shadow": true
