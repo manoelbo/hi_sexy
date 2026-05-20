@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "card_cXKbjM": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/ChatGPT_Image_20_de_mai._de_2026_10_32_37.png",
+            "category_id": "liderança",
+            "title": "Leadership Balance Assessment",
+            "text": "Um diagnóstico rápido que ajuda líderes e organizações a entenderem como equilibram performance, inovação e as condições culturais necessárias para evoluir.",
+            "url": "https://leadership-assessment.hyperislandamericas.com/",
+            "target": true
+          }
+        },
         "card_bcxUJD": {
           "type": "card",
           "settings": {
@@ -460,6 +471,7 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "card_cXKbjM",
         "card_bcxUJD",
         "card_Kdpg8D",
         "card_hj4Gm4",
