@@ -410,6 +410,17 @@
             "target": true
           }
         },
+        "card_HmyAJn": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Design_sem_nome_3.gif",
+            "category_id": "inovação",
+            "title": "Mash-up Generator",
+            "text": "Um <strong>gerador de perguntas de check-in e check-out</strong> ajuda líderes a criarem perguntas rápidas para abrir e encerrar reuniões, workshops ou treinamentos com mais presença, escuta e intenção.",
+            "url": "https://www.hyperisland.com.br/pages/perguntas-de-check-in",
+            "target": true
+          }
+        },
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d": {
           "type": "card",
           "settings": {
@@ -501,6 +512,7 @@
         "03eb4d2f-0961-44b1-917a-8ca2d0835017",
         "67c5c0dd-270b-4159-bb7c-986b8f5d72ff",
         "card_dbUgLz",
+        "card_HmyAJn",
         "acf64343-adf9-4ed3-8eb0-2d4da0d6227d",
         "f37f56f8-9c6f-4ce7-a2e8-0bc9695b5735",
         "f32b31eb-e735-4799-abfa-65c5cb2f1936",
