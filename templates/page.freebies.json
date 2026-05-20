@@ -232,6 +232,17 @@
             "target": true
           }
         },
+        "c348b121-119f-4505-8471-332c2ba2a87b": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Mockup_Hyper_Trends_3.png",
+            "category_id": "futuros",
+            "title": "Trends Platform 2026",
+            "text": "Coleção dos Relatórios de Tendências de 2026 com curadoria da Hyper Island e assistente de IA",
+            "url": "https://trendsplatform.hyperislandamericas.com/",
+            "target": true
+          }
+        },
         "card_bcxUJD": {
           "type": "card",
           "settings": {
@@ -273,18 +284,6 @@
             "title": "Teste - Que tipo de Líder você é?",
             "text": "Descubra seu estilo de liderança e como você guia pessoas em cenários de incerteza, transformação e oportunidades.",
             "url": "shopify://pages/que-tipo-de-lider-voce-e",
-            "target": true
-          }
-        },
-        "c348b121-119f-4505-8471-332c2ba2a87b": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "img": "shopify://shop_images/Mockup_Hyper_Trends_3.png",
-            "category_id": "futuros",
-            "title": "App Hyper Trends 2025",
-            "text": "Coleção dos Relatórios de Tendências de 2025 com curadoria da Hyper Island.",
-            "url": "shopify://pages/trends-app-2025",
             "target": true
           }
         },
@@ -496,11 +495,11 @@
         "card_cXKbjM",
         "card_dbUgLz",
         "card_HmyAJn",
+        "c348b121-119f-4505-8471-332c2ba2a87b",
         "card_bcxUJD",
         "card_Kdpg8D",
         "card_hj4Gm4",
         "bfc48bf5-5e68-4e3d-8f93-11542efbd1a0",
-        "c348b121-119f-4505-8471-332c2ba2a87b",
         "51d4d49e-2611-431b-a829-381dc115762f",
         "7b11fc4d-e999-42f3-be08-c09e7450e6ed",
         "e87ab430-4cd0-4c98-aed0-3ae1f2e0110f",
