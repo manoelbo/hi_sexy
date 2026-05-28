@@ -409,12 +409,24 @@
         },
         "card_4KCh63": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/LIDERANDO_FUTUROS_DIGITAIS_PRESENCIAL_4f478755-9fab-40d7-8ed1-24dc63f58c0f.png",
             "category_id": "",
             "title": "Liderando Futuros Digitais",
             "text": "<strong>Turma de Janeiro ESGOTADA - Entre para a lista de Espera.  </strong>Este curso oferece 10 créditos de mestrando Nível 7 creditados pela Teesside University, do Reino Unido. Você aprenderá as habilidades necessárias para explorar cenários organizacionais futuros, propor estratégias e desenvolver planos de ação pessoais.",
             "url": "shopify://products/liderando-futuros-digitais",
+            "target": true
+          }
+        },
+        "card_XgTHxH": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/FUTURE_SKILLS_PRESENCIAL.png",
+            "category_id": "",
+            "title": "Future Skills Masterclass - São Paulo",
+            "text": "<strong>Dias 19 e 20 de Agosto.  </strong>Criado para te preparar com a mentalidade e as ferramentas necessárias para prosperar em um mundo em constante transformação.",
+            "url": "shopify://pages/future-skills-sao-paulo",
             "target": true
           }
         }
@@ -427,7 +439,8 @@
         "card_Dq6U33",
         "card_NAHUtz",
         "card_k4Hrmk",
-        "card_4KCh63"
+        "card_4KCh63",
+        "card_XgTHxH"
       ],
       "settings": {
         "font_color": "text-dark",
