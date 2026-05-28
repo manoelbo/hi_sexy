@@ -161,5 +161,11 @@
         "settings": {}
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "h3 {font-size: 1.5rem !important;}",
+      "h4 {font-size: 1.5rem !important;}"
+    ]
   }
 }
