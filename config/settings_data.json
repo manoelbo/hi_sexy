@@ -164,7 +164,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "h3 {font-size: 1.5rem !important;}",
+      "h3 {font-size: 1.7rem !important;}",
       "h4 {font-size: 1.5rem !important;}"
     ]
   }
