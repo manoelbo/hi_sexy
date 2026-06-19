@@ -827,6 +827,43 @@
         "mt_sm": 13,
         "mb_sm": 13
       }
+    },
+    "header_video_3DXtmA": {
+      "type": "header-video",
+      "disabled": true,
+      "name": "HI23 Header Hero Video Full",
+      "settings": {
+        "mobile_only": false,
+        "desktop_only": false,
+        "title": "Prepare-se para o desconhecido",
+        "text": "Descubra novas formas de cocriar, aprender e se transformar por meio de experiências que geram impacto real.",
+        "bg_color": "#E3DFD3",
+        "bg_gradient": "",
+        "bg_video": "shopify://files/videos/Video Home Website.mp4",
+        "bg_video_url": "",
+        "disable_video_mobile": true,
+        "overlay_opacity": 60,
+        "font_color": "text-light",
+        "title_size": "display-0",
+        "text_size": "fs-4",
+        "container": "container-fluid",
+        "align_desktop": "text-lg-left",
+        "align_mobile": "text-left",
+        "content_width": "w-lg-50",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 0,
+        "mb_xl": 0,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 0,
+        "mb_lg": 0,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 0,
+        "mb_sm": 0
+      }
     }
   },
   "order": [
@@ -847,6 +884,7 @@
     "header_b6yGPP",
     "31524baf-3a3c-4284-9f0b-2058f23ab947",
     "dbc4c92e-a9a2-4f2c-825b-31cdd278d41e",
-    "4e41194f-fd9b-4c9e-8166-1426ddc34160"
+    "4e41194f-fd9b-4c9e-8166-1426ddc34160",
+    "header_video_3DXtmA"
   ]
 }
