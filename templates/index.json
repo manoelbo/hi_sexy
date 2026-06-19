@@ -11,14 +11,13 @@
   "sections": {
     "header_video_3DXtmA": {
       "type": "header-video",
-      "disabled": true,
       "name": "HI23 Header Hero Video Full",
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
         "title": "Prepare-se para o desconhecido",
         "text": "Descubra novas formas de cocriar, aprender e se transformar por meio de experiências que geram impacto real.",
-        "bg_color": "#E3DFD3",
+        "bg_color": "#e3dfd3",
         "bg_gradient": "",
         "bg_video": "shopify://files/videos/Video Home Website.mp4",
         "bg_video_url": "",
