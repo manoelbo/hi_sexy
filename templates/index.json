@@ -44,6 +44,7 @@
     },
     "9f283b33-429f-4be2-9686-34bba2bf65cb": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": true,
         "desktop_only": false,
