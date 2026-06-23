@@ -55,7 +55,9 @@
         "article_nkirAL",
         "article_bdtFg9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "name": "Destaques do Blog",
       "settings": {
         "title": "Artigos em Português",
