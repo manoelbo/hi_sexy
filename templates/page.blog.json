@@ -30,17 +30,16 @@
     "blog_highlights_3jr4Fn": {
       "type": "blog-highlights",
       "blocks": {
+        "article_GWLyL9": {
+          "type": "article",
+          "settings": {
+            "article": "news/facilitacao-a-habilidade-mais-negligenciada-da-lideranca"
+          }
+        },
         "article_nkirAL": {
           "type": "article",
           "settings": {
             "article": "news/o-lider-o-maratonista-e-o-panda-gigante"
-          }
-        },
-        "article_GWLyL9": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/os-tres-terriveis-f-s-da-aprendizagem"
           }
         },
         "article_bdtFg9": {
@@ -52,10 +51,11 @@
         }
       },
       "block_order": [
-        "article_nkirAL",
         "article_GWLyL9",
+        "article_nkirAL",
         "article_bdtFg9"
       ],
+      "custom_css": [],
       "name": "Destaques do Blog",
       "settings": {
         "title": "Artigos em Português",
@@ -68,7 +68,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
@@ -342,17 +342,16 @@
     "blog_highlights_aXknDr": {
       "type": "blog-highlights",
       "blocks": {
+        "article_nUX87i": {
+          "type": "article",
+          "settings": {
+            "article": "news/competencies-for-quantum-computing-a-closer-when"
+          }
+        },
         "article_GzntLR": {
           "type": "article",
           "settings": {
             "article": "news/the-leader-the-binge-watcher-and-the-giant-panda"
-          }
-        },
-        "article_nUX87i": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/the-three-terrible-f-s-of-learning"
           }
         },
         "article_MWtzJr": {
@@ -364,8 +363,8 @@
         }
       },
       "block_order": [
-        "article_GzntLR",
         "article_nUX87i",
+        "article_GzntLR",
         "article_MWtzJr"
       ],
       "settings": {
@@ -379,7 +378,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-12 blog-card-row",
+        "layout": "col-md-6",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 11,
