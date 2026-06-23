@@ -110,6 +110,9 @@
         "article_M8HPUH",
         "article_R4kaUM"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "name": "Destaques do Blog",
       "settings": {
         "title": "",
@@ -161,6 +164,9 @@
         "article_NcKLj7",
         "article_4UJqpG",
         "article_kzd9rH"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
       ],
       "name": "Destaques do Blog",
       "settings": {
