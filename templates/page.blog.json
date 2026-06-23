@@ -220,6 +220,9 @@
         "article_8JatVJ",
         "article_kTFwtN"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "name": "Destaques do Blog",
       "settings": {
         "title": "",
@@ -272,6 +275,9 @@
         "article_n6j46F",
         "article_NmWCPi"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "settings": {
         "title": "",
         "show_title": true,
@@ -322,6 +328,9 @@
         "article_3mkNMG",
         "article_HWeMjE",
         "article_FJKemM"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
       ],
       "settings": {
         "title": "",
@@ -375,6 +384,9 @@
         "article_GzntLR",
         "article_MWtzJr"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "settings": {
         "title": "Artigos em Inglês",
         "show_title": true,
@@ -425,6 +437,9 @@
         "article_3DfgTp",
         "article_EUKEGw",
         "article_LtBaH4"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
       ],
       "settings": {
         "title": "",
@@ -477,6 +492,9 @@
         "article_9k3krY",
         "article_jQGJAk"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "settings": {
         "title": "",
         "show_title": true,
@@ -527,6 +545,9 @@
         "article_8mxCzH",
         "article_UANFwK",
         "article_kMhhj3"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
       ],
       "settings": {
         "title": "",
@@ -579,6 +600,9 @@
         "article_V6ECQf",
         "article_itiq8M"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "settings": {
         "title": "",
         "show_title": true,
@@ -630,6 +654,9 @@
         "article_W8Xbke",
         "article_zW3Lq7"
       ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
       "settings": {
         "title": "",
         "show_title": true,
@@ -666,6 +693,9 @@
       },
       "block_order": [
         "article_MrFnMf"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
       ],
       "settings": {
         "title": "",
