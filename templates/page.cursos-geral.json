@@ -409,6 +409,7 @@
         },
         "card_4KCh63": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/LIDERANDO_FUTUROS_DIGITAIS_PRESENCIAL_4f478755-9fab-40d7-8ed1-24dc63f58c0f.png",
             "category_id": "",
