@@ -213,7 +213,7 @@
         "card_dbUgLz": {
           "type": "card",
           "settings": {
-            "img": "shopify://shop_images/download_27.gif",
+            "img": "shopify://shop_images/checkin_thumbnail.png",
             "category_id": "liderança",
             "title": "Perguntas de Check-in & Check-out",
             "text": "Um <strong>gerador de perguntas de check-in e check-out</strong> ajuda líderes a criarem perguntas rápidas para abrir e encerrar reuniões, workshops ou treinamentos com mais presença, escuta e intenção.",
@@ -224,7 +224,7 @@
         "card_HmyAJn": {
           "type": "card",
           "settings": {
-            "img": "shopify://shop_images/Design_sem_nome_3.gif",
+            "img": "shopify://shop_images/ChatGPT_Image_23_de_jun._de_2026_08_35_11.png",
             "category_id": "inovação",
             "title": "Mash-up Generator",
             "text": "Combine necessidades humanas, fontes de dados, tecnologias e cenários futuros para criar ideias improváveis, úteis e provocativas.",
