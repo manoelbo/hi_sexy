@@ -55,6 +55,76 @@
         "padding_right": 0
       }
     },
+    "content_VqpDUi": {
+      "type": "content",
+      "blocks": {
+        "content_rVGMLT": {
+          "type": "content",
+          "settings": {
+            "title": "<strong>30%</strong> DE DESCONTO",
+            "text": "em todos os cursos online com o cupom <strong>HI30ANOS</strong>",
+            "header": "ANIVERSÁRIO DE 30 ANOS",
+            "svg": "",
+            "bg_color": "",
+            "bg_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_rVGMLT"
+      ],
+      "disabled": true,
+      "settings": {
+        "hidden": false,
+        "title": "",
+        "text": "",
+        "font_color": "text-light",
+        "title_size": "display-6",
+        "text_size": "fs-6",
+        "header": "",
+        "header_size": "fs-6",
+        "svg": "<div style=\"display:flex; justify-content:center; align-items:center; width:100%; margin-bottom:80px;\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 793.27 256.96\" style=\"width:100%; max-width:280px; height:auto; display:block; margin:0 auto;\">\n    <defs>\n      <style>\n        .cls-1, .cls-2 {\n          fill: #ff7300;\n        }\n        .cls-2 {\n          font-family: Montserrat-Light, Montserrat;\n          font-size: 258.92px;\n          font-weight: 300;\n        }\n        .cls-3 {\n          fill: #fff;\n        }\n      </style>\n    </defs>\n    <text class=\"cls-2\" transform=\"translate(.61 197.26)\"><tspan x=\"0\" y=\"0\">3</tspan></text>\n    <path class=\"cls-1\" d=\"M278.57,46.36h-15.4c-10.43-17.18-29.31-28.68-50.84-28.68-32.77,0-59.43,26.66-59.43,59.43,0,17.88,8.02,34.66,21.69,45.91v16.63c-1.05-.63-2.08-1.3-3.1-1.98-20.16-13.62-32.2-36.26-32.2-60.56,0-40.27,32.76-73.04,73.04-73.04,29.29,0,54.61,17.33,66.24,42.28\"></path>\n    <g id=\"Lager_1\" data-name=\"Lager 1\">\n      <path class=\"cls-3\" d=\"M214.84,86.02h40.79v25.84h25.52v-25.84h40.79v75h-40.79v-27.2h-25.52v27.2h-40.79v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M365.04,141.51l-38.81-55.49h46.76l12.92,22.59,12.92-22.59h46.34l-38.81,55.33v19.66h-41.32v-19.51Z\"></path>\n      <path class=\"cls-3\" d=\"M449.4,86.02h54.97c27.93,0,45.97,7.27,45.97,26.31s-17.26,27.72-45.81,27.72h-14.33v20.97h-40.79v-75ZM496.26,122.26c9.15,0,13.81-2.88,13.81-9.52s-4.71-9.2-13.6-9.2h-6.28v18.72h6.07Z\"></path>\n      <path class=\"cls-3\" d=\"M555.66,86.02h93.93v18.57h-53.14v8.63h43.72v19.25h-43.72v9.47h53.14v19.09h-93.93v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M655.17,86.02h66.26c25.78,0,37.97,7.37,37.97,21.13,0,12.19-9.21,17.99-20.92,20.08,13.6,1.67,22.12,5.91,22.12,19.61v14.17h-40.79v-13.86c0-8.79-5.18-11.19-16.47-11.19h-7.37v25.05h-40.79v-75ZM706.79,118.81c7.27,0,12.29-2.14,12.29-8.16s-4.92-7.48-12.29-7.48h-10.83v15.64h10.83Z\"></path>\n      <path class=\"cls-3\" d=\"M186.9,174.56h40.79v75h-40.79v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M232.35,227.27h44.4c.21,5.6,4.6,9,11.51,9,4.34,0,8.52-1.46,8.52-5.33,0-3.66-3.56-5.18-10.41-6.48l-18.46-3.45c-15.85-2.98-34.15-8-34.15-23.06,0-18.93,25-25.99,51.36-25.99,24.95,0,50.52,6.96,52.67,23.95h-42.68c-.63-6.07-5.02-8.05-10.09-8.05s-8.73,2.09-8.73,5.65c0,3.35,3.4,4.24,7.17,4.97l26.67,5.23c16.11,3.14,29.44,8.73,29.44,22.96,0,18.36-24.27,25.52-53.97,25.52s-52.4-8.68-53.24-24.9Z\"></path>\n      <path class=\"cls-3\" d=\"M344.44,174.56h40.79v52.25h45.92v22.75h-86.71v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M465.26,174.56h58.42l31.64,75h-44.09l-3.66-10.88h-27.09l-3.66,10.88h-43.04l31.48-75ZM501.24,218.49l-7.27-22.23-7.22,22.23h14.49Z\"></path>\n      <path class=\"cls-3\" d=\"M558.43,174.56h46.91l30.12,41.16v-41.16h36.4v75h-45.81l-31.17-42.78v42.78h-36.45v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M678.2,174.56h54.97c35.51,0,55.39,11.72,55.39,36.98s-19.3,38.02-55.59,38.02h-54.76v-75ZM724.69,230.2c12.66,0,20.45-5.39,20.45-18.67s-7.48-17.73-19.35-17.73h-6.85v36.4h5.75Z\"></path>\n    </g>\n  </svg>\n</div>",
+        "bg_color": "#000000",
+        "bg_gradient": "",
+        "align_desktop": "text-lg-center",
+        "align_mobile": "text-center",
+        "content_width": "w-lg-50",
+        "c_font_color": "text-light",
+        "c_title_size": "display-1",
+        "c_text_size": "fs-4",
+        "c_header_size": "fs-6",
+        "c_bg_color": "",
+        "c_bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-center",
+        "content_align_mobile": "text-center",
+        "default_spacing": false,
+        "pt_xl": 0,
+        "pb_xl": 0,
+        "mt_xl": 16,
+        "mb_xl": 2,
+        "pt_lg": 0,
+        "pb_lg": 0,
+        "mt_lg": 16,
+        "mb_lg": 5,
+        "pt_sm": 0,
+        "pb_sm": 0,
+        "mt_sm": 13,
+        "mb_sm": 5,
+        "py_lg": 0,
+        "px_lg": 0,
+        "my_lg": 0,
+        "mx_lg": 0,
+        "py_xs": 0,
+        "px_xs": 0,
+        "my_xs": 0,
+        "mx_xs": 4,
+        "spb_lg": 13,
+        "smb_lg": 0,
+        "spb_xs": 13,
+        "smb_xs": 0
+      }
+    },
     "5141daf1-700c-4f4a-bbce-4398352a1f4c": {
       "type": "course-header",
       "settings": {
@@ -85,34 +155,6 @@
         "date_est": "15-04-2023-18:00",
         "week_day": "Quata",
         "duration_text": "120"
-      }
-    },
-    "sp_media_grid_g8KMJD": {
-      "type": "sp-media-grid",
-      "blocks": {
-        "image_cAyRaC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hyper_friday_30_off_1.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_cAyRaC"
-      ],
-      "disabled": true,
-      "name": "Media Grid",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "21 / 9",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 25,
-        "padding_right": 25
       }
     },
     "5ca41278-01ed-4970-a967-bd751801d84e": {
@@ -1443,8 +1485,8 @@
   },
   "order": [
     "sp_media_grid_2_gqgLzn",
+    "content_VqpDUi",
     "5141daf1-700c-4f4a-bbce-4398352a1f4c",
-    "sp_media_grid_g8KMJD",
     "5ca41278-01ed-4970-a967-bd751801d84e",
     "sp_video_rich_text_GPWANR",
     "header_aPhqii",
