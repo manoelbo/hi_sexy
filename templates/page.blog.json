@@ -30,6 +30,12 @@
     "blog_highlights_3jr4Fn": {
       "type": "blog-highlights",
       "blocks": {
+        "article_bdtFg9": {
+          "type": "article",
+          "settings": {
+            "article": "news/trinta-anos-entre-tecnologia-aprendizagem-e-lideranca"
+          }
+        },
         "article_GWLyL9": {
           "type": "article",
           "settings": {
@@ -41,19 +47,12 @@
           "settings": {
             "article": "news/o-lider-o-maratonista-e-o-panda-gigante"
           }
-        },
-        "article_bdtFg9": {
-          "type": "article",
-          "disabled": true,
-          "settings": {
-            "article": "news/inteligencia-artificial-como-radicalizacao-do-projeto-epistemologico-de-francis-bacon"
-          }
         }
       },
       "block_order": [
+        "article_bdtFg9",
         "article_GWLyL9",
-        "article_nkirAL",
-        "article_bdtFg9"
+        "article_nkirAL"
       ],
       "custom_css": [
         "h3 {font-size: 2.7rem !important;}"
@@ -70,7 +69,7 @@
         "subtitle_size": 16,
         "bg_color": "#ffffff",
         "bg_gradient": "",
-        "layout": "col-md-6",
+        "layout": "col-lg-4",
         "content_align_desktop": "text-lg-left",
         "content_align_mobile": "text-left",
         "pt_lg": 13,
