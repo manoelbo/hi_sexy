@@ -524,9 +524,9 @@
         "content_mEq6Kt": {
           "type": "content",
           "settings": {
-            "title": "O  que muda quando a inteligência deixa de ser escassa",
-            "text": "A IA muda a lógica da liderança porque inteligência passa a ser abundante e acessível. Você vai entender como isso <strong>transforma expectativas, responsabilidades e o próprio papel do líder.</strong> E vai descobrir o que continua exclusivamente humano e ganha ainda mais valor neste novo cenário.",
-            "header": "",
+            "title": "O Mindset para Liderar a Transformação IA",
+            "text": "<strong>Entender o impacto real da IA no papel da liderança. </strong>Ir além do hype e reconhecer onde líderes estão perdendo relevância, clareza e controle. <strong>Identificar falhas, lacunas e má gestão na adoção de IA. </strong>Analisar por que tantas iniciativas não geram valor e onde estão os riscos invisíveis. <strong>Reposicionar sua responsabilidade como líder </strong>e reconhecer que, mesmo com IA tomando decisões, a accountability continua sendo humana.",
+            "header": "Módulo 1",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -535,9 +535,9 @@
         "content_9Jh4bf": {
           "type": "content",
           "settings": {
-            "title": "Redesenhando o trabalho: do strategy tasks skills ao workflow real",
-            "text": "Você aprende a analisar o trabalho por tarefas em vez de cargos e usa esse olhar para <strong>redesenhar workflows</strong> que aproveitam a IA de forma inteligente. Em vez de “adicionar IA” em práticas antigas, você aprende a <strong>reconstruir processos</strong> que liberam tempo, melhoram decisões e aumentam o impacto da equipe. Esse tema dá clareza imediata sobre onde a IA ajuda, onde atrapalha e onde o humano é indispensável.",
-            "header": "",
+            "title": "<strong>Pensamento Crítico e Tomada de Decisão com IA</strong>",
+            "text": "<strong>Entender como a IA “pensa” e decide. </strong>Compreender os limites, vieses e lógica dos modelos para evitar confiança cega. <strong>Desenvolver pensamento crítico aumentado </strong>e aprender a questionar, validar e desafiar outputs da IA de forma estruturada. <strong>Tomar decisões melhores com IA</strong> e utilizá-la como suporte sem terceirizar julgamento e responsabilidade.",
+            "header": "MÓDULO 2",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -546,9 +546,9 @@
         "content_Uxnf3N": {
           "type": "content",
           "settings": {
-            "title": "As competências humanas que ganham valor",
-            "text": "Você descobre quais habilidades humanas se tornam mais valiosas quando máquinas assumem parte do raciocínio. Trabalhamos <strong>empatia, adaptabilidade, comunicação influente e ética</strong> aplicada com foco na prática, para que você use essas competências no dia a dia e veja impacto rápido na equipe. Você também identifica suas lacunas e aprende como fortalecê las para liderar de forma mais clara e confiável.",
-            "header": "",
+            "title": "<strong>Redesenhando o Trabalho com IA</strong>",
+            "text": "<strong>Mapear o impacto da IA no seu trabalho e na sua equipe. </strong>Identificar o que desaparece, o que se transforma e o que ganha valor. <strong>Redesenhar tarefas, fluxos e decisões </strong>e estruturar novas formas de trabalhar combinando humanos e IA. <strong>Desenvolver habilidades humanas críticas</strong> e focar nas capacidades que se tornam mais valiosas à medida que a IA avança.",
+            "header": "Módulo 3",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -557,9 +557,9 @@
         "content_L4yY3M": {
           "type": "content",
           "settings": {
-            "title": "Liderando medo, incerteza e segurança psicológica",
-            "text": "Você aprende a <strong>reconhecer os medos</strong> que surgem quando a IA acelera mudanças e como <strong>criar segurança psicológica</strong> mesmo em momentos de instabilidade. Exploramos conversas difíceis e práticas que aumentam confiança, abertura e alinhamento. Esse tema ajuda você a <strong>manter sua equipe engajada</strong> quando tudo muda ao mesmo tempo.",
-            "header": "",
+            "title": "<strong>Conduzir a Transformação com o Ser Humano no Centro</strong>",
+            "text": "<strong>Ativar mudança em contextos reais. </strong>Traduzir conceitos em ações concretas dentro da sua organização. <strong>Navegar tensões e polaridades: </strong>Gerenciar conflitos entre eficiência e humanidade, controle e autonomia, risco e inovação. <strong>Construir sua narrativa de liderança na era da IA </strong>e definir como você lidera, comunica e engaja em meio à transformação.",
+            "header": "Módulo 4",
             "svg": "",
             "bg_color": "",
             "bg_gradient": ""
@@ -567,6 +567,7 @@
         },
         "content_pWPG4M": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Resolução de problemas com IA",
             "text": "Você descobre como a IA se torna uma parceira poderosa para <strong>formular hipóteses, testar cenários e acelerar ciclos de aprendizado</strong>. Aprendemos a <strong>quebrar problemas complexos em partes claras</strong> para resolver com mais foco e menos atrito. Isso ajuda você a transformar incerteza em ação e tomar decisões mais inteligentes com sua equipe.",
@@ -578,6 +579,7 @@
         },
         "content_edBAwz": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Tomada de decisão com IA e redução de vieses",
             "text": "Você aprende como a IA amplia nossa capacidade de análise, mas também intensifica alguns dos nossos vieses mais perigosos. Trabalhamos técnicas simples para <strong>avaliar outputs com consciência</strong>, equilibrar intuição e dados e evitar decisões precipitadas. Esse tema ajuda você a <strong>decidir com mais clareza</strong> mesmo quando tudo parece urgente.",
@@ -589,6 +591,7 @@
         },
         "content_GqqNJW": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "Colaboração humano-IA no dia a dia",
             "text": "Você aprende como integrar a IA ao trabalho de forma natural, sem atrito e sem perder controle ou qualidade. Exploramos como humanos e máquinas se complementam para <strong>ampliar resultados, acelerar entregas e eliminar tarefas que consomem tempo sem gerar valor</strong>. Esse tema ajuda você a transformar a IA em parceira real da equipe, não em mais uma ferramenta difícil de usar.",
@@ -600,6 +603,7 @@
         },
         "content_eh9p4L": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "title": "O líder como tradutor de futuros",
             "text": "Você aprende a identificar <strong>sinais de mudança</strong>, enxergar consequências e conectar sua equipe ao que está por vir. Exploramos <strong>ferramentas de foresight</strong> que tornam o futuro mais concreto e útil para decisões diárias. Isso ajuda você a <strong>liderar com propósito e direção </strong>em vez de reagir ao ritmo caótico das tecnologias.",
