@@ -508,6 +508,17 @@
             "target": true
           }
         },
+        "card_P9VqML": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/Trilha_de_desenvolvimento_de_lideranca_capa_ao_vivo_0a3b6923-4b54-4344-99ca-e1de94537686.png",
+            "category_id": "",
+            "title": "Trilha de Desenvolvimento de Liderança",
+            "text": "Uma jornada completa de desenvolvimento para líderes que querem fortalecer sua comunicação, ampliar a visão de futuro e liderar melhor na era da IA, com cursos ao vivo e acompanhamento individual.&nbsp;",
+            "url": "",
+            "target": false
+          }
+        },
         "card_XgTHxH": {
           "type": "card",
           "settings": {
@@ -529,6 +540,7 @@
         "card_NAHUtz",
         "card_k4Hrmk",
         "card_4KCh63",
+        "card_P9VqML",
         "card_XgTHxH"
       ],
       "settings": {
