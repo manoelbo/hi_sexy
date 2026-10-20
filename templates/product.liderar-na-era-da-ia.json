@@ -760,6 +760,7 @@
         "image_m8dpRJ",
         "image_im39fR"
       ],
+      "disabled": true,
       "name": "🚀 Accordion",
       "settings": {
         "override_fonts": false,
