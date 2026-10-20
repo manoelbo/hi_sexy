@@ -39,34 +39,6 @@
         "duration_text": "120"
       }
     },
-    "sp_media_grid_98ViBJ": {
-      "type": "sp-media-grid",
-      "blocks": {
-        "image_bEahKr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hyper_friday_30_off_1.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_bEahKr"
-      ],
-      "disabled": true,
-      "name": "Media Grid",
-      "settings": {
-        "background_color": "linear-gradient(164deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "media_aspect_ratio": "21 / 9",
-        "max_width": 1000,
-        "grid_gap": 25,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 25,
-        "padding_right": 25
-      }
-    },
     "html_NyahLe": {
       "type": "html",
       "disabled": true,
@@ -647,15 +619,15 @@
         "content_align_mobile": "text-left",
         "default_spacing": false,
         "pt_xl": 13,
-        "pb_xl": 7,
+        "pb_xl": 0,
         "mt_xl": 4,
         "mb_xl": 0,
         "pt_lg": 13,
-        "pb_lg": 7,
+        "pb_lg": 0,
         "mt_lg": 6,
         "mb_lg": 0,
         "pt_sm": 10,
-        "pb_sm": 7,
+        "pb_sm": 0,
         "mt_sm": 0,
         "mb_sm": 0,
         "py_lg": 0,
@@ -670,6 +642,24 @@
         "smb_lg": 0,
         "spb_xs": 0,
         "smb_xs": 0
+      }
+    },
+    "html_Anf7wb": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<!-- ============================================================\n     HYPER ISLAND | Liderar na Era da IA\n     Seção: Depoimentos em vídeo (9:16)\n     Inserir logo abaixo da seção \"Depoimentos\"\n     CSS escopado em .hi-vdep para não conflitar com o tema\n     ============================================================ -->\n\n<section class=\"hi-vdep\" aria-labelledby=\"hi-vdep-title\">\n  \n  <div class=\"hi-vdep__inner\">\n\n    <!-- Vídeo 1 -->\n    <figure class=\"hi-vdep__card\">\n      <div class=\"hi-vdep__frame\">\n        <video class=\"hi-vdep__video\" src=\"https://cdn.shopify.com/videos/c/o/v/d4e63ad67e1641c68db76d64b1ccd91d.mp4\" poster=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Retrato_corporativo_com_sorriso_discreto.png?v=1792524846\" preload=\"none\" playsinline=\"\" webkit-playsinline=\"\" aria-label=\"Depoimento de Danilo Soares, Diretor de RH da Samsung Brasil\">\n        </video>\n        <button class=\"hi-vdep__play\" type=\"button\" aria-label=\"Reproduzir depoimento de Danilo Soares\">\n          <svg viewbox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l11-6.5z\"></path></svg>\n        </button>\n      </div>\n      <figcaption class=\"hi-vdep__caption\">\n        <span class=\"hi-vdep__name\">Danilo Soares</span>\n        <span class=\"hi-vdep__role\">Diretor de RH da Samsung Brasil</span>\n      </figcaption>\n    </figure>\n\n    <!-- Vídeo 2 (.mov servido como mp4 para compatibilidade com Chrome/Android) -->\n    <figure class=\"hi-vdep__card\">\n      <div class=\"hi-vdep__frame\">\n        <video class=\"hi-vdep__video\" poster=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Mulher_de_Vermelho_com_Fones_diante_de_Arte_Abstrata.png?v=1792524845\" preload=\"none\" playsinline=\"\" webkit-playsinline=\"\" aria-label=\"Depoimento de Inna Zhdanova, CEO da INÚ Marketing\">\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/7cfe51b64a444ac09442c609ce9c6b6c.mov\" type=\"video/mp4\">\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/7cfe51b64a444ac09442c609ce9c6b6c.mov\" type=\"video/quicktime\">\n        </source></source></video>\n        <button class=\"hi-vdep__play\" type=\"button\" aria-label=\"Reproduzir depoimento de Inna Zhdanova\">\n          <svg viewbox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M8 5.5v13l11-6.5z\"></path></svg>\n        </button>\n      </div>\n      <figcaption class=\"hi-vdep__caption\">\n        <span class=\"hi-vdep__name\">Inna Zhdanova</span>\n        <span class=\"hi-vdep__role\">CEO da INÚ Marketing</span>\n      </figcaption>\n    </figure>\n\n  </div>\n</section>\n\n<style>\n  .hi-vdep {\n    --hi-vdep-bg: #f4f4f4;      /* mesmo fundo da seção Depoimentos */\n    --hi-vdep-text: #1e1e1e;\n    --hi-vdep-muted: #555555;\n    background: var(--hi-vdep-bg);\n    padding: 40px 20px 80px;\n    margin: 0;\n    box-sizing: border-box;\n    font-family: \"Montserrat\", Arial, sans-serif;\n  }\n  .hi-vdep *,\n  .hi-vdep *::before,\n  .hi-vdep *::after { box-sizing: border-box; }\n\n  .hi-vdep__title {\n    max-width: 760px;\n    margin: 0 auto 40px;\n    padding: 0;\n    text-align: center;\n    text-transform: uppercase;\n    font-weight: 700;\n    font-size: clamp(26px, 3.4vw, 40px);\n    line-height: 1.1;\n    letter-spacing: 0;\n    color: var(--hi-vdep-text);\n  }\n\n  .hi-vdep__inner {\n    max-width: 760px;\n    margin: 0 auto;\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 40px;\n  }\n\n  .hi-vdep__card {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: stretch;\n  }\n\n  .hi-vdep__frame {\n    position: relative;\n    width: 100%;\n    aspect-ratio: 9 / 16;\n    border-radius: 12px;\n    overflow: hidden;\n    background: #111;\n    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);\n  }\n  /* fallback para navegadores sem aspect-ratio */\n  @supports not (aspect-ratio: 9 / 16) {\n    .hi-vdep__frame { height: 0; padding-top: 177.78%; }\n  }\n\n  .hi-vdep__video {\n    position: absolute;\n    inset: 0;\n    width: 100% !important;\n    height: 100% !important;\n    max-width: none !important;\n    object-fit: cover;\n    display: block;\n    margin: 0 !important;\n    border: 0;\n    background: #111;\n  }\n\n  .hi-vdep__play {\n    position: absolute;\n    inset: 0;\n    width: 100%;\n    height: 100%;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    background: linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0) 45%);\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    transition: opacity .25s ease;\n    -webkit-appearance: none;\n    appearance: none;\n  }\n  .hi-vdep__play svg {\n    width: 72px;\n    height: 72px;\n    padding: 20px 18px 20px 22px;\n    border-radius: 50%;\n    background: rgba(255, 255, 255, 0.92);\n    fill: var(--hi-vdep-text);\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);\n    transition: transform .25s ease;\n  }\n  .hi-vdep__play:hover svg,\n  .hi-vdep__play:focus-visible svg { transform: scale(1.08); }\n  .hi-vdep__play:focus-visible { outline: 3px solid #fff; outline-offset: -6px; }\n\n  .hi-vdep__card.is-playing .hi-vdep__play {\n    opacity: 0;\n    pointer-events: none;\n  }\n\n  .hi-vdep__caption {\n    margin-top: 18px;\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n  }\n  .hi-vdep__name {\n    font-weight: 700;\n    font-size: 15px;\n    letter-spacing: 0.06em;\n    color: var(--hi-vdep-text);\n    line-height: 1.3;\n  }\n  .hi-vdep__role {\n    font-weight: 400;\n    font-size: 14px;\n    color: var(--hi-vdep-muted);\n    line-height: 1.4;\n  }\n\n  /* Tablet */\n  @media (max-width: 900px) {\n    .hi-vdep__inner { max-width: 620px; gap: 28px; }\n  }\n\n  /* Mobile: um vídeo por vez, empilhados */\n  @media (max-width: 600px) {\n    .hi-vdep { padding: 32px 20px 56px; }\n    .hi-vdep__title { margin-bottom: 28px; }\n    .hi-vdep__inner {\n      grid-template-columns: 1fr;\n      max-width: 340px;\n      gap: 40px;\n    }\n    .hi-vdep__play svg { width: 64px; height: 64px; padding: 18px 16px 18px 20px; }\n  }\n</style>\n\n<script>\n  (function () {\n    var root = document.currentScript && document.currentScript.previousElementSibling\n      ? document.currentScript.previousElementSibling.previousElementSibling\n      : null;\n    var sections = root && root.classList && root.classList.contains('hi-vdep')\n      ? [root]\n      : document.querySelectorAll('.hi-vdep');\n\n    Array.prototype.forEach.call(sections, function (section) {\n      if (section.dataset.hiVdepInit) return;\n      section.dataset.hiVdepInit = '1';\n\n      var cards = section.querySelectorAll('.hi-vdep__card');\n      var videos = section.querySelectorAll('.hi-vdep__video');\n\n      Array.prototype.forEach.call(cards, function (card) {\n        var video = card.querySelector('.hi-vdep__video');\n        var btn = card.querySelector('.hi-vdep__play');\n        if (!video || !btn) return;\n\n        btn.addEventListener('click', function () {\n          // pausa o outro vídeo antes de tocar este\n          Array.prototype.forEach.call(videos, function (v) {\n            if (v !== video && !v.paused) v.pause();\n          });\n          video.controls = true;\n          var p = video.play();\n          if (p && typeof p.catch === 'function') p.catch(function () {});\n        });\n\n        video.addEventListener('play', function () {\n          card.classList.add('is-playing');\n          Array.prototype.forEach.call(videos, function (v) {\n            if (v !== video && !v.paused) v.pause();\n          });\n        });\n\n        video.addEventListener('ended', function () {\n          card.classList.remove('is-playing');\n          video.controls = false;\n          video.load(); // volta a exibir a thumbnail\n        });\n      });\n    });\n  })();\n</script>",
+        "bg_color": "",
+        "container": "",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     },
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9": {
@@ -1317,7 +1307,6 @@
   "order": [
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
-    "sp_media_grid_98ViBJ",
     "html_NyahLe",
     "content_LwrmAR",
     "header_LQ89hG",
@@ -1327,6 +1316,7 @@
     "content_EUPGeK",
     "content_bpYrpx",
     "content_ektCgE",
+    "html_Anf7wb",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
     "sp_accordion_CPPybm",
     "html_XNYwCP",
