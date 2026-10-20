@@ -721,88 +721,22 @@
         "smb_xs": 0
       }
     },
-    "sp_accordion_CPPybm": {
-      "type": "sp-accordion",
-      "blocks": {
-        "image_iqp4Be": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_2026-10-20_164050.png",
-            "link": ""
-          }
-        },
-        "image_rTNx6n": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Captura_de_tela_2026-10-20_164852.png",
-            "link": ""
-          }
-        },
-        "image_m8dpRJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/depoimento_ltm_4.png",
-            "link": ""
-          }
-        },
-        "image_im39fR": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/depoimento_ltm_3.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_iqp4Be",
-        "image_rTNx6n",
-        "image_m8dpRJ",
-        "image_im39fR"
-      ],
-      "disabled": true,
-      "name": "🚀 Accordion",
+    "html_Eyp4VF": {
+      "type": "html",
+      "name": "HTML",
       "settings": {
-        "override_fonts": false,
-        "headline_font": "system_ui_n4",
-        "text_font": "system_ui_n4",
-        "text_size": 15,
-        "mobile_text_size": 15,
-        "text_line_height": "inherit",
-        "headline_size": 40,
-        "mobile_headline_size": 40,
-        "headline_line_height": "inherit",
-        "text_color": "#111111",
-        "link_color": "#005bd3",
-        "show_on_device": "desktop",
-        "section_background_color": "linear-gradient(127deg, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1) 100%)",
-        "section_background_image_color": "",
-        "section_background_size": "auto",
-        "section_padding_top_bottom": 25,
-        "mobile_section_padding_top_bottom": 25,
-        "section_padding_left_right": 25,
-        "mobile_section_padding_left_right": 25,
-        "container_background_color": "",
-        "container_max_width": 2000,
-        "container_padding_top_bottom": 30,
-        "mobile_container_padding_top_bottom": 10,
-        "container_padding_left_right": 10,
-        "mobile_container_padding_left_right": 10,
-        "element_spacing": 15,
-        "container_radius": 0,
-        "container_shadow": false,
-        "container_border_size": 0,
-        "container_border_color": "#888888",
-        "gap": 5,
-        "mobile_display": "accordion",
-        "height": 430,
-        "media_radius": 5,
-        "media_shadow": true,
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "headline": "",
-        "text": "",
-        "headline_spacing": 15
+        "html": "<!-- ============================================================\n     HYPER ISLAND | Liderar na Era da IA\n     Seção: Depoimentos do LinkedIn (prints)\n     Inserir logo abaixo da seção de depoimentos em vídeo\n     CSS escopado em .hi-ldep / .hi-ldep-lb\n     ============================================================ -->\n\n<section class=\"hi-ldep\" aria-label=\"Depoimentos de alunos no LinkedIn\">\n  <div class=\"hi-ldep__stack\">\n\n    <button class=\"hi-ldep__item\" type=\"button\" style=\"--r:-3deg; --z:1;\" data-full=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_165216.png?v=1792526056\" aria-label=\"Ampliar depoimento 1 de 3\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_165216.png?v=1792526056&amp;width=900\" alt=\"Depoimento de aluno no LinkedIn sobre o curso Liderar na Era da IA (1 de 3)\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"hi-ldep__zoom\" aria-hidden=\"true\">\n        <svg viewbox=\"0 0 24 24\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"M15.5 15.5L21 21M10.5 7.5v6M7.5 10.5h6\"></path></svg>\n      </span>\n    </button>\n\n    <button class=\"hi-ldep__item\" type=\"button\" style=\"--r:1deg; --z:3; --y:-12px;\" data-full=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_164050_ee6d7e63-8b82-43f5-aff4-4b224692dc68.png?v=1792526056\" aria-label=\"Ampliar depoimento 2 de 3\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_164050_ee6d7e63-8b82-43f5-aff4-4b224692dc68.png?v=1792526056&amp;width=900\" alt=\"Depoimento de aluno no LinkedIn sobre o curso Liderar na Era da IA (2 de 3)\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"hi-ldep__zoom\" aria-hidden=\"true\">\n        <svg viewbox=\"0 0 24 24\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"M15.5 15.5L21 21M10.5 7.5v6M7.5 10.5h6\"></path></svg>\n      </span>\n    </button>\n\n    <button class=\"hi-ldep__item\" type=\"button\" style=\"--r:3deg; --z:2;\" data-full=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_164852_4e331662-beb4-4c31-ab6a-6baedd34d65f.png?v=1792526056\" aria-label=\"Ampliar depoimento 3 de 3\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0634/7023/9966/files/Captura_de_tela_2026-10-20_164852_4e331662-beb4-4c31-ab6a-6baedd34d65f.png?v=1792526056&amp;width=900\" alt=\"Depoimento de aluno no LinkedIn sobre o curso Liderar na Era da IA (3 de 3)\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"hi-ldep__zoom\" aria-hidden=\"true\">\n        <svg viewbox=\"0 0 24 24\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"M15.5 15.5L21 21M10.5 7.5v6M7.5 10.5h6\"></path></svg>\n      </span>\n    </button>\n\n  </div>\n\n  <p class=\"hi-ldep__hint\">Clique em um depoimento para ampliar</p>\n\n  <!-- Lightbox (movido para o <body> via JS para não ser afetado pelo tema) -->\n  <div class=\"hi-ldep-lb\" role=\"dialog\" aria-modal=\"true\" aria-label=\"Depoimento ampliado\">\n    <div class=\"hi-ldep-lb__backdrop\"></div>\n    <figure class=\"hi-ldep-lb__stage\">\n      <img class=\"hi-ldep-lb__img\" alt=\"\">\n    </figure>\n    <button class=\"hi-ldep-lb__btn hi-ldep-lb__close\" type=\"button\" aria-label=\"Fechar\">\n      <svg viewbox=\"0 0 24 24\"><path d=\"M6 6l12 12M18 6L6 18\"></path></svg>\n    </button>\n    <button class=\"hi-ldep-lb__btn hi-ldep-lb__prev\" type=\"button\" aria-label=\"Depoimento anterior\">\n      <svg viewbox=\"0 0 24 24\"><path d=\"M15 5l-7 7 7 7\"></path></svg>\n    </button>\n    <button class=\"hi-ldep-lb__btn hi-ldep-lb__next\" type=\"button\" aria-label=\"Próximo depoimento\">\n      <svg viewbox=\"0 0 24 24\"><path d=\"M9 5l7 7-7 7\"></path></svg>\n    </button>\n    <div class=\"hi-ldep-lb__counter\" aria-live=\"polite\"></div>\n  </div>\n</section>\n\n<style>\n  /* ---------- Seção ---------- */\n  .hi-ldep {\n    --hi-ldep-bg: #f4f4f4;   /* mesmo fundo das seções de depoimentos */\n    --hi-ldep-text: #1e1e1e;\n    --hi-ldep-muted: #6b6b6b;\n    --hi-ldep-ease: cubic-bezier(.2, .8, .2, 1);\n    background: var(--hi-ldep-bg);\n    padding: 16px 20px 88px;\n    margin: 0;\n    box-sizing: border-box;\n    font-family: \"Montserrat\", Arial, sans-serif;\n    overflow: hidden; /* evita rolagem horizontal pelas rotações */\n  }\n  .hi-ldep *, .hi-ldep *::before, .hi-ldep *::after { box-sizing: border-box; }\n\n  .hi-ldep__stack {\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 24px 0 8px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n\n  .hi-ldep__item {\n    -webkit-appearance: none;\n    appearance: none;\n    position: relative;\n    flex: 0 1 35%;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    background: #fff;\n    border-radius: 10px;\n    cursor: zoom-in;\n    z-index: var(--z, 1);\n    transform: translateY(var(--y, 0)) rotate(var(--r, 0deg));\n    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.06);\n    transition: transform .5s var(--hi-ldep-ease), box-shadow .5s var(--hi-ldep-ease),\n                filter .4s ease, opacity .25s ease;\n    will-change: transform;\n  }\n  .hi-ldep__item + .hi-ldep__item { margin-left: -3.5%; }  /* sobreposição */\n\n  .hi-ldep__item img {\n    display: block;\n    width: 100%;\n    height: auto;          /* proporção original, sem corte */\n    max-width: none;\n    margin: 0;\n    border-radius: 10px;\n  }\n\n  .hi-ldep__zoom {\n    position: absolute;\n    top: 12px;\n    right: 12px;\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    background: var(--hi-ldep-text);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    opacity: 0;\n    transform: scale(.7);\n    transition: opacity .3s ease, transform .4s var(--hi-ldep-ease);\n    pointer-events: none;\n  }\n  .hi-ldep__zoom svg {\n    width: 20px; height: 20px;\n    fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round;\n  }\n\n  .hi-ldep__item:focus-visible {\n    outline: 3px solid var(--hi-ldep-text);\n    outline-offset: 4px;\n  }\n  .hi-ldep__item.is-hidden { opacity: 0; transition: none; }\n\n  /* Hover só em dispositivos com mouse */\n  @media (hover: hover) and (pointer: fine) {\n    .hi-ldep__stack:hover .hi-ldep__item:not(:hover) {\n      filter: brightness(.94) saturate(.9);\n      transform: translateY(var(--y, 0)) rotate(var(--r, 0deg)) scale(.97);\n    }\n    .hi-ldep__item:hover {\n      z-index: 10;\n      transform: translateY(-18px) rotate(0deg) scale(1.06);\n      box-shadow: 0 24px 50px rgba(0, 0, 0, 0.20), 0 4px 10px rgba(0, 0, 0, 0.08);\n    }\n    .hi-ldep__item:hover .hi-ldep__zoom { opacity: 1; transform: scale(1); }\n  }\n\n  .hi-ldep__hint {\n    margin: 36px 0 0;\n    text-align: center;\n    font-size: 13px;\n    letter-spacing: 0.04em;\n    color: var(--hi-ldep-muted);\n  }\n\n  /* Mobile: empilhadas com leve sobreposição vertical */\n  @media (max-width: 700px) {\n    .hi-ldep { padding: 8px 20px 64px; }\n    .hi-ldep__stack {\n      flex-direction: column;\n      max-width: 420px;\n      padding-top: 12px;\n    }\n    .hi-ldep__item {\n      flex: none;\n      width: 100%;\n      --y: 0px;\n    }\n    .hi-ldep__item:nth-child(1) { --r: -1.5deg; }\n    .hi-ldep__item:nth-child(2) { --r: 1deg; }\n    .hi-ldep__item:nth-child(3) { --r: -1deg; }\n    .hi-ldep__item + .hi-ldep__item { margin-left: 0; margin-top: -22px; }\n    .hi-ldep__item:active { transform: scale(.98); }\n    .hi-ldep__zoom { opacity: .9; transform: scale(.85); width: 36px; height: 36px; }\n    .hi-ldep__hint { margin-top: 28px; }\n  }\n\n  /* ---------- Lightbox ---------- */\n  .hi-ldep-lb {\n    position: fixed;\n    inset: 0;\n    z-index: 2147483000;\n    display: none;\n    align-items: center;\n    justify-content: center;\n    padding: 24px;\n    font-family: \"Montserrat\", Arial, sans-serif;\n    box-sizing: border-box;\n  }\n  .hi-ldep-lb.is-visible { display: flex; }\n\n  .hi-ldep-lb__backdrop {\n    position: absolute;\n    inset: 0;\n    background: rgba(18, 18, 18, 0.86);\n    -webkit-backdrop-filter: blur(6px);\n    backdrop-filter: blur(6px);\n    opacity: 0;\n    transition: opacity .4s ease;\n  }\n  .hi-ldep-lb.is-open .hi-ldep-lb__backdrop { opacity: 1; }\n\n  .hi-ldep-lb__stage {\n    position: relative;\n    margin: 0;\n    padding: 0;\n    z-index: 1;\n    line-height: 0;\n  }\n  .hi-ldep-lb__img {\n    display: block;\n    width: auto;\n    height: auto;\n    max-width: min(92vw, 1000px);\n    max-height: 86vh;\n    margin: 0;\n    border-radius: 10px;\n    background: #fff;\n    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);\n    transform-origin: 0 0;\n    transition: opacity .2s ease;\n  }\n  .hi-ldep-lb__img.is-swapping { opacity: 0; }\n\n  .hi-ldep-lb__btn {\n    -webkit-appearance: none;\n    appearance: none;\n    position: absolute;\n    z-index: 2;\n    width: 48px;\n    height: 48px;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    border-radius: 50%;\n    background: rgba(255, 255, 255, 0.95);\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    opacity: 0;\n    transform: scale(.8);\n    transition: opacity .3s ease, transform .35s cubic-bezier(.2, .8, .2, 1), background .2s ease;\n  }\n  .hi-ldep-lb__btn svg {\n    width: 22px; height: 22px;\n    fill: none; stroke: #1e1e1e; stroke-width: 2.2;\n    stroke-linecap: round; stroke-linejoin: round;\n  }\n  .hi-ldep-lb.is-open .hi-ldep-lb__btn { opacity: 1; transform: scale(1); transition-delay: .15s; }\n  .hi-ldep-lb__btn:hover { background: #fff; }\n  .hi-ldep-lb__btn:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }\n\n  .hi-ldep-lb__close { top: 20px; right: 20px; }\n  .hi-ldep-lb__prev  { left: 20px; top: 50%; margin-top: -24px; }\n  .hi-ldep-lb__next  { right: 20px; top: 50%; margin-top: -24px; }\n\n  .hi-ldep-lb__counter {\n    position: absolute;\n    z-index: 2;\n    bottom: 20px;\n    left: 50%;\n    transform: translateX(-50%);\n    color: rgba(255, 255, 255, 0.85);\n    font-size: 13px;\n    letter-spacing: 0.12em;\n    opacity: 0;\n    transition: opacity .3s ease .15s;\n  }\n  .hi-ldep-lb.is-open .hi-ldep-lb__counter { opacity: 1; }\n\n  @media (max-width: 700px) {\n    .hi-ldep-lb { padding: 64px 12px 84px; }\n    .hi-ldep-lb__img { max-width: 94vw; max-height: calc(100vh - 160px); }\n    .hi-ldep-lb__close { top: 12px; right: 12px; }\n    .hi-ldep-lb__prev, .hi-ldep-lb__next { top: auto; bottom: 16px; margin-top: 0; width: 44px; height: 44px; }\n    .hi-ldep-lb__prev { left: 16px; }\n    .hi-ldep-lb__next { right: 16px; }\n    .hi-ldep-lb__counter { bottom: 30px; }\n  }\n\n  html.hi-ldep-lock, html.hi-ldep-lock body { overflow: hidden !important; }\n\n  @media (prefers-reduced-motion: reduce) {\n    .hi-ldep__item, .hi-ldep__zoom, .hi-ldep-lb__btn, .hi-ldep-lb__backdrop { transition: none !important; }\n  }\n</style>\n\n<script>\n  (function () {\n    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n\n    function onEnd(el, cb, ms) {\n      var done = false;\n      function finish() { if (done) return; done = true; el.removeEventListener('transitionend', handler); cb(); }\n      function handler(e) { if (e.target === el && e.propertyName === 'transform') finish(); }\n      el.addEventListener('transitionend', handler);\n      setTimeout(finish, ms);\n    }\n\n    document.querySelectorAll('.hi-ldep').forEach(function (section) {\n      if (section.dataset.hiLdepInit) return;\n      section.dataset.hiLdepInit = '1';\n\n      var items = Array.prototype.slice.call(section.querySelectorAll('.hi-ldep__item'));\n      var lb = section.querySelector('.hi-ldep-lb');\n      if (!lb || !items.length) return;\n      document.body.appendChild(lb); // evita problemas de position:fixed dentro do tema\n\n      var lbImg = lb.querySelector('.hi-ldep-lb__img');\n      var btnClose = lb.querySelector('.hi-ldep-lb__close');\n      var btnPrev = lb.querySelector('.hi-ldep-lb__prev');\n      var btnNext = lb.querySelector('.hi-ldep-lb__next');\n      var counter = lb.querySelector('.hi-ldep-lb__counter');\n      var current = -1, animating = false, lastFocus = null;\n\n      function thumbOf(i) { return items[i].querySelector('img'); }\n\n      function preloadFull(i) {\n        var full = new Image();\n        full.onload = function () { if (current === i) lbImg.src = full.src; };\n        full.src = items[i].dataset.full;\n      }\n\n      function setCounter() { counter.textContent = (current + 1) + ' / ' + items.length; }\n\n      function whenReady(img, cb) {\n        if (img.complete && img.naturalWidth) { cb(); return; }\n        img.onload = function () { img.onload = null; cb(); };\n      }\n\n      function open(i) {\n        if (animating || current !== -1) return;\n        animating = true;\n        current = i;\n        lastFocus = document.activeElement;\n        var thumb = thumbOf(i);\n\n        lbImg.style.transition = 'none';\n        lbImg.style.transform = '';\n        lbImg.src = thumb.currentSrc || thumb.src;\n        lbImg.alt = thumb.alt;\n        setCounter();\n        document.documentElement.classList.add('hi-ldep-lock');\n        lb.classList.add('is-visible');\n\n        whenReady(lbImg, function () {\n          var from = thumb.getBoundingClientRect();\n          var to = lbImg.getBoundingClientRect();\n          items[i].classList.add('is-hidden');\n          preloadFull(i);\n\n          if (reduceMotion) {\n            lb.classList.add('is-open');\n            animating = false;\n            btnClose.focus();\n            return;\n          }\n\n          lbImg.style.transform =\n            'translate(' + (from.left - to.left) + 'px,' + (from.top - to.top) + 'px) ' +\n            'scale(' + (from.width / to.width) + ',' + (from.height / to.height) + ')';\n          void lbImg.offsetWidth; // força o reflow\n          lbImg.style.transition = 'transform .55s cubic-bezier(.2,.8,.2,1), opacity .2s ease';\n          lbImg.style.transform = '';\n          lb.classList.add('is-open');\n\n          onEnd(lbImg, function () {\n            animating = false;\n            btnClose.focus({ preventScroll: true });\n          }, 650);\n        });\n      }\n\n      function close() {\n        if (animating || current === -1) return;\n        animating = true;\n        var item = items[current];\n        var thumb = thumbOf(current);\n\n        function finish() {\n          item.classList.remove('is-hidden');\n          lb.classList.remove('is-visible');\n          lbImg.style.transition = 'none';\n          lbImg.style.transform = '';\n          document.documentElement.classList.remove('hi-ldep-lock');\n          current = -1;\n          animating = false;\n          if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });\n        }\n\n        lb.classList.remove('is-open');\n        if (reduceMotion) { finish(); return; }\n\n        var from = lbImg.getBoundingClientRect();\n        var to = thumb.getBoundingClientRect();\n        lbImg.style.transition = 'transform .45s cubic-bezier(.4,0,.2,1)';\n        lbImg.style.transform =\n          'translate(' + (to.left - from.left) + 'px,' + (to.top - from.top) + 'px) ' +\n          'scale(' + (to.width / from.width) + ',' + (to.height / from.height) + ')';\n        onEnd(lbImg, finish, 550);\n      }\n\n      function go(dir) {\n        if (animating || current === -1) return;\n        animating = true;\n        var next = (current + dir + items.length) % items.length;\n        lbImg.style.transition = 'opacity .2s ease';\n        lbImg.classList.add('is-swapping');\n        setTimeout(function () {\n          items[current].classList.remove('is-hidden');\n          items[next].classList.add('is-hidden');\n          current = next;\n          var thumb = thumbOf(next);\n          lbImg.src = thumb.currentSrc || thumb.src;\n          lbImg.alt = thumb.alt;\n          setCounter();\n          preloadFull(next);\n          whenReady(lbImg, function () {\n            lbImg.classList.remove('is-swapping');\n            animating = false;\n          });\n        }, reduceMotion ? 0 : 200);\n      }\n\n      items.forEach(function (item, i) {\n        item.addEventListener('click', function () { open(i); });\n      });\n\n      btnClose.addEventListener('click', close);\n      btnPrev.addEventListener('click', function () { go(-1); });\n      btnNext.addEventListener('click', function () { go(1); });\n\n      // fecha ao clicar fora da imagem\n      lb.addEventListener('click', function (e) {\n        if (e.target === lb || e.target.classList.contains('hi-ldep-lb__backdrop') ||\n            e.target.classList.contains('hi-ldep-lb__stage')) close();\n      });\n\n      // teclado: Esc, setas e foco preso no modal\n      document.addEventListener('keydown', function (e) {\n        if (current === -1) return;\n        if (e.key === 'Escape') { e.preventDefault(); close(); }\n        else if (e.key === 'ArrowRight') { e.preventDefault(); go(1); }\n        else if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1); }\n        else if (e.key === 'Tab') {\n          var f = [btnClose, btnPrev, btnNext];\n          var idx = f.indexOf(document.activeElement);\n          e.preventDefault();\n          f[(idx + (e.shiftKey ? -1 : 1) + f.length) % f.length].focus();\n        }\n      });\n\n      // swipe no mobile\n      var startX = null, startY = null;\n      lb.addEventListener('touchstart', function (e) {\n        if (e.touches.length !== 1) { startX = null; return; }\n        startX = e.touches[0].clientX; startY = e.touches[0].clientY;\n      }, { passive: true });\n      lb.addEventListener('touchend', function (e) {\n        if (startX === null) return;\n        var dx = e.changedTouches[0].clientX - startX;\n        var dy = e.changedTouches[0].clientY - startY;\n        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) go(dx < 0 ? 1 : -1);\n        startX = null;\n      }, { passive: true });\n    });\n  })();\n</script>",
+        "bg_color": "",
+        "container": "",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
       }
     },
     "html_XNYwCP": {
@@ -1319,7 +1253,7 @@
     "content_ektCgE",
     "html_Anf7wb",
     "b4a63546-461f-4c7c-ac93-f6bfcf1b46c9",
-    "sp_accordion_CPPybm",
+    "html_Eyp4VF",
     "html_XNYwCP",
     "newsletter_session_Rf3iKe",
     "9948f854-b2fb-4a4d-985c-154befb25a21",
