@@ -9,8 +9,27 @@
  */
 {
   "sections": {
+    "html_37e3eq": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<p class=\"bg-primary rounded text-white p-4\">Sample box based on your primary color</p>",
+        "bg_color": "",
+        "container": "container",
+        "text_align": "text-center",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "header_YmATNf": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "mobile_only": false,
         "desktop_only": false,
@@ -152,6 +171,7 @@
     },
     "header_half_3eXLHf": {
       "type": "header_half",
+      "disabled": true,
       "name": "HI23 Header Hero Half",
       "settings": {
         "mobile_only": false,
@@ -186,6 +206,7 @@
     },
     "header_half_DRPUxm": {
       "type": "header_half",
+      "disabled": true,
       "name": "HI23 Header Hero Half",
       "settings": {
         "mobile_only": false,
@@ -274,6 +295,7 @@
     },
     "html_NP96Y3": {
       "type": "html",
+      "disabled": true,
       "settings": {
         "html": "<div id=\"form\"></div>",
         "bg_color": "",
@@ -307,6 +329,7 @@
     },
     "newsletter_session_t9wUdh": {
       "type": "newsletter-session",
+      "disabled": true,
       "settings": {
         "title": "Torne-se um comunicador melhor",
         "text": "Saiba quais erros não cometer para comunicar com clareza e influência",
@@ -368,6 +391,7 @@
     }
   },
   "order": [
+    "html_37e3eq",
     "header_YmATNf",
     "content_WLQ6gf",
     "content_qY3Da6",
