@@ -199,6 +199,17 @@
             "id": "IA"
           }
         },
+        "card_99bLCU": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/baixa_recurso_gratuito_mockup_guia_pratico_de_facilitacao.png",
+            "category_id": "liderança",
+            "title": "Guia Prático de Facilitação para Líderes",
+            "text": "Um playbook para líderes que querem criar times que pensam, decidem e colaboram melhor. Frameworks, ferramentas e um roteiro de prática construídos a partir de mais de 30 anos da Hyper Island com organizações em transformação.&nbsp;",
+            "url": "https://www.hyperisland.com.br/pages/guia-pratico-de-facilitacao-para-lideres",
+            "target": true
+          }
+        },
         "card_cXKbjM": {
           "type": "card",
           "settings": {
@@ -492,6 +503,7 @@
         "category_8bKTBz",
         "category_xtjEeU",
         "category_VFzdRN",
+        "card_99bLCU",
         "card_cXKbjM",
         "card_dbUgLz",
         "card_HmyAJn",
