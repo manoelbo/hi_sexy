@@ -243,6 +243,17 @@
             "target": true
           }
         },
+        "card_36CdrJ": {
+          "type": "card",
+          "settings": {
+            "img": "shopify://shop_images/recurso_gratuito_canvas_de_planejamento_estrategico_capa.png",
+            "category_id": "futuros",
+            "title": "Canvas de Planejamento Estratégico",
+            "text": "Uma ferramenta para transformar contexto em escolhas, prioridades e ação.&nbsp;",
+            "url": "https://www.hyperisland.com.br/pages/canvas-de-planejamento-estrategico/",
+            "target": true
+          }
+        },
         "c348b121-119f-4505-8471-332c2ba2a87b": {
           "type": "card",
           "settings": {
@@ -507,6 +518,7 @@
         "card_cXKbjM",
         "card_dbUgLz",
         "card_HmyAJn",
+        "card_36CdrJ",
         "c348b121-119f-4505-8471-332c2ba2a87b",
         "card_bcxUJD",
         "card_Kdpg8D",
