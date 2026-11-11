@@ -33,17 +33,19 @@
         "article_GWLyL9": {
           "type": "article",
           "settings": {
-            "article": "news/por-que-as-iniciativas-de-inteligencia-artificial-fracassam-nas-organizacoes"
+            "article": "news/tres-coisas-que-talvez-precisemos-manter-dificeis"
           }
         },
         "article_nkirAL": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/o-que-lideres-realmente-precisam-saber-sobre-inteligencia-artificial"
           }
         },
         "article_bdtFg9": {
           "type": "article",
+          "disabled": true,
           "settings": {
             "article": "news/trinta-anos-entre-tecnologia-aprendizagem-e-lideranca"
           }
@@ -60,6 +62,61 @@
       "name": "Destaques do Blog",
       "settings": {
         "title": "Artigos em Português",
+        "show_title": true,
+        "title_size": "display-2",
+        "title_alignment": "text-center",
+        "subtitle": "",
+        "subtitle_alignment": "text-center",
+        "show_subtitle": true,
+        "subtitle_size": 16,
+        "bg_color": "#ffffff",
+        "bg_gradient": "",
+        "layout": "col-md-12",
+        "content_align_desktop": "text-lg-left",
+        "content_align_mobile": "text-left",
+        "pt_lg": 13,
+        "pb_lg": 7,
+        "mt_lg": 0,
+        "mb_lg": 6,
+        "pt_sm": 10,
+        "pb_sm": 7,
+        "mt_sm": 0,
+        "mb_sm": 5
+      }
+    },
+    "blog_highlights_JRb9R9": {
+      "type": "blog-highlights",
+      "blocks": {
+        "article_mJe7MW": {
+          "type": "article",
+          "settings": {
+            "article": "news/por-que-as-iniciativas-de-inteligencia-artificial-fracassam-nas-organizacoes"
+          }
+        },
+        "article_kb7CJ7": {
+          "type": "article",
+          "settings": {
+            "article": "news/o-que-lideres-realmente-precisam-saber-sobre-inteligencia-artificial"
+          }
+        },
+        "article_Wtprji": {
+          "type": "article",
+          "settings": {
+            "article": "news/trinta-anos-entre-tecnologia-aprendizagem-e-lideranca"
+          }
+        }
+      },
+      "block_order": [
+        "article_mJe7MW",
+        "article_kb7CJ7",
+        "article_Wtprji"
+      ],
+      "custom_css": [
+        "h3 {font-size: 2.7rem !important;}"
+      ],
+      "name": "Destaques do Blog",
+      "settings": {
+        "title": "",
         "show_title": true,
         "title_size": "display-2",
         "title_alignment": "text-center",
@@ -849,6 +906,7 @@
   "order": [
     "html_em9Lh7",
     "blog_highlights_3jr4Fn",
+    "blog_highlights_JRb9R9",
     "blog_highlights_DgQ4iF",
     "blog_highlights_ymKD8t",
     "blog_highlights_kBPNPB",
