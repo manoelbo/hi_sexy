@@ -34,7 +34,7 @@
     {%- endif -%}
 
     <div class="row my-lg-{{ section.settings.my_lg }} my-{{ section.settings.my_xs }}">
-      {%- for block in section.blocks limit: 3 -%}
+      {%- for block in section.blocks -%}
         {%- if block.settings.article != blank -%}
           <div class="{{ section.settings.layout }} {{section.settings.content_align_desktop}} {{section.settings.content_align_mobile}} {% if section.settings.layout contains 'blog-card-row' %}mb-4{% else %}mb-4 mb-lg-8{% endif %}">
             <div
@@ -304,7 +304,7 @@
     {
       "type": "article",
       "name": "Artigo",
-      "limit": 3,
+      "limit": 24,
       "settings": [
         {
           "type": "article",
