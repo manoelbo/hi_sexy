@@ -39,6 +39,24 @@
         "duration_text": "120"
       }
     },
+    "html_ehKYUM": {
+      "type": "html",
+      "name": "HTML",
+      "settings": {
+        "html": "<!-- ============================================================\n     HYPER FRIDAY · Banner v2 (com data e animação sutil)\n     Cole este bloco inteiro numa seção \"Liquid personalizado\"\n     ou \"HTML personalizado\" do Shopify.\n     CSS isolado na classe .hfb2 (pode conviver com a v1 na\n     mesma página). Respeita \"reduzir movimento\" do sistema.\n     ============================================================ -->\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@108,900&amp;family=Montserrat:wght@200;300;400;500&amp;display=swap\">\n\n<style>\n  .hfb2 {\n    --hfb-bg: #0A0A0A;\n    --hfb-fg: #FFFFFF;\n    --hfb-muted: rgba(255, 255, 255, 0.62);\n    --hfb-line: rgba(255, 255, 255, 0.2);\n    --hfb-orange: #FF7300;\n    --hfb-dash: 12px;\n    display: block;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    background: var(--hfb-bg);\n    color: var(--hfb-fg);\n    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: 1;\n    overflow: hidden;\n  }\n  .hfb2 *, .hfb2 *::before, .hfb2 *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: inherit; text-transform: none; }\n\n  .hfb2 .hfb2__inner {\n    max-width: 1280px;\n    margin: 0 auto;\n    padding: 34px max(24px, env(safe-area-inset-right, 0px)) 34px max(24px, env(safe-area-inset-left, 0px));\n    display: flex;\n    align-items: center;\n    gap: 40px;\n  }\n\n  /* Wordmark HYPER FRIDAY + ticket */\n  .hfb2 .hfb2__mark {\n    position: relative;\n    flex: none;\n    font-family: 'Archivo', 'Arial Black', sans-serif;\n    font-weight: 900;\n    font-stretch: 108%;\n    font-size: 44px;\n    line-height: 0.88;\n    letter-spacing: -0.012em;\n    white-space: nowrap;\n    color: var(--hfb-fg);\n    padding-right: 0.55em;\n  }\n  .hfb2 .hfb2__mark span { position: relative; display: block; line-height: 0.88; }\n  .hfb2 .hfb2__mark span:first-child { z-index: 1; }\n  .hfb2 .hfb2__mark span:last-child { z-index: 3; }\n  .hfb2 .hfb2__ticket {\n    position: absolute;\n    z-index: 2;\n    left: 3.71em;\n    top: 0.63em;\n    width: 0.986em;\n    height: 0.533em;\n    transform: rotate(51deg);\n    transform-origin: 50% 50%;\n    display: block;\n  }\n\n  .hfb2 .hfb2__divider {\n    flex: none;\n    width: 1px;\n    align-self: stretch;\n    background: var(--hfb-line);\n    transform-origin: 50% 50%;\n  }\n\n  /* Oferta */\n  .hfb2 .hfb2__offer { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 12px; }\n  .hfb2 .hfb2__date {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    font-size: 13px;\n    font-weight: 500;\n    letter-spacing: 0.28em;\n    line-height: 1;\n    color: var(--hfb-fg);\n    text-transform: uppercase;\n  }\n  .hfb2 .hfb2__pulse {\n    position: relative;\n    flex: none;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: var(--hfb-orange);\n  }\n  .hfb2 .hfb2__pulse::after {\n    content: \"\";\n    position: absolute;\n    inset: 0;\n    border-radius: 50%;\n    background: var(--hfb-orange);\n    opacity: 0;\n  }\n  .hfb2 .hfb2__headline {\n    font-size: 40px;\n    font-weight: 400;\n    letter-spacing: -0.02em;\n    line-height: 1.05;\n    color: var(--hfb-fg);\n  }\n  .hfb2 .hfb2__headline-light { font-weight: 200; white-space: nowrap; }\n  .hfb2 .hfb2__nowrap { white-space: nowrap; }\n  .hfb2 .hfb2__sub {\n    font-size: 15px;\n    font-weight: 400;\n    letter-spacing: 0.16em;\n    line-height: 1.4;\n    color: var(--hfb-muted);\n  }\n\n  /* Cupom (clique para copiar) com tracejado que circula */\n  .hfb2 .hfb2__coupon {\n    all: unset;\n    box-sizing: border-box;\n    position: relative;\n    flex: none;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    gap: 9px;\n    min-height: 88px;\n    padding: 0 34px;\n    cursor: pointer;\n    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;\n    color: var(--hfb-fg);\n    background:\n      linear-gradient(90deg, var(--hfb-orange) 50%, transparent 0) 0 0 / var(--hfb-dash) 1.5px repeat-x,\n      linear-gradient(90deg, var(--hfb-orange) 50%, transparent 0) 0 100% / var(--hfb-dash) 1.5px repeat-x,\n      linear-gradient(0deg, var(--hfb-orange) 50%, transparent 0) 0 0 / 1.5px var(--hfb-dash) repeat-y,\n      linear-gradient(0deg, var(--hfb-orange) 50%, transparent 0) 100% 0 / 1.5px var(--hfb-dash) repeat-y;\n    transition: box-shadow 0.25s ease;\n  }\n  .hfb2 .hfb2__coupon:hover { box-shadow: inset 0 0 0 999px rgba(255, 115, 0, 0.08); }\n  .hfb2 .hfb2__coupon:focus-visible { outline: 2px solid var(--hfb-orange); outline-offset: 4px; }\n  .hfb2 .hfb2__coupon-label {\n    font-size: 12px;\n    font-weight: 500;\n    letter-spacing: 0.3em;\n    line-height: 1;\n    color: var(--hfb-muted);\n    text-transform: uppercase;\n  }\n  .hfb2 .hfb2__coupon-code {\n    font-size: 26px;\n    font-weight: 400;\n    letter-spacing: 0.14em;\n    line-height: 1;\n    user-select: all;\n  }\n  .hfb2 .hfb2__coupon.is-copied .hfb2__coupon-label { color: var(--hfb-orange); }\n\n  /* ---------- Movimento (só quando o usuário não pediu menos movimento) ---------- */\n  @media (prefers-reduced-motion: no-preference) {\n    /* Ambiente: ponto pulsando e tracejado circulando */\n    .hfb2 .hfb2__pulse::after { animation: hfb2-pulse 2.4s ease-out infinite; }\n    .hfb2 .hfb2__coupon { animation: hfb2-march 1.6s linear infinite; }\n\n    /* Entrada: elementos surgem em sequência quando o banner aparece */\n    .hfb2.hfb2--anim:not(.is-in) .hfb2__reveal { opacity: 0; transform: translateY(10px); }\n    .hfb2.hfb2--anim:not(.is-in) .hfb2__divider { transform: scaleY(0); }\n    .hfb2.hfb2--anim:not(.is-in) .hfb2__ticket { opacity: 0; transform: rotate(18deg) scale(1.35); }\n    .hfb2.hfb2--anim .hfb2__reveal { transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1); }\n    .hfb2.hfb2--anim .hfb2__divider { transition: transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s; }\n    .hfb2.hfb2--anim .hfb2__ticket { transition: opacity 0.35s ease 0.55s, transform 0.6s cubic-bezier(0.3, 1.6, 0.5, 1) 0.55s; }\n    .hfb2.hfb2--anim .hfb2__reveal--2 { transition-delay: 0.2s; }\n    .hfb2.hfb2--anim .hfb2__reveal--3 { transition-delay: 0.3s; }\n    .hfb2.hfb2--anim .hfb2__reveal--4 { transition-delay: 0.4s; }\n    .hfb2.hfb2--anim .hfb2__reveal--5 { transition-delay: 0.5s; }\n  }\n  @keyframes hfb2-pulse {\n    0% { transform: scale(1); opacity: 0.55; }\n    100% { transform: scale(3.2); opacity: 0; }\n  }\n  @keyframes hfb2-march {\n    from { background-position: 0 0, var(--hfb-dash) 100%, 0 var(--hfb-dash), 100% 0; }\n    to { background-position: var(--hfb-dash) 0, 0 100%, 0 0, 100% var(--hfb-dash); }\n  }\n\n  /* Tablet */\n  @media (max-width: 1024px) {\n    .hfb2 .hfb2__inner { gap: 28px; padding-top: 28px; padding-bottom: 28px; }\n    .hfb2 .hfb2__mark { font-size: 36px; }\n    .hfb2 .hfb2__date { font-size: 11px; letter-spacing: 0.24em; }\n    .hfb2 .hfb2__headline { font-size: 30px; }\n    .hfb2 .hfb2__sub { font-size: 13px; letter-spacing: 0.12em; }\n    .hfb2 .hfb2__coupon { min-height: 76px; padding: 0 24px; }\n    .hfb2 .hfb2__coupon-code { font-size: 21px; }\n  }\n\n  /* Celular */\n  @media (max-width: 760px) {\n    .hfb2 .hfb2__inner { flex-direction: column; align-items: flex-start; gap: 22px; padding: 32px max(20px, env(safe-area-inset-right, 0px)) 32px max(20px, env(safe-area-inset-left, 0px)); }\n    .hfb2 .hfb2__divider { display: none; }\n    .hfb2 .hfb2__mark { font-size: 40px; }\n    .hfb2 .hfb2__headline { font-size: 30px; }\n    .hfb2 .hfb2__sub { font-size: 13px; letter-spacing: 0.1em; }\n    .hfb2 .hfb2__coupon { width: 100%; align-items: center; min-height: 80px; }\n    .hfb2 .hfb2__coupon-code { font-size: 22px; }\n  }\n</style>\n\n<div class=\"hfb2\" role=\"region\" aria-label=\"Hyper Friday: 30% OFF nos cursos online, de 16 a 30 de novembro\">\n  <div class=\"hfb2__inner\">\n\n    <div class=\"hfb2__mark hfb2__reveal\" role=\"img\" aria-label=\"Hyper Friday\">\n      <span aria-hidden=\"true\">HYPER</span>\n      <svg class=\"hfb2__ticket\" viewbox=\"0 0 150 81\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M0 0H150V29.5A11 11 0 0 0 150 51.5V81H0V51.5A11 11 0 0 0 0 29.5Z\" fill=\"#FF7300\"></path></svg>\n      <span aria-hidden=\"true\">FRIDAY</span>\n    </div>\n\n    <div class=\"hfb2__divider\" aria-hidden=\"true\"></div>\n\n    <div class=\"hfb2__offer\">\n      <p class=\"hfb2__date hfb2__reveal hfb2__reveal--2\"><span class=\"hfb2__pulse\" aria-hidden=\"true\"></span>De 16 a 30 de novembro</p>\n      <p class=\"hfb2__headline hfb2__reveal hfb2__reveal--3\"><span class=\"hfb2__headline-light\">30% OFF</span> <span class=\"hfb2__nowrap\">nos cursos online</span></p>\n      <p class=\"hfb2__sub hfb2__reveal hfb2__reveal--4\">+ Curso Liderança Ágil de Bônus</p>\n    </div>\n\n    <button type=\"button\" class=\"hfb2__coupon hfb2__reveal hfb2__reveal--5\" data-hfb2-copy=\"HYPERFRIDAY\" aria-label=\"Copiar cupom HYPERFRIDAY\">\n      <span class=\"hfb2__coupon-label\" aria-live=\"polite\">Cupom</span>\n      <span class=\"hfb2__coupon-code\">HYPERFRIDAY</span>\n    </button>\n\n  </div>\n</div>\n\n<script>\n  (function () {\n    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n    var banners = document.querySelectorAll('.hfb2');\n    Array.prototype.forEach.call(banners, function (el) {\n      if (el.dataset.hfb2Ready) return;\n      el.dataset.hfb2Ready = '1';\n\n      /* Entrada: só anima quando o banner entra na tela */\n      if (!reduce && 'IntersectionObserver' in window) {\n        el.classList.add('hfb2--anim');\n        var io = new IntersectionObserver(function (entries) {\n          entries.forEach(function (e) {\n            if (e.isIntersecting) { el.classList.add('is-in'); io.disconnect(); }\n          });\n        }, { threshold: 0.35 });\n        io.observe(el);\n        setTimeout(function () { el.classList.add('is-in'); }, 4000);\n      }\n\n      /* Copiar cupom */\n      var btn = el.querySelector('[data-hfb2-copy]');\n      if (!btn) return;\n      var label = btn.querySelector('.hfb2__coupon-label');\n      var original = label ? label.textContent : '';\n      var timer;\n      function done() {\n        btn.classList.add('is-copied');\n        if (label) label.textContent = 'Copiado';\n        clearTimeout(timer);\n        timer = setTimeout(function () {\n          btn.classList.remove('is-copied');\n          if (label) label.textContent = original;\n        }, 2200);\n      }\n      function fallback(code) {\n        var ta = document.createElement('textarea');\n        ta.value = code;\n        ta.setAttribute('readonly', '');\n        ta.style.position = 'fixed';\n        ta.style.opacity = '0';\n        document.body.appendChild(ta);\n        ta.select();\n        try { document.execCommand('copy'); done(); } catch (e) {}\n        document.body.removeChild(ta);\n      }\n      btn.addEventListener('click', function () {\n        var code = btn.getAttribute('data-hfb2-copy');\n        if (navigator.clipboard && navigator.clipboard.writeText) {\n          navigator.clipboard.writeText(code).then(done, function () { fallback(code); });\n        } else {\n          fallback(code);\n        }\n      });\n    });\n  })();\n</script>",
+        "bg_color": "",
+        "container": "",
+        "text_align": "text-start",
+        "title": "",
+        "title_size": "h2",
+        "description": "",
+        "description_size": "fs-6",
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
     "html_rf7eWf": {
       "type": "html",
       "disabled": true,
@@ -56,76 +74,6 @@
         "pb": 0,
         "mt": 0,
         "mb": 0
-      }
-    },
-    "content_fpRTj4": {
-      "type": "content",
-      "blocks": {
-        "content_yTGD6q": {
-          "type": "content",
-          "settings": {
-            "title": "<strong>30%</strong> DE DESCONTO",
-            "text": "em todos os cursos online com o cupom <strong>HI30ANOS</strong>",
-            "header": "ANIVERSÁRIO DE 30 ANOS",
-            "svg": "",
-            "bg_color": "",
-            "bg_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "content_yTGD6q"
-      ],
-      "disabled": true,
-      "settings": {
-        "hidden": false,
-        "title": "",
-        "text": "",
-        "font_color": "text-light",
-        "title_size": "display-6",
-        "text_size": "fs-6",
-        "header": "",
-        "header_size": "fs-6",
-        "svg": "<div style=\"display:flex; justify-content:center; align-items:center; width:100%; margin-bottom:80px;\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 793.27 256.96\" style=\"width:100%; max-width:280px; height:auto; display:block; margin:0 auto;\">\n    <defs>\n      <style>\n        .cls-1, .cls-2 {\n          fill: #ff7300;\n        }\n        .cls-2 {\n          font-family: Montserrat-Light, Montserrat;\n          font-size: 258.92px;\n          font-weight: 300;\n        }\n        .cls-3 {\n          fill: #fff;\n        }\n      </style>\n    </defs>\n    <text class=\"cls-2\" transform=\"translate(.61 197.26)\"><tspan x=\"0\" y=\"0\">3</tspan></text>\n    <path class=\"cls-1\" d=\"M278.57,46.36h-15.4c-10.43-17.18-29.31-28.68-50.84-28.68-32.77,0-59.43,26.66-59.43,59.43,0,17.88,8.02,34.66,21.69,45.91v16.63c-1.05-.63-2.08-1.3-3.1-1.98-20.16-13.62-32.2-36.26-32.2-60.56,0-40.27,32.76-73.04,73.04-73.04,29.29,0,54.61,17.33,66.24,42.28\"></path>\n    <g id=\"Lager_1\" data-name=\"Lager 1\">\n      <path class=\"cls-3\" d=\"M214.84,86.02h40.79v25.84h25.52v-25.84h40.79v75h-40.79v-27.2h-25.52v27.2h-40.79v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M365.04,141.51l-38.81-55.49h46.76l12.92,22.59,12.92-22.59h46.34l-38.81,55.33v19.66h-41.32v-19.51Z\"></path>\n      <path class=\"cls-3\" d=\"M449.4,86.02h54.97c27.93,0,45.97,7.27,45.97,26.31s-17.26,27.72-45.81,27.72h-14.33v20.97h-40.79v-75ZM496.26,122.26c9.15,0,13.81-2.88,13.81-9.52s-4.71-9.2-13.6-9.2h-6.28v18.72h6.07Z\"></path>\n      <path class=\"cls-3\" d=\"M555.66,86.02h93.93v18.57h-53.14v8.63h43.72v19.25h-43.72v9.47h53.14v19.09h-93.93v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M655.17,86.02h66.26c25.78,0,37.97,7.37,37.97,21.13,0,12.19-9.21,17.99-20.92,20.08,13.6,1.67,22.12,5.91,22.12,19.61v14.17h-40.79v-13.86c0-8.79-5.18-11.19-16.47-11.19h-7.37v25.05h-40.79v-75ZM706.79,118.81c7.27,0,12.29-2.14,12.29-8.16s-4.92-7.48-12.29-7.48h-10.83v15.64h10.83Z\"></path>\n      <path class=\"cls-3\" d=\"M186.9,174.56h40.79v75h-40.79v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M232.35,227.27h44.4c.21,5.6,4.6,9,11.51,9,4.34,0,8.52-1.46,8.52-5.33,0-3.66-3.56-5.18-10.41-6.48l-18.46-3.45c-15.85-2.98-34.15-8-34.15-23.06,0-18.93,25-25.99,51.36-25.99,24.95,0,50.52,6.96,52.67,23.95h-42.68c-.63-6.07-5.02-8.05-10.09-8.05s-8.73,2.09-8.73,5.65c0,3.35,3.4,4.24,7.17,4.97l26.67,5.23c16.11,3.14,29.44,8.73,29.44,22.96,0,18.36-24.27,25.52-53.97,25.52s-52.4-8.68-53.24-24.9Z\"></path>\n      <path class=\"cls-3\" d=\"M344.44,174.56h40.79v52.25h45.92v22.75h-86.71v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M465.26,174.56h58.42l31.64,75h-44.09l-3.66-10.88h-27.09l-3.66,10.88h-43.04l31.48-75ZM501.24,218.49l-7.27-22.23-7.22,22.23h14.49Z\"></path>\n      <path class=\"cls-3\" d=\"M558.43,174.56h46.91l30.12,41.16v-41.16h36.4v75h-45.81l-31.17-42.78v42.78h-36.45v-75Z\"></path>\n      <path class=\"cls-3\" d=\"M678.2,174.56h54.97c35.51,0,55.39,11.72,55.39,36.98s-19.3,38.02-55.59,38.02h-54.76v-75ZM724.69,230.2c12.66,0,20.45-5.39,20.45-18.67s-7.48-17.73-19.35-17.73h-6.85v36.4h5.75Z\"></path>\n    </g>\n  </svg>\n</div>",
-        "bg_color": "#000000",
-        "bg_gradient": "",
-        "align_desktop": "text-lg-center",
-        "align_mobile": "text-center",
-        "content_width": "w-lg-50",
-        "c_font_color": "text-light",
-        "c_title_size": "display-1",
-        "c_text_size": "fs-4",
-        "c_header_size": "fs-6",
-        "c_bg_color": "",
-        "c_bg_gradient": "",
-        "layout": "col-md-12",
-        "content_align_desktop": "text-lg-center",
-        "content_align_mobile": "text-center",
-        "default_spacing": false,
-        "pt_xl": 0,
-        "pb_xl": 0,
-        "mt_xl": 16,
-        "mb_xl": 2,
-        "pt_lg": 0,
-        "pb_lg": 0,
-        "mt_lg": 16,
-        "mb_lg": 5,
-        "pt_sm": 0,
-        "pb_sm": 0,
-        "mt_sm": 13,
-        "mb_sm": 5,
-        "py_lg": 0,
-        "px_lg": 0,
-        "my_lg": 0,
-        "mx_lg": 0,
-        "py_xs": 0,
-        "px_xs": 0,
-        "my_xs": 0,
-        "mx_xs": 4,
-        "spb_lg": 13,
-        "smb_lg": 0,
-        "spb_xs": 13,
-        "smb_xs": 0
       }
     },
     "content_LwrmAR": {
@@ -1368,8 +1316,8 @@
   "order": [
     "course_header_4_qmA3LY",
     "course_header_3_dW63gC",
+    "html_ehKYUM",
     "html_rf7eWf",
-    "content_fpRTj4",
     "content_LwrmAR",
     "header_LQ89hG",
     "sp_video_standalone_WCA3zL",
